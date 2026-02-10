@@ -1,0 +1,433 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Layout: sidebar + main */
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #1e293b;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.university {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 32px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin-bottom: 4px;
+}
+
+.nav-links a {
+    display: block;
+    padding: 10px 12px;
+    color: #cbd5e1;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    background: #334155;
+    color: #fff;
+}
+
+.nav-links a.active {
+    background: #334155;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Sidebar bottom (user info) */
+.sidebar-bottom {
+    border-top: 1px solid #334155;
+    padding-top: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    background: #475569;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.user-details {
+    font-size: 13px;
+}
+
+.user-name {
+    font-weight: 500;
+}
+
+.logout-link, .login-link {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.logout-link:hover, .login-link:hover {
+    color: #fff;
+}
+
+/* Main content area */
+.main {
+    margin-left: 220px;
+    flex: 1;
+    padding: 0;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.page-header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.semester-info {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.content {
+    padding: 24px 32px;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 32px;
+}
+
+.section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Module cards */
+.module-cards {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.module-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-decoration: none;
+    color: #333;
+    transition: box-shadow 0.15s;
+}
+
+.module-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.module-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.module-card-header strong {
+    font-size: 14px;
+}
+
+.module-card-header span {
+    color: #64748b;
+    font-size: 12px;
+}
+
+.module-card-name {
+    font-size: 13px;
+    color: #475569;
+}
+
+.module-card-meta {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-top: 8px;
+}
+
+/* Deadline rows */
+.deadlines-list {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+.deadline-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 14px;
+}
+
+.deadline-row:last-child {
+    border-bottom: none;
+}
+
+.deadline-module {
+    font-weight: 600;
+    width: 100px;
+}
+
+.deadline-title {
+    flex: 1;
+}
+
+.deadline-date {
+    color: #64748b;
+    font-size: 13px;
+}
+
+/* Data tables */
+.data-table {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.data-table th,
+.data-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.data-table th {
+    font-weight: 600;
+    color: #475569;
+    font-size: 13px;
+}
+
+.data-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Module info */
+.module-info {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.module-description {
+    margin-top: 8px;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Week blocks (materials) */
+.week-block {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.week-block h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.material-row {
+    padding: 6px 0 6px 16px;
+    font-size: 14px;
+}
+
+.material-row a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.material-row a:hover {
+    text-decoration: underline;
+}
+
+.unavailable {
+    color: #94a3b8;
+}
+
+.no-materials {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+/* Stats row (grades overview) */
+.stats-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px 24px;
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+/* Grade status badges */
+.status-graded {
+    color: #16a34a;
+    font-weight: 500;
+}
+
+.status-submitted {
+    color: #2563eb;
+    font-weight: 500;
+}
+
+.status-not_submitted {
+    color: #dc2626;
+    font-weight: 500;
+}
+
+/* Auth forms */
+.auth-section {
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.btn {
+    background: #1e293b;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #334155;
+}
+
+.form-errors {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #dc2626;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.auth-link {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.auth-link a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}

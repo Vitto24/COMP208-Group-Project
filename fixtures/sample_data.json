@@ -1,0 +1,310 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "jb",
+            "first_name": "J",
+            "last_name": "B",
+            "email": "jb@liverpool.ac.uk",
+            "password": "pbkdf2_sha256$870000$PcsXaUb9lDxJIYIiJsh6xV$Dp30AQHkv3Aw4yLCU9d+GruJja79WJ5zTS/XMVnNNZo=",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "admin",
+            "first_name": "Admin",
+            "last_name": "User",
+            "email": "admin@liverpool.ac.uk",
+            "password": "pbkdf2_sha256$870000$PcsXaUb9lDxJIYIiJsh6xV$Dp30AQHkv3Aw4yLCU9d+GruJja79WJ5zTS/XMVnNNZo=",
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "role": "student",
+            "university": "University of Liverpool",
+            "course": "Computer Science",
+            "year_of_study": 2
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "role": "admin",
+            "university": "University of Liverpool",
+            "course": "",
+            "year_of_study": 1
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 1,
+        "fields": {
+            "code": "COMP202",
+            "name": "Complexity of Algorithms",
+            "description": "This module covers the design and analysis of algorithms, including asymptotic notation, recurrences, divide and conquer, dynamic programming, greedy algorithms, and graph algorithms. Students will learn to evaluate algorithm efficiency using Big-O notation, solve recurrence relations, and apply algorithmic paradigms to solve computational problems. The module also introduces NP-completeness and amortised analysis.",
+            "credits": "15.0",
+            "lecturer": "Dr J. Smith",
+            "semester": 2,
+            "academic_year": "2025/26",
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 2,
+        "fields": {
+            "code": "COMP208",
+            "name": "Group Software Project",
+            "description": "",
+            "credits": "15.0",
+            "lecturer": "Lorenzo Gheri",
+            "semester": 2,
+            "academic_year": "2025/26",
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 3,
+        "fields": {
+            "code": "COMP284",
+            "name": "Scripting Languages",
+            "description": "",
+            "credits": "7.5",
+            "lecturer": "",
+            "semester": 2,
+            "academic_year": "2025/26",
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 4,
+        "fields": {
+            "code": "COMP285",
+            "name": "Computer Aided Software Dev",
+            "description": "",
+            "credits": "7.5",
+            "lecturer": "",
+            "semester": 2,
+            "academic_year": "2025/26",
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 5,
+        "fields": {
+            "code": "ULMS254",
+            "name": "Becoming Entrepreneurial",
+            "description": "",
+            "credits": "15.0",
+            "lecturer": "",
+            "semester": 2,
+            "academic_year": "2025/26",
+            "students": [1]
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 1,
+        "fields": {
+            "module": 1,
+            "title": "Class Test",
+            "weight": "15.0",
+            "type": "coursework",
+            "due_date": "2026-02-20"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 2,
+        "fields": {
+            "module": 1,
+            "title": "Programming Assg.",
+            "weight": "15.0",
+            "type": "coursework",
+            "due_date": "2026-04-24"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 3,
+        "fields": {
+            "module": 1,
+            "title": "Final Exam",
+            "weight": "70.0",
+            "type": "exam",
+            "due_date": null
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 4,
+        "fields": {
+            "module": 2,
+            "title": "Req. Analysis",
+            "weight": "12.0",
+            "type": "coursework",
+            "due_date": "2026-02-16"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 5,
+        "fields": {
+            "module": 2,
+            "title": "Design Document",
+            "weight": "15.0",
+            "type": "coursework",
+            "due_date": "2026-03-14"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 6,
+        "fields": {
+            "module": 2,
+            "title": "Software Demo",
+            "weight": "15.0",
+            "type": "coursework",
+            "due_date": "2026-04-25"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 7,
+        "fields": {
+            "module": 2,
+            "title": "Portfolio",
+            "weight": "30.0",
+            "type": "coursework",
+            "due_date": "2026-05-02"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 8,
+        "fields": {
+            "module": 2,
+            "title": "Individual Sub.",
+            "weight": "20.0",
+            "type": "coursework",
+            "due_date": "2026-05-09"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 9,
+        "fields": {
+            "module": 2,
+            "title": "Team Activity",
+            "weight": "8.0",
+            "type": "coursework",
+            "due_date": "2026-05-09"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 1,
+        "fields": {
+            "module": 1,
+            "number": 1,
+            "title": "Introduction & Module Overview"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 2,
+        "fields": {
+            "module": 1,
+            "number": 2,
+            "title": "Asymptotic Notation"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 3,
+        "fields": {
+            "module": 1,
+            "number": 3,
+            "title": "Recurrences"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 4,
+        "fields": {
+            "module": 1,
+            "number": 4,
+            "title": "Divide and Conquer"
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 1,
+        "fields": {
+            "week": 3,
+            "title": "Lecture Slides",
+            "type": "slides",
+            "url": "https://canvas.liverpool.ac.uk/example/slides",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 2,
+        "fields": {
+            "week": 3,
+            "title": "Tutorial Sheet",
+            "type": "worksheet",
+            "url": "https://canvas.liverpool.ac.uk/example/worksheet",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 3,
+        "fields": {
+            "week": 3,
+            "title": "Lecture Recording",
+            "type": "recording",
+            "url": "",
+            "available": false
+        }
+    },
+    {
+        "model": "grades.grade",
+        "pk": 1,
+        "fields": {
+            "student": 1,
+            "assignment": 4,
+            "score": "75.0",
+            "status": "graded"
+        }
+    },
+    {
+        "model": "grades.grade",
+        "pk": 2,
+        "fields": {
+            "student": 1,
+            "assignment": 5,
+            "score": null,
+            "status": "not_submitted"
+        }
+    }
+]

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Login — Uni Tracker{% endblock %}
+{% block page_title %}Login{% endblock %}
+
+{% block content %}
+<section class="section auth-section">
+    <form method="post">
+        {% csrf_token %}
+
+        {% if form.errors %}
+        <div class="form-errors">
+            <p>Invalid username or password. Please try again.</p>
+        </div>
+        {% endif %}
+
+        <div class="form-group">
+            <label for="id_username">Username</label>
+            {{ form.username }}
+        </div>
+
+        <div class="form-group">
+            <label for="id_password">Password</label>
+            {{ form.password }}
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+    </form>
+
+    <p class="auth-link">Don't have an account? <a href="{% url 'accounts:register' %}">Register</a></p>
+</section>
+{% endblock %}

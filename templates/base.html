@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Uni Tracker{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-top">
+                <div class="logo">Uni Tracker</div>
+                <div class="university">University of Liverpool</div>
+
+                <ul class="nav-links">
+                    <li><a href="{% url 'dashboard:dashboard' %}" class="{% block nav_dashboard %}{% endblock %}">Dashboard</a></li>
+                    <li><a href="{% url 'modules:module_list' %}" class="{% block nav_modules %}{% endblock %}">Modules</a></li>
+                    <li><a href="#" class="{% block nav_timetable %}{% endblock %}">Timetable</a></li>
+                    <li><a href="{% url 'grades:grades' %}" class="{% block nav_grades %}{% endblock %}">Grades</a></li>
+                    <li><a href="#" class="{% block nav_notifications %}{% endblock %}">Notifications</a></li>
+                    <li><a href="#" class="{% block nav_settings %}{% endblock %}">Settings</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-bottom">
+                {% if user.is_authenticated %}
+                    <div class="user-info">
+                        <div class="user-avatar">{{ user.first_name|first }}{{ user.last_name|first }}</div>
+                        <div class="user-details">
+                            <div class="user-name">{{ user.get_full_name|default:user.username }}</div>
+                            <a href="{% url 'accounts:logout' %}" class="logout-link">Logout</a>
+                        </div>
+                    </div>
+                {% else %}
+                    <a href="{% url 'accounts:login' %}" class="login-link">Login</a>
+                {% endif %}
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <main class="main">
+            <header class="page-header">
+                <h1>{% block page_title %}Page{% endblock %}</h1>
+                <span class="semester-info">Week 3 · Semester 2 (25/26)</span>
+            </header>
+
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+    </div>
+</body>
+</html>

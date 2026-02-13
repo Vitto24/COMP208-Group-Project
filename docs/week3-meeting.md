@@ -43,23 +43,23 @@ Show the team how a view + template works by making the module list page display
 
 ```python
 from django.shortcuts import render
-from .models import Module
+from .models import Module  # import the Module model so we can query the database
 
 def module_list(request):
-    modules = Module.objects.all()
+    modules = Module.objects.all()  # get every module from the database
     return render(request, 'modules/module_list.html', {
-        'modules': modules,
+        'modules': modules,  # pass the modules to the template as a variable called 'modules'
     })
 ```
 
 **Step 2 — Open `templates/modules/module_list.html` and replace the content block:**
 
 ```html
-{% block content %}
-{% for module in modules %}
-    <h3>{{ module.code }}: {{ module.name }}</h3>
-    <p>{{ module.credits }} credits · {{ module.lecturer }}</p>
-{% endfor %}
+{% block content %}                          {# start of the page content area #}
+{% for module in modules %}                  {# loop over each module passed from the view #}
+    <h3>{{ module.code }}: {{ module.name }}</h3>   {# display the module code and name #}
+    <p>{{ module.credits }} credits · {{ module.lecturer }}</p>  {# display credits and lecturer #}
+{% endfor %}                                 {# end of the loop #}
 {% endblock %}
 ```
 

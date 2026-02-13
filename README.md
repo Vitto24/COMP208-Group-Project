@@ -8,6 +8,14 @@ COMP208 • Team 1 • 2026
 
 ## Quick Setup
 
+**1. Clone the repo:**
+```bash
+git clone https://github.com/Vitto24/COMP208-Group-Project.git
+cd COMP208-Group-Project
+```
+
+**2. Set up and run:**
+
 **Mac / Linux:**
 ```bash
 python3 -m venv env

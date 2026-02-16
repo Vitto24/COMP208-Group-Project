@@ -60,6 +60,8 @@
             "lecturer": "Dr J. Smith",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -74,6 +76,8 @@
             "lecturer": "Lorenzo Gheri",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -88,6 +92,8 @@
             "lecturer": "",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -102,6 +108,8 @@
             "lecturer": "",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -116,6 +124,24 @@
             "lecturer": "",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Management School",
+            "year": 2,
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 6,
+        "fields": {
+            "code": "COMP201",
+            "name": "Software Engineering I",
+            "description": "This module provides a comprehensive introduction to the systematic processes and professional standards essential for building reliable, large-scale software applications. It emphasises the practical application of Agile development, requirements analysis, and system modelling, ensuring students understand how to manage a project from initial concept through to rigorous testing.",
+            "credits": "15.0",
+            "lecturer": "Sebastian Coope",
+            "semester": 1,
+            "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -305,6 +331,503 @@
             "assignment": 5,
             "score": null,
             "status": "not_submitted"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 10,
+        "fields": {
+            "module": 6,
+            "title": "CA1 Requirements Analysis",
+            "weight": "20.0",
+            "type": "coursework",
+            "due_date": "2025-11-06"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 11,
+        "fields": {
+            "module": 6,
+            "title": "CA2 Object Oriented Design",
+            "weight": "20.0",
+            "type": "coursework",
+            "due_date": "2025-12-04"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 12,
+        "fields": {
+            "module": 6,
+            "title": "MCQ Exam",
+            "weight": "60.0",
+            "type": "exam",
+            "due_date": "2026-01-12"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 5,
+        "fields": {
+            "module": 6,
+            "number": 1,
+            "title": "Introduction & Software Processes"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 6,
+        "fields": {
+            "module": 6,
+            "number": 2,
+            "title": "Software Requirements & Use Cases"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 7,
+        "fields": {
+            "module": 6,
+            "number": 3,
+            "title": "Requirements Engineering & System Modelling"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 8,
+        "fields": {
+            "module": 6,
+            "number": 4,
+            "title": "System Modelling & Petri Nets"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 9,
+        "fields": {
+            "module": 6,
+            "number": 5,
+            "title": "Design Methodology & Distributed Systems"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 10,
+        "fields": {
+            "module": 6,
+            "number": 6,
+            "title": "Distributed Systems & OO Design"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 11,
+        "fields": {
+            "module": 6,
+            "number": 7,
+            "title": "OO Design & Class Models"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 12,
+        "fields": {
+            "module": 6,
+            "number": 8,
+            "title": "Interaction Diagrams & Testing"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 13,
+        "fields": {
+            "module": 6,
+            "number": 9,
+            "title": "Testing, Project Management & Cost Estimation"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 14,
+        "fields": {
+            "module": 6,
+            "number": 10,
+            "title": "Revision & Review"
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 4,
+        "fields": {
+            "week": 5,
+            "title": "Lecture 1 — What is Software Engineering",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 5,
+        "fields": {
+            "week": 5,
+            "title": "Lecture 2 — Process",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 6,
+        "fields": {
+            "week": 5,
+            "title": "Lecture 3 — Software Processes",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 7,
+        "fields": {
+            "week": 5,
+            "title": "Lab Week 1",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 8,
+        "fields": {
+            "week": 6,
+            "title": "Lecture 4 — Software Requirements",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 9,
+        "fields": {
+            "week": 6,
+            "title": "Lecture 5 — Use Case Analysis",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 10,
+        "fields": {
+            "week": 6,
+            "title": "Lab Week 2",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 11,
+        "fields": {
+            "week": 7,
+            "title": "Lecture 6 — Requirements Case Study",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 12,
+        "fields": {
+            "week": 7,
+            "title": "Lectures 7 & 8 — Requirements Engineering Process",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 13,
+        "fields": {
+            "week": 7,
+            "title": "Lecture 9 — System Modelling Introduction",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 14,
+        "fields": {
+            "week": 7,
+            "title": "Lab Week 3",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 15,
+        "fields": {
+            "week": 8,
+            "title": "Lecture 10 — System Modelling",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 16,
+        "fields": {
+            "week": 8,
+            "title": "Lectures 11 & 12 — Petri Nets",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 17,
+        "fields": {
+            "week": 8,
+            "title": "Lab Week 4",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 18,
+        "fields": {
+            "week": 9,
+            "title": "Lecture 13 — Design Methodology",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 19,
+        "fields": {
+            "week": 9,
+            "title": "Lecture 14 — Design Methodology",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 20,
+        "fields": {
+            "week": 9,
+            "title": "Lecture 15 — Distributed Systems Architecture",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 21,
+        "fields": {
+            "week": 9,
+            "title": "Lab Week 5",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 22,
+        "fields": {
+            "week": 10,
+            "title": "Lecture 16 — Distributed Systems Architecture",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 23,
+        "fields": {
+            "week": 10,
+            "title": "Lecture 17 — OO Design Concepts",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 24,
+        "fields": {
+            "week": 10,
+            "title": "Lecture 18 — Hotel Booking Case Study",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 25,
+        "fields": {
+            "week": 11,
+            "title": "Lecture 19 — OO Design Case Study",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 26,
+        "fields": {
+            "week": 11,
+            "title": "Lecture 20 — Class Models",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 27,
+        "fields": {
+            "week": 11,
+            "title": "Lecture 21 — Class Models Continued",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 28,
+        "fields": {
+            "week": 12,
+            "title": "Lecture 22 — Interaction Diagrams",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 29,
+        "fields": {
+            "week": 12,
+            "title": "Lecture 23 — Verification & Validation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 30,
+        "fields": {
+            "week": 12,
+            "title": "Lecture 24 — Software Testing",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 31,
+        "fields": {
+            "week": 13,
+            "title": "Lecture 25 — Software Testing",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 32,
+        "fields": {
+            "week": 13,
+            "title": "Lecture 26 — Project Management",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 33,
+        "fields": {
+            "week": 13,
+            "title": "Lecture 27 — Software Cost Estimation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 34,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 1",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 35,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 1 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 36,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 2",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 37,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 2 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
         }
     }
 ]

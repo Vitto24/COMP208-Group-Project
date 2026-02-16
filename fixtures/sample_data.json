@@ -146,6 +146,22 @@
         }
     },
     {
+        "model": "modules.module",
+        "pk": 7,
+        "fields": {
+            "code": "COMP207",
+            "name": "Database Development",
+            "description": "This module explores the fundamental principles and practical techniques required to design, implement, and manage robust relational database systems. Students master the use of SQL for data manipulation and retrieval while learning to create efficient data structures through Entity-Relationship modeling and normalization.",
+            "credits": "15.0",
+            "lecturer": "Rasmus Ibsen-Jensen",
+            "semester": 1,
+            "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
+            "students": [1]
+        }
+    },
+    {
         "model": "grades.assignment",
         "pk": 1,
         "fields": {
@@ -824,6 +840,613 @@
         "pk": 37,
         "fields": {
             "week": 14,
+            "title": "Past Paper 2 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 13,
+        "fields": {
+            "module": 7,
+            "title": "CA1 Practical SQL Assessment",
+            "weight": "25.0",
+            "type": "coursework",
+            "due_date": "2025-11-13"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 14,
+        "fields": {
+            "module": 7,
+            "title": "Weekly Assessments",
+            "weight": "15.0",
+            "type": "coursework",
+            "due_date": null
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 15,
+        "fields": {
+            "module": 7,
+            "title": "MCQ Exam",
+            "weight": "60.0",
+            "type": "exam",
+            "due_date": "2026-01-14"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 15,
+        "fields": {
+            "module": 7,
+            "number": 1,
+            "title": "Introduction to Databases & SQL Basics"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 16,
+        "fields": {
+            "module": 7,
+            "number": 2,
+            "title": "SQL Queries & Joins"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 17,
+        "fields": {
+            "module": 7,
+            "number": 3,
+            "title": "Advanced SQL Queries"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 18,
+        "fields": {
+            "module": 7,
+            "number": 4,
+            "title": "Transactions & Concurrency Control"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 19,
+        "fields": {
+            "module": 7,
+            "number": 5,
+            "title": "Locks & Recovery"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 20,
+        "fields": {
+            "module": 7,
+            "number": 6,
+            "title": "Checkpoints & Query Processing"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 21,
+        "fields": {
+            "module": 7,
+            "number": 7,
+            "title": "Query Optimisation & DDBMS"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 22,
+        "fields": {
+            "module": 7,
+            "number": 8,
+            "title": "Semi-Structured Data & XML"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 23,
+        "fields": {
+            "module": 7,
+            "number": 9,
+            "title": "XQuery & Data Analysis"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 24,
+        "fields": {
+            "module": 7,
+            "number": 10,
+            "title": "Revision & Review"
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 38,
+        "fields": {
+            "week": 15,
+            "title": "Lecture 1 — Introduction to Databases",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 39,
+        "fields": {
+            "week": 15,
+            "title": "Lecture 2 — SQL Basics",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 40,
+        "fields": {
+            "week": 15,
+            "title": "Tutorial 1",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 41,
+        "fields": {
+            "week": 15,
+            "title": "Week 1 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 42,
+        "fields": {
+            "week": 16,
+            "title": "Lecture 3 — SQL Queries",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 43,
+        "fields": {
+            "week": 16,
+            "title": "Lecture 4 — SQL Joins",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 44,
+        "fields": {
+            "week": 16,
+            "title": "Tutorial 2",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 45,
+        "fields": {
+            "week": 16,
+            "title": "Week 2 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 46,
+        "fields": {
+            "week": 17,
+            "title": "Lecture 5 — Subqueries & Aggregation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 47,
+        "fields": {
+            "week": 17,
+            "title": "Lecture 6 — Advanced SQL",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 48,
+        "fields": {
+            "week": 17,
+            "title": "Tutorial 3",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 49,
+        "fields": {
+            "week": 17,
+            "title": "Week 3 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 50,
+        "fields": {
+            "week": 18,
+            "title": "Lecture 7 — Transactions",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 51,
+        "fields": {
+            "week": 18,
+            "title": "Lecture 8 — Concurrency Control",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 52,
+        "fields": {
+            "week": 18,
+            "title": "Tutorial 4",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 53,
+        "fields": {
+            "week": 18,
+            "title": "Week 4 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 54,
+        "fields": {
+            "week": 19,
+            "title": "Lecture 9 — Locks",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 55,
+        "fields": {
+            "week": 19,
+            "title": "Lecture 10 — Recovery",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 56,
+        "fields": {
+            "week": 19,
+            "title": "Tutorial 5",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 57,
+        "fields": {
+            "week": 19,
+            "title": "Week 5 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 58,
+        "fields": {
+            "week": 20,
+            "title": "Lecture 11 — Checkpoints",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 59,
+        "fields": {
+            "week": 20,
+            "title": "Lecture 12 — Query Processing",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 60,
+        "fields": {
+            "week": 20,
+            "title": "Tutorial 6",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 61,
+        "fields": {
+            "week": 20,
+            "title": "Week 6 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 62,
+        "fields": {
+            "week": 21,
+            "title": "Lecture 13 — Query Optimisation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 63,
+        "fields": {
+            "week": 21,
+            "title": "Lecture 14 — Distributed Databases",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 64,
+        "fields": {
+            "week": 21,
+            "title": "Tutorial 7",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 65,
+        "fields": {
+            "week": 21,
+            "title": "Week 7 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 66,
+        "fields": {
+            "week": 22,
+            "title": "Lecture 15 — Semi-Structured Data",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 67,
+        "fields": {
+            "week": 22,
+            "title": "Lecture 16 — XML",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 68,
+        "fields": {
+            "week": 22,
+            "title": "Tutorial 8",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 69,
+        "fields": {
+            "week": 22,
+            "title": "Week 8 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 70,
+        "fields": {
+            "week": 23,
+            "title": "Lecture 17 — XQuery",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 71,
+        "fields": {
+            "week": 23,
+            "title": "Lecture 18 — Data Analysis",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 72,
+        "fields": {
+            "week": 23,
+            "title": "Tutorial 9",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 73,
+        "fields": {
+            "week": 23,
+            "title": "Week 9 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 74,
+        "fields": {
+            "week": 24,
+            "title": "Lecture 19 — Advanced Data Analysis",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 75,
+        "fields": {
+            "week": 24,
+            "title": "Lecture 20 — Revision",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 76,
+        "fields": {
+            "week": 24,
+            "title": "Tutorial 10",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 77,
+        "fields": {
+            "week": 24,
+            "title": "Week 10 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 78,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 1",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 79,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 1 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 80,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 2",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 81,
+        "fields": {
+            "week": 24,
             "title": "Past Paper 2 — Answers",
             "type": "other",
             "url": "",

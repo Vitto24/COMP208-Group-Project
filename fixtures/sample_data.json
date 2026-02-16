@@ -3,11 +3,11 @@
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "username": "jb",
-            "first_name": "J",
-            "last_name": "B",
-            "email": "jb@liverpool.ac.uk",
-            "password": "pbkdf2_sha256$870000$PcsXaUb9lDxJIYIiJsh6xV$Dp30AQHkv3Aw4yLCU9d+GruJja79WJ5zTS/XMVnNNZo=",
+            "username": "student",
+            "first_name": "Test",
+            "last_name": "Student",
+            "email": "student@liverpool.ac.uk",
+            "password": "pbkdf2_sha256$870000$70i95r7r6OyTQLoqEg3EiC$Kd/bb3F41c0PeJ0DTUd9WCBWJZarv+13wZlSzfnnQZ0=",
             "is_active": true,
             "is_staff": false,
             "is_superuser": false
@@ -21,7 +21,7 @@
             "first_name": "Admin",
             "last_name": "User",
             "email": "admin@liverpool.ac.uk",
-            "password": "pbkdf2_sha256$870000$PcsXaUb9lDxJIYIiJsh6xV$Dp30AQHkv3Aw4yLCU9d+GruJja79WJ5zTS/XMVnNNZo=",
+            "password": "pbkdf2_sha256$870000$70i95r7r6OyTQLoqEg3EiC$Kd/bb3F41c0PeJ0DTUd9WCBWJZarv+13wZlSzfnnQZ0=",
             "is_active": true,
             "is_staff": true,
             "is_superuser": true

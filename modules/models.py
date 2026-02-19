@@ -10,6 +10,8 @@ class Module(models.Model):
     lecturer = models.CharField(max_length=200, blank=True)
     semester = models.IntegerField(default=1)
     academic_year = models.CharField(max_length=10, default='2025/26')
+    department = models.CharField(max_length=200, blank=True)
+    year = models.IntegerField(default=2)
     students = models.ManyToManyField(User, related_name='enrolled_modules', blank=True)
 
     def __str__(self):

@@ -3,11 +3,11 @@
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "username": "jb",
-            "first_name": "J",
-            "last_name": "B",
-            "email": "jb@liverpool.ac.uk",
-            "password": "pbkdf2_sha256$870000$PcsXaUb9lDxJIYIiJsh6xV$Dp30AQHkv3Aw4yLCU9d+GruJja79WJ5zTS/XMVnNNZo=",
+            "username": "student",
+            "first_name": "Test",
+            "last_name": "Student",
+            "email": "student@liverpool.ac.uk",
+            "password": "pbkdf2_sha256$870000$70i95r7r6OyTQLoqEg3EiC$Kd/bb3F41c0PeJ0DTUd9WCBWJZarv+13wZlSzfnnQZ0=",
             "is_active": true,
             "is_staff": false,
             "is_superuser": false
@@ -21,7 +21,7 @@
             "first_name": "Admin",
             "last_name": "User",
             "email": "admin@liverpool.ac.uk",
-            "password": "pbkdf2_sha256$870000$PcsXaUb9lDxJIYIiJsh6xV$Dp30AQHkv3Aw4yLCU9d+GruJja79WJ5zTS/XMVnNNZo=",
+            "password": "pbkdf2_sha256$870000$70i95r7r6OyTQLoqEg3EiC$Kd/bb3F41c0PeJ0DTUd9WCBWJZarv+13wZlSzfnnQZ0=",
             "is_active": true,
             "is_staff": true,
             "is_superuser": true
@@ -55,11 +55,13 @@
         "fields": {
             "code": "COMP202",
             "name": "Complexity of Algorithms",
-            "description": "This module covers the design and analysis of algorithms, including asymptotic notation, recurrences, divide and conquer, dynamic programming, greedy algorithms, and graph algorithms. Students will learn to evaluate algorithm efficiency using Big-O notation, solve recurrence relations, and apply algorithmic paradigms to solve computational problems. The module also introduces NP-completeness and amortised analysis.",
+            "description": "This module covers the complexity of algorithms, including classical algorithmic problems (searching, sorting, graph algorithms), basic data structures (heaps, graphs), number theory applications, and formal theories of computational intractability such as NP-completeness.",
             "credits": "15.0",
-            "lecturer": "Dr J. Smith",
+            "lecturer": "Nikhil Mande",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -68,12 +70,14 @@
         "pk": 2,
         "fields": {
             "code": "COMP208",
-            "name": "Group Software Project",
-            "description": "",
+            "name": "Group Software Development Project",
+            "description": "This module serves as your transition from solo coding to professional-grade collaboration, tasking you with building a substantial software application as part of a structured development team. You will navigate the entire project lifecycle—from initial requirements gathering and architectural design to the delivery of a functional database-driven system—while mastering essential industry skills like project management and quality assurance.",
             "credits": "15.0",
             "lecturer": "Lorenzo Gheri",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -88,6 +92,8 @@
             "lecturer": "",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -102,6 +108,8 @@
             "lecturer": "",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -116,6 +124,40 @@
             "lecturer": "",
             "semester": 2,
             "academic_year": "2025/26",
+            "department": "Management School",
+            "year": 2,
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 6,
+        "fields": {
+            "code": "COMP201",
+            "name": "Software Engineering I",
+            "description": "This module provides a comprehensive introduction to the systematic processes and professional standards essential for building reliable, large-scale software applications. It emphasises the practical application of Agile development, requirements analysis, and system modelling, ensuring students understand how to manage a project from initial concept through to rigorous testing.",
+            "credits": "15.0",
+            "lecturer": "Sebastian Coope",
+            "semester": 1,
+            "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 7,
+        "fields": {
+            "code": "COMP207",
+            "name": "Database Development",
+            "description": "This module explores the fundamental principles and practical techniques required to design, implement, and manage robust relational database systems. Students master the use of SQL for data manipulation and retrieval while learning to create efficient data structures through Entity-Relationship modeling and normalization.",
+            "credits": "15.0",
+            "lecturer": "Rasmus Ibsen-Jensen",
+            "semester": 1,
+            "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
             "students": [1]
         }
     },
@@ -127,7 +169,7 @@
             "title": "Class Test",
             "weight": "15.0",
             "type": "coursework",
-            "due_date": "2026-02-20"
+            "due_date": "2026-03-10"
         }
     },
     {
@@ -157,7 +199,7 @@
         "pk": 4,
         "fields": {
             "module": 2,
-            "title": "Req. Analysis",
+            "title": "Requirements Analysis",
             "weight": "12.0",
             "type": "coursework",
             "due_date": "2026-02-16"
@@ -168,10 +210,10 @@
         "pk": 5,
         "fields": {
             "module": 2,
-            "title": "Design Document",
+            "title": "Design",
             "weight": "15.0",
             "type": "coursework",
-            "due_date": "2026-03-14"
+            "due_date": "2026-05-11"
         }
     },
     {
@@ -182,7 +224,7 @@
             "title": "Software Demo",
             "weight": "15.0",
             "type": "coursework",
-            "due_date": "2026-04-25"
+            "due_date": "2026-04-20"
         }
     },
     {
@@ -190,10 +232,10 @@
         "pk": 7,
         "fields": {
             "module": 2,
-            "title": "Portfolio",
+            "title": "Portfolio (Team)",
             "weight": "30.0",
             "type": "coursework",
-            "due_date": "2026-05-02"
+            "due_date": "2026-05-11"
         }
     },
     {
@@ -201,10 +243,10 @@
         "pk": 8,
         "fields": {
             "module": 2,
-            "title": "Individual Sub.",
+            "title": "Individual Submission",
             "weight": "20.0",
             "type": "coursework",
-            "due_date": "2026-05-09"
+            "due_date": "2026-05-11"
         }
     },
     {
@@ -212,10 +254,10 @@
         "pk": 9,
         "fields": {
             "module": 2,
-            "title": "Team Activity",
+            "title": "Team Activity Record",
             "weight": "8.0",
             "type": "coursework",
-            "due_date": "2026-05-09"
+            "due_date": "2026-05-11"
         }
     },
     {
@@ -224,7 +266,7 @@
         "fields": {
             "module": 1,
             "number": 1,
-            "title": "Introduction & Module Overview"
+            "title": "Introduction and O(n)"
         }
     },
     {
@@ -233,7 +275,7 @@
         "fields": {
             "module": 1,
             "number": 2,
-            "title": "Asymptotic Notation"
+            "title": "Recurrence"
         }
     },
     {
@@ -242,7 +284,7 @@
         "fields": {
             "module": 1,
             "number": 3,
-            "title": "Recurrences"
+            "title": "Randomised Algorithms"
         }
     },
     {
@@ -251,17 +293,17 @@
         "fields": {
             "module": 1,
             "number": 4,
-            "title": "Divide and Conquer"
+            "title": "Sorting"
         }
     },
     {
         "model": "modules.material",
         "pk": 1,
         "fields": {
-            "week": 3,
+            "week": 1,
             "title": "Lecture Slides",
             "type": "slides",
-            "url": "https://canvas.liverpool.ac.uk/example/slides",
+            "url": "",
             "available": true
         }
     },
@@ -269,10 +311,10 @@
         "model": "modules.material",
         "pk": 2,
         "fields": {
-            "week": 3,
-            "title": "Tutorial Sheet",
+            "week": 1,
+            "title": "Exercise 1",
             "type": "worksheet",
-            "url": "https://canvas.liverpool.ac.uk/example/worksheet",
+            "url": "",
             "available": true
         }
     },
@@ -280,11 +322,11 @@
         "model": "modules.material",
         "pk": 3,
         "fields": {
-            "week": 3,
-            "title": "Lecture Recording",
-            "type": "recording",
+            "week": 1,
+            "title": "Exercise 1 Solutions",
+            "type": "worksheet",
             "url": "",
-            "available": false
+            "available": true
         }
     },
     {
@@ -305,6 +347,1335 @@
             "assignment": 5,
             "score": null,
             "status": "not_submitted"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 10,
+        "fields": {
+            "module": 6,
+            "title": "CA1 Requirements Analysis",
+            "weight": "20.0",
+            "type": "coursework",
+            "due_date": "2025-11-06"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 11,
+        "fields": {
+            "module": 6,
+            "title": "CA2 Object Oriented Design",
+            "weight": "20.0",
+            "type": "coursework",
+            "due_date": "2025-12-04"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 12,
+        "fields": {
+            "module": 6,
+            "title": "MCQ Exam",
+            "weight": "60.0",
+            "type": "exam",
+            "due_date": "2026-01-12"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 5,
+        "fields": {
+            "module": 6,
+            "number": 1,
+            "title": "Introduction & Software Processes"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 6,
+        "fields": {
+            "module": 6,
+            "number": 2,
+            "title": "Software Requirements & Use Cases"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 7,
+        "fields": {
+            "module": 6,
+            "number": 3,
+            "title": "Requirements Engineering & System Modelling"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 8,
+        "fields": {
+            "module": 6,
+            "number": 4,
+            "title": "System Modelling & Petri Nets"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 9,
+        "fields": {
+            "module": 6,
+            "number": 5,
+            "title": "Design Methodology & Distributed Systems"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 10,
+        "fields": {
+            "module": 6,
+            "number": 6,
+            "title": "Distributed Systems & OO Design"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 11,
+        "fields": {
+            "module": 6,
+            "number": 7,
+            "title": "OO Design & Class Models"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 12,
+        "fields": {
+            "module": 6,
+            "number": 8,
+            "title": "Interaction Diagrams & Testing"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 13,
+        "fields": {
+            "module": 6,
+            "number": 9,
+            "title": "Testing, Project Management & Cost Estimation"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 14,
+        "fields": {
+            "module": 6,
+            "number": 10,
+            "title": "Revision & Review"
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 4,
+        "fields": {
+            "week": 5,
+            "title": "Lecture 1 — What is Software Engineering",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 5,
+        "fields": {
+            "week": 5,
+            "title": "Lecture 2 — Process",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 6,
+        "fields": {
+            "week": 5,
+            "title": "Lecture 3 — Software Processes",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 7,
+        "fields": {
+            "week": 5,
+            "title": "Lab Week 1",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 8,
+        "fields": {
+            "week": 6,
+            "title": "Lecture 4 — Software Requirements",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 9,
+        "fields": {
+            "week": 6,
+            "title": "Lecture 5 — Use Case Analysis",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 10,
+        "fields": {
+            "week": 6,
+            "title": "Lab Week 2",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 11,
+        "fields": {
+            "week": 7,
+            "title": "Lecture 6 — Requirements Case Study",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 12,
+        "fields": {
+            "week": 7,
+            "title": "Lectures 7 & 8 — Requirements Engineering Process",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 13,
+        "fields": {
+            "week": 7,
+            "title": "Lecture 9 — System Modelling Introduction",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 14,
+        "fields": {
+            "week": 7,
+            "title": "Lab Week 3",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 15,
+        "fields": {
+            "week": 8,
+            "title": "Lecture 10 — System Modelling",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 16,
+        "fields": {
+            "week": 8,
+            "title": "Lectures 11 & 12 — Petri Nets",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 17,
+        "fields": {
+            "week": 8,
+            "title": "Lab Week 4",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 18,
+        "fields": {
+            "week": 9,
+            "title": "Lecture 13 — Design Methodology",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 19,
+        "fields": {
+            "week": 9,
+            "title": "Lecture 14 — Design Methodology",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 20,
+        "fields": {
+            "week": 9,
+            "title": "Lecture 15 — Distributed Systems Architecture",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 21,
+        "fields": {
+            "week": 9,
+            "title": "Lab Week 5",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 22,
+        "fields": {
+            "week": 10,
+            "title": "Lecture 16 — Distributed Systems Architecture",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 23,
+        "fields": {
+            "week": 10,
+            "title": "Lecture 17 — OO Design Concepts",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 24,
+        "fields": {
+            "week": 10,
+            "title": "Lecture 18 — Hotel Booking Case Study",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 25,
+        "fields": {
+            "week": 11,
+            "title": "Lecture 19 — OO Design Case Study",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 26,
+        "fields": {
+            "week": 11,
+            "title": "Lecture 20 — Class Models",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 27,
+        "fields": {
+            "week": 11,
+            "title": "Lecture 21 — Class Models Continued",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 28,
+        "fields": {
+            "week": 12,
+            "title": "Lecture 22 — Interaction Diagrams",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 29,
+        "fields": {
+            "week": 12,
+            "title": "Lecture 23 — Verification & Validation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 30,
+        "fields": {
+            "week": 12,
+            "title": "Lecture 24 — Software Testing",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 31,
+        "fields": {
+            "week": 13,
+            "title": "Lecture 25 — Software Testing",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 32,
+        "fields": {
+            "week": 13,
+            "title": "Lecture 26 — Project Management",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 33,
+        "fields": {
+            "week": 13,
+            "title": "Lecture 27 — Software Cost Estimation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 34,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 1",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 35,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 1 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 36,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 2",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 37,
+        "fields": {
+            "week": 14,
+            "title": "Past Paper 2 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 13,
+        "fields": {
+            "module": 7,
+            "title": "CA1 Practical SQL Assessment",
+            "weight": "25.0",
+            "type": "coursework",
+            "due_date": "2025-11-13"
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 14,
+        "fields": {
+            "module": 7,
+            "title": "Weekly Assessments",
+            "weight": "15.0",
+            "type": "coursework",
+            "due_date": null
+        }
+    },
+    {
+        "model": "grades.assignment",
+        "pk": 15,
+        "fields": {
+            "module": 7,
+            "title": "MCQ Exam",
+            "weight": "60.0",
+            "type": "exam",
+            "due_date": "2026-01-14"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 15,
+        "fields": {
+            "module": 7,
+            "number": 1,
+            "title": "Introduction to Databases & SQL Basics"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 16,
+        "fields": {
+            "module": 7,
+            "number": 2,
+            "title": "SQL Queries & Joins"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 17,
+        "fields": {
+            "module": 7,
+            "number": 3,
+            "title": "Advanced SQL Queries"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 18,
+        "fields": {
+            "module": 7,
+            "number": 4,
+            "title": "Transactions & Concurrency Control"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 19,
+        "fields": {
+            "module": 7,
+            "number": 5,
+            "title": "Locks & Recovery"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 20,
+        "fields": {
+            "module": 7,
+            "number": 6,
+            "title": "Checkpoints & Query Processing"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 21,
+        "fields": {
+            "module": 7,
+            "number": 7,
+            "title": "Query Optimisation & DDBMS"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 22,
+        "fields": {
+            "module": 7,
+            "number": 8,
+            "title": "Semi-Structured Data & XML"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 23,
+        "fields": {
+            "module": 7,
+            "number": 9,
+            "title": "XQuery & Data Analysis"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 24,
+        "fields": {
+            "module": 7,
+            "number": 10,
+            "title": "Revision & Review"
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 38,
+        "fields": {
+            "week": 15,
+            "title": "Lecture 1 — Introduction to Databases",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 39,
+        "fields": {
+            "week": 15,
+            "title": "Lecture 2 — SQL Basics",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 40,
+        "fields": {
+            "week": 15,
+            "title": "Tutorial 1",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 41,
+        "fields": {
+            "week": 15,
+            "title": "Week 1 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 42,
+        "fields": {
+            "week": 16,
+            "title": "Lecture 3 — SQL Queries",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 43,
+        "fields": {
+            "week": 16,
+            "title": "Lecture 4 — SQL Joins",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 44,
+        "fields": {
+            "week": 16,
+            "title": "Tutorial 2",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 45,
+        "fields": {
+            "week": 16,
+            "title": "Week 2 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 46,
+        "fields": {
+            "week": 17,
+            "title": "Lecture 5 — Subqueries & Aggregation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 47,
+        "fields": {
+            "week": 17,
+            "title": "Lecture 6 — Advanced SQL",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 48,
+        "fields": {
+            "week": 17,
+            "title": "Tutorial 3",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 49,
+        "fields": {
+            "week": 17,
+            "title": "Week 3 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 50,
+        "fields": {
+            "week": 18,
+            "title": "Lecture 7 — Transactions",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 51,
+        "fields": {
+            "week": 18,
+            "title": "Lecture 8 — Concurrency Control",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 52,
+        "fields": {
+            "week": 18,
+            "title": "Tutorial 4",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 53,
+        "fields": {
+            "week": 18,
+            "title": "Week 4 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 54,
+        "fields": {
+            "week": 19,
+            "title": "Lecture 9 — Locks",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 55,
+        "fields": {
+            "week": 19,
+            "title": "Lecture 10 — Recovery",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 56,
+        "fields": {
+            "week": 19,
+            "title": "Tutorial 5",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 57,
+        "fields": {
+            "week": 19,
+            "title": "Week 5 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 58,
+        "fields": {
+            "week": 20,
+            "title": "Lecture 11 — Checkpoints",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 59,
+        "fields": {
+            "week": 20,
+            "title": "Lecture 12 — Query Processing",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 60,
+        "fields": {
+            "week": 20,
+            "title": "Tutorial 6",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 61,
+        "fields": {
+            "week": 20,
+            "title": "Week 6 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 62,
+        "fields": {
+            "week": 21,
+            "title": "Lecture 13 — Query Optimisation",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 63,
+        "fields": {
+            "week": 21,
+            "title": "Lecture 14 — Distributed Databases",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 64,
+        "fields": {
+            "week": 21,
+            "title": "Tutorial 7",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 65,
+        "fields": {
+            "week": 21,
+            "title": "Week 7 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 66,
+        "fields": {
+            "week": 22,
+            "title": "Lecture 15 — Semi-Structured Data",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 67,
+        "fields": {
+            "week": 22,
+            "title": "Lecture 16 — XML",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 68,
+        "fields": {
+            "week": 22,
+            "title": "Tutorial 8",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 69,
+        "fields": {
+            "week": 22,
+            "title": "Week 8 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 70,
+        "fields": {
+            "week": 23,
+            "title": "Lecture 17 — XQuery",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 71,
+        "fields": {
+            "week": 23,
+            "title": "Lecture 18 — Data Analysis",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 72,
+        "fields": {
+            "week": 23,
+            "title": "Tutorial 9",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 73,
+        "fields": {
+            "week": 23,
+            "title": "Week 9 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 74,
+        "fields": {
+            "week": 24,
+            "title": "Lecture 19 — Advanced Data Analysis",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 75,
+        "fields": {
+            "week": 24,
+            "title": "Lecture 20 — Revision",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 76,
+        "fields": {
+            "week": 24,
+            "title": "Tutorial 10",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 77,
+        "fields": {
+            "week": 24,
+            "title": "Week 10 Quiz",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 78,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 1",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 79,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 1 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 80,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 2",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 81,
+        "fields": {
+            "week": 24,
+            "title": "Past Paper 2 — Answers",
+            "type": "other",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 82,
+        "fields": {
+            "week": 2,
+            "title": "Lecture Slides",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 83,
+        "fields": {
+            "week": 2,
+            "title": "Exercise 2",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 84,
+        "fields": {
+            "week": 2,
+            "title": "Exercise 2 Solutions",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 85,
+        "fields": {
+            "week": 3,
+            "title": "Lecture Slides",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 86,
+        "fields": {
+            "week": 3,
+            "title": "Exercise 3",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 87,
+        "fields": {
+            "week": 3,
+            "title": "Exercise 3 Solutions",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 88,
+        "fields": {
+            "week": 4,
+            "title": "Lecture Slides",
+            "type": "slides",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 89,
+        "fields": {
+            "week": 4,
+            "title": "Exercise 4",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.material",
+        "pk": 90,
+        "fields": {
+            "week": 4,
+            "title": "Exercise 4 Solutions",
+            "type": "worksheet",
+            "url": "",
+            "available": true
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 25,
+        "fields": {
+            "module": 2,
+            "number": 1,
+            "title": "Introduction"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 26,
+        "fields": {
+            "module": 2,
+            "number": 2,
+            "title": "Teams"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 27,
+        "fields": {
+            "module": 2,
+            "number": 3,
+            "title": "Meetings"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 28,
+        "fields": {
+            "module": 2,
+            "number": 4,
+            "title": "Planning"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 29,
+        "fields": {
+            "module": 2,
+            "number": 5,
+            "title": "Projects"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 30,
+        "fields": {
+            "module": 2,
+            "number": 6,
+            "title": "Requirements"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 31,
+        "fields": {
+            "module": 2,
+            "number": 7,
+            "title": "Software Quality"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 32,
+        "fields": {
+            "module": 2,
+            "number": 8,
+            "title": "Demos"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 33,
+        "fields": {
+            "module": 2,
+            "number": 9,
+            "title": "Presentations"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 34,
+        "fields": {
+            "module": 2,
+            "number": 10,
+            "title": "Writing"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 35,
+        "fields": {
+            "module": 2,
+            "number": 11,
+            "title": "Design"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 36,
+        "fields": {
+            "module": 2,
+            "number": 12,
+            "title": "Project Portfolio"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 37,
+        "fields": {
+            "module": 2,
+            "number": 13,
+            "title": "Team Component"
+        }
+    },
+    {
+        "model": "modules.week",
+        "pk": 38,
+        "fields": {
+            "module": 2,
+            "number": 14,
+            "title": "Individual Component"
         }
     }
 ]

@@ -39,8 +39,8 @@ Open [http://127.0.0.1:8000](http://127.0.0.1:8000).
 To load sample data: `python manage.py loaddata fixtures/sample_data.json`
 
 Sample accounts (after loading fixture):
-- **Student:** `jb` / `password123`
-- **Admin panel** (`/admin`): `admin` / `password123`
+- **Student:** `student` / `password`
+- **Admin panel** (`/admin`): `admin` / `password`
 
 ---
 

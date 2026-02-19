@@ -5,11 +5,36 @@
 {% block page_title %}Grades{% endblock %}
 
 {% block content %}
-<p>Grades page — coming soon.</p>
 
-<!-- TODO: Build this page. Check mockups/grades.png for the target layout.
-     Sections needed:
-     - Overview: semester average, year average, degree projection, credits completed
-     - Assignment Grades: grouped by module, showing score/status/due date
--->
+<h2>My Grades</h2>
+
+
+{% for item in module_data %}
+    <details class="section">
+        <summary style="cursor: pointer;">
+            {{ item.module.code }}: {{ item.module.name }} - Overall Grade: <strong>{{ item.overall_grade }}%</strong>
+        </summary>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Assignment</th>
+                    <th>Weight</th>
+                    <th>Mark</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for grade in item.grades %}
+                <tr>
+                    <td>{{ grade.assignment.title }}</td>
+                    <td>{{ grade.assignment.weight }}%</td>
+                    <td><strong>{{ grade.score }}%</strong></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </details>
+{% endfor %}
+
+
 {% endblock %}

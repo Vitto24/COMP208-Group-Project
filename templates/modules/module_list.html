@@ -5,5 +5,22 @@
 {% block page_title %}Modules{% endblock %}
 
 {% block content %}
-<p>Modules page — coming soon.</p>
+
+<!-- this displays all modules -->
+<div class="module-cards">
+    
+    <!-- Loop through all modules and display them as cards -->
+    {% for module in modules %}
+        <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
+            
+            <!-- Display the module code and credits in the header, and the name below -->
+            <div class="module-card-header">
+                <strong>{{ module.code }}</strong>
+                <span>{{ module.credits }} credits</span>
+            </div>
+            <div class="module-card-name">{{ module.name }}</div>
+        </a>
+    {% endfor %}
+</div>
+
 {% endblock %}

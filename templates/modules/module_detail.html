@@ -6,14 +6,16 @@
 
 {% block content %}
 
-
+<!-- create section for basic module info -->
 <div class="section module-info">
     <p><strong>Lecturer:</strong> {{ module.lecturer }} &middot; <strong>Credits:</strong> {{ module.credits }}</p>
     <p class="module-description">{{ module.description }}</p>
 </div>
 
+<!-- create section for assignments info -->
 <div class="section">
      <h2>Assignments</h2>
+     <!-- table to display assignment info for that module -->
      <table class="data-table">
           <thead>
                <tr>

@@ -7,7 +7,7 @@ def module_list(request):
     return render(request, 'modules/module_list.html', {'modules': modules})
 
 def module_detail(request, code):
-    # Grab the specific module
+    # Grab the module
     module = get_object_or_404(Module, code=code)
     # Grab all assignments for this module
     assignments = Assignment.objects.filter(module=module)

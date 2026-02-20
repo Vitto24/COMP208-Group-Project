@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'modules',
     'grades',
     'dashboard',
+    'settings_page',
+    'timetable',
 ]
 
 MIDDLEWARE = [

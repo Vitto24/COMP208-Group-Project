@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Timetable — Uni Tracker{% endblock %}
+{% block nav_timetable %}active{% endblock %}
+{% block page_title %}Timetable{% endblock %}
+
+{% block content %}
+
+<!-- Today's events summary -->
+<div class="section">
+    <h2>Today</h2>
+    <!-- TODO: Filter entries for today's day and list them here -->
+    <p>No events today.</p>
+</div>
+
+<!-- Weekly timetable grid -->
+<div class="section">
+    <h2>Weekly Timetable</h2>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for slot in time_slots %}
+            <tr>
+                <td><strong>{{ slot }}</strong></td>
+                <!-- TODO: Check entries list for each day at this time slot -->
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

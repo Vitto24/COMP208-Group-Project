@@ -18,10 +18,10 @@
                 <ul class="nav-links">
                     <li><a href="{% url 'dashboard:dashboard' %}" class="{% block nav_dashboard %}{% endblock %}">Dashboard</a></li>
                     <li><a href="{% url 'modules:module_list' %}" class="{% block nav_modules %}{% endblock %}">Modules</a></li>
-                    <li><a href="#" class="{% block nav_timetable %}{% endblock %}">Timetable</a></li>
+                    <li><a href="{% url 'timetable:timetable' %}" class="{% block nav_timetable %}{% endblock %}">Timetable</a></li>
                     <li><a href="{% url 'grades:grades' %}" class="{% block nav_grades %}{% endblock %}">Grades</a></li>
                     <li><a href="#" class="{% block nav_notifications %}{% endblock %}">Notifications</a></li>
-                    <li><a href="#" class="{% block nav_settings %}{% endblock %}">Settings</a></li>
+                    <li><a href="{% url 'settings_page:settings' %}" class="{% block nav_settings %}{% endblock %}">Settings</a></li>
                 </ul>
             </div>
 

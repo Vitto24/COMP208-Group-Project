@@ -8,14 +8,23 @@
 
 <!-- Today's events summary -->
 <div class="section">
-    <h2>Today</h2>
-    <!-- TODO: Filter entries for today's day and list them here -->
-    <p>No events today.</p>
+    <h2>Today — {{ today_name }}</h2>
+    {% if today_entries %}
+        {% for entry in today_entries %}
+        <div class="deadline-row">
+            <strong>{{ entry.start_time|time:"H:i" }} – {{ entry.end_time|time:"H:i" }}</strong>
+            &nbsp; {{ entry.module.code }} {{ entry.event_type }}
+            {% if entry.room %} · {{ entry.room }}{% endif %}
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No events today.</p>
+    {% endif %}
 </div>
 
 <!-- Weekly timetable grid -->
 <div class="section">
-    <h2>Weekly Timetable</h2>
+    <h2>Semester {{ semester }}</h2>
     <table class="data-table">
         <thead>
             <tr>
@@ -28,15 +37,14 @@
             </tr>
         </thead>
         <tbody>
-            {% for slot in time_slots %}
+            {% for time, day_entries in rows %}
             <tr>
-                <td><strong>{{ slot }}</strong></td>
-                <!-- TODO: Check entries list for each day at this time slot -->
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><strong>{{ time }}</strong></td>
+                <td>{% for e in day_entries.MON %}{{ e.module.code }}<br><small>{{ e.event_type }}</small>{% if not forloop.last %}<hr>{% endif %}{% endfor %}</td>
+                <td>{% for e in day_entries.TUE %}{{ e.module.code }}<br><small>{{ e.event_type }}</small>{% if not forloop.last %}<hr>{% endif %}{% endfor %}</td>
+                <td>{% for e in day_entries.WED %}{{ e.module.code }}<br><small>{{ e.event_type }}</small>{% if not forloop.last %}<hr>{% endif %}{% endfor %}</td>
+                <td>{% for e in day_entries.THU %}{{ e.module.code }}<br><small>{{ e.event_type }}</small>{% if not forloop.last %}<hr>{% endif %}{% endfor %}</td>
+                <td>{% for e in day_entries.FRI %}{{ e.module.code }}<br><small>{{ e.event_type }}</small>{% if not forloop.last %}<hr>{% endif %}{% endfor %}</td>
             </tr>
             {% endfor %}
         </tbody>

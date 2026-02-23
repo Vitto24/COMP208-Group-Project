@@ -18,6 +18,8 @@ class TimetableEntry(models.Model):
     end_time = models.TimeField()
     room = models.CharField(max_length=100, blank=True)
     event_type = models.CharField(max_length=50, default='Lecture')
+    semester = models.IntegerField(default=2)
+    weeks = models.CharField(max_length=100, blank=True)
 
     class Meta:
         ordering = ['day', 'start_time']

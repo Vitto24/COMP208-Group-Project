@@ -431,3 +431,254 @@ body {
 .auth-link a:hover {
     text-decoration: underline;
 }
+
+/* Card container */
+.card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Timetable page */
+.timetable-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.term-info {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.week-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.week-arrow {
+    text-decoration: none;
+    color: #475569;
+    font-size: 20px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.week-arrow:hover {
+    background: #f1f5f9;
+}
+
+.week-arrow-disabled {
+    color: #d1d5db;
+}
+
+.week-label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Timetable grid table */
+.timetable-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+.timetable-table th,
+.timetable-table td {
+    vertical-align: top;
+    padding: 4px;
+}
+
+.time-col {
+    width: 50px;
+}
+
+.day-col {
+    text-align: center;
+    padding: 8px 4px;
+}
+
+.day-name {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #475569;
+}
+
+.day-date {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.day-today {
+    background: #2563eb;
+    border-radius: 8px;
+}
+
+.day-today .day-name,
+.day-today .day-date {
+    color: #fff;
+}
+
+.time-label {
+    font-size: 12px;
+    color: #94a3b8;
+    font-weight: 500;
+    padding-top: 8px;
+    width: 50px;
+}
+
+.grid-cell {
+    min-height: 50px;
+}
+
+.cell-inner {
+    display: flex;
+    gap: 4px;
+}
+
+.cell-inner .event-card {
+    flex: 1;
+    min-width: 0;
+}
+
+.cell-today {
+    background: #f8fafc;
+}
+
+/* Event cards */
+.event-card {
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.event-code {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.event-time {
+    color: #64748b;
+    margin-top: 2px;
+}
+
+.event-type {
+    color: #64748b;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.event-lecture { background: #eff6ff; }
+.event-lecture .event-code { color: #2563eb; }
+
+.event-dropin { background: #faf5ff; }
+.event-dropin .event-code { color: #7c3aed; }
+
+.event-lab { background: #f0fdf4; }
+.event-lab .event-code { color: #16a34a; }
+
+.event-seminar { background: #fffbeb; }
+.event-seminar .event-code { color: #d97706; }
+
+/* Legend */
+.legend {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-lecture { background: #2563eb; }
+.dot-dropin { background: #7c3aed; }
+.dot-lab { background: #16a34a; }
+.dot-seminar { background: #d97706; }
+
+.bottom-heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Bottom row: Today + Deadlines */
+.timetable-bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.today-card {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.deadlines-card {
+    flex: 1;
+    min-width: 0;
+}
+
+.today-subtext {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.today-event {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.today-event:last-child {
+    border-bottom: none;
+}
+
+.today-icon {
+    width: 18px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.today-done { color: #94a3b8; }
+.today-now .today-icon { color: #2563eb; font-weight: 700; }
+
+.now-badge {
+    background: #2563eb;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-left: 4px;
+}

@@ -26,3 +26,23 @@ class TimetableEntry(models.Model):
 
     def __str__(self):
         return f"{self.module.code} — {self.get_day_display()} {self.start_time}"
+
+    @property
+    def display_type(self):
+        mapping = {
+            'PC Teaching Centre': 'Lab',
+        }
+        return mapping.get(self.event_type, self.event_type)
+
+    @property
+    def event_css_class(self):
+        mapping = {
+            'Lecture': 'event-lecture',
+            'Class Test': 'event-lecture',
+            'Drop-in': 'event-dropin',
+            'Tutorial': 'event-lab',
+            'PC Teaching Centre': 'event-lab',
+            'Seminar': 'event-seminar',
+            'Study': 'event-seminar',
+        }
+        return mapping.get(self.event_type, 'event-lecture')

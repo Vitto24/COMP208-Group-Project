@@ -2,6 +2,7 @@ import datetime
 import math
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
+from grades.models import Assignment
 from .models import TimetableEntry
 
 DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI']
@@ -187,6 +188,11 @@ def timetable_view(request):
                 status = 'upcoming'
             today_entries.append({'entry': entry, 'status': status})
 
+    # Upcoming deadlines (next 5)
+    deadlines = Assignment.objects.filter(
+        due_date__gte=today
+    ).select_related('module').order_by('due_date')[:5]
+
     return render(request, 'timetable/timetable.html', {
         'grid_rows': grid_rows,
         'day_headers': day_headers,
@@ -197,4 +203,5 @@ def timetable_view(request):
         'current_week': current_week,
         'max_week': max_week,
         'term_info': term_info,
+        'deadlines': deadlines,
     })

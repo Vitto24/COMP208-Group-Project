@@ -102,7 +102,17 @@
     <div class="deadlines-card">
         <h2 class="bottom-heading">Upcoming Deadlines</h2>
         <div class="card">
+            {% for deadline in deadlines %}
+            <div class="deadline-item">
+                <div>
+                    <strong>{{ deadline.module.code }}</strong>
+                    &nbsp; {{ deadline.title }}
+                </div>
+                <div class="deadline-date">{{ deadline.due_date|date:"D j M" }}</div>
+            </div>
+            {% empty %}
             <p class="today-subtext">No upcoming deadlines.</p>
+            {% endfor %}
         </div>
     </div>
 </div>

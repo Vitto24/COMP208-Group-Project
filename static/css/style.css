@@ -448,22 +448,27 @@ body {
 }
 
 /* Timetable page */
-.timetable-header {
+.timetable-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 10px;
+    margin-top: 8px;
 }
 
 .term-info {
     font-size: 13px;
     color: #64748b;
+    flex: 1;
 }
 
 .week-nav {
     display: flex;
     align-items: center;
     gap: 12px;
+    justify-content: center;
+    flex: 1;
 }
 
 .week-arrow {
@@ -507,7 +512,19 @@ body {
 
 .day-col {
     text-align: center;
-    padding: 4px 2px;
+    padding: 4px 2px 0;
+    position: relative;
+}
+
+.day-col::after {
+    content: '';
+    display: block;
+    margin: 4px 4px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.day-today::after {
+    border-bottom: 2px solid #1e293b;
 }
 
 .day-name {
@@ -522,16 +539,18 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #333;
+    height: 28px;
+    line-height: 28px;
 }
 
-.day-today {
-    background: #2563eb;
-    border-radius: 8px;
-}
-
-.day-today .day-name,
 .day-today .day-date {
+    background: #1e293b;
     color: #fff;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
 }
 
 .time-label {
@@ -540,6 +559,8 @@ body {
     font-weight: 500;
     padding-top: 4px;
     width: 44px;
+    padding-right: 2px;
+    border-right: 1px solid #e2e8f0;
 }
 
 .timetable-table tbody tr {
@@ -601,13 +622,13 @@ body {
 .event-seminar .event-code { color: #d97706; }
 
 /* Legend */
-.legend {
+.legend-items {
     display: flex;
     gap: 12px;
     font-size: 11px;
     color: #64748b;
-    border-top: 1px solid #e2e8f0;
-    padding-top: 10px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 .legend-item {

@@ -8,26 +8,6 @@
 
 <!-- Timetable grid card -->
 <div class="card">
-    <!-- Combined header: term info left, week nav right -->
-    <div class="timetable-header">
-        {% if term_info %}
-        <span class="term-info">{{ term_info.label }} · {{ term_info.start|date:"j M" }} – {{ term_info.end|date:"j M" }}</span>
-        {% endif %}
-        <div class="week-nav">
-            {% if week_num > 1 %}
-                <a href="?week={{ week_num|add:"-1" }}" class="week-arrow">&lsaquo;</a>
-            {% else %}
-                <span class="week-arrow week-arrow-disabled">&lsaquo;</span>
-            {% endif %}
-            <span class="week-label">Week {{ week_num }}{% if term_info %} of {{ term_info.total_weeks }}{% endif %}</span>
-            {% if week_num < max_week %}
-                <a href="?week={{ week_num|add:"1" }}" class="week-arrow">&rsaquo;</a>
-            {% else %}
-                <span class="week-arrow week-arrow-disabled">&rsaquo;</span>
-            {% endif %}
-        </div>
-    </div>
-
     <!-- Grid with time column -->
     <table class="timetable-table">
         <thead>
@@ -65,12 +45,30 @@
         </tbody>
     </table>
 
-    <!-- Legend -->
-    <div class="legend">
-        <span class="legend-item"><span class="legend-dot dot-lecture"></span> Lecture</span>
-        <span class="legend-item"><span class="legend-dot dot-dropin"></span> Drop-in</span>
-        <span class="legend-item"><span class="legend-dot dot-lab"></span> Lab / Tutorial</span>
-        <span class="legend-item"><span class="legend-dot dot-seminar"></span> Seminar</span>
+    <!-- Footer: term info, week nav, legend -->
+    <div class="timetable-footer">
+        {% if term_info %}
+        <span class="term-info">Semester {{ semester }} · {{ term_info.start|date:"j M" }} – {{ term_info.end|date:"j M" }}</span>
+        {% endif %}
+        <div class="week-nav">
+            {% if week_num > 1 %}
+                <a href="?week={{ week_num|add:"-1" }}" class="week-arrow">&lsaquo;</a>
+            {% else %}
+                <span class="week-arrow week-arrow-disabled">&lsaquo;</span>
+            {% endif %}
+            <span class="week-label">Week {{ week_num }}{% if term_info %} of {{ term_info.total_weeks }}{% endif %}</span>
+            {% if week_num < max_week %}
+                <a href="?week={{ week_num|add:"1" }}" class="week-arrow">&rsaquo;</a>
+            {% else %}
+                <span class="week-arrow week-arrow-disabled">&rsaquo;</span>
+            {% endif %}
+        </div>
+        <div class="legend-items">
+            <span class="legend-item"><span class="legend-dot dot-lecture"></span> Lecture</span>
+            <span class="legend-item"><span class="legend-dot dot-dropin"></span> Drop-in</span>
+            <span class="legend-item"><span class="legend-dot dot-lab"></span> Lab / Tutorial</span>
+            <span class="legend-item"><span class="legend-dot dot-seminar"></span> Seminar</span>
+        </div>
     </div>
 </div>
 

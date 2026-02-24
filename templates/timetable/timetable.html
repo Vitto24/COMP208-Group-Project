@@ -46,17 +46,19 @@
             <tr>
                 <td class="time-label">{{ row.time }}</td>
                 {% for cell in row.cells %}
-                <td class="grid-cell{% if cell.is_today %} cell-today{% endif %}">
+                {% if not cell.skip %}
+                <td class="grid-cell{% if cell.is_today %} cell-today{% endif %}" {% if cell.rowspan > 1 %}rowspan="{{ cell.rowspan }}"{% endif %}>
                     <div class="cell-inner">
                     {% for entry in cell.entries %}
                     <div class="event-card {{ entry.event_css_class }}">
                         <div class="event-code">{{ entry.module.code }}</div>
-                        <div class="event-time">{{ entry.start_time|time:"H:i" }}</div>
+                        <div class="event-time">{{ entry.start_time|time:"H:i" }}–{{ entry.end_time|time:"H:i" }}</div>
                         <div class="event-type">{{ entry.display_type }}</div>
                     </div>
                     {% endfor %}
                     </div>
                 </td>
+                {% endif %}
                 {% endfor %}
             </tr>
             {% endfor %}

@@ -437,8 +437,8 @@ body {
     background: #fff;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
-    padding: 20px 24px;
-    margin-bottom: 20px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
 }
 
 .card h2 {
@@ -452,7 +452,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .term-info {
@@ -492,13 +492,13 @@ body {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .timetable-table th,
 .timetable-table td {
     vertical-align: top;
-    padding: 4px;
+    padding: 2px;
 }
 
 .time-col {
@@ -507,7 +507,7 @@ body {
 
 .day-col {
     text-align: center;
-    padding: 8px 4px;
+    padding: 4px 2px;
 }
 
 .day-name {
@@ -519,7 +519,7 @@ body {
 }
 
 .day-date {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #333;
 }
@@ -535,20 +535,25 @@ body {
 }
 
 .time-label {
-    font-size: 12px;
+    font-size: 11px;
     color: #94a3b8;
     font-weight: 500;
-    padding-top: 8px;
-    width: 50px;
+    padding-top: 4px;
+    width: 44px;
+}
+
+.timetable-table tbody tr {
+    height: 44px;
 }
 
 .grid-cell {
-    min-height: 50px;
+    height: 1px;
 }
 
 .cell-inner {
     display: flex;
     gap: 4px;
+    height: 100%;
 }
 
 .cell-inner .event-card {
@@ -557,32 +562,30 @@ body {
 }
 
 .cell-today {
-    background: #f8fafc;
+    background: none;
 }
 
 /* Event cards */
 .event-card {
-    border-radius: 6px;
-    padding: 8px;
-    margin-bottom: 4px;
-    font-size: 12px;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 11px;
 }
 
 .event-code {
     font-weight: 600;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .event-time {
     color: #64748b;
-    margin-top: 2px;
+    font-size: 10px;
 }
 
 .event-type {
     color: #64748b;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    margin-top: 2px;
 }
 
 .event-lecture { background: #eff6ff; }
@@ -600,9 +603,11 @@ body {
 /* Legend */
 .legend {
     display: flex;
-    gap: 16px;
-    font-size: 13px;
+    gap: 12px;
+    font-size: 11px;
     color: #64748b;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 10px;
 }
 
 .legend-item {
@@ -612,8 +617,8 @@ body {
 }
 
 .legend-dot {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     display: inline-block;
 }
@@ -635,14 +640,17 @@ body {
     gap: 20px;
 }
 
-.today-card {
-    width: 280px;
-    flex-shrink: 0;
-}
-
+.today-card,
 .deadlines-card {
     flex: 1;
     min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.today-card .card,
+.deadlines-card .card {
+    flex: 1;
 }
 
 .today-subtext {
@@ -671,14 +679,14 @@ body {
 }
 
 .today-done { color: #94a3b8; }
-.today-now .today-icon { color: #2563eb; font-weight: 700; }
+.today-now .today-icon { color: #1e293b; font-weight: 700; }
 
 .now-badge {
-    background: #2563eb;
+    background: #1e293b;
     color: #fff;
     font-size: 10px;
     font-weight: 600;
-    padding: 1px 6px;
-    border-radius: 4px;
+    padding: 2px 8px;
+    border-radius: 10px;
     margin-left: 4px;
 }

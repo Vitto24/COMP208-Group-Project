@@ -1,4 +1,5 @@
 import datetime
+import math
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from .models import TimetableEntry
@@ -117,19 +118,42 @@ def timetable_view(request):
 
     is_current_week = week_num == current_week
 
-    # Build grid rows (9:00–18:00, always show all hours)
+    # Build grid rows (9:00–17:00, always show all hours)
+    hours = list(range(9, 18))
+    # Track which cells are occupied by a rowspan from above
+    occupied = set()  # (hour_index, day_index)
+
     grid_rows = []
-    for hour in range(9, 19):
+    for hi, hour in enumerate(hours):
         time_label = f'{hour:02d}:00'
         cells = []
-        for day in DAYS:
+        for di, day in enumerate(DAYS):
+            is_today = day == today_code and is_current_week
+            if (hi, di) in occupied:
+                cells.append({'skip': True})
+                continue
+
             entries = sorted(
                 [e for e in week_entries if e.day == day and e.start_time.hour == hour],
                 key=lambda e: e.start_time,
             )
+
+            rowspan = 1
+            if entries:
+                max_minutes = max(
+                    (e.end_time.hour * 60 + e.end_time.minute) - (e.start_time.hour * 60 + e.start_time.minute)
+                    for e in entries
+                )
+                rowspan = max(1, math.ceil(max_minutes / 60))
+                rowspan = min(rowspan, len(hours) - hi)
+                for offset in range(1, rowspan):
+                    occupied.add((hi + offset, di))
+
             cells.append({
                 'entries': entries,
-                'is_today': day == today_code and is_current_week,
+                'rowspan': rowspan,
+                'skip': False,
+                'is_today': is_today,
             })
         grid_rows.append({'time': time_label, 'cells': cells})
 

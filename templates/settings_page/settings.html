@@ -6,78 +6,12 @@
 
 {% block content %}
 
-<!-- Profile Information -->
-<div class="section">
-    <h2>Profile Information</h2>
-    <!-- TODO: Replace placeholder values with {{ user.first_name }}, {{ profile.course }}, etc. -->
-    <div class="form-group">
-        <label>Name</label>
-        <input type="text" value="John Smith" readonly>
-    </div>
-    <div class="form-group">
-        <label>Student Email</label>
-        <input type="email" value="student@liverpool.ac.uk" readonly>
-    </div>
-    <div class="form-group">
-        <label>Course Name</label>
-        <input type="text" value="Computer Science" readonly>
-    </div>
-    <div class="form-group">
-        <label>University</label>
-        <input type="text" value="University of Liverpool" readonly>
-    </div>
-    <div class="form-group">
-        <label>Year</label>
-        <input type="text" value="Year 2" readonly>
-    </div>
-    <div class="form-group">
-        <label>Profile Picture</label>
-        <!-- TODO: Add file upload input and preview -->
-        <input type="file" accept="image/*">
-    </div>
-</div>
+<!-- TODO: Build the settings page. See docs/week-4/week4-meeting.md for details. -->
+<!-- Sections to add: Profile Information, Appearance, Account, Notifications -->
 
-<!-- Appearance -->
 <div class="section">
-    <h2>Appearance</h2>
-    <div class="form-group">
-        <label>Theme</label>
-        <!-- TODO: Wire up light/dark mode toggle with JS or form POST -->
-        <button class="btn">Light</button>
-        <button class="btn">Dark</button>
-    </div>
-    <div class="form-group">
-        <label>Font Size</label>
-        <!-- TODO: Save selection to user profile -->
-        <label><input type="radio" name="font_size" value="small"> Small</label>
-        <label><input type="radio" name="font_size" value="medium" checked> Medium</label>
-        <label><input type="radio" name="font_size" value="large"> Large</label>
-    </div>
-</div>
-
-<!-- Account -->
-<div class="section">
-    <h2>Account</h2>
-    <div class="form-group">
-        <label>Nickname</label>
-        <!-- TODO: Load current nickname from profile, save on form POST -->
-        <input type="text" placeholder="Enter a nickname">
-        <button class="btn">Save</button>
-    </div>
-</div>
-
-<!-- Notifications -->
-<div class="section">
-    <h2>Notifications</h2>
-    <div class="form-group">
-        <label>Push Notifications</label>
-        <!-- TODO: Wire up toggle to save preference -->
-        <button class="btn">ON</button>
-    </div>
-    <div class="form-group">
-        <label>Email Notifications</label>
-        <button class="btn">ON</button>
-    </div>
+    <h2>Settings</h2>
+    <p>Settings page — coming soon.</p>
 </div>
 
 {% endblock %}

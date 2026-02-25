@@ -1677,5 +1677,73 @@
             "number": 14,
             "title": "Individual Component"
         }
-    }
+    },
+
+    {
+        "model": "modules.module",
+        "pk": 8,
+        "fields": {
+            "code": "COMP229",
+            "name": "Intro To Data Science",
+            "description": "",
+            "credits": "15.0",
+            "lecturer": "Vitaly Kurlin",
+            "semester": 1,
+            "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
+            "students": [1]
+        }
+    },
+    {
+        "model": "modules.module",
+        "pk": 9,
+        "fields": {
+            "code": "COMP219",
+            "name": "Adv Artificial Intelligence",
+            "description": "",
+            "credits": "15.0",
+            "lecturer": "Xiaowei Huang",
+            "semester": 1,
+            "academic_year": "2025/26",
+            "department": "Computer Science",
+            "year": 2,
+            "students": [1]
+        }
+    },
+
+    {"model": "timetable.timetableentry", "pk": 1, "fields": {"student": 1, "module": 2, "day": "MON", "start_time": "09:00:00", "end_time": "12:00:00", "room": "", "event_type": "Drop-in", "semester": 2, "weeks": "1-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 2, "fields": {"student": 1, "module": 3, "day": "MON", "start_time": "09:00:00", "end_time": "11:00:00", "room": "Central Teaching Hub, PCTC", "event_type": "Drop-in", "semester": 2, "weeks": "2-8,9"}},
+    {"model": "timetable.timetableentry", "pk": 3, "fields": {"student": 1, "module": 4, "day": "MON", "start_time": "12:00:00", "end_time": "13:00:00", "room": "Hele-Shaw Lecture Theatre", "event_type": "Lecture", "semester": 2, "weeks": "1-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 4, "fields": {"student": 1, "module": 3, "day": "MON", "start_time": "15:00:00", "end_time": "17:00:00", "room": "Electrical Engineering, Room E3", "event_type": "Lecture", "semester": 2, "weeks": "1-8,9"}},
+    {"model": "timetable.timetableentry", "pk": 33, "fields": {"student": 1, "module": 2, "day": "TUE", "start_time": "09:00:00", "end_time": "12:00:00", "room": "", "event_type": "Drop-in", "semester": 2, "weeks": "1-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 5, "fields": {"student": 1, "module": 4, "day": "TUE", "start_time": "15:00:00", "end_time": "16:00:00", "room": "Thompson Yates, Room 104", "event_type": "Lecture", "semester": 2, "weeks": "1-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 6, "fields": {"student": 1, "module": 1, "day": "TUE", "start_time": "16:00:00", "end_time": "17:00:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Class Test", "semester": 2, "weeks": "7"}},
+    {"model": "timetable.timetableentry", "pk": 7, "fields": {"student": 1, "module": 1, "day": "TUE", "start_time": "16:00:00", "end_time": "17:00:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Lecture", "semester": 2, "weeks": "1-6,8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 8, "fields": {"student": 1, "module": 4, "day": "WED", "start_time": "10:00:00", "end_time": "11:00:00", "room": "Chemistry Building, Gossage LT 3", "event_type": "Lecture", "semester": 2, "weeks": "1-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 9, "fields": {"student": 1, "module": 1, "day": "WED", "start_time": "11:00:00", "end_time": "12:00:00", "room": "South Campus Teaching Hub LT 3", "event_type": "Tutorial", "semester": 2, "weeks": "2-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 10, "fields": {"student": 1, "module": 4, "day": "THU", "start_time": "15:00:00", "end_time": "16:00:00", "room": "George Holt Building, H1.09", "event_type": "PC Teaching Centre", "semester": 2, "weeks": "2-8,9-10"}},
+    {"model": "timetable.timetableentry", "pk": 11, "fields": {"student": 1, "module": 5, "day": "FRI", "start_time": "09:00:00", "end_time": "11:00:00", "room": "South Campus Teaching Hub LT 4", "event_type": "Lecture", "semester": 2, "weeks": "1-8,9,11-12"}},
+    {"model": "timetable.timetableentry", "pk": 12, "fields": {"student": 1, "module": 3, "day": "FRI", "start_time": "09:00:00", "end_time": "10:00:00", "room": "Central Teaching Hub, PCTC", "event_type": "PC Teaching Centre", "semester": 2, "weeks": "1"}},
+    {"model": "timetable.timetableentry", "pk": 13, "fields": {"student": 1, "module": 1, "day": "FRI", "start_time": "11:00:00", "end_time": "13:00:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Lecture", "semester": 2, "weeks": "1-8,9-12"}},
+    {"model": "timetable.timetableentry", "pk": 14, "fields": {"student": 1, "module": 5, "day": "FRI", "start_time": "13:30:00", "end_time": "14:30:00", "room": "502 Building, Flex Room 2", "event_type": "Seminar", "semester": 2, "weeks": "2,4,6,8,12"}},
+    {"model": "timetable.timetableentry", "pk": 15, "fields": {"student": 1, "module": 5, "day": "FRI", "start_time": "15:30:00", "end_time": "16:30:00", "room": "Rendall Seminar Room 4", "event_type": "Seminar", "semester": 2, "weeks": "11"}},
+    {"model": "timetable.timetableentry", "pk": 16, "fields": {"student": 1, "module": 5, "day": "FRI", "start_time": "17:00:00", "end_time": "18:00:00", "room": "Off campus", "event_type": "Study", "semester": 2, "weeks": "1,3,5,7,9,11"}},
+
+    {"model": "timetable.timetableentry", "pk": 17, "fields": {"student": 1, "module": 8, "day": "MON", "start_time": "12:00:00", "end_time": "13:00:00", "room": "Electrical Engineering, Lecture Room E1", "event_type": "Tutorial", "semester": 1, "weeks": "2-11"}},
+    {"model": "timetable.timetableentry", "pk": 18, "fields": {"student": 1, "module": 9, "day": "MON", "start_time": "16:30:00", "end_time": "17:30:00", "room": "502 Building, Lecture Theatre 3", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 19, "fields": {"student": 1, "module": 8, "day": "TUE", "start_time": "09:00:00", "end_time": "10:00:00", "room": "Electrical Engineering, Lecture Room E2", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 20, "fields": {"student": 1, "module": 6, "day": "TUE", "start_time": "10:30:00", "end_time": "11:30:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 21, "fields": {"student": 1, "module": 7, "day": "TUE", "start_time": "14:00:00", "end_time": "15:00:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Lecture", "semester": 1, "weeks": "1-10"}},
+    {"model": "timetable.timetableentry", "pk": 22, "fields": {"student": 1, "module": 9, "day": "TUE", "start_time": "15:00:00", "end_time": "16:00:00", "room": "502 Building, Lecture Theatre 3", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 23, "fields": {"student": 1, "module": 8, "day": "WED", "start_time": "09:00:00", "end_time": "10:00:00", "room": "Electrical Engineering, Lecture Room E2", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 24, "fields": {"student": 1, "module": 6, "day": "WED", "start_time": "10:30:00", "end_time": "11:30:00", "room": "Yoko Ono Lennon Centre: Paul Brett LT", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 25, "fields": {"student": 1, "module": 7, "day": "WED", "start_time": "12:00:00", "end_time": "13:00:00", "room": "Yoko Ono Lennon Centre: Paul Brett LT", "event_type": "Lecture", "semester": 1, "weeks": "1-10"}},
+    {"model": "timetable.timetableentry", "pk": 26, "fields": {"student": 1, "module": 9, "day": "WED", "start_time": "13:00:00", "end_time": "14:00:00", "room": "502 Building, Lecture Theatre 3", "event_type": "Lecture", "semester": 1, "weeks": "1-11"}},
+    {"model": "timetable.timetableentry", "pk": 27, "fields": {"student": 1, "module": 8, "day": "FRI", "start_time": "09:00:00", "end_time": "10:00:00", "room": "126 Mount Pleasant, Teaching Room 209", "event_type": "Class Test", "semester": 1, "weeks": "8"}},
+    {"model": "timetable.timetableentry", "pk": 28, "fields": {"student": 1, "module": 8, "day": "FRI", "start_time": "09:00:00", "end_time": "10:00:00", "room": "Electrical Engineering, Lecture Room E2", "event_type": "Lecture", "semester": 1, "weeks": "1-7,9-11"}},
+    {"model": "timetable.timetableentry", "pk": 29, "fields": {"student": 1, "module": 6, "day": "FRI", "start_time": "12:00:00", "end_time": "13:00:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Lecture", "semester": 1, "weeks": "1-10"}},
+    {"model": "timetable.timetableentry", "pk": 30, "fields": {"student": 1, "module": 7, "day": "FRI", "start_time": "13:30:00", "end_time": "14:30:00", "room": "George Holt Building, H1.05", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "1-10"}},
+    {"model": "timetable.timetableentry", "pk": 31, "fields": {"student": 1, "module": 9, "day": "FRI", "start_time": "15:00:00", "end_time": "16:00:00", "room": "George Holt Building, H1.16/1.17", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "2-10"}},
+    {"model": "timetable.timetableentry", "pk": 32, "fields": {"student": 1, "module": 6, "day": "FRI", "start_time": "16:30:00", "end_time": "17:30:00", "room": "George Holt Building, H1.05", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "2-10"}}
 ]

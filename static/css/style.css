@@ -431,3 +431,296 @@ body {
 .auth-link a:hover {
     text-decoration: underline;
 }
+
+/* Card container */
+.card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Timetable page */
+.timetable-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 10px;
+    margin-top: 8px;
+}
+
+.term-info {
+    font-size: 13px;
+    color: #64748b;
+    flex: 1;
+}
+
+.week-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    flex: 1;
+}
+
+.week-arrow {
+    text-decoration: none;
+    color: #475569;
+    font-size: 20px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.week-arrow:hover {
+    background: #f1f5f9;
+}
+
+.week-arrow-disabled {
+    color: #d1d5db;
+}
+
+.week-label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Timetable grid table */
+.timetable-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+}
+
+.timetable-table th,
+.timetable-table td {
+    vertical-align: top;
+    padding: 2px;
+}
+
+.time-col {
+    width: 50px;
+}
+
+.day-col {
+    text-align: center;
+    padding: 4px 2px 0;
+    position: relative;
+}
+
+.day-col::after {
+    content: '';
+    display: block;
+    margin: 4px 4px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.day-today::after {
+    border-bottom: 2px solid #1e293b;
+}
+
+.day-name {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #475569;
+}
+
+.day-date {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    height: 28px;
+    line-height: 28px;
+}
+
+.day-today .day-date {
+    background: #1e293b;
+    color: #fff;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+}
+
+.time-label {
+    font-size: 11px;
+    color: #94a3b8;
+    font-weight: 500;
+    padding-top: 4px;
+    width: 44px;
+    padding-right: 2px;
+    border-right: 1px solid #e2e8f0;
+}
+
+.timetable-table tbody tr {
+    height: 44px;
+}
+
+.grid-cell {
+    height: 1px;
+}
+
+.cell-inner {
+    display: flex;
+    gap: 4px;
+    height: 100%;
+}
+
+.cell-inner .event-card {
+    flex: 1;
+    min-width: 0;
+}
+
+.cell-today {
+    background: none;
+}
+
+/* Event cards */
+.event-card {
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 11px;
+}
+
+.event-code {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.event-time {
+    color: #64748b;
+    font-size: 10px;
+}
+
+.event-type {
+    color: #64748b;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.event-lecture { background: #eff6ff; }
+.event-lecture .event-code { color: #2563eb; }
+
+.event-dropin { background: #faf5ff; }
+.event-dropin .event-code { color: #7c3aed; }
+
+.event-lab { background: #f0fdf4; }
+.event-lab .event-code { color: #16a34a; }
+
+.event-seminar { background: #fffbeb; }
+.event-seminar .event-code { color: #d97706; }
+
+/* Legend */
+.legend-items {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    color: #64748b;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-lecture { background: #2563eb; }
+.dot-dropin { background: #7c3aed; }
+.dot-lab { background: #16a34a; }
+.dot-seminar { background: #d97706; }
+
+.bottom-heading {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Bottom row: Today + Deadlines */
+.timetable-bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.today-card,
+.deadlines-card {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.today-card .card,
+.deadlines-card .card {
+    flex: 1;
+}
+
+.deadline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.deadline-item:last-child {
+    border-bottom: none;
+}
+
+.today-subtext {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.today-event {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.today-event:last-child {
+    border-bottom: none;
+}
+
+.today-icon {
+    width: 18px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.today-done { color: #94a3b8; }
+.today-now .today-icon { color: #1e293b; font-weight: 700; }
+
+.now-badge {
+    background: #1e293b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 4px;
+}

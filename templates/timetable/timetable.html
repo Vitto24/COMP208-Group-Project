@@ -6,41 +6,113 @@
 
 {% block content %}
 
-<!-- Today's events summary -->
-<div class="section">
-    <h2>Today</h2>
-    <!-- TODO: Filter entries for today's day and list them here -->
-    <p>No events today.</p>
-</div>
-
-<!-- Weekly timetable grid -->
-<div class="section">
-    <h2>Weekly Timetable</h2>
-    <table class="data-table">
+<!-- Timetable grid card -->
+<div class="card">
+    <!-- Grid with time column -->
+    <table class="timetable-table">
         <thead>
             <tr>
-                <th>Time</th>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
+                <th class="time-col"></th>
+                {% for dh in day_headers %}
+                <th class="day-col{% if dh.is_today %} day-today{% endif %}">
+                    <div class="day-name">{{ dh.code }}</div>
+                    {% if dh.date %}<div class="day-date">{{ dh.date|date:"j" }}</div>{% endif %}
+                </th>
+                {% endfor %}
             </tr>
         </thead>
         <tbody>
-            {% for slot in time_slots %}
+            {% for row in grid_rows %}
             <tr>
-                <td><strong>{{ slot }}</strong></td>
-                <!-- TODO: Check entries list for each day at this time slot -->
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="time-label">{{ row.time }}</td>
+                {% for cell in row.cells %}
+                {% if not cell.skip %}
+                <td class="grid-cell{% if cell.is_today %} cell-today{% endif %}" {% if cell.rowspan > 1 %}rowspan="{{ cell.rowspan }}"{% endif %}>
+                    <div class="cell-inner">
+                    {% for entry in cell.entries %}
+                    <div class="event-card {{ entry.event_css_class }}">
+                        <div class="event-code">{{ entry.module.code }}</div>
+                        <div class="event-time">{{ entry.start_time|time:"H:i" }}–{{ entry.end_time|time:"H:i" }}</div>
+                        <div class="event-type">{{ entry.display_type }}</div>
+                    </div>
+                    {% endfor %}
+                    </div>
+                </td>
+                {% endif %}
+                {% endfor %}
             </tr>
             {% endfor %}
         </tbody>
     </table>
+
+    <!-- Footer: term info, week nav, legend -->
+    <div class="timetable-footer">
+        {% if term_info %}
+        <span class="term-info">Semester {{ semester }} · {{ term_info.start|date:"j M" }} – {{ term_info.end|date:"j M" }}</span>
+        {% endif %}
+        <div class="week-nav">
+            {% if week_num > 1 %}
+                <a href="?week={{ week_num|add:"-1" }}" class="week-arrow">&lsaquo;</a>
+            {% else %}
+                <span class="week-arrow week-arrow-disabled">&lsaquo;</span>
+            {% endif %}
+            <span class="week-label">Week {{ week_num }}{% if term_info %} of {{ term_info.total_weeks }}{% endif %}</span>
+            {% if week_num < max_week %}
+                <a href="?week={{ week_num|add:"1" }}" class="week-arrow">&rsaquo;</a>
+            {% else %}
+                <span class="week-arrow week-arrow-disabled">&rsaquo;</span>
+            {% endif %}
+        </div>
+        <div class="legend-items">
+            <span class="legend-item"><span class="legend-dot dot-lecture"></span> Lecture</span>
+            <span class="legend-item"><span class="legend-dot dot-dropin"></span> Drop-in</span>
+            <span class="legend-item"><span class="legend-dot dot-lab"></span> Lab / Tutorial</span>
+            <span class="legend-item"><span class="legend-dot dot-seminar"></span> Seminar</span>
+        </div>
+    </div>
+</div>
+
+<!-- Bottom row: Today + Upcoming Deadlines -->
+<div class="timetable-bottom">
+    <div class="today-card">
+        <h2 class="bottom-heading">Today ({{ today_date|date:"D j" }}{{ today_date|date:"S" }})</h2>
+        <div class="card">
+            {% if today_entries %}
+                {% for item in today_entries %}
+                <div class="today-event today-{{ item.status }}">
+                    <span class="today-icon">
+                        {% if item.status == 'done' %}&#10003;{% elif item.status == 'now' %}&rarr;{% else %}&#9675;{% endif %}
+                    </span>
+                    <div>
+                        <strong>{{ item.entry.start_time|time:"H:i" }}</strong>
+                        &nbsp; {{ item.entry.module.code }} {{ item.entry.display_type }}
+                        {% if item.status == 'now' %}<span class="now-badge">NOW</span>{% endif %}
+                        {% if item.entry.room %}<br><small>{{ item.entry.room }}</small>{% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <p class="today-subtext">No events today.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="deadlines-card">
+        <h2 class="bottom-heading">Upcoming Deadlines</h2>
+        <div class="card">
+            {% for deadline in deadlines %}
+            <div class="deadline-item">
+                <div>
+                    <strong>{{ deadline.module.code }}</strong>
+                    &nbsp; {{ deadline.title }}
+                </div>
+                <div class="deadline-date">{{ deadline.due_date|date:"D j M" }}</div>
+            </div>
+            {% empty %}
+            <p class="today-subtext">No upcoming deadlines.</p>
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 {% endblock %}

@@ -1,44 +1,80 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ code }} — Uni Tracker{% endblock %}
+{% block title %}{{ module.code }} — Uni Tracker{% endblock %}
 {% block nav_modules %}active{% endblock %}
-{% block page_title %}{{ code }}{% endblock %}
+{% block page_title %}{{ module.code }} — {{ module.name|default:module.title }}{% endblock %}
 
 {% block content %}
 
-<!-- create section for basic module info -->
+<!-- Basic module information -->
 <div class="section module-info">
-    <p><strong>Lecturer:</strong> {{ module.lecturer }} &middot; <strong>Credits:</strong> {{ module.credits }}</p>
-    <p class="module-description">{{ module.description }}</p>
+    <p class="module-meta">
+        Semester {{ module.semester }} · {{ module.academic_year }}
+    </p>
+
+    <p>
+        <strong>Lecturer:</strong> {{ module.lecturer|default:"TBC" }}
+        &middot;
+        <strong>Credits:</strong> {{ module.credits|default:"—" }}
+    </p>
+
+    <p class="module-description">
+        {{ module.description|default:"No description available for this module yet." }}
+    </p>
 </div>
 
-<!-- create section for assignments info -->
+<!-- Assignments for this module -->
 <div class="section">
-     <h2>Assignments</h2>
-     <!-- table to display assignment info for that module -->
-     <table class="data-table">
-          <thead>
-               <tr>
+    <h2>Assignments</h2>
+
+    {% if assignments %}
+        <table class="data-table">
+            <thead>
+                <tr>
                     <th>Title</th>
                     <th>Weight</th>
                     <th>Type</th>
                     <th>Due Date</th>
-               </tr>
-          </thead>
-          <tbody>
-          {% for assignment in assignments %}
-          <tr>
-               <td>{{ assignment.title }}</td>
-               <td>{{ assignment.weight }}</td>
-               <td>{{ assignment.assignment_type }}</td>
-               <td>{{ assignment.due_date }}</td>
-          </tr>
-          {%endfor%}
-          </tbody>
-     </table>
+                </tr>
+            </thead>
+            <tbody>
+                {% for assignment in assignments %}
+                <tr>
+                    <td>{{ assignment.title }}</td>
+                    <td>{{ assignment.weight }}%</td>
+                    <td>{{ assignment.assignment_type }}</td>
+                    <td>{{ assignment.due_date|date:"D d M Y" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No assignments added for this module yet.</p>
+    {% endif %}
 </div>
 
+<!-- Weekly materials for this module -->
+<div class="section">
+    <h2>Materials</h2>
 
-
+    {% if weeks %}
+        {% for week in weeks %}
+            <details class="week-block">
+                <summary>Week {{ week.number }} — {{ week.title }}</summary>
+                <ul class="materials-list">
+                    {% for material in week.materials.all %}
+                        <li>
+                            <a href="{{ material.file.url }}">{{ material.title }}</a>
+                        </li>
+                    {% empty %}
+                        <li>No materials uploaded for this week.</li>
+                    {% endfor %}
+                </ul>
+            </details>
+        {% endfor %}
+    {% else %}
+        <p>No teaching weeks added for this module yet.</p>
+    {% endif %}
+</div>
 
 {% endblock %}

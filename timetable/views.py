@@ -190,7 +190,8 @@ def timetable_view(request):
 
     # Upcoming deadlines (next 5)
     deadlines = Assignment.objects.filter(
-        due_date__gte=today
+        module__students=request.user,
+        due_date__gte=today,
     ).select_related('module').order_by('due_date')[:5]
 
     return render(request, 'timetable/timetable.html', {

@@ -13,9 +13,15 @@
         <nav class="sidebar">
             <div class="sidebar-top">
                 <div class="sidebar-brand">
-                    <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="sidebar-logo">
-                    <div class="logo">Uni Tracker</div>
+                    <a href="{% url 'dashboard:dashboard' %}" class="app-logo-link">
+                        <img src="{% static 'images/uni_tracker_logo.png' %}" alt="Uni Tracker" class="app-logo">
+                    </a>
+                    <span class="logo">Uni Tracker</span>
                 </div>
+                <div class="sidebar-divider"></div>
+                <a href="https://my.liverpool.ac.uk/" target="_blank" rel="noopener noreferrer" class="sidebar-university">
+                    <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="university-logo">
+                </a>
 
                 <ul class="nav-links">
                     <li><a href="{% url 'dashboard:dashboard' %}" class="{% block nav_dashboard %}{% endblock %}">
@@ -44,14 +50,13 @@
             <div class="sidebar-bottom">
                 {% if user.is_authenticated %}
                     <div class="user-info">
-                        <div class="user-avatar">{{ user.first_name|first }}{{ user.last_name|first }}</div>
+                        <a href="{% url 'settings_page:settings' %}" class="user-avatar" title="Settings">
+                            {{ user.first_name|first }}{{ user.last_name|first }}
+                        </a>
                         <div class="user-details">
-                            <div class="user-name">{{ user.get_full_name|default:user.username }}</div>
+                            <a href="{% url 'settings_page:settings' %}" class="user-name">{{ user.userprofile.course|default:"My Course" }}</a>
                             <a href="{% url 'accounts:logout' %}" class="logout-link">Logout</a>
                         </div>
-                        <a href="{% url 'settings_page:settings' %}" class="settings-icon" title="Settings">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-                        </a>
                     </div>
                 {% else %}
                     <a href="{% url 'accounts:login' %}" class="login-link">Login</a>

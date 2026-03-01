@@ -12,16 +12,32 @@
         <!-- Sidebar -->
         <nav class="sidebar">
             <div class="sidebar-top">
-                <div class="logo">Uni Tracker</div>
-                <div class="university">University of Liverpool</div>
+                <div class="sidebar-brand">
+                    <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="sidebar-logo">
+                    <div class="logo">Uni Tracker</div>
+                </div>
 
                 <ul class="nav-links">
-                    <li><a href="{% url 'dashboard:dashboard' %}" class="{% block nav_dashboard %}{% endblock %}">Dashboard</a></li>
-                    <li><a href="{% url 'modules:module_list' %}" class="{% block nav_modules %}{% endblock %}">Modules</a></li>
-                    <li><a href="{% url 'timetable:timetable' %}" class="{% block nav_timetable %}{% endblock %}">Timetable</a></li>
-                    <li><a href="{% url 'grades:grades' %}" class="{% block nav_grades %}{% endblock %}">Grades</a></li>
-                    <li><a href="#" class="{% block nav_notifications %}{% endblock %}">Notifications</a></li>
-                    <li><a href="{% url 'settings_page:settings' %}" class="{% block nav_settings %}{% endblock %}">Settings</a></li>
+                    <li><a href="{% url 'dashboard:dashboard' %}" class="{% block nav_dashboard %}{% endblock %}">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                        Dashboard
+                    </a></li>
+                    <li><a href="{% url 'modules:module_list' %}" class="{% block nav_modules %}{% endblock %}">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                        Modules
+                    </a></li>
+                    <li><a href="{% url 'timetable:timetable' %}" class="{% block nav_timetable %}{% endblock %}">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        Timetable
+                    </a></li>
+                    <li><a href="{% url 'grades:grades' %}" class="{% block nav_grades %}{% endblock %}">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                        Grades
+                    </a></li>
+                    <li><a href="#" class="{% block nav_notifications %}{% endblock %}">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                        Notifications
+                    </a></li>
                 </ul>
             </div>
 
@@ -33,6 +49,9 @@
                             <div class="user-name">{{ user.get_full_name|default:user.username }}</div>
                             <a href="{% url 'accounts:logout' %}" class="logout-link">Logout</a>
                         </div>
+                        <a href="{% url 'settings_page:settings' %}" class="settings-icon" title="Settings">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                        </a>
                     </div>
                 {% else %}
                     <a href="{% url 'accounts:login' %}" class="login-link">Login</a>

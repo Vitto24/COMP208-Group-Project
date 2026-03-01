@@ -33,16 +33,45 @@ body {
     overflow-y: auto;
 }
 
+.sidebar-brand {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sidebar-logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
 .logo {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 4px;
 }
 
-.university {
-    font-size: 12px;
+.nav-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.settings-icon {
+    margin-left: auto;
     color: #94a3b8;
-    margin-bottom: 32px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.settings-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.settings-icon:hover {
+    color: #fff;
 }
 
 .nav-links {
@@ -54,7 +83,9 @@ body {
 }
 
 .nav-links a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding: 10px 12px;
     color: #cbd5e1;
     text-decoration: none;

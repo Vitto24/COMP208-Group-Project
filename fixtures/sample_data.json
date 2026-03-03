@@ -62,7 +62,7 @@
             "academic_year": "2025/26",
             "department": "Computer Science",
             "year": 2,
-            "students": [1]
+            "students": [1, 3]
         }
     },
     {
@@ -78,7 +78,7 @@
             "academic_year": "2025/26",
             "department": "Computer Science",
             "year": 2,
-            "students": [1]
+            "students": [1, 3]
         }
     },
     {
@@ -1745,5 +1745,42 @@
     {"model": "timetable.timetableentry", "pk": 29, "fields": {"student": 1, "module": 6, "day": "FRI", "start_time": "12:00:00", "end_time": "13:00:00", "room": "Sherrington Lecture Theatre 2", "event_type": "Lecture", "semester": 1, "weeks": "1-10"}},
     {"model": "timetable.timetableentry", "pk": 30, "fields": {"student": 1, "module": 7, "day": "FRI", "start_time": "13:30:00", "end_time": "14:30:00", "room": "George Holt Building, H1.05", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "1-10"}},
     {"model": "timetable.timetableentry", "pk": 31, "fields": {"student": 1, "module": 9, "day": "FRI", "start_time": "15:00:00", "end_time": "16:00:00", "room": "George Holt Building, H1.16/1.17", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "2-10"}},
-    {"model": "timetable.timetableentry", "pk": 32, "fields": {"student": 1, "module": 6, "day": "FRI", "start_time": "16:30:00", "end_time": "17:30:00", "room": "George Holt Building, H1.05", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "2-10"}}
+    {"model": "timetable.timetableentry", "pk": 32, "fields": {"student": 1, "module": 6, "day": "FRI", "start_time": "16:30:00", "end_time": "17:30:00", "room": "George Holt Building, H1.05", "event_type": "PC Teaching Centre", "semester": 1, "weeks": "2-10"}},
+
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "student2",
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "email": "student2@liverpool.ac.uk",
+            "password": "pbkdf2_sha256$870000$70i95r7r6OyTQLoqEg3EiC$Kd/bb3F41c0PeJ0DTUd9WCBWJZarv+13wZlSzfnnQZ0=",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "role": "student",
+            "university": "University of Liverpool",
+            "course": "Computer Science",
+            "year_of_study": 2
+        }
+    },
+    {
+        "model": "grades.grade",
+        "pk": 3,
+        "fields": {
+            "student": 3,
+            "assignment": 4,
+            "score": "68.0",
+            "status": "graded"
+        }
+    },
+    {"model": "timetable.timetableentry", "pk": 34, "fields": {"student": 3, "module": 2, "day": "MON", "start_time": "09:00:00", "end_time": "12:00:00", "room": "", "event_type": "Drop-in", "semester": 2, "weeks": "1-8,9-12"}}
 ]

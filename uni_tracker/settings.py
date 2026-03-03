@@ -68,6 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'uni_tracker.context_processors.semester_info',
             ],
         },
     },
@@ -126,7 +127,7 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 
 # Auth redirects
 LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/accounts/login/'
 LOGIN_URL = '/accounts/login/'
 
 # Fixture directories

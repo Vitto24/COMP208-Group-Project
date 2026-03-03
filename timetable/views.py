@@ -4,6 +4,10 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from grades.models import Assignment
 from .models import TimetableEntry
+from .utils import (
+    TERM_BLOCKS, get_week_monday, get_current_week,
+    get_term_info, get_max_week, parse_weeks, get_current_semester,
+)
 
 DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI']
 DAY_NAMES = {
@@ -12,77 +16,10 @@ DAY_NAMES = {
 }
 DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
 
-# UoL 2025/26 term blocks: (first_week_num, monday_date, num_weeks, label)
-TERM_BLOCKS = {
-    1: [
-        (1, datetime.date(2025, 9, 22), 12, 'Teaching'),
-    ],
-    2: [
-        (1, datetime.date(2026, 1, 26), 8, 'Teaching'),
-        (9, datetime.date(2026, 4, 13), 4, 'Teaching'),
-    ],
-}
-
-
-def get_week_monday(semester, week_num):
-    """Return the Monday date for a given semester week number."""
-    for block_start, block_monday, num_weeks, _ in TERM_BLOCKS[semester]:
-        block_end = block_start + num_weeks - 1
-        if block_start <= week_num <= block_end:
-            return block_monday + datetime.timedelta(weeks=week_num - block_start)
-    return None
-
-
-def get_current_week(semester):
-    """Return the current week number for the semester, or 1 if outside term."""
-    today = datetime.date.today()
-    for block_start, block_monday, num_weeks, _ in TERM_BLOCKS[semester]:
-        block_end_date = block_monday + datetime.timedelta(weeks=num_weeks)
-        if block_monday <= today < block_end_date:
-            return block_start + (today - block_monday).days // 7
-    return 1
-
-
-def get_term_info(semester, week_num):
-    """Return term period info for the banner display."""
-    for block_start, block_monday, num_weeks, label in TERM_BLOCKS[semester]:
-        block_end = block_start + num_weeks - 1
-        if block_start <= week_num <= block_end:
-            end_friday = block_monday + datetime.timedelta(weeks=num_weeks - 1, days=4)
-            return {
-                'label': label,
-                'start': block_monday,
-                'end': end_friday,
-                'total_weeks': num_weeks,
-                'week_in_block': week_num - block_start + 1,
-            }
-    return None
-
-
-def get_max_week(semester):
-    """Return the maximum week number for a semester."""
-    last = TERM_BLOCKS[semester][-1]
-    return last[0] + last[2] - 1
-
-
-def parse_weeks(weeks_str):
-    """Parse weeks string like '1-8,9-12' into a set of week numbers."""
-    if not weeks_str:
-        return set()
-    result = set()
-    for part in weeks_str.split(','):
-        part = part.strip()
-        if '-' in part:
-            start, end = part.split('-', 1)
-            result.update(range(int(start), int(end) + 1))
-        else:
-            result.add(int(part))
-    return result
-
 
 @login_required
 def timetable_view(request):
-    semester = 2  # TODO: make this dynamic
+    semester = get_current_semester()
 
     # Week navigation
     current_week = get_current_week(semester)
@@ -190,7 +127,8 @@ def timetable_view(request):
 
     # Upcoming deadlines (next 5)
     deadlines = Assignment.objects.filter(
-        due_date__gte=today
+        module__students=request.user,
+        due_date__gte=today,
     ).select_related('module').order_by('due_date')[:5]
 
     return render(request, 'timetable/timetable.html', {

@@ -35,3 +35,10 @@
     color: #64748b;
     margin-bottom: 32px;
 }
+.dropdown-arrow {
+    display: inline-block;
+    transform: rotate(0deg);
+}
+details[open] > summary .dropdown-arrow {
+    transform: rotate(90deg);
+}

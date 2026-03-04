@@ -787,3 +787,146 @@ body {
     border-radius: 10px;
     margin-left: 4px;
 }
+
+/* Dashboard style for My Module section */
+
+.module-row {
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-auto-rows: 1fr;
+}
+
+.module-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 240px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: box-shadow 0.15s;
+}
+
+.module-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.module-code {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.module-credits {
+    color: #888;
+    font-size: 0.85em;
+}
+
+.module-name {
+    margin: 0 0 15px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.badge-due {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.module-icon {
+    font-size: 1.5em;
+}
+
+/* Dashboard Upcoming deadlines style */
+
+.deadlines-section {
+    margin-top: 40px;
+}
+
+.deadlines-title {
+    margin-bottom: 15px;
+}
+
+.deadline-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+.deadline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 16px 20px;
+    transition: box-shadow 0.15s;
+}
+
+.deadline-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.deadline-info {
+    display: flex;
+    align-items: center;
+}
+
+.warning-icon {
+    color: #d97706;
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+.icon-spacer {
+    width: 25px;
+}
+
+.deadline-module-code {
+    font-weight: 600;
+    width: 100px;
+    color: #333;
+}
+
+.deadline-title {
+    color: #444;
+}
+
+.deadline-date {
+    font-family: monospace;
+    font-size: 1.05em;
+    color: #666;
+}
+
+.deadline-date.due-soon {
+    color: #d97706;
+    font-weight: bold;
+}
+
+.empty-deadlines {
+    padding: 20px;
+    color: #666;
+}
+
+.deadline-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-title {
+    margin-bottom: 25px;
+    color: #333;
+}

@@ -15,6 +15,7 @@ def dashboard(request):
 
     now = timezone.now()
     warning_cutoff = now + timedelta(days=DEADLINE_WARNING_DAYS)
+    due_soon_cutoff = now + timedelta(days=DUE_SOON_DAYS)
 
     assignments = Assignment.objects.filter(
         module__students=request.user,
@@ -24,5 +25,6 @@ def dashboard(request):
         'modules': modules,
         'assignments': assignments,
         'warning_cutoff': warning_cutoff,
+        'due_soon_cutoff': due_soon_cutoff,
         'now': now,
     })

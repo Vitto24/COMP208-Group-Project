@@ -7,63 +7,82 @@
 {% block content %}
 <div class="dashboard-section">
     <h2 class="section-title">My Modules</h2>
-    <div class="module-row" style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 30px;">
+    <div class="module-row">
         {% for module in modules %}
-        <div class="module-card" style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 16px; width: 240px; background-color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-            <div class="card-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                <span class="module-code" style="font-weight: bold; font-size: 1.1em;">{{ module.code }}</span>
-                <span class="module-credits" style="color: #888; font-size: 0.85em;">{{ module.credits }} credits</span>
+        <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
+            <div class="card-header">
+                <div class="header-text">
+                    <span class="module-code">{{ module.code }}</span>
+                    <span class="module-credits">{{ module.credits }} credits</span>
+                </div>
+                <span class="module-icon">
+                    {% if module.code == 'COMP202' %}📊
+                    {% elif module.code == 'COMP208' %}🔎
+                    {% elif module.code == 'COMP284' %}💻
+                    {% elif module.code == 'COMP285' %}⚙️
+                    {% elif module.code == 'ULMS254' %}💡
+                    {% else %}📘{% endif %}
+                </span>
             </div>
-            <h3 class="module-name" style="margin: 0 0 15px 0; font-size: 1em; color: #333;">{{ module.name }}</h3>
+            <h3 class="module-name">{{ module.name }}</h3>
             
             {% for assignment in assignments %}
                 {% if assignment.module == module and assignment.due_date <= warning_cutoff %}
-                    <span class="badge-due" style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.8em; font-weight: bold;">Due soon</span>
+                    <span class="badge-red">Urgent</span>
+                {% elif assignment.due_date <= due_soon_cutoff %}
+                    <span class= "badge-amber">Due soon</span>
                 {% endif %}
             {% endfor %}
-        </div>
+        </a>
         {% endfor %}
     </div>
 </div>
 
-<div class="dashboard-section" style="margin-top: 40px;">
-    <h2 class="section-title" style="margin-bottom: 15px;">Upcoming Deadlines</h2>
+<div class="dashboard-section">
+    <h2 class="section-title">Upcoming Deadlines</h2>
     
-    <div class="deadline-container" style="background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: 1px solid #e0e0e0;">
+    <div class="deadline-container">
         
         {% for assignment in assignments %}
-        <div class="deadline-item" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; padding: 16px 20px;">
+        <div class="deadline-item">
             
-            <div class="deadline-info" style="display: flex; align-items: center;">
+            <div class="deadline-info">
                 {% if assignment.due_date <= warning_cutoff %}
-                    <span style="color: #d97706; margin-right: 15px; font-size: 1.1em;">⚠️</span>
+                    <span class = "warning-icon text-red">🔴</span>
+                {% elif assignment.due_date <= due_soon_cutoff %}
+                    <span class="warning-icon text-amber">⚠️</span>
                 {% else %}
-                    <span style="width: 25px; display: inline-block;"></span>
+                    <span class="icon-spacer"></span>
                 {% endif %}
-                
-                <span style="font-weight: 600; width: 100px; color: #333;">{{ assignment.module.code }}</span>
-                <span style="color: #444;">{{ assignment.title }}</span>
+                <a href="{% url 'modules:module_detail' assignment.module.code %}" class="deadline-link">
+                    <span class="deadline-module-code">{{ assignment.module.code }}</span>
+                    <span class="deadline-title">{{ assignment.title }}</span>
+                </a>
             </div>
             
             {% if assignment.due_date %}
                 {% if assignment.due_date <= warning_cutoff %}
-                    <div class="deadline-date" style="font-family: monospace; font-size: 1.05em; color: #d97706; font-weight: bold;">
+                    <div class="deadline-date text-red">
+                        {{ assignment.due_date|date:"D d M" }}
+                    </div>
+                {% elif assignment.due_date <= due_soon_cutoff%}
+                    <div class="deadline-date text-amber">
                         {{ assignment.due_date|date:"D d M" }}
                     </div>
                 {% else %}
-                    <div class="deadline-date" style="font-family: monospace; font-size: 1.05em; color: #666;">
+                    <div class="deadline-date">
                         {{ assignment.due_date|date:"D d M" }}
                     </div>
                 {% endif %}
             {% else %}
-                <div class="deadline-date" style="font-family: monospace; font-size: 1.05em; color: #666;">
+                <div class="deadline-date">
                     TBC
                 </div>
             {% endif %}
             
         </div>
         {% empty %}
-        <div style="padding: 20px; color: #666;">No upcoming deadlines!</div>
+        <div class="empty-deadlines">No upcoming deadlines!</div>
         {% endfor %}
         
     </div>

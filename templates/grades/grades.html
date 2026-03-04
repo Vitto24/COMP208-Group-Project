@@ -1,40 +1,98 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Grades — Uni Tracker{% endblock %}
 {% block nav_grades %}active{% endblock %}
 {% block page_title %}Grades{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/grades.css' %}">
+{% endblock %}
+
 {% block content %}
+<div class="content">
 
-<h2>My Grades</h2>
+    <h2 style="font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e293b;">Overview</h2>
+    
+    <div class="overview-grid">
+        <div class="stat-box-custom">
+            <div class="stat-big-number">x%</div>
+            <div class="stat-title">Semester Average</div>
+            <div class="stat-subtitle">a of b Graded</div>
+        </div>
+        <div class="stat-box-custom">
+            <div class="stat-big-number">y%</div>
+            <div class="stat-title">Year Average</div>
+            <div class="stat-subtitle">a of b Graded</div>
+        </div>
+        <div class="stat-box-custom">
+            <div class="stat-big-number">z%</div>
+            <div class="stat-title">Degree Projection</div>
+            <div class="stat-subtitle">Some Grade</div>
+        </div>
+        <div class="stat-box-custom">
+            <div class="stat-big-number">x/y</div>
+            <div class="stat-title">Credits Completed</div>
+            <div class="stat-subtitle">Semester 2: x/y</div>
+        </div>
+    </div>
+    
+    <div class="degree-weighting">
+        Degree Weighting: Year 1 (x Credits) + Year 2 (y Credits) + Year 3 (z Credits)
+    </div>
 
+    <h2 style="font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e293b;">Assignment Grades</h2>
 
-{% for item in module_data %}
-    <details class="section">
-        <summary style="cursor: pointer;">
-            {{ item.module.code }}: {{ item.module.name }} - Overall Grade: <strong>{{ item.overall_grade }}%</strong>
-        </summary>
+    {% for item in module_data %}
+    <div class="card" style="padding: 0; margin-bottom: 16px; overflow: hidden; border-radius: 8px;">
         
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th>Assignment</th>
-                    <th>Weight</th>
-                    <th>Mark</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for grade in item.grades %}
-                <tr>
-                    <td>{{ grade.assignment.title }}</td>
-                    <td>{{ grade.assignment.weight }}%</td>
-                    <td><strong>{{ grade.score }}%</strong></td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </details>
-{% endfor %}
+        <details {% if forloop.first %}open{% endif %}>
+            <summary style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; cursor: pointer; list-style: none; background: #fff; border-bottom: 1px solid #f1f5f9;">
+                <div style="display: flex; gap: 12px; align-items: baseline;">
+                    <strong style="font-size: 15px; color: #1e293b;">{{ item.module.code }}</strong>
+                    <span style="color: #475569; font-size: 14px;">{{ item.module.name }}</span>
+                    <span style="color: #94a3b8; font-size: 12px;">{{ item.module.credits }} credits</span>
+                </div>
+                <div style="font-size: 14px; font-weight: 700; color: #1e293b;">
+                    Avg: {{ item.overall_grade }}%
+                </div>
+            </summary>
 
+            <table class="data-table" style="border: none; margin: 0; border-radius: 0;">
+                <tbody>
+                    {% for grade in item.grades %}
+                    <tr style="border-bottom: 1px solid #f1f5f9;">
+                        <td style="width: 40%; padding: 16px 24px 16px 48px; border: none;">
+                            <strong style="color: #1e293b; font-size: 14px;">{{ grade.assignment.title }}</strong>
+                        </td>
+                        <td style="width: 25%; color: #64748b; font-size: 13px; border: none;">
+                            {{ grade.assignment.weight }}% · {{ grade.assignment.type|title }}
+                        </td>
+                        <td style="width: 15%; text-align: right; border: none;">
+                            {% if grade.score %}
+                                <span style="background: #e6ffed; color: #16a34a; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">
+                                    {{ grade.score }}%
+                                </span>
+                            {% else %}
+                                <span style="background: #fffbeb; color: #d97706; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">
+                                    Not Submitted
+                                </span>
+                            {% endif %}
+                        </td>
+                        <td style="width: 20%; text-align: right; color: #94a3b8; font-size: 13px; padding-right: 24px; border: none;">
+                            {% if grade.assignment.due_date %}
+                                {{ grade.assignment.due_date|date:"D j M" }}
+                            {% else %}
+                                TBC
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </details>
+    </div>
+    {% endfor %}
 
+</div>
 {% endblock %}

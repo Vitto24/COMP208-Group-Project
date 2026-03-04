@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.utils import timezone
 from modules.models import Module
-from grades.models import Grade, Assignment # <-- Notice we imported Assignment here now!
+from grades.models import Grade, Assignment 
 
 @login_required
 def grades(request):

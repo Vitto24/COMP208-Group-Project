@@ -926,6 +926,34 @@ body {
     color: inherit;
 }
 
+.badge-red {
+    background-color: #fee2e2;
+    color: #dc2626;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.badge-amber {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.text-red {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.text-amber {
+    color: #d97706;
+    font-weight: bold;
+}
+
 .section-title {
     margin-bottom: 25px;
     color: #333;

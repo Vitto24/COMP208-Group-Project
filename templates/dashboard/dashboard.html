@@ -29,8 +29,8 @@
             {% for assignment in assignments %}
                 {% if assignment.module == module and assignment.due_date <= warning_cutoff %}
                     <span class="badge-red">Urgent</span>
-                {% elif assignment.due_date <= due_soon_cutoff %}
-                    <span class= "badge-amber">Due soon</span>
+                {% elif assignment.module == module and assignment.due_date <= due_soon_cutoff %}
+                    <span class="badge-amber">Due soon</span>
                 {% endif %}
             {% endfor %}
         </a>

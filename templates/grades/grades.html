@@ -1,40 +1,121 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Grades — Uni Tracker{% endblock %}
 {% block nav_grades %}active{% endblock %}
 {% block page_title %}Grades{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/grades.css' %}">
+{% endblock %}
+
 {% block content %}
+<div class="content">
 
-<h2>My Grades</h2>
+    <!-- Overview section -->
+    <h2 style="font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e293b;">Overview</h2>
+    
+    <div class="overview-grid">
+        <div class="stat-box-custom">
+            <div class="stat-big-number">x%</div>
+            <div class="stat-title">Semester Average</div>
+            <div class="stat-subtitle">a of b Graded</div>
+        </div>
+        <div class="stat-box-custom">
+            <div class="stat-big-number">y%</div>
+            <div class="stat-title">Year Average</div>
+            <div class="stat-subtitle">a of b Graded</div>
+        </div>
+        <div class="stat-box-custom">
+            <div class="stat-big-number">z%</div>
+            <div class="stat-title">Degree Projection</div>
+            <div class="stat-subtitle">Some Grade</div>
+        </div>
+        <div class="stat-box-custom">
+            <div class="stat-big-number">x/y</div>
+            <div class="stat-title">Credits Completed</div>
+            <div class="stat-subtitle">Semester 2: x/y</div>
+        </div>
+    </div>
+    <!-- Degree weighting info -->
+    <div class="degree-weighting">
+        Degree Weighting: Year 1 (x Credits) + Year 2 (y Credits) + Year 3 (z Credits)
+    </div>
 
+    <h2 style="font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e293b;">Assignment Grades</h2>
 
-{% for item in module_data %}
-    <details class="section">
-        <summary style="cursor: pointer;">
-            {{ item.module.code }}: {{ item.module.name }} - Overall Grade: <strong>{{ item.overall_grade }}%</strong>
-        </summary>
-        
-        <table class="data-table">
-            <thead>
-                <tr>
-                    <th>Assignment</th>
-                    <th>Weight</th>
-                    <th>Mark</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for grade in item.grades %}
-                <tr>
-                    <td>{{ grade.assignment.title }}</td>
-                    <td>{{ grade.assignment.weight }}%</td>
-                    <td><strong>{{ grade.score }}%</strong></td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </details>
-{% endfor %}
+    {% for year_data in grouped_data %}
+        <div style="margin-bottom: 32px;">
+            <h3 style="font-size: 15px; font-weight: 700; color: #475569; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px;">
+                Year {{ year_data.year }}
+            </h3>
 
+            {% for sem_data in year_data.semesters %}
+                <div style="margin-left: 12px; margin-bottom: 24px;">
+                    <details {% if forloop.parentloop.first and forloop.first %}open{% endif %}>
+                        <summary style="cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+                            <span class="dropdown-arrow" style="color: #94a3b8; font-size: 10px; transition: transform 0.2s ease;">▶</span>
+                            <h4 style="font-size: 12px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">
+                                Semester {{ sem_data.semester }}
+                            </h4>
+                        </summary>
 
+                    <div class="card" style="padding: 0; margin-bottom: 12px; overflow: hidden; border-radius: 8px;">
+                        {% for item in sem_data.modules %}
+                            <div style="{% if not forloop.last %}border-bottom: 1px solid #e2e8f0;{% endif %}">
+                                <details {% if forloop.parentloop.parentloop.first and forloop.parentloop.first and forloop.first %}open{% endif %}>
+                                    <summary style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; cursor: pointer; list-style: none; background: #fff; border-bottom: 1px solid #f1f5f9;">
+                                        <div style="display: flex; gap: 12px; align-items: baseline;">
+                                            <span class="dropdown-arrow" style="color: #1e293b; font-size: 12px; transition: transform 0.2s ease;">▶</span>
+                                            <strong style="font-size: 15px; color: #1e293b;">{{ item.module.code }}</strong>
+                                            <span style="color: #475569; font-size: 14px;">{{ item.module.name }}</span>
+                                            <span style="color: #94a3b8; font-size: 12px;">{{ item.module.credits }} credits</span>
+                                        </div>
+                                        <div style="font-size: 14px; font-weight: 700; color: #1e293b;">
+                                            Avg: {{ item.overall_grade }}%
+                                        </div>
+                                    </summary>
+
+                                    <table class="data-table" style="border: none; margin: 0; border-radius: 0; background: #fff;">
+                                        <tbody>
+                                            {% for grade in item.grades %}
+                                            <tr style="border-bottom: 1px solid #f1f5f9;">
+                                                <td style="width: 40%; padding: 16px 24px 16px 48px; border: none;">
+                                                    <strong style="color: #1e293b; font-size: 14px;">{{ grade.assignment.title }}</strong>
+                                                </td>
+                                                <td style="width: 25%; color: #64748b; font-size: 13px; border: none;">
+                                                    {{ grade.assignment.weight }}% · {{ grade.assignment.type|title }}
+                                                </td>
+                                                <td style="width: 15%; text-align: right; border: none;">
+                                                    
+                                                    {% if grade.score %}
+                                                        <span style="background: #e6ffed; color: #16a34a; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">{{ grade.score }}%</span>
+                                                    {% elif grade.assignment.due_date and grade.assignment.due_date < today %}
+                                                        <span style="background: #ffeef0; color: #cb2431; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">Missing</span>
+                                                    {% else %}
+                                                        <span style="background: #fffbeb; color: #d97706; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">Upcoming</span>
+                                                    {% endif %}
+
+                                                </td>
+                                                <td style="width: 20%; text-align: right; color: #94a3b8; font-size: 13px; padding-right: 24px; border: none;">
+                                                    {% if grade.assignment.due_date %}
+                                                        {{ grade.assignment.due_date|date:"D j M" }}
+                                                    {% else %}
+                                                        TBC
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </details>
+                            </div>    
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+</div>
 {% endblock %}

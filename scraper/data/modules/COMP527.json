@@ -1,0 +1,30 @@
+{
+  "code": "COMP527",
+  "name": "Data Mining and Visualisation",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr P Sen",
+  "description": "The module covers a range of topics and techniques for analyzing data. Students will learn about different types of data mining problems, including classification, clustering, association pattern mining, and social network analysis, as well as algorithms to solve them.\n\nStudents will program selected data mining algorithms from scratch using Python. This hands-on approach will allow them to gain a deeper understanding of how the algorithms work and how they can be applied to real-world datasets. They will experiment with different datasets to see how the algorithms perform and learn how to interpret the results.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp527",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP527_202526.htm"
+}

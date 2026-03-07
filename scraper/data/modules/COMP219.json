@@ -1,0 +1,30 @@
+{
+  "code": "COMP219",
+  "name": "Advanced Artificial Intelligence",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor X Huang",
+  "description": "This module will provide students with an introduction to the machine learning. It will contain traditional machine learning algorithms, deep learning algorithms, and probabilistic graphical models. Both theoretical knowledge and practical skills will be offered.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Assignment 2  Coding: Train Deep Learning Agents",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Assignement 1  Coding: Simple Machin Learning Model",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp219",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP219_202526.htm"
+}

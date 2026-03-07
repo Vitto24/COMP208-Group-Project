@@ -1,0 +1,30 @@
+{
+  "code": "COMP559",
+  "name": "Algorithmic Game Theory",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr GB Birmpas",
+  "description": "This module focuses on algorithmic aspects of game theory.\u00a0 A main focus of this module is on the computational aspects in the design of mechanisms and auctions.\u00a0 as part of the module, the students learn about Googles sponsored serarch auctions, which is one of the most successful targeted advertising systems today.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp559",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP559_202526.htm"
+}

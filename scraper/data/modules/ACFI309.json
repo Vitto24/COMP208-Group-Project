@@ -1,0 +1,23 @@
+{
+  "code": "ACFI309",
+  "name": "Financial Reporting 2",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr A Deller",
+  "description": "This module is designed to build upon the knowledge and skills gained in earlier financial reporting modules by covering the preparation of group financial statements including associates and joint ventures. It will also develop an understanding of group accounting principles and issues arising from group accounting including fair values, intangibles and impairment. The module also addresses other key accounting standards including those relating to leases, borrowing costs and related parties. The module should enable students to prepare complete single entity and consolidated financial statements, and extracts from those financial statements, covering a wide range of International Financial Reporting Standards (IFRS).Students will also be required to explain accounting and reporting concepts and ethical issues, and the application of IFRS to specified single entity or group scenarios.",
+  "prerequisites": [
+    "ACFI201",
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi309",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI309_202526.htm"
+}

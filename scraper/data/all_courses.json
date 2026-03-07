@@ -1,0 +1,3962 @@
+[
+  {
+    "name": "Academic Practice",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/academic-practice-ma-ap-online"
+  },
+  {
+    "name": "Accounting and Finance",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "N400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons"
+  },
+  {
+    "name": "Accounting and Finance",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-mres"
+  },
+  {
+    "name": "Accounting and Finance",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-msc"
+  },
+  {
+    "name": "Accounting and Finance with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "N401",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Actuarial Mathematics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "NG31",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/actuarial-mathematics-bsc-hons"
+  },
+  {
+    "name": "Actuarial Mathematics with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "NG30",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/actuarial-mathematics-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Acute, Critical and Emergency Care (ACE Care)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": null,
+    "duration": "1 year",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/acute-critical-and-emergency-care-ace-care-bsc-hons"
+  },
+  {
+    "name": "Adult Nursing with Registered Nurse Status",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/adult-nursing-with-registered-nurse-status"
+  },
+  {
+    "name": "Advanced Aerospace Engineering",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-aerospace-engineering-msc-eng"
+  },
+  {
+    "name": "Advanced Architecture",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/architecture-ma"
+  },
+  {
+    "name": "Advanced Architecture (BIM-Enhanced Design)",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-architecture-bim-enhanced-design-ma"
+  },
+  {
+    "name": "Advanced Architecture (Biodigital Design)",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-architecture-biodigital-design-ma"
+  },
+  {
+    "name": "Advanced Architecture (Computational Design and AI)",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-architecture-computational-design-and-ai-ma"
+  },
+  {
+    "name": "Advanced Architecture (Design and Digital Heritage)",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-architecture-design-and-digital-heritage-ma"
+  },
+  {
+    "name": "Advanced Computer Science",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-computer-science-msc"
+  },
+  {
+    "name": "Advanced Computer Science with a Year in Industry",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-computer-science-with-a-year-in-industry-msc"
+  },
+  {
+    "name": "Advanced Data Science and Artificial Intelligence",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-data-science-and-artificial-intelligence-msc"
+  },
+  {
+    "name": "Advanced Data Science and Artificial Intelligence with a Year in Industry",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-data-science-and-artificial-intelligence-with-a-year-in-industry-msc"
+  },
+  {
+    "name": "Advanced Manufacturing Systems and Technology",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-manufacturing-systems-and-technology-msc-eng"
+  },
+  {
+    "name": "Advanced Marketing",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-marketing-msc"
+  },
+  {
+    "name": "Advanced Mechanical Engineering",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-mechanical-engineering-msc-eng"
+  },
+  {
+    "name": "Advanced Practice in Healthcare",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/advanced-practice-in-healthcare-msc"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H425",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-beng-hons"
+  },
+  {
+    "name": "Aerospace Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H421",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-meng-hons"
+  },
+  {
+    "name": "Aerospace Engineering with a Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H426",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-with-a-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Aerospace Engineering with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H422",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Aerospace Engineering with Pilot Studies",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H401",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-with-pilot-studies-beng-hons"
+  },
+  {
+    "name": "Aerospace Engineering with Pilot Studies",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H402",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-with-pilot-studies-meng-hons"
+  },
+  {
+    "name": "Aerospace Engineering with Pilot Studies with a Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H403",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-with-pilot-studies-with-a-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Aerospace Engineering with Pilot Studies with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H404",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/aerospace-engineering-with-pilot-studies-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "AI for Digital Business",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/ai-for-digital-business-msc"
+  },
+  {
+    "name": "Anatomy and Human Biology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B110",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/anatomy-and-human-biology-bsc-hons"
+  },
+  {
+    "name": "Anatomy and Human Biology",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "B113",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/anatomy-and-human-biology-mbiol-hons"
+  },
+  {
+    "name": "Ancient History",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "V110",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/ancient-history-ba-hons"
+  },
+  {
+    "name": "Applied Linguistics and Teaching English to Speakers of Other Languages",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/applied-linguistics-and-teaching-english-to-speakers-of-other-languages-ma"
+  },
+  {
+    "name": "Applied Mathematics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G121",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/applied-mathematics-bsc-hons"
+  },
+  {
+    "name": "Applied Statistics and Data Science",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/applied-statistics-and-data-science-msc"
+  },
+  {
+    "name": "Archaeology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "V400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/archaeology-ba-hons"
+  },
+  {
+    "name": "Archaeology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "V402",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/archaeology-bsc-hons"
+  },
+  {
+    "name": "Archaeology",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archaeology-ma"
+  },
+  {
+    "name": "Archaeology",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archaeology-mres"
+  },
+  {
+    "name": "Archaeology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archaeology-msc"
+  },
+  {
+    "name": "Archaeology of Ancient Civilisations",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "V401",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/archaeology-of-ancient-civilisations-ba-hons"
+  },
+  {
+    "name": "Architectural Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HK26",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/architectural-engineering-beng-hons"
+  },
+  {
+    "name": "Architectural Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "HK28",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/architectural-engineering-meng-hons"
+  },
+  {
+    "name": "Architecture",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "K100",
+    "duration": "3 years leading to a 2 year Masters degree (MArch)",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons"
+  },
+  {
+    "name": "Architecture Design Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "K10D",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/architecture-design-studies-ba-hons"
+  },
+  {
+    "name": "Archives",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archives-mres"
+  },
+  {
+    "name": "Archives and Records Management",
+    "degree_type": "MARM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archives-and-records-management-marm"
+  },
+  {
+    "name": "Archives and Records Management",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archives-and-records-management-d-cps-online"
+  },
+  {
+    "name": "Archives and Records Management (Digital Pathway)",
+    "degree_type": "MARM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archives-and-records-management-digital-pathway-marm"
+  },
+  {
+    "name": "Archives and Records Management (International Pathway)",
+    "degree_type": "MARMI",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/archives-and-records-management-international-pathway-marmi"
+  },
+  {
+    "name": "Art, Philosophy and Cultural Institutions",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/art-philosophy-and-cultural-institutions-ma"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G702",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/artificial-intelligence-bsc"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/artificial-intelligence-msc-online"
+  },
+  {
+    "name": "Artificial Intelligence with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G703",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/artificial-intelligence-with-a-year-in-industry-bsc"
+  },
+  {
+    "name": "Astrophysics",
+    "degree_type": "MPhys (Hons)",
+    "ucas_code": "F521",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/astrophysics-mphys-hons"
+  },
+  {
+    "name": "Astrophysics with a Year Abroad",
+    "degree_type": "MPhys (Hons)",
+    "ucas_code": "F522",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/astrophysics-with-a-year-abroad-mphys-hons"
+  },
+  {
+    "name": "Basque Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/basque-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Big Data Analytics",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/big-data-analytics-msc-online"
+  },
+  {
+    "name": "Biochemistry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C700",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/biochemistry-bsc-hons"
+  },
+  {
+    "name": "Biochemistry",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "C703",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/biochemistry-mbiol-hons"
+  },
+  {
+    "name": "Bioinformatics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/bioinformatics-msc"
+  },
+  {
+    "name": "Biological and Biomedical Sciences",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/biological-and-biomedical-sciences-mres"
+  },
+  {
+    "name": "Biological Sciences",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons"
+  },
+  {
+    "name": "Biological Sciences",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "C103",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/biological-sciences-mbiol-hons"
+  },
+  {
+    "name": "Biological Sciences (with a Foundation Year)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C108",
+    "duration": "4 Years (1 + 3)",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/biological-sciences-with-a-foundation-year-leading-to-bsc-hons"
+  },
+  {
+    "name": "Biomedical Engineering",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/biomedical-engineering-msc-eng"
+  },
+  {
+    "name": "Biomedical Engineering (Healthcare)",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/biomedical-engineering-healthcare-msc-eng"
+  },
+  {
+    "name": "Biomedical Engineering with Management",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/biomedical-engineering-with-management-msc-eng"
+  },
+  {
+    "name": "Biomedical Engineering with Management (Healthcare)",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/biomedical-engineering-with-management-healthcare-msc-eng"
+  },
+  {
+    "name": "Biomedical Sciences",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C130",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/biomedical-sciences-bsc-hons"
+  },
+  {
+    "name": "Biomedical Sciences",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "C133",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/biomedical-sciences-mbiol-hons"
+  },
+  {
+    "name": "Biotechnology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/biotechnology-msc"
+  },
+  {
+    "name": "Bioveterinary Science",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "D900",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/bioveterinary-science-bsc-hons"
+  },
+  {
+    "name": "Bioveterinary Science",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "D903",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/bioveterinary-science-mbiol-hons"
+  },
+  {
+    "name": "Bovine Reproduction",
+    "degree_type": "MBR",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/bovine-reproduction-dbr"
+  },
+  {
+    "name": "Building Information Modelling and Digital Transformation",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/building-information-modelling-and-digital-transformation-msc"
+  },
+  {
+    "name": "Business Administration (Football Industries)",
+    "degree_type": "PGCert",
+    "ucas_code": null,
+    "duration": "9 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/business-administration-football-industries-pgcert"
+  },
+  {
+    "name": "Business Analytics and Big Data",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/business-analytics-and-big-data-msc"
+  },
+  {
+    "name": "Business Economics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "LN11",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/business-economics-ba-hons"
+  },
+  {
+    "name": "Business Economics with a Year in Industry",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "LN12",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/business-economics-with-a-year-in-industry-ba-hons"
+  },
+  {
+    "name": "Business Management",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "N100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons"
+  },
+  {
+    "name": "Business Management with a Year in Industry",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "N101",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/business-management-with-a-year-in-industry-ba-hons"
+  },
+  {
+    "name": "Business Psychology and Strategic People Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/business-psychology-and-strategic-people-management-msc"
+  },
+  {
+    "name": "Cancer Biology and Therapy",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/cancer-biology-and-therapy-msc"
+  },
+  {
+    "name": "Catalan",
+    "degree_type": "Combined degree",
+    "ucas_code": null,
+    "duration": "",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/catalan-combined-degree"
+  },
+  {
+    "name": "Catalan Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/catalan-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Certificate in Advanced Veterinary Practice",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/certificate-in-advanced-veterinary-practice-certavp"
+  },
+  {
+    "name": "Chemical Sciences BSc (Hons) (4 year route including a Foundation Year at Carmel College)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F108",
+    "duration": "4 years (1+3)",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/chemical-sciences-bsc-hons-4-year-route-including-a-foundation-year-at-carmel-college"
+  },
+  {
+    "name": "Chemistry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-bsc-hons"
+  },
+  {
+    "name": "Chemistry",
+    "degree_type": "MChem (Hons)",
+    "ucas_code": "F102",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-mchem-hons"
+  },
+  {
+    "name": "Chemistry for Sustainable Energy with AI",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-for-sustainable-energy-with-ai-msc"
+  },
+  {
+    "name": "Chemistry with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F001",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Chemistry with a Year Abroad",
+    "degree_type": "MChem (Hons)",
+    "ucas_code": "F002",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-with-a-year-abroad-mchem-hons"
+  },
+  {
+    "name": "Chemistry with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F111",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Chemistry with AI",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-with-ai-msc"
+  },
+  {
+    "name": "Chemistry with Research in Industry",
+    "degree_type": "MChem (Hons)",
+    "ucas_code": "F161",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/chemistry-with-research-in-industry-mchem-hons"
+  },
+  {
+    "name": "Chinese Studies",
+    "degree_type": "Combined degree",
+    "ucas_code": null,
+    "duration": "",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/chinese-studies-combined-degree"
+  },
+  {
+    "name": "Chinese Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/chinese-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Chinese-English Translation and Interpreting",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/chinese-english-translation-and-interpreting-ma"
+  },
+  {
+    "name": "Civil and Structural Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H220",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/civil-and-structural-engineering-meng-hons"
+  },
+  {
+    "name": "Civil Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H200",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons"
+  },
+  {
+    "name": "Civil Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H202",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/civil-engineering-meng-hons"
+  },
+  {
+    "name": "Civil Engineering with Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H203",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/civil-engineering-with-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Civil Engineering with Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H204",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/civil-engineering-with-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Classical Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q810",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/classical-studies-ba-hons"
+  },
+  {
+    "name": "Classics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q800",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/classics-ba-hons"
+  },
+  {
+    "name": "Classics and Ancient History",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/classics-and-ancient-history-ma"
+  },
+  {
+    "name": "Classics and Ancient History",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/classics-and-ancient-history-mres"
+  },
+  {
+    "name": "Climate Resilience and Environmental Sustainability in Architecture",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/climate-resilience-and-environmental-sustainability-in-architecture-msc"
+  },
+  {
+    "name": "Climate Science",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F764",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/climate-science-bsc-hons"
+  },
+  {
+    "name": "Clinical Anatomy with Education",
+    "degree_type": "PGCert",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/clinical-anatomy-with-education-pgcert"
+  },
+  {
+    "name": "Clinical and Health Psychology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "1 year",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/clinical-and-health-psychology-msc"
+  },
+  {
+    "name": "Clinical Education",
+    "degree_type": "PGCert",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/clinical-education-pgcert"
+  },
+  {
+    "name": "Clinical Sciences",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/clinical-sciences-mres"
+  },
+  {
+    "name": "Clinical Sciences",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/clinical-sciences-msc"
+  },
+  {
+    "name": "Communication and Media",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "P900",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/communication-and-media-ba-hons"
+  },
+  {
+    "name": "Communication and Media",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/communication-and-media-mres"
+  },
+  {
+    "name": "Communication and Media and Game Design Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "I619",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/communication-and-media-with-game-design-studies-ba-hons-2"
+  },
+  {
+    "name": "Communication, Media and Politics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "LP29",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/communication-media-and-politics-ba-hons"
+  },
+  {
+    "name": "Communication, Media and Popular Music",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "WN23",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/communication-media-and-popular-music-ba-hons-2"
+  },
+  {
+    "name": "Composition for Film, TV and Games",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/music-and-audiovisual-media-ma"
+  },
+  {
+    "name": "Computer Science",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons"
+  },
+  {
+    "name": "Computer Science",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "G401",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons"
+  },
+  {
+    "name": "Computer Science",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-msc"
+  },
+  {
+    "name": "Computer Science",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-msc-online"
+  },
+  {
+    "name": "Computer Science (Foundation) (4 year route with Carmel College)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G408",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons-foundation-4-year-route-with-carmel-college"
+  },
+  {
+    "name": "Computer Science and Electronic Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HH66",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-and-electronic-engineering-beng-hons"
+  },
+  {
+    "name": "Computer Science and Electronic Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "GHK6",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-and-electronic-engineering-meng-hons"
+  },
+  {
+    "name": "Computer Science and Electronic Engineering with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "GHKP",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-and-electronic-engineering-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Computer Science and Electronic Engineering with Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HG6L",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-and-electronic-engineering-with-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Computer Science with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G403",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Computer Science with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "G404",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Computer Science with a Year in Industry",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-with-year-in-industry-msc"
+  },
+  {
+    "name": "Computer Science with Software Development",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G610",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-with-software-development-bsc-hons"
+  },
+  {
+    "name": "Computer Science with Software Development with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G611",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-with-software-development-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Computer Science \u2013 Algorithms and Optimisation pathway",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons-algorithms-and-optimisation-pathway-2"
+  },
+  {
+    "name": "Computer Science \u2013 Artificial Intelligence pathway",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons-artificial-intelligence-pathway-2"
+  },
+  {
+    "name": "Computer Science \u2013 Cyber Security pathway",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons-cyber-security-pathway-2"
+  },
+  {
+    "name": "Computer Science \u2013 Data Science pathway",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G400",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons-data-science-pathway-2"
+  },
+  {
+    "name": "Creative and Critical Writing",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/creative-and-critical-writing-ma"
+  },
+  {
+    "name": "Criminological Research",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/criminological-research-mres"
+  },
+  {
+    "name": "Criminology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L311",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/criminology-ba-hons"
+  },
+  {
+    "name": "Criminology and Criminal Justice",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/criminology-and-criminal-justice-ma"
+  },
+  {
+    "name": "Criminology with Social Policy",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "T957",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/criminology-with-social-policy-ba-hons"
+  },
+  {
+    "name": "Criminology with Sociology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "T958",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/criminology-with-sociology-ba-hons"
+  },
+  {
+    "name": "Critical Care",
+    "degree_type": "PGCert",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/critical-care-pgcert"
+  },
+  {
+    "name": "Cyber Security",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/cyber-security-msc"
+  },
+  {
+    "name": "Cyber Security",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/cyber-security-msc-online"
+  },
+  {
+    "name": "Data Science and Analytics for Health",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/health-data-science-msc"
+  },
+  {
+    "name": "Data Science and Analytics for Society",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-and-analytics-for-society-msc"
+  },
+  {
+    "name": "Data Science and Artificial Intelligence",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-and-artificial-intelligence-msc"
+  },
+  {
+    "name": "Data Science and Artificial Intelligence",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-and-artificial-intelligence-msc-online"
+  },
+  {
+    "name": "Data Science and Artificial Intelligence with a Year in Industry",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-and-artificial-intelligence-with-a-year-in-industry-msc"
+  },
+  {
+    "name": "Data Science and Communication",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-and-communication-msc"
+  },
+  {
+    "name": "Data Science for Economics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-for-economics-msc"
+  },
+  {
+    "name": "Data Science for Health",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-for-health-mres"
+  },
+  {
+    "name": "Data Science for Health (Conversion)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/data-science-for-health-conversion-msc"
+  },
+  {
+    "name": "Dental Surgery",
+    "degree_type": "BDS",
+    "ucas_code": "A200",
+    "duration": "5 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/dental-surgery-bds"
+  },
+  {
+    "name": "Dental Therapy",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B750",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/dental-therapy-bsc-hons"
+  },
+  {
+    "name": "Diagnostic Radiography",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B821",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/diagnostic-radiography-bsc-hons"
+  },
+  {
+    "name": "Diagnostic Radiography (Pre-registration)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/diagnostic-radiography-pre-registration-msc"
+  },
+  {
+    "name": "Digital Chemistry: AI, Machine Learning, Automation and Robotics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/digital-chemistry-msc"
+  },
+  {
+    "name": "Digital Marketing",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/digital-marketing-msc-online"
+  },
+  {
+    "name": "Digital Marketing and Analytics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/digital-marketing-and-analytics-msc"
+  },
+  {
+    "name": "Digital Media, Data and Society",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/digital-media-data-and-society-ma"
+  },
+  {
+    "name": "Doctor of Clinical Psychology",
+    "degree_type": "DClinPsychol",
+    "ucas_code": null,
+    "duration": "36 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/doctor-of-clinical-psychology-dclinpsychol"
+  },
+  {
+    "name": "Drug Discovery with Artificial Intelligence",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/drug-discovery-with-artificial-intelligence-msc"
+  },
+  {
+    "name": "Earth, Environmental and Marine Sciences (4 year route including a Foundation Year at Carmel College)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F608",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/earth-sciences-entry-route-leading-to-bsc-hons-4-year-route-including-a-foundation-year-at-carmel-college"
+  },
+  {
+    "name": "Economic Policy and Data Analytics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/economic-policy-and-data-analytics-msc"
+  },
+  {
+    "name": "Economics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L102",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/economics-ba"
+  },
+  {
+    "name": "Economics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "L100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons"
+  },
+  {
+    "name": "Economics",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/economics-mres"
+  },
+  {
+    "name": "Economics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/economics-msc"
+  },
+  {
+    "name": "Economics and Finance",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/economics-and-finance-msc"
+  },
+  {
+    "name": "Economics with a Year in Industry",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L103",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/economics-with-a-year-in-industry-ba"
+  },
+  {
+    "name": "Economics with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "L101",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/economics-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Education",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/education-ma"
+  },
+  {
+    "name": "Egyptology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "V410",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/egyptology-ba-hons"
+  },
+  {
+    "name": "Egyptology",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/egyptology-ma"
+  },
+  {
+    "name": "Egyptology",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/egyptology-mres"
+  },
+  {
+    "name": "Electrical and Electronic Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H603",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/electrical-and-electronic-engineering-beng-hons"
+  },
+  {
+    "name": "Electrical and Electronic Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H606",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/electrical-and-electronic-engineering-meng-hons"
+  },
+  {
+    "name": "Electrical and Electronic Engineering with a Year Abroad",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H611",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/electrical-and-electronic-engineering-with-a-year-abroad-beng-hons"
+  },
+  {
+    "name": "Electrical and Electronic Engineering with a Year Abroad",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H615",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/electrical-and-electronic-engineering-with-a-year-abroad-meng-hons"
+  },
+  {
+    "name": "Electrical and Electronic Engineering with a Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H605",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/electrical-and-electronic-engineering-with-a-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Electrical and Electronic Engineering with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H607",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/electrical-and-electronic-engineering-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Electronic Engineering and the Internet of Things",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/electronic-engineering-and-the-internet-of-things-msc-eng"
+  },
+  {
+    "name": "Electronic Engineering and the Internet of Things with a Year in Industry",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/electronic-engineering-and-the-internet-of-things-with-a-year-in-industry-msc-eng"
+  },
+  {
+    "name": "Emerging Infections and Pandemics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/emerging-infections-and-pandemics"
+  },
+  {
+    "name": "Endodontics",
+    "degree_type": "DDSc",
+    "ucas_code": null,
+    "duration": "36 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/endodontics-ddsc"
+  },
+  {
+    "name": "Energy and Power Systems",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/energy-and-power-systems-msc-eng"
+  },
+  {
+    "name": "Energy and Power Systems with a Year in Industry",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/energy-and-power-systems-with-a-year-in-industry-msc-eng"
+  },
+  {
+    "name": "Engineering Foundation (4 year route including a Foundation Year at Carmel College)",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H109",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/engineering-foundation-beng-hons-4-year-route-including-a-foundation-year-at-carmel-college"
+  },
+  {
+    "name": "English",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q300",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/english-ba-hons"
+  },
+  {
+    "name": "English",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-mres"
+  },
+  {
+    "name": "English Language",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q310",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/english-language-ba-hons"
+  },
+  {
+    "name": "English Language",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-language-ma"
+  },
+  {
+    "name": "English Literature",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q320",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-ba-hons"
+  },
+  {
+    "name": "English Literature",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-ma"
+  },
+  {
+    "name": "English Literature with Drama Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q3W4",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-with-drama-studies-ba-hons"
+  },
+  {
+    "name": "English Literature: Modern and Contemporary Literature",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-modern-and-contemporary-literature-ma"
+  },
+  {
+    "name": "English Literature: Renaissance and Eighteenth-Century Literature",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-renaissance-and-eighteenth-century-literature-ma"
+  },
+  {
+    "name": "English Literature: Science Fiction Studies",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-science-fiction-studies-ma"
+  },
+  {
+    "name": "English Literature: Victorian Literature",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/english-literature-victorian-literature-ma"
+  },
+  {
+    "name": "English with World Literature",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q3V2",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/english-with-world-literature-ba-hons"
+  },
+  {
+    "name": "Entrepreneurship and Innovation",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/entrepreneurship-and-innovation-management-msc"
+  },
+  {
+    "name": "Environment and Climate Change",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/environment-and-climate-change-msc"
+  },
+  {
+    "name": "Environment and Planning",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "K4L7",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/environment-and-planning-ba-hons"
+  },
+  {
+    "name": "Environmental Assessment and Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/environmental-assessment-and-management-msc"
+  },
+  {
+    "name": "Environmental Geoscience",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F7F6",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/environmental-geoscience-bsc-hons"
+  },
+  {
+    "name": "Environmental Science",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F750",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/environmental-science-bsc-hons"
+  },
+  {
+    "name": "Environmental Sciences",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/environmental-sciences-msc"
+  },
+  {
+    "name": "eSports Business",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/esports-business-msc"
+  },
+  {
+    "name": "Evolutionary Anthropology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "V4B1",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/evolutionary-anthropology-bsc-hons"
+  },
+  {
+    "name": "Film Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "P303",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/film-studies-ba-hons"
+  },
+  {
+    "name": "Film Studies",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/film-studies-ma"
+  },
+  {
+    "name": "Film Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/film-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Finance",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/finance-msc"
+  },
+  {
+    "name": "Finance and Data Analytics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "N3I2",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/finance-and-data-analytics-bsc-hons"
+  },
+  {
+    "name": "Finance and Data Analytics with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "N3I4",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/finance-and-data-analytics-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Finance and Investment Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/finance-and-investment-management-msc"
+  },
+  {
+    "name": "Finance and Investment Management",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/finance-and-investment-management-msc-online"
+  },
+  {
+    "name": "Financial Computing",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "GN34",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/financial-computing-bsc-hons"
+  },
+  {
+    "name": "Financial Computing with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G3N4",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/financial-computing-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Financial Technology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/financial-technology-msc"
+  },
+  {
+    "name": "Foundation to Dental Therapy (Year 0)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "BAAW",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-dental-therapy-year-0"
+  },
+  {
+    "name": "Foundation to Dentistry (Year 0)",
+    "degree_type": "BDS",
+    "ucas_code": "0AAW",
+    "duration": "6 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-dentistry-year-0"
+  },
+  {
+    "name": "Foundation to Diagnostic Radiography (Year 0)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "4ASC",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-diagnostic-radiography-year-0"
+  },
+  {
+    "name": "Foundation to Medicine (Year 0)",
+    "degree_type": "MBChB",
+    "ucas_code": "789S",
+    "duration": "6 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-medicine-year-0"
+  },
+  {
+    "name": "Foundation to Nursing (Year 0)",
+    "degree_type": "BN (Hons)",
+    "ucas_code": "Y4AS",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-nursing-year-0"
+  },
+  {
+    "name": "Foundation to Occupational Therapy (Year 0)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "47OH",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-occupational-therapy-year-0"
+  },
+  {
+    "name": "Foundation to Orthoptics (Year 0)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "P0HG",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-orthoptics-year-0"
+  },
+  {
+    "name": "Foundation to Physiotherapy (Year 0)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "4RAD",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-physiotherapy-year-0"
+  },
+  {
+    "name": "Foundation to Therapeutic Radiography and Oncology (Year 0)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "0W21",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-therapeutic-radiography-oncology-year-0"
+  },
+  {
+    "name": "Foundation to Veterinary Science (Year 0)",
+    "degree_type": "BVSc",
+    "ucas_code": "74JJ",
+    "duration": "6 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/foundation-to-human-and-animal-health-professions-veterinary-science-year-0"
+  },
+  {
+    "name": "French",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "R120",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/french-ba-hons"
+  },
+  {
+    "name": "French Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/french-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Game Design",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "I610",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/game-design-bsc-hons"
+  },
+  {
+    "name": "Game Design",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/game-design-ma"
+  },
+  {
+    "name": "Geographic Data Science",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/geographic-data-science-msc"
+  },
+  {
+    "name": "Geography",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L700",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geography-ba-hons"
+  },
+  {
+    "name": "Geography",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F800",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons"
+  },
+  {
+    "name": "Geography and Oceanography",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "FF78",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geography-and-oceanography-bsc-hons"
+  },
+  {
+    "name": "Geography and Planning",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L7K4",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geography-and-planning-ba-hons"
+  },
+  {
+    "name": "Geography BSc (Hons) (4 year route including a foundation year at Carmel College)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F808",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons-4-year-route-including-a-foundation-year-at-carmel-college"
+  },
+  {
+    "name": "Geology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F600",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geology-bsc-hons"
+  },
+  {
+    "name": "Geology with Physical Geography",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F6F8",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/geology-with-physical-geography-bsc-hons"
+  },
+  {
+    "name": "German",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "R220",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/german-ba-hons"
+  },
+  {
+    "name": "German Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/german-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Global Change Ecology and Evolution",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/global-change-ecology-and-evolution-msc"
+  },
+  {
+    "name": "Global Healthcare Ethics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/global-healthcare-ethics-msc"
+  },
+  {
+    "name": "Global Healthcare Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/global-healthcare-management-msc"
+  },
+  {
+    "name": "Global Housing Design",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "1 year",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/global-housing-design-msc"
+  },
+  {
+    "name": "Global Media and Politics",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/media-and-politics-ma"
+  },
+  {
+    "name": "Global Urbanism and Heritage",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/global-urbanism-and-heritage-msc"
+  },
+  {
+    "name": "Green Finance and Sustainability Accounting",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/green-finance-and-sustainability-accounting-msc"
+  },
+  {
+    "name": "Health, Cultures and Societies",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/health-cultures-and-societies-ma"
+  },
+  {
+    "name": "Healthcare Leadership",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/healthcare-leadership-msc-online"
+  },
+  {
+    "name": "Hispanic Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "RR45",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/hispanic-studies-ba-hons"
+  },
+  {
+    "name": "Hispanic Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/hispanic-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "History",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "V100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/history-ba-hons"
+  },
+  {
+    "name": "History",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/history-ma"
+  },
+  {
+    "name": "History",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/history-mres"
+  },
+  {
+    "name": "Human Evolution",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/human-evolution-msc"
+  },
+  {
+    "name": "Human Resource Management and Strategic Organisation",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/human-resource-management-msc"
+  },
+  {
+    "name": "Infection and Immunity",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/infection-and-immunity-msc"
+  },
+  {
+    "name": "Infection, Microbiology and Microbiomes",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/infection-microbiology-and-microbiomes-mres"
+  },
+  {
+    "name": "Information Systems Management",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/information-systems-management-msc-online"
+  },
+  {
+    "name": "Information Technology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/information-technology-msc"
+  },
+  {
+    "name": "Information Technology with a Year in Industry",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/information-technology-with-a-year-in-industry-msc"
+  },
+  {
+    "name": "International Business",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-business-msc"
+  },
+  {
+    "name": "International Business and Commercial Law",
+    "degree_type": "LLM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-business-and-commercial-law-llm"
+  },
+  {
+    "name": "International Business and Strategy",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-business-strategy-msc"
+  },
+  {
+    "name": "International Business Law",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-business-law-llm-online"
+  },
+  {
+    "name": "International Human Resource Management",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-human-resource-management-msc-online"
+  },
+  {
+    "name": "International Human Rights Law",
+    "degree_type": "LLM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-human-rights-law-llm"
+  },
+  {
+    "name": "International Intellectual Property Law",
+    "degree_type": "LLM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-intellectual-property-law-llm"
+  },
+  {
+    "name": "International Management",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "N120",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/international-management-ba-hons"
+  },
+  {
+    "name": "International Management with a Year in Industry",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "N121",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/international-management-with-a-year-in-industry-ba-hons"
+  },
+  {
+    "name": "International Relations",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L240",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/international-relations-ba-hons"
+  },
+  {
+    "name": "International Relations and Security",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-relations-and-security-ma"
+  },
+  {
+    "name": "International Relations and Security",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-relations-and-security-mres"
+  },
+  {
+    "name": "International Slavery Studies",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/international-slavery-studies-ma"
+  },
+  {
+    "name": "Investigative and Forensic Psychology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/investigative-and-forensic-psychology-msc"
+  },
+  {
+    "name": "Irish Studies",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "Q540",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/irish-studies-ba-hons"
+  },
+  {
+    "name": "Irish Studies",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/irish-studies-mres"
+  },
+  {
+    "name": "Italian",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "R300",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/italian-ba-hons"
+  },
+  {
+    "name": "Italian Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/italian-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Law",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "M100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-llb-hons"
+  },
+  {
+    "name": "Law (General)",
+    "degree_type": "LLM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/law-general-llm"
+  },
+  {
+    "name": "Law (Graduate Entry)",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "M109",
+    "duration": "2 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-graduate-entry-llb-hons"
+  },
+  {
+    "name": "Law with a Year Abroad",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "M111",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-with-a-year-abroad-llb-hons"
+  },
+  {
+    "name": "Law with Business",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "T923",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-with-business-llb-hons"
+  },
+  {
+    "name": "Law with Criminology",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "T928",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-with-criminology-llb-hons"
+  },
+  {
+    "name": "Law with Philosophy",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "T944",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-with-philosophy-llb-hons"
+  },
+  {
+    "name": "Law with Politics",
+    "degree_type": "LLB (Hons)",
+    "ucas_code": "T945",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/law-with-politics-llb-hons"
+  },
+  {
+    "name": "Law, Medicine and Healthcare",
+    "degree_type": "LLM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/law-medicine-and-healthcare-llm"
+  },
+  {
+    "name": "Management",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/management-mres"
+  },
+  {
+    "name": "Management",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/management-msc-online"
+  },
+  {
+    "name": "Marine Biology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C160",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/marine-biology-bsc-hons"
+  },
+  {
+    "name": "Marine Biology with Oceanography",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C1F7",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/marine-biology-with-oceanography-bsc-hons"
+  },
+  {
+    "name": "Marketing",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "N500",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/marketing-ba-hons"
+  },
+  {
+    "name": "Marketing",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/marketing-msc"
+  },
+  {
+    "name": "Marketing with a Year in Industry",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "N501",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/marketing-with-a-year-in-industry-ba-hons"
+  },
+  {
+    "name": "Master in Management",
+    "degree_type": "MIM",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-in-management-mim"
+  },
+  {
+    "name": "Master of Architecture",
+    "degree_type": "MArch",
+    "ucas_code": null,
+    "duration": "2 years full-time",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-architecture-march"
+  },
+  {
+    "name": "Master of Business Administration",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-business-administration-online"
+  },
+  {
+    "name": "Master of Business Administration (Football Industries)",
+    "degree_type": "MBA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-business-administration-football-industries-mba"
+  },
+  {
+    "name": "Master of Business Administration (Online Football Industries)",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-business-administration-online-football-industries-mba"
+  },
+  {
+    "name": "Master of Business Administration (The Liverpool MBA)",
+    "degree_type": "MBA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-business-administration-mba"
+  },
+  {
+    "name": "Master of Public Health",
+    "degree_type": "MPH",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-public-health-mph"
+  },
+  {
+    "name": "Master of Public Health",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-public-health-mph-online"
+  },
+  {
+    "name": "Master of Public Health (Global Health Pathway)",
+    "degree_type": "MPH",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-public-health-global-pathway-mph"
+  },
+  {
+    "name": "Master of Public Health (Global Health Pathway)",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-public-health-global-health-pathway-mph-online"
+  },
+  {
+    "name": "Master of Public Health (Global Mental Health Pathway)",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-public-health-global-mental-health-pathway-mph-online"
+  },
+  {
+    "name": "Master of Public Health (Health Economics and Policy Pathway)",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/master-of-public-health-health-economics-and-policy-pathway-mph-online"
+  },
+  {
+    "name": "Mathematical Physics",
+    "degree_type": "MMath (Hons)",
+    "ucas_code": "FGH1",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mathematical-physics-mmath-hons"
+  },
+  {
+    "name": "Mathematical Physics with a Year Abroad",
+    "degree_type": "MMath (Hons)",
+    "ucas_code": "FGH2",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mathematical-physics-with-a-year-abroad-mmath-hons"
+  },
+  {
+    "name": "Mathematical Sciences",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc"
+  },
+  {
+    "name": "Mathematical Sciences BSc (Hons) (Foundation, 4 year route with Carmel College)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G108",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-entry-route-leading-to-bsc-hons-4-year-route-including-a-foundation-year-at-carmel-college"
+  },
+  {
+    "name": "Mathematics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G100",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons"
+  },
+  {
+    "name": "Mathematics",
+    "degree_type": "MMath (Hons)",
+    "ucas_code": "G101",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-mmath-hons"
+  },
+  {
+    "name": "Mathematics and Computer Science",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "GG14",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-computer-science-bsc-hons"
+  },
+  {
+    "name": "Mathematics and Computer Science with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "GG16",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-computer-science-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Mathematics and Economics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "GL11",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-economics-bsc-hons"
+  },
+  {
+    "name": "Mathematics and Music Technology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G1W3",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-music-technology-bsc-hons"
+  },
+  {
+    "name": "Mathematics and Philosophy",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "GV15",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-philosophy-ba-hons"
+  },
+  {
+    "name": "Mathematics and Statistics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "GG13",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-statistics-bsc-hons"
+  },
+  {
+    "name": "Mathematics and Statistics with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "GG03",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-and-statistics-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Mathematics with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G001",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Mathematics with a Year Abroad MMath",
+    "degree_type": "MMath (Hons)",
+    "ucas_code": "G002",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-with-a-year-abroad-mmath-hons"
+  },
+  {
+    "name": "Mathematics with Finance",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G1N3",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-with-finance-bsc-hons"
+  },
+  {
+    "name": "Mathematics with Finance with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G1N4",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-with-finance-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Mathematics with Languages",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G19R",
+    "duration": "3/4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-with-languages-bsc-hons"
+  },
+  {
+    "name": "Mathematics with Ocean and Climate Sciences",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "G1F7",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-with-ocean-and-climate-sciences-bsc-hons"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H300",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H301",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-meng-hons"
+  },
+  {
+    "name": "Mechanical Engineering Design with Management",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-design-with-management-msc-eng"
+  },
+  {
+    "name": "Mechanical Engineering with a Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "H302",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-with-a-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Mechanical Engineering with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "H303",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Mechanical Engineering with Management",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-with-management-msc-eng"
+  },
+  {
+    "name": "Mechatronics and Robotic Systems",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HH67",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mechatronics-and-robotic-systems-beng-hons"
+  },
+  {
+    "name": "Mechatronics and Robotic Systems",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "HH76",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mechatronics-and-robotic-systems-meng-hons"
+  },
+  {
+    "name": "Mechatronics and Robotic Systems with a Year Abroad",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HH68",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mechatronics-and-robotic-systems-with-a-year-abroad-beng-hons"
+  },
+  {
+    "name": "Mechatronics and Robotic Systems with a Year Abroad",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "HH77",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mechatronics-and-robotic-systems-with-a-year-abroad-meng-hons"
+  },
+  {
+    "name": "Mechatronics and Robotic Systems with Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HHP7",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/mechatronics-and-robotic-systems-with-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Mechatronics and Robotic Systems with Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "HHR6",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/mechatronics-and-robotic-systems-with-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Media and Culture",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "P3T9",
+    "duration": "3",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/media-and-culture-ba-hons"
+  },
+  {
+    "name": "Media, Data and Society",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "P3L9",
+    "duration": "3",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/media-data-and-society-ba-hons"
+  },
+  {
+    "name": "Medicinal Chemistry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F1B2",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/medicinal-chemistry-bsc-hons"
+  },
+  {
+    "name": "Medicinal Chemistry with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F12B",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/medicinal-chemistry-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Medicinal Chemistry with a Year in Industry",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F1B3",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/medicinal-chemistry-with-a-year-in-industry-bsc-hons"
+  },
+  {
+    "name": "Medicinal Chemistry with Pharmacology",
+    "degree_type": "MChem (Hons)",
+    "ucas_code": "F1BF",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/medicinal-chemistry-with-pharmacology-mchem-hons"
+  },
+  {
+    "name": "Medicinal Chemistry with Pharmacology with a Year Abroad",
+    "degree_type": "MChem (Hons)",
+    "ucas_code": "F1B1",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/medicinal-chemistry-with-pharmacology-with-a-year-abroad-mchem-hons"
+  },
+  {
+    "name": "Medicinal Chemistry with Pharmacology with Research in Industry",
+    "degree_type": "MChem (Hons)",
+    "ucas_code": "F1B4",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/medicinal-chemistry-with-pharmacology-with-research-in-industry-mchem-hons"
+  },
+  {
+    "name": "Medicine and Surgery",
+    "degree_type": "MBChB",
+    "ucas_code": "A100",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/medicine-and-surgery-mbchb"
+  },
+  {
+    "name": "Medicine and Surgery (Graduate Entry)",
+    "degree_type": "MBChB",
+    "ucas_code": "A101",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/medicine-and-surgery-graduate-entry-mbchb"
+  },
+  {
+    "name": "Medieval History",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/medieval-history-ma"
+  },
+  {
+    "name": "Mental Health Nursing with Registered Nurse Status",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/mental-health-nursing-with-registered-nurse-status-msc"
+  },
+  {
+    "name": "Mental Health Psychology",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/mental-health-psychology-msc-online"
+  },
+  {
+    "name": "Microbiology and Infection",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C500",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/microbiology-and-infection-bsc-hons"
+  },
+  {
+    "name": "Microbiology and Infection",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "C503",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/microbiology-and-infection-mbiol-hons"
+  },
+  {
+    "name": "Microelectronic Systems",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/microelectronic-systems-msc-eng"
+  },
+  {
+    "name": "Microelectronic Systems with a Year in Industry",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/microelectronic-systems-with-a-year-in-industry-msc-eng"
+  },
+  {
+    "name": "Modern Languages (Triple Subject)",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "T900",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/modern-languages-triple-subject-ba-hons"
+  },
+  {
+    "name": "Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Money, Banking and Financial Economics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/money-banking-and-financial-economics-msc"
+  },
+  {
+    "name": "Musculoskeletal Biomechanics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/musculoskeletal-biomechanics-msc"
+  },
+  {
+    "name": "Music",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "W300",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/music-ba-hons"
+  },
+  {
+    "name": "Music",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/music-mres"
+  },
+  {
+    "name": "Music and Popular Music",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "W301",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/music-and-popular-music-ba-hons"
+  },
+  {
+    "name": "Music and Technology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "W370",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/music-and-technology-ba-hons"
+  },
+  {
+    "name": "Music Industry Studies",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/music-industry-studies-ma"
+  },
+  {
+    "name": "Music Management",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/music-management-ma"
+  },
+  {
+    "name": "Music Performance and Education",
+    "degree_type": "MMus",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/performance-mmus"
+  },
+  {
+    "name": "Neuroscience",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/neuroscience-msc"
+  },
+  {
+    "name": "Nursing",
+    "degree_type": "BN (Hons)",
+    "ucas_code": "B700",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/nursing-bn-hons"
+  },
+  {
+    "name": "Nursing",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/nursing-msc"
+  },
+  {
+    "name": "Occupational and Organisational Psychology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/occupational-and-organisational-psychology-msc"
+  },
+  {
+    "name": "Occupational Therapy",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B920",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/occupational-therapy-bsc-hons"
+  },
+  {
+    "name": "Occupational Therapy (Pre-registration)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/occupational-therapy-pre-registration-msc"
+  },
+  {
+    "name": "Ocean Sciences",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F700",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/ocean-sciences-bsc-hons"
+  },
+  {
+    "name": "Operations and Supply Chain Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/operations-and-supply-chain-management-msc"
+  },
+  {
+    "name": "Ophthalmic Nursing",
+    "degree_type": "PGCert",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/ophthalmic-nursing-pgcert"
+  },
+  {
+    "name": "Organisational and Business Psychology",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/organisational-and-business-psychology-msc-online"
+  },
+  {
+    "name": "Orthodontics",
+    "degree_type": "DDSc",
+    "ucas_code": null,
+    "duration": "36 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/orthodontics-ddsc"
+  },
+  {
+    "name": "Orthoptics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B520",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/orthoptics-bsc-hons"
+  },
+  {
+    "name": "Orthoptics (Pre-registration)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/orthoptics-pre-registration-msc"
+  },
+  {
+    "name": "Paediatric Dentistry",
+    "degree_type": "DDSc",
+    "ucas_code": null,
+    "duration": "36 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/paediatric-dentistry-ddsc"
+  },
+  {
+    "name": "Palliative and End of Life Care",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/palliative-and-end-of-life-care-msc"
+  },
+  {
+    "name": "Pharmacology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B210",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/pharmacology-bsc-hons"
+  },
+  {
+    "name": "Pharmacology",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "B213",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/pharmacology-mbiol-hons"
+  },
+  {
+    "name": "Pharmacology and Toxicology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/pharmacology-and-toxicology-msc"
+  },
+  {
+    "name": "Pharmacy",
+    "degree_type": "MPharm",
+    "ucas_code": "B230",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/pharmacy-mpharm"
+  },
+  {
+    "name": "Philosophy",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "V500",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons"
+  },
+  {
+    "name": "Philosophy",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-ma"
+  },
+  {
+    "name": "Philosophy",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-mres"
+  },
+  {
+    "name": "Philosophy (Public Policy)",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-public-policy-ma"
+  },
+  {
+    "name": "Philosophy and Politics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "LV25",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-and-politics-ba-hons"
+  },
+  {
+    "name": "Philosophy, Politics and Economics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L0V0",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-politics-and-economics-ba-hons"
+  },
+  {
+    "name": "Philosophy, Politics and Economics with a Year in Industry",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L0V1",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/philosophy-politics-and-economics-with-a-year-in-industry-ba-hons"
+  },
+  {
+    "name": "Physical Sciences (4 year route including a Foundation Year at Carmel College)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F308",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physical-sciences-entry-route-leading-to-bsc-hons-4-year-route-including-a-foundation-year-at-carmel-college"
+  },
+  {
+    "name": "Physics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F300",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons"
+  },
+  {
+    "name": "Physics",
+    "degree_type": "MPhys (Hons)",
+    "ucas_code": "F303",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/physics-mphys-hons"
+  },
+  {
+    "name": "Physics and Mathematics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "FG31",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-and-mathematics-bsc-hons"
+  },
+  {
+    "name": "Physics and Mathematics with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "FG32",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-and-mathematics-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Physics with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F333",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Physics with a Year Abroad",
+    "degree_type": "MPhys (Hons)",
+    "ucas_code": "F309",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-a-year-abroad-mphys-hons"
+  },
+  {
+    "name": "Physics with Astronomy",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F3F5",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-astronomy-bsc-hons"
+  },
+  {
+    "name": "Physics with Astronomy with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F3F6",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-astronomy-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Physics with Geophysics",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F365",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-geophysics-bsc-hons"
+  },
+  {
+    "name": "Physics with Medical Applications",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F350",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-medical-applications-bsc-hons"
+  },
+  {
+    "name": "Physics with Medical Applications with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F353",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-medical-applications-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Physics with Nuclear Science",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F390",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-nuclear-science-bsc-hons"
+  },
+  {
+    "name": "Physics with Nuclear Science with a Year Abroad",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "F391",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physics-with-nuclear-science-with-a-year-abroad-bsc-hons"
+  },
+  {
+    "name": "Physiotherapy",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B160",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/physiotherapy-bsc-hons"
+  },
+  {
+    "name": "Physiotherapy (Pre-registration)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/physiotherapy-pre-registration-msc"
+  },
+  {
+    "name": "Planetary and One Health",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/planetary-and-one-health-msc"
+  },
+  {
+    "name": "Political Science and International Relations",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/political-science-and-international-relations-ma"
+  },
+  {
+    "name": "Politics",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L210",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/politics-ba-hons"
+  },
+  {
+    "name": "Popular Music",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "W340",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/popular-music-ba-hons"
+  },
+  {
+    "name": "Portuguese",
+    "degree_type": "Combined degree",
+    "ucas_code": null,
+    "duration": "",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/portuguese-combined-degree"
+  },
+  {
+    "name": "Portuguese Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/portuguese-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Precision Medicine",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/precision-medicine-msc"
+  },
+  {
+    "name": "Preparation for Pharmacy",
+    "degree_type": "MPharm",
+    "ucas_code": "B108",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/preparation-for-pharmacy-mpharm"
+  },
+  {
+    "name": "Product Design and Management",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/product-design-and-management-msc-eng"
+  },
+  {
+    "name": "Product Design Engineering",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HW24",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/product-design-engineering-beng"
+  },
+  {
+    "name": "Product Design Engineering",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "HW25",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/product-design-engineering-meng-hons"
+  },
+  {
+    "name": "Product Design Engineering with a Year in Industry",
+    "degree_type": "BEng (Hons)",
+    "ucas_code": "HW26",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/product-design-engineering-with-year-in-industry-beng-hons"
+  },
+  {
+    "name": "Product Design Engineering with a Year in Industry",
+    "degree_type": "MEng (Hons)",
+    "ucas_code": "HW27",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/product-design-engineering-with-a-year-in-industry-meng-hons"
+  },
+  {
+    "name": "Professional Doctorate in Health",
+    "degree_type": "DProfHealth",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/professional-doctorate-in-health-dprof-health"
+  },
+  {
+    "name": "Project Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/project-management-msc"
+  },
+  {
+    "name": "Project Management",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/project-management-msc-online"
+  },
+  {
+    "name": "Psychology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C800",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons"
+  },
+  {
+    "name": "Psychology (Conversion)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/psychology-conversion-msc"
+  },
+  {
+    "name": "Psychology (Conversion)",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/psychology-conversion-msc-online"
+  },
+  {
+    "name": "Psychology BSc (Hons) (2+2 programme with Foundation Element)",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C801",
+    "duration": "4 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons-22-programme-with-foundation-element"
+  },
+  {
+    "name": "Public Administration and Policy",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/public-administration-and-policy-ma"
+  },
+  {
+    "name": "Publishing",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/publishing-ma"
+  },
+  {
+    "name": "Radiation Detection and Measurement for Nuclear Applications",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/radiation-detection-and-measurement-for-nuclear-applications-msc"
+  },
+  {
+    "name": "Radiotherapy",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/radiotherapy-msc"
+  },
+  {
+    "name": "Records and Information Management for the Public Sector",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/records-and-information-management-for-the-public-sector-d-cps-online"
+  },
+  {
+    "name": "Renewable and Sustainable Energy",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/renewable-and-sustainable-energy-msc-eng"
+  },
+  {
+    "name": "Renewable and Sustainable Energy with a Year in Industry",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/renewable-and-sustainable-energy-with-a-year-in-industry-msc-eng"
+  },
+  {
+    "name": "Research Facility Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/research-facility-management-msc"
+  },
+  {
+    "name": "Research Methods in Psychology",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/research-methods-in-psychology-msc"
+  },
+  {
+    "name": "Researching Crisis and Change in Human Geography",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/researching-crisis-and-change-in-human-geography-ma"
+  },
+  {
+    "name": "Robotics and the Internet of Things",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/robotics-and-the-internet-of-things-msc-eng"
+  },
+  {
+    "name": "Robotics and the Internet of Things with a Year in Industry",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/robotics-and-the-internet-of-things-with-a-year-in-industry-msc-eng"
+  },
+  {
+    "name": "Screen Industries and Entertainment",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "W2J9",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/screen-industries-and-entertainment-ba-hons"
+  },
+  {
+    "name": "Screen Studies",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/screen-studies-ma"
+  },
+  {
+    "name": "Social Policy",
+    "degree_type": "Combined degree",
+    "ucas_code": null,
+    "duration": "",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/social-policy-combined-degree"
+  },
+  {
+    "name": "Social Research",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/social-research-mres"
+  },
+  {
+    "name": "Social Research Methods",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/social-research-methods-ma"
+  },
+  {
+    "name": "Sociolinguistics - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sociolinguistics-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Sociology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "L302",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/sociology-ba-hons"
+  },
+  {
+    "name": "Sociology with Criminology",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "T809",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/sociology-with-criminology-ba-hons"
+  },
+  {
+    "name": "Sociology with Social Policy",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "T828",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/sociology-with-social-policy-ba-hons"
+  },
+  {
+    "name": "Spanish",
+    "degree_type": "Combined degree",
+    "ucas_code": null,
+    "duration": "",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/spanish-combined-degree"
+  },
+  {
+    "name": "Spanish Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/spanish-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "Sports Business and Analytics",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sports-business-analytics-msc"
+  },
+  {
+    "name": "Sports Business and Management",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sports-business-and-management-msc"
+  },
+  {
+    "name": "Strategic Communication",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/strategic-communication-msc"
+  },
+  {
+    "name": "Sustainable Business",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sustainable-business-msc"
+  },
+  {
+    "name": "Sustainable Civil and Structural Engineering",
+    "degree_type": "MSc (Eng)",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sustainable-civil-and-structural-engineering-msc-eng"
+  },
+  {
+    "name": "Sustainable Heritage Management",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sustainable-heritage-management-ma"
+  },
+  {
+    "name": "Sustainable Urban Planning",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/sustainable-urban-planning-ma"
+  },
+  {
+    "name": "Teaching English to Speakers of Other Languages (TESOL)",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/teaching-english-to-speakers-of-other-languages-tesol-ma"
+  },
+  {
+    "name": "The Beatles, Heritage and Culture",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/the-beatles-heritage-and-culture-ma-online"
+  },
+  {
+    "name": "Theoretical Computer Science",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/theoretical-computer-science-msc"
+  },
+  {
+    "name": "Theoretical Computer Science with a Year in Industry",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "24 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/theoretical-computer-science-with-a-year-in-industry-msc"
+  },
+  {
+    "name": "Theoretical Physics",
+    "degree_type": "MPhys (Hons)",
+    "ucas_code": "F344",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/theoretical-physics-mphys-hons"
+  },
+  {
+    "name": "Theoretical Physics with a Year Abroad",
+    "degree_type": "MPhys (Hons)",
+    "ucas_code": "F345",
+    "duration": "5 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/theoretical-physics-with-a-year-abroad-mphys-hons"
+  },
+  {
+    "name": "Therapeutic Radiography and Oncology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "B822",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/therapeutic-radiography-and-oncology-bsc-hons"
+  },
+  {
+    "name": "Therapeutic Radiography and Oncology (Pre-registration)",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "27 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/therapeutic-radiography-and-oncology-pre-registration-msc"
+  },
+  {
+    "name": "Tourism Marketing",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/tourism-marketing-msc"
+  },
+  {
+    "name": "Town and Regional Planning",
+    "degree_type": "MCD",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/town-and-regional-planning-mcd"
+  },
+  {
+    "name": "Town and Regional Planning",
+    "degree_type": "MPlan",
+    "ucas_code": "K400",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/town-and-regional-planning-mplan"
+  },
+  {
+    "name": "Translation",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/translation-ma"
+  },
+  {
+    "name": "Translation Studies - Modern Languages and Cultures",
+    "degree_type": "MRes",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/translation-studies-modern-languages-and-cultures-mres"
+  },
+  {
+    "name": "University of Law at Liverpool",
+    "degree_type": "",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/university-of-law-at-liverpool"
+  },
+  {
+    "name": "Urban Design and Planning",
+    "degree_type": "MCD",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/urban-design-and-planning-mcd"
+  },
+  {
+    "name": "Urban Planning",
+    "degree_type": "BA (Hons)",
+    "ucas_code": "K430",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/urban-planning-ba-hons"
+  },
+  {
+    "name": "Veterinary Business Management (VBM)",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/veterinary-business-management-vbm-pgcert"
+  },
+  {
+    "name": "Veterinary Physiotherapy",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/veterinary-physiotherapy-postgraduate-diploma-msc"
+  },
+  {
+    "name": "Veterinary Physiotherapy",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/veterinary-physiotherapy-msc"
+  },
+  {
+    "name": "Veterinary Professional Studies",
+    "degree_type": "Online",
+    "ucas_code": null,
+    "duration": "",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/veterinary-professional-studies-postgraduate-certificate-diploma-msc"
+  },
+  {
+    "name": "Veterinary Science",
+    "degree_type": "BVSc",
+    "ucas_code": "D100",
+    "duration": "5 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/veterinary-science-bvsc"
+  },
+  {
+    "name": "Visual Culture",
+    "degree_type": "MA",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/media-culture-and-everyday-life-ma"
+  },
+  {
+    "name": "Wildlife Health and Conservation\u200b",
+    "degree_type": "MSc",
+    "ucas_code": null,
+    "duration": "12 months",
+    "level": "postgraduate_taught",
+    "url": "https://www.liverpool.ac.uk/courses/wildlife-health-and-conservation-msc"
+  },
+  {
+    "name": "Zoology",
+    "degree_type": "BSc (Hons)",
+    "ucas_code": "C300",
+    "duration": "3 years",
+    "level": "undergraduate",
+    "url": "https://www.liverpool.ac.uk/courses/zoology-bsc-hons"
+  },
+  {
+    "name": "Zoology",
+    "degree_type": "MBiol (Hons)",
+    "ucas_code": "C303",
+    "duration": "4 years",
+    "level": "integrated_masters",
+    "url": "https://www.liverpool.ac.uk/courses/zoology-mbiol-hons"
+  }
+]

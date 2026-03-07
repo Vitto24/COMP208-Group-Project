@@ -1,0 +1,25 @@
+{
+  "code": "PSYC327",
+  "name": "CYBERPSYCHOLOGY-HUMAN COMPUTER INTERACTION",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr M Limniou",
+  "description": "This module offers an in-depth understanding of cyberpsychology, as technology has become an integral part of our everyday lives. The discussed topics are related to social media (i.e., digital identity, cyber deception), cybercognition (i.e., multitasking and attention) cybertherapy (i.e., interventions with the VR and AI applications) and gaming (i.e., mental and physical health issues), cyber pathology (i.e., the problematic use of the Internet and dark personality traits),  digital education (i.e., multimedia and VR applications for learning purposes) and cybercrime (i.e., cyberbullying, cyberdating abuse).\n\nDiscussions on various cyberpsychology topics will foster class debate enhancing student communication and critical thinking skills via online tools (i.e., Padlet). Students can also participate in the discussion using online forums through CANVAS, Microsoft Teams and/or LinkedIn.\n\nBy following this module students develop their digital literacy skills through blog preparation (digital writing, digital imaging, and digital audio-visual editing).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/psyc327",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC327_202526.htm"
+}

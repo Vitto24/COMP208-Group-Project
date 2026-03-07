@@ -1,0 +1,23 @@
+{
+  "code": "ACFI312",
+  "name": "Business Strategy",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr MJ Swift",
+  "description": "The module aims to provide students with an understanding of how businesses develop and implement strategy",
+  "prerequisites": [
+    "ACFI201",
+    "ACFI203"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi312",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI312_202526.htm"
+}

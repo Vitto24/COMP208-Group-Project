@@ -1,0 +1,25 @@
+{
+  "code": "ECON254",
+  "name": "Theory of the Firm",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr M Chaturvedi",
+  "description": "This module gives an overview of some very basic economic principles as it applies to the firm and its environment. It equips the student with the knowledge and skills necessary to understand and evaluate internal and external factors that influence the strategic decisions made by the firms. This includes the analysis of the nature and behaviour of firms in international markets. It is designed for non-economists such as Business Studies students . Explanations are sometimes based on very basic diagrams and students are expected to have GCSE level maths.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/econ254",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON254_202526.htm"
+}

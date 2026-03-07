@@ -1,0 +1,30 @@
+{
+  "code": "COMP518",
+  "name": "Database and Information Systems",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr M Wardeh",
+  "description": "This module focuses on how databases are used in modern information systems. They are at the heart of almost all systems, such as supermarket checkouts, online banking, home rentals, and much more. One of the most successful data definition and manipulation languages is SQL, which will be covered in detail. The module will also introduce some of the fundamental concepts in computer science, as well as the mathematical underpinnings of relational databases and the techniques used to support concurrency and reliability in large information systems.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "CA2 SQL",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "CA1 Relational Algebra, Entity Relationship Modelling, Logical Database Modelling",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam  MCQ 30 Questions",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc/modules/comp518",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP518_202526.htm"
+}

@@ -1,0 +1,32 @@
+{
+  "code": "ACFI225",
+  "name": "Econometrics for Finance 1",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Gazi",
+  "description": "Econometrics for Finance 1 is an important module that equips students with the knowledge of quantitative techniques and the practical expertise needed to solve finance problems. The course involves the analysis of real-world financial datasets to solve finance problems pertinent to a wide range of financial markets. This course is very relevant to students with a keen interest in the quantitative modelling of financial markets or those interested in pursuing an MSc degree in finance or related areas.The lectures equip students with the theoretical knowledge necessary to formulate, estimate, and correctly interpret multivariate econometric models. In particular, the students will learn about multiple regression models, multiple hypotheses tests, diagnostic checks, and parameter stability. The seminar sessions, which take place in the computer lab, will provide students with the opportunity to apply their knowledge by using Eviews, a statistical software, to analyse real-world data from leading financial databases and solve finance problems. Overall, the students will develop a range of skills, including communication skills, digital fluency, analytical skills, and problem-solving skills. The assessment is conducted via a mid-term multiple choice test (30%), a written coursework (60%), and an individual pre-recorded video presentation (10%) at the end of the course.",
+  "prerequisites": [
+    "ACFI111"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi225",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI225_202526.htm"
+}

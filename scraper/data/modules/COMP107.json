@@ -1,0 +1,30 @@
+{
+  "code": "COMP107",
+  "name": "Designing Systems for the Digital Society",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr F Grasso",
+  "description": "This module will provide students with an all rounded appraisal of what is expected from a computing professional in the current digital society. Students will be introduced to social, legal and ethical aspects on computing and will develop employability skills. As a way to blend both theory and practice, students will be equipped with concepts and techniques for designing digital systems tailored to the needs of the user.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Group essay - maximum 2000 words",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Group production of the Database ER model",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "e-portfolio - various activity",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP107_202526.htm"
+}

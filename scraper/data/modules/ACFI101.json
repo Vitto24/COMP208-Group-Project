@@ -1,0 +1,25 @@
+{
+  "code": "ACFI101",
+  "name": "Introduction to Financial Accounting",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr LW Gordon",
+  "description": "ACFI101 aims to develop a sound understanding of the fundamental principles and techniques of financial accounting. The context and purpose of financial statements is introduced, after which students are introduced to the techniques of recording financial transactions, adjusting financial records and preparing basic financial statements.  Successful students will possess a sound base of knowledge for progression towards studying financial reporting in greater depth in the second and final years: the preparation of complex financial statements in conformity with International Financial Reporting Standards (IFRS), both for single entities and groups of companies, and for entities undertaking a wide range of accounting transactions. This module is delivered by means of lectures and tutorials, supported by online self-study question material.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI101_202526.htm"
+}

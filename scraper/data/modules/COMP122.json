@@ -1,0 +1,35 @@
+{
+  "code": "COMP122",
+  "name": "Object-Oriented Programming",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr V Nguyen",
+  "description": "The intention of COMP122 is to introduce students to the concepts and methodology of object-oriented programming using the Java programming language.\u00a0Topics covered include hierarchical structures, polymorphism, collections and iterators, exception handling, and graphical user interface design.\u00a0Basic concepts of software design methodology, testing, and version control are also included in the module. It is normally expected that students have prior programming experience.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Assessment 1",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Assessment 2",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Assessment 3",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": ":Second semester",
+      "weight": 55
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp122",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP122_202526.htm"
+}

@@ -1,0 +1,28 @@
+{
+  "code": "COMP229",
+  "name": "Introduction to Data Science",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr O Anosova",
+  "description": "This module provides a thorough introduction to the new subject of Data Science starting from the fundamental mathematical methods and developing real-life applications in several areas including Pattern Recognition, Materials Science, Computer Vision, Climate Analysis. The basic concepts from Linear Algebra and Metric Geometry will be gradually introduced without assuming any prior knowledge. The methods and algorithms from Graph Theory and Computational Geometry will be illustrated by worked examples and short programs/scripts.",
+  "prerequisites": [
+    "COMP116",
+    "COMP109"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written examination",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Class  test",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp229",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP229_202526.htm"
+}

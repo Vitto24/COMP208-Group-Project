@@ -1,0 +1,32 @@
+{
+  "code": "COMP702",
+  "name": "MSc Project",
+  "department": "Computer Science and Informatics",
+  "semester": null,
+  "level": 7,
+  "credits": 60.0,
+  "lecturer": "Dr T Tan",
+  "description": "Masters Level final project (individual project with dissertation)",
+  "prerequisites": [
+    "COMP516"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Specification and Proposed Design",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Demonstration/Presentation of Results",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Dissertation",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc/modules/comp702",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP702_202526.htm"
+}

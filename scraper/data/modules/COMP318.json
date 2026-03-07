@@ -1,0 +1,30 @@
+{
+  "code": "COMP318",
+  "name": "Ontologies and Semantic Web",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr VAM Tamma",
+  "description": "This modules provides a basic introduction to the main principles behind representing and retrieving knowledge effectively on the Web. The module covers the evolution from the standard Web to the Semantic Web, and gives student the opportunity to gain an awareness of the main methods and techniques, including practical awareness, of the main issues arising in annotating web pages with semantic information, in interlinking pages with similar semantic content and in effectively querying these pages.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "CA1 Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp318",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP318_202526.htm"
+}

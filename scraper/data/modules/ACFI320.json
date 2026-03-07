@@ -1,0 +1,29 @@
+{
+  "code": "ACFI320",
+  "name": "Corporate Governance",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr J Poletti Hughes",
+  "description": "This module offers an in-depth look at why corporate governance is crucial for modern businesses and why it continues to evolve. With a focus on the UK Corporate Governance Code, you'll explore its key principles and how they form the foundation for effective boardroom practices worldwide.Through real-world case studies, current news analysis, and creative fictional mini-cases, you\u2019ll develop the ability to critically evaluate corporate governance arrangements across diverse organisations. Whether you're aspiring to influence board decisions or understand what drives accountability and transparency, this module equips you with the knowledge and analytical skills to succeed in today's global business environment.",
+  "prerequisites": [
+    "ACFI101",
+    "ACFI107",
+    "ACFI103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi320",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI320_202526.htm"
+}

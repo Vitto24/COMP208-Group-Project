@@ -1,0 +1,30 @@
+{
+  "code": "COMP337",
+  "name": "Data Mining and Visualisation",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr P Sen",
+  "description": "To provide an in-depth, systematic and critical understanding of some of the current research issues at the forefront of the academic research domain of data mining.\u00a0\u00a0 Google search framework and IBM Watson QA system and various other industrial level data mining applications are discussed.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Programming assignment 2",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp337",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP337_202526.htm"
+}

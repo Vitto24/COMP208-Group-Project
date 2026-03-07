@@ -1,0 +1,38 @@
+{
+  "code": "COMP519",
+  "name": "Web Programming",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr U Hustadt",
+  "description": "Masters level introductory web programming module covering such topics as HTML, Cascading Style Sheets, CGI programming, and PHP/SQL programming.",
+  "prerequisites": [
+    "COMP518",
+    "COMP517"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 4",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 3",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc/modules/comp519",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP519_202526.htm"
+}

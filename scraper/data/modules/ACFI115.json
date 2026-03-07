@@ -1,0 +1,25 @@
+{
+  "code": "ACFI115",
+  "name": "Skills for the Professional Accountant",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr CR Barlow",
+  "description": "The module provides students with an understanding of the key skills required of the professional accountant in the current business environment, and the opportunity to acquire, develop and apply those skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Reassessment opportunity: Yes  Penalty for Late Submission:",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Weighting: 50%  Reassessment opportunity: Yes  Penalty for Late Submission:",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi115",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI115_202526.htm"
+}

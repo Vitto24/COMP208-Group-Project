@@ -1,0 +1,35 @@
+{
+  "code": "COMP335",
+  "name": "Communicating Computer Science",
+  "department": "Computer Science and Informatics",
+  "semester": 0,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr WB Rosenbaum",
+  "description": "This module spans both semesters in the final year, with a small number of teacher training lectures in the first semester, followed by delivery of a lesson in the second semester as part of the department's outreach activities. Students will consider the issues associated with teaching STEM subjects in schools, and learn how to create a lesson plan that delivers a computer science topic within the context of the National Curriculum in Computing. They will then deliver this lesson several times in a real classroom setting, and reflect on its effectiveness in a written report. There is a significant amount of private study, with the majority of the time spent in the first semester, so students must manage their time effectively.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Essay",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Lesson Plan and Activity Development",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Lesson Delivery",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Final Report",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp335",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP335_202526.htm"
+}

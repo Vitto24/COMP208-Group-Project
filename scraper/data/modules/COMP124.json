@@ -1,0 +1,20 @@
+{
+  "code": "COMP124",
+  "name": "Computer Systems",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr S Thomason",
+  "description": "This module provides a basic introduction to the important hardware and software components supporting the operation of computer systems. The module presents coverage of how low-level hardware components are organised so as to provide a platform on which complex software systems can be built. Coverage includes the important components of modern operating systems, including abstractions such as processes and concurrency. There is an opportunity to gain some practical awareness of low-level programming and a modern command-line environment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Multiple choice examination",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp124",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP124_202526.htm"
+}

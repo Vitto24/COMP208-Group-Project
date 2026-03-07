@@ -1,0 +1,40 @@
+{
+  "code": "COMP526",
+  "name": "Efficient Algorithms",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr WB Rosenbaum",
+  "description": "Masters module on practical algorithms and data structures for large datasets.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Puzzle 2",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Puzzle 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Discussion Participation",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": "In-class quizzes",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc/modules/comp526",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP526_202526.htm"
+}

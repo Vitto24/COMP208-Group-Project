@@ -1,0 +1,50 @@
+{
+  "code": "COMP101",
+  "name": "Introduction To Programming",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr K Dures",
+  "description": "The module provides an introduction to procedural programming using current language platforms.  The module incorporates program design, problem solving, the importance of maintainable, robust software and testing as well as introducing procedural language main programming constructs. Students gain practical experience with program design, programming and testing during weekly laboratory sessions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 1",
+      "weight": 12
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 2",
+      "weight": 12
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 3",
+      "weight": 13
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 4",
+      "weight": 13
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 5",
+      "weight": 16
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 6",
+      "weight": 16
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment 7",
+      "weight": 18
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP101_202526.htm"
+}

@@ -1,0 +1,22 @@
+{
+  "code": "ACFI201",
+  "name": "Financial Reporting 1",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr PMJ Farrelly",
+  "description": "This module develops students' knowledge from first year study by introducing more complex accounting standards which enables them to prepare complete single entity financial statements or extracts thereof. The module introduces accounting concepts and ethical issues and begins to develop students critical thinking in this area.",
+  "prerequisites": [
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi201",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI201_202526.htm"
+}

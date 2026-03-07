@@ -1,0 +1,35 @@
+{
+  "code": "COMP108",
+  "name": "Data Structures and Algorithms",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor PW Wong",
+  "description": "This module introduces students to some basic algorithms and data structures. It gives some fundamental concepts of design and analysis of algorithms, and implementation of algorithms by choosing appropriate data structures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assignment 3",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Assignment 2",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp108",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP108_202526.htm"
+}

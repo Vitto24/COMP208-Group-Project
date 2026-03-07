@@ -1,0 +1,30 @@
+{
+  "code": "COMP315",
+  "name": "Cloud Computing for E-Commerce",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr D Richards",
+  "description": "This module will provide an introduction to cloud computing. It will cover physical cloud infrastructure (data-centres, networks and servers), and the software stacks that run on it (containers, micro-services, orchestration and web frameworks).During the course, students will assemble their own cloud-based application, which will be a webpage with a scalable micro-service-based backend.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Individual project",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Individual project",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam  Assessment Schedule (When) :2",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp315",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP315_202526.htm"
+}

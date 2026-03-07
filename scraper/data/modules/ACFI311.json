@@ -1,0 +1,28 @@
+{
+  "code": "ACFI311",
+  "name": "Behavioural Finance",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CY Yen",
+  "description": "Behavioural finance attempts to explain several widely cited market phenomena (including e.g. excess volatility, overreaction, bubbles and crises) by drawing on concepts and principles from psychology and their applications in investors' behaviour. The module provides a thorough introduction to this area, with theoretical analyses being enhanced through the use of short videos, experiments and quantitative finance both during lectures and seminars.",
+  "prerequisites": [
+    "ACFI103",
+    "ACFI113"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ", each group-member will have to prepare a 1500-word assignment on a topic assigned by the module leader",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi311",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI311_202526.htm"
+}

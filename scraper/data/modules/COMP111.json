@@ -1,0 +1,30 @@
+{
+  "code": "COMP111",
+  "name": "Introduction to Artificial Intelligence",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor F Wolter",
+  "description": "Artificial intelligence (AI) is the theory and development of machines able to perform tasks normally requiring human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages. In the 21st century, AI techniques became an essential part of the technology industry. High-profile examples include autonomous vehicles, medical diagnosis, creating art, proving mathematical theorems, playing games, search engines, and online assistants. This module provides an application driven introduction to AI through studying the basic problems most AI systems have to deal with: search problems, reasoning under uncertainty, knowledge representation, planning, and learning in intelligent systems. The module will also provide a basic introduction to the history and philosophy of AI as well as recent issues in ethics of AI.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class test 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Assessed homework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Final exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp111",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP111_202526.htm"
+}

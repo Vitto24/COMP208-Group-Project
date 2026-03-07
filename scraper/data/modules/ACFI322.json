@@ -1,0 +1,28 @@
+{
+  "code": "ACFI322",
+  "name": "The Price of Football",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr KMJ Maguire",
+  "description": "According to the advisory firm Deloitte, their football finance unit generates more media enquiries than all other industry areas combined.\u00a0With the increasing globalisation of the sport, and the impact of commercial and media deals having a large impact on clubs both on and off the field of play, a knowledge\u00a0of finance for anyone with an interest in the sport is beneficial. This module aims to:(1)Utilise financial statements produced by football clubs and organisations.(2)Review and apply financial reporting standards that have a significant impact on the financial statements, especially in relation to key assets such as player registrations.(3)Analyse financial results using standard and industry specific ratios and KPI\u2019s alongside available accessible data.(4)Discuss and apply methods of valuing clubs using historic financial data and different valuation models.(5)Use  financial modelling techniques and spreadsheet analysis to prepare bespoke data and analysis of football clubs.(6)Identify potential warning signs of financial distress in football clubs.(7)Discuss topical financial issues arising in the industry and their potential consequences for stakeholders.(8)Analyse the effectiveness or otherwise of cost control methods in the industry",
+  "prerequisites": [
+    "ACFI107",
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi322",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI322_202526.htm"
+}

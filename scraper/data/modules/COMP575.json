@@ -1,0 +1,20 @@
+{
+  "code": "COMP575",
+  "name": "Computational Intelligence",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr B Huang",
+  "description": "Biologically inspired optimisation and introduction to neural networks for artificial intelligence.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp575",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP575_202526.htm"
+}

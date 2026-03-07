@@ -1,0 +1,28 @@
+{
+  "code": "ACFI305",
+  "name": "Advanced Taxation",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mrs CA Gregory",
+  "description": "The aim of this course is to enable preparation taxation computations under current UK tax law. The emphasis of the course is practical, however consideration will be given to a number of tax planning issues and conceptual aspects where appropriate. Taxes covered will include income tax, national insurance, corporation tax, capital gains tax and VAT. Students will learn how to prepare computations to a sufficient standard for submission to HM Revenue and Customs and at the same time will learn about the basic principles, objectives and tax concepts.",
+  "prerequisites": [
+    "ACFI101",
+    "ACFI212"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 75
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi305",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI305_202526.htm"
+}

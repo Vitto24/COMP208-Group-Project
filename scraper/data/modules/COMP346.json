@@ -1,0 +1,30 @@
+{
+  "code": "COMP346",
+  "name": "Music Intelligence",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr J de Berardinis",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 1      Coursework 1 will cover the fundamentals of Music Processing and will be due in week 7",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2    Coursework 2 will cover Computational Creativity and will be due in Week 13",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp346",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP346_202526.htm"
+}

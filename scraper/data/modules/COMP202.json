@@ -1,0 +1,30 @@
+{
+  "code": "COMP202",
+  "name": "Complexity of Algorithms",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr NS Mande",
+  "description": "This module studies techniques, such as dynamic programming and recursion, used for the design and analysis of algorithms and data structures. Some fundamental algorithmic problems are studied, such as searching, sorting and network flows and efficient algorithms for such problems. The emphasis of this module is on problem solving using efficient algorithms together with their formal analysis and implementation, thus enhancing the students' toolbox for efficient programming.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Programming Assignment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP202_202526.htm"
+}

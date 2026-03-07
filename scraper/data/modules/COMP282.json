@@ -1,0 +1,27 @@
+{
+  "code": "COMP282",
+  "name": "The C++ Programming Language",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Mr AJ Neal",
+  "description": "This module looks at the ways in which the C programming language can be extended to incorporate object oriented principles, by looking at C++. The module also examines the ways in which object orientation offers a natural means of developing graphical, event-driven applications within a powerful IDE.",
+  "prerequisites": [
+    "COMP281"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp282",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP282_202526.htm"
+}

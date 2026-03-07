@@ -1,0 +1,25 @@
+{
+  "code": "COMP341",
+  "name": "Robot Perception and Manipulation",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr AQ Nguyen",
+  "description": "In this module, we focus on how robots perceive the world and accomplish manipulation tasks, which is widely used in many applications such as warehouse robots and assistive robots in a domestic environment. We will study how sensory data, e.g., visual images and tactile data, is transformed into representations like features of object shapes, poses and textures. Such representations facilitate the grasping and manipulation of objects.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "CA1 Individual Project 1",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Final exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp341",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP341_202526.htm"
+}

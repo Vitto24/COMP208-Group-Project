@@ -1,0 +1,22 @@
+{
+  "code": "ACFI321",
+  "name": "Capital Markets",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Ahmed",
+  "description": "The course objective is to present the current capital markets with a blend of the theoretical with the practical. Our examination will extend beyond the traditional financial products, equity and debt instruments, to recent innovations. Until the summer of 2007, capital markets had experienced spectacular growth via a proliferation of new products. In keeping with classic economic theory, the investment rewards of products such as securitization were inevitably accompanied by risks as recent events brought to light. New products like asset-backed securities and Electronic Traded Funds will be reviewed and identified by investor profile and investment rationale.",
+  "prerequisites": [
+    "ACFI204"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI321_202526.htm"
+}

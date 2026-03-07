@@ -1,0 +1,30 @@
+{
+  "code": "COMP207",
+  "name": "Database Development",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr R Ibsen-Jensen",
+  "description": "This module introduces students to the problems arising from databases, including concurrency in databases, information security considerations and how they are solved; the integration of heterogeneous sources of information and the use of semi-structured data; non-relational databases and the economic factors involved in their selection and to techniques for analysing large amounts of data, the security issues and commercial factors involved with them.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Weekly Assessments",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp207",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP207_202526.htm"
+}

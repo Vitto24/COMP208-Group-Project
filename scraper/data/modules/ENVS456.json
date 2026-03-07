@@ -1,0 +1,25 @@
+{
+  "code": "ENVS456",
+  "name": "Advanced Geovisualisation",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr G Filomena",
+  "description": "Through this module students will be exposed to advanced geovisualisation principles and approaches. Not only will they gain a deep theoretical understanding of map design, but they will also adopt a range of computational geovisualisation tools to explore and address research problems in the geographical realm. The internet will be presented both as a source of new data and as an analytical tool that can assist when solving geographic problems. Static, interactive and web-based maps will be designed and implemented alongside advanced analytical methods in computational geographical analysis to present visual stories on challenges in human and physical geographical challenges. The module is taught through a mixture of lectures and practical sessions and is assessed through two summative projects.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Assessment 2, end of term",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, mid-term",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/envs456",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS456_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "COMP524",
+  "name": "Safety and Dependability",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Professor S Schewe",
+  "description": "Safety and Dependability will cover techniques for the validation of systems against formal specifications. In a first part, safety specifications (something bad never happens) using the Hoare calculus and safe abstraction are covered. A second part refers to termination (something good eventually happens), exploiting well foundedness. In a third part, Markov chains and decision processes are studied, extending the qualitative safety and termination problems from the first part to qualitative/probabilistic properties, and extending them to a simple probabilistic specification language, PCTL. As part of the module, the ability of formulating (probabilistic) models as Markov chains and decision processes are taught, as well as the use of of-the-shelf tools like PRISM or IscasMC for their analysis.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Group Work",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp524",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP524_202526.htm"
+}

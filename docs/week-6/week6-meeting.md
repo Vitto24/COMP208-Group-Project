@@ -14,7 +14,7 @@
 | Modules          | Working     | Module list + detail page with assignments table and materials section    |
 | Timetable        | Working     | Weekly grid, colour-coded events, today panel, week navigation            |
 | Grades           | Working     | Nested by year/semester, expandable modules, weighted overall grade calc  |
-| Settings         | Updated     | Profile form added (name, course, year) — still needs email & university  |
+| Settings         | Updated     | Profile form added (name, course, year, email) — still needs university   |
 | Notifications    | Not built   | Sidebar link goes to `#`                                                  |
 
 
@@ -65,7 +65,7 @@
 
 - Finish the settings page — currently just a placeholder ("coming soon"). ✅
 - Connect the student name to the settings page so the user can view and edit their profile details. ✅
-- Display fields from `UserProfile`: name, course, year of study, email, university (still needs email & university).
+- Display fields from `UserProfile`: name, course, year of study, email, university (still needs university).
 
 ### Modules (Daniel)
 

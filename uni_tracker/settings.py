@@ -125,6 +125,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
 
+# Use email to log in instead of username
+AUTHENTICATION_BACKENDS = ['accounts.backends.EmailBackend']
+
 # Auth redirects
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/accounts/login/'

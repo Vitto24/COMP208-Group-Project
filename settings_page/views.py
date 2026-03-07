@@ -12,9 +12,19 @@ def settings_view(request):
     profile, _ = UserProfile.objects.get_or_create(user=request.user)
 
     if request.method == 'POST':
+        first_name = request.POST.get('first_name', '').strip()
+        last_name = request.POST.get('last_name', '').strip()
+        email = request.POST.get('email', '').strip()
+
+        # Make sure required fields aren't empty
+        if not first_name or not last_name or not email:
+            messages.error(request, 'First name, last name, and email are required.')
+            return redirect('settings_page:settings')
+
         # Update basic user info
-        request.user.first_name = request.POST.get('first_name', '')
-        request.user.last_name = request.POST.get('last_name', '')
+        request.user.first_name = first_name
+        request.user.last_name = last_name
+        request.user.email = email
         request.user.save()
 
         # Update profile fields

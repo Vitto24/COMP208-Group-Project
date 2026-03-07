@@ -1,0 +1,25 @@
+{
+  "code": "PSYC339",
+  "name": "TYPICAL AND ATYPICAL LANGUAGE DEVELOPMENT",
+  "department": "Psychology",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor JM Pine",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Semester 2",
+      "weight": 75
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc339",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC339_202526.htm"
+}

@@ -1,0 +1,40 @@
+{
+  "course_name": "Architecture BA (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "ARCH171",
+        "ARCH121",
+        "ARCH111",
+        "ARCH101",
+        "ARCH103",
+        "ARCH152",
+        "ARCH161"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "ARCH271",
+        "ARCH221",
+        "ARCH202",
+        "ARCH211",
+        "ARCH261",
+        "ARCH252"
+      ],
+      "optional": []
+    },
+    "3": {
+      "compulsory": [
+        "ARCH321",
+        "ARCH311",
+        "ARCH371",
+        "ARCH302",
+        "ARCH352",
+        "ARCH361"
+      ],
+      "optional": []
+    }
+  }
+}

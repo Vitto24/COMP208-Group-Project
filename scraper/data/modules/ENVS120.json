@@ -1,0 +1,25 @@
+{
+  "code": "ENVS120",
+  "name": "Experiments in Physical Geography",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr SP Brough",
+  "description": "The module uses laboratory experiments to allow students to gain first-hand experience of some fundamental physical, biological and chemical processes underlying physical geography, aimed primarily at interactions between people and their physical environment. It is designed to provide a foundation for environmental modules in the second and third years. This module comprises multiple whole-day practical sessions, each designed to give students first-hand experience of a topic important in understanding our changing environment. Dedicated computer practicals are also run to provide training in use of EXCEL, MINITAB, and basic inferential statistics. Students get formal feedback in each assessed week (one poster per group). However, perhaps most valuable is the feedback obtained informally via discussions during the sessions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of practical day  The practical poster marks are averaged to yield a final mark",
+      "weight": 100
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs120",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS120_202526.htm"
+}

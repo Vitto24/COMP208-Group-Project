@@ -1,0 +1,25 @@
+{
+  "code": "CLAH105",
+  "name": "THE RISE OF ROME",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr L Donati",
+  "description": "This module deals with the history and society of Italy and the Roman world from the foundation of Rome to the beginning of the 2nd century BCE.\n\nThe aims are (1) to provide an introductory survey of pre-Roman Italy (2); to build a sound chronological, geographical and conceptual framework for understanding the ancient Roman world up to the end of the 2nd century BCE; (3) to introduce students to reading archaeological evidence and primary sources in translation and evaluating their historical significance; (4) to introduce students to a range of scholarly views on ancient Roman history; (5) to introduce students to digital humanities research.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/clah105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CLAH105_202526.htm"
+}

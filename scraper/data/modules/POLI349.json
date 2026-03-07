@@ -1,0 +1,25 @@
+{
+  "code": "POLI349",
+  "name": "GENDER AND GLOBAL POLITICS",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Elmammeri",
+  "description": "This module provides alternative perspectives on global politics, drawing on feminist theory and gender analysis, with a focus on conflict and peace, and the implications for global politics and International Relations (IR). The module will engage with theoretical concerns (how are women affected differently by conflict and peace, how do we engage feminist methodologies) to practical concerns (conflict, security, participation, sexual violence, human rights). Theories and concepts will be illustrated with relevant global case studies and examples. The module aims to encourage engaged, critical reflection on feminist approaches to our understanding of issues in world politics.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli349",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI349_202526.htm"
+}

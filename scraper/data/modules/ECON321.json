@@ -1,0 +1,27 @@
+{
+  "code": "ECON321",
+  "name": "Behavioural  Economic Applications to Finance",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr YY Oezcelik",
+  "description": "Behavioural finance attempts to explain several widely cited market phenomena (including e.g. excess volatility, overreaction, bubbles and crises) by drawing on concepts and principles from psychology and their applications in investors' behaviour. The module provides a thorough introduction to this area, with theoretical analyses being enhanced through the use of quantitative financial data.",
+  "prerequisites": [
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON321_202526.htm"
+}

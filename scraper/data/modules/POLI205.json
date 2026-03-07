@@ -1,0 +1,25 @@
+{
+  "code": "POLI205",
+  "name": "AMERICAN POLITICS AND SOCIETY",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor DP Dolowitz",
+  "description": "This module examines the governing institutions and processes associated with the US federal government, and how these interact with core linking institutions and structures of society to create what is understood as the American political process.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli205",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI205_202526.htm"
+}

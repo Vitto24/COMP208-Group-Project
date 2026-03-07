@@ -1,0 +1,28 @@
+{
+  "code": "ECON212",
+  "name": "Econometrics 1",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr Y Rao",
+  "description": "Econometrics is a branch of economics aimed at providing rigorous statistical techniques to test, empirically, the validity of economic hypotheses and economic models using data from the real world. Therefore, this module provides students with opportunities to develop and further strengthen important, but crucially transferable, advanced academic skills in economics, mathematics, statistics and computing, which can be used in a variety of different contexts such as applied economics and finance research. These skills are very useful and in high demand by graduate employers. A key feature of this module is the combination of rigorous theoretical foundation of OLS with hands-on applications using a relevant analytical software package (for example, EViews or STATA) and economic data.",
+  "prerequisites": [
+    "ECON113",
+    "ECON111"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON212_202526.htm"
+}

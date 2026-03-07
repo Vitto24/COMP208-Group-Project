@@ -1,0 +1,30 @@
+{
+  "code": "POLI225",
+  "name": "INTERNATIONAL ORGANISATIONS",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr NA Mathieson",
+  "description": "The international system has no central authority that makes and enforces laws, yet it is not totally anarchic. A large number of international organisations allows states to co-operate in areas as diverse as the economy, international security, or the protection of the environment. The aim of this module is to enable students to systematically study international organisations. We focus on key questions: How do international organisations become (and remain) legitimate? Are they independent from their member-states? What inequalities and hierarchies do they transform or reproduce? Through a series of empirical examples \u2013 such as the United Nations, the WTO, the World Bank \u2013 students will be able to systematically analyse the role and functions of international organisations in global politics.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli225",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI225_202526.htm"
+}

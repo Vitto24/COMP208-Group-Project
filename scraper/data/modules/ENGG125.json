@@ -1,0 +1,40 @@
+{
+  "code": "ENGG125",
+  "name": "Digital Engineering",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 0,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr JD Camm",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Semester 2 Examination Period",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": ": Semester 2",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg125",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG125_202526.htm"
+}

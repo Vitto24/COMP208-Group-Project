@@ -1,0 +1,25 @@
+{
+  "code": "BIOS222",
+  "name": "Animal Ecophysiology",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr M Berenbrink",
+  "description": "This module is concerned with the question how animals survive in challenging, often hostile environments. It will examine physiological adaptations that occur when animals face changes in their environment, either acute short term changes or over longer periods of time, such as seasonal changes, those over evolutionary time scales, or ongoing climate change. The module is taught through lectures and interactive workshops which will give students the opportunity to discuss concepts and practice problem solving. The assessment consists of producing a short explainer video and a final exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios222",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS222_202526.htm"
+}

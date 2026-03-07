@@ -1,0 +1,30 @@
+{
+  "code": "MUSI121",
+  "name": "Making Music in Culture",
+  "department": "Music",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JM Crossley",
+  "description": "Music is ubiquitous, yet its functions and meanings are shaped by the culture and contexts in which it is made and used. Similarly studying music, is both complex and specific in equal measure. This module explores a range of musical repertoires in relation to their creation, composition, production, dissemination and reception. The scope and breadth of the study of music across a range of repertoires will be introduced, along with key terms and concepts used in the study of music in relation to culture. Topics might typically include: noise vs. music vs. sound; technologies of notation; attention and listening; the relationships between music creators, music performers, and music users; music and the body/modified body; music and politics. The module will provide students with a foundation for the further critical and cultural study of music and culture at levels five and six, and helps students to understand interdisciplinary approaches to the study of music.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi121",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI121_202526.htm"
+}

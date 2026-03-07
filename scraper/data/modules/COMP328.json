@@ -1,0 +1,30 @@
+{
+  "code": "COMP328",
+  "name": "High Performance Computing",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr HJ Forbes",
+  "description": "In this module, we study the use of High-Performance Computing systems, from accessing them to programming for them. We study some theory including Computer Architecture at the hardware level to some fundamentals of parallelism. We then go into practical parallelism using C on multicore systems using OpenMP and multiprocessor/distributed systems using MPI. We will also briefly study GPU programming using CUDA, as well as some emerging hardware architectures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "CA2 Engagement Tasks  The completion of two engagement tasks throughout the module which covers material from Labs",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam  written exam that will test on each learning outcome and cover all key points of the syllabus",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp328",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP328_202526.htm"
+}

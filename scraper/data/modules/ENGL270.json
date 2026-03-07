@@ -1,0 +1,25 @@
+{
+  "code": "ENGL270",
+  "name": "Knights, Enchantresses and Rogues, 1100-1500",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Professor SL Peverley",
+  "description": "This is a level 2 module, designed to introduce students to a range of medieval literature in the original Middle English language. No previous experience of Middle English is required. Authors considered include Geoffrey Chaucer, Sir Thomas Malory, Marie de France, and the Gawain-Poet.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl270",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL270_202526.htm"
+}

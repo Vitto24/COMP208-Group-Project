@@ -1,0 +1,35 @@
+{
+  "code": "ENGG116",
+  "name": "Energy Science",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr D Litskevich",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":1st Semester",
+      "weight": 5
+    },
+    {
+      "type": "exam",
+      "title": ":Semester 2",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": semester 1, in Week 7",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg116",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG116_202526.htm"
+}

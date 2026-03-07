@@ -1,0 +1,30 @@
+{
+  "code": "COMP390",
+  "name": "Honours Year Computer Science Project",
+  "department": "Computer Science and Informatics",
+  "semester": 0,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr S Thomason",
+  "description": "The honours year project gives students the opportunity to study independently on an extended piece of work under the guidance of an academic supervisor. Many diverse projects are available for selection, inspired by the research of the department. Each student is encouraged to propose a project in an area that meets their own personal needs, whether it\u2019s related to their career aspirations or simply an interesting academic pursuit. The project consolidates learning from the taught part of the course, with authentic assessment that is designed to encourage communication of complex ideas via a range of media. On completion of the module, students will have the confidence to pursue their career, having developed proficiency in their chosen topic and an ability to communicate clearly and effectively.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Detailed Proposal  [CW1] Detailed Proposal: An overview of the project, its aims and objectives, key literature related to the project, the development method to be used, an evaluation plan (including ethical treatment of any collected data), a risk assessment, and a timeline of proposed activity (Gantt)",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "a range of use cases and an overview of the development environment, followed by questions from the supervisors to explore aspects of the project in more depth",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Project Dissertation  [CW3] Project Dissertation: A coherent and detailed written report of the project, covering the journey from conception to delivery, including self-reflection",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp390",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP390_202526.htm"
+}

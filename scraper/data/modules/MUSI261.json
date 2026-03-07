@@ -1,0 +1,25 @@
+{
+  "code": "MUSI261",
+  "name": "GLOBAL POP: POPULAR MUSICS OF THE WORLD",
+  "department": "Music",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr H Um",
+  "description": "This module explores the development of popular musics of the world. Particular emphasis will be given to popular music genres and styles of non-Anglophone origins to understand how different artistic creativities and practice operate in the contemporary system of popular music production, distribution and consumption.How are specific genre and styles of indigenous/local popular music created? What are the local characteristics of musical techniques and aesthetics? How are specific regional and local cultural values reflected in these musical outputs while cultural, economic and political globalisation also gives shape to these musical processes. In connection with these broad questions, we will look into specific musical genres and forms from Asia, South/Latin America, Africa and the Middle East to develop the skills needed to analyse and critically assess the developments in popular musical outputs and their specific socio-cultural contexts which facilitate the creation and consumption of these artistic works throughout the world.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi261",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI261_202526.htm"
+}

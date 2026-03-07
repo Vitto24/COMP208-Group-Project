@@ -1,0 +1,25 @@
+{
+  "code": "ULMS268",
+  "name": "Identity, Culture and Wellbeing in Organisations",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr CG Marechal",
+  "description": "Identity and culture are two very important phenomena in organisations. They help explain why organisations look and feel the way they do. They also help us understand why people in organisations often ignore and/or resist rational models and techniques; how these affect the ways employees see their identity at work and their sense of wellbeing; and how identity and cultural management at sectoral, occupational and organizational levels impact workers\u2019 sense of self. Students on this module are encouraged to investigate culture and identity in relation to wellbeing in contemporary films, fictional narratives and social media, as well as in the academic literature.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms268",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS268_202526.htm"
+}

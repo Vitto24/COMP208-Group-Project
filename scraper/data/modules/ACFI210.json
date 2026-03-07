@@ -1,0 +1,27 @@
+{
+  "code": "ACFI210",
+  "name": "Audit and Assurance",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mrs H Scott",
+  "description": "This module introduces the concept of assurance and goes onto cover the statutory audit in the UK and the regulatory framework in which it operates.  It covers key elements of International Standards on Auditing with respect to planning, control, evidence and reporting. Students develop an understanding of the nature and purpose of the assurance process as well as the fundamental principles of ethics in the context of audit and assurance.",
+  "prerequisites": [
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi210",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI210_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "MATH107",
+  "name": "Introduction to Study and Research in Mathematics",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JA Haddley",
+  "description": "This module looks at what it means to be a mathematician as an undergraduate and beyond. The module covers the discussion of mathematics at university, research mathematics and careers for mathematicians as well as core elements of mathematical language and writing such as logic, proofs, numbers, sets and functions. The activities include contributions delivered by staff on their research areas, by alumni and other mathematicians working outside academia on careers for mathematicians and by careers services. The module also provides key tools needed for studying mathematics at university level. You will explore the core mathematical concepts in more detail in groups and individually and practise communicating mathematics in speech and writing.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    },
+    {
+      "type": "coursework",
+      "title": ", consists of a test of foundational skills (every topic needs to be mastered to pass)",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH107_202526.htm"
+}

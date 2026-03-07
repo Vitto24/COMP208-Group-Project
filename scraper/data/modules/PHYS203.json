@@ -1,0 +1,33 @@
+{
+  "code": "PHYS203",
+  "name": "Quantum and Atomic Physics I",
+  "department": "Physics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor DT Joss",
+  "description": "The course aims to introduce 2nd year students to the concepts and formalism of quantum mechanics. The Schrodinger equation is used to describe the physics of quantum systems in bound states (infinite and finite\u00a0well potentials, harmonic oscillator, hydrogen atoms, multi-electron atoms)\u00a0or scattering (potential steps and barriers). Basis of atomic spectroscopy are also introduced.",
+  "prerequisites": [
+    "PHYS104",
+    "PHYS108"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS203_202526.htm"
+}

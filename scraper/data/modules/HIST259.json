@@ -1,0 +1,30 @@
+{
+  "code": "HIST259",
+  "name": "RUSSIA TRANSFORMED 1900 - 1932",
+  "department": "History",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr B Penati",
+  "description": "This module guides the students through the history of how economic modernisation, war, and revolution transformed the Russian empire into a socialist great power. Traditional political history is considered side-by-side with the history of collective action and mobilisation, by looking in turn at the behaviour and internal dynamics of various groups (workers, peasants, national and religious minorities, intellectuals, and women) before the war, during the \"continuum of crisis\" of the revolution and civil war, and at the time of Stalin's \"revolution from above\". By so doing, the module provides exposure to themes in economic history, labour history, and peasant studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist259",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST259_202526.htm"
+}

@@ -1,0 +1,27 @@
+{
+  "code": "EBUS308",
+  "name": "Project Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr M Tickle",
+  "description": "This module provides students with the necessary tools,  techniques and analytical skills required to strategically manage new and existing projects, within the current uncertain business environment. The module seeks to provide participants with a broad understanding of the key project management elements such as: project scheduling, resource budgeting, quality assurance and risk management / mitigation, all of which provide measurement of institutional project performance. It addresses the principal techniques used to identify, assess, measure, control and manage projects and their associated risks.",
+  "prerequisites": [
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ebus308",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_EBUS308_202526.htm"
+}

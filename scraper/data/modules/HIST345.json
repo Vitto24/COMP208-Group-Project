@@ -1,0 +1,40 @@
+{
+  "code": "HIST345",
+  "name": "DEMOCRACY IN AMERICA: FROM TOCQUEVILLE TO TRUMP",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr CA Hudson",
+  "description": "When Tocqueville toured the United States in 1830 the fluidity of the social structure, the energy and equality of the people, and the success of the democratic experiment struck him as unique. Only in America, he concluded, had freedom and equality been so successfully balanced. His four-volume report of his travels Democracy in America celebrated the American exception, establishing it as a model for emulation but also served as a warning about the dangers a democratic republic faced. Numerous challenges, contradictions and denials \u2013 including slavery, Civil War, mass immigration, Empire, depression, and World War \u2013 have troubled the American democratic creed in the two centuries since Tocqueville wrote. This module will examine the ideas and events that animated and motivated American democracy from the early nineteenth- to the early twenty-first centuries and assess how Americans have responded to democracy\u2019s failings as well as its triumphs.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist345",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST345_202526.htm"
+}

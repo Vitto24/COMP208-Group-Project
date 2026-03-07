@@ -1,0 +1,25 @@
+{
+  "code": "MUSI201",
+  "name": "Classical Performance 2A",
+  "department": "Music",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Ms RL Drury",
+  "description": "This course continues to develop students' performance skills, with a particular emphasis on developing technique and an awareness of reflection, score analysis, and historical performance practices. The course intends to benefit students' own practice, performance, and ensemble skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "with aural introduction outlining specific technique focussing on and how practice methods has tied into its development",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "and Q&A (5mins)",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi201",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI201_202526.htm"
+}

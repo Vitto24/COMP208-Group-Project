@@ -1,0 +1,25 @@
+{
+  "code": "HIST116",
+  "name": "MODERN BRITAIN: DEMOCRACY, WAR, AND MODERNITY",
+  "department": "History",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr CN Stafford",
+  "description": "This module provides students with an introduction to modern British history. \u00a0 It broadens their existing understanding by first considering factors of a general importance in the development of modern Britain, and then looking at particular events and themes. \u00a0 In this way, students will be given a grasp both of broad themes in British history \u2013 such as demographics, political units, ideologies and social change \u2013 and of the specific way history unfolded at key moments and turning points.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist116",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST116_202526.htm"
+}

@@ -1,0 +1,37 @@
+{
+  "code": "MATH326",
+  "name": "Relativity",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr SL Parameswaran",
+  "description": "Einstein's theories of special and general relativity have introduced a new concept of space and time, which underlies modern particle physics, astrophysics and cosmology. It makes use of, and has stimulated the development of modern differential geometry. This module develops the required mathematics (tensors, differential geometry) together with applications of the theory to particle physics, black holes and cosmology. It is an essential part of a programme in theoretical physics.",
+  "prerequisites": [
+    "MATH122",
+    "MATH103",
+    "MATH102",
+    "MATH228",
+    "MATH101",
+    "MATH225"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math326",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH326_202526.htm"
+}

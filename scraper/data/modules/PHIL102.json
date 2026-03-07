@@ -1,0 +1,25 @@
+{
+  "code": "PHIL102",
+  "name": "POLITICAL PHILOSOPHY",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RA Handley",
+  "description": "This module introduces students to the main arguments and theories in the history of Western political philosophy. Taking this module will enhance students' abilities to analyse political arguments and claims and to identify the philosophical assumptions that underlie them. The module is taught by lecture (2 x 1 hour per week in person, or pre-recorded mini-lectures available online, depending on the circumstances) and seminar (1 hour per week). Assessment is via a take home exam (2 hour equivalent, weighted at 90% of the module mark) and a 5-10 minute seminar presentation (weighted at 10% of the module mark). Seminar presentations may be recorded by students, if in-person presentation is not possible.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL102_202526.htm"
+}

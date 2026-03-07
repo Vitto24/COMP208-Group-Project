@@ -1,0 +1,28 @@
+{
+  "code": "EBUS301",
+  "name": "The Digital Business",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Sarwar",
+  "description": "Technology and especially the Internet is an essential tool for the modern business providing important connections to their customers and suppliers. However, it isn't simply a case of deploying these technologies and hoping for benefit, you need to appreciate the possibilities they open up and align these possibilities to your organisational strategy. This module will open up the world of technology and its impact on business. The first half of the module will introduce the kind of technologies you are likely to meet in business and how they are being used currently.  The module will then go on to explore concrete examples of e-business to examine how the student may exploit this opportunity in the future.",
+  "prerequisites": [
+    "ULMS101",
+    "ULMS115"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Penalty for Late Submission:",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ebus301",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_EBUS301_202526.htm"
+}

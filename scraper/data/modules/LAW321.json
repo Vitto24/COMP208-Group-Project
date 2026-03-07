@@ -1,0 +1,25 @@
+{
+  "code": "LAW321",
+  "name": "CLINICAL LEGAL SKILLS - A Law Clinic Module",
+  "department": "Law",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Ms LB Yeatman",
+  "description": "Clinical Legal Skills is a final year optional module based in the Liverpool Law Clinic, an in house legal practice within the School of Law and Social Justice. Learning on the module is experiential: Students will work in small groups or \u201cfirms\u201d of 6 students throughout the term and there is an emphasis on collaborative learning and problem solving throughout the module. \u00a0 The bulk of the student learning takes place through working in the Liverpool Law Clinic with student firms assisting in-house and external solicitors and barristers to provide an advice service to member of the general public. Casework includes working to strict deadlines. The Law Clinic operates during office hours 8 am to 5.30pm and for reasons of client confidentiality, students are only permitted to work on their client case in the Law Clinic. Remote working on case files is prohibited. \u00a0 There are weekly practical workshops which will cover skills and legal content. Students will give presentations about the cases that they are working on, so that they whole group can learn from the legal and professional issues encountered and the legal advice provided. Workshops will cover areas including researching legal problems, letter drafting, client interviewing, access to justice, reflective practice and law and procedure relevant to client cases. \u00a0 In addition to weekly workshops each firm has a weekly 1 hour case supervision meeting to receive feedback on practical case work.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ":The work done on client cases will be completed during the semester, and the final portfolio of work submitted at the end of semester one",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW321_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "CIVE203",
+  "name": "STRUCTURAL BEHAVIOUR",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr M Manes",
+  "description": "This module builds on Year 1 structural analysis focussing on detailed concepts of structural mechanics to improve the understanding of students related to structural behaviour. Additionally, computer-based structural analysis is introduced as well as applications are discussed in a structural laboratory. Seminars with professional engineering from industry and academia are also organized to enhance professional networks and show different career paths.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE203_202526.htm"
+}

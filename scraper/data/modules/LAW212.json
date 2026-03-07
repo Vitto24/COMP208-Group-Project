@@ -1,0 +1,35 @@
+{
+  "code": "LAW212",
+  "name": "LAW AND SOCIAL JUSTICE IN ACTION",
+  "department": "Law",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RJ Knox",
+  "description": "In Law and Social Justice in Action, students will enhance a range of core legal and transferable skills, engage in group work, and critically evaluate the impact of the law with reference to a specific case study. After initial introductory lectures, students will select and follow a \u2018research pathway\u2019 in the module, in the context of which they will seek to explore the relationship between law and some aspect(s) of social justice.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 80
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW212_202526.htm"
+}

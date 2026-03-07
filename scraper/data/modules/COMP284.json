@@ -1,0 +1,29 @@
+{
+  "code": "COMP284",
+  "name": "Scripting Languages",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Dr U Hustadt",
+  "description": "COMP284 `Scripting Languages' is one of several technical skills/employability skills modules offered in the second semester of the second year of study. It addresses both the demand by employers and the desire of students that students should encounter a range of programming languages during their studies and should be able to use these programming languages productively. Scripting languages have gained enormously in their popularity with the expansion and development of the world wide wide and world wide web technologies as they are now the predominant languages used in the development of web applications. The module will cover two scripting languages, namely,  JavaScript and PHP. At the end of the module students should be able to develop applications, both web-based and computer-based, in them.",
+  "prerequisites": [
+    "COMP207",
+    "COMP107",
+    "COMP122"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp284",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP284_202526.htm"
+}

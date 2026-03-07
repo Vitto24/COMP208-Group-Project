@@ -1,0 +1,20 @@
+{
+  "code": "COMP310",
+  "name": "Multi-Agent Systems",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Zhu",
+  "description": "Multi-agent systems have emerged as one of the most important areas of research and development in information technology in the 1990s. A multi-agent system is one composed of multiple interacting software components known as agents, which are typically capable of co-operating to solve problems that are beyond the abilities of any individual member. Multi-agent systems are important primarily because they have been found to have very wide applicability, in areas as diverse as industrial process control and electronic commerce. This module will begin by introducing the student to the notion of an agent, and will lead them to an understanding of what an agent is, how they can be constructed, and how agents can be made to co-operate effectively with one another to solve problems.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Exam  Assessment Schedule (When) :Semester 2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP310_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "PHYS246",
+  "name": "Accelerators and Radioisotopes in Medicine",
+  "department": "Physics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor RD Page",
+  "description": "This module provides an introduction to applications of accelerators and radioisotopes in medical imaging and tumour therapy. Concepts are developed from a simple physics perspective to provide an insight into the principles and practices of these modern medical applications. The lectures are complemented by workshops in which students can work collaboratively on problems to solve set problems. Experimental demonstrations to reinforce concepts also take place in the workshops. As well as being of interest to students considering careers in medical physics or nuclear-related industries, this module should also appeal to those curious to see how physics can be applied in a multidisciplinary approach to other areas of science.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys246",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS246_202526.htm"
+}

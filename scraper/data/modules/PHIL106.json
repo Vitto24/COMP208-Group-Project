@@ -1,0 +1,30 @@
+{
+  "code": "PHIL106",
+  "name": "Philosophical Insights",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JH Bebb",
+  "description": "This module brings the history of philosophy to life by unpacking the meaning behind well-known philosophical quotations (e.g. \u2018The unexamined life is not worth living\u2019; \u2018One is not born, but rather becomes, a woman\u2019). The quotations will be selected from key thinkers in the history of philosophy and will complement, not overlap, with material covered on other philosophy modules. Students are introduced to well-known philosophical quotations in lectures. The lectures provide background context required to understand the quotations. Students then have the opportunity to explore the quotations in more depth in seminars and through independent study. There are three assessments: regular seminar discussion tasks (15%), which provide students the chance to gain credit for work done during seminars; a podcast on one of the quotations (15%), which students record during the semester; a blog post that uses one of the quotations as a \u201cjumping off point\u201d for an exploration of some important philosophical ideas.\n\nStudents taking this module will improve their skills in reading, writing, and discussing philosophy. Students will gain skills in explaining complex information in a concise manner to an audience, in practising the intellectual virtues associated with philosophy, in conducting their own independent research and in critically discussing important ideas in the history of philosophy. They will also gain familiarity with modes of writing other than essays (blogposts) and with presenting their ideas orally (podcasts). In addition, there is a two-hour information skills workshop provided by the Library.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL106_202526.htm"
+}

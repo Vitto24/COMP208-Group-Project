@@ -1,0 +1,30 @@
+{
+  "code": "ARCH361",
+  "name": "Technology 3.1: Integrated Technical Project Design",
+  "department": "Architecture",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CP Medel Vera",
+  "description": "The module covers the broad spectrum of construction technologies, materials and methods \u2013 from intermediate to current to emerging \u2013 by presenting the work of internationally respected architects operating in different geographical, cultural and economic contexts. Key aspects of architectural technology are discussed through precedents, with the aim to understand how material and technical choices are impacted by \u2013 and in turn able to impact \u2013 design, from concept to detailing.\n\nThe module reflects upon the multiplicity of ways in which technology can respond to site, programme, budget and users, act as a vehicle to articulate typological, spatial and haptic qualities in design, and address sustainability in the broadest sense.\n\nThe module consists of lectures, drop-ins and tutorials. The assessment is based on an individual exam, an individual peer assessment and a group coursework assignment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch361",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH361_202526.htm"
+}

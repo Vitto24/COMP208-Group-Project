@@ -1,0 +1,32 @@
+{
+  "code": "COMP343",
+  "name": "Computer Forensics",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr MC Ghanem",
+  "description": "Forensic Computing involves the examining and analysing of data retrieved from various computer storage mediums, to be used as evidence in a court of law. Students will develop the skills and knowledge to undertake a forensic computing investigation in a systematic manner utilising existing methods, tools and techniques.",
+  "prerequisites": [
+    "COMP124"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Final exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1  Reassessment opportunity: Yes, resit exam will replace failed CA components, the Learning Outcomes will be covered in the resit exam",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2  Reassessment opportunity: Yes, resit exam will replace failed CA components, the Learning Outcomes will be covered in the resit exam",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp343",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP343_202526.htm"
+}

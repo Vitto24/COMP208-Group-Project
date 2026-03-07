@@ -1,0 +1,31 @@
+{
+  "code": "MATH362",
+  "name": "APPLIED PROBABILITY",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr E Azmoodeh",
+  "description": "This module studies discrete-time Markov chains, as well as introducing the most basic continuous-time processes. The basic theory for these stochastic processes is considered in detail. This includes the Chapman Kolmogorov equation, communication of states, periodicity, recurrence and transience properties, asymptotic behaviour, limiting and stationary distributions, and an introduction to Poisson processes. Applications in different areas, in particular in insurance, are considered.",
+  "prerequisites": [
+    "MATH254",
+    "MATH163",
+    "MATH103",
+    "MATH102",
+    "MATH101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math362",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH362_202526.htm"
+}

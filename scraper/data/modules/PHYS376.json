@@ -1,0 +1,20 @@
+{
+  "code": "PHYS376",
+  "name": "Nuclear Power",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor J Coleman",
+  "description": "This module focuses on nuclear reactors as a source of energy for use by society. After reviewing the underlying physics principles, the design and operation and nuclear fission reactors is introduced. The possibility of energy from nuclear fusion is then discussed, with the present status and outlook given.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys376",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS376_202526.htm"
+}

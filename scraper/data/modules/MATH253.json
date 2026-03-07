@@ -1,0 +1,40 @@
+{
+  "code": "MATH253",
+  "name": "Statistics and Probability I",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Haddley",
+  "description": "Analysis of data has become an essential part of current research in many fields including medicine, pharmacology, and biology. It is also an important part of many jobs in e.g. finance, consultancy and the public sector. This module provides an introduction to statistical methods with a strong emphasis on applying and interpreting standard statistical techniques. Since modern statistical analysis of real data sets is performed using computer power, a statistical software package is introduced and employed throughout.",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH163",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "are not required to pass it again in any subsequent modules",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math253",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH253_202526.htm"
+}

@@ -1,0 +1,35 @@
+{
+  "code": "COMP517",
+  "name": "Programming Fundamentals",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr DJ Purser",
+  "description": "The aim of COMP517 is to help you to learn how to design and create software. Central to this will be an understanding of and practical experience with a modern programming language, but you will also be made aware of the importance of using sound software engineering techniques to develop high quality programs. As with many endeavours (swimming, chess-playing, story-writing) programming is a skill that must be learned and improved upon by constant practice. In this module, therefore, the emphasis will be on self-study. Although lectures will be used to introduce the various topics, you will be expected to spend the majority of your time attempting numerous exercises and completing the specified assignments.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Lab exercises",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "PC based Examination",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc/modules/comp517",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP517_202526.htm"
+}

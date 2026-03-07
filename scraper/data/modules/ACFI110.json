@@ -1,0 +1,25 @@
+{
+  "code": "ACFI110",
+  "name": "Sustainability and Ethics for Accountants",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr MN Drape",
+  "description": "This module is designed to give students a strong foundation in the core concepts of sustainability and ethics. It aims to equip students with an understanding of how these concepts apply to business practices and why they are so significant to the role of the accountant.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi110",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI110_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "LAW369",
+  "name": "Public Interest Lawyering \u00e2\u0080\u0093 Semester 2",
+  "department": "Law",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr J Organ",
+  "description": "This module is an opportunity for you to gain an understanding and insight into issues relating to access to justice and public interest law. You will undertake a placement in a public sector or non profit organisation, develop skills and undertake tasks within a practical context, apply academic knowledge from your degree, and develop your personal and employability skills within a working environment. This experience will develop understanding of access to justice policy and public interest law in a practical setting.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "in the form of an access to justice related legal reform report",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law369",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW369_202526.htm"
+}

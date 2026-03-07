@@ -1,0 +1,40 @@
+{
+  "code": "HIST340",
+  "name": "VIKINGS IN BRITAIN AND IRELAND",
+  "department": "Institute of Irish Studies",
+  "semester": 1,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Professor C Downham",
+  "description": "The Viking Age Scandinavian diaspora left a long term cultural imprint in Britain and Ireland, however the histories of this period are often misrepresented and misunderstood. Despite a popular fascination with vikings in videogames and television, there is a dearth of research into the primary sources of this period. Through the framework of political history and detailed analysis the surviving evidence, this module invites a deeper understanding of vikings from a multi-disciplinary perspective.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist340",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST340_202526.htm"
+}

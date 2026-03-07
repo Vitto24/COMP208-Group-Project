@@ -1,0 +1,25 @@
+{
+  "code": "BIOS101",
+  "name": "Biology Core Concepts",
+  "department": "Biosciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Professor SU Voelkel",
+  "description": "The transition into higher education can be a challenging one. This module aims to aid students in their journey from further education learners into higher education students of the Biosciences. To truly appreciate the disciplines which make up the Biosciences we must first develop an understanding and appreciation of their commonalities. This module brings together the core concepts of biology at the macro through the micro levels. This will provide students with the opportunity to develop and enhance their knowledge of the Biosciences and the possible pathways which they wish to study further.  A mix of learning & teaching methods will be used in this module which will include, but are not limited to lectures, active learning, and learning through assessment, plus the use of directed reading/multimedia resources. This module will be assessed by a midterm assessment comprising mixed multiple choice, multiple answer and matching item questions (30%). There will also be an end of module assessment which consists of multiple choice questions (70%) .",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS101_202526.htm"
+}

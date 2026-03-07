@@ -1,0 +1,25 @@
+{
+  "code": "PSYC233",
+  "name": "PSYCHOBIOLOGY & MOTIVATION",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 5,
+  "credits": 22.5,
+  "lecturer": "Dr B Mead",
+  "description": "Building\u00a0on existing knowledge, this module\u00a0will further develop students' understanding of the relationship between physiology and psychology. Module content focuses on more complex biological processes and explains how these might be applied to other\u00a0topics\u00a0covered in other modules, such as cognitive and developmental. This content evaluates in more detail theories of how and why the structure and function of the central and peripheral nervous systems impact\u00a0stress, sex, aggression, appetite, drug use, and sleep. The module will be taught through a combination of lectures and seminars. The \u2018content\u2019 lectures (12 x 2 hours) will focus on the academic material and the \u2018research focused\u2019 lectures (10 x 1 hour) will present how this academic material is used in the real world. In order to explore the practicalities of conducting research in this area there will be small group research seminars (3 x 2 hours) where students will conduct an experiment under the supervision of a member of staff.\u00a0 Material will be available to students online (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback). The module is assessed via\u00a0 coursework (a policy document) and end of term written examination.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ": Examination period",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc233",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC233_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "PHIL112",
+  "name": "CRITICAL, ANALYTICAL AND CREATIVE THINKING",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr JH Bebb",
+  "description": "Taking this module will help you to gain skill in reconstructing and evaluating arguments, in analysing, interpreting, and thinking critically about textual and statistical information, and in thinking creatively. There are 100 minutes' worth of lectures per week and, running from Week 2 onwards, ten weekly online tests. The first two online tests are purely formative. Each of the remaining eight online tests contributes 5% of the module result. A 2-hour on-line examination contributes the remaining 60%.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil112",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL112_202526.htm"
+}

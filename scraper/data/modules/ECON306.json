@@ -1,0 +1,26 @@
+{
+  "code": "ECON306",
+  "name": "The Economics of Developing Countries",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Yadav",
+  "description": "This is an introductory module to the economics of international development. It introduces students to conceptual and methodological\u00a0issues within\u00a0international development and\u00a0provides a solid grounding in various models of economic growth and development. It builds\u00a0an understanding of\u00a0various contemporary issues in this area and\u00a0develops critical\u00a0and analytical skills\u00a0in\u00a0analysing the problems of developing countries.\u00a0From this perspective, it is designed to\u00a0prepare students\u00a0for a master's\u00a0course in international development or to\u00a0simply\u00a0bring a critical understanding of issues of developing countries to their chosen field of work.",
+  "prerequisites": [
+    "ECON223",
+    "ECON224",
+    "ECON221",
+    "ECON222",
+    "ECON227"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "; Section B: essay type answers (answer two out of three) (30 marks each)",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ306",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON306_202526.htm"
+}

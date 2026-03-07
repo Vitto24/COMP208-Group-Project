@@ -1,0 +1,25 @@
+{
+  "code": "ALGY283",
+  "name": "RETHINKING STONEHENGE (BRITISH AND IRISH PREHISTORY)",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RE Pope",
+  "description": "This module covers Later British/Irish Prehistory from the Neolithic to the end of the Bronze Age. Moving on from a brief introduction to European Prehistory in Year 1 (ALGY106 and ALGY131), we now focus on the key issues currently under debate in Prehistoric studies in Britain: Neolithic sedentism and mobility, how we think about Stonehenge, the new science of migration, settlement and land use, ritual traditions, climate change, and the nature of prehistoric society. This module considers how we have often constructed an uncritical understanding of the past, particularly its power structures, in our own image. As archaeologists of the post-colonial era, we instead investigate how a critical archaeology is working to discover the real 'difference' of the past. The aim is to gain a developed understanding of prehistoric social practice and a critical understanding of prehistoric studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy283",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY283_202526.htm"
+}

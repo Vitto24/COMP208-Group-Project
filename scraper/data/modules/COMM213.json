@@ -1,0 +1,25 @@
+{
+  "code": "COMM213",
+  "name": "Global News, Media and War",
+  "department": "Communication and Media",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr VY Slavtcheva-Petkova",
+  "description": "The media are now central to any discussion of contemporary war and conflict while global news reporting is supposedly in decline. How can we understand the interplay between global news, media and war in the context of rapidly evolving communication technologies and journalistic practices? This module explores the broader context of global news focusing on media in different parts of the world and the way they report on global issues. It considers the professional practice of foreign reporting and the challenges that notions of ethics, objectivity and attachment present for journalists. Then it engages with both the responses of states, including the use of media management and persuasion, and those of audiences who are often conflicted in reaction to distant conflict. The module concludes with an investigation of specific wars of recent years and a look at the future of reporting war and beyond.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Week 12",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/comm213",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMM213_202526.htm"
+}

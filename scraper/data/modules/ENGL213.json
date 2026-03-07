@@ -1,0 +1,25 @@
+{
+  "code": "ENGL213",
+  "name": "DRAMA 1580-1640",
+  "department": "English",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr E Miskimmin",
+  "description": "This module covers a range of Renaissance drama, the contemporaries to Shakespeare, focussing on the relationship between page and stage and considering how an understanding of original performance conditions\u00a0can influence our readings of the plays.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl213",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL213_202526.htm"
+}

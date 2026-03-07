@@ -1,0 +1,31 @@
+{
+  "code": "ECON222",
+  "name": "Microeconomics 2",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr K Narita",
+  "description": "This module aims to introduce students to three topics in microeconomic theory: game theory, asymmetric information and welfare economics.",
+  "prerequisites": [
+    "ECON113",
+    "ECON111",
+    "ECON221",
+    "ECON227",
+    "ECON121"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ222",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON222_202526.htm"
+}

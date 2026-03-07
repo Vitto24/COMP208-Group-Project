@@ -1,0 +1,30 @@
+{
+  "code": "COMP309",
+  "name": "Efficient Sequential Algorithms",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr BP Keetch",
+  "description": "This module aims to teach students some advanced topics in the design and analysis of efficient sequential algorithms, and a few key results related to the study of their complexity.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp309",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP309_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "COMP109",
+  "name": "Foundations of Computer Science",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr K Sreenivasaiah",
+  "description": "This module provides students\u00a0with the mathematical foundation, mathematical tools and basic proof techniques necessary for the study of Computer Science and develops the study skills necessary to learn new concepts in this area.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Tutorial contribution",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp109",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP109_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ENVS232",
+  "name": "Marine Pollution",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr P Salaun",
+  "description": "Students are taught how marine systems are changing due to globally increasing water temperatures and increasing carbon dioxide concentrations in the atmosphere, which are affecting the chemistry, physics and ultimately biology of the marine systems at unprecedented rates. These changes are expected to accelerate in the coming decades. Localised anthropogenic stressors such as excess nutrients, plastic debris, trace metals (e.g. mercury, copper), marine heatwaves and/or other emerging contaminants affecting coastal and open ocean waters are covered. Students will gain an understanding of the causes and processes that drive marine pollution issues as well as techniques used to monitor, remediate and/or regulate those issues. Assessment consists of a group-based video presentation and a final in-person exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ".",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": ".",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs232",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS232_202526.htm"
+}

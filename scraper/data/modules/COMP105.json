@@ -1,0 +1,35 @@
+{
+  "code": "COMP105",
+  "name": "Programming Language Paradigms",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JS Fearnley",
+  "description": "This module is for students that already have some programming skills. Students will learn about the two main programming paradigms: imperative programming and functional programming. Since most introductory programming courses teach imperative programming, this module will focus on the functional paradigm. Students will learn how to program in Haskell, a popular functional programming language. They will learn how to formulate programs in a functional way, and the common techniques and idioms that are used to solve problems in functional programming.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Computer Based Programming Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Engagement Task",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP105_202526.htm"
+}

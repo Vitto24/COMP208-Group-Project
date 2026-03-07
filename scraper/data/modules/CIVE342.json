@@ -1,0 +1,27 @@
+{
+  "code": "CIVE342",
+  "name": "EARTHQUAKE ENGINEERING",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr L Di Sarno",
+  "description": "",
+  "prerequisites": [
+    "ENGG301"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of 1st Semester",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ":End of Semester 1",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE342_202526.htm"
+}

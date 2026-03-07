@@ -1,0 +1,25 @@
+{
+  "code": "PSYC310",
+  "name": "APPETITE REGULATION AND OBESITY: HEALTH AND NEUROSCIENCE PERSPECTIVES",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor CA Hardman",
+  "description": "This module explores issues in our relationship with food from a biopsychological perspective. Topics include: 1, the rising incidence of obesity and its implications for health, 2, associated causes and treatments, 3, developmental aspects of eating, 4, appetite control and 5, hedonics and the resulting concept of food addiction.\n\nThe module will be taught via lectures and online discussions which will develop both subject specific knowledge and transferable skills. Learning will be assessed via a written exam and coursework (blog).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Semester 1",
+      "weight": 85
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC310_202526.htm"
+}

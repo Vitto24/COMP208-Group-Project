@@ -1,0 +1,30 @@
+{
+  "code": "ENVS165",
+  "name": "Theory and Laboratory Experiments in Earth Surfaces Processes",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr SP Brough",
+  "description": "The module uses a lecture and laboratory-based problem-solving approach to explore some of the fundamental physical and chemical processes underlying physical geography. It is designed to provide a foundation for environmental and physical geography modules in the second and third year. This module comprises multiple whole-day practical sessions, each designed to give students first-hand experience of a topic important in understanding our changing environment. Students get formal feedback in each assessed week (one poster per group). However, perhaps most valuable is the feedback obtained informally via discussions during the sessions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Sem 2",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": ": Semester 2",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs165",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS165_202526.htm"
+}

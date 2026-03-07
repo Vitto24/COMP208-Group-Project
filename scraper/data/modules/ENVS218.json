@@ -1,0 +1,25 @@
+{
+  "code": "ENVS218",
+  "name": "Planning for Environmental Sustainability",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr TE Moore",
+  "description": "Environmental concerns have become increasingly pressing over the last few decades, covering pollution, resource depletion, loss of biodiversity and poor quality of life. Overarching all these concerns is the global challenge of climate change. We need to find new approaches to our way of life. This module explores the notion of environmental sustainability and the role of spatial planning in implementing solutions. It is taught through lectures and assessed through an exam focusing on the principles and practices of environmental sustainability, and an individual project in which students develop their own imaginative idea for tackling a particular sustainability problem.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Assessment 2, exam period",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 2, exam period",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs218",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS218_202526.htm"
+}

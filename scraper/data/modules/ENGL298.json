@@ -1,0 +1,20 @@
+{
+  "code": "ENGL298",
+  "name": "BANNED: FICTION, SEX AND THE LIMITS OF DECENCY",
+  "department": "Institute of Irish Studies",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Mr KJ Hennessy",
+  "description": "This module seeks to consider the history of literary censorship from France of the 1850s to postwar Britain and Ireland. It will examine issues such as 'bad language', decency, morality and 'cancel culture' in writers ranging from Gustave Flaubert to Edna O'Brien.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl298",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL298_202526.htm"
+}

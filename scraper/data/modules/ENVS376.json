@@ -1,0 +1,25 @@
+{
+  "code": "ENVS376",
+  "name": "Coastal Environments: Spatial and Temporal Change",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr C Lyddon",
+  "description": "This module considers the evolution and response of coastal environments to marine and riverine processes and their variations in relation to past, present and future climate change. Attention is given to physical processes and inter-relationships acting along coastlines and coastal changes in response to sea level rise, variations in storms activity, wave climate and sediment supply. Consideration is also given to coastal management and climate change adaptation and mitigation measures. Topics will be investigated through a combination of lectures, field trips and development of a project aimed at identifying optimum coastal protection schemes for real case studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ": Sem 1",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": ": Sem 1",
+      "weight": 65
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs376",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS376_202526.htm"
+}

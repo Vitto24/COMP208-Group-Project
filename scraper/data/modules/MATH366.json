@@ -1,0 +1,31 @@
+{
+  "code": "MATH366",
+  "name": "MATHEMATICAL RISK THEORY",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Papaioannou",
+  "description": "To provide an understanding of the mathematical risk theory used in practise in non-life actuarial depts of insurance firms, to provide an introduction to mathematical methods for managing the risk in insurance and finance (calculation of risk measures/quantities), to develop skills of calculating the ruin probability and the total claim amount distribution in some non \u2010 life actuarial risk models with applications to insurance industry, to prepare the students adequately and to develop their skills in order to be exempted for the exams of CT6 subject of the Institute of Actuaries (MATH366 covers 50% of CT6 in much more depth).",
+  "prerequisites": [
+    "MATH254",
+    "MATH102",
+    "MATH163",
+    "MATH101",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math366",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH366_202526.htm"
+}

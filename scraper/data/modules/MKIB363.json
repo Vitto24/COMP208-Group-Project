@@ -1,0 +1,24 @@
+{
+  "code": "MKIB363",
+  "name": "Marketing Strategy",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Malik",
+  "description": "The module builds on previous marketing related modules but as the title implies encourages students to think strategically about marketing in practical terms and in a theoretical context.\u00a0 Students will be assessed by individual assignment where they are\u00a0required\u00a0to implement a strategic marketing plan for a real life company.",
+  "prerequisites": [
+    "MKIB153",
+    "MKIB256",
+    "MKIB255"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib363",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB363_202526.htm"
+}

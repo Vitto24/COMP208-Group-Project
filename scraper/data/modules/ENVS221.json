@@ -1,0 +1,25 @@
+{
+  "code": "ENVS221",
+  "name": "Population and Societies",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr P Williamson",
+  "description": "This module aims to provide a general introduction to the field of population geography, in which a basic demographic understanding of population change is placed within a spatial framework, allowing exploration of the nature and causes of national, societal and cultural differences in these changes. This module is also designed to serve as the foundation block for those interested in pursuing a population geography or GIS/Spatial Analysis  'pathway'.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Assessment 2, end of term",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, Mid-Term",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs221",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS221_202526.htm"
+}

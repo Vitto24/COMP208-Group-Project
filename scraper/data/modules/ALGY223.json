@@ -1,0 +1,30 @@
+{
+  "code": "ALGY223",
+  "name": "NOMADS: AN INTRODUCTION TO THE ARCHAEOLOGY OF EURASIA",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr PN Hommel",
+  "description": "This module delves into the archaeology of Eurasia, tracing the emergence and evolution of steppe pastoralist societies, from their roots in the complex hunter-gatherer communities of the Early Holocene to the first 'nomadic' empires and the rise of the Huns. It offers a rare opportunity to engage with the remarkable archaeological record of Siberia and Central Asia, and to discover cultures and communities who are often marginalized in Euro- and Sino-centric narratives of 'civilization.'\n\nThrough a combination of lectures and student-led seminars, you will explore overarching historical narratives and the ways in which archaeological, scientific, and textual evidence contribute to our understanding of mobility, social organization, communication, and exchange along the ancient Silk Roads. You will gain insight into the resilience, adaptability and creativity of communities, whose contributions to global history are still felt today.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy223",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY223_202526.htm"
+}

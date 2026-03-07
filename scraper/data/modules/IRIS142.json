@@ -1,0 +1,37 @@
+{
+  "code": "IRIS142",
+  "name": "BEGINNERS' IRISH LANGUAGE  2",
+  "department": "Institute of Irish Studies",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr EP Ahern",
+  "description": "This course follows on from IRIS141: Beginners\u2019 Irish Language 1, bringing students to a more detailed understanding of Irish. We will continue to cover themes based on the TEG (Teastas Eorpach Gaeilge) syllabus and will delve further into key aspects of Irish language, literature and culture.",
+  "prerequisites": [
+    "IRIS141"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/iris142",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_IRIS142_202526.htm"
+}

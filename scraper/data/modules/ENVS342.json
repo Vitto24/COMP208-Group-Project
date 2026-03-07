@@ -1,0 +1,35 @@
+{
+  "code": "ENVS342",
+  "name": "Introduction to Quaternary Micropalaeontology",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr FLE Marret-Davies",
+  "description": "This module intends to give a holistic insight of a number of marine and terrestrial microfossils that are conventionally used for reconstructing past environmental conditions for the Quaternary period, including recent past. Microfossils are biological indicators that can help to either qualitatively and/or quantitatively estimate environmental conditions such as atmospheric temperature and precipitation (pollen), sea-surface conditions (foraminifera, diatoms, radiolarians, dinoflagellate cysts), salinity (ostracods, diatom), pH (diatoms), sea-ice cover (diatoms, dinoflagellate cysts), etc. These conditions are of paramount importance for modelling past climate conditions and the data derived from microfossil assemblages enable to better calibrate models, which in turn, are essential to forecast future climate. In addition, microfossil assemblages help to understand the natural evolution of our environment as well as measuring the amplitude of human activities over time.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS342_202526.htm"
+}

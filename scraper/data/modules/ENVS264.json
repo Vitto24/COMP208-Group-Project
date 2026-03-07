@@ -1,0 +1,25 @@
+{
+  "code": "ENVS264",
+  "name": "Political Economies of Globalisation",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor PJ North",
+  "description": "This module introduces students to the study of globalisation in the early 21st century.  In the 19th and 20th centuries there were big debates between those who think things work best when people are left to decide how they want to live and get what they need by trading with each other, and those who wanted a communist society where people get what they need and contribute what they can to the common good. Of course it did not work out that way, and now for many people free markets, or neoliberalism is the only serious game in town.   The course examines those debates before moving on to examine case studies of how they have worked out in practice.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Second",
+      "weight": 67
+    },
+    {
+      "type": "coursework",
+      "title": ": Second",
+      "weight": 33
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs264",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS264_202526.htm"
+}

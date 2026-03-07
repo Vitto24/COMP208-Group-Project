@@ -1,0 +1,30 @@
+{
+  "code": "MATH254",
+  "name": "STATISTICS AND PROBABILITY II",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr L Yuan",
+  "description": "This module provides an introduction to probabilistic methods that are used not only in actuarial science, financial mathematics and statistics but also in all physical sciences. It focuses on discrete and continuous random variables with values in one and several dimensions, properties of the most useful distributions (e.g. geometric, exponential, and normal), their transformations, moment and probability generating functions and limit theorems. This module will help students doing MATH260 and MATH262 (Financial mathematics). This module complements MATH365 (Measure theory and probability) in the sense that MATH365 provides the contradiction-free measure theoretic foundation on which this module rests.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH163",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math254",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH254_202526.htm"
+}

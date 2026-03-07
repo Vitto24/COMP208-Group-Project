@@ -1,0 +1,28 @@
+{
+  "code": "ACFI315",
+  "name": "Principles of Finance with Excel",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr X Fu",
+  "description": "The module utilises Excel to solve, simulate and model a range of financial problems. It will provide students with the skills to practically apply a range of advanced financial theories and concepts.",
+  "prerequisites": [
+    "ACFI204",
+    "ACFI116"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi315",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI315_202526.htm"
+}

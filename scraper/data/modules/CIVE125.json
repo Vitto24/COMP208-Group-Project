@@ -1,0 +1,40 @@
+{
+  "code": "CIVE125",
+  "name": "Digital Engineering",
+  "department": "Civil and Environmental Engineering",
+  "semester": 0,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr SL De-Ville",
+  "description": "The module introduces both computer programming concepts and surveying of the built environment in engineering contexts. In the first semester, students will study basic programming concepts using MATLAB (or equivalent proprietary software packages) enabling them to write a basic modular program to solve a data analysis problem, which will be transferable to other programming languages. In the second semester, students will explore through personal use the ways construction equipment and digital technologies are used for surveying, inclusive of data recording, survey design and documentation, plus data analysis and interpretation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive125",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE125_202526.htm"
+}

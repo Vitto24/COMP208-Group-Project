@@ -1,0 +1,25 @@
+{
+  "code": "HIST264",
+  "name": "TESTING TIMES: FRENCH HISTORY FROM THE COMMUNE TO CHARLIE HEBDO (1871-2015)",
+  "department": "History",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor CJ Pearson",
+  "description": "This module introduces you to the turbulent history of France from the Paris Commune of 1871 to the Paris terrorist attacks of 2015. During this time, the French experienced two world wars unfold on their soil, as well as political extremism, imperial expansion, military occupation, rapid economic modernization, diminishing global influence, and the difficult process of decolonization and its legacies. Despite moments of national triumph, such as the 1998 World Cup victory, wars, political upheaval, social conflicts, modernization, decolonization, and globalization severely tested what it meant to be \u2018French.\u2019 As well as being interesting in its own right, the global importance of French Republican ideas and culture and the international significance of dramatic events, such as the May 1968 protests and the 2015 attacks, make France an important country to study if we wish to understand developments in contemporary history. It also offers an excellent opportunity to explore histories of gender, race, and other identities.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist264",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST264_202526.htm"
+}

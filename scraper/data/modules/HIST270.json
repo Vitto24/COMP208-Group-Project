@@ -1,0 +1,30 @@
+{
+  "code": "HIST270",
+  "name": "THE AMERICAN AGE: THE UNITED STATES IN INTERNATIONAL AFFAIRS FROM MCKINLEY TO EISENHOWER",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr M Hopkins",
+  "description": "This module offers an analytical survey of key aspects of American foreign policy from the 1890s to the administration of Dwight D. Eisenhower (1953-1961), paying particular attention to the roles of presidents, secretaries of state and other senior advisors. There is a programme of eleven lectures, each lasting one hour, which address American attitudes and policies from the New Manifest Destiny in the 1890s through Woodrow Wilson and the First World War, interwar isolationism and Franklin Roosevelt and the Second World War to Harry Truman and Dwight Eisenhower and the Cold War. In addition, weekly two-hour seminars explore selected issues in greater detail.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist270",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST270_202526.htm"
+}

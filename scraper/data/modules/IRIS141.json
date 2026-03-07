@@ -1,0 +1,35 @@
+{
+  "code": "IRIS141",
+  "name": "BEGINNERS' IRISH  LANGUAGE 1",
+  "department": "Institute of Irish Studies",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr EP Ahern",
+  "description": "This course will provide an introduction to Ireland\u2019s indigenous language, offering the chance to deepen your understanding of the culture and history of Ireland and to begin exploring Irish-language art, writing and film. Starting with some basic words and expressions, the course will guide students through the first steps towards achieving an A1 \u2018beginner\u2019 level in Irish (following the European framework for language learning). No previous knowledge of Irish is required.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/iris141",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_IRIS141_202526.htm"
+}

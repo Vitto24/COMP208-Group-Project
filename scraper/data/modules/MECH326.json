@@ -1,0 +1,25 @@
+{
+  "code": "MECH326",
+  "name": "ENGINEERING FLUID MECHANICS",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr V Bertola",
+  "description": "The module provides students with the fundamental concepts of Engineering Fluid Mechanics, and in particular: the role of viscosity in fluid mechanics, including the no-slip condition and the concept of vorticity; the basic principles of laminar and turbulent flow through pipes including definition and evaluation of the Fanning and Darcy friction factors; the concept of a boundary layer, including separation and transition, and basic equations for friction factor in laminar and turbulent flow with zero pressure gradient; the calculation methods\u00a0of bluff-body drag using drag coefficients with qualitative explanations the potential-flow theory including the concept of irrationality and the principle of superposition; the analysis of compressible flow through constant-area ducts accounting for friction or heat transfer and to use the Fanno- and Rayleigh-flow tables; the analysis of external compressible flow including expansion and compression turns (Prandtl-Meyer expansions and oblique shock waves).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":First semester",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech326",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH326_202526.htm"
+}

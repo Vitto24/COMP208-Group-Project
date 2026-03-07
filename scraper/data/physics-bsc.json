@@ -1,0 +1,68 @@
+{
+  "course_name": "Physics BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "PHYS101",
+        "PHYS102",
+        "PHYS103",
+        "PHYS104",
+        "PHYS105",
+        "PHYS106",
+        "PHYS107",
+        "PHYS108"
+      ],
+      "optional": [
+        "PHYS115",
+        "PHYS135",
+        "PHYS155",
+        "PHYS175"
+      ]
+    },
+    "2": {
+      "compulsory": [
+        "PHYS201",
+        "PHYS202",
+        "PHYS203",
+        "PHYS204",
+        "PHYS205",
+        "PHYS206",
+        "PHYS207"
+      ],
+      "optional": [
+        "PHYS246",
+        "PHYS208",
+        "PHYS251"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "PHYS361",
+        "PHYS370",
+        "PHYS393",
+        "PHYS306",
+        "PHYS379"
+      ],
+      "optional": [
+        "PHYS309",
+        "PHYS375",
+        "PHYS377",
+        "PHYS363",
+        "PHYS387",
+        "PHYS399",
+        "PHYS389",
+        "PHYS392",
+        "PHYS372",
+        "PHYS376",
+        "PHYS384",
+        "PHYS352",
+        "PHYS355",
+        "PHYS373",
+        "PHYS374",
+        "PHYS321",
+        "PHYS381"
+      ]
+    }
+  }
+}

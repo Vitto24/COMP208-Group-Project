@@ -1,0 +1,35 @@
+{
+  "code": "BIOS105",
+  "name": "Study and Communication Skills Tutorials",
+  "department": "Biosciences",
+  "semester": 0,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr AE Maher",
+  "description": "This module will develop students\u2019 transferable skills. It will focus on improving the students\u2019 written, communication, presentation and employability skills via a series of fortnightly tutorials and  lectures. As this module is taken by students on all programmes, to allow students to explore their interests different essay titles, journal papers and discussion topics relevant to students programme area of interest will be offered.  Students will complete tasks that count towards a Portfolio and three larger assessments.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "whilst at university and consider their own values in relation to a career in the life sciences",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS105_202526.htm"
+}

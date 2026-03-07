@@ -1,0 +1,25 @@
+{
+  "code": "POLI352",
+  "name": "PROBLEMS IN POLITICAL THEORY",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor SEF Ashenden",
+  "description": "This module focuses on selected core problems in political theory, examining how these have been treated in both classic and contemporary arguments. The module offers students the opportunity to practice close reading of selected original texts, giving detailed critical attention to the contexts and methods of argumentation of chosen thinkers.\n\nIn the social sciences, responses to questions of sovereignty, legitimacy, obligation, property, justice, revolution, and so on, are usually framed in terms of the analysis of agents\u2019 particular political agendas, and social and economic conditions and processes. These debates often assume that we know what is meant by sovereignty, legitimacy, obligation, etc. In political theory we suspend such assumptions to inquire into the nature of concepts and the work that they do to construct plausible political worlds. This involves both attention to the internal logic of arguments and to the contexts of claims.\n\nOrganised as a \u2018reading course\u2019, the module is designed in detail each year by the students and the member of staff who agree on the texts to be read and the problems to be addressed at the outset of the module. This means that precise content will vary from year to year, though the broad rubric of demanding close attention to texts, and combining classic and contemporary work, will be maintained. Across the sessions as we read both classic texts and contemporary debates, we will focus on concrete political problems in the present to show how political theory helps us to better understand them.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli352",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI352_202526.htm"
+}

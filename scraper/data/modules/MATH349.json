@@ -1,0 +1,29 @@
+{
+  "code": "MATH349",
+  "name": "DIFFERENTIAL GEOMETRY",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Rizzardo",
+  "description": "Differential geometry studies distances and curvatures on manifolds through differentiation and integration. This module introduces the methods of differential geometry on the concrete examples of curves and surfaces in 3-dimensional Euclidean space. Students following a pathway in theoretical physics might find this module interesting as it discusses a different aspect of differential geometry, and might take it together with MATH326 (Relativity) and MATH410 (Manifolds, homology and Morse theory).",
+  "prerequisites": [
+    "MATH102",
+    "MATH103",
+    "MATH101"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math349",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH349_202526.htm"
+}

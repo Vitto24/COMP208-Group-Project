@@ -1,0 +1,30 @@
+{
+  "code": "BIOS106",
+  "name": "Introductory Practical Skills in Biosciences 2",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RL Verspoor",
+  "description": "Biology is a practical science, whether you want to study disease in microbes, plants, invertebrate and vertebrate animals (including  humans), understand the function of a gene, or how the behaviour of organisms can shape an ecosystem. In the first half of this module, all students will learn fundamental practical techniques that every biologist should be familiar with. Alongside the experimental skills, students will learn practical computational and bioinformatic methods that can be used to support and advance scientific understanding of the lab techniques. In the second half, students will split into three topical strands: Molecular Research, Anatomical & Physiological Research or Whole Organism Field Research.  Students in each strand will learn a set of skills and techniques that are particularly useful for degree course, with a focus on their specific discipline. All students will learn how to safely and effectively carry out practical biology, skills that will be vital throughout the rest of your degree.\n\nLearning and teaching is created and delivered by research-active scientists, ensuring that teaching is informed by the latest research and advancements in the biosciences, and is designed to be accessible, inclusive, and representative of the student cohort.\n\nThis practical will be assessed via three methods: a computer-based assessment to assess understanding of bioinformatic and computational skills; an individual practical skills assessment in the form of observation or online assessment to assess knowledge, understanding and application of knowledge; a written scientific report to assess data analyses and communication of research outputs through scientific writing.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "to assess competency",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": ": 1500 word written report (s) detailing experimental process undertaken within practical sessions related to strand of interest",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS106_202526.htm"
+}

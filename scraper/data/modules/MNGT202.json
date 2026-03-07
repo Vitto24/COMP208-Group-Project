@@ -1,0 +1,30 @@
+{
+  "code": "MNGT202",
+  "name": "PROJECT MANAGEMENT",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 1,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Professor ML Murphy",
+  "description": "Project Management is a core skill for professional engineers of all types and a sound education in this subject area is required by the professional accrediting bodies.  The knowledge and skills developed in this module will equip students for their future UG project work and for their careers ahead.This module teaches students the theory of fundamental techniques in project management, risk management, and cost management.\n\nIn this modules student undertake a group \"virtual project\" in which they undertake all stages of project management involved n a major construction projects.  The five virtual project tasks require students to apply their theoretical learning; and they provide an opportunity to develop key professional skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mngt202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MNGT202_202526.htm"
+}

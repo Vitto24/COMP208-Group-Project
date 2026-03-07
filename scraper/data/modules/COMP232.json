@@ -1,0 +1,30 @@
+{
+  "code": "COMP232",
+  "name": "Cyber Security",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Mukherjee",
+  "description": "The module provides a thorough introduction to the area of Cyber Security, including cryptographic algorithms and protocols, systems vulnerabilities and attacks, computer networks and web security.\u00a0 The main basic concepts and theoretical foundations are presented in the lectures, while extensive practical sessions support the development of skills in practical cybersecurity.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment 1",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment 2",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp232",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP232_202526.htm"
+}

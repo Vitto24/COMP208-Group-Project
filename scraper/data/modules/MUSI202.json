@@ -1,0 +1,25 @@
+{
+  "code": "MUSI202",
+  "name": "Classical Performance 2B",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr L Tsang",
+  "description": "MUSI 202 is a continuation of MUSI 201 in which students will continue to improve upon the listening and technical skills developed during Semester One. This module will delve further into the relationship between theory, technique, and a mature professional approach to the practice of each student\u2019s individual instrument.\u202fStudents work with the module leader and an assigned instrumental or vocal teacher to further develop their technical, aural, practice and performative skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ", of which a minimum of 5 minutes should be an ensemble performance",
+      "weight": 65
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 35
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI202_202526.htm"
+}

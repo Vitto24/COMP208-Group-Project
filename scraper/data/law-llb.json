@@ -1,0 +1,59 @@
+{
+  "course_name": "Law LLB (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "LAW107",
+        "LAW105",
+        "LAW106",
+        "LAW102"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "LAW211",
+        "LAW242",
+        "LAW212",
+        "LAW209",
+        "LAW210"
+      ],
+      "optional": []
+    },
+    "3": {
+      "compulsory": [],
+      "optional": [
+        "LAW321",
+        "LAW329",
+        "LAW317",
+        "LAW029",
+        "LAW374",
+        "LAW318",
+        "LAW373",
+        "LAW338",
+        "LAW339",
+        "LAW342",
+        "LAW383",
+        "LAW341",
+        "LAW354",
+        "LAW364",
+        "LAW051",
+        "LAW052",
+        "LAW033",
+        "LAW316",
+        "LAW349",
+        "LAW343",
+        "LAW347",
+        "LAW348",
+        "LAW335",
+        "LAW353",
+        "LAW308",
+        "LAW332",
+        "LAW344",
+        "LAW322",
+        "LAW369"
+      ]
+    }
+  }
+}

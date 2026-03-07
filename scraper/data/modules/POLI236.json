@@ -1,0 +1,30 @@
+{
+  "code": "POLI236",
+  "name": "FOREIGN POLICY ANALYSIS AND INTERNATIONAL CRISES",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr NDM Lees",
+  "description": "The module examines the factors that give rise to international crises and shape the foreign policy responses of states. Under what circumstances do states find themselves on the brink of war with one another and why do some crises escalate to serious violence? Successive weeks examine factors at different scales, focusing in particular on explanations that emphasise the interactions between potentially hostile pairs of states. Additionally, we will consider the contributions of theories that highlight other factors such as the distribution of power and interests in the overall international system, electoral politics and public opinion, as well as psychological processes in the minds of national leaders. Alongside student led discussions of cases such as the India-Pakistan rivalry and the first Gulf War, we will examine statistical patterns in international crises, using data from the International Crisis Behaviour (ICB) project.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 55
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli236",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI236_202526.htm"
+}

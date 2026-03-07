@@ -1,0 +1,30 @@
+{
+  "code": "CIVE263",
+  "name": "GROUP DESIGN PROJECT",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr MJ Bather",
+  "description": "The students\u00a0are provided with a realistic\u00a0design brief\u00a0that needs to be\u00a0met over the course of the semester.\u00a0This is achieved\u00a0via a defined set of realistic work stages\u00a0which enables the students to\u00a0produce an open-ended\u00a0structural design\u00a0within a group working environment, thus promoting\u00a0teamwork\u00a0and industrial awareness. The final deliverable will be\u00a0the submission of\u00a0structured design portfolio/sketchbook and oral presentation to\u00a0academic members of staff\u00a0and relevant\u00a0industry partners.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive263",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE263_202526.htm"
+}

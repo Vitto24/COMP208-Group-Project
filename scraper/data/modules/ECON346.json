@@ -1,0 +1,30 @@
+{
+  "code": "ECON346",
+  "name": "Applied International Macroeconomics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Gorn",
+  "description": "What is globalisation? How does it constrain or enable economic policy making? This module follows on from the intermediate coverage of macroeconomics in year 2 and develops the interpretation of economic theory in a global economic context.In this course we consider different exchange rate r\u00e9gimes and how they relate to the balance of payments and the scope for policy design.The euro zone and the euro crisis present uswith a multilateral exchange rate peg between differing economies. We will study the nature and history of such arrangements before discussing the nature of its current European incarnation.Finally, we will relate abstract models to empirical applications and ask where to obtain real world data to inform theory driven debates. As an alternative to the Advanced Macroeconomics module on the BSc Economics programmes, this module puts less emphasis on the in-depth development of formal model representations, although an appropriate amount of formal modelling is still used. Instead, it widens the focus of the discussion and emphasises the applied dimension.",
+  "prerequisites": [
+    "ECON223",
+    "ECON224",
+    "ECON111",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ346",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON346_202526.htm"
+}

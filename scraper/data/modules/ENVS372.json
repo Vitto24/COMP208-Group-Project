@@ -1,0 +1,25 @@
+{
+  "code": "ENVS372",
+  "name": "Fluvial Environments",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr RJ Boothroyd",
+  "description": "Fluvial processes are found all over the world and are some of the most important in sculpting the Earth\u2019s surface and producing landforms. This module examines fundamental concepts and recent ideas relating to fluvial geomorphology, building on study throughout your educational career. A key point about studying fluvial environments is to understand how the system functions, its links and interactions. It is important to look at all the main components of the system, to understand the dynamics and controls on water and sediment flux and how these produce different types of landforms. The amounts of water and sediment can vary with the environmental conditions and thus study of the drivers of these systems such as climate and human activities and how they have changed over time is essential for being able to interpret the current landscape. Understanding of the present functioning of fluvial systems is essential for any environmental management since rain and runoff are ubiquitous and floods are a major natural hazard.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "This is an anonymous assessment",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs372",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS372_202526.htm"
+}

@@ -1,0 +1,59 @@
+{
+  "course_name": "Accounting and Finance BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "ACFI127",
+        "ACFI103",
+        "ACFI101",
+        "ACFI102",
+        "ACFI115",
+        "ULMS170",
+        "ACFI110",
+        "ACFI111"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "ACFI202",
+        "ACFI210",
+        "ACFI211",
+        "ACFI204",
+        "ACFI201",
+        "ACFI203",
+        "ACFI212"
+      ],
+      "optional": [
+        "PHIL271",
+        "ULMS252",
+        "ECON254",
+        "ACFI225"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "ACFI301",
+        "ACFI303",
+        "ACFI304",
+        "ACFI312",
+        "ACFI302",
+        "ACFI309"
+      ],
+      "optional": [
+        "ULMS360",
+        "ACFI305",
+        "ACFI311",
+        "ACFI321",
+        "ACFI320",
+        "ULMS366",
+        "ACFI310",
+        "ACFI342",
+        "ACFI322",
+        "ACFI315",
+        "ULMS370"
+      ]
+    }
+  }
+}

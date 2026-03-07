@@ -1,0 +1,25 @@
+{
+  "code": "ENVS313",
+  "name": "Poland: Political, Social and Cultural Geographies Since 1939",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor KL Burrell",
+  "description": "This module introduces students to specific geographical developments in Poland since 1939. The course will be structured around the control and use of space in three key time periods: second world war, socialism, post-socialism. The second world war theme considers the impact of war on population and territory in Poland, and the subsequent contestations surrounding wartime memory within the country, focusing on museums and memorial sites as contested sites of memory. The second section of the course considers the spatial dimensions of everyday life under socialism, including: uses of public and private space, queuing and the shortage economy, imagined geographies of the west, and resistances. The final section investigates changes in Poland since 1989: to what extent the country has \u2018returned to Europe\u2019, the impact of shock therapy on social geographies, and how Poland is still working through socialist legacies. Special attention will also be given to Polish migration, before and after EU accession. Ultimately this module enables students to develop an in-depth empirical knowledge of a key site of change in contemporary Europe, while encouraging deep engagement with a range of historical, political, social, cultural and post-socialist geographical readings.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": First (Sem 2)",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "[Online]",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs313",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS313_202526.htm"
+}

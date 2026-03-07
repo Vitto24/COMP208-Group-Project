@@ -1,0 +1,45 @@
+{
+  "code": "POLI105",
+  "name": "INTRODUCTION TO POLITICAL THEORY",
+  "department": "Politics",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr NJ Martin",
+  "description": "This module introduces some of the key concepts, theories and debates in contemporary political theory. We will explore questions such as: how should we define liberty? Is equality always desirable? What does a 'just society' look like? What does it mean to be a liberal, anarchist, Marxist or feminist? In order to address these and other questions we will explore the ideas of several political, moral and legal philosophers. In doing so, we will also practice the skills for constructing, communicating and critiquing philosophical arguments, including their implications for laws, institutions and society.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI105_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "PSYC235",
+  "name": "RESEARCH METHODS AND STATISTICS 4",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr GJ Knibb",
+  "description": "This module will cover data analysis, building on knowledge gained from previous modules, specifically it will include Qualitative approaches (Grounded theory and Interpretative phenomenological analysis) and Quantative approaches (psychometric testing, advanced ANOVA). The module is taught via 12 x 1.5 hour lectures, 12 x 1.5 hour practical classes, and 5 x 1 hour small group research practical sessions with academic advisors. By the end of the module successful students will be able to demonstrate broad understanding of qualitative and quantitative analysis techniques, psychometric testing and be able to correctly report these analyses. Two practical classes will focus on exam practice and give formative feedback.\u00a0Learning outcomes will be assessed using coursework (project report) and a short answer examination.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of Semester",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ": End of semester",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc235",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC235_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "MUSI243",
+  "name": "SOUND RECORDING AND PRODUCTION 2",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr LM Carey",
+  "description": "This module will extend students' knowledge of studio recording and production techniques, including stereo recording; editing; mixing tracks with problems (poor quality recordings, unwanted noise, poor performances); making timing and tuning adjustments; audio quantisation; comping; and working with large multitrack projects.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi243",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI243_202526.htm"
+}

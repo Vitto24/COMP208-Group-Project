@@ -1,0 +1,55 @@
+{
+  "course_name": "Psychology BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "PSYC133",
+        "PSYC131",
+        "PSYC130",
+        "PSYC134",
+        "PSYC135",
+        "PSYC132"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "PSYC232",
+        "PSYC231",
+        "PSYC230",
+        "PSYC233",
+        "PSYC234",
+        "PSYC235"
+      ],
+      "optional": []
+    },
+    "3": {
+      "compulsory": [
+        "PSYC340"
+      ],
+      "optional": [
+        "PSYC310",
+        "PSYC311",
+        "PSYC301",
+        "PSYC317",
+        "PSYC344",
+        "PSYC330",
+        "PSYC343",
+        "PSYC334",
+        "PSYC348",
+        "PSYC339",
+        "PSYC399",
+        "PSYC326",
+        "PSYC327",
+        "PSYC329",
+        "PSYC336",
+        "PSYC398",
+        "PSYC347",
+        "PSYC354",
+        "PSYC356",
+        "PSYC357"
+      ]
+    }
+  }
+}

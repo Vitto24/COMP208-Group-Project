@@ -1,0 +1,23 @@
+{
+  "code": "PHYS399",
+  "name": "Magnetic Properties of Solids",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr LA O'Brien",
+  "description": "The magnetic properties of solids are exploited extensively in a wide range of technologies, from hard disk drives, to sensors, to magnetic resonance imaging, and the development of magnetic materials is a multi-billion pound industry. Fundamentally, magnetism in condensed matter also represents one of the best examples of quantum mechanics in action, even at room temperature and on a macroscopically observable scale. In this module we will explore how the interactions between electrons in solids can result in the magnetic moment, and how this relates to the quantum mechanical property of spin. We will use these tools to probe the complicated processes that allow spontaneous magnetism to exist within certain select materials, and their implications for future technologies and our theoretical understanding of the nature of solids.",
+  "prerequisites": [
+    "PHYS202",
+    "PHYS102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys399",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS399_202526.htm"
+}

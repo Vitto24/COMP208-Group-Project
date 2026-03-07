@@ -1,0 +1,20 @@
+{
+  "code": "PSYC334",
+  "name": "THE PSYCHOLOGY OF PSYCHOSIS",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr VAI Vass",
+  "description": "This module will introduce students to the clinical phenomena associated with diagnoses such as schizophrenia and bipolar disorder by examining the historical development of concepts of psychosis, and the controversies around diagnosing and treating psychosis. The course will give students the opportunity to consider contemporary approaches to theories of psychosis and its diagnosis, with a focus on biomedical and neuropsychological models, and the influence of social environmental factors.    Moreover, the values and limitations of pharmacological and psychological interventions for psychosis will be examined. The course will comprise ten lectures and five seminar sessions which give the students opportunity to further explore the lecture topics. The module will be assessed through a Patient Health Information Leaflet coursework mid-term assessment which is 20% of final mark, and a two hour, Seen Essay Based Examination worth 80% of final mark, during the Exam period.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Produce a tri-fold Patient Health Information Leaflet on either a psychosis diagnosis or specific symptom (lectures 1-4) which could be given to someone experiencing psychosis, or their families",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc334",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC334_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "PSYC357",
+  "name": "The Psychology of Autism",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr MJ Chapple",
+  "description": "Autism psychology is a relatively new topic within psychology which began in the 1940s and has been rapidly evolving ever since. Until recent years, autism was primarily thought of as a deficit, and this way of thinking continues to influence the way that society thinks about autism and autistic people. In this module, students will challenge this deficit model and cover the historical context of autism together with modern approaches to thinking about autism. Students will explore key theories, research and how understandings of autism have influenced various contexts such as educational support, healthcare and mental health support. The module will be delivered by a mix of autistic and non-autistic staff who have conducted research with and for autistic people. Therefore, the module will take a neuroinclusive approach to understanding autism and autistic people.\n\nThe module will explore the historical conceptualisation of autism as well as modern influences such as the neurodiversity movement and double empathy problem. Students will explore the deficit narrative of autism through key theories and resultant research approaches. Students will be encouraged to critically evaluate the ethical and methodological issues that we continue to face within autism psychology. Students will begin to think about how we can develop more ethical knowledge production and dissemination.\n\nThe module will include 12 lectures and online discussions about key issues within autism psychology. Lectures will encourage students to critically appraise understandings about autism and to think about how we can bring about more ethical knowledge production and understandings of autistic people throughout society. Online discussions will be used to facilitate learning after each lecture, encouraging group debate and discussion on issues within autism research. Students will be assessed using a public engagement blog (30%) and an essay-based written examination during the exam period (70%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Examination period",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ": Mid-semester",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc357",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC357_202526.htm"
+}

@@ -1,0 +1,33 @@
+{
+  "code": "AERO213",
+  "name": "Aeroengines",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor RJ Poole",
+  "description": "This module covers the main technical aspects of gas turbine engines used on aircraft and other mechanical applications (e.g. power generation, marine). It covers many topics from the basic principles of aeroengines (e.g. production of thrust) through to the design of axial flow turbomachinery (compressors and turbines). An understanding of the principles of compressible flow is also developed. Students do a laboratory using the Virtual Engine Test Bench to explore aeroengine components, thermodynamics and performance.",
+  "prerequisites": [
+    "ENGG112",
+    "ENGG113"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":Semester 2",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": ":According to lab timetable (semester 2)",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/aero213",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_AERO213_202526.htm"
+}

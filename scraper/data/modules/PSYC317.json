@@ -1,0 +1,25 @@
+{
+  "code": "PSYC317",
+  "name": "PSYCHOBIOLOGY OF PAIN",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr N Fallon",
+  "description": "Pain is an unpleasant subjective experience signalling potential damage of tissue or a threat of such damage. However, adaptive features of pain are of little benefit in chronic pain, and may even worsen the painful condition. Pain itself may represent a more serious clinical complication than the pathological process provoking pain. Prolonged chronic pain has detrimental effects on both the physical and mental state of the patient and often leads to social isolation. Cognitions, emotions, and attitudes toward pain may either exaggerate or mitigate chronic pain. Knowledge of neurophysiological and psychological mechanisms of pain opens new avenues toward interventions for pain relief. This module addresses two principal questions related to psychobiology\u00a0of pain: 1. What are the biological and psychological factors predicting the development of chronic pain?\u00a02. Can we apply the knowledge of psychobiological mechanisms of pain to alleviate clinical pain? Information,\u00a0theoretical concepts, and\u00a0clinical aspects related to possible predictors and treatment of\u00a0chronic pain\u00a0will be presented in a\u00a0series of lectures. The module provides comprehensive information about acute and chronic pain states\u00a0ranging from pain sensors to higher-order cognitive modulation of pain. Physiological and psychological changes occurring in chronic pain patients will be outlined. Cognitive-behavioural and other methods of pain treatment will be presented. Lectures 1 and 2 provide the necessary neurophysiological and clinical information about experimental and chronic pain. This part of the curriculum will be examined using short-answer questions. The module will also be assessed via a written exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Mid-semester",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": ": Semester 1",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc317",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC317_202526.htm"
+}

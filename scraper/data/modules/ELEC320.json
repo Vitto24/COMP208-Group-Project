@@ -1,0 +1,20 @@
+{
+  "code": "ELEC320",
+  "name": "Neural Networks",
+  "department": "Electrical Engineering and Electronics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr LJ Devlin",
+  "description": "Introduction to neural network theory, applications and artificial intelligence.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":Semester 2 examination period",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/elec320",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ELEC320_202526.htm"
+}

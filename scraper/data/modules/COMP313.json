@@ -1,0 +1,20 @@
+{
+  "code": "COMP313",
+  "name": "Formal Methods",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor P Totzke",
+  "description": "As more complex computational systems are used within critical applications, it is becoming essential that these systems are formally specified. Such specifications are used to give a precise and unambiguous description of the required system. In addition, as computational systems become more complex in general, formal specification can allow us to define the key characteristics of systems in a clear way and so help the development process. Formal specifications provide the basis for verification of properties of systems. While there are a number of ways in which this can be achieved, the model-checking approach is a practical and popular way to verify the temporal properties of finite-state systems. Indeed, such temporal verification is widely used within the design of critical parts of integrated circuits, has recently been used to verify parts of the control mechanism for one of NASA\u2019s space probes, and is now beginning to be used to verify general Java programs.\n\nThis module will introduce: the principles of standard formal methods, such as Z; the basic notions of temporal logic and its use in relation to reactive systems; the use of model checking techniques in the verification of reactive systems.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written exam  Assessment Schedule (When) :2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp313",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP313_202526.htm"
+}

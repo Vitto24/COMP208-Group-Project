@@ -1,0 +1,35 @@
+{
+  "code": "HIST105",
+  "name": "HISTORY MATTERS",
+  "department": "History",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr M Wilks-Heeg",
+  "description": "The module provides a basis for the study of history at university level. It is designed to introduce students to the development, current state and relevance of history as a discipline. The module will help students engage with real historical questions, examining one important historiographical discussion by focusing on a key text or issue related to their tutor\u2019s specific research. It will address some of the vocational skills and aptitudes required for and developed through the study of history.\n\nThe module will provide students with an understanding of the complexity of the historical record, including an awareness of types of primary and secondary sources, and an appreciation of a range of problems associated with the interpretation of evidence. Students will be encouraged to think about the discipline of history, the nature of historical enquiry and how professional historians go about their work.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST105_202526.htm"
+}

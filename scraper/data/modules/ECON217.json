@@ -1,0 +1,33 @@
+{
+  "code": "ECON217",
+  "name": "Economics of Diversity & Inclusion",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor IC Burn",
+  "description": "This module provides a thorough introduction to the economics of diversity and inclusion. In this module, we will explore how diversity and inclusion promote economic growth within a firm and in the broader economy. While many disciplines treat diversity as a qualitative issue, this module will use the theoretical and empirical tools developed by economists to examine the impact of diversity and inclusion. A key facet of this module will be examining the barriers that exist within firms and society to fostering inclusion for different groups. By combining theory with empirical techniques and results, students will learn how to critically examine data, participate in economic debates, and analyse policy.",
+  "prerequisites": [
+    "ECON121",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "situations and analyse problems using their knowledge, similar to how they may encounter something at work in a meeting",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ217",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON217_202526.htm"
+}

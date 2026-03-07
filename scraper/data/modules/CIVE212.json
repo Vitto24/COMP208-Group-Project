@@ -1,0 +1,25 @@
+{
+  "code": "CIVE212",
+  "name": "Transportation Engineering and Modelling",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Dr A Charly",
+  "description": "Students will be introduced to the basic concepts of transportation engineering with a focus on transportation planning, traffic flow modelling, traffic control and sustainable transport infrastructure systems to solve transportation problems. This module aims to equip students to articulate the core principles of transport design and network analysis, understand and model traffic flow, measure traffic characteristics, and interpret these measurements for infrastructure modifications or advancements. It covers traffic signal timing design, featuring several practical examples, as well as urban traffic control. Additionally, the module addresses the design of sustainable transport infrastructure systems and how transport modelling can inform sustainable transport policies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE212_202526.htm"
+}

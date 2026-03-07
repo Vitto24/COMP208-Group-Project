@@ -1,0 +1,30 @@
+{
+  "code": "ENVS214",
+  "name": "Changing Environments",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RK Smedley",
+  "description": "The Earth is subject to a myriad of threats and stresses, ranging from a changing global climate to unprecedented scales of human impacts on ecosystems. Placing future change in freshwater and coastal wetlands and lakes into a long-term context is a critical science, and without it, society cannot constrain the \u2018natural\u2019 baseline against which future changes could be judged. This module will provide a critical insight into the global changes currently impacting the Earth over decades to millennial timescales. We will introduce a series of environmental concerns, and teach how we can reconstruct climatic and environmental conditions, the landscapes and vegetation of the past. We will explore a wide variety of archives (lakes, freshwater and coastal wetlands, oceans) and develop an understanding of the key techniques used to trace environmental conditions (physical properties, biogeochemistry, biological indicators). We will assess how the drivers behind these changes will affect future landscapes and ecosystems.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ": Assessment 1, two weeks after the practical",
+      "weight": 33
+    },
+    {
+      "type": "practical",
+      "title": ": Assessment 2, two weeks after the practical",
+      "weight": 33
+    },
+    {
+      "type": "practical",
+      "title": ": Assessment 3, two weeks after the practical",
+      "weight": 34
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs214",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS214_202526.htm"
+}

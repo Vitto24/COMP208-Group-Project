@@ -1,0 +1,30 @@
+{
+  "code": "GRMN218",
+  "name": "WEIMAR FILM AND LITERATURE: THE CITY AND MODERNITY",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr L Marven",
+  "description": "Situated between the end of World War One and the Nazi takeover of power, the Weimar Republic witnessed a \u2018crisis of classical modernity\u2019; the period retains a reputation for modernity and decadence. Against a background of political and economic experimentation and uncertainty, it saw a growth in advertising, shopping, urban life and transport, fashion and film. Taught in a mixture of lectures and seminars, this module focuses on cultural representations of the period, through the study of two films: Berlin: Sinfonie der Gro\u00dfstadt (Berlin: Symphony of the Metropolis, 1927) and Marlene Dietrich\u2019s first major feature, Der Blaue Engel (The Blue Angel, 1931); and two literary texts: Erich K\u00e4stner, Emil und die Detektive (Emil and the Detectives, 1928), and Irmgard Keun, Das kunstseidene M\u00e4dchen (The Artificial Silk Girl, 1932). Through close reading and thematic analysis, we will consider how they depict and define the modern metropolis; changing ideas about class and gender; and new forms of working life, entertainment and leisure.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/grmn218",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_GRMN218_202526.htm"
+}

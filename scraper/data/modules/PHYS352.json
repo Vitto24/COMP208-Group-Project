@@ -1,0 +1,27 @@
+{
+  "code": "PHYS352",
+  "name": "STELLAR ATMOSPHERES",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Prof P Mazzali",
+  "description": "\u200bThis c ourse aims at providing students with a basic knowledge of the principles of radiation transport, the interaction of photons and matter, the computation of stellar atmosphere models, the application of radiation transport methods to expanding atmospheres\u00a0such as stellar winds and Supernova envelopes. We also look at how stellar winds are created and at the properties of Supernovae. \u200b",
+  "prerequisites": [
+    "PHYS251"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys352",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS352_202526.htm"
+}

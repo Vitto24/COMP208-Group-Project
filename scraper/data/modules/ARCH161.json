@@ -1,0 +1,30 @@
+{
+  "code": "ARCH161",
+  "name": "Technology 1.2: Structure and Construction",
+  "department": "Architecture",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mr A Dusterloh",
+  "description": "This module introduces the principles of structure and construction and the structural design, constructional and engineering problems associated with building design. Students gain an overview of fundamental structural and constructional systems, as well as the regulatory requirements that apply to the design of building.Teaching is delivered in a series of lectures, which explain the core principles of stability, load transfer and structural systems, as well as the fundamental construction requirements of thermal insulation and waterproofing. The course illustrates these ideas using historic precedents and contemporary examples, while emphasising their impact on architectural design. As part of the module, students are guided through the construction process from substructure, superstructure, to envelope, roof and finishes. As well as gaining fundamental knowledge, students are expected to apply this understanding to the design of a technical design detail.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":Semester 2 examination period",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": 2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": 2",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch161",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH161_202526.htm"
+}

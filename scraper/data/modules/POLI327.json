@@ -1,0 +1,25 @@
+{
+  "code": "POLI327",
+  "name": "CONSERVATIVE THINKERS",
+  "department": "Politics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr K Hickson",
+  "description": "This module analyses the ideology of the Conservative Party historically through discussions of the ideas of key thinkers from the 1930s to the present day.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli327",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI327_202526.htm"
+}

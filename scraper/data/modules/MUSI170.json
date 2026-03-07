@@ -1,0 +1,25 @@
+{
+  "code": "MUSI170",
+  "name": "INTRODUCTION TO SOUND AND MUSIC IN AUDIOVISUAL MEDIA",
+  "department": "Music",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr LR Carter",
+  "description": "This module introduces students to the use and role of music in a range of audiovisual media. It focuses specifically on the sound and music of mainstream narrative cinema, as the lead expression in contemporary audiovisual media and one that has shaped this aspect of other artforms, such as television and videogames. From the relationship between music and early moving pictures, to the importance of re-using popular musics to score gender or sexuality in the modern Hollywood blockbuster, the module considers both the historical practicalities of sound and music in cinema and some of the key critical ideologies that have been shaped by and shaped the soundtracks of film. Through a focus on key case studies and fundamental theories, students will acquire a firm grounding in the history, nature, and critical discussion of the function of sound and music in film specifically, and audiovisual media more generally. The module is delivered in a manner designed to be equally accessible to students from a non-Music background.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi170",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI170_202526.htm"
+}

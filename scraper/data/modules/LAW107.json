@@ -1,0 +1,30 @@
+{
+  "code": "LAW107",
+  "name": "CRIMINAL LAW (LEVEL 4)",
+  "department": "Law",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Professor PG McAuliffe",
+  "description": "This module introduces students to the criminal law of England and Wales. It considers: the scope of criminal liability (principles of criminalisation and principles of criminal liability); the components of criminal liability (the need for both a 'guilty' act and a 'guilty' mind in an offence); substantive offences such as homicide and rape; participation (i.e., complicity) in an offence; criminal conduct short of committing a full offence (i.e., 'inchoate' liability); and various types of defence.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    },
+    {
+      "type": "exam",
+      "title": ": Semester 2",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW107_202526.htm"
+}

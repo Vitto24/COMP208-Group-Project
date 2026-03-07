@@ -1,0 +1,25 @@
+{
+  "code": "LAW106",
+  "name": "PUBLIC LAW",
+  "department": "Law",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Professor MJ Gordon",
+  "description": "Public Law concerns the law creating and relating to the UK\u2019s system of government.  The module covers key issues in constitutional and administrative law, exploring legal questions and principles in the wider context of the practice of political actors and institutions.  The module\u2019s programme of lectures and seminars will support students in developing a range of core legal and transferable skills, and becoming effective independent learners.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ",",
+      "weight": 95
+    },
+    {
+      "type": "coursework",
+      "title": "? a self-assessed, reflective ?feedback response exercise? offered at the end of semester 1, to support assessment preparation and skills development",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW106_202526.htm"
+}

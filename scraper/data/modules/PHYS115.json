@@ -1,0 +1,32 @@
+{
+  "code": "PHYS115",
+  "name": "Introduction to Medical Physics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 7.5,
+  "lecturer": "Professor HC Boston",
+  "description": "Medical Physics is a diverse field that applies many areas of physics to diagnose and treat people. \u00a0The course devolves into the physics of the human body including the loading of the skeletal system, visual and audio defects and corrective techniques and how the heart generates an electrical signal that can be measured using an electrocardiogram (ECG). \u00a0Different types of diagnostic imaging techniques using both ionising and non-ionising radiation is investigated along with therapeutic delivery and the effect radiation has on biological systems.",
+  "prerequisites": [
+    "PHYS105"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": ":S2",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys115",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS115_202526.htm"
+}

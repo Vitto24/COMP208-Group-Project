@@ -1,0 +1,33 @@
+{
+  "code": "PHYS355",
+  "name": "Physics of Planets",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr C Copperwheat",
+  "description": "This course considers the application of physics to the study of planets, with a focus on the application of fundamental physical principles rather than providing detailed planetary descriptions. The first four weeks address the planets of our solar system, including what constraint is provided on their physics from studies of our own planet, Earth. We consider particularly insights from observations of orbits, gravitational field, rotation, thermal properties and magnetic field, with brief coverage of formation,composition, and seismology. The focus is on application of basic physical principles rather than detailed observational descriptions, and on methods that might (eventually) be of use in the study of exoplanets. The final two weeks considers exoplanets specifically, particularly the methods of their detection,and our current understanding of planetary systems in general.",
+  "prerequisites": [
+    "PHYS101",
+    "PHYS108"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys355",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS355_202526.htm"
+}

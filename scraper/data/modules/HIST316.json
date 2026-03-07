@@ -1,0 +1,35 @@
+{
+  "code": "HIST316",
+  "name": "THE MAKING OF THE AFRICAN DIASPORA AND PAN-AFRICAN MOVEMENT",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr BY Biney",
+  "description": "This module explores the ways in which the transatlantic slave trade & oceanic trade in African people from the 1500s onwards gave rise to the forced dispersal of African people around the world. Enslaved Africans were transported to the Americas, the Caribbean, Europe, as well as the Middle East and India. Out of the involuntary migration of the slave trade emerged racism and colonial domination of African people. The racialisation of African descended people in the New World helped create not only new cultures but the creation of new identities in new geographical environments. Outside of the African continent, some African descended people sought an ideological, cultural and political affinity with the continent of Africa. This forging of new identities and connections with Africa set in motion a global movement called Pan-Africanism, which called for the self-definition and liberation of people of African descent from racial slavery, colonial domination, imperialism and demanded equality and racial dignity. Students will assess the development of Pan-Africanist thinking and movements through the speeches, memoirs, writings, declarations of key Pan-Africanist champions and movements from the 1700s to the twentieth century.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist316",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST316_202526.htm"
+}

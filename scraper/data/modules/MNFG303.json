@@ -1,0 +1,25 @@
+{
+  "code": "MNFG303",
+  "name": "Additive Manufacturing",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr AMFF Abass",
+  "description": "This module aligns our graduates with the market needs. The UK additive manufacturing market was valued at 0.54 billion pounds sterling in 2022 and is predicted to reach 2.01 billion pounds sterling by 2030, with a compound annual growth rate of 18.0% from 2023 to 2030.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mnfg303",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MNFG303_202526.htm"
+}

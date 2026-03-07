@@ -1,0 +1,25 @@
+{
+  "code": "HIST211",
+  "name": "MOOD SWINGS: TRANSFORMATIONS OF EMOTION IN LATE ANTIQUITY",
+  "department": "History",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Addison",
+  "description": "Late Antiquity was a time of disorienting transformations, from the collapse of the Western Roman Empire to the sweeping away of Roman \u2018paganism\u2019 by a newly dominant Christianity. Such shifts occurred not just at the level of polities or institutions, but also at the deepest and most personal levels of emotion and feeling, as can be seen in sources as diverse as autobiographies, letters, philosophical texts, and popular \u2018magical\u2019 objects.\n\nThis module will explore the diverse ways in which thinkers ancient and modern have conceptualized emotions and sought to alter, repress, or harness them. Above all, it will show how the transformations of Late Antiquity constituted a fundamental reorientation of the emotional lives of millions of people, on matters ranging from love and desire to grief and mourning.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist211",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST211_202526.htm"
+}

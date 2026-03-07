@@ -1,0 +1,25 @@
+{
+  "code": "MKIB235",
+  "name": "Sustainable Forms of Enterprise and Entrepreneurship",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Venugopal",
+  "description": "This module will introduce students to the many forms of enterprise and entrepreneurship that exist. Entrepreneurship is often presented only in a limited format, with a key \u2018heroic\u2019 entrepreneur taking risks and achieving business growth usually measured by monetary gain. While this classical approach tends to glorify entrepreneurship in certain ways, ignoring how difficult it is to build a business for profit, it also marginalises many other forms of enterprise.  Better ways of ensuring the enterprise is a success can be founded in sustainable forms of entrepreneurship.  In this module students will gain new knowledge about what these others types of enterprise are, how they are formed and why they are pursued. For instance, social enterprise tends to focus on a pursuit of a social mission first and foremost, with social entrepreneurs being diverse in their motivations. Collective forms of enterprise may seek to redistribute profits amongst a community of members, such as through a cooperative organisation while entrepreneurship in low income communities may well be a catalyst to other forms of capital building, such as social and human capital. Students will be able to learn that engagement in enterprise is based on a wider set of motivations than merely individual monetary gain and that successful entrepreneurship can be defined in many ways. The module will act as a good foundation for the third-year model, Social Enterprise.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib235",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB235_202526.htm"
+}

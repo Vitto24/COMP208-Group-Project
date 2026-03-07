@@ -1,0 +1,30 @@
+{
+  "code": "PSYC134",
+  "name": "RESEARCH METHODS AND STATISTICS 1",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr TD Freudenthal",
+  "description": "This module will introduce students to research methods and statistics in psychology, including empirical design, hypothesis testing, and different types of data. The module (15 credits) includes 12 x 1.5 hours of lectures, 12 x 1.5 hours practical classes, and 5 x 1 hour small group practical sessions with Academic Advisors. By the end of the module successful students will be able to describe basic statistical tests, identify different types of data, and explain hypotheses. Learning outcomes will be assessed using individual presentations, a MCT examination, and ongoing assessments. Material will be available to students online (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Throughout the semester",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ": End of semester",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": ": End of semester",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc134",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC134_202526.htm"
+}

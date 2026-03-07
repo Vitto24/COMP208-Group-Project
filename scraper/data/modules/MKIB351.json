@@ -1,0 +1,23 @@
+{
+  "code": "MKIB351",
+  "name": "Global Strategic Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr C Balachandran",
+  "description": "This module gives students an up-to-date coverage of global strategy and hands-on experience putting theory into practice. It sets new approaches such as institutional analysis alongside more traditional approaches based in economics and management. It also gives considerable attention to competition in and from emerging economies. At the end of the module, students are able to critically  analyse the challenges and opportunities that a multinational enterprise (MNE) faces and the context in which these organizations make decisions. Assessment is through an individual report submitted at the end of the module.",
+  "prerequisites": [
+    "MKIB225",
+    "MKIB253"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib351",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB351_202526.htm"
+}

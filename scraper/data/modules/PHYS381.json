@@ -1,0 +1,22 @@
+{
+  "code": "PHYS381",
+  "name": "Surfaces and Interfaces",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr Y Grunder",
+  "description": "\u200b This module gives a brief introduction into the physics of solid surfaces their experimental study. Surfaces and interfaces are everywhere and many surface-related phenomena are common in daily life (texture, friction, surface-tension, corrosion, heterogeneous catalysis). Here we are concerned with understanding the microscopic properties of surfaces, asking questions like: what is the atomic structure of the surface compared to that of the bulk? What happens to the electronic properties and vibrational properties upon creating a surface? What happens in detail when we adsorb an atom or a molecule on a surface? This module will mostly concentrate on simple model systems like the clean and defect-free surface of a single-crystal substrate.",
+  "prerequisites": [
+    "PHYS202"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys381",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS381_202526.htm"
+}

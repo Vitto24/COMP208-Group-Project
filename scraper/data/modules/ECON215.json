@@ -1,0 +1,28 @@
+{
+  "code": "ECON215",
+  "name": "Analysis of Big Data: Programming, Data Management & Visualisation",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr GD Liu-Evans",
+  "description": "The scale of data available to analysts and researchers has increased rapidly over the past two decades. There are more careers available where analysing data is central, and there is generally an increasing demand within economics related careers for familiarity with programming languages such as Python and SQL, in order to perform more sophisticated tasks with data or to work with large data sets.This module aims to help students develop these relatively challenging higher-level data and computing skills, particularly skills for managing data sets and producing useful visualisations with data.  The module will draw on earlier quantitative/mathematical modules in the BSc Economics and on the concurrent module ECON212.\n\nThe module is for students who would like to perform data management tasks, create visualisations of data (graphs, charts, etc), and learn to analyse data, using the Python programming language.  Unlike ECON212, ECON213, ECON311 and ECON312, this is not a module on econometric or statistical methodology \u2013 the focus is on developing a specific set of computing skills that will be useful for those who wish to pursue data-intensive careers or postgraduate research degrees after graduation from the BSc Economics.\n\nThough the lectures and lab sessions centre around one particular textbook, participants on the module are expected use the vast amount of internet resources freely available for learning Python and SQL, and to spend time modifying code examples in order to gain competency with the facilities for data management, data visualisation, and data analysis.  The module is assessed with a 2-week Python coursework project at the end of the module, where students will need to use the competency that they have gradually acquired over the course of the semester, and also with a timed written exam (Python and SQL).",
+  "prerequisites": [
+    "ECON113",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "will be a set of specific data analysis tasks using Python, along with a more open-ended task that will allow students to demonstrate the competency that they have achieved",
+      "weight": 60
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ215",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON215_202526.htm"
+}

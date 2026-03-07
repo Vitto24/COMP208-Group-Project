@@ -1,0 +1,20 @@
+{
+  "code": "ARCH252",
+  "name": "STUDIO 2.3 DESIGN",
+  "department": "Architecture",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr FJ Mejias Villatoro",
+  "description": "Studio Design Module",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch252",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH252_202526.htm"
+}

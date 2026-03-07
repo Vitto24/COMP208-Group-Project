@@ -1,0 +1,30 @@
+{
+  "code": "PHIL215",
+  "name": "PHILOSOPHY OF RELIGION",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Hill",
+  "description": "This module helps students\u00a0to gain knowledge of the main philosophical debates concerning the concept of God, such as\u00a0God's\u00a0omnipotence, omniscience, and perfect goodness. It considers, for example,\u00a0the main arguments for and against God's\u00a0existence:\u00a0the ontological argument, the cosmological argument, the design argument, and the problem of evil. There is one lecture per week and one seminar per week.\u00a0Each student must give a 10-15 minute long\u00a0seminar presentation. This counts for 10% of the module mark. An assessed seminar reading analysis (1,000 words) counts for 25%. An examination contributes the remaining 65%.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 65
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil215",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL215_202526.htm"
+}

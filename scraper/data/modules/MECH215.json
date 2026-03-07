@@ -1,0 +1,30 @@
+{
+  "code": "MECH215",
+  "name": "DYNAMIC SYSTEMS",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr A Batou",
+  "description": "Dynamic systems are encountered in most engineering disciplines such as\u00a0mechanical engineering, aerospace engineering, electrical engineering. These systems require specific techniques to be analysed for design or monitoring purpose.\n\nIn this module, students will learn\u00a0the main methods for analysing dynamic systems in time and frequency domains. They will learn how to solve dynamical problems, how to evaluate and control\u00a0the stability, the accuracy and the rapidity of a dynamical system.\n\nThis module will be mainly delivered through class lectures and assessed through a final exam. Additionally, students will be\u00a0taught some experimental techniques related to second-order dynamical systems through an assessed\u00a0\u00a0laboratory work.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 5
+    },
+    {
+      "type": "practical",
+      "title": ":1+2",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": ":2",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech215",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH215_202526.htm"
+}

@@ -1,0 +1,35 @@
+{
+  "code": "ENGG302",
+  "name": "INTRODUCTION TO FINITE ELEMENTS",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr A Batou",
+  "description": "In this module the students will gain a basic understanding of the Finite Element method and learn to use some Finite Element software. This software will then be used to analyse a variety of different problems which are relevant to both mechanical and civil engineers.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/engg302",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG302_202526.htm"
+}

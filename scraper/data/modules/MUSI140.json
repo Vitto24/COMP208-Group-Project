@@ -1,0 +1,25 @@
+{
+  "code": "MUSI140",
+  "name": "Introduction to Popular Music History",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr RJA Worth",
+  "description": "This module provides an overview of key developments in Anglo-American popular music\u00a0particularly during the latter part of the twentieth century and the early twenty-first century. \u00a0Students are introduced to the musical characteristics of key styles and genres, as well as significant social/cultural movements and critical issues that are relevant to an understanding of the music in question. The module also provides an introduction to key perspectives and issues in popular music studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":1",
+      "weight": 90
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi140",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI140_202526.htm"
+}

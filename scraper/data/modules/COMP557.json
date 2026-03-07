@@ -1,0 +1,30 @@
+{
+  "code": "COMP557",
+  "name": "Optimisation",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr F Slivovsky",
+  "description": "This module is an in-depth tour over optimisation methods applied for various optimisation models. These methods are extensively used in both academic and industrial practices.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 1",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 1",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp557",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP557_202526.htm"
+}

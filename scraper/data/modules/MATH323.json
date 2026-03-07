@@ -1,0 +1,30 @@
+{
+  "code": "MATH323",
+  "name": "FURTHER METHODS OF APPLIED MATHEMATICS",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr GT Piliposyan",
+  "description": "Ordinary and partial differential equations (ODEs and PDEs) are crucial to many areas of science, engineering and finance. This module addresses methods for, or related to, their solution. It starts with a section on inhomogeneous linear second-order ODEs which are often required for the solution of higher-level problems. We then generalize basic calculus by considering the optimization of functionals, e.g., integrals involving an unknown function and its derivatives, which leads to a wide variety of ODEs and PDEs. After those systems of two linear first-order PDEs and second-order PDES are classified and reduced to ODEs where possible. In certain cases, e.g., `elliptic' PDEs like the Laplace equation, such a reduction is impossible. The last third of the module is devoted to two approaches, conformal mappings and Fourier transforms, which can be used to obtain solutions of the Laplace equation and other irreducible PDEs.",
+  "prerequisites": [
+    "MATH102",
+    "MATH103",
+    "MATH101",
+    "MATH221"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math323",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH323_202526.htm"
+}

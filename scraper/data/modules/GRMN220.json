@@ -1,0 +1,30 @@
+{
+  "code": "GRMN220",
+  "name": "THE GERMAN DEMOCRATIC REPUBLIC: POLITICS, CULTURE, MEMORY",
+  "department": "Languages, Cultures and Film",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor A Saunders",
+  "description": "This module offers an in-depth examination of key themes in the cultural, social and political history of the German Democratic Republic (GDR) from 1949-1990, as well as questions of memory after 1990. It explores key milestones in the history and politics of the GDR (e.g. the uprisings of 17 June 1953, the building of the Berlin Wall and the demonstrations of 1989), as well as central themes within society and culture, such as gender, youth and cultural policy. Each theme will be examined through a range of texts, films and other primary and secondary resources, to develop a detailed knowledge and understanding of the meaning and significance of life and culture in the GDR and its relevance for contemporary eastern Germany.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/grmn220",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_GRMN220_202526.htm"
+}

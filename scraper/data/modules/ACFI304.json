@@ -1,0 +1,27 @@
+{
+  "code": "ACFI304",
+  "name": "Business Finance",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr MN Drape",
+  "description": "The module provides students with a fundamental understanding of the core theoretical and empirical aspects involved in corporate finance (such as bond/stock valuation, capital structure, dividend policy and leasing contracts).",
+  "prerequisites": [
+    "ACFI204"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment Notes: Students will work in self-selected groups of 2-3 students",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi304",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI304_202526.htm"
+}

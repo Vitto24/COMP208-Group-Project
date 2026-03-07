@@ -1,0 +1,30 @@
+{
+  "code": "PSYC135",
+  "name": "RESEARCH METHODS AND STATISTICS 2",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr TD Freudenthal",
+  "description": "This module will provide training in\u00a0quantitative and qualitative data collection and analysis, building on previously gained knowledge. The module (15 credits) includes 12 x 1.5 hours of lectures, 12 x 1.5 hours practical classes, and 5 x 1 hour small group practical sessions with Academic Advisors. By the end of the module successful students will be able to describe qualitative analysis techniques and recognise appropriate statistical tests to be used for different types of data. Learning outcomes will be assessed using coursework (practical report and ethics presentation)\u00a0and a MCT / short answer examination.\u00a0Material (e.g., lecture slides, stream capture, discussion forum, feedback) will be available online.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of semester",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": ": End of semester",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": Mid semester",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc135",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC135_202526.htm"
+}

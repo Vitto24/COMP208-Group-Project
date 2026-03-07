@@ -1,0 +1,37 @@
+{
+  "course_name": "Philosophy BA (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "PHIL112",
+        "PHIL101",
+        "PHIL103",
+        "PHIL105",
+        "PHIL127",
+        "PHIL106",
+        "PHIL102",
+        "PHIL110"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [],
+      "optional": [
+        "PHIL207",
+        "PHIL212",
+        "PHIL237",
+        "PHIL241",
+        "PHIL271",
+        "PHIL273",
+        "SOTA260",
+        "PHIL215",
+        "PHIL219",
+        "PHIL228",
+        "PHIL239",
+        "PHIL272",
+        "PHIL276"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "MECH316",
+  "name": "MECHATRONICS",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr A Macario-Rojas",
+  "description": "This module aims to provide students with an appreciation of the challenges related to the design of Mechatronics systems.\n\nBoth hardware and software integration issues will be studied within this module.\n\nGeneral design principles will be introduced first and learning will focus on the popular\u00a0Arduino platform.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 75
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech316",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH316_202526.htm"
+}

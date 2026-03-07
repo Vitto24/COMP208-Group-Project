@@ -1,0 +1,25 @@
+{
+  "code": "POLI209",
+  "name": "INTERNATIONAL POLITICAL ECONOMY",
+  "department": "Politics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A MacKenzie",
+  "description": "International (or Global) Political Economy (IPE/GPE) is a sub-discipline of International Relations. This module examines the interplay between politics and economics and the way this relationship is influenced by domestic and international forces. It examines the social underpinnings of economic transactions, the political frameworks that shape economic activity at national, regional and global levels, and the economic imperatives that impinge upon political decision-makers. During the module, you will be introduced to influential perspectives, theories and ideas that have been advanced to explain and anticipate events and developments in political economy. The module covers the most important issue-areas in international political economy and examines recent developments, including the global financial crisis of 2008, challenges to the western liberal order, and the impact of the ecological crisis on global political economy. Firms, individuals, markets, societies, social classes, and states are all important elements of IPE. Theories differ in the way they deal with these elements and the relative significance they accord to each of them. The tension between the elements, resulting in cooperation and conflict, is a major feature in the theory and practice of IPE.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli209",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI209_202526.htm"
+}

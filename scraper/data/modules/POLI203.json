@@ -1,0 +1,30 @@
+{
+  "code": "POLI203",
+  "name": "CRITICAL APPROACHES TO TRANSNATIONAL SECURITY",
+  "department": "Politics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr O Hodzi",
+  "description": "This module is introduced to increase the variety of modules offered to second-year BA students. With increasing student numbers and diversity of students in terms of their programme choices and their interests, this module offers a degree of specialisation and deepening of understanding of transnational security and the ways in which state and non-state actors (especially in the Global South) are responding to \u2018new\u2019 security challenges. The focus on the Global South aims at challenging dominant framings of regions such as Africa, Asia and Latin America as sources of insecurities that lack agency on transnational security issues. This module builds student\u2019s understanding and knowledge of the processes and the politics of securitisation, crucial for understanding international peace and security in the context of shifts in global power distribution.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI203_202526.htm"
+}

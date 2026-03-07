@@ -1,0 +1,35 @@
+{
+  "code": "HLAC220",
+  "name": "PLACEMENT YEAR PREPARATION",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr V Stobo",
+  "description": "This module aims to prepare and empower students to participate successfully in professional work experience, such as a year in a placement or internship, or volunteering opportunity, and to develop, in a pro-active way, life-long skills, attitudes, and behaviours. Students will have the opportunity to engage in inter-disciplinary, team-based research, gain the knowledge, confidence, and self-awareness to source and successfully apply for professional work opportunities.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hlac220",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HLAC220_202526.htm"
+}

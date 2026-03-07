@@ -1,0 +1,25 @@
+{
+  "code": "LAW342",
+  "name": "THE REGULATION OF EMERGING TECHNOLOGIES: LAW, ETHICS AND GOVERNANCE",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr J Savirimuthu",
+  "description": "This module seeks to provide students with an understanding of the opportunities and challenges posed by emerging technologies. Students will be provided with an overview of the rationale and purpose of regulation within the context of emerging technologies and draws upon theoretical debates and policies implemented by jurisdictions particularly in the United Kingdom. During the course of their studies students will be provided with a learning and teaching environment that will facilitate their acquisition and development of a set of rigorous analytical and problem solving skills which will enable them to critically engage with existing and emerging legal and ethical challenges posed by emerging technologies in diverse settings and contexts. The topics covered will vary but these will include regulatory challenges posed by technologies such as data driven processes and artificial intelligence systems for sectors such as finance, transportation, health and the legal profession. The focus on diverse settings and case examples will enable students to gain a better understanding of the role of legal rules and strategies for promoting responsible innovation and governance.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":Semester 1  This is an anonymous assessment",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 1",
+      "weight": 95
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW342_202526.htm"
+}

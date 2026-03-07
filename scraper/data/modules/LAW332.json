@@ -1,0 +1,20 @@
+{
+  "code": "LAW332",
+  "name": "JURISPRUDENCE",
+  "department": "Law",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr K Sowery",
+  "description": "Jurisprudence aims to give students an understanding of the basic problems of legal theory: what is law? Why do we obey it? How is law related to morality? Is an unjust law really a law? How should judges decide cases? At the same time the module will introduce students to the work of some of the most important modern legal theorists, in particular H.L.A. Hart, Lon Fuller and Ronald Dworkin. Students will also consider some of the crucial concerns of contemporary legal philosophy, such as the relationship between the rule of law, rights and democracy. Jurisprudence is taught in weekly lectures and longer fortnightly seminars. This maximises the time available for discussion and evaluation of each week\u2019s reading assignment, in both smaller sub-groups and the class as whole, which is the most interesting and effective way of gaining an appreciation of legal philosophy. Students will produce a group presentation on a topic of their choice in the second half of the module. The module is assessed through one piece of coursework (3,000 words).Jurisprudence provides an opportunity for reflection on the philosophical foundations of law, and should appeal to students who are interested in understanding more about the essential nature of legal systems and legal practice.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "(3000 words)",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law332",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW332_202526.htm"
+}

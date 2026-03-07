@@ -1,0 +1,35 @@
+{
+  "code": "ENGG386",
+  "name": "Computational Methods in Engineering",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 0,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor S Timme",
+  "description": "Finite element analysis and computational fluid dynamics tools have become ubiquitous in engineering practice to design trains, planes and automobiles, to analyse the structural mechanics of gears, shafts, bridges and skyscrapers and the fluid flow in power generation systems and in heating, ventilation and air conditioning, and many more applications. The module will provide students with the skills to use finite element analysis and computational fluid dynamics tools with confidence with an understanding of the underlying theory and technology, and limitations thereof.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "and report on their approach taken and the data analysis performed",
+      "weight": 45
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg386",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG386_202526.htm"
+}

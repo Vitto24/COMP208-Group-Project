@@ -1,0 +1,25 @@
+{
+  "code": "HIST268",
+  "name": "BODIES AND POWER: ENCOUNTERS IN MODERN AMERICAN HEALTH, MEDICINE AND SOCIETY",
+  "department": "History",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr SC Kenny",
+  "description": "This module explores struggles for power and authority over bodies, health and medicine in modern American society. The module begins by examining important approaches, critical perspectives and scholarly debates within the fields of American social and cultural history, body studies, public health, critical medical humanities and medical history, to develop a relevant analytical toolkit and raise awareness of changes and continuities within these disciplines. The module then examines a range of case studies that inform how ideas and experiences of gender, race, class, disability, ethnicity, and sexuality were framed and contested within the realms of health and medicine in the recent American past.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist268",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST268_202526.htm"
+}

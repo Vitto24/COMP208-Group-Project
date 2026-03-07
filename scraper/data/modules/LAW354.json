@@ -1,0 +1,25 @@
+{
+  "code": "LAW354",
+  "name": "INTERNATIONAL LAW IN CURRENT AFFAIRS",
+  "department": "Law",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr RJ Knox",
+  "description": "This course will provide students with an in-depth understanding of the complex international legalquestions that make the headlines. Students will learn to demonstrate and critically evaluate how law and politics interrelate and how issues of globalisation are incorporated into the international legal language. The course will also encourage students to take a step back and critically analyse why it is that international law seems to be focussed on crises that make headlines. Through the means of recognising and ranking complex issues, a further site of enquiry will be the question of whether there is also an every-day international law that is not discussed in the news?The course will provide students with a strong understanding of the complex and specialist concepts, principles, institutions and debates that define international law today. By unravelling these concepts with the help of current affairs and various legal sources students will be able to contextualise succinctly international law as it relates to politics, the media, social phenomena, and historical settings. Focusing on a number of key issue-areas, the course will enable students to understand how international legal norms emerge, the way they shape subjectivities, competences and responsibilities, and their impact with regard to contemporary issues/problems of global scale.Overall, the aim is to lay the foundations for an informed and critical assessment of the contribution and limits of international law as a force in world affairs.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":Semester 2",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "- 10 Minutes",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law354",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW354_202526.htm"
+}

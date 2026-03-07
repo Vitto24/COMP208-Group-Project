@@ -1,0 +1,25 @@
+{
+  "code": "ARCH221",
+  "name": "CONTEXT 2.1: URBAN STUDIES",
+  "department": "Architecture",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr F Chen",
+  "description": "The objective of the module is to promote an understanding of the forces that shape the human-made environment and the role played by design professionals. It aims to help students as future designers to understand that the city is a complex and dynamic system.\u00a0It also aims\u00a0to stimulate their active thinking and\u00a0positive responses to various urban phenomena in order to generate appropriate strategies that can effectively solve design problems and facilitate the city\u2019s sustainability. Through a series of lectures on urban history, case studies, urban design theories and methodologies, as well as\u00a0debates\u00a0on urban sustainability,\u00a0this module is to enhance students\u2019 awareness of the nature of cities, the formation and transformation of their urban forms and to obtain basic urban design skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch221",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH221_202526.htm"
+}

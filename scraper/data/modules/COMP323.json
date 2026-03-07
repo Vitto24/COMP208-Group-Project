@@ -1,0 +1,30 @@
+{
+  "code": "COMP323",
+  "name": "Introduction to Computational Game Theory",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor PG Spirakis",
+  "description": "This module is an introduction to the area of algorithmic game theory, which is a novel area in the intersection of economics and computer science. It provides tools for dealing with and analysing problems related to applications motivated by the Internet. Examples involve various Internet auctions and e-commerce systems, like, Google's sponsored search, Ebay auctions, recommendation systems, etc.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Final exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp323",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP323_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "HLAC206",
+  "name": "MUSEUMS AND MONUMENTS",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor HC Mytum",
+  "description": "This module considers display and public interpretation in museums and galleries on the one hand and publicly accessible sites and monuments on the other. This module examines current UK interpretation theories, policies and practices in an international comparative perspective. Heritage interpretation and display brings understanding of the past to peoples in the present, though what aspects of the past to reveal and emphasise can be highly political and controversial. The module concentrates on current practice, but it also reflects on the selectivity of heritage interpretation decisions, and the ways interpretation can exclude as well as include various sectors of society.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hlac206",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HLAC206_202526.htm"
+}

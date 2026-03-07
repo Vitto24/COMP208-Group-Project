@@ -1,0 +1,25 @@
+{
+  "code": "POLI336",
+  "name": "COMPARATIVE PEACE PROCESSES",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor J Tonge",
+  "description": "The module begins with an analysis of the validity of comparative approaches to the study of the politics of peace, before moving to a series of individual case studies. These include Northern Ireland, Bosnia, the Middle East and the Basque Region.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli336",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI336_202526.htm"
+}

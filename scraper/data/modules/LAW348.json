@@ -1,0 +1,25 @@
+{
+  "code": "LAW348",
+  "name": "ANIMAL LAW",
+  "department": "Law",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr K Sowery",
+  "description": "This course examines the way in which the law regulates the treatment of animals in the UK and internationally. Students will have the opportunity to explore animal law from its historical development to contemporary issues surrounding human-animal interactions.\n\nStudents will develop their knowledge in the developing field of animal law from both a policy and practical/doctrinal perspective and from a theoretical perspective. Students will be introduced to the philosophical foundations of animal law which are important in order to examine the gaps and opportunities in the law relating to animals as it is presently constituted. The course will cover the historical development of animal law, the legal status of animals, and the legal and political framework. A series of case studies will aid students in developing a critical understanding of the different approaches to protecting / regulating animals through the law. These include discussions about religious practices relating to slaughter, the granting of rights to primates, factory farming and the development of dangerous dogs legislation (amongst others). Students will engage in debates about how animals should be recognised in the law, and the relative benefits and drawbacks of different approaches i.e. animal welfare vs. animal rights, or approaches grounded in relationality, vulnerability etc.\n\nThe course combines case studies and theoretical analysis, and successful students will gain an understanding of the complex legal issues raised by the regulation of animals through law. The course aims to encourage critical thought about how we may remodel legal systems / approaches to the protection of the interests of animals.\n\nThe module reflects and supports the growing research expertise in the discipline of animal law within Liverpool. All three members of the proposed teaching team have experience either within Liverpool (on the Law and Social Justice module) or at other institutions with delivering teaching in Animal law. This module addresses the gap in the Law School\u2019s curriculum as compared to the growing number of other Schools across the UK which have dedicated Animal Law offerings.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ", students will deliver a 15-minute presentation on the protection of animals in a field of their choice (i",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law348",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW348_202526.htm"
+}

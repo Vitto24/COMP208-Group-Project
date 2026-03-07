@@ -1,0 +1,29 @@
+{
+  "code": "ECON251",
+  "name": "Behavioural Economics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr YY Oezcelik",
+  "description": "Behavioural Economics explores the intersection of economics and psychology (and related social sciences), investigating the way in which psychological findings can inform economic decisions and policy making. In this module you will explore how economic experiments can be an insightful method of inquiry. You will learn how cognitive biases, heuristics and social influences such as social norms shape economic decisions. This module will be useful in scrutinising traditional economic models through a more critical lens and prepare you for final year modules such as Behavioural Finance, Health, Environmental and Creative sector Economics.",
+  "prerequisites": [
+    "ECON221",
+    "ECON227",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ251",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON251_202526.htm"
+}

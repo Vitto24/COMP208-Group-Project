@@ -1,0 +1,30 @@
+{
+  "code": "ENGG209",
+  "name": "SOLIDS & STRUCTURES 2",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr WJR Christian",
+  "description": "This module aims to introduce\u00a0students to techniques for load and displacement analysis of\u00a0simple structures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 85
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 7
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 8
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg209",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG209_202526.htm"
+}

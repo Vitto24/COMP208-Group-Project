@@ -1,0 +1,20 @@
+{
+  "code": "POLI342",
+  "name": "PARLIAMENTARY PLACEMENT SCHEME",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 45.0,
+  "lecturer": "Dr K Hickson",
+  "description": "The Parliamentary Placement Scheme allows students to work full time in Parliament. Students must apply. The Scheme is competitive and only successful applicants will be placed.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI342_202526.htm"
+}

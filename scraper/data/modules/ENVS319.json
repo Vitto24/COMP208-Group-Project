@@ -1,0 +1,25 @@
+{
+  "code": "ENVS319",
+  "name": "Natural Hazards and Society",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr H Sangster",
+  "description": "This module aims to provide an integrated perspective on a range of natural hazards, the different levels of impact on human societies, and the mitigation and adaptation strategies adopted before, during and after extreme events. At the end of this module students will have an understanding of the physical processes and societal impacts associated with a range of geophysical and meteorological hazards. The course is delivered in a series of lectures supported by tutorial sessions and is assessed by an exam and coursework assignment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Assessment 2, exam period",
+      "weight": 66
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, Sem 1",
+      "weight": 34
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs319",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS319_202526.htm"
+}

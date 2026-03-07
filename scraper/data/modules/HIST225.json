@@ -1,0 +1,35 @@
+{
+  "code": "HIST225",
+  "name": "HOW (NOT) TO BE A HERETIC: A HISTORICAL ROLEPLAYING GAME",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RE Whelan",
+  "description": "In this teaching pilot, you will have the chance to change history. In the summer of 325 CE, Christian bishops from across the Roman Empire met at Nicaea (mod. Iznik in Turkey). They had been summoned by Constantine, the first Christian emperor. The decisions they made have shaped Christianity to this day. Over four \u2018game\u2019 sessions, we will run our own Council of Nicaea. We will decide anew key questions about the theology of the Trinity (How was Jesus God? Was he as much of a god as his father?), and fundamental issues of church organisation (What should be done with Christians who collaborated during persecution? Should women be allowed to serve in the church?)\n\nYou will be assigned a role as a participant in the council\u2014a person from the early fourth century\u2014with victory objectives to pursue regarding these issues. You will need to read primary and secondary sources carefully to formulate persuasive arguments on these topics from the perspective of your character. You will also have to strategise with fellow players to shape the council\u2019s debates and achieve your character\u2019s goals. You will be assessed on your ability to present these arguments, in both oral and written form\u2014and in character. As a result, you will gain a better understanding of early Christianity, the nature of historical contingency, and the character of political debate and collective decision making: both in the fourth century CE, and our own time.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist225",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST225_202526.htm"
+}

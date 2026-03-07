@@ -1,0 +1,35 @@
+{
+  "code": "HIST217",
+  "name": "CULTURE AND BELIEF IN LATE MEDIEVAL ENGLAND",
+  "department": "History",
+  "semester": 2,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Professor MRV Heale",
+  "description": "This module examines patterns of popular belief in late medieval England (c.1300 \u2013 c.1520). The later middle ages was marked by frequent warfare, high mortality, rising literacy, the spread of heresy, and new opportunities for the lower orders and women. We will explore how popular ideas about life and death, gender and sex, magic and miracles, heresy and deviance, and the authority of the social elites and the church, were acquired, debated and evolved during the late medieval period.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist217",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST217_202526.htm"
+}

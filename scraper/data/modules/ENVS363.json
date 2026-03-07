@@ -1,0 +1,25 @@
+{
+  "code": "ENVS363",
+  "name": "Geographic Data Science",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr E Pietrostefani",
+  "description": "This module will introduce students to the nascent field of Geographic Data Science (GDS), a discipline established at the intersection between Geographic Information Science (GIS) and Data Science. The course covers how the modern GIS toolkit can be integrated with Data Science tools to solve practical real-world problems. Core to the set of employable skills to be taught in this course is an introduction to programming tools for GDS in R and Python. The programme of lectures, guided practical classes and independent study illustrate how and why GDS is useful for social science applications.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, approx",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 2, End of Sem 1",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs363",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS363_202526.htm"
+}

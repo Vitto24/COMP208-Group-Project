@@ -1,0 +1,32 @@
+{
+  "code": "ECON112",
+  "name": "Statistics & Data Analysis for Economics and Business",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr A Chopra",
+  "description": "The aim of this module is to give students an understanding of how statistics operates in Business and Economics. This module serves both as a foundation for further study and as a broadly based introduction to statistics and data analysis. It is practically based and will teach the foundations of statistical analysis including calculating and presenting statistics from sample data and inferential techniques for making inferences about variable parameters from these as well as a good understanding of probability and variables as probability distributions.",
+  "prerequisites": [
+    "ECON111",
+    "ACFI127",
+    "ECON121",
+    "ECON127",
+    "ACFI111",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Anonymous Assessment: Yes    Assessment Notes:    Students are required to submit five coursework assignments during the course of the semester which then form the basis of discussion at the tutorial",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ112",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON112_202526.htm"
+}

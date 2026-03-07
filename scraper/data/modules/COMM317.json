@@ -1,0 +1,25 @@
+{
+  "code": "COMM317",
+  "name": "Media and Human Rights",
+  "department": "Communication and Media",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor E Balabanova",
+  "description": "The module studies human rights through the lens of the media in order to critically understand the changing nature of human rights' representation and the role media play in representing and responding to critical human rights issues. It explores the interconnections between media and human rights focusing on media and human rights theory, policy and practice and exploring both historical developments and contemporary issues. In particular, the implications of the global media in the current information age for a range of key human rights' issues are analysed. Among the issues that will be reviewed are terrorism and war on terror, freedom of speech, human trafficking, asylum and immigration, torture and genocide, humanitarian intervention.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of module",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ": Week 8",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/comm317",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMM317_202526.htm"
+}

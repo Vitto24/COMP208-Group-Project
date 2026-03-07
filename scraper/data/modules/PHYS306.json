@@ -1,0 +1,39 @@
+{
+  "code": "PHYS306",
+  "name": "PRACTICAL PHYSICS III",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor CA Lucas",
+  "description": "Year 3 Laboratory.",
+  "prerequisites": [
+    "PHYS216",
+    "PHYS206",
+    "PHYS156"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys306",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS306_202526.htm"
+}

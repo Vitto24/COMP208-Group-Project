@@ -1,0 +1,20 @@
+{
+  "code": "LAW329",
+  "name": "Legal History",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr E Ireland",
+  "description": "This module provides a historical account of key \u2018flashpoints\u2019 in the development of the English common law. It is designed to provide important context to modern legal understanding and to encourage critical analysis of the law\u2019s impartiality. The topics covered map directly onto topics covered in a traditional law degree. On a journey that encompasses the bloody origins of criminal law, the status of enslaved Africans during the eighteenth century, the utility of trusts to married women before the late nineteenth-century, and the plight of indigenous peoples under colonialism and the doctrine of terra nulius, this modules takes a socio-legal, intersectional approach to the study of legal history, bringing the stories of the subordinated to the fore in order to demonstrate the longstanding nature of inequality in the legal system. Through a series of lectures and guided workshops, students will gain knowledge of important legal incidents, and conduct their own historical enquiry. Students will learn how to identify primary legal sources using digital databases and critically analyse them in broader socio-legal context.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law329",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW329_202526.htm"
+}

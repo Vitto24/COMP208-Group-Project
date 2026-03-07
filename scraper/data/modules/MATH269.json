@@ -1,0 +1,39 @@
+{
+  "code": "MATH269",
+  "name": "Operational Research: Linear and Convex Methods",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr JE Banks",
+  "description": "The term \"Operational Research\" came in the 20th century from military operations. It describes mathematical methods to achieve the goal (or to find the best possible decision) having limited resources. This branch of applied mathematics makes use of and has stimulated the development of optimisation methods, typically for problems with constraints. This module  can be interesting for any student doing mathematics because it concentrates on real-life problems.",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math269",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH269_202526.htm"
+}

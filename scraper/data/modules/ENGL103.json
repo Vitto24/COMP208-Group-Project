@@ -1,0 +1,25 @@
+{
+  "code": "ENGL103",
+  "name": "CLOSE READING",
+  "department": "English",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JR Bainbridge",
+  "description": "This module introduces students to a key skill in literary study, that of precise and informed analysis of text (close reading).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL103_202526.htm"
+}

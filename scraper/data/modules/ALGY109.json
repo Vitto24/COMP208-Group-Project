@@ -1,0 +1,25 @@
+{
+  "code": "ALGY109",
+  "name": "INTRODUCTION TO ANCIENT EGYPT I",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr S Zago",
+  "description": "ALGY109 is designed as an introductory, level one module aiming to provide students with an overview of Ancient Egyptian history from prehistory to AD 395 both in its chronological development and in its environmental and geographical setting, including the fundamentals of the chronology of Ancient Egypt (including the limitations of availableevidence), and a good awareness of how major archaeological sites and other forms of primary evidence fit within this framework.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy109",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY109_202526.htm"
+}

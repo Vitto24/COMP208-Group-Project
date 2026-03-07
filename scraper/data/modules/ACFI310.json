@@ -1,0 +1,29 @@
+{
+  "code": "ACFI310",
+  "name": "Derivative Securities",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr X Fu",
+  "description": "In the last three decades, derivatives have become increasingly important in the world of \u0085finance. Futures and options are now traded actively on many exchanges and OTC around the world. Yet most of our undergraduate finance courses, which mostly study underlying assets and institutions, simply do not have enough time for an in-depth discussion of derivatives. This class presents both a practical and theoretical approach to derivatives markets. The course starts with basic definitions and properties of put and call options, and forward and futures contracts. Payoff diagrams are used to illustrate these basic notions. Determinants of derivatives values are discussed. The basic no-arbitrage pricing relationships between different types of derivatives are established.",
+  "prerequisites": [
+    "ACFI204",
+    "ACFI234",
+    "ACFI213"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "fully assess the whole syllabus and meet all the learning outcomes of the module",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI310_202526.htm"
+}

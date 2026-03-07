@@ -1,0 +1,30 @@
+{
+  "code": "PHIL101",
+  "name": "ETHICS: MORAL CONSTRAINTS AND THE GOOD HUMAN LIFE",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RA Handley",
+  "description": "This module introduces students to the main arguments and theories in historical and contemporary ethical theory. Taking this module will enhance your abilities to analyse ethical claims and to identify the philosophical assumptions that underlie them.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL101_202526.htm"
+}

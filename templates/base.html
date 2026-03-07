@@ -56,7 +56,7 @@
                             {{ user.first_name|first }}{{ user.last_name|first }}
                         </a>
                         <div class="user-details">
-                            <a href="{% url 'settings_page:settings' %}" class="user-name">{{ user.userprofile.course|default:"My Course" }}</a>
+                            <a href="{% url 'settings_page:settings' %}" class="user-name">{{ user.userprofile.course|default:"My Course" }} (Year {{ user.userprofile.year_of_study }})</a>
                             <a href="{% url 'accounts:logout' %}" class="logout-link">Logout</a>
                         </div>
                     </div>

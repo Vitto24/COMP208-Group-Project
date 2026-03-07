@@ -1,0 +1,30 @@
+{
+  "code": "CIVE350",
+  "name": "Sustainable Design and Construction Management",
+  "department": "Civil and Environmental Engineering",
+  "semester": 0,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr A Mannis",
+  "description": "Sustainability and Management are areas of professionalism that are very important within the construction industry and wider built environment sector. Both areas are also emerging as new and exciting career paths for many graduate civil engineers plus architectural engineers. On completion of this module, students will understand a range of approaches to designing for climate change adaptation and net-zero carbon implementation, as well as appreciate diverse management practices associated with modern methods of construction plus industry innovation. In addition, skills will be gained by students in career evaluation, market analysis, design appraisal, options review and project judgements, all linked to enhanced graduate employment and responsible decision-making as a professional engineer.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive350",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE350_202526.htm"
+}

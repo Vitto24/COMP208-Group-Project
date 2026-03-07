@@ -1,0 +1,25 @@
+{
+  "code": "POLI304",
+  "name": "CONTEMPORARY PARLIAMENTARY STUDIES",
+  "department": "Politics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor A Russell",
+  "description": "This module aims to provide students with an overall introduction to the UK Parliament and, in particular, to how its role has changed over time. It will provide students with key knowledge and understanding of the institution and of how it has changed. We will examine how the institution is organised, who MPs and Peers are and how they perform their representative role. We will then focus on key roles such as law-making and scrutiny and accountability, where we will explore in particular the role of Select Committees and of questions to the government. We will also consider how Parliament relates to outside actors such as the public, government and pressure groups.  Throughout our enquiry we will identify the role played by tradition in Parliament, as well as outlining paths for reform. The module has been developed in conjunction with the Parliamentary Outreach Service of the UK Parliament and includes guest talks by parliamentary officials and Clerks. Whilst the module introduces students to the key literature and theories on Parliament, it also has a very practical insight. It is therefore particularly suitable for those students considering a possible career in public relations, lobbying, journalism, as well as in parliament itself or party politics.\n\nThe module\u2019s assessment has a strong practical component. It is composed of two reports, each actively encouraging the use of resources from Parliament and each putting students in a real life scenario.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli304",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI304_202526.htm"
+}

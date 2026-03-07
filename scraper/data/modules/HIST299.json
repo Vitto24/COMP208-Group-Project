@@ -1,0 +1,25 @@
+{
+  "code": "HIST299",
+  "name": "EYES ON THE PRIZE: THE LONG STRUGGLE FOR CIVIL RIGHTS",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr LR Sandy",
+  "description": "This module will study the \u2018long\u2019 history of the Civil Rights Movement in America, pioneered by African-Americans still living in the shadow of slavery, in the latter years of the 19th century, proceeding through the monumental political and social upheavals of the first half of the 20th century and culminating in the activism of the 1950s and 1960s that would end \u2018Jim Crow\u2019 racial segregation. Strategy and leadership will be a consistent theme, but the role of individuals in shaping the movement will be considered in relation to the broader context of the immense social, economic and cultural changes occurring within the United States over this period.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist299",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST299_202526.htm"
+}

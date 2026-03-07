@@ -1,0 +1,37 @@
+{
+  "course_name": "Computer Science MSc",
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc",
+  "years": {
+    "S1": {
+      "compulsory": [
+        "COMP516",
+        "COMP517",
+        "COMP518",
+        "COMP526"
+      ],
+      "optional": []
+    },
+    "S2": {
+      "compulsory": [
+        "COMP519"
+      ],
+      "optional": [
+        "COMP575",
+        "COMP527",
+        "COMP532",
+        "COMP524",
+        "COMP525",
+        "COMP310",
+        "COMP318",
+        "ENVS456",
+        "COMP530"
+      ]
+    },
+    "FP": {
+      "compulsory": [
+        "COMP702"
+      ],
+      "optional": []
+    }
+  }
+}

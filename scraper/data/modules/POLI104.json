@@ -1,0 +1,30 @@
+{
+  "code": "POLI104",
+  "name": "FOUNDATIONS IN INTERNATIONAL RELATIONS",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr A MacKenzie",
+  "description": "This module provides an introduction to the main schools of thought and key issues in the field of International Relations (IR). It starts by offering an outline of these schools of thought and introduces students to important thinkers and theories within them. It then moves on to applying and comparing and contrasting different theories to a range of important contemporary issues, from the persistence of war to the environment. It concludes with a discussion of possible futures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli104",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI104_202526.htm"
+}

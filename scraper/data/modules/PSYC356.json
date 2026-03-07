@@ -1,0 +1,25 @@
+{
+  "code": "PSYC356",
+  "name": "Positive Psychology",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr WJ Donnellan",
+  "description": "Positive psychology is a rapidly evolving field. Much of psychology focuses on the deficits and dysfunctions of individuals rather than their strengths and potentials. Positive psychology is defined as the scientific study of optimal human functioning and aims to discover and promote the factors that allow individuals and communities to thrive.\n\nThis module will introduce you to the theory, research, and applications of positive psychology. You will learn about the historical background of positive psychology, the key theories and research, and how these are translated into different applied contexts (e.g. health, education, etc). You will learn about the various pathways to and trajectories of wellbeing and how wellbeing can be promoted and preserved over the life course. You will also be provided with a range of supplementary resources to support your learning and encourage personal reflection on your character strengths and skills (e.g. mindfulness practices, gratitude journals, etc).\n\nThe module will be taught via lectures and online discussions. Your learning will be assessed via a social prescribing intervention proposal (30%) and written examination where you will answer two out of a choice of six questions (70%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc356",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC356_202526.htm"
+}

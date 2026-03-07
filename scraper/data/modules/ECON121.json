@@ -1,0 +1,25 @@
+{
+  "code": "ECON121",
+  "name": "Principles of Microeconomics",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr E Moon",
+  "description": "The module acquaints the student with a foundation in neo-classical microeconomics. The module equips students with the knowledge and mathematical tools to approach fundamental problems in microeconomic analysis. Students are introduced to the importance of theoretical models and their role. The module is supported by a customized textbook. Students who engage fully with this course will receive a solid foundation in microeconomics, which forms the foundation of all future courses in microeconomics and related subjects.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ121",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON121_202526.htm"
+}

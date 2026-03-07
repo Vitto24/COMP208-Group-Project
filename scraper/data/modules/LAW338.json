@@ -1,0 +1,25 @@
+{
+  "code": "LAW338",
+  "name": "Introduction to Copyright and Related Rights",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr GE Jenkins",
+  "description": "This module will provide an introduction one of the main areas of intellectual property law \u2013 copyright law. It will cover the various requirements to obtain copyright protection and will deal with the expansion of rights available to copyright holders. The module will study the complexities in relation to the copyright infringement due to the emergence of digital technologies and examine whether the private rights granted through copyright law is adequately balanced with the protection of public interests.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ". The questions will take the SQE MCQ question format that allows for adequate challenge \u00e2\u0080\u0093 but the students will be guided on the key caselaw - thus making it a compact and effective way to encourage in-depth reading and understanding of caselaw material",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law338",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW338_202526.htm"
+}

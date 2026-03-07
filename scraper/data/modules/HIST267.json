@@ -1,0 +1,30 @@
+{
+  "code": "HIST267",
+  "name": "WINDRUSH AND BEYOND: THE POLITICS OF RACE IN POST-WAR BRITAIN, 1948-1999",
+  "department": "History",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr JMB White",
+  "description": "The module will introduce students to the main themes and debates regarding the history of Black settlement in the UK following the Second World War, with, when applicable, a particular focus on the North and North West. Lectures will provide an overview of key political, cultural and social developments from 1945-1999, covering topics such as migration, housing, the introduction of anti-racist discrimination legislation, the British Black Panthers, and the development of Caribbean Carnivals across Britain. Seminars will focus more closely on different source material, and engage with historiographical debates.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist267",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST267_202526.htm"
+}

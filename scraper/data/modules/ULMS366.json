@@ -1,0 +1,34 @@
+{
+  "code": "ULMS366",
+  "name": "Critical Perspectives in Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CG Marechal",
+  "description": "The purpose of this module is to provide students with an in-depth understanding of the theory and practice of management in a critical context. The module draws on a broad range of critical social science theory that questions received wisdom on management and the view that management is a purely \u2018neutral\u2019 technical-rational practice. The module challenges this view by looking at issues of performativity, and the ideology and politics of work organization and management practice from a range of critical perspectives. It traces the history and development of management as power, control and domination in organizations from its origins through industrialization to its current post-industrial/ postmodern setting.",
+  "prerequisites": [
+    "ACFI151",
+    "ULMS101",
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/ulms366",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS366_202526.htm"
+}

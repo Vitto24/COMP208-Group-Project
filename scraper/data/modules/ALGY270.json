@@ -1,0 +1,28 @@
+{
+  "code": "ALGY270",
+  "name": "DEATH IN ANCIENT EGYPT: IMAGE, TEXT AND ARCHAEOLOGY",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr V Chauvet",
+  "description": "This module explores the funerary environment of private tombs in Pharaonic Egypt through the comparative study of the three main groups of evidence: Architecture / archaeological material, iconography and texts.",
+  "prerequisites": [
+    "ALGY109",
+    "ALGY116"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy270",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY270_202526.htm"
+}

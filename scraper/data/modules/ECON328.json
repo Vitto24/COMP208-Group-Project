@@ -1,0 +1,23 @@
+{
+  "code": "ECON328",
+  "name": "Sports Economics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr B Buraimo",
+  "description": "This module critically explores the economics of the sports sector, in particular the market for professional team sport. Over the past number of years, the sports sector has grown in social and economic significance, however, in some instances, there are peculiar aspects that merit economic inquiries. For example, collusion and collaboration between firms are generally prohibited, however, professional clubs organised in leagues are able to engage in collusive behaviour. At the same time, sports markets have many characteristics that make it particularly relevant to test general economic theories.\n\nThe aim of this module is to apply economic theories and principles to enhance knowledge and understanding of the sports sector and its constituent markets, and to use sports markets to understand general economic theories. The module will critically explore a range of issues and in doing so will make use of econometric modelling. Therefore, students will be able to develop an informed view of how an analytical view of sports can be used to guide decision making.",
+  "prerequisites": [
+    "ECON212",
+    "ECON233"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "using secondary data",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ328",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON328_202526.htm"
+}

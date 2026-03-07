@@ -1,0 +1,44 @@
+{
+  "code": "MATH390",
+  "name": "Professional Projects and Employability in Mathematics",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr EJ Russell",
+  "description": "This module gives the opportunity to further develop skills of mathematical problem solving and the application of mathematical results to real-world scenarios through group activities. The module aims to develop skills that are needed when undertaking employment or research, such as working in-depth on a problem over an extended period, writing reports, communicating mathematical results to different audiences and working in collaboration with others. This module will provide employability skills experiences and develop students' ability to articulate their skills, which will be useful to draw on when applying for jobs.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math390",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH390_202526.htm"
+}

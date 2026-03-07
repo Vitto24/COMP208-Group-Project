@@ -1,0 +1,28 @@
+{
+  "code": "ACFI202",
+  "name": "Accounting Theory",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr S Ahmad",
+  "description": "This module aims to increase students' knowledge of financial accounting theory and its relevance to  accounting practice. The module examines market for accounting information; processes and effects of regulating financial reporting; the incentives which drive managers\u2019 choices of alternative accounting policies; unregulated financial reporting with specific focus on environmental, social and governance (ESG) reporting, capital markets\u2019 response to accounting information; the critical perspectives of accounting and also considers a number of other important issues in financial reporting. Upon successful completion of this module, students should develop a good understanding of the role of financial accounting theory and its importance for accounting practice and reporting.",
+  "prerequisites": [
+    "ACFI201",
+    "ACFI220"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI202_202526.htm"
+}

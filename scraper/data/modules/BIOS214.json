@@ -1,0 +1,30 @@
+{
+  "code": "BIOS214",
+  "name": "Cellular and Systems Physiology",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr LE Young",
+  "description": "Understanding how the human body maintains stability amidst constant change requires insight from both cellular and systems physiology. This module explores the molecular mechanisms that underpin cell function and connects them to the coordinated regulation of tissues and organ systems that sustain life.Students will build a foundation in cellular physiology, examining organelle structure, membrane transport, protein quality control, and mechanotransduction. These principles are then integrated into the study of major physiological systems \u2014 including musculoskeletal, cardiovascular, respiratory, digestive, metabolic, immune, and neuroendocrine networks \u2014 to reveal how communication between cells and organs achieves whole-body homeostasis.Through case studies and applied examples, students will consider how disruptions in these systems lead to disease. The module also introduces modern experimental methods used to study physiology at molecular, cellular, and systemic levels, from microscopy and electrophysiology to advanced imaging and emerging technologies such as organoids and single-cell analysis.By combining molecular detail with systems-level understanding, this module provides essential knowledge of how human physiology operates in health and adapts in disease \u2014 forming a critical foundation for biomedical and translational science.\n\nThe module is taught through lectures and workshops, which are supported through directed reading/ multimedia.\n\nThere are two assessment in this module. The first assessment is a midterm assessment comprising a mixture of Multiple answer, multiple choice and extended matching item questions. The second assessment consists of  a combination of  MCQs and short answer questions.",
+  "prerequisites": [
+    "BIOS101",
+    "BIOS102",
+    "BIOS209",
+    "BIOS201"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Testing Block 1 (up to w 6) lectures",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios214",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS214_202526.htm"
+}

@@ -1,0 +1,23 @@
+{
+  "code": "PHYS361",
+  "name": "Quantum and Atomic Physics II",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor B Cheal",
+  "description": "This module concerns the study of quantum mechanics and its application to atomic systems. The description of simple systems will be covered before extending to real systems. Perturbation theory will be used to determine the detailed\u00a0physical effects seen in atomic systems.",
+  "prerequisites": [
+    "PHYS207",
+    "PHYS203"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys361",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS361_202526.htm"
+}

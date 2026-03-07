@@ -1,0 +1,25 @@
+{
+  "code": "LAW353",
+  "name": "PRINCIPLES OF INTERNATIONAL LAW",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Berkes",
+  "description": "The module provides students with in-depth specialist knowledge of the principles and structure of international law, with a special emphasis on law-making processes. It offers a selected introduction to the field by placing the issues covered into the political and historical context of international relations. The module features discussions of some of today's most debated theoretical and practical international legal issues against the backdrop of multiple international, regional and domestic legal and policy frameworks. They include the evolving role of international law in international affairs, the forms of law making, the ever increasing number of actors involved, the expansion of international adjudication, the creation of states, the various faces of sovereignty, and the impact of international law on domestic systems.\n\nEach lecture addresses selected elements of these debates and the basic principles underpinning them. Examples of basic questions include: What is international law? Is international law really law? How did it develop as a body of rules separate from domestic law? What types of norms define the international legal order? What are the main international decision making processes and who are the actors involved? What are the manifestations of state sovereignty and how do states exercise sovereignty from the perspective of international law and relations? How does international law affect domestic law? What is the status of international law within domestic legal orders? How is international law enforced? Or when can states be held liable for their wrongful conduct?",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 1    All students shall answer ONE question out of a list of questions",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law353",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW353_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "POLI103",
+  "name": "STUDYING POLITICS SUCCESSFULLY: SKILLS AND METHODS",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr AJ Routledge",
+  "description": "This module will equip you with the core skills that you need to be successful on a politics degree. These include skills like: Critical thinking, public speaking, choosing sources, making a convincing argument, academic essay writing, qualitative and quantitative research, and referencing. Many of these skills are expected at university \u2013 and are essential to a high grade \u2013 yet are not necessarily taught elsewhere. This module plugs that gap and ensures that you are confident and prepared for the different kinds of work that lie ahead.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI103_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "POLI308",
+  "name": "SOLIDARITY, ACTIVISM AND BORDERS IN THE EU",
+  "department": "Politics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr GK Bird",
+  "description": "This module focuses on questions of borders and bordering in the EU, how these practices have developed over time and the responses to them by migrants, solidarians, activists and humanitarians. It will engage with different forms of migration pathways and practices, including, but not limited to, the guest worker programmes of the 1950s and 1960s as well as current movements of displaced people seeking asylum. It will engage with themes including the history and construction of borders and bordering, as well as with questions of constructed vulnerability, gender and racialisation, migrant autonomy and solidarity, Racial Capitalism, and the humanitarian industrial complex.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli308",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI308_202526.htm"
+}

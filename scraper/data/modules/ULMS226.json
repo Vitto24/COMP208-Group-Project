@@ -1,0 +1,28 @@
+{
+  "code": "ULMS226",
+  "name": "Equality, Diversity and Inclusion in Organisations",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Ms J Hodgson",
+  "description": "This module provides an overview of what workforce equality, diversity and inclusion (EDI) are  and their  relevance and usefulness in improving the understanding and management of people at work. Today\u2019s workplace is changing due to a number of factors including an ageing population and increases in the number of women and ethnic minorities. As a result, there is a need to effectively understand and manage  EDI in organisations in order to create an inclusive workplace that meets organisational outcomes.   A number of issues that managers of a diverse workforce face are explored. In particular, issues such as gender, age, ethnicity, disability, religion, sexual orientation and intersectional identities are discussed. Two key approaches towards  EDI are reviewed: the social justice case and the business benefits case. The module also explores a range of EDI related concepts and topics such as social identity, stereotyping and discrimination. It also considers the protected rights of employees covered by UK legislation as well as international legislative drives and policies.Successful students will develop their understanding of the field of EDI and their own personal position within it. They will also inform their practice as future managers from both research and practitioner perspectives.",
+  "prerequisites": [
+    "ACFI151",
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Weighting: 50%  Reassessment Opportunity: Yes   Penalty for Late Submission:",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms226",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS226_202526.htm"
+}

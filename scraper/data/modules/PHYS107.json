@@ -1,0 +1,30 @@
+{
+  "code": "PHYS107",
+  "name": "Mathematics for Physicists I",
+  "department": "Physics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor B Cheal",
+  "description": "This module aims to provide all students with a common foundation in mathematics, necessary for studying the physical sciences and maths courses in later semesters. All topics will begin \"from the ground up\" by revising ideas which may be familiar from A-level before building on these concepts. In particular, the\u00a0basic principles\u00a0of differentiation and integration will be practised, before extending to functions of more than one variable. Basic matrix manipulation will be covered as well as vector algebra and an understanding of eigenvectors and eigenvalues.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS107_202526.htm"
+}

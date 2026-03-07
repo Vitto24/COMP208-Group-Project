@@ -1,0 +1,30 @@
+{
+  "code": "MECH109",
+  "name": "MECHANICAL PRODUCT DISSECTION",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 1,
+  "level": null,
+  "credits": 7.5,
+  "lecturer": "Dr JD Camm",
+  "description": "This is predominantly a practical module in which students work in small groups to examine in detail the workings and manufacture of a single-cylinder, 4-stroke petrol engine by dismantling it into component parts and documenting the disassembly process in a Wiki.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech109",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH109_202526.htm"
+}

@@ -1,0 +1,32 @@
+{
+  "code": "ECON223",
+  "name": "Macroeconomics 1",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr Y Arslan",
+  "description": "The module provides training in the principal methodologies, theories and techniques of modern macroeconomic analysis. It is designed to introduce classic macroeconomic issues such as growth, inflation, unemployment, interest rates, exchange rates, technological progress, and budget deficits. The course will provide a unified framework to address these issues and to study the impact of different policies, such as monetary and fiscal policies, on the aggregate behaviour of individuals. These analytical tools will be used to understand the recent experience of the United States and other countries and to address how current policy initiatives affect their macroeconomic performance.",
+  "prerequisites": [
+    "ECON123"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment Type: Practical Assessment   Duration: 6 days   Weighting: 20%   Reassessment Opportunity: Yes    Penalty for Late Submission:",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ223",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON223_202526.htm"
+}

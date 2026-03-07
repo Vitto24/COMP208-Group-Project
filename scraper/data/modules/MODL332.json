@@ -1,0 +1,25 @@
+{
+  "code": "MODL332",
+  "name": "REMEMBERING SLAVERY",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor SE Fuggle",
+  "description": "The module will typically provide an introduction to the history of slavery in the Francophone and Hispanic Worlds, situating the phenomenon of modern slavery within an understanding of historical slavery. Students will then study a range of representations of slavery that have arisen in response to historical slavery. These will typically range from first person slave accounts from the early modern period which provide an individual perspective on the history of slavery; literary and filmic representations of slavery and cultural responses to slavery, particularly in the heritage industries through the practice of Dark Tourism. The module will typically include a visit to the International Slavery Museum in the Albert Dock, Liverpool.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 67
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 33
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/modl332",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MODL332_202526.htm"
+}

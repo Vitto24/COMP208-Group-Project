@@ -1,0 +1,32 @@
+{
+  "code": "PHYS135",
+  "name": "Introduction to Nuclear Science",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 7.5,
+  "lecturer": "Dr E Rintoul",
+  "description": "This module introduces underlying principles of nuclear science. The first three weeks will give an introduction to the structure of nuclei, their relative stability, how they decay and properties of different types of radiation. In the second half of the course, after studying nuclear reactions, we will look at various practical applications of nuclear science and the design of nuclear power stations in particular.",
+  "prerequisites": [
+    "PHYS105"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys135",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS135_202526.htm"
+}

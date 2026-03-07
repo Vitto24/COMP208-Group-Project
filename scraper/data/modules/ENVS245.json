@@ -1,0 +1,30 @@
+{
+  "code": "ENVS245",
+  "name": "Oceanography, Plankton and Climate",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor J Sharples",
+  "description": "The ocean is a vital part of how Earth\u2019s climate works, absorbing, storing and transporting heat and carbon dioxide from the atmosphere. Microscopic plants and animals in the ocean, known as the plankton, are key to how the ocean works in Earth\u2019s climate system. From the tropics to the poles, we will look at how the ocean currents and tides are formed and how they control where and how much the plankton grow. Larger plankton are better at removing carbon from the atmosphere to the ocean depths, and we will consider why some regions of the ocean are better at supporting the plankton communities that are most efficient at removing atmospheric carbon dioxide. Processes that we will investigate include the formation of the major ocean gyres and tides, the effects of seasons and weather and how these change at different latitudes, oxygen and carbon dioxide exchange between the atmosphere and ocean and the fate of these gases in the sea, the sources of light and nutrients that the plankton need, and the importance of seasonal stratification and turbulence in controlling how and where the plankton can grow. You will learn how to analyse and report on ocean data that we have collected in our research, from the sub-tropical Atlantic to the polar seas. You will use simple computer simulations to investigate how the growth of plankton might change as our climate heats up. We will take a multidisciplinary approach to learning about the ocean, plankton and climate. Whatever your scientific background, we will provide you with the key knowledge of ocean biology, chemistry and physics that you need to understand why a planet needs an ocean in order to support a stable climate. Our teaching uses a combination of lectures, workshops and data analysis laboratories. The module is assessed by 3 pieces of coursework: analysis of data that we have collected during our research expeditions, use of a computer simulation to investigate plankton growth in a warmer climate, and a final quiz to test your knowledge of key concepts.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs245",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS245_202526.htm"
+}

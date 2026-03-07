@@ -1,0 +1,28 @@
+{
+  "code": "ECON342",
+  "name": "Advanced Microeconomics",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor M Lombardi",
+  "description": "This is a third year advanced module in microeconomic theory focussed on the study of asymmetric information environments.  In the seminar/tutorial students will be expected to present and discuss additional material as well as solve exercises.",
+  "prerequisites": [
+    "ECON221",
+    "ECON222"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON342_202526.htm"
+}

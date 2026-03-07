@@ -1,0 +1,30 @@
+{
+  "code": "PHYS392",
+  "name": "Physics Data Analysis with Statistics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr DE Hutchcroft",
+  "description": "Statistical Methods in Physics Analysis: Understanding Statistics and its application to data analysis",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys392",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS392_202526.htm"
+}

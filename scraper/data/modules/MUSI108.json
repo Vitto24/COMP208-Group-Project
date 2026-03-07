@@ -1,0 +1,25 @@
+{
+  "code": "MUSI108",
+  "name": "INTRODUCTION TO SOUND RECORDING AND PRODUCTION",
+  "department": "Music",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr JA Holmes",
+  "description": "This module introduces students to Sound, Recording and Production techniques in the University Recording Studio. This is a practised based module where teaching is delivered through hands on workshops and lectures. Lectures will discuss recording, audio editing and effects processing techniques in Pro Tools. The weekly workshops, which are in small groups, will be led by the module leader who will demonstrate production techniques and then set group tasks which will allow students to practice key skills during the workshop sessions.  By the end of the module the student will be competent enough to use the studio independently and effectively.\n\nStudents will complete two assessments. The first is an individual mixing assignment to be completed in the Mac Suites. Assignment 2 is a group recording project carried out in a University Studio and includes a group presentations about the project.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi108",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI108_202526.htm"
+}

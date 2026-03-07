@@ -1,0 +1,25 @@
+{
+  "code": "ENVS361",
+  "name": "Conserving the Marine Environment",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr JA Green",
+  "description": "Conservation of the marine environment is an important but complex issue. In this module we will explore how ecological data are used to monitor, assess and manage marine ecosystems and how this information is then used to underpin marine conservation. Using a series of real-world examples and expert guests from outside of the University you will learn skills used in conservation careers and how conservation really works. The module is delivered through a mix of video lectures, in-person lectures and computer practicals and assessed through a group presentation and an examination.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": #2, Exam Period Sem 2",
+      "weight": 75
+    },
+    {
+      "type": "coursework",
+      "title": ": mid-semester",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs361",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS361_202526.htm"
+}

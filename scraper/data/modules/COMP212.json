@@ -1,0 +1,30 @@
+{
+  "code": "COMP212",
+  "name": "Distributed Systems",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr O Michail",
+  "description": "This module covers the concepts of distributed systems and the underlying principles of distributed computing and discusses the issues and various solutions proposed in the distributed computing community. Specifically, communication and broadcast, election algorithms, synchronization and concurrency, fault-tolerance and security related issues will be discussed in the lectures. Where applicable practical implementations of the concepts will be introduced.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP212_202526.htm"
+}

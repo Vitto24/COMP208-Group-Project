@@ -1,0 +1,35 @@
+{
+  "code": "POLI337",
+  "name": "LOCAL GOVERNMENT IN THE UK",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr D Jeffery",
+  "description": "This module will provide students with a detailed knowledge of the nature and workings of local government, taking into account its history, structure, political and administrative operation, financing, and relationships with central government and other tiers of local government. Students will develop a broad awareness of the powers and restrictions placed on councils and councillors, including the challenges and opportunities posed by multi-level governance and globalisation. Special emphasis will be placed on local government in England, especially vis-\u00e0-vis the evolving relationship between local councils and mayors, but students will also compare British local government to Western counterparts.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ".  This will not be marked anonymously",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Standard UoL penalties will apply",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli337",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI337_202526.htm"
+}

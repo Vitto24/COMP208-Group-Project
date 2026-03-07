@@ -1,0 +1,25 @@
+{
+  "code": "ENGL120",
+  "name": "Introduction to World Literature 2: Theory and Practice",
+  "department": "English",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr L Loh",
+  "description": "This module will be compulsory for any student taking the BA in English with World Literature. It will be optional for students on English and English Literature, and for students taking Single Honours French, German, Hispanic Studies and Italian.\n\nThis module will follow on from Introduction to World Literature 1: From the National to the Global (Semester 1) by deepening students\u2019 understanding of concepts and theories of world literature, and applying these to a range of longer literary texts across all major genres including the novel, poetry, drama, short story both originally in English and in English translation.\n\nIt will be delivered via a lecture and tutorial each week and assessed via 80% assessed summative coursework essay of 2500-3000 words and 20% creative-critical project (1000-1500 words).Formative work will support the assessments.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl120",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL120_202526.htm"
+}

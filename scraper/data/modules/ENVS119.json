@@ -1,0 +1,30 @@
+{
+  "code": "ENVS119",
+  "name": "Living with Environmental Change",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr K Clark",
+  "description": "This module examines a number of global \u2018grand challenges\u2019 facing humans on the planet earth related to climate and environmental change. It will introduce students to core concepts of sustainability and human impacts upon the environment, as well as exploring the range of proposed solutions and mitigation strategies which are available to understand climate and environmental change. The module thus provides a core knowledge base for social and natural scientists who wish to understand environmental change.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "There is a resit opportunity",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "There is a resit opportunity",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "There is a resit opportunity",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs119",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS119_202526.htm"
+}

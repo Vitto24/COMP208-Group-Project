@@ -1,0 +1,29 @@
+{
+  "code": "ALGY244",
+  "name": "SACRED LANDSCAPE IN ANCIENT EGYPT",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr S Zago",
+  "description": "ALGY 244 is designed to explore themes of how the ancient Egyptians viewed the world around them. We will look at the ways in which the Egyptians saw the presence and operation of the divine within the natural environment, and how they built structures (especially temples and tombs) which allowed contact between the living and other spiritual entities (the gods, the dead). We will especially focus on the ways in which the Egyptians integrated notions of 'sacred landscape' into their everyday lives.",
+  "prerequisites": [
+    "ALGY257",
+    "ALGY109",
+    "ALGY116"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy244",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY244_202526.htm"
+}

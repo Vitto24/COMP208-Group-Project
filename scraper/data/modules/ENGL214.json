@@ -1,0 +1,25 @@
+{
+  "code": "ENGL214",
+  "name": "Shakespeare in Context",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr EK Knowles",
+  "description": "This module examines Shakespeare\u2019s plays in relation to the early modern socio-cultural contexts in which they were written and first performed. It will introduce you to a range of comedies, histories and tragedies and encourage you to analyse and discuss how they engage with key issues of sixteenth and seventeenth century English life. By the end of the module you should be able to demonstrate in-depth knowledge of a number of Shakespeare\u2019s works and an informed sense of the plays\u2019 relationship to their historical contexts. Topics covered will typically include, Sex & Gender; Power & Performance; Belief & Superstition; Race & Culture; Travel & Trade. Workshops will give critical context provide models of interpretation and encourage reading the plays alongside other early modern texts, while the tutorials provide space for more detailed student-led discussion of the plays.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl214",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL214_202526.htm"
+}

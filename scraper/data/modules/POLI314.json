@@ -1,0 +1,25 @@
+{
+  "code": "POLI314",
+  "name": "POLITICS OF DEVELOPMENT",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr HM Baumann",
+  "description": "What are the institutional prerequisites of economic development? Global development institutions such as the World Bank or UNDP have proposed the concept of \"good governance\" as an answer to this question. This module critically engages with this concept by juxtaposing it with various historical institutionalist accounts of the state, including the East Asian developmental state, Africa's failed states, and the Middle Eastern rentier state. Students engage with key debates about the role of the state, democracy, corruption and the \"resource curse\" in economic development.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli314",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI314_202526.htm"
+}

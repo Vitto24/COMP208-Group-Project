@@ -1,0 +1,25 @@
+{
+  "code": "MUSI205",
+  "name": "Composition for Film and Television",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr MA Cryne",
+  "description": "Students will learn how to effectively compose and arrange music for film and television. The module will cover practical issues such as: working in a software programme such as Logic Pro to compose with synchronised video clips; arranging instrumental parts using sample libraries, working with tempo, speed and appropriate harmonic languages. The coursework will involve a series of compositions to written briefs and video clips, totalling 4-8 minutes in duration. Each composition assignment will address a different challenge and style aspect of film or TV music and be accompanied by a written commentary explaining the reasons for the approach and style taken in the music.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Week 12",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi205",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI205_202526.htm"
+}

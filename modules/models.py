@@ -2,6 +2,41 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+class Course(models.Model):
+    """A degree programme like 'Computer Science BSc'."""
+    DEGREE_CHOICES = [
+        ('BSc', 'BSc'),
+        ('MEng', 'MEng'),
+        ('MSc', 'MSc'),
+        ('BA', 'BA'),
+        ('BEng', 'BEng'),
+        ('LLB', 'LLB'),
+    ]
+
+    name = models.CharField(max_length=200)
+    slug = models.SlugField(unique=True)  # e.g. "computer-science-bsc"
+    url = models.URLField(blank=True)
+    degree_level = models.CharField(max_length=10, choices=DEGREE_CHOICES)
+
+    def __str__(self):
+        return self.name
+
+
+class ModuleCourse(models.Model):
+    """Links a module to a course, with year level and compulsory status."""
+    module = models.ForeignKey('Module', on_delete=models.CASCADE, related_name='module_courses')
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='module_courses')
+    year = models.CharField(max_length=10)  # "1", "2", "3", "S1", "S2", "FP" etc.
+    is_compulsory = models.BooleanField(default=False)
+
+    class Meta:
+        unique_together = ('module', 'course')
+
+    def __str__(self):
+        status = "compulsory" if self.is_compulsory else "optional"
+        return f"{self.module.code} in {self.course.slug} (year {self.year}, {status})"
+
+
 class Module(models.Model):
     code = models.CharField(max_length=20, unique=True)
     name = models.CharField(max_length=200)

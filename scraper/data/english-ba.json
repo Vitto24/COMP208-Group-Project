@@ -1,0 +1,52 @@
+{
+  "course_name": "English BA (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons",
+  "years": {
+    "1": {
+      "compulsory": [],
+      "optional": [
+        "ENGL103",
+        "ENGL105",
+        "ENGL107",
+        "ENGL117",
+        "ENGL119",
+        "WLIT101",
+        "ENGL102",
+        "ENGL104",
+        "ENGL106",
+        "ENGL113",
+        "ENGL116",
+        "ENGL120"
+      ]
+    },
+    "2": {
+      "compulsory": [],
+      "optional": [
+        "ENGL202",
+        "ENGL213",
+        "ENGL215",
+        "ENGL221",
+        "ENGL243",
+        "ENGL272",
+        "ENGL276",
+        "ENGL299",
+        "SOTA260",
+        "GRMN218",
+        "LATI203",
+        "POLI252",
+        "ENGL214",
+        "ENGL216",
+        "ENGL218",
+        "ENGL232",
+        "ENGL256",
+        "ENGL270",
+        "ENGL274",
+        "ENGL279",
+        "ENGL298",
+        "CLAH299",
+        "FREN220",
+        "HISP219"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "code": "MKIB301",
+  "name": "Social Enterprise",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr R Frank",
+  "description": "The module introduces students to social enterprise. Through lectures, field visits to practicing social enterprise and working on a practical project students will learn about the scope of the work undertaken by social enterprise including their legal and financial structure, their need for a social mission and the policy environment in which they exist.",
+  "prerequisites": [
+    "ULMS252",
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib301",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB301_202526.htm"
+}

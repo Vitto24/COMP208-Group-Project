@@ -1,0 +1,30 @@
+{
+  "code": "LAW211",
+  "name": "EQUITY & TRUSTS",
+  "department": "Law",
+  "semester": 0,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr SF Singh",
+  "description": "This is a 30 credit, FHEQ Level 5\u202fmodule. It covers the important concepts of trusts, equitable remedies and concepts of property. \u202fIt is one of the Foundations of Legal Knowledge, necessary for progression to training for the Bar.Module delivery concentrates on inculcating legal and transferable skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 90
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law211",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW211_202526.htm"
+}

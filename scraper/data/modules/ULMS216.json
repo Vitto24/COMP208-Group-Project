@@ -1,0 +1,20 @@
+{
+  "code": "ULMS216",
+  "name": "Contemporary Developments in Employment Relations",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor R Donnelly",
+  "description": "Work and employment relations are continually changing and this can generate stakeholder tensions. The aim of this module is to examine current and emerging developments in Employment Relations (ER), because of their implications for individuals, organisations and society. These developments in ER are debated in the context of the UK, but insight into other national contexts is drawn upon to extend student knowledge and learning.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms216",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS216_202526.htm"
+}

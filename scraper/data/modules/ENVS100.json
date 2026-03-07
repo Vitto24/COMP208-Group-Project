@@ -1,0 +1,50 @@
+{
+  "code": "ENVS100",
+  "name": "Study Skills and GIS",
+  "department": "Geography and Planning",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr KPS Thakar",
+  "description": "This 30-credit module will provide the bedrock for your degree, and comprises five main elements. Firstly, pastoral and study support, provided via a series of regular one-to-one and small-group tutorials with an allocated academic tutor/adviser; secondly, development of core study skills, including essay writing, lecture note-taking, critical thinking, presentation skills, and bibliographic searching and referencing; thirdly, a hands-on introduction to the fundamentals of Geographical Information Systems, helping you learn how to combine spatial data from different sources to create maps that address real-world problems; finally, employability training designed to help you better understand what graduate employers are looking for, how to apply for summer work and/or volunteering opportunities, and how best to use your time at University to maximise your employability upon graduation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ".",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": ".",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": ".     Students undertake a CV review with a trained coach at the University Career Studio",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": ".",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": To be completed by the end of Semester 1    This open-book online test can be sat home or on campus using any device with an up-to-date version of the Firefox web-browser",
+      "weight": 0
+    },
+    {
+      "type": "practical",
+      "title": ".",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs100",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS100_202526.htm"
+}

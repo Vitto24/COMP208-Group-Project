@@ -1,0 +1,30 @@
+{
+  "code": "CIVE241",
+  "name": "STRUCTURAL ELEMENT DESIGN",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr RJ Morris",
+  "description": "This module provides an overview of basic structural design concepts and the application of common materials in construction including steelwork, reinforced concrete (RC), timber, and masonry. It covers fundamental principles and theoretical background and provides design examples based on Eurocodes.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": At end of Semester 1",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Standard UoL penalty applies for late submission",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Possibly written to circumvent use of AI",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive241",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE241_202526.htm"
+}

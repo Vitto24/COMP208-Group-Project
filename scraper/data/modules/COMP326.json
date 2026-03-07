@@ -1,0 +1,32 @@
+{
+  "code": "COMP326",
+  "name": "Computational Game Theory and Mechanism Design",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr GB Birmpas",
+  "description": "In this module we introduce and study games that have some underlying network structure or that appear in auctions. A focus will be on scheduling and routing, as well as on the computational aspects in the design of mechanisms and auctions.",
+  "prerequisites": [
+    "COMP323"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "CA2 Open Problems",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "CA1 Open Problems",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp326",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP326_202526.htm"
+}

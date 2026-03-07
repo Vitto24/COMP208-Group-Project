@@ -1,0 +1,25 @@
+{
+  "code": "ENGL216",
+  "name": "World Drama",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr ACE Coupe",
+  "description": "This module explores the diversity of theatre and performance forms across the world, considering how they can be understood in dialogue with each other and their particular social and political contexts. The module will encourage you to think about theatre and performance as a global set of artistic practices. The work we explore will challenge Western and European conceptions of history and culture, as well as conventional understandings of the nature and purpose of theatre. You will discuss writers and theatre makers from a range of global majority communities and, where possible, consider them in performance.  The course will encourage you to explore specific productions, both contemporary and historical, in their political and cultural settings. By the end of the module you will have developed the tools required to critically analyse and understand the performance cultures of different countries.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl216",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL216_202526.htm"
+}

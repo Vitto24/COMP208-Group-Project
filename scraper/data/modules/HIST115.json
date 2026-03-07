@@ -1,0 +1,25 @@
+{
+  "code": "HIST115",
+  "name": "POWER, BELIEF AND IDENTITY: MEDIEVAL AND EARLY MODERN WORLDS, C. 500-1600 CE",
+  "department": "History",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RE Whelan",
+  "description": "This module covers a period of crucial significance for European history, including interactions between Europe and other parts of the world in the premodern period. Much of it will be unfamiliar to many of you, but, we hope, will be all the more interesting for that reason. At its broadest, this module covers more than a millennium, from the rise of Christianity to the European arrival in and settlement of the Americas. We start with the origins of Christianity in the eastern Mediterranean, before moving on to the fall of the Roman Empire and the rise of Islam. In Europe, we chronicle the rise of post-Roman kingdoms, the settlements of Vikings in Europe and more distant locations, the launching and objectives of the crusades. In light of the expansion of the papacy, we assess the emergence of new forms of spirituality and heresy, political conflicts between nascent states, and the impact of the Reformation and Catholic Reformation on other parts of the world. Underlying these events are some continuous themes, such as the foundation of the Christian Church, the development and evolution of notions of holiness, and the effect of religious belief on methods of education, ideas of difference and deviance, and responses to natural disasters. Another theme that runs through the module is to assess how gender mores affected the experiences of and possibilities for individuals who lived in these periods. Course content also looks at the practice of, and ideology behind, political activity and war. We aim to give you an appreciation of world views and of methods of representation based on the mental horizons possible in the age before modern technology.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist115",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST115_202526.htm"
+}

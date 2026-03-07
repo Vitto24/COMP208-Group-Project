@@ -1,0 +1,22 @@
+{
+  "code": "LAW343",
+  "name": "Advanced Public Law",
+  "department": "Law",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor MJ Gordon",
+  "description": "In recent years, legal systems and the constitutions that structure them seem under increased strain. In the UK alone, we have seen, amongst many other issues, exit from the European Union; scandal surrounding Government handling of the Covid-19 pandemic; increased use of judicial review to challenge (often controversial) Government decision-making; frequent changes of Prime Minister; and the question of Scottish independence both subject to a referendum yet seemingly unresolved.\n\nAdvanced Public Law explores some of the key challenges facing constitutional frameworks at the UK, European and/or international levels. Drawing on staff expertise, the three specific topics studied each year will be dynamic, allowing students to focus on the most pressing issues facing public law. However, recent examples include: Courts and Rights in the Age of Austerity; The Break-Up of Britain: Constitutional Responses to a Territorial Crisis; and Extra-Parliamentary Sites of Accountability in the Age of Social Media Age.\n\nWhatever the topic, with its central themes of Power, Rights and Accountability, the module will enable students to approach key public law questions: how does law create and divide public power, and ensure the exercise of power is legitimate?  How do rights constrain public authorities, and can courts have a major impact on significant social, economic and political challenges?   How effectively is power held to account through constitutional processes, and how could accountability be enhanced in democratic constitutions?\n\nIn this way, Advanced Public Law will give students an in-depth understanding of some of the key constitutional challenges facing legal and political systems in the modern world. It will be assessed by a \u201cseen\u201d examination, with the exam paper released to students 24 hours before the start of the assessment, to allow time for focused revision and detailed essay planning.",
+  "prerequisites": [
+    "LAW106"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ".    This would be a \u00e2\u0080\u0098seen\u00e2\u0080\u0099 exam with a 24 hour pre-release period \u00e2\u0080\u0093 the purpose would be to give the students time to reflect on the questions we pose, allowing us to ask appropriately challenging questions as required at Level 6, and to give the students scope to produce more analytical answers which cut across the different topics covered in the module where appropriate",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law343",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW343_202526.htm"
+}

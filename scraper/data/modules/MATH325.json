@@ -1,0 +1,30 @@
+{
+  "code": "MATH325",
+  "name": "QUANTUM MECHANICS",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor T Teubner",
+  "description": "The development of Quantum Mechanics, requiring as it did revolutionary changes in our understanding of the nature of reality, was arguably the greatest conceptual achievement of all time. The aim of the module is to lead the student to an understanding of the way that relatively simple mathemactics (in modern terms) led Bohr, Einstein, Heisenberg and others to a radical change and improvement in our understanding of the microscopic world.",
+  "prerequisites": [
+    "MATH122",
+    "MATH102",
+    "MATH101",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math325",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH325_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "HIST276",
+  "name": "THE HISTORY OF BLACK PEOPLE IN BRITAIN: FROM ROMAN TIMES TO THE 1980s",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr BY Biney",
+  "description": "People of African descent have resided in Britain long before the SS Empire Windrush ship arrived in Tilbury, London on 22 June 1948.\n\nThere has been a continuous black presence on British shores since the Roman era. This module will not only look at the rise of Black people since Tudor England and after \u2013 particularly as a result of the transatlantic slave trade that connected continents and people.  It will also examine Liverpool\u2019s critical role in becoming the \u201cslaving capital of the world\u201d during the 1700s which fuelled the industrial revolution and birthed racial inequalities that currently exist not only in Britain but globally.\n\nTaking an interdisciplinary approach, we shall explore the lives of Black people in Britain and how White Britons interacted with African descended people via social, cultural and political history. Students will be encouraged to choose topics that interest them for assessment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist276",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST276_202526.htm"
+}

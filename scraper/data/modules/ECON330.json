@@ -1,0 +1,29 @@
+{
+  "code": "ECON330",
+  "name": "Contemporary Issues in Economic Policy",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Marchesiani",
+  "description": "This module aims to give students a broad understanding of the key contemporary issues faced by political institutions and policymakers in the United Kingdom and in an international context. The module will analyse key challenges faced by democratic institutions around the world as well as by policymakers (e.g., trade wars, central bank independence, the adoption of government digital currency, Too Big To Fail, unconventional monetary policy, and the cost of living crisis). The module will allow students to apply theoretical concepts to real-life challenges.",
+  "prerequisites": [
+    "ECON221",
+    "ECON222",
+    "ECON227"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ330",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON330_202526.htm"
+}

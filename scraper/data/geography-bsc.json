@@ -1,0 +1,80 @@
+{
+  "course_name": "Geography BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "ENVS120",
+        "ENVS163",
+        "ENVS119",
+        "ENVS100",
+        "ENVS165"
+      ],
+      "optional": [
+        "ENVS111",
+        "ENVS157",
+        "ENVS162",
+        "ENVS118",
+        "ENVS122",
+        "ENVS116",
+        "ENVS161",
+        "ENVS144",
+        "ENVS189"
+      ]
+    },
+    "2": {
+      "compulsory": [
+        "ENVS228",
+        "ENVS249",
+        "ENVS203"
+      ],
+      "optional": [
+        "ENVS223",
+        "ENVS217",
+        "ENVS214",
+        "ENVS231",
+        "ENVS218",
+        "ENVS252",
+        "ENVS257",
+        "ENVS202",
+        "ENVS251",
+        "ENVS264",
+        "ENVS221",
+        "ENVS227",
+        "ENVS275",
+        "ENVS225",
+        "ENVS232",
+        "ENVS245",
+        "ENVS238"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "ENVS321"
+      ],
+      "optional": [
+        "ENVS389",
+        "ENVS376",
+        "ENVS344",
+        "ENVS372",
+        "ENVS363",
+        "ENVS387",
+        "ENVS335",
+        "ENVS315",
+        "ENVS319",
+        "ENVS334",
+        "ENVS310",
+        "ENVS308",
+        "ENVS342",
+        "ENVS381",
+        "ENVS330",
+        "ENVS311",
+        "ENVS357",
+        "ENVS313",
+        "ENVS380",
+        "ENVS365",
+        "ENVS361"
+      ]
+    }
+  }
+}

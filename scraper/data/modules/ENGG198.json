@@ -1,0 +1,40 @@
+{
+  "code": "ENGG198",
+  "name": "Engineering Mathematics",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 0,
+  "level": 4,
+  "credits": 22.5,
+  "lecturer": "Dr DG McIntosh",
+  "description": "ENGG198 is a Year 1 mathematics module for students of programmes taught in the School of Engineering, e.g. Aerospace, Civil, Architectural, Mechanical, Product Design and Industrial Design Engineering. It is designed to reinforce and build upon A-level (or equivalent) mathematics, providing you with the strong background required in your engineering studies and preparing you for Year 2 mathematics modules.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Students who pass at the first attempt will be awarded 100% for this assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ".    Students who pass at the first attempt will be awarded 100% for this assessment",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg198",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG198_202526.htm"
+}

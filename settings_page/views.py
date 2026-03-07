@@ -15,7 +15,6 @@ def settings_view(request):
         # Update basic user info
         request.user.first_name = request.POST.get('first_name', '')
         request.user.last_name = request.POST.get('last_name', '')
-        request.user.email = request.POST.get('email', '')
         request.user.save()
 
         # Update profile fields
@@ -36,7 +35,7 @@ def settings_view(request):
 
         profile.save()
 
-        # Re-run auto-enrolment to pick up any new compulsory modules
+        # Re-run auto-enrolment with the updated course/year
         auto_enrol_compulsory(request.user)
 
         messages.success(request, 'Settings saved.')
@@ -47,5 +46,6 @@ def settings_view(request):
     context = {
         'profile': profile,
         'courses': courses,
+        'year_choices': range(1, 5),  # Years 1-4
     }
     return render(request, 'settings_page/settings.html', context)

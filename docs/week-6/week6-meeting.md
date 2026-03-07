@@ -14,7 +14,7 @@
 | Modules          | Working     | Module list + detail page with assignments table and materials section    |
 | Timetable        | Working     | Weekly grid, colour-coded events, today panel, week navigation            |
 | Grades           | Working     | Nested by year/semester, expandable modules, weighted overall grade calc  |
-| Settings         | Placeholder | Just renders "coming soon" — no actual functionality                      |
+| Settings         | Updated     | Profile form added (name, course, year) — still needs email & university  |
 | Notifications    | Not built   | Sidebar link goes to `#`                                                  |
 
 
@@ -55,7 +55,7 @@
 
 **Files:** `dashboard/views.py` (for filtering), new scraper script
 
-- Only show modules on the dashboard that the student is currently enrolled in — filter by current semester enrolment so past/future modules don't appear.
+- Only show modules on the dashboard that the student is currently enrolled in — filter by current semester enrolment so past/future modules don't appear. ✅
 - Download different modules data using a Python script scraper — there are roughly 500 undergrad courses to collect.
 - Connect the database up to an online server (week 7/8).
 
@@ -63,9 +63,9 @@
 
 **Files:** `settings_page/views.py`, `templates/settings_page/settings.html`
 
-- Finish the settings page — currently just a placeholder ("coming soon").
-- Connect the student name to the settings page so the user can view and edit their profile details.
-- Display fields from `UserProfile`: name, course, year of study, university.
+- Finish the settings page — currently just a placeholder ("coming soon"). ✅
+- Connect the student name to the settings page so the user can view and edit their profile details. ✅
+- Display fields from `UserProfile`: name, course, year of study, email, university (still needs email & university).
 
 ### Modules (Daniel)
 

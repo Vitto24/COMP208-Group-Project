@@ -1,29 +1,32 @@
-from modules.models import ModuleCourse
+from modules.models import Module, ModuleCourse
 
 
 def auto_enrol_compulsory(user):
     """Enrol a user in all compulsory modules for their course and year.
 
-    Looks up the user's course + year_of_study from their profile,
-    finds compulsory ModuleCourse entries, and adds the user to each
-    module's students. Skips modules the user is already enrolled in.
+    Clears any existing course-linked modules first, then re-enrols
+    the correct ones so changes to course or year are always reflected.
     """
     try:
         profile = user.userprofile
     except Exception:
         return
 
+    # Remove user from all modules linked to any course (clean slate)
+    course_modules = Module.objects.filter(module_courses__isnull=False).distinct()
+    for mod in course_modules:
+        mod.students.remove(user)
+
     if not profile.course:
         return
 
-    # Get compulsory modules for this course and year
+    # Get all modules for this course and year (compulsory + optional)
     year_str = str(profile.year_of_study)
-    compulsory_links = ModuleCourse.objects.filter(
+    course_links = ModuleCourse.objects.filter(
         course=profile.course,
         year=year_str,
-        is_compulsory=True,
     ).select_related('module')
 
-    for link in compulsory_links:
+    for link in course_links:
         # add() is a no-op if the user is already enrolled
         link.module.students.add(user)

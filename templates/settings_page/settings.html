@@ -31,12 +31,6 @@
         </div>
 
         <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email"
-                   value="{{ request.user.email }}" />
-        </div>
-
-        <div class="form-group">
             <label for="course">Course</label>
             <select id="course" name="course">
                 <option value="">-- No course selected --</option>
@@ -51,8 +45,14 @@
 
         <div class="form-group">
             <label for="year_of_study">Year of Study</label>
-            <input type="number" id="year_of_study" name="year_of_study"
-                   min="1" max="6" value="{{ profile.year_of_study }}" />
+            <select id="year_of_study" name="year_of_study">
+                {% for y in year_choices %}
+                <option value="{{ y }}"
+                    {% if profile.year_of_study == y %}selected{% endif %}>
+                    Year {{ y }}
+                </option>
+                {% endfor %}
+            </select>
         </div>
 
         <button type="submit" class="btn">Save Changes</button>

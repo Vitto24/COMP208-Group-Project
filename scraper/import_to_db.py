@@ -65,6 +65,8 @@ def load_course_data(course_path: str) -> dict:
         data = json.load(f)
 
     course_name = data.get("course_name", "Unknown Course")
+    # strip "(Hons)" from course names - it's unnecessary clutter
+    course_name = re.sub(r"\s*\(Hons\)", "", course_name)
     course_meta = {
         "name": course_name,
         "url": data.get("course_url", ""),

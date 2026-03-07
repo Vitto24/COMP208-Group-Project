@@ -1,0 +1,30 @@
+{
+  "code": "HISP348",
+  "name": "RESEARCHING DIGITAL CULTURES IN THE AMERICAS",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor NR Thornton",
+  "description": "This module develops research and critical skills when examining digital cultures with a particular focus on the Americas. It takes examples that encompass North, Central, and South America as well as the Caribbean. Building confidence in handling theoretical tools in the analysis of digital cultures it examines a range of professional and amateur content creators from social, institutional and personal perspectives and considers issues of curatorship, archival approaches, the ethics of (re)appropriation and remediation, and the relationship between the self and the public and private spheres.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hisp348",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HISP348_202526.htm"
+}

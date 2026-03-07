@@ -1,0 +1,25 @@
+{
+  "code": "PSYC311",
+  "name": "FORENSIC AND INVESTIGATIVE PSYCHOLOGY",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Gordts",
+  "description": "The module covers key issues relating to Forensic and Investigative Psychology. Successful students will be able to: critically evaluate how theoretical models, and relevant research are used to address global issues in Forensic and Investigative Psychology; debate global crime problems and critically evaluate how they are addressed; critically appraise international forensic and investigative psychology issues from different cultural, social, and ethical perspectives. Students will benefit from research-led teaching with academic staff. . The course will be delivered via 1 x 2-hour lectures each week, alongside 1 x 2-hour workshop at the beginning of the module to support the students carrying out a piece of authentic assessment (writing an online science article). There will also be 12 x 1 hour online tasks to be completed after every lecture. Learning will be assessed via  coursework submitted mid semester and an essay exam in the exam period. Material will be available to students via the VLE (e.g., lecture slides, online activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "offering commentary or debate on a global crime issue",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc311",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC311_202526.htm"
+}

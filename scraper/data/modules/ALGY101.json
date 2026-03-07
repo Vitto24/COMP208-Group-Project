@@ -1,0 +1,30 @@
+{
+  "code": "ALGY101",
+  "name": "PRINCIPLES OF ARCHAEOLOGY",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr M Widell",
+  "description": "ALGY101 introduces students to the concepts, methods and evidence that archaeologists use to study and interpret the past. Students gain core skills essential to building and evaluating knowledge about the human past from material remains.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY101_202526.htm"
+}

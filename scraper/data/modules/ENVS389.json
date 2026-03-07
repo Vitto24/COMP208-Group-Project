@@ -1,0 +1,25 @@
+{
+  "code": "ENVS389",
+  "name": "Climate Change - A Critical Review",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr JEH Higham",
+  "description": "This module examines climate change impacts on humans and ecosystems. The module is designed to give the student a good overview of the strength and weaknesses of climate modelling approaches. Elements of the global carbon cycle are discussed.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":2nd Semester",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": 2nd Semester",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs389",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS389_202526.htm"
+}

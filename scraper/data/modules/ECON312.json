@@ -1,0 +1,28 @@
+{
+  "code": "ECON312",
+  "name": "Methods of Economic Investigation 2: Microeconometrics",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr Y Rao",
+  "description": "The module will introduce a series of key advanced techniques in microeconometrics, building on second year work in econometrics. It covers typical topics such as binary choice models including logit and probit models, count data models which is widely used to deal with integer variables as well as panel data models. The module will develop applied research skills, including the ability to analyse data using appropriate econometric techniques and bespoke software. Successful students at the end of the module will be expected to be equipped for study at leading graduate schools of Economics and for work as professional economists or business analysts.",
+  "prerequisites": [
+    "ECON212",
+    "ECON213"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ312",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON312_202526.htm"
+}

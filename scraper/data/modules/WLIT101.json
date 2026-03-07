@@ -1,0 +1,25 @@
+{
+  "code": "WLIT101",
+  "name": "INTRODUCTION TO WORLD LITERATURE 1: PLACES AND LOCATIONS",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr G Mercero Altzugarai",
+  "description": "This module will be compulsory for any student taking the BA in English with World Literature. It will be optional for students on English and English Literature, and for students taking Single Honours French (R120), German (R220), Italian (R300) and Hispanic Studies (RR45).\n\nThe module will introduce students to key concepts, theories, critics, and texts in the study of world literature through the lens of national literature(s) and translation, in order to provide a foundation for further study.\n\nStudents will gain awareness of basic concepts of world literature from different national literary traditions and will learn how to apply them to a range of short literary works from a range of genres both within and beyond the module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/wlit101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_WLIT101_202526.htm"
+}

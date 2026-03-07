@@ -1,0 +1,30 @@
+{
+  "code": "HIST305",
+  "name": "REVOLUTION, REPRESSION, MEMORY IN 20TH CENTURY LATIN AMERICA",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr AG Redden",
+  "description": "In the twentieth century, extreme socio-political injustice and upheaval turned the region of Latin America into a microcosm of global political conflict. Those who survived had to deal with the consequences of death on such a massive scale, and transitions to democracy have been accompanied by the difficulties of confronting the past, remembering the dead, and struggling for justice. Should nascent democracies forget past atrocities in order to prevent renewed polarisation and allow for a future based on consensus? Yet how can a government be legitimate if it fails to provide justice for its citizens and protects the guilty? How can countries establish a firm \u2018rule of law\u2019 or function without one? Using government reports, revolutionary treatises, contemporary journalism, human rights reports, eye-witness accounts and film, alongside relevant secondary sources, the unit will investigate the traumatic socio-political processes, revolutionary conflicts and repressions of twentieth-century Latin America and will seek to understand their causes and determine their on-going legacy.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist305",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST305_202526.htm"
+}

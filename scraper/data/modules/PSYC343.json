@@ -1,0 +1,20 @@
+{
+  "code": "PSYC343",
+  "name": "SYSTEMATIC REVIEW 2",
+  "department": "Psychology",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr IF Schermbrucker",
+  "description": "This module allows students to conduct a systematic review of relevant psychological literature in order to answer a question of their own devising in an area of particular interest to them.\u00a0They will be\u00a0supported and guided by a supervisor while also participating in taught\u00a0classes\u00a0that guide\u00a0them\u00a0through the systematic review process.\u00a0 \u00a0Students will receive 5 1&1/2 hour taught sessions and a minimum of 4 hours of direct supervision.\u00a0The assessment will be entirely by means of a 4000 word systematic review along with a 2000 word data extraction table.\u00a0This will be double marked by the supervisor and\u00a0a second member\u00a0of staff.\u00a0 A systematic review is a structured approach to reviewing relevant secondary literature.\u00a0This\u00a0structuring helps to\u00a0ensure that the\u00a0final review is comprehensive, critical and relevant to the chosen question.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc343",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC343_202526.htm"
+}

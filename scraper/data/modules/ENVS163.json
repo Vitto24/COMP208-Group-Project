@@ -1,0 +1,20 @@
+{
+  "code": "ENVS163",
+  "name": "Physical Geography Field Class (UK)",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor N Macdonald",
+  "description": "This module is the residential field-class available to first year BSc Geographers, comprising a residential field trip in the UK isles; there is also an online alternative for those unable to attend. Module delivery is via some initial lectures to set the scene. The field class commences with a guided informative walk introduction to the study area. The following four days are a tutor-led introduction to key techniques and skills. The students in four groups rotate through the four activities. The activities may vary, but currently address: topographical survey, long-term environmental change and fluvial flow processes monitoring an upland stream, and geomorphological mapping. The module uses a fieldwork-based problem-solving approach to explore some of the fundamental physical and chemical processes underlying physical geography. It is designed to provide a foundation for fieldwork and other practical Physical Geography modules in the second and third year.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Sem 2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs163",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS163_202526.htm"
+}

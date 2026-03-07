@@ -1,0 +1,35 @@
+{
+  "code": "MATH260",
+  "name": "Financial Mathematics",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr SA Fairfax",
+  "description": "Mathematical Finance uses mathematical methods to solve problems arising in finance. A common problem in Mathematical Finance is that of derivative pricing. In this module, after introducing the basic concepts in Financial Mathematics, we use some particular models for the dynamic of stock price to solve problems of pricing and hedging derivatives. This module is fundamental for students intending to work in financial institutions and/or doing an MSc in Financial Mathematics or related areas.",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH162",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math260",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH260_202526.htm"
+}

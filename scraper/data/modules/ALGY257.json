@@ -1,0 +1,28 @@
+{
+  "code": "ALGY257",
+  "name": "EGYPTIAN RELIGION",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RT Enmarch",
+  "description": "How did the world begin? Who controls our universe \u2013 one god or many? What is the purpose of our being here in the world? Are the gods good? Are humans good? Why does evil exist? What happens after we die?\n\nThis module explores the fundamental ideas found in Egyptian religious belief, and studies their impact on Egyptian social structure. With an eye to broader anthropological theory, this module provides an in-depth look at textual, archaeological, and artefactual evidence to build up a rich portrait of the Egyptian intellectual universe \u2013 and sketches out their answers to the questions quoted above.\n\nWe cover gods, mythology, temples, rituals and priesthood, private expressions of religion, magic, concepts of death the soul and the afterlife, Egyptian religion and the influence of Greece and Rome, and the religion of the Amarna Period.\n\nTeaching is lecture based, with tutorials covering specific questions.\n\nPLEASE NOTE THAT THIS MODULE ASSUMES STUDENTS HAVE ALREADY STUDIED AT LEAST ONE EGYPTOLOGY MODULE IN YEAR 1 (either ALGY 109 or ALGY 116).",
+  "prerequisites": [
+    "ALGY109",
+    "ALGY116"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy257",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY257_202526.htm"
+}

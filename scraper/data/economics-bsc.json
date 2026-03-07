@@ -1,0 +1,69 @@
+{
+  "course_name": "Economics BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "ECON128",
+        "ECON113",
+        "ECON123",
+        "ECON121",
+        "ECON170",
+        "ECON112"
+      ],
+      "optional": [
+        "ECON159",
+        "ACFI101",
+        "ACFI103",
+        "ACFI102"
+      ]
+    },
+    "2": {
+      "compulsory": [
+        "ECON212",
+        "ECON221",
+        "ECON223",
+        "ECON213",
+        "ECON222",
+        "ECON224"
+      ],
+      "optional": [
+        "ECON215",
+        "ECON217",
+        "ACFI204",
+        "ECON211",
+        "ECON241",
+        "ECON251"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "ECON342",
+        "ECON343",
+        "ECON346"
+      ],
+      "optional": [
+        "ECON304",
+        "ECON308",
+        "ECON312",
+        "ECON322",
+        "ECON330",
+        "ECON335",
+        "ECON357",
+        "ECON362",
+        "ECON310",
+        "ECON321",
+        "ECON306",
+        "ECON311",
+        "ECON315",
+        "ECON317",
+        "ECON323",
+        "ECON326",
+        "ECON328",
+        "ECON333",
+        "ACFI342",
+        "ACFI321"
+      ]
+    }
+  }
+}

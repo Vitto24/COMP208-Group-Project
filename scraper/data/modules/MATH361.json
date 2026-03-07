@@ -1,0 +1,32 @@
+{
+  "code": "MATH361",
+  "name": "THEORY OF STATISTICAL INFERENCE",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor T Konstantopoulos",
+  "description": "This module introduces fundamental\u00a0topics in mathematical statistics, including the theory of point estimation and hypothesis testing.\u00a0Several key concepts of statistics are discussed, such as sufficiency, completeness, etc., introduced from the 1920s by major contributors to modern statistics such as Fisher, Neyman, Lehmann and so on.\u00a0This module is absolutely necessary preparation for postgraduate studies in statistics and closely related subjects.",
+  "prerequisites": [
+    "MATH101",
+    "MATH103",
+    "MATH102",
+    "MATH163",
+    "MATH253",
+    "MATH254"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math361",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH361_202526.htm"
+}

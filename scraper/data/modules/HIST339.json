@@ -1,0 +1,30 @@
+{
+  "code": "HIST339",
+  "name": "HISTORIES OF ACTIVISM IN MODERN BRITAIN, 1945-PRESENT",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr A Bocking-Welch",
+  "description": "What do people do when they want to change something in society? Take to the streets, write letters, boycott, sign a petition, cause disruption. This module is about how and why individuals, collectives, and non-governmental organisations have adopted these tactics (and more) to campaign for change in modern Britain. We\u2019ll look at the big historiographical issues and concepts that shape this field: Who can be an activist? Why do some campaigners claim to be unpolitical? How have debates about expertise shaped activism? What is the difference between local and transnational activism? And we\u2019ll ask what studying activism can tell us about life in modern Britain. The module uses case studies of campaigns from across the political spectrum, including disability activism, the Anti-Apartheid Movement, Mary Whitehouse\u2019s \u2018Clean Up Television\u2019 campaign, women\u2019s housing campaigns, antideportation efforts and more. You will be introduced to key types of primary source material including oral histories, NGO archives, local newsletters, and digitized campaign materials. The module will give you the skills and historical knowledge to carry out dissertation research in Semester Two on the activism that most interests you.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist339",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST339_202526.htm"
+}

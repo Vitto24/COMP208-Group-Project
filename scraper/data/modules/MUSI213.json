@@ -1,0 +1,25 @@
+{
+  "code": "MUSI213",
+  "name": "Sampling and Remixing",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor M Fairclough",
+  "description": "In this module students learn techniques for mixing and remixing, using samples, stems or tracks from existing songs.  Using Apple's Logic audio editing and sampling techniques are explored, as well as mixing techniques suitable for EDM and electronic music.  There will also be a focus on correctly using relevant software instruments and effects plugins available in Logic.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment Description: Remix production project completed in Apple's Logic",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment Description: remix production project completed in Apple's Logic",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi213",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI213_202526.htm"
+}

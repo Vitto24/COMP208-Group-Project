@@ -1,0 +1,25 @@
+{
+  "code": "PSYC354",
+  "name": "Neuropsychology of the Visual Arts",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr C Bode",
+  "description": "This level 6 optional module introduces students to a rapidly growing area of research in cognitive psychology and neuroscience: Neuroaesthetics. This builds on topics in Cognitive Psychology and Neuroscience  introduced earlier in the programme.  Students will learn how appreciation and preference for, and also the creation of art is driven by a combination of biological, and environmental mechanisms. Students will also develop knowledge and understanding of recent psychological work investigating visual perception and art. Through this process, students will learn how various behavioural and neuroimaging methods contribute to our understanding of the nature of visual processes.  Students will also examine the relationship between art  and psychological science in exploring the visually creative brain.\n\nThe module will be taught through a combination of lectures and seminars. There will be 24 hours of lectures (12 x 2 hours), focused on research and theory in the field of  neuroaesthetics as well as how this knowledge can be applied in different settings in the real world. In order to explore the practicalities of conducting research in this area there will be small group research seminars (3 x 2 hours) where students will focus on practical work and skill development. The seminars will support the development of a research grant proposal  (Coursework) for an art and science collaboration under supervision of a member of staff.\n\nLearning will be assessed via the Coursework, a research grant proposal (30%). The final assessment will be a written examination focusing on key topics from the module lecture content (70%).\n\nMaterial will be available to students via an online platform (e.g., lecture slides, case studies, stream captured sessions, embedded interactive, flipped classroom methodologies activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "and same requirements]",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": ": Examination Period",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc354",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC354_202526.htm"
+}

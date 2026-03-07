@@ -1,0 +1,25 @@
+{
+  "code": "ACFI107",
+  "name": "Introduction to Accounting and Finance (Non-Specialist)",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr MAZ Abuzeid",
+  "description": "Whether pursuing a career in marketing or in supply chain management, modern business professionals have to be well versed in the language of accounting and finance. This module aims to equip a non-specialist audience with a solid understanding of the key principles of financial reporting and management accounting. Students will first learn how firms measure and report their financial position and performance, and then engage in analysis and visualisation of real data using financial ratios. The module will also introduce students to a number of fundamental managerial decision-making techniques, such as cost-volume-profit analysis, simple costing models, budgeting, and capital investment appraisal methods.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "analysing the market position and financial performance of two firms assigned by the module coordinator",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/acfi107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI107_202526.htm"
+}

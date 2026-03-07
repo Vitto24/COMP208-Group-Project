@@ -1,0 +1,29 @@
+{
+  "code": "MKIB372",
+  "name": "Corporate Communications",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr C McGouran",
+  "description": "The Corporate Communications module seeks to raise awareness of the importance of language and communication in business and management contexts. Students will develop a deep understanding of internal and external communications and how integrated communications serve to benefit organisations. Within the module students need to be prepared to develop a number of transferable skills. Importantly, students will need to undertake both independent research and apply communication, marketing and sociolinguistic theory to the business environment.",
+  "prerequisites": [
+    "ULMS101",
+    "ULMS102",
+    "MKIB153"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "will be an individual 3-minute presentation",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib372",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB372_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "MUSI217",
+  "name": "Live Improvisation with Ableton",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr JM Crossley",
+  "description": "This module invites performance and technology students to learn how to use Ableton Live as a gateway to poly-genre group improvisation. Students will learn about using unique aspects of Ableton Live to design systems to collaborate with colleagues across styles of music.\n\nAdditionally, students will learn about graphic notation and free improvisation and compose group and/or solo works for performance. These works will be reflected in the systems designed in Ableton and their realisation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Length:  Minimum of 4 minutes, maximum of 7 minutes",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ".      This is not an anonymous assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi217",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI217_202526.htm"
+}

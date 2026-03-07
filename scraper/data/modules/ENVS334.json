@@ -1,0 +1,25 @@
+{
+  "code": "ENVS334",
+  "name": "Postcolonial Geographies",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr A Davies",
+  "description": "Whilst for many people, colonialism has ended, we live in a world where the effects of colonialism are still visible. Many academics have taken a critical perspective on these continued legacies, and this field of thought is now broadly known as \u2018postcolonialism\u2019. This module explores the social, political and cultural effects and legacies of colonialism as they occur in particular contexts. The module is divided into two sections, one exploring the theoretical ideas of postcolonialism, the other looking at how thinking \u2018postcolonially\u2019 helps us to understand the world. Students are assessed through two pieces of coursework, one a theoretically-driven essay on a student-chosen topic, and one, focused on authentic assessment, which analyses the postcolonial aspects of contemporary culture (e.g. a film, book or museum).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs334",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS334_202526.htm"
+}

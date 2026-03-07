@@ -1,0 +1,30 @@
+{
+  "code": "MATH102",
+  "name": "CALCULUS II",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr O Selsil",
+  "description": "This module, the last one of the core modules in Year 1, is built upon the knowledge you gain from MATH101 (Calculus I) in the first semester. The syllabus is conceptually divided into three parts: Part I, relying on your knowledge of infinite series, presents a thorough study of power series (Taylor expansions, binomial theorem); part II begins with a discussion of functions of several variables and then establishes the idea of partial differentiation together with its various applications, including chain rule, total differential, directional derivative, tangent planes, extrema of functions and Taylor expansions; finally, part III is on double integrals and their applications, such as finding centres of mass of thin bodies. Undoubtedly, this module, together with the other two core modules from Semester 1 (MATH101 Calculus I and MATH103 Introduction to linear algebra), forms an integral part of your ability to better understand modules you will be taking in further years of your studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH102_202526.htm"
+}

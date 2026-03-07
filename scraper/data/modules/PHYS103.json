@@ -1,0 +1,30 @@
+{
+  "code": "PHYS103",
+  "name": "Electricity, Magnetism and Waves",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr DS Martin",
+  "description": "Electricity, Magnetism and Waves lie at the heart of physics, being phenomena associated with almost every branch of physics including quantum physics, nuclear physics, condensed matter physics and accelerator physics, as well as numerous applied aspects of physics such as communications science. The course is roughly divided into two sections. The first part introduces the fundamental concepts and principles of electricity and magnetism at an elementary level and develops the integral form of Maxwell\u2019s equations. The second part involves the study of oscillations and waves and focuses on solutions of the wave equation, the principles of superposition, and examples of wave phenomena.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS103_202526.htm"
+}

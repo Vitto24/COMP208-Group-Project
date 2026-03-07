@@ -1,0 +1,34 @@
+{
+  "code": "MATH342",
+  "name": "NUMBER THEORY",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr TDH Hall",
+  "description": "Number theory begins with, and is mainly concerned with, the study of the integers. Because of the fundamental role which integers play in mathematics, many of the greatest mathematicians, from antiquity to the modern day, have made contributions to number theory. In this module you will study results due to Euclid, Euler, Gauss, Riemann, and other greats: you will also see many results from the last 10 or 20 years.Several of the topics you will study will be familiar from MATH142 (Numbers, groups, and codes). We will go into them in greater depth, and the module will be self-contained from the point of view of number theory. However, some background in group theory (no more than is in MATH142) will be assumed.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH342_202526.htm"
+}

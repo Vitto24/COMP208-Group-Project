@@ -1,0 +1,25 @@
+{
+  "code": "CIVE340",
+  "name": "STRUCTURAL PLANNING",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr RJ Morris",
+  "description": "An essential skill of a structural engineer is structural planning. This involves applying a knowledge of structural analysis and design together with an understanding of structural behaviour and materials to real world structural engineering problems. This module gives students an insight into the creative design challenges addressed by a practising structural engineer.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "and assignments etc",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive340",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE340_202526.htm"
+}

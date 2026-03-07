@@ -1,0 +1,49 @@
+{
+  "course_name": "Civil Engineering BEng (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "CIVE120",
+        "ENGG110",
+        "ENGG116",
+        "CIVE162",
+        "MATS105",
+        "CIVE198",
+        "CIVE125"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "CIVE220",
+        "CIVE263",
+        "CIVE210",
+        "CIVE241",
+        "CIVE261",
+        "CIVE286",
+        "CIVE299",
+        "CIVE203",
+        "CIVE212",
+        "CIVE204"
+      ],
+      "optional": []
+    },
+    "3": {
+      "compulsory": [
+        "CIVE320",
+        "ENGG341",
+        "CIVE350",
+        "CIVE334",
+        "CIVE340",
+        "CIVE326"
+      ],
+      "optional": [
+        "CIVE342",
+        "ENGG301",
+        "ENGG304",
+        "ENGG302"
+      ]
+    }
+  }
+}

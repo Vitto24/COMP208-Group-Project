@@ -1,0 +1,40 @@
+{
+  "code": "MATH345",
+  "name": "THE MAGIC OF COMPLEX NUMBERS: COMPLEX DYNAMICS, CHAOS AND THE MANDELBROT SET",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr D Marti-Pete",
+  "description": "A \u201cdynamical system\u201d is a system that changes over time according to a fixed rule. In complex dynamics, we consider the case where the state of the system is described by a single (complex) variable, and the rule of evolution is given by a holomorphic function. It turns out that this seemingly simple setting leads to very rich, subtle and intricate problems, some of which are still the subject of ongoing mathematical research, both at the University of Liverpool and internationally. This module will provide an introduction to this fascinating subject, and introduce students to some of these problems. In the course of this study, we will encounter many results about complex functions that may seem \u201cmagic\u201d when compared with what might be expected from real analysis. A highlight of this kind is the theorem that every polynomial is \u201cchaotic\u201d on its Julia set. We will also see how this \u201cmagic\u201d can help us understand phenomena that at first seem to have no connection with complex numbers at all.",
+  "prerequisites": [
+    "MATH243",
+    "MATH101",
+    "MATH103",
+    "MATH102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math345",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH345_202526.htm"
+}

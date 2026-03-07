@@ -1,0 +1,35 @@
+{
+  "code": "LAW102",
+  "name": "FOUNDATIONS OF LAW AND SOCIAL JUSTICE",
+  "department": "Law",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr JA Sigafoos",
+  "description": "In this module you will be introduced to the fundamental concepts and techniques of legal study and legal reasoning as well as the skills and attributes that you will be expected to develop as a law student. To enable this, the module will support you to actively engage in your personal and professional development and, in keeping with the identity and mission of the School, will set the scene for exploring key legal systems, processes and concepts through an explicit social justice perspective. You will develop your understanding of how the English legal system operates as well as exploring fundamental questions including \u2018What is Law?\u2019, \u2018Why is Law the way it is?\u2019, and \u2018How does Law evolve?\u2019. You will be introduced to a range of theoretical perspectives of law and explore how they help us understand, apply, and critique the application of the law in ways that promote social justice values such as equality, inclusion, fairness and access to justice.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Weighting: 15%      Reassessment Opportunity: Yes     Penalty for Late Submission: No late submission     Anonymous Assessment:  No      Final Assessment:  No      Learning outcomes tested by this assessment: LO1, LO2, LO3, LO4, LO5, LO7     Skills tested by this assessment: S1, S2, S3, S4, S5, S7",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW102_202526.htm"
+}

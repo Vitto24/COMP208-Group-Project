@@ -1,0 +1,35 @@
+{
+  "code": "HIST341",
+  "name": "GENERATIONS OF HURT: HISTORIES OF HUMAN EXPERIMENTATION IN THE UNITED STATES",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr SC Kenny",
+  "description": "The history of human experimentation is as old as the practice of medicine and has always targeted disadvantaged, marginalised, institutionalised, stigmatised and vulnerable populations \u2013\u00a0prisoners, the condemned, orphans, the mentally ill, students, the poor, women, the disabled, children, peoples of colour, indigenous peoples and the enslaved. Since the end of World War II, the scale and the scope of human subject research has massively expanded, particularly in the United States, largely because of developments in professional medicine.\u00a0This module explores what happens when professional medicine exceeds its limits.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 55
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist341",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST341_202526.htm"
+}

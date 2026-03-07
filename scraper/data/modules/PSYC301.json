@@ -1,0 +1,25 @@
+{
+  "code": "PSYC301",
+  "name": "GREAT DEBATES IN PSYCHOLOGY",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr ADJ Makin",
+  "description": "This module covers some of the great debates in psychology, philosophy, neuroscience and the social sciences (without assuming any prior knowledge or reading). The module will examine the role of genes and experience in determining behaviour. It will also address the question of consciousness and free will and the differences in human belief systems.\n\nThe module will be taught via lectures and seminars. Learning will be assessed by an essay (30%) and by exam (70%). Students will participate in (non-assessed) group work and oral presentations throughout.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Exam period",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ": Second half of semester",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc301",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC301_202526.htm"
+}

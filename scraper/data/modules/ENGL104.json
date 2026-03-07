@@ -1,0 +1,25 @@
+{
+  "code": "ENGL104",
+  "name": "Theorising Theatre and Performance",
+  "department": "English",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr HG Greenstreet",
+  "description": "This module introduces students to a range of theoretical approaches for analysing diverse forms of dramatic text and performance. Students will learn about how historical and contemporary contexts have shaped the development of theatre and performance theory. They will be invited to think critically about what makes analysing theatre and performance different from other types of text, and how theory might inform their interpretive practice. The module will cover a variety of theoretical approaches and contextualise them against specific performances in order to give students the expertise for thorough critical engagement and interpretation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl104",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL104_202526.htm"
+}

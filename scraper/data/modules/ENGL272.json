@@ -1,0 +1,25 @@
+{
+  "code": "ENGL272",
+  "name": "RESTORATION AND EIGHTEENTH-CENTURY LITERATURE: Milton to Johnson",
+  "department": "English",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr LM Blunsden",
+  "description": "The module looks at literature from the late seventeenth to the late eighteenth centuries. This is the period when the novel-form emerged; when poetry was sometimes epic (or mock-epic) and also began to cultivate a focus on the self and subjectivity; when drama turned theatrical conventions inside-out; when fantasies in the satiric mode sought to vex the world and when female authors entered the marketplace. Students taking this module will gain in-depth knowledge of  some of the 'classics' of world literature (such as Gulliver's Travels, Robinson Crusoe, and Paradise Lost). They will also study the ways in which the literature of the period reflects and imagines such issues as: freedom and slavery; authorship and the culture of print; politics; religion and reason; realism and romance; urban expansion; the body, mind and spirit; sexual, racial and cultural identity; science, technology and new forms of knowledge.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 33
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 67
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl272",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL272_202526.htm"
+}

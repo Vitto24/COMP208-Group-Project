@@ -1,0 +1,25 @@
+{
+  "code": "MUSI216",
+  "name": "Orchestration",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr BS Hackbarth",
+  "description": "Students will gain experience arranging a variety of pre-existing musical excerpts for large orchestra. The foundations of orchestration will be honed through the careful study of instrumental timbres, balance, voicing, and the distribution of musical elements. Assessed orchestrations will cover a range of prototypical styles, including the pastoral/beautiful, the dramatic finale, the spooky, and the fast-paced/quickly changing. Seminars will utilise a number of non-assessed exercises that will ensure comprehension of topics and techniques and help prepare students for assessed tasks. This module will draw heavily on the knowledge and concepts from the prerequisite module musi105 writing for instruments. Fluency with musical notation is required for this module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi216",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI216_202526.htm"
+}

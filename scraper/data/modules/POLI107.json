@@ -1,0 +1,25 @@
+{
+  "code": "POLI107",
+  "name": "COMPARATIVE POLITICS",
+  "department": "Politics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr F Wiebrecht",
+  "description": "How does politics function in a globalised world? What explains cross-country and cross-time differences in political institutions, behaviour, and outcomes? This module provides an introduction to Comparative Politics by focusing on key concepts and contemporary issues affecting democracies and authoritarian regimes across the world. It introduces students to basic debates around regime types, their causes and consequences, institutional configurations and their effects, political parties and party systems, and political behavior. The module also introduces the idea of the comparative method and how to apply it to the study of different countries. Teaching is based on a combination of theoretical and empirical perspectives, using case studies as illustrations throughout the module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 35
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 65
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI107_202526.htm"
+}

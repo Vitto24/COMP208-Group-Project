@@ -1,0 +1,25 @@
+{
+  "code": "PHIL127",
+  "name": "INTRODUCTION TO LOGIC",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JH Bebb",
+  "description": "This module teaches students how to assess arguments using formal methods. Taking this module will enhance your ability to work with abstract material and your problem solving skills. It will help you understand logical notation where you encounter it in your reading, and prepare you, where appropriate, for more advanced logical study. The module is taught by lecture (1 hour per week) and workshop (2 hours per Week from week 2 onwards). It also uses extensive online support materials. These include videos containing worked examples and a proof editor/checker. It is assessed via coursework (60%) and an examination (40%). The support materials for each week come with a short online formative quiz.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil127",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL127_202526.htm"
+}

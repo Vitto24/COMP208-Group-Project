@@ -36,6 +36,10 @@ def guess_degree_level(course_name: str) -> str:
         return 'MEng'
     elif 'msc' in name:
         return 'MSc'
+    elif 'beng' in name:
+        return 'BEng'
+    elif 'llb' in name:
+        return 'LLB'
     elif 'ba' in name:
         return 'BA'
     else:

@@ -1,0 +1,25 @@
+{
+  "code": "HISP219",
+  "name": "WOMEN IN IBERIAN AND LATIN AMERICAN LITERATURE AND CULTURE",
+  "department": "Languages, Cultures and Film",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr ST Yiacoup",
+  "description": "This module will introduce students to a range of literary and cultural forms which give prominence to women's roles in cultural and social change. Students will engage with a number of key texts and gender related concepts and will consider the ways in which representations of women, whether produced by women or, indeed, by men, have both influenced and been influenced by important social and cultural movements in Spain, Portugal and Latin America from the early modern to the modern eras.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 65
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/hisp219",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HISP219_202526.htm"
+}

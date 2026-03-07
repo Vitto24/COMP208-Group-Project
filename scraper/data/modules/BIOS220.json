@@ -1,0 +1,25 @@
+{
+  "code": "BIOS220",
+  "name": "Animal Anatomy, Physiology and Husbandry",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr R MacDiarmid",
+  "description": "This module will equip students with a working knowledge of animal form and function and develop their ability to critically examine the ways in which this might influence the productivity, health and welfare of domestic species. Through the use of lecture and case based learning, students will develop knowledge of comparative anatomy and physiology, and apply this knowledge to understand appropriate husbandry of domestic species (production animals, pets and laboratory species) including appropriate breed choices, behaviour, housing, management, diet and reproduction.\n\nThe module will be taught using a combination of lectures, case based workshops and tutorials, and will include the opportunity for practical animal husbandry or anatomy based sessions where applicable. Opportunities for self testing and formative feedback will be embedded within the taught sessions. Students will develop communication skills and commercial awareness through small group work and the use of industry based husbandry scenarios during workshop and tutorial sessions.\n\nAssessment will take the form of a written communication (advice for an owner or producer) based on a husbandry related topic of the students choice and a written exam to allow students to demonstrate and apply their knowledge of anatomy, physiology and animal husbandry.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "and choice of long answer question/s",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios220",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS220_202526.htm"
+}

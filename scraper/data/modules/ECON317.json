@@ -1,0 +1,28 @@
+{
+  "code": "ECON317",
+  "name": "Big Data Analytics and Advanced Econometric Methods: Data Project",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor A Taamouti",
+  "description": "This module builds on year 2 econometrics (ECON212 & ECON213) by introducing advanced methodologies commonly used in applied econometrics. It focuses on equipping students with the modern tools to analyse and interpret complex datasets through modern econometric techniques and big data analytics. Topics covered will include machine learning based regressions, Markov-switching regressions, and quantile regressions.\n\nStudents will be asked to read and critically assess recent published and/or working papers on applied econometrics and modern economic research and to replicate their techniques using real-world datasets.\n\nBy completing this module students will gain a deep understanding of how to tackle  data-driven projects and conduct econometric research. They will also develop practical experience in applying advanced analytics and machine learning techniques to economic data, preparing them for research roles or data-intensive careers in academia, industry, or policymaking.",
+  "prerequisites": [
+    "ECON212",
+    "ECON213"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 90
+    },
+    {
+      "type": "practical",
+      "title": "and in turn contribute to discussions of other students\u00e2\u0080\u0099 presentations",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ317",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON317_202526.htm"
+}

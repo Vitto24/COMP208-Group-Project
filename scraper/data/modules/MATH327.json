@@ -1,0 +1,39 @@
+{
+  "code": "MATH327",
+  "name": "More Is Different: Statistical Mechanics, Thermodynamics, and All That",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr DA Schaich",
+  "description": "\"More Is Different\" is the title of a famous essay that established the concept of emergent phenomena \u2014 the idea that large, complex physical systems generally can't be understood by extrapolating the properties of small, simple systems. Instead, we have to apply the stochastic techniques of statistical mechanics \u2014 one of the central pillars of modern physics, along with quantum mechanics and relativity. While statistical mechanics was originally developed in the context of thermodynamics in the nineteenth century, it is more generally applicable to any large-scale (macroscopic) behaviour that emerges from the microscopic dynamics of many underlying objects. It is intimately connected to quantum field theory, and has been applied to topics from nuclear physics and cosmology to climate science and biophysics, often with outstanding success.\u202f This module covers both foundations and applications of statistical mechanics. Foundational topics include the concepts of statistical ensembles, the laws of thermodynamics, and derived quantities such as entropy. We apply these foundations to investigate diffusion, the behaviour of idealized physical systems such as classical and quantum gases, thermodynamic cycles, and phase transitions.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 55
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math327",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH327_202526.htm"
+}

@@ -1,0 +1,32 @@
+{
+  "code": "BIOS204",
+  "name": "Advanced Practical Skills in Biomolecular and Drug Interactions",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr R Awais",
+  "description": "This practical skills module is designed to give students hands-on experience in essential molecular biology, biochemical, and pharmacological-associated practical techniques through a series of interactive laboratory-based experimental sessions and live synchronous workshops.  From recombinant DNA technology to protein expression, purification, enzyme kinetic assays, and drug interactions, this module covers a variety of techniques that students need to further their practical career within the Biosciences. Each topic is supported by bioinformatics/computational approaches and exercises\u202fto understand the structure and function of enzymes, proteins, and drug interactions.\n\nStudents will also learn the underpinning knowledge behind some of the methodologies and the intricacies of experimental design while supplementing their wider theoretical learning by applying techniques to tackle problems across the Biosciences disciplines. Students will learn how to analyze collected data and communicate the findings effectively, with the opportunity to apply their newly acquired skills to research projects tailored towards their programme and fields of interest.\n\nThe module comprises laboratory-based practical sessions alongside introductory plenary lectures and workshops, using active-learning delivery methods to ensure students can understand, synthesize, evaluate and communicate their research findings.\n\nLearning and teaching are created and delivered by research-active scientists, ensuring that teaching is informed by the latest research and advances and is designed to be accessible, inclusive, and representative.\n\nStudents are assessed through an online exam (involving problem-solving activities) and a group poster to communicate the research outputs through scientific writing and graphical presentations.",
+  "prerequisites": [
+    "BIOS101",
+    "BIOS203",
+    "BIOS106",
+    "BIOS103",
+    "BIOS102",
+    "BIOS105"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "supplemented with a 200-word individual critical review  (weighting 50%) to evaluate, analyze, interpret, and communicate qualitative/ quantitative data from a subset of the practical experiments",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios204",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS204_202526.htm"
+}

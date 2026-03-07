@@ -1,0 +1,30 @@
+{
+  "code": "ENGL102",
+  "name": "Literature and Place: City, Country, Planet",
+  "department": "English",
+  "semester": 2,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr LM Blunsden",
+  "description": "This module will examine the ways in which English literature has represented the concept of place in a variety of genres across time (1350 to the present day). Students who successfully complete the module will have encountered at least ten substantial, representative literary texts which draw significantly on places of different types. These may include: cities; villages and \u2018the country\u2019; islands; built environments; wildernesses; oceans; imaginary worlds; and so on. Examples will be drawn from a diverse range of English, British, Irish and American literature and other Anglophone cultures. The types of text will include prose fiction, poetry, and drama. There will be two workshops each week, introducing and discussing a text or texts; and one weekly tutorial, in groups of no more than nine for smaller-scale analysis and tasks relating to the same weekly text(s) or theme(s).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL102_202526.htm"
+}

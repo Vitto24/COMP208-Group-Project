@@ -1,0 +1,30 @@
+{
+  "code": "ENVS118",
+  "name": "Sedimentary Rocks and Fossils",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr CH Jeffery",
+  "description": "This module provides a basic introduction to sedimentology and palaeontology. Students learn about the origin of sediment, sedimentary processes and structures and the ways in which sediments are converted into solid rock. The course outlines the importance of sedimentary rocks for hydrocarbons, water and as construction materials. Students learn how to describe and interpret sedimentary deposits. The palaeontology component introduces students to the major fossil groups and to the ways in which organisms can be preserved as fossils. It covers the importance of fossils for the study of evolution, environmental change and Earth history. Students learn how to describe fossils and how observations contribute to a broader understanding. Students will be assessed by means of two practical tests and a theory examination.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":1",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "; 1",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": ":Semester 1",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs118",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS118_202526.htm"
+}

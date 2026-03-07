@@ -1,0 +1,20 @@
+{
+  "code": "ARCH103",
+  "name": "STUDIO 1.2: DESIGN",
+  "department": "Architecture",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mrs LN Ray",
+  "description": "Architecture Studio Design",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":semester 1 weeks 8-12",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH103_202526.htm"
+}

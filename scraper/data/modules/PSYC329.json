@@ -1,0 +1,27 @@
+{
+  "code": "PSYC329",
+  "name": "COGNITIVE AND CLINICAL NEUROPSYCHOLOGY OF VISION",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr F Akthar",
+  "description": "This module provides an advanced introduction to theoretical and empirical developments in studies of visual processing, including object, colour, spatial and movement processing in human vision from the perspectives of current research in clinical and cognitive neuroscience.  Particular focus will be on investigations of object  and colour perception.  We will critically examine current evidence from studies of the neurologically normal brain in experimental psychology and cognitive neuroscience (e.g., fMRI, PET, TMS and ERP), and from clinical studies of cognitive impairments following brain injury (visual agnosia, prosopagnosia, Parkinson\u2019s disease, and developmental deficits).\n\nThis module offers an in-depth understanding of visual  processing, both in health and disease.  The topics covered in this module are related to basic neuroscience, clinical neuroscience, neuropsychology,  cognitive psychology, sensation, and perception. The students will develop skills in reading and comprehending scientific papers, as well presenting their ideas in a small-group setting.\n\nStudents will be taught through core lectures (10 x 2-hour), research-focused lectures delivered by guest speakers (2 x 2-hour), and student-led seminars (3 x 2-hour). The remaining 120 hours are covered by independent study. The module will have two assessment components: a presentation on a published research paper (coursework) and unseen written exam (final exam).",
+  "prerequisites": [
+    "PSYC231"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc329",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC329_202526.htm"
+}

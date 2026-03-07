@@ -1,0 +1,25 @@
+{
+  "code": "ENVS275",
+  "name": "Social and Cultural Geographies",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor B Evans",
+  "description": "Social and Cultural Geographies are two diverse, interlinked fields within contemporary human geography. Social geography is, broadly, interested in the relationships between social identities, power and space, and cultural geography examines the ways in which meaning is produced through \u2018culture\u2019 \u2013 social ideas, discourse, performances, objects, art, entertainment, images, music etc. This module will introduce you to these broad themes through a focus on the interrelations between identity, space and power and the ways in which these are produced through cultural forms. This includes exploring a range of social differences and identities such as gender, class, disability, sexuality, body size, race and ethnicity, and exploring representations and modes of engaging with the world including online/virtual space, mobilities, music, TV, and material culture.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs275",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS275_202526.htm"
+}

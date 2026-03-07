@@ -1,0 +1,25 @@
+{
+  "code": "MUSI102",
+  "name": "CLASSICAL PERFORMANCE 1",
+  "department": "Music",
+  "semester": 0,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr RK Minton",
+  "description": "This module provides students with a structured framework to enhance practical performance skills. Students work with the module leader and an assigned instrumental or vocal teacher towards the development of technical, aural, practice and performative skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI102_202526.htm"
+}

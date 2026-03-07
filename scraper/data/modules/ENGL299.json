@@ -1,0 +1,20 @@
+{
+  "code": "ENGL299",
+  "name": "WRITING MAGAZINES / MAGAZINE WRITING: HISTORY, LITERATURE AND THE PERIODICAL",
+  "department": "Institute of Irish Studies",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr NP Carson",
+  "description": "This module will look at the history, context and content of some of the late 19th and early 20th century\u2019s most important \u2018little magazines\u2019. Using the library Special Collections and Brown University\u2019s Modernist Journals Project this module seeks to understand the role that literary magazines play within a culture and the historical background to their production. It will examine their material and print cultures, history and content in order to gain understanding of the role magazines played in their exploration of, or engagement with, various literary and historical movements. Topics covered will include sexuality, censorship, Modernism, the manifesto, State interference, and literary content, amongst others. Some of the magazines examined may include: The Savoy, To-Day, Blast, The Criterion, Ireland To-Day and Weird Tales. This module will suit students interested in journalism, magazine material and print cultures, censorship, and historical contexts. The module aims to engage students with primary historical research through classes in special collections and through digital resources.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl299",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL299_202526.htm"
+}

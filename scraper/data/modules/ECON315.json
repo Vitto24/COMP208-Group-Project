@@ -1,0 +1,29 @@
+{
+  "code": "ECON315",
+  "name": "Environmental Economics and Sustainability Policies",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr Y Sonmez",
+  "description": "This module introduces the main insights of environmental and ecological economics and discusses the development of sustainability policies. The interrelated nature of environmental, social, and economic systems is analysed together with the main theories and tools used to address some of the main sustainability constraints of the 21st century.The analysis of the mutual dependencies existing between the human and the ecological systems, together with the limits imposed by the natural resources constraints allows students to gain a critical understanding of the socio-environmental implications of economic activities.Given the increasing demand for professionals able to use interdisciplinary perspectives for the resolution of real-world problems, the module will complement and integrate the critical abilities developed during the previous years of studies towards this aim.",
+  "prerequisites": [
+    "ECON223",
+    "ECON221",
+    "ECON227"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ315",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON315_202526.htm"
+}

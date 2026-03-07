@@ -1,0 +1,25 @@
+{
+  "code": "ENGL117",
+  "name": "Literature in Time",
+  "department": "English",
+  "semester": 1,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr J Roberts",
+  "description": "This module serves as an introduction to the major periods of English literature from the Middle Ages onwards.  One literary period will be covered each week by means of one lecture on a literary text from the period and one lecture on its context. These periods correspond to the \u2018period\u2019 literature modules that are available to students at Level 2, and thereby provide a sample of those modules, enabling students to make informed choices with regard to the modules they choose to take at Level 2.  To this end, the texts have been chosen and the lectures are given by teaching staff from the relevant Level 2 modules.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 67
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 33
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl117",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL117_202526.htm"
+}

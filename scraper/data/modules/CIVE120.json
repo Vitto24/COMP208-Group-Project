@@ -1,0 +1,25 @@
+{
+  "code": "CIVE120",
+  "name": "GEOMECHANICS 1",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 4,
+  "credits": 7.5,
+  "lecturer": "Dr P Shepley",
+  "description": "The Geotechnical Engineer is responsible for the safe design of how a building or infrastructure asset interacts with the ground. This module introduces students to the role of the Geotechnical Engineer and the fundamental principles and concepts that form the basis of soil mechanics",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Throughout the module",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ":End of module",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive120",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE120_202526.htm"
+}

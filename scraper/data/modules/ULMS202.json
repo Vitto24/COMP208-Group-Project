@@ -1,0 +1,22 @@
+{
+  "code": "ULMS202",
+  "name": "BUSINESS AND EMPLOYMENT LAW",
+  "department": "Law",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Nyatanga",
+  "description": "A module to introduce students to the impact the law of England and Wales on business. Contract law, tort, employment law, discrimination and intellectual property are the main areas of focus.",
+  "prerequisites": [
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS202_202526.htm"
+}

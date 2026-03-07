@@ -1,0 +1,25 @@
+{
+  "code": "ENGL105",
+  "name": "Introduction to Stylistics",
+  "department": "English",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr AP Broadhead",
+  "description": "Stylistics is concerned with the language of literature in the broadest sense of the word: ranging from poems and novels to advertisements and political slogans. In this module students will seek linguistic answers for some of the most essential questions in the study of texts, such as: Why do some kinds of language use grab readers\u2019 attention more than others? What tools do writers employ to mediate the speech and thought of other people? How do metaphors shape our understanding of the world? The concepts covered on this module form a solid foundation for further language study at levels 2 and 3.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL105_202526.htm"
+}

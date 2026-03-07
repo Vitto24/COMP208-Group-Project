@@ -1,0 +1,35 @@
+{
+  "code": "MATH122",
+  "name": "NEWTONIAN MECHANICS",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr TM Mohaupt",
+  "description": "This module is an introduction to classical (Newtonian) mechanics. It introduces the basic principles like conservation of momentum and energy, and leads to the quantitative description of motions of bodies under simple force systems. It includes angular momentum, rigid body dynamics and moments of inertia.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math122",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH122_202526.htm"
+}

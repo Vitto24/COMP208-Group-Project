@@ -1,0 +1,30 @@
+{
+  "code": "HIST286",
+  "name": "HISTORY IN PRACTICE PLUS",
+  "department": "History",
+  "semester": 2,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Dr J Wu",
+  "description": "The module provides students with a work-based placement, to take place in a relevant public history institution, such as a museum, archive or library (other institutions may also be relevant). You will normally spend one day per week during one semester working with the chosen institution, which might involve archiving, conservation, building an exhibition, developing a public engagement project, etc. In addition, you will attend fortnightly seminars on career development and academic approaches to public history.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist286",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST286_202526.htm"
+}

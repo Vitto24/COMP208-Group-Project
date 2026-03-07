@@ -1,0 +1,25 @@
+{
+  "code": "PHYS251",
+  "name": "Stellar Physics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RP Schiavon",
+  "description": "Why are some stars faint, while others are millions of times brighter than the Sun? Why do some stars appear blue, while others appear red? Why do some stars suddenly explode, while others slowly fizzle out on timescales longer than the age of the Universe?\u00a0These questions can be answered once we understand the\u00a0theory of the physics of stellar structure, and how stars of different masses change in appearance as they evolve.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys251",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS251_202526.htm"
+}

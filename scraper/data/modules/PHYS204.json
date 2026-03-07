@@ -1,0 +1,32 @@
+{
+  "code": "PHYS204",
+  "name": "Nuclear and Particle Physics",
+  "department": "Physics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor S Burdin",
+  "description": "This module introduces the basic properties of particles and nuclei, their stability, modes of decay, reactions and conservation laws. Recent research in particle physics is highlighted, and for nuclear physics some of the applications (such as nuclear power) are given. This module leads on to more specialist optional modules in Year 3, in particle physics, nuclear physics and nuclear power.",
+  "prerequisites": [
+    "PHYS101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys204",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS204_202526.htm"
+}

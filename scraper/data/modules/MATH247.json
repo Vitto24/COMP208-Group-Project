@@ -1,0 +1,29 @@
+{
+  "code": "MATH247",
+  "name": "Commutative Algebra",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor AV Pukhlikov",
+  "description": "The module provides an introduction to the theory and methods of the modern commutative algebra (commutative groups, commutative rings, fields and modules) with some applications to number theory, algebraic geometry and linear algebra.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math247",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH247_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "LAW308",
+  "name": "International Human Rights Law",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr V Tzevelekos",
+  "description": "This module will introduce you to the field of international human rights law. The course will provide you with an overview of the historical and philosophical foundations of human rights, various substantive rights that are protected through universal and regional instruments, as well as providing a general introduction to the international mechanisms for human rights protection and promotion. The course aims to provide the student with both substantive and procedural knowledge of human rights protection, as well as knowledge and understanding of some of the key contemporary challenges in international human rights law.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Students must answer 2 questions  (95%)      Students who are required to take the summative assessment in the resit period will undertake  a written exam in accordance with the coursework requirements",
+      "weight": 95
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law308",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW308_202526.htm"
+}

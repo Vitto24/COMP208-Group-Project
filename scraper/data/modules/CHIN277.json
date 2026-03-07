@@ -1,0 +1,25 @@
+{
+  "code": "CHIN277",
+  "name": "ENTER THE DRAGON: CHINESE CINEMA, POPULAR TV AND CONTEMPORARY ART",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Becher",
+  "description": "This module is an introduction to cinema from mainland China, Hong Kong and Taiwan. We will look at a wide range of genres which include Kung Fu comedies as well as Chinese independent arthouse cinema. We will get to know some of the region's finest directors, including Jia Zhangke, Wong Kar-Wai, Ann Hui or Hou Hsiao-hsien. It develops your knowledge and understanding of the historical development of cinema in the region but also how some landmarks in the history of twentieth-century China (such as the Warlord era, the Cultural Revolution and post-Maoist reforms) are represented in filmic texts. We will discuss the role of censorship and how the mainland Chinese government finances big blockbuster productions that glorify the Communist Party. The Greater China region is becoming increasingly important for transnational cinema and we will look at how the rise of China is already transforming Hollywood. The title of the module, \u201cProjecting China\u201d, points not only to China\u2019s cinematic production but also to how the ideas of \u201cChina\u201d and \u201cChineseness\u201d are projected on screen. We will become familiar with themes such as gender and sexuality, nationalism, post-colonialism and transnationalism. No prior knowledge of Chinese is required to enrol in this module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/chin277",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CHIN277_202526.htm"
+}

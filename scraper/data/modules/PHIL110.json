@@ -1,0 +1,25 @@
+{
+  "code": "PHIL110",
+  "name": "THE EYE OF THE BEHOLDER: Art and Philosophy",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr N Gkogkas",
+  "description": "Artists, art-critics and the general public ordinarily provide their own accounts as to what art means and why it is valuable. In this module, such accounts are subjected to critical scrutiny: seemingly obvious answers give rise to nuanced and complex questions, in true philosophical fashion. To a large extent, this is accomplished through close attention to particular artworks from a variety of genres. The module also includes a guided activity component, which leads to the preparation of a reflective log in an authentic-learning context. By completing this module, one's intuitions about the significance and the meaning of art will be liable to modification and fine-tuning, will become dialectically informed, and will stand up to challenge in real-world situations.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil110",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL110_202526.htm"
+}

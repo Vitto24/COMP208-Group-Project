@@ -1,0 +1,35 @@
+{
+  "code": "ENVS308",
+  "name": "Teaching Geography",
+  "department": "Geography and Planning",
+  "semester": 0,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor AJ Plater",
+  "description": "This module is designed to give students experience teaching geography to secondary school pupils, via the mentoring of A-level students Birkenhead Sixth Form College, St. Edward's College and St. Hilda's CE High School and via the delivery of a field and/or class-based learning activity.\u00a0To support these activities\u00a0training is provided on campus in Semester 1 in Geography at key stages 3-5, learning and teaching strategies, assessment for learning, fieldwork activities,  lesson planning and delivery. Mentoring is undertaken in partner schools and colleges in Semester 2. Students taking this module will need to obtain a DBS Certificate \u2013 this will be done through the respective partner School/College.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Assessment 4, End of Semester 2",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Standard UoL penalty DO NOT apply for late submission",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, End of Semester 1",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs308",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS308_202526.htm"
+}

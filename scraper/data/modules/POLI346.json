@@ -1,0 +1,40 @@
+{
+  "code": "POLI346",
+  "name": "POLITICS AND THE BRAIN",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr L Bernardi",
+  "description": "POLI346 is an interdisciplinary module in political psychology that combines basic statistical concepts and data analysis with SPSS with substantive content on biological, physiological, psychological, communication related, and health-related aspects of political behaviour.\n\nThis is a challenging module that exposes students to high quality, to cross-disciplinary research largely based on quantitative methods, and to statistical inference. This means that the practical part of the module is divided between seminars and data lab sessions. In their assessments, students: engage in the hypothesis generation process; are tested on their understanding of data analysis and interpretation of findings based on quantitative research and substantive content; analyse data and produce a research note or short article, following the structure of short articles published in the leading journal American Political Science Review (including background, hypotheses, data, results and conclusions).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli346",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI346_202526.htm"
+}

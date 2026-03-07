@@ -1,0 +1,28 @@
+{
+  "code": "ECON211",
+  "name": "Mathematical Economics 2",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr Y Li",
+  "description": "The aim of this module is to introduce students to the use of mathematical models in the study of Economics. This module builds on the material of the first year Mathematics and Economics modules and will deepen students\u2019 knowledge of mathematical techniques involved in Microeconomics and game theory. At the end of this course, students will have: A1. More advanced mathematical skills A2. Know how to use models to solve some economic problems using matrix and optimization.",
+  "prerequisites": [
+    "ECON113",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ211",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON211_202526.htm"
+}

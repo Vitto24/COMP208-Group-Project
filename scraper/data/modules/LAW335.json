@@ -1,0 +1,27 @@
+{
+  "code": "LAW335",
+  "name": "ASYLUM AND IMMIGRATION LAW",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Neylon",
+  "description": "This module will be of interest to students who wish to learn about the way in which borders operate within the UK and in Europe, as well as how asylum seekers, refugees and migrants living in the UK and the EU are treated under the law. The course will also be of interest to students who wish to study topics related to human rights issues. The course focuses broadly on the area of asylum and immigration, and is also intended to be responsive to current developments in the area. Examples of topics that will be covered include, international refugee law and the UK asylum system, the enforcement of immigration rules through detention and deportation, and rights to family reunification and family life.",
+  "prerequisites": [
+    "LAW210"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 1",
+      "weight": 95
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law335",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW335_202526.htm"
+}

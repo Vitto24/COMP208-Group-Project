@@ -1,0 +1,25 @@
+{
+  "code": "PHYS106",
+  "name": "Practical Physics I",
+  "department": "Physics",
+  "semester": 0,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr CS Devlin",
+  "description": "This module teaches the laboratory side of physics to complement the taught material from lectures and to introduce key concepts of experimental physics.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Contains group work",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS106_202526.htm"
+}

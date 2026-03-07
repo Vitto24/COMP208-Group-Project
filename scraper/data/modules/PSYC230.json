@@ -1,0 +1,25 @@
+{
+  "code": "PSYC230",
+  "name": "LIFESPAN DEVELOPMENT, HEALTH AND WELLBEING",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 5,
+  "credits": 22.5,
+  "lecturer": "Dr JG Warren",
+  "description": "This module focuses on the impact of key lifespan transitions on health and wellbeing across the adult life course, and applies theory relating to lifespan, health and wellbeing to real-world issues, problems and contexts. Successful students will demonstrate an understanding of theories of lifespan development and be able to discuss the personal and socio-cultural relevance of theory. The course will be delivered via two hours of content lectures each week, paired with a one hour research focused lecture, addressing a key topic or controversy in the area. Over the semester, students will participate in\u00a03 x 2 hour smaller group\u00a0research\u00a0seminars. Learning will be assessed via a full qualitative report on a chosen body of research\u00a0and an essay exam during the exam period.\u00a0 Material will be available to students via the VLE (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Mid semester",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ": Examination period",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc230",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC230_202526.htm"
+}

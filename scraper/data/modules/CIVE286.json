@@ -1,0 +1,35 @@
+{
+  "code": "CIVE286",
+  "name": "PROGRAMMING FOR CIVIL ENGINEERS",
+  "department": "ZZ (DO NOT USE) was Civil Engineering and Industrial Design",
+  "semester": 2,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Dr E Majtan",
+  "description": "Students will be introduced to the basic concepts of computer programming and Excel\u00a0to solve engineering problems. Gain knowledge of basic procedural programming concepts. Become proficient in the use of Excel and Excel Macros. Enhance problem solving skills. Gain experience in solving engineering problems using a software tool.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive286",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE286_202526.htm"
+}

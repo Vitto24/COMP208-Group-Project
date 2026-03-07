@@ -1,0 +1,25 @@
+{
+  "code": "HIST531",
+  "name": "THE UNBELIEVED",
+  "department": "History",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Professor RD Clark",
+  "description": "Religion is a social phenomenon that poses unique challenges to the historian. What access do historians have to religious experiences from very different times and places? How does culture impact the way that people articulate their encounters with non-human actors such as gods, angels, demons, spirits and ghosts? Should modern historians try to \u2018explain away\u2019 such encounters in materialist terms, and to what extent can we accept the claims of our sources that such encounters really did happen? This module provides space to critically think about how historians can and should write about religious experiences, drawing on a variety of historical contexts such as Tibetan Buddhism, Persian Sufism, Catholicism in early modern Iberia and colonial Latin America, and the jungles and prisons of twentieth century Central America and Eastern Europe.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist531",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST531_202526.htm"
+}

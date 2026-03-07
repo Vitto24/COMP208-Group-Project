@@ -1,0 +1,25 @@
+{
+  "code": "LAW210",
+  "name": "Law of the European Union",
+  "department": "Law",
+  "semester": 0,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Professor PM Dougan",
+  "description": "This module introduces students to the constitutional and institutional law of the European Union before moving to consider some areas of substantive Union law. The module encourages a critical understanding of how the EU came to be and how it has developed, which lays the foundations for analysis of the Union's institutions including their composition, their accountability and democratic legitimacy, and how they formulate EU legislation. Areas of substantive Union Law addressed are: the development of EU law relating to the free movement of goods, free movement of workers and free movement of economically inactive citizens (such as students and retired persons). Throughout the module, students are encouraged to think critically about the European integration process.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "90% module weighting ? 2500 word limit",
+      "weight": 90
+    },
+    {
+      "type": "coursework",
+      "title": "5% module weighting     Reflective responses are marked on pass/fail basis",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law210",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW210_202526.htm"
+}

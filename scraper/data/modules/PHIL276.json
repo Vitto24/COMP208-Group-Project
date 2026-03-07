@@ -1,0 +1,25 @@
+{
+  "code": "PHIL276",
+  "name": "Uses, Misuses and Abuses of Language",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr RK Wiseman",
+  "description": "This module will introduce students to key concepts and figures in the project of understanding natural language. Students will examine how philosophers have attempted to understand meaning, reference and communication. Students will be introduced to the distinction between semantics and pragmatics and to speech-act theory. They will learn to apply these conceptual and theoretical tools to contemporary debates around freedom of speech and censorship by the semantics and pragmatics of slurs, hate speech, dog whistles and pornographic speech. They will consider feminist perspectives on language. Students taking this module will understand the central concepts in philosophy of language and how questions in the philosophy of language can intersect with issues in philosophy of mind, ethics, political philosophy and feminist theory, and they will be able to apply this understanding to real world cases. The module is taught by lecture (1h each week for the first 6 weeks) and workshops (1.5h per week). Assessment is via a group presentation (comprising 15% of the module mark) and a 2500-word essay (comprising 85% of the module mark).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of semester",
+      "weight": 85
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity - this will be an individual presentation which is recorded and submitted online",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil276",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL276_202526.htm"
+}

@@ -9,6 +9,8 @@ class Course(models.Model):
         ('MEng', 'MEng'),
         ('MSc', 'MSc'),
         ('BA', 'BA'),
+        ('BEng', 'BEng'),
+        ('LLB', 'LLB'),
     ]
 
     name = models.CharField(max_length=200)

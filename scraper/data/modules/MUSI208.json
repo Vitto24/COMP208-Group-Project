@@ -1,0 +1,25 @@
+{
+  "code": "MUSI208",
+  "name": "Foley and Sound Design",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr LM Carey",
+  "description": "This module will introduce the student to sound recording, audio editing and sound transformation in a DAW in the context of sound design for the moving image. Students will learn a variety of recording techniques, audio editing and sound transformation skills in the studio a DAW and third-party applications to produce the foley for a video clip and also produce the sound design for number of idents. The module will be delivered via lectures in the Mac Suites and workshops in the studio.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Week 12",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi208",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI208_202526.htm"
+}

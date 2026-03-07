@@ -1,0 +1,20 @@
+{
+  "code": "ULMS399",
+  "name": "Dissertation",
+  "department": "Management School",
+  "semester": 0,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr CG Marechal",
+  "description": "The dissertation module offers the opportunity to conduct an extended study on a theme relevant to Business Studies students. It will develop and enhance your ability to:\n\nUtilise bibliographical software;\n\nProduce systematic literature reviews;\n\nAnalyse and synthesise a body of knowledge;\n\nCritically evaluate contrasting perspectives on all aspects of business.\n\nIntroductory workshops will offer initial instruction on completing the dissertation and each student will be allocated a supervisor. As with any dissertation, much emphasis is placed on independent study.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms399",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS399_202526.htm"
+}

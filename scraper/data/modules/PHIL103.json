@@ -1,0 +1,25 @@
+{
+  "code": "PHIL103",
+  "name": "MIND, KNOWLEDGE AND REALITY",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RK Wiseman",
+  "description": "This module introduces students to philosophy of mind, metaphysics, and epistemology with an emphasis on a coherent historical narrative that explains the role that early modern philosophers have played in the development of contemporary philosophical problems and debates. Taking this module will give students a grasp of why philosophers ask big questions about the nature of reality, and the scope of our knowledge, and how those questions bear on their everyday lives. The module is taught by lecture (2 x 1 hour per week) and seminar (1 hour per week). Assessment has two components, a set of 5 short pieces of writing (5 x 150 words) worth 25% of the module mark and spread through the teaching term, and a final essay worth the remaining 75%.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL103_202526.htm"
+}

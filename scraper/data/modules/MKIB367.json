@@ -1,0 +1,25 @@
+{
+  "code": "MKIB367",
+  "name": "Events Management",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr J Hunter-Jones",
+  "description": "The module provides a context for business subjects already studied (eg marketing) and incorporates additional subjects, for example project management, quality management, law and planning. It also provides an analysis of the market in which the sector operates. The emphasis is on practical skills and the module draws on relevant theory. Visiting speakers relate theory to practice. There is an assignment that focuses on event skills and a formal exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib367",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB367_202526.htm"
+}

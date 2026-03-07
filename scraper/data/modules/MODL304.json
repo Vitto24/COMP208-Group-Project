@@ -1,0 +1,25 @@
+{
+  "code": "MODL304",
+  "name": "TERROR REMEMBERED: REPRESENTING TRAUMATIC HISTORIES IN LATIN AMERICA, EUROPE AND CHINA",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor SE Fuggle",
+  "description": "This module will introduce students to approaches to memory and to a body of textual, visual, material representation of terror that has become a key focus for critical analysis in recent cultural studies. It will provide a context in which students can engage in systematic comparisons between European, Latin American and East Asian experiences and representations of social and political trauma. It will also encourage students to reflect systematically on the political and ethical implications of literary, material, digital and cinematic representations of traumatic histories. You will have the opportunity to study in depth and compare examples of representation through different media and across different national and linguistic boundaries. Lectures provide background both to the main theoretical approaches, and to specific representations. In weekly seminars, you will work on the case studies covered in class, and on related materials. Assessment is on the basis of a poster and an essay.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 65
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/modl304",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MODL304_202526.htm"
+}

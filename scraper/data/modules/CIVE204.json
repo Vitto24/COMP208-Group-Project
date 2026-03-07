@@ -1,0 +1,25 @@
+{
+  "code": "CIVE204",
+  "name": "Environmental Engineering 1",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Dr A Ockelford",
+  "description": "As the world\u2019s population and economy have grown, environmental pressures have increased, and many of the world's major ecosystem have been degraded or used unsustainably. Environmental engineering is a profession that works to use the properties of matter and sources of energy in the solution of problems of environmental sanitation. These include the provision of safe, palatable, and ample public water supplies; the proper disposal of or recycle of wastewater and solid wastes; the adequate drainage of urban and rural areas for proper sanitation; and the control of water and soil pollution.This module aims to introduce students to the role of the environmental engineer and fundamental principles and concepts that form the basis of environmental engineering. The emphasis is on water and soil pollution, catchment hydrology and solid waste management.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "20% for a 10-minute group discussion of poster and (ii) 80% for the poster itself",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive204",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE204_202526.htm"
+}

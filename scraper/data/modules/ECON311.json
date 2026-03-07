@@ -1,0 +1,27 @@
+{
+  "code": "ECON311",
+  "name": "Methods of Economic Investigation 1: Time Series Econometrics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor R Bu",
+  "description": "This\u00a0module aims to offer students the opportunity to learn basic\u00a0econometric theories\u00a0for time series analysis. The\u00a0module will build upon the materials of ECON212 Basic Econometrics\u00a0but make important extensions in order to model serial dependence in time series data. This module will introduce the classic ARIMA type of\u00a0linear time series modelling framework and\u00a0the classic\u00a0ARCH/GARCH type\u00a0conditional heteroskedasticity modelling framework as well as ARDL\u00a0type multivariate time series model\u00a0and cointegrated systems. Upon successful completion of this module, students should be able to apply these classic\u00a0models to univariate and/or multivariate time series data for the purposes of, for example,\u00a0producing\u00a0economic/financial\u00a0forecasts\u00a0 and/or investigating causal relationships between multiple economic/financial variables.",
+  "prerequisites": [
+    "ECON212"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ311",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON311_202526.htm"
+}

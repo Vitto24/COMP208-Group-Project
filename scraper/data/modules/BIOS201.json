@@ -1,0 +1,25 @@
+{
+  "code": "BIOS201",
+  "name": "Genetics & Immunology for Biosciences",
+  "department": "Biosciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor M Speed",
+  "description": "The science of genetics, including gene-editing and genome sequencing is a fast-moving and exciting area for biosciences study. In this module we will explore the fundamentals of genetics and genomics such that students can apply cutting-edge knowledge to the areas of the biosciences that interest them most. Students will be asked to consider the relevant ethical implications of current knowledge and technologies in genomics and genetics. In addition, we will expand the horizons of the module toward understanding of disease, by looking at the genomic, and physiological bases of immune defences against microbial enemies. The module is taught via a set of workshops in which students explore and develop their comprehensions working with groups, and their tutor. Students will be assessed by creating their own teaching materials (e.g. videos, powerpoint slides) as well as an end-of-module examination",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios201",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS201_202526.htm"
+}

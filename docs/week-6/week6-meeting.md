@@ -56,7 +56,7 @@
 **Files:** `dashboard/views.py` (for filtering), new scraper script
 
 - Only show modules on the dashboard that the student is currently enrolled in — filter by current semester enrolment so past/future modules don't appear. ✅
-- Download different modules data using a Python script scraper — there are roughly 500 undergrad courses to collect.
+- Download different modules data using a Python script scraper — there are roughly 500 undergrad courses to collect. ✅
 - Connect the database up to an online server (week 7/8).
 
 ### Settings (Vitto)

@@ -1,0 +1,30 @@
+{
+  "code": "HIST284",
+  "name": "GLOBAL NUCLEAR CULTURE AND HERITAGE",
+  "department": "History",
+  "semester": 2,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Dr JG Hogg",
+  "description": "This module explores global nuclear culture and heritage since 1945, focusing particularly on Britain and the United States, the Soviet Union, France and Japan. Whilst the military, strategic, political, scientific and diplomatic history surrounding the atomic attacks on Japan and the ensuing Cold War has been thoroughly explored, the more complex study of the global nuclear cultures and 'nuclear colonialism' that developed in the years following 1945 has been marginalised until recently. Students will engage with a diverse range of studies focused on Cold War histories of science, of the environment, of literature and culture, and heritage. This module particularly explores the themes of nuclear anxiety (including fears over contamination, mutation, nuclear war, fallout from nuclear tests, the future, and parenthood), nuclear heritage, popular culture, and individual experience. The assessment activities on HIST238 require students to develop and apply analytical skills to primary and secondary source material, and to present and communicate their work in innovative and varied ways.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist284",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST284_202526.htm"
+}

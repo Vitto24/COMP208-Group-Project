@@ -1,0 +1,25 @@
+{
+  "code": "ENVS217",
+  "name": "Catchment Hydrology",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor JR Cooper",
+  "description": "The study of catchment hydrology is concerned with water above and below the land surface, its various forms, and its circulation and distribution in time and space within drainage catchments; it is based on fundamental knowledge of the hydrological cycle and its governing factors. Understanding the hydrological cycle is fundamental to physical geography. All life is supported by water and all earth systems incorporate fluxes of water to some extent. The module covers the main hydrological processes operating in drainage catchments in terms of their measurement, operation and controlling factors. The module provide 'hands-on' experience of both observing hydrology and modelling hydrological systems, with an emphasis on applied learning, which might be useful in a vocational sense in the future. The module will aim to deliver excellent training in the knowledge required to work in a wide variety of environmentally-facing careers, including those with the EA, Natural England or DEFRA, as well as Environmental Consultancies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Semester One",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester One",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs217",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS217_202526.htm"
+}

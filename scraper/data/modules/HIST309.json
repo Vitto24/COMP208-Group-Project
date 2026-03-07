@@ -1,0 +1,25 @@
+{
+  "code": "HIST309",
+  "name": "THE HENRICIAN REFORMATION",
+  "department": "History",
+  "semester": 1,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Professor MRV Heale",
+  "description": "The Reformation remains one of the most divisive and controversial topics in English history. This module will focus on the first stage of religious reform in England, initiated by Henry VIII, exploring the break with Rome and the early implications of this cataclysm for English politics and society. Much about the Henrician Reformation is contested, including the king's own intentions for the English church and the extent to which he retained control over events. These debates will be considered through case studies of themes such as the king's divorce, the Reformation Parliament, the Dissolution of the Monasteries, the English Bible, the royal court in the 1530s and '40s and international affairs. We will also consider the reception of these reforms across English society, including the early spread of Protestantism and the Pilgrimage of Grace. The module will conclude by exploring early modern and more recent depictions of Henry VIII and how they have shaped popular and scholarly perceptions of the king and his reformation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist309",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST309_202526.htm"
+}

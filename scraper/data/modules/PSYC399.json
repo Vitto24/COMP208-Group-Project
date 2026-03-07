@@ -1,0 +1,20 @@
+{
+  "code": "PSYC399",
+  "name": "Psychology Work Based Experience",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CA Hands",
+  "description": "This module allows students to undertake a work-based experience during the summer period between Year 2 and Year 3. Students will be required to find and secure their own work-based experience, which must be approved by the module leader beforehand. Work-based experience will be a minimum of 70 hours of work experience (approximately 2 weeks of full-time work).\n\nEarly in Year 2, there will be an introductory event to present the module and advise students on how to search for work-based experience opportunities. This session will be available to all students (including those not wishing to enrol in the module). Students will be encouraged to search for work-based experiences during their second year, with the support of Academic Advisers and Careers and Employability. Additional seminar activities will take place in Semester 2 of Year 2 to help prepare students for their work-based experience. Students will not have a confirmed place on the module until they have secured a 70 hour work-based experience that is approved by the module teaching team. They must then complete and fulfil the requirements of the work-based module over the summer period in order to progress with the module. When selecting PSYC399 as a final year module choice, students will be required to select an \u2018insurance\u2019 module which will replace PSYC399 should they not fulfil the requirements for whatever reason.\n\nFurther taught sessions in early Semester 1 of Year 3 will include seminars on relevant employability theories and research, taking positive career management action, attendance at a graduate level assessment centre, networking with employers, skills articulation and reflective group sessions on work-based experiences.\n\nIncorporating a work-based experience provides an opportunity for students to improve skills that are particularly sought after by employers and postgraduate study providers. The module teaching will support students to better recognise, evidence and articulate their skillset to support their future career goals. The module will be assessed via a reflective portfolio, that they will develop throughout their engagement with the module activities.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc399",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC399_202526.htm"
+}

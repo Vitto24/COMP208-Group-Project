@@ -1,0 +1,32 @@
+{
+  "code": "PHYS108",
+  "name": "MATHEMATICS FOR PHYSICISTS II",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr S Coates",
+  "description": "This module introduces some of the mathematical techniques used in physics. For example, differential equations, PDE's, integral vector calculus and series are discussed. The ideas are first presented in lectures and then put into practice in problems classes, with support from demonstrators and the module lecturer. When you have finished this module, you should: Be familiar with methods for solving first and second order differential equations in one variable.  Be familiar with methods for solving partial differential equations and applications.  Have a basic knowledge of integral vector calculus. Have a basic understanding of Fourier series and transforms.",
+  "prerequisites": [
+    "PHYS107"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys108",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS108_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ENGG301",
+  "name": "STRUCTURAL DYNAMICS",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr V Fragkoulis",
+  "description": "This module introduces essential principles necessary for the understanding of vibrations in Civil Engineering structures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Semester 1",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/engg301",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG301_202526.htm"
+}

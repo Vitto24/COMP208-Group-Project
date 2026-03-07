@@ -1,0 +1,30 @@
+{
+  "code": "POLI305",
+  "name": "AFRICA-CHINA RELATIONS IN A CHANGING GLOBAL ORDER",
+  "department": "Politics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr O Hodzi",
+  "description": "This third year module examines how burgeoning economic, political and security relations between Africa and China are contributing to changes in the global order. Challenging framings of states in Africa as \u2018system ineffectual\u2019, inconsequential to global politics, and lacking material and ideational capabilities to structure their foreign relations, the module, through critical IR theories, examines how these states\u2019, the rise of China and the dynamics in China-Africa relations are impacting, shaping and reframing the norms and practices of development and global security governance.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli305",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI305_202526.htm"
+}

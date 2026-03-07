@@ -1,0 +1,25 @@
+{
+  "code": "MUSI106",
+  "name": "CLASSICAL COMPOSITION 1",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr LM Carey",
+  "description": "Students will gain historical and practical knowledge of contrapuntal techniques in music composition. Students will demonstrate comprehension of counterpoint rules through several assignments over the course of the term. Students will then complete an\u00a0original composition\u00a0which centres around contrapuntal writing.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI106_202526.htm"
+}

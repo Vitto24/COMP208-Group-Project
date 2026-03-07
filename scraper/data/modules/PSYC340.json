@@ -1,0 +1,25 @@
+{
+  "code": "PSYC340",
+  "name": "RESEARCH PROJECT",
+  "department": "Psychology",
+  "semester": 0,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr M Limniou",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 90
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc340",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC340_202526.htm"
+}

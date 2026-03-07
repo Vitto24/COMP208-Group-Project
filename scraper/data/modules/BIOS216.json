@@ -1,0 +1,25 @@
+{
+  "code": "BIOS216",
+  "name": "Drug Discovery and Development",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr T You",
+  "description": "Drug discovery & development is risky: only 1 in 7 drugs entering clinical development obtained approval between 2000 and 2015. This module is designed to give students a broad understanding of the fundamental principles of drug discovery & development. The curriculum includes all important aspects of drug discovery & development, including target identification, drug design, safety assessment, clinical trials, and health economy. A highlight of this module is it will introduce some relevant mathematical modelling \u2013 (e.g., bioinformatics, computational chemistry and pharmacodynamics) which will prepare the students with necessary quantitative skills.  Teaching will be via formal lectures and workshop and the module will be assessed by a multiple-choice question (MCQ) examination (40%) and written exam assessment (60%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios216",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS216_202526.htm"
+}

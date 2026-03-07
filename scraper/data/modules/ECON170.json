@@ -1,0 +1,25 @@
+{
+  "code": "ECON170",
+  "name": "Professional Skills and Employment Preparation",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr S Mitra",
+  "description": "This module aims to provide students with the key skills required of the professional economist in the current business environment and to prepare students for an Economics based year in industry by providing them with an understanding of the skills required to secure a work placement and gain the most from their placement experience. It also provides the opportunity to acquire, develop and apply these skills by participating in a variety of different tasks linked to the recruitment process.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment Type: Coursework  Duration/Size: assessment size will vary  Weighting: 20%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ170",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON170_202526.htm"
+}

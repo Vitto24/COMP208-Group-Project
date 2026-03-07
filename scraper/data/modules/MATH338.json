@@ -1,0 +1,30 @@
+{
+  "code": "MATH338",
+  "name": "Mathematics of Networks and Epidemics",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor KJ Sharkey",
+  "description": "Networks are familiar to us from many real-world systems such as the internet, power grids, transportation and biological networks. The underpinning mathematical concept is called a graph an it is no surprise that the same issues arise in each area, whether this is to identify the most important or influential individuals in the network, or to prevent dynamics on the network (e.g. epidemics) or to make the network robust to the dynamics it supports (e.g. power grids and transportation). In this module, we learn about different classes of networks and how to quantify and describe them including their structures and their nodes. Much of our detailed understanding of networks and their features will come from analysis of idealised random networks which nevertheless are often good representations of those seen in the real world. We will consider real-world biological applications of network theory, in particular focusing on epidemics.",
+  "prerequisites": [
+    "MATH221",
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math338",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH338_202526.htm"
+}

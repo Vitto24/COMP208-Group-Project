@@ -1,0 +1,20 @@
+{
+  "code": "ARCH101",
+  "name": "STUDIO 1.1: DESIGN COMMUNICATION",
+  "department": "Architecture",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mrs LN Ray",
+  "description": "Studio Design Module",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Semester 1",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH101_202526.htm"
+}

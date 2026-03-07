@@ -1,0 +1,28 @@
+{
+  "code": "MKIB225",
+  "name": "Business in the Global Economy",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr ES Enang",
+  "description": "Business strategies and behaviour are part and parcel of dynamic interactions between a wide range of actors in the world economy. This module aims at producing the basic knowledge and skills for understanding that interaction, taking into consideration firms but clearly examining also other types of actors such as states, international organisations, labour and social movements. It does so by asking three sets of interrelated questions. Firstly, why do businesses internationalise their operations? What, and in relation to whom, can they gain from doing so? Secondly, how do transnational corporations operate across borders? How do these operations contribute to patterns of international development? Are these patterns smooth and harmonious (simple globalisation) or uneven? Thirdly, what is the current (and future) context in which transnational enterprise takes place? Recently, the 2007-09 global economic and financial crisis, the 4th Industrial Revolution, the climate change crisis and the global health crisis have transformed the dynamics of the world economy in a number of ways, and the module aims at enhancing knowledge of this new context of business. The module will also consider key phenomena ranging from the role of the BRIC economies in the future international economic order to gender. Throughout the module, we will consider political (power) and ethical issues, as they are fundamental to understanding the world economy, past, present and future.",
+  "prerequisites": [
+    "ULMS101",
+    "MKIB153"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment Type: Coursework  Size: 2000 words  Weighting: 60%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib225",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB225_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "HIST236",
+  "name": "EARLY MODERN IBERIAN EMPIRES: THE GLOBAL AND THE LOCAL",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr HE Braun",
+  "description": "This module covers the formation of the Portuguese and Spanish Habsburg global across Europe, the Mediterranean, the Americas, Africa, and Asia, with an emphasis on political, economic, cultural and intellectual watershed moment and developments from c. 1500 up to c. 1700.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist236",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST236_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "POLI316",
+  "name": "THEORIES OF POVERTY AND WEALTH",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor DP Dolowitz",
+  "description": "The substantive material of the course concerns how the theories and philosophies surrounding the development and operation of the contemporary \u2018western\u2019 style welfare state can be used to analyse contemporary social policy. To do this the module begins with an exploration of the concepts associated with poverty, wealth and wellbeing and how ones understanding of these ideas helps inform their view of what society should do about those living under what has been determined to be an acceptable minimum. The course subsequently moves onto an examination of the major theoretical concepts and schools associated with the development and function of the \u2018western\u2019 style welfare systems. The course will conclude with an exploration of how the welfare state might develop in the future in light of the current and proposed policies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli316",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI316_202526.htm"
+}

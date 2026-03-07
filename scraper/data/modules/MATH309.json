@@ -1,0 +1,34 @@
+{
+  "code": "MATH309",
+  "name": "MATHEMATICS INTERNSHIP",
+  "department": "Mathematical Sciences",
+  "semester": null,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Haddley",
+  "description": "The Mathematics internship module is designed to enable students to gain experience of working in a mathematics-related working environment or setting. It should provide an insight into how students may apply skills and experiences later in their career whether working abroad or in any other non-UoL, off-campus setting.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math309",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH309_202526.htm"
+}

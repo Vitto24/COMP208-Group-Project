@@ -1,0 +1,28 @@
+{
+  "code": "PHYS321",
+  "name": "Physics of Sound and Music",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Professor RKM Herzberg",
+  "description": "Musical instruments are made up of a variety of simple physical systems: vibrating strings, membranes and shells.  When combined, these simple systems generate the rich and varied spectra of the Stradivarius violin, a kettle drum, or a clarinet.  This module looks at the physics underpinning the generation of the unique sounds of a variety of instruments (stringed, wind, percussion) and develops the tools needed to analyse sound. It builds on an understanding of Newtonian dynamics and waves, and explores how complexity emerges from simple building blocks.",
+  "prerequisites": [
+    "PHYS103",
+    "PHYS108"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS321_202526.htm"
+}

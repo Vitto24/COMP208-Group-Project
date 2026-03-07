@@ -1,0 +1,35 @@
+{
+  "code": "POLI264",
+  "name": "INTRODUCTION TO DATA SCIENCE FOR POLITICAL SCIENCE AND INTERNATIONAL RELATIONS",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr M Epifanio",
+  "description": "Which factors affect the electoral success of populist parties? What are the likely determinants of civil wars? How does income affect voters\u2019 political preferences? How does terrorism affect public opinion? Do mental health conditions affect political behaviour? These different research questions have one factor in common: they all require a large number of cases to make some tentative conclusions; they all call for a quantitative analysis. This module introduces students to the language of data science and the tools used to carry out quantitative research. You will learn how to carry out descriptive statistics (bar charts, histograms, and scatter plots) and inferential statistics using a statistical programming language Stata, which enables you to perform practical skills of data management and analysis. The fundamental question we want to answer in this module is: How do we know we are wrong? We need a method. And you will become familiar with the most used method in data science: regression analysis.\n\nThis module is highly recommended to get the most out of second and third-year modules that explore substantive questions in Political Science and International Relations using data analysis, such as Foreign Policy Analysis and International Crises (POLI236), Strategic Studies in Conflict and Terrorism (POLI347), Comparative Electoral Behaviour (POLI322), Politics and the Brain (POLI346). The module is also highly recommended to carry out a successful dissertation project using a large number of cases. More generally, this module will enhance your employability as it equips you with skills to succeed in the job market.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli264",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI264_202526.htm"
+}

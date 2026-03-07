@@ -1,0 +1,25 @@
+{
+  "code": "ENGL243",
+  "name": "Victorian Literature",
+  "department": "English",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr MD Bradley",
+  "description": "The aim of the Victorian Literature module is to expose students to a wide variety of texts written and published between 1837 and 1901, an extremely diverse period of literary history. The module will also provide opportunities for close analysis, application of literary theory and consideration of contextual issues in relation to the texts studied as a means of helping students to develop skills that will be useful in other literature modules.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl243",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL243_202526.htm"
+}

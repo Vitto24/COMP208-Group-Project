@@ -1,0 +1,25 @@
+{
+  "code": "POLI237",
+  "name": "BRITISH POLITICAL IDEOLOGIES",
+  "department": "Politics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr K Hickson",
+  "description": "This module analyses the major ideologies in British politics and explores how ideas have brought about change in British politics and society since 1945.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli237",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI237_202526.htm"
+}

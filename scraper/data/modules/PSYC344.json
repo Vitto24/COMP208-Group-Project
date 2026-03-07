@@ -1,0 +1,25 @@
+{
+  "code": "PSYC344",
+  "name": "Psychology of Ageing",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr WJ Donnellan",
+  "description": "The module is designed to develop an understanding of the way that increasing age influences the psychological experiences of adults. These issues will address the broad spectrum of psychological experience from cognitive, social, health and wellbeing perspectives. The focus will be on non-clinical experiences. Attention will be drawn to the necessity for well-designed research to be conducted with respect to ageing. The module draws on a number of perspectives including psychology, behavioural science, epidemiology and gerontology. Students are also\u00a0given the opportunity to explore 4 debates based on controversial topics within ageing during lecture time in interactive sessions.\n\nStudents will be assessed by a written blog based on the interactive debates (30%), and a final examination (70%).  The essay-based\u00a0examination will require students to answer 2\u00a0out of 6 questions drawn from the lecture syllabus.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of Semester",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": ": Examination Period",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc344",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC344_202526.htm"
+}

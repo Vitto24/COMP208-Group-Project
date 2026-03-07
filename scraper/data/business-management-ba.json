@@ -1,0 +1,76 @@
+{
+  "course_name": "Business Management BA (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "ECON154",
+        "ECON127",
+        "MKIB153",
+        "ACFI107",
+        "ULMS151",
+        "ULMS170",
+        "EBUS102",
+        "ULMS115"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "MKIB225",
+        "ULMS251",
+        "EBUS205",
+        "ULMS206"
+      ],
+      "optional": [
+        "ULMS216",
+        "ULMS226",
+        "ACFI205",
+        "MKIB235",
+        "ACFI260",
+        "EBUS209",
+        "MKIB255",
+        "ULMS205",
+        "ULMS268",
+        "MKIB253",
+        "MKIB256",
+        "ULMS259",
+        "ULMS209",
+        "ULMS202",
+        "ECON254",
+        "ACFI203"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "ULMS353"
+      ],
+      "optional": [
+        "ULMS360",
+        "ACFI311",
+        "ULMS364",
+        "ACFI320",
+        "ULMS399",
+        "EBUS301",
+        "MKIB367",
+        "ACFI322",
+        "MKIB351",
+        "ECON354",
+        "MKIB356",
+        "ACFI307",
+        "MKIB363",
+        "EBUS308",
+        "ULMS351",
+        "MKIB301",
+        "EBUS306",
+        "ULMS370",
+        "ULMS330",
+        "MKIB372",
+        "ULMS310",
+        "ULMS352",
+        "ULMS302",
+        "ACFI303"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "code": "BIOS103",
+  "name": "Introductory Practical Skills in Biosciences I",
+  "department": "Biosciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr C Mitchell",
+  "description": "This is the first practical module that students will take in the School of Biosciences. The variety of experimental, quantitative and transferable skills that students acquire will be required for future practical modules that they will take in Year 1 Semester 2, during Year 2 and will prepare them for their Year 3 research project and for their subsequent career. This module is designed to teach the basic multidisciplinary skills required in the field of life sciences, provide an understanding of basic lab practice and safety and to allow application of theoretical knowledge to solve practical challenges. It will be taught through a combination of lectures, practical sessions, workshops and self directed learning.\n\nThis module will be assessed via three methods: continual assessment to assess understanding of practical skills (experimental, technical and computational/quantitative statistics), a practical skills observational assessment to improve research and experimental skills and a written scientific abstract to assess overall understanding and communication of research outputs through scientific writing.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There will be 10 weekly preparation quizzes online (e",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS103_202526.htm"
+}

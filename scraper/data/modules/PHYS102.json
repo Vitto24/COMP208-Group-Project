@@ -1,0 +1,30 @@
+{
+  "code": "PHYS102",
+  "name": "Thermal Physics and Properties of Matter",
+  "department": "Physics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor TD Veal",
+  "description": "Einstein said in 1949 that \"Thermodynamics is the only physical theory of universal content which I am convinced, within the areas of applicability of its basic concepts, will never be overthrown.\" In this module, different aspects of thermal physics are addressed: (i) classical thermodynamics which deals with macroscopic properties, such as pressure, volume and temperature \u2013 the underlying microscopic physics is not included; (ii) kinetic theory of gases describes the properties of gases in terms of probability distributions associated with the motions of individual molecules; and (iii) statistical mechanics which starts from a microscopic description and then employs statistical methods to derive macroscopic properties. The laws of thermodynamics are introduced and applied.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":First semester",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS102_202526.htm"
+}

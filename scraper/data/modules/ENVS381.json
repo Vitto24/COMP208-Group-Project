@@ -1,0 +1,30 @@
+{
+  "code": "ENVS381",
+  "name": "Carbon, Nutrients and Climate Change Mitigation",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr MA Peacock",
+  "description": "This module looks at the cycling of carbon and greenhouse gases, and how their emissions drive climatic warming, via a range of different topics. These include ecosystems (e.g. peatlands, freshwaters), societal change (e.g. how did Covid 19 affect carbon emissions?), greenhouse gas accounting and policy (e.g. Net Zero, Representative Concentration Pathways), and Negative Emissions Technologies (e.g. enhanced weathering, direct air capture). By drawing together this diverse range of topics the module will equip students with a broad knowledge of why the climate is warming, and how this warming might be reversed. The module will involve both individual and group work, workshops, group presentations/debates, and engagement with the most current scientific literature and social media and science communication. Students taking this module must be willing to engage in quantitative analyses of carbon and nutrient cycling and its importance to climate mitigation strategies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, mid-term",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": ".   Assessment Schedule (When): Assessment 1, approx",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, end of term",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs381",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS381_202526.htm"
+}

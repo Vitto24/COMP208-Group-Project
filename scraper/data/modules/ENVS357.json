@@ -1,0 +1,25 @@
+{
+  "code": "ENVS357",
+  "name": "Social and Spatial Inequalities",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr KN Najib",
+  "description": "This module provides insight into social and spatial inequalities, and their inter-relations. The module will consider how and why inequalities might have persisted over time, how social inequalities have specific geographies, and the implications of this unevenness for those who are marginalised. The module is structured through four major themes: for example, inequalities and the labour market; ethnicity and inequalities; spatial understandings of poverty; and theories about inequality. The difficulties in defining and measuring social and spatial inequalities, and how such definitions may relate to broader theories, perspectives or frameworks of relevance are issues covered in the module, as well as how these terms are interpreted and (mis-)represented. The module draws on empirical evidence, theoretical approaches and policy responses. The module provides insight into government responses that aim to combat social and spatial inequalities and related issues in the UK, at the regional and sub-regional level.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "There is a resit opportunity",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Second; week 8",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs357",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS357_202526.htm"
+}

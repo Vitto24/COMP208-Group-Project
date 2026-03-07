@@ -1,0 +1,30 @@
+{
+  "code": "POLI260",
+  "name": "PUBLIC ETHICS",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr NJ Martin",
+  "description": "This module explores the ethical dilemmas that arise in some of the most controversial public policy debates. We will explore questions such as: should people have the right to euthanasia? Should we ban pornography? Should the consumption of, or testing on, animals be banned? Should we criminally punish people for taking recreational drugs? Are reparations morally justified? We will explore these questions by critically assessing the arguments of political, moral and legal philosophers, and evaluate the implications of their arguments for policy making.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli260",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI260_202526.htm"
+}

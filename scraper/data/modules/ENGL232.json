@@ -1,0 +1,25 @@
+{
+  "code": "ENGL232",
+  "name": "MODERNIST LITERATURE",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr SE Oliver",
+  "description": "In the period 1900\u201345 writers challenged all assumptions about what narrative does, about how we read, and how we represent and interpret the world. This module entails detailed study of some of the most radical modernist writers, such as T.S. Eliot, Mina Loy and Virginia Woolf. It also explores the contexts that shaped them and their innovations, from the city and visual art to empire and psychoanalysis. Together we'll think about new understandings of time and the mind, new ideas about human relationships, and new dynamics between the silent and the stated, private and public, men and women, local and global, art and life.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": 2",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": 2",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl232",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL232_202526.htm"
+}

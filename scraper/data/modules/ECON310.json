@@ -1,0 +1,29 @@
+{
+  "code": "ECON310",
+  "name": "Derivative Securities",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr Y Gong",
+  "description": "Derivatives have become increasingly important financial instruments in progressively complex contemporary global financial markets. This module provides the opportunity for an in-depth exploration of derivatives involving both a practical and theoretical approach. The course builds from basic definitions and properties of \u2018put\u2019 and \u2018call\u2019 options, \u2018forwards\u2019, \u2018futures\u2019 and exotic derivative contracts. A number of analytical tools are used such as payoff diagrams to help establish determinants of derivatives values and pricing relationships between different types of derivatives in arbitrage, hedging and speculation.",
+  "prerequisites": [
+    "ACFI204",
+    "ACFI103",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON310_202526.htm"
+}

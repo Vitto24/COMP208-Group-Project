@@ -1,0 +1,25 @@
+{
+  "code": "HIST234",
+  "name": "SAINTS, SCHOLARS AND SEA MONSTERS: IRELAND AND THE NORTH ATLANTIC, c.400 - c.850",
+  "department": "Institute of Irish Studies",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr EP Ahern",
+  "description": "This course will explore the history and culture of the Gaelic-speaking world and neighbouring territories from the end of Roman Britain to the beginning of the Viking Age\u2014a period of immense social, political and religious change in these islands. Students will be introduced to the literature of early medieval Ireland \u2013 stories of miracle-working saints, visions of heaven and hell, and voyages across wondrous and monster-filled seas. We will also consider the connections between Irish territories and the neighbouring Pictish, British and English kingdoms\u2014this will provide an opportunity to explore how the peoples of this era defined themselves and to reflect on the later regional and religious identities of Ireland and Britain.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist234",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST234_202526.htm"
+}

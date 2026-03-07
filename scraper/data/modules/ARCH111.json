@@ -1,0 +1,25 @@
+{
+  "code": "ARCH111",
+  "name": "Environmental Design 1",
+  "department": "Architecture",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr J Du",
+  "description": "The module is an introduction to the principles of net zero carbon design.It aims to give students an understanding of the role of a building as a modifier of climate with reference to traditional climatically responsive architecture, and the role of buildings in the context of global energy usage, environmental impact, climate change and net zero carbon design.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch111",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH111_202526.htm"
+}

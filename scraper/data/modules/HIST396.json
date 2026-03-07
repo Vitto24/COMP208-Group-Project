@@ -1,0 +1,20 @@
+{
+  "code": "HIST396",
+  "name": "HISTORY DISSERTATION",
+  "department": "History",
+  "semester": 2,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr B Penati",
+  "description": "The History Dissertation serves as the capstone student research project for History Single and Major students and for History Joint students who choose to study a History dissertation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist396",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST396_202526.htm"
+}

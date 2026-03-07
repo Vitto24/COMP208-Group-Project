@@ -1,0 +1,35 @@
+{
+  "code": "PHYS202",
+  "name": "Condensed Matter Physics I",
+  "department": "Physics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr Y Grunder",
+  "description": "Condensed matter physics (CMP) is the study of the structure and behaviour of matter that makes up most of the things that surround us in our daily lives, including the screen on which you are reading this material. It is not the study of the very small (particle and nuclear physics) or the very large (astrophysics and cosmology) but of the things in between. CMP is concerned with the \u201ccondensed\u201d phases of real materials that arise from electromagnetic forces between the constituent atoms, and at its heart is the necessity to understand the behaviour of these phases by using physical laws that include quantum mechanics, electromagnetism and statistical mechanics. Understanding such behaviour leads to the design of novel materials for advanced technological devices that address the challenges that face modern civilization, such as climate change.",
+  "prerequisites": [
+    "PHYS103",
+    "PHYS107",
+    "PHYS203",
+    "PHYS102"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS202_202526.htm"
+}

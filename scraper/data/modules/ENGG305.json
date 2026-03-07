@@ -1,0 +1,30 @@
+{
+  "code": "ENGG305",
+  "name": "Bioengineering",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr R Akhtar",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":1st Semester",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg305",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG305_202526.htm"
+}

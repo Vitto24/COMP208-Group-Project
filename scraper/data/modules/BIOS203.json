@@ -1,0 +1,30 @@
+{
+  "code": "BIOS203",
+  "name": "Intermediary Practical Skills in Biosciences",
+  "department": "Biosciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr EA Chapman",
+  "description": "This practical skills module is designed to give you hands-on experience in a range of essential laboratory techniques, building on foundational practical skills developed in the first year of study. From protein purification to nucleic acid quantification and the use of  general model systems, this module covers a variety of techniques that you need to further your practical development within the breadth of the Biosciences disciplines.\n\nThrough a series of interactive experimental sessions and live synchronous workshops, you will gain practical experience in a variety of analytical and quantitative experimental practices. You will also learn the underpinning knowledge behind some of the methodologies and the intricacies of experimental design, all the while supplementing your wider theoretical learning through experimental application of techniques to tackle problems across the Biosciences disciplines. Students will learn how to analyse collected data and communicate the findings effectively, with the opportunity to apply your newly acquired skills to research projects tailored towards your programme and fields of interest.  This module will be assessed via a computer-based assessment to assess understanding of quantitative and computational skills, a group research output focused on experimental design and a written scientific report to assess communication of research outputs through scientific writing.\n\nThis module will expand your laboratory skills and allow the advancement of practical experiences in a range of essential techniques and equip you with the skills and knowledge you need to prepare you for your honours dissertation projects.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "based on skills acquired in practical sessions, (Authentic assessment- Liverpool Curriculum)",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ".",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ". Resit allowed",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS203_202526.htm"
+}

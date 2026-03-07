@@ -1,0 +1,30 @@
+{
+  "code": "POLI815",
+  "name": "CONFLICT AND POLITICS IN NORTHERN IRELAND",
+  "department": "Institute of Irish Studies",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr DL Chesse",
+  "description": "Northern Ireland is justifiably considered a place apart in UK politics. The region experienced thirty years of violent conflict, known as \u2018the Troubles\u2019 (c.1968-1998), and it remains a deeply divided society. Northern Ireland\u2019s devolution settlement was designed by international treaty, its party system is unlike any other in the UK, and its model of government is unusual even by international standards. This module introduces students to the principal debates associated with the conflict, politics, and governance of Northern Ireland. Topics explored in the module include: interpretations of the conflict; the strategy and evolution of paramilitary organisations; British state policy; the use and effectiveness of consociational powersharing since 1998; and \u2018post-conflict\u2019 politics and community relations in Northern Ireland.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/poli815",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI815_202526.htm"
+}

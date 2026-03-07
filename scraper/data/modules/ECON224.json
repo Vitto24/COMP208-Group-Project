@@ -1,0 +1,28 @@
+{
+  "code": "ECON224",
+  "name": "Macroeconomics 2",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr L Liu",
+  "description": "The aim of this module is to further extend the study of macroeconomics at intermediate level. The module follows a modern approach to macroeconomics by building macroeconomic models from microeconomic principles.On completion of this module, students should be able to: 1) examine macroeconomic data and analyse macroeconomic events; 2) critically evaluate macroeconomic models, 3) build and solve micro-founded macroeconomic models; 4) explain the implications of shocks and evaluate the effects of fiscal and monetary policies using macroeconomic models.",
+  "prerequisites": [
+    "ECON223",
+    "ECON123"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ224",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON224_202526.htm"
+}

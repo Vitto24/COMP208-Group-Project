@@ -1,0 +1,30 @@
+{
+  "code": "ECON335",
+  "name": "International Trade",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Mitra",
+  "description": "This module aims to develop a good understanding of the main trade theories, their assumptions, implications, applications and limitations, and provide essential skills to students to engage in an analytical discussion of the impact of trade patterns,trade policies of government,foreign direct investment and World Trade Organisation on the economies of both developing and developed countries.",
+  "prerequisites": [
+    "ECON233",
+    "ECON221",
+    "ECON222",
+    "ECON227"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "and a total module weight of 20%",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "\u00e2\u0080\u0093 students get credit for submission (they can discuss it during group study but submit individually), module leader will discuss key points in the news item and how they relate to trade theories and concepts during weekly seminar",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ335",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON335_202526.htm"
+}

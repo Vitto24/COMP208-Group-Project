@@ -1,0 +1,36 @@
+{
+  "code": "MATH364",
+  "name": "MEDICAL STATISTICS",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr EJ Nixon",
+  "description": "In recent years a culture of evidence-based practice has become the norm in the medical profession. Central to this is the medical statistician, who is required to not only analyse data, but to design research studies and interpret the results. The aim of MATH364 is to provide the student with the knowledge to become part of a \u201cteam\u201d to enhance and improve medical practice. This is done by demonstrating the design of studies, methods of analysis and interpretation of results through a number of real-world examples, covering epidemiology, survival analysis, clinical trials and meta-analysis.",
+  "prerequisites": [
+    "MATH103",
+    "MATH101",
+    "MATH102",
+    "MATH253",
+    "MATH163"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math364",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH364_202526.htm"
+}

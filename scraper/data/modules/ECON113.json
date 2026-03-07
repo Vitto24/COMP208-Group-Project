@@ -1,0 +1,35 @@
+{
+  "code": "ECON113",
+  "name": "Mathematical Economics",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr YY Oezcelik",
+  "description": "This module introduces students to techniques of proof and mathematical methods that will be assumed elsewhere in the programme.\u00a0 It prepares students for the Year 2 Mathematical Economics II option, which is a prerequisite for certain Year 3 modules.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ113",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON113_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "PSYC232",
+  "name": "CLINICAL AND FORENSIC PSYCHOLOGY",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 5,
+  "credits": 22.5,
+  "lecturer": "Dr SP Giles",
+  "description": "This module aims to give students an overview of key issues relating to Clinical and Forensic Psychology both in the UK and across the world, to\u00a0provide\u00a0them with an opportunity to engage in research-led teaching, to encourage\u00a0them\u00a0to explore current empirical research in Clinical and Forensic Psychology and to\u00a0demonstrate\u00a0the applications of psychology in\u00a0a the 'real world' setting. The module includes 12 x 2 hours of content lectures, 10 x 1 hour research focus lectures and 3 x 2 hours research seminars. Material will be available to students online (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback). Successful students will be able to evaluate the key debates, demonstrate a critical understanding of central theoretical models and concepts, analyse the utility of a range of research methods and utilise findings from research to support a position.\u00a0The module is assessed via coursework (a position paper) and end of\u00a0semester written examination.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Mid semester",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ": End of semester",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc232",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC232_202526.htm"
+}

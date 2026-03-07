@@ -1,0 +1,29 @@
+{
+  "code": "PHYS208",
+  "name": "MATHEMATICS FOR PHYSICISTS IV",
+  "department": "Physics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr HJ Rose",
+  "description": "An introduction to basic mathematic concepts and techniques. Following three semester math courses there the emphasis is on solutions of ordinary and partial differential equations with bits also on relativity, statistics and group theory",
+  "prerequisites": [
+    "PHYS107",
+    "PHYS207",
+    "PHYS108"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys208",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS208_202526.htm"
+}

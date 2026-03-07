@@ -1,0 +1,25 @@
+{
+  "code": "ENVS257",
+  "name": "GIS for Human Geography",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr KPS Thakar",
+  "description": "The module introduces the principles of geographical information systems and science with a focus on human geography. Examples will be drawn from population geography with components linked to data sources, analysis and visualisation.\u00a0Students will learn how to use GIS\u00a0to map population data, to explore\u00a0social deprivation,\u00a0geographic inequalities, and commuting patterns, amongst other themes.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":Semester 2",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": ":Semester 2",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs257",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS257_202526.htm"
+}

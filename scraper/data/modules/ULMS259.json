@@ -1,0 +1,22 @@
+{
+  "code": "ULMS259",
+  "name": "Innovation and Entrepreneurship",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr SC Horner",
+  "description": "Innovation and entrepreneurship draw together key themes relating to the development of new products, new processes and new organisations in the business environment. Innovation is strategic when it is consistent with a corporation\u2019s mission, vision and values and is created to enhancing the strategic positioning and/or competitiveness of organisations. This module deals with the principles underpinning innovation and entrepreneurship in the context of a global business environment.In this module students will gain a deep understanding of the role of strategic innovation activities in various organisational settings as a tool to developing a longer-term entrepreneurial culture. It will focus on comparing methods of best practice for entrepreneurial innovation developments and how these are utilised in practice using case studies and simulated examples.The module draws on both theory and practice from a range of sub-disciplines and areas of study, including examples of innovation within large public and private sector organisations as well as smaller technology-based organisations both local and international.Whilst the module provides theoretical insight into innovation and entrepreneurship, students will also be encouraged to identify best practices in the management of innovation and entrepreneurship in organisations.",
+  "prerequisites": [
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms259",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS259_202526.htm"
+}

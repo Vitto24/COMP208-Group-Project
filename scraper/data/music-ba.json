@@ -1,0 +1,63 @@
+{
+  "course_name": "Music BA (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "MUSI130",
+        "MUSI150",
+        "MUSI121"
+      ],
+      "optional": [
+        "MUSI181",
+        "MUSI109",
+        "MUSI140",
+        "MUSI171",
+        "MUSI106",
+        "MUSI170",
+        "MUSI108",
+        "MUSI107",
+        "MUSI180",
+        "MUSI102",
+        "MUSI104"
+      ]
+    },
+    "2": {
+      "compulsory": [],
+      "optional": [
+        "MUSI201",
+        "MUSI219",
+        "MUSI280",
+        "MUSI208",
+        "MUSI261",
+        "MUSI214",
+        "MUSI209",
+        "MUSI273",
+        "MUSI232",
+        "MUSI210",
+        "MUSI203",
+        "SOTA260",
+        "MUSI243",
+        "MUSI252",
+        "ULMS254",
+        "MUSI207",
+        "MUSI202",
+        "MUSI206",
+        "MUSI205",
+        "MUSI263",
+        "MUSI200",
+        "MUSI290",
+        "MUSI217",
+        "MUSI291",
+        "MUSI270",
+        "MUSI220",
+        "MUSI274",
+        "MUSI216",
+        "MUSI204",
+        "MUSI213",
+        "MUSI241",
+        "SOTA300"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "IRIS107",
+  "name": "NORTHERN IRELAND BEFORE THE 'TROUBLES': FROM PARTITION TO CIVIL RIGHTS AND ARMALITES",
+  "department": "Institute of Irish Studies",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr DL Chesse",
+  "description": "This module enables students to understand the historical background to the development of the Troubles in Northern Ireland with reference to the underlying political, social, economic, cultural and religious context. It gives an overview of the main events and underlying causes of the outbreak of violent conflict in the late 1960s and examines the motives of main participating elements including the Northern Ireland and British governments, extra-parliamentary and political movements.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/iris107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_IRIS107_202526.htm"
+}

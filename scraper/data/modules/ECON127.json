@@ -1,0 +1,25 @@
+{
+  "code": "ECON127",
+  "name": "Economic Principles for Business and Markets",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr TP Jackson",
+  "description": "The aim of this module is to introduce the core principles of economics (both micro and macro), to develop models and economic perspectives relevant to business students and demonstrate how modern economics can illuminate the problems that businesses face on a day-to-day basis.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/econ127",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON127_202526.htm"
+}

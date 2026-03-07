@@ -1,0 +1,25 @@
+{
+  "code": "MUSI280",
+  "name": "Exploring Harmony, Chord Progression and Pitch",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor KM Forkert-Smith",
+  "description": "The module uses both scores and recordings to examine music across different repertoires, focusing on how harmony, chord progressions and pitch are organised. We explore different techniques and methods for understanding harmonic developments, and evaluate the use of these techniques through a range of pieces from different repertoires (classical, popular and film). The module uses examples ranging from Schubert, to Frank Zappa, to Hitchcock films. It will be of use to those wishing to learn about how harmony and chord progressions are constructed, and will be a useful supplement to those studying performance, composition or musicological topics.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi280",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI280_202526.htm"
+}

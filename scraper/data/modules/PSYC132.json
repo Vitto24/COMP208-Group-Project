@@ -1,0 +1,25 @@
+{
+  "code": "PSYC132",
+  "name": "SOCIAL PSYCHOLOGY AND INDIVIDUAL DIFFERENCES",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 4,
+  "credits": 22.5,
+  "lecturer": "Dr IF Schermbrucker",
+  "description": "Psychologists who are interested in individual differences\u00a0focus on the dispositional factors that influence how people think and behave, whereas social psychologists seek to examine behaviour through the social interactions that take place. This module examines the history of both fields of psychology, the principal theories and methods used and how this knowledge can be applied to solve real-world problems. The content lectures (12 x 2 hours) will focus on the academic material and the \u2018applied\u2019 or \u2018research focused\u2019 lectures (10 x 1 hour) will present how this academic material is used in the real world. In order to explore the practicalities of conducting research in this area, there will be small group research seminars (3 x 2 hours) where students will conduct an experiment under the supervision of a member of staff. The module will be assessed by a combination of written coursework and an exam containing a \u00a0combination of multiple choice and short answer exam questions.\u00a0 Material will be available to students online (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Mid semester",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "exam will be timed (2 hours)",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc132",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC132_202526.htm"
+}

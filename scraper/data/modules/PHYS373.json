@@ -1,0 +1,27 @@
+{
+  "code": "PHYS373",
+  "name": "Physics of Galaxies",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr M Martig",
+  "description": "This module covers the physics and observational techniques of the field of Galactic Astrophysics",
+  "prerequisites": [
+    "PHYS251"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ":Semester 1",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys373",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS373_202526.htm"
+}

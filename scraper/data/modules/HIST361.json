@@ -1,0 +1,30 @@
+{
+  "code": "HIST361",
+  "name": "THE AGE OF CATASTROPHE: POLITICS, CULTURE AND THE SELF IN EUROPE, 1930-1950",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr M Wilks-Heeg",
+  "description": "How did the mid-twentieth century crisis in Europe transform the relationship between politics, culture and theindividual? This module addresses that question by studying diaries, memoirs, artworks, films, fiction, and everyday objects to explore how Europeans experienced fascism and antifascism, dictatorship, war, occupation and liberation. We will examine how creative outputs, as well as the everyday experiences of economic depression, political extremism and mass violence, influenced the making of the self in the context of the ideological clash between Right and Left during Europe's age of catastrophe.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist361",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST361_202526.htm"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "POLI343",
+  "name": "LOCAL PLACEMENT SCHEME",
+  "department": "Politics",
+  "semester": 1,
+  "level": 6,
+  "credits": 45.0,
+  "lecturer": "Dr K Hickson",
+  "description": "The Local Placement Scheme allows students to work full time in a local political setting (MP, local authority etc). Students must apply. The Scheme is competitive and only successful applicants will be placed.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli343",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI343_202526.htm"
+}

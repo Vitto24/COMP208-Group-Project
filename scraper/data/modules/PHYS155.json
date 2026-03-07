@@ -1,0 +1,32 @@
+{
+  "code": "PHYS155",
+  "name": "Introduction to Astrophysics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 7.5,
+  "lecturer": "Dr M Salaris",
+  "description": "Astronomy is the study of Universe \u2013 applying a broad range of physics (and indeed chemistry and even biology) to both understand the cosmos and our place in it, andit and improve our understanding of the underlying physics. In this module you will be introduced to the constituents of the Uuniverse \u2013 from our Solar System, through stars, exoplanets and galaxies, to the evolution of spacetime -\u2013 and study some of the observational techniques used to answer outstanding questions about the cosmos.",
+  "prerequisites": [
+    "PHYS105"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys155",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS155_202526.htm"
+}

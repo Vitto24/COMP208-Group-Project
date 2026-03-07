@@ -1,0 +1,25 @@
+{
+  "code": "CIVE261",
+  "name": "ENVIRONMENTAL PLANNING AND INFRASTRUCTURE PROJECT",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr A Mannis",
+  "description": "This module provides students with an introduction to thecontexts of transport and infrastructure, and the skills required by aprofessional engineer operating in this sector.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": ":",
+      "weight": 65
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive261",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE261_202526.htm"
+}

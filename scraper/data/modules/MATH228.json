@@ -1,0 +1,30 @@
+{
+  "code": "MATH228",
+  "name": "CLASSICAL MECHANICS",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor JA Gracey",
+  "description": "This module is concerned with the motion of physical bodies both in everyday situations and in the solar system. To describe motion, acceleration and forces you will need background knowledge of calculus, differentiation, integration and partial derivatives from MATH101 (Calculus I), MATH102 (Calculus II) and MATH103 (Introduction to Linear Algebra). Classical mechanics is important for learning about modern developments such as relativity (MATH326), quantum mechanics (MATH325) and chaos and dynamical systems (MATH322). This module will make you familiar with notions such as energy, force, momentum and angular momentum which lie at the foundations of applied mathematics problems.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH122",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math228",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH228_202526.htm"
+}

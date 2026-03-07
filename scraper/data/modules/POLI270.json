@@ -1,0 +1,30 @@
+{
+  "code": "POLI270",
+  "name": "CONTEMPORARY SEXUAL POLITICS",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr EJ Spruce",
+  "description": "This module explores contemporary sexual politics, connecting key debates in European sexual politics to global flows of regulation and resistance. We will examine topics such as: moral panic; sex tourism, sex work and sex trafficking; reproductive technologies; and sexual rights. Through the module, students will explore these contested political arenas, critically engaging with intersectional feminist and queer scholarship, activist campaigns and policy approaches.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli270",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI270_202526.htm"
+}

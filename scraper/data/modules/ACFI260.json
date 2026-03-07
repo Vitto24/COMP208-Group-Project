@@ -1,0 +1,25 @@
+{
+  "code": "ACFI260",
+  "name": "International Finance (Non-Specialist)",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor KC Milas",
+  "description": "This module delivers an outlook of issues of international finance, such as parity conditions, currency exposures/management and international capital markets; especially focusing on the financial management of multinationals. The groundwork is based on fundamentals of finance which provides an introduction to the core principles of finance, valuation and financial decision-making, within the domestic setting and then expands to the international setting.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "fully assess the whole syllabus and meet all the learning outcomes of the module",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/acfi260",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI260_202526.htm"
+}

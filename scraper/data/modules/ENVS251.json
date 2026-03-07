@@ -1,0 +1,30 @@
+{
+  "code": "ENVS251",
+  "name": "Marine Ecophysiology, Ecology and Exploitation",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr KO Edeye",
+  "description": "The marine environment presents a particular set of challenges for the organisms which inhabit it and these conditions are constantly changing as a result of human interventions. This module will provide a solid grounding in a number of topics, concepts and issues in the marine environment relating to the physiology and ecology of marine organisms and how they are affected by the activities of humans. Module content will be delivered primarily through interactive lectures supported by computer-based practical exercises and assessed by examination and coursework. Students will be guided to specific sections of textbooks, online resources and scientific papers to shape their learning.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2, Week 6 or 7",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2, Week 10",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ": Semester 2 exam period",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/envs251",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS251_202526.htm"
+}

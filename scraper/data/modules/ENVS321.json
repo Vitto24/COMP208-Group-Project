@@ -1,0 +1,20 @@
+{
+  "code": "ENVS321",
+  "name": "Dissertation (Geography & Environmental Science)",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr AJ Hacket Pain",
+  "description": "This module provides students with the opportunity to undertake an independent research project into a topic of the choosing, under the supervision of an allocated member of staff.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of semester 1, final deadline usually in first weeks of Semester 2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS321_202526.htm"
+}

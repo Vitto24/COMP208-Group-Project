@@ -1,0 +1,35 @@
+{
+  "code": "MATS201",
+  "name": "Engineering Materials Processing & Selection",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr WN Sharratt",
+  "description": "This module introduces the main processing and manufacturing techniques used to make metallic, ceramic, polymer and composite materials.  Students will learn and appreciate how the microstructure and properties of materials are impacted by their processing. The students will learn to derive materials performance index and select appropriate materials for a given engineering scenario.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mats201",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATS201_202526.htm"
+}

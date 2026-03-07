@@ -1,0 +1,29 @@
+{
+  "code": "MATH331",
+  "name": "Game Theory",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr DM Lewis",
+  "description": "In this module you will explore, from a game-theoretic point of view, models which have been used to understand phenomena in which conflict and cooperation occur and see the relevance of the theory not only to parlour games but also to situations involving human relationships, economic bargaining (between trade union and employer, etc), threats, formation of coalitions, war, etc.",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math331",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH331_202526.htm"
+}

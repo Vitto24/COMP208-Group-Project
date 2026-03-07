@@ -1,0 +1,25 @@
+{
+  "code": "PSYC348",
+  "name": "TOPICS IN APPLIED SOCIAL PSYCHOLOGY",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr IF Schermbrucker",
+  "description": "Applied social psychology brings together social psychology theory and intervention techniques and their practical application for solving real world social problems. The module will explore how traditional topics in social psychology, such as self esteem, social cognition, social influence and group behaviour can be applied to a variety of real world social problems. Broad topic areas will include interpersonal relations and helping behaviour, aggression, prejudice and intergroup conflict, leadership and social influence and the impact of social media. There will be an emphasis on ways of reducing social ills or promoting beneficial behaviour, such as reducing prejudice, promoting reconciliation after conflict, promoting environmentally friendly behaviour and employing social media in ways which benefit the users\u2019 wellbeing. An interactive revision session will be held at the end of the module, considering ways in which the lectured material can be usefully brought together. \u00a0 Discussion boards will be used throughout the module to provide deeper reflection and understanding of the lectured material. There will be a written blog assessment and a final two hour examination in which students will answer two from a choice of six essay questions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": ": Semester 2",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc348",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC348_202526.htm"
+}

@@ -1,0 +1,22 @@
+{
+  "code": "PHYS375",
+  "name": "Nuclear Physics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr LP Gaffney",
+  "description": "This module gives an introduction to nuclear physics. Starting from the bulk properties of atomic nuclei different modes of radioactivity are discussed, before a closer look at the nucleon-nucleon interaction leads to the development of the shell model.\u00a0Collective models of the nucleus leading to a quantitative understanding of rotational and vibrational excitations are developed. Finally, electromagnetic decays between excited states are introduced as spectroscopic tools to probe and understand nuclear structure.",
+  "prerequisites": [
+    "PHYS204"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys375",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS375_202526.htm"
+}

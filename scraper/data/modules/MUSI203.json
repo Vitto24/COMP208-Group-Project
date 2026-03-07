@@ -1,0 +1,25 @@
+{
+  "code": "MUSI203",
+  "name": "Popular Performance 2A",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mr SE Stafford",
+  "description": "A practical module that explores issues in Popular Music performance, including development of individual instrumental and vocal skills as well as ensemble playing and group dynamics. Normally students will have taken MUSI 104 Popular Performance 1; proficiency and understanding of how the module works may also be established via a demonstration recording or audition.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": ": End of Semester 1",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI203_202526.htm"
+}

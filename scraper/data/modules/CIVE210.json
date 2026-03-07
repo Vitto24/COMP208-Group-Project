@@ -1,0 +1,25 @@
+{
+  "code": "CIVE210",
+  "name": "HYDRAULICS",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr Y Zhou",
+  "description": "Hydraulics belongs to applied fluid mechanics and covers hydrostatics and hydrodynamics of liquid such as water. The module focuses on pipe flows and open channel flows, which occur in a wide range of science and engineering problems.   It is delivered via lectures, laboratory class and tutorials.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":End of Second Semester",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": ":Semesters  2",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive210",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE210_202526.htm"
+}

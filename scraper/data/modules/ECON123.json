@@ -1,0 +1,30 @@
+{
+  "code": "ECON123",
+  "name": "Principles Of Macroeconomics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr R Forster",
+  "description": "This module complements and builds on Principles of Microeconomics and provides a foundation for further studies in macroeconomics. It introduces concepts and theories of economics which help understand changes in the macroeconomic environment and enables students to explain and analyse the formulation of government macroeconomic policy.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ123",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON123_202526.htm"
+}

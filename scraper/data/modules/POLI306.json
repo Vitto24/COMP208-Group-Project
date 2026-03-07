@@ -1,0 +1,30 @@
+{
+  "code": "POLI306",
+  "name": "HUMANITARIAN ACTION IN COMPLEX EMERGENCIES",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr I Schattner-Ornan",
+  "description": "The geopolitical changes resulting from the end of the Cold War, the \u2018War on Terror\u2019 and the \u2018Arab Spring\u2019 have profoundly changed the environment in which humanitarian action takes place. These changes have triggered heated debates on ethical, analytical, programmatic, and operational issues within the humanitarian community.\n\nNumerous humanitarian actors and agencies have emerged from the global South, alongside and outside of the traditional Western, UN-led humanitarian system. The \u201ccomplex emergencies\u201d of the 1990s and early 2000s, such as those in Rwanda, Somalia and the Balkan conflicts, have now transformed into today\u2019s \u201cprotracted crises,\u201d with 80% of the humanitarian budget now spent on \u201cemergencies\u201d lasting five years or longer. Long-held principles are being questioned or discarded, with humanitarian action no longer seen by many belligerents as either neutral or impartial. Moreover, the impacts of climate change are steadily increasing the vulnerability of populations around the world and have already aggravated these trends. This class will challenge students to consider the principles, analytical perspectives, and actions required to protect the lives, livelihoods, and human dignity of crisis-affected people. The class will also interrogate the critiques levelled against the humanitarian system, such as whether humanitarian action can under certain circumstances do more harm than good, and explore some of the ways the humanitarian system has responded to these challenges.\n\nThis class will introduce students to a broad range of research and evidence that constitutes our collective knowledge on humanitarian action in complex emergencies, key ethical and policy debates, and the practical dilemmas that surround contemporary humanitarian action.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli306",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI306_202526.htm"
+}

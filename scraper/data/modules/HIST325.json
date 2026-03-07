@@ -1,0 +1,25 @@
+{
+  "code": "HIST325",
+  "name": "'REMEMBER TOGETHER': THE THEORY, METHOD AND PRACTICE OF ORAL HISTORY",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr JG Hogg",
+  "description": "This project-based module provides an introduction to oral history as a research method for historians, whilst also offering students the exciting opportunity to engage with ongoing, oral history-based research projects in the History department. As a group we will explore the theory, method, and practice of oral history, considering issues like myth, memory, and nostalgia. Ongoing discussions with practitioners in the field will also allow us to explore the many benefits of oral history as a method for recovering \u2018voices of the past\u2019 before students undertake their own interviews.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist325",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST325_202526.htm"
+}

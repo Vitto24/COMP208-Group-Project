@@ -1,0 +1,25 @@
+{
+  "code": "ARCH311",
+  "name": "ENVIRONMENTAL DESIGN 3",
+  "department": "Architecture",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor CP Hopkins",
+  "description": "The aim of the course is to develop from user requirements an introduction to design of environmental systems for large buildings, selection of appropriate equipment and materials, and their integration into building fabric and structural systems. The three topics are Artificial Lighting, Acoustics, and Thermal Environment and are delivered by a mixture of lectures and case studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": 2",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": ": Semester 2 examination period",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch311",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH311_202526.htm"
+}

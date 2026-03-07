@@ -1,0 +1,25 @@
+{
+  "code": "ENVS223",
+  "name": "An Introduction to Environmental History",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor N Macdonald",
+  "description": "This module explores the course of human history, examining the interaction of people with the environment, moving through the different stages of human development, from early agrarian based developments in the Neolithic 9000 years ago, through to modern agricultural practices and landscape management. The module uses wide ranging literature and case studies to explore a range of human-environment interactions (fuel, food, water, culture and space), exploring how human activities have modified, and been modified, by their environments, and how sudden changes whether natural or human induced have changed this relationship. This module is of relevance and interest to both social and physical science-based students.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Exam Period",
+      "weight": 66
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, approx week 10",
+      "weight": 34
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs223",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS223_202526.htm"
+}

@@ -1,0 +1,31 @@
+{
+  "code": "MATH363",
+  "name": "Linear Statistical Models",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr K Zychaluk",
+  "description": "This module extends earlier work on linear regression and analysis of variance, and then goes beyond these to generalised linear models. The module emphasises applications of statistical methods. Statistical software is used throughout as familiarity with its use is a valuable skill for those interested in a career in a statistical field.",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH103",
+    "MATH163",
+    "MATH253"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math363",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH363_202526.htm"
+}

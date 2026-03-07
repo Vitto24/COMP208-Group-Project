@@ -1,0 +1,25 @@
+{
+  "code": "MUSI214",
+  "name": "LIVE SOUND",
+  "department": "Music",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr JA Holmes",
+  "description": "This module introduces students to Live Sound technology and the practical skills needed to competently and safely operate a Live Sound system. Students will receive lectures on live sound equipment and its applications, along with relevant electronics and acoustics theory. They will also have weekly practical workshops in the Music Hub, where they will learn to operate the Hub P.A. system. They will cover front of house mixing and stage monitor mixing techniques, as well as microphone techniques for live sound and learn about ancillary equipment requirements for live sound. The module also covers very basic lighting set-up and control.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ". The instruments will be separately mic\u00e2\u0080\u0099d and amplified",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi214",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI214_202526.htm"
+}

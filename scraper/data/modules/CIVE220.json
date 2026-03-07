@@ -1,0 +1,25 @@
+{
+  "code": "CIVE220",
+  "name": "GEOMECHANICS 2",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor M Mousavi Nezhad",
+  "description": "This module introduces students to the theoretical framework of geotechnical engineering. It emphasizes soil as a material and provides an introduction to the application of the theory to practical geotechnical engineering problems including bearing capacity of foundations.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Throughout the module",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ":End of Module",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive220",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE220_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ARCH211",
+  "name": "ENVIRONMENTAL DESIGN 2",
+  "department": "Architecture",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr DHC Chow",
+  "description": "This module\u00a0introduces\u00a0students to energy and environmental issues, particularly those that must be faced by the discipline of architecture.\u00a0 \u00a0 The aim of this module is to provide an introduction to design of passive environmental systems for buildings, their integration into building fabric and structural systems, and selection of appropriate equipment and materials. Both the fundamentals and presentations of case studies (including lessons from the vernacular)\u00a0will be used to enhance the understanding environmental simulation. The module will be delivered by weekly 2-hour lectures, and assessed . There are two mandatory  assessments: a Group Report on Vernacular Architecture and the Application of Passive Strategies (50% of total mark), and an individual report (50% of total mark) showing evidence of applying passive strategies for the students\u2019 design studio project (for students taking Year 2 Design Studio) or a critique of a contemporary building .on its potential to use appropriate passive strategies for the climate it resides in.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch211",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH211_202526.htm"
+}

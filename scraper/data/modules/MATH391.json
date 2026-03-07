@@ -1,0 +1,34 @@
+{
+  "code": "MATH391",
+  "name": "Maths Summer Industrial Research Project",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor DC Constantinescu-Loeffen",
+  "description": "The research internship module is designed to give students the experience of working in a research environment or setting that is quite different from any project work that they undertake in the Department of Mathematics. It should provide an insight into how students may apply skills and experiences later in their career; whether working abroad, in industry or in a scientific setting.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math391",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH391_202526.htm"
+}

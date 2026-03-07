@@ -1,0 +1,25 @@
+{
+  "code": "ENVS311",
+  "name": "Contemporary Population Dynamics",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor M Green",
+  "description": "This course explores contemporary population dynamics across Europe. Students will explore fertility, mortality and migration dynamics across selected countries in Europe; review explanations for population change; and examine the policy challenges posed by such population change. Students will also explore these debates in a local context through a digital field walk in Liverpool, blending traditional approaches with expanded potentials via technology.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ":Second semester",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs311",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS311_202526.htm"
+}

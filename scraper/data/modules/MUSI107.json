@@ -1,0 +1,25 @@
+{
+  "code": "MUSI107",
+  "name": "Popular Composition 1",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mr AJ Frizell",
+  "description": "Students will develop a practical understanding of compositional techniques in songwriting since the beginning of the recording age (early 1900s) focussing mainly on popular composition since 1950. Through analysis of songs up to the present day, students will examine melody writing, chord structures, lyrics, arrangement and the implications of technology (recording techniques), creating their own original material in two assignments through the semester.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI107_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "MUSI232",
+  "name": "Opera and Politics",
+  "department": "Music",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr LR Carter",
+  "description": "This module considers the relationship between opera and politics, both broadly conceived, with a view to understanding operatic responses to political developments, and the response to opera in political contexts. Along the way, students will gain an understanding of the development of opera and its sub-genres.\n\nThemes under consideration throughout the course and in relation to a variety of operatic material include:\u2022the politics of operatic production (including composition and staging);\u2022the politics of representation (for instance, gender, race, sexuality);\u2022the intersection of national/international politics with local/identity politics\u2022and the production and reception of opera in relation to landmark historical events and developments (for instance, the French Revolution and the ensuing wars, the unification of Italy and Germany, or the rise of European nationalism and imperialism).\n\nSpecific topics and material may vary annually according to staff availability and research areas.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ": Semester 1",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi232",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI232_202526.htm"
+}

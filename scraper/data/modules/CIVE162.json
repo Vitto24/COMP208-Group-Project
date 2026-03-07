@@ -1,0 +1,20 @@
+{
+  "code": "CIVE162",
+  "name": "CIVIL AND ARCHITECTURAL ENGINEERING PROJECTS",
+  "department": "Civil and Environmental Engineering",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Mr A Mannis",
+  "description": "This module provides students with an introduction to projects within the built environment, the roles of professional engineers, the professions they will interact with, and the skills required by a professional engineer operating in the built environment",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Throughout the module",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive162",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE162_202526.htm"
+}

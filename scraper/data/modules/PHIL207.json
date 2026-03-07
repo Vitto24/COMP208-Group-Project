@@ -1,0 +1,25 @@
+{
+  "code": "PHIL207",
+  "name": "LOGIC",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr SK McLeod",
+  "description": "This module teaches students how to construct consistency trees and derivations for first-order logic. PHIL127 is a prerequisite for this module and students on programmes other than GV15 Mathematics and Philosophy must have obtained a mark of at least 60% for PHIL127. Taking this module will enhance your ability to work with abstract material, your problem-solving skills and your personal resilience. It will help you understand logical notation when you encounter it in your reading and prepare you for more advanced logic study. This module is taught via support materials, pre-recorded worked examples, and by weekly tutorials and practical workshops. It will be assessed using continuous assessment, both formative and summative (40%) and via a final examination (60%). Each week, students will receive detailed feedback on their work.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil207",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL207_202526.htm"
+}

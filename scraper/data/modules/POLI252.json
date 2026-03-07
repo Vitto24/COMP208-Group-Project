@@ -1,0 +1,25 @@
+{
+  "code": "POLI252",
+  "name": "INTERNATIONAL POLITICAL COMMUNICATION AND PUBLIC SPEAKING",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr AS Roe-Crines",
+  "description": "This is the first module offered to second year undergraduate students to examine the process of political speech and its impact upon the quality of democratic discourse. The module will scrutinise the kind of audiences political figures face, issues of freedom of speech, the development of authentic political rhetoric, the advancement of ideological perspectives, the impact of political manipulation through concepts such as \u2018fake news\u2019, and also the process of delivering political speeches.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/poli252",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI252_202526.htm"
+}

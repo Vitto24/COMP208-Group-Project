@@ -1,0 +1,25 @@
+{
+  "code": "POLI101",
+  "name": "BRITISH POLITICS 1",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr AS Roe-Crines",
+  "description": "The module covers the ideas, policies of the main political parties in UK politics and how they are conditioned by wider ideologies. It examines the key reasons why people vote the way they do, analysing recent elections. The module assesses the importance of the media and political rhetoric and also analyses the importance of gender.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/poli101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI101_202526.htm"
+}

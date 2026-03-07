@@ -1,0 +1,25 @@
+{
+  "code": "BIOS104",
+  "name": "From Individuals to Ecosystem",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor GDD Hurst",
+  "description": "Ecology explores the intricacies of our living environment, encompassing the spatial and temporal distribution of organisms, their dispersal patterns, population dynamics, interspecies interactions, community development over time, and the formation and functioning of diverse ecosystems. Evolutionary ecology explores the biological variations among species within this natural context, examining phenomena like rapid life cycles or long lifespans. This course provides a comprehensive overview of both foundational ecology and evolutionary ecology, addressing the challenges that natural populations and ecosystems face in our dynamic world.\n\nThe module will be delivered through, research-connected lectures by research active scientists.  There are two assessments which assess students in interpreting scientific publications, while online tests assess their grasp of the covered topics. These assessments collectively contribute to evaluating students' knowledge and understanding of the subject matter.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios104",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS104_202526.htm"
+}

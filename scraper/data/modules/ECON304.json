@@ -1,0 +1,27 @@
+{
+  "code": "ECON304",
+  "name": "Business Finance",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr EM Apps",
+  "description": "The module provides students with a fundamental understanding of the core theoretical and empirical aspects involved in corporate finance (such as bond/stock valuation, capital structure, dividend policy and leasing contracts).",
+  "prerequisites": [
+    "ACFI103"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ304",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON304_202526.htm"
+}

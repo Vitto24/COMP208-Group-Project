@@ -1,0 +1,28 @@
+{
+  "code": "ECON241",
+  "name": "Securities Markets",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr GS Brown",
+  "description": "This module seeks to provide students with an understanding of the role of securities markets in the global economy. This will be achieved through a presentation of their basic mechanisms and technical features, an explanation of the valuation of certain financial assets and an assessment of the operational and allocative efficiency of the markets. The module will be delivered via weekly small group face to face sessions and through weekly online lectures delivered asynchronously. Students will be directed to various media resources relevant to their day to day following and awareness of the activities of the global financial markets.",
+  "prerequisites": [
+    "ACFI103",
+    "ECON123"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ241",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON241_202526.htm"
+}

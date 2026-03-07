@@ -1,0 +1,25 @@
+{
+  "code": "ENGL218",
+  "name": "Romantic Literature",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr J Roberts",
+  "description": "Romanticism is a cultural movement dominant in Europe from the late eighteenth to early nineteenth centuries.  The poetic focus of this course is the Romantic lyric.  As a genre, it is autobiographical, emotional, confessional; it says: to know your self, narrate your self.  It is often painful: that self may have been tried in the fires of political revolution, domestic violence, warfare, disinheritance, alienation, slavery, poverty, and incarceration of the \u2018mad\u2019: these are the stories of the writers on the module, the poetry of Anna Laetitia Barbauld, Charlotte Smith, William Blake, William Wordsworth, Samuel Taylor Coleridge, Felicia Hemans, Percy Bysshe Shelley, John Keats, and John Clare; and also the autobiographical and fictional narratives of Olaudah Equiano, Jane Austen, and Mary Prince.  Yet the self here is never the sum of its suffering: these writers reach for truths that exceed any human legislation, not least in the awe-inspiring mystery, power, and delicacy of the natural world.  They testify to a human psyche that is cosmic in its comprehension, and which can not only reach to the infinite, but can bring that insight to fellow humans through the experience of literature itself.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 67
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 33
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl218",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL218_202526.htm"
+}

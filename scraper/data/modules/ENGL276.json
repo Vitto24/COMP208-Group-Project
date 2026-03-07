@@ -1,0 +1,30 @@
+{
+  "code": "ENGL276",
+  "name": "LANGUAGE IN SOCIETY",
+  "department": "English",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr S Lampropoulou",
+  "description": "This course examines the interactive relationship between language and society. It explores language variation and the influence of social factors, such as social class, social networks and gender on the way we speak. Within the prism of interactional sociolinguistics, it examines speakers\u2019 construction of social identities and the importance of context in identity construction. The module also aims to address sociolinguistic phenomena, such as diglossia, bilingualism and language shift that emerge from language contact. Relevant theories will be applied to naturally occurring data and methodological issues of data collection and analysis will be examined. The module is taught via synchronous or asynchronous whole cohort sessions, synchronous small group sessions, independent study and your own small scale sociolinguistic study in an area of language in society.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": End of semester 1",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": End of semester 1",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl276",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL276_202526.htm"
+}

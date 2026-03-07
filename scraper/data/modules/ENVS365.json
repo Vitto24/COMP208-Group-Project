@@ -1,0 +1,30 @@
+{
+  "code": "ENVS365",
+  "name": "Fieldwork: Liverpool & Its Region",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr MLT Rose",
+  "description": "This module gives students experience of designing, collecting and analysing field data in the North West of England. It will develop students understanding of application of geographic theory to fieldwork whilst focusing on an issue that interests them. The module develops and enhances students research skills developed previously in their degree, whilst also encourages the development of authentic assessment-related skills through the writing of policy briefs or alternatives and the presentation of research findings in a format of the student\u2019s choice. The module has been designed to allow students who may not wish to travel or undertake residential fieldwork to continue to develop their fieldwork skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Not anonymous",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs365",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS365_202526.htm"
+}

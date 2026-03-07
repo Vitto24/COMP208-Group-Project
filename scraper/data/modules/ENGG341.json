@@ -1,0 +1,30 @@
+{
+  "code": "ENGG341",
+  "name": "INDIVIDUAL PROJECT",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 0,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr A Ockelford",
+  "description": "The Year 3 individual research project; 300 hours student work over 2 semesters; 3 assessment stages (proposal 5%, interim 20%, final 75%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 85
+    },
+    {
+      "type": "coursework",
+      "title": ":1",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg341",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG341_202526.htm"
+}

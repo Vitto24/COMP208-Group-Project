@@ -1,0 +1,27 @@
+{
+  "code": "ACFI307",
+  "name": "Management Accounting for Business",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr MJ Swift",
+  "description": "The aim of the module is to build on the basic management accounting methods seen in ACFI 107 through coverage of a range of additional/more advanced techniques that aid costing, decision-making, planning and control. The module will also cover some of the contemporary developments within management accounting and performance measurement which have had a fundamental impact on the way many organisations are operated and managed.",
+  "prerequisites": [
+    "ACFI107"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 75
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/acfi307",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI307_202526.htm"
+}

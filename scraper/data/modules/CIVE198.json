@@ -1,0 +1,35 @@
+{
+  "code": "CIVE198",
+  "name": "Engineering Mathematics for CEE",
+  "department": "Civil and Environmental Engineering",
+  "semester": 0,
+  "level": null,
+  "credits": 22.5,
+  "lecturer": "Dr S Povall",
+  "description": "CIVE198 is a Year 1 Mathematics module for students of programmes taught in the Department of Civil & Environmental Engineering. It is designed to reinforce and build upon A-level (or equivalent) Mathematics, providing students with the strong background required for engineering modules in year 2, 3 and 4.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ".  Students who pass at the first attempt will be awarded 100% for this assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive198",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE198_202526.htm"
+}

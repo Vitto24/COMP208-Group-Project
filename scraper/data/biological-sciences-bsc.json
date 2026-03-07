@@ -1,0 +1,59 @@
+{
+  "course_name": "Biological Sciences BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "BIOS101",
+        "BIOS102",
+        "BIOS103",
+        "BIOS104",
+        "BIOS105",
+        "BIOS106"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "BIOS201",
+        "BIOS203",
+        "BIOS205",
+        "BIOS207",
+        "BIOS209"
+      ],
+      "optional": [
+        "BIOS204",
+        "BIOS206",
+        "BIOS208",
+        "BIOS212",
+        "BIOS214",
+        "BIOS216",
+        "BIOS218",
+        "BIOS220",
+        "BIOS222",
+        "ENVS251",
+        "BIOS224"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "BIOS301",
+        "BIOS302",
+        "BIOS303",
+        "BIOS308"
+      ],
+      "optional": [
+        "BIOS307",
+        "BIOS309",
+        "BIOS313",
+        "BIOS317",
+        "BIOS321",
+        "BIOS325",
+        "BIOS327",
+        "BIOS333",
+        "BIOS335",
+        "ENVS310"
+      ]
+    }
+  }
+}

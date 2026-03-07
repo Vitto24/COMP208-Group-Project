@@ -1,0 +1,25 @@
+{
+  "code": "LAW344",
+  "name": "Comparative Law",
+  "department": "Law",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor T Horsley",
+  "description": "In today\u2019s globalised world, legal professionals are increasingly in contact with \u2018foreign law\u2019 \u2013 the law of other legal systems. Practitioners are hired to litigate transnational legal disputes. Judges may also be required to engage with foreign law in legal proceedings. Legislatures too frequently look outside their own legal systems for solutions to regulatory problems.\n\nBut is it possible to transplant legal rules and structures from one system to another? How and why might this be done? To what extent should judges engage with foreign law? And is it even possible to engage meaningfully with foreign law without detailed knowledge of the legal system to which that law belongs?\n\nComparative law provides a framework to approach, analyse and critique the use of foreign law. This module will introduce you to the principal theories and methodologies of comparative law. The focus is on empowering you to understand the application of comparative law to resolve legal problems and regulatory challenges within domestic and international legal systems.\n\nAt the end of this module, you will have a clear understanding of the nature, functions and limits of comparative law and be able to relate these to a broad range of contemporary and historical legal developments within particular legal systems. You will also be equipped to evaluate the strengths and weaknesses of the comparative method in specific contexts; for example, as a mode of constitutional law reform. By introducing you to critical and postmodern approaches to comparative law, the module will further challenge you to think critically about liberal and western-centric trends that remain deeply embedded in legal scholarship and practice.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "will be released after the reading week for submission by end week 12",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "will be released during semester 1 in line with the release dates for level 6 coursework",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law344",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW344_202526.htm"
+}

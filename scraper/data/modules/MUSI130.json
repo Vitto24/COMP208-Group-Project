@@ -1,0 +1,25 @@
+{
+  "code": "MUSI130",
+  "name": "Introduction to Classical Music History",
+  "department": "Music",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor M Spitzer",
+  "description": "This module ensures a solid foundation in the history of western art (\"classical\") music since the Baroque era, providing students with suitable experience for second and third year classical history modules on more specific topics. The module deals not only with key composers, genres, and structures, but also with appropriate contextual issues. In unscheduled time, the module also provides a basic grounding in core study skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 90
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi130",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI130_202526.htm"
+}

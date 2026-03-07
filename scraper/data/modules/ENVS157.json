@@ -1,0 +1,35 @@
+{
+  "code": "ENVS157",
+  "name": "Ecology and Conservation",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr AJ Hacket Pain",
+  "description": "The zone of life on earth, or the \u2018biosphere\u2019, is a highly dynamic system responding to external pressures including changing human activities. The biosphere obeys a numbers of simple natural principles, but these often interact to create complex and sometimes unexpected responses. Using a wide range of examples we will explore these interactions between organisms and the environment. We will examine how species organise into communities, and how energy and other resources flow through ecosystems. We will explore how ecosystems respond to change, including gradual environmental shifts, sudden disturbance events and the effects of human activities. We will also learn how the key principles of ecology can be applied to conservation. We will assess the current state of the biosphere, and evaluate the major current threats. We will also look towards the future of ecosystems, including whether we can restore degraded habitats, and recreate \u201cnatural\u201d landscapes.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs157",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS157_202526.htm"
+}

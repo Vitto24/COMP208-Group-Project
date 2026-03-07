@@ -1,0 +1,25 @@
+{
+  "code": "CIVE334",
+  "name": "OLD STRUCTURES OF STEEL, TIMBER AND MASONRY",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr MJ Bather",
+  "description": "It has been shown that the refurbishment of existing buildings is a more sustainable option than demolition and reconstruction as it leads to significant reductions in CO2 emissions. Additionally, the benefits of refurbishment (in comparison to new construction) extend beyond CO2 emissions and reduced energy expenditure: (i) less raw materials, (ii) less waste, (iii) heritage conservation and community retention and finally, (iv) well restored structures have a high economic value. This module gives students an insight into the structural appraisal and reuse of existing structures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":End of Module",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "during the semester",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive334",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE334_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ARCH371",
+  "name": "Practice Management",
+  "department": "Architecture",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Ms E Curtin",
+  "description": "The objective of the module is to provide a basic understanding of practice management and\u00a0the role architects play in the procurement of buildings. It aims to provide a context for the professional life of an architect and explain the functions of the other key players.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch371",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH371_202526.htm"
+}

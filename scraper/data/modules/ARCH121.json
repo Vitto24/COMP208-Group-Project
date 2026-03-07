@@ -1,0 +1,20 @@
+{
+  "code": "ARCH121",
+  "name": "CONTEXT 1.2 ARCHITECTURE AND THE BUILT ENVIRONMENT",
+  "department": "Architecture",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr T Schmiedeknecht",
+  "description": "The module introduces students to ways of looking at and understanding the architectural credentials of buildings.  It is based on the German concept of 'Geb\u00e4udelehre', which translates into English as 'building studies'. The module sits between, and is aiming to support the other module strands in year one, namely studio design; history and theory; and technology. Students are shown a series of buildings of varying sizes (XS, S, M, L, XL) and in the lectures these buildings will be presented by looking at and analysing their plans, sections, elevations, context, internal and external space, type, circulation and materiality. Furthermore, issues of private and public space and public and private buildings, ensembles, composition, symmetry / asymmetry, the repetition of elements and spaces, and fronts and backs, will be discussed. The module is aiming to equip students with tools to independently analyse and understand buildings, also with a view to enhance their design abilities. The module is delivered as a series of lectures and seminars. Assessment will be via submission of coursework.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ".  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch121",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH121_202526.htm"
+}

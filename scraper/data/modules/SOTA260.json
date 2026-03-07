@@ -1,0 +1,25 @@
+{
+  "code": "SOTA260",
+  "name": "Professional and Career Development",
+  "department": "Communication and Media",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mrs A Gerrard",
+  "description": "The module aims to prepare students for a smooth transition into a work placement year and, more broadly, to develop lifelong skills, attitudes and behaviours and support students in their continuing professional development. This will help students lead flexible, fulfilling careers working as a professional in their field, and enable them to contribute meaningfully to society.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/sota260",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_SOTA260_202526.htm"
+}

@@ -1,0 +1,34 @@
+{
+  "code": "MATH367",
+  "name": "NETWORKS IN THEORY AND PRACTICE",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr P Buividovich",
+  "description": "MATH367 aims to develop an appreciation of optimisation methods for real-world problems using fundamental tools from network theory; to study a range of \u2018standard problems\u2019 and techniques for solving them. Thus, network flow, shortest path problem, transport problem, assignment problem, and routing problem are some of the problems that are considered in the syllabus. MATH367 is a decision making module, which fits well to those who are interested in receiving knowledge in graph theory, in operational research, in economics, in logistics and in finance.",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math367",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH367_202526.htm"
+}

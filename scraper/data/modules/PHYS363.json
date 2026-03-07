@@ -1,0 +1,22 @@
+{
+  "code": "PHYS363",
+  "name": "Solid State Physics",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr HR Sharma",
+  "description": "Condensed Matter Physics (CMP) is the largest subfield of physics with practical applications that has changed our everyday life such as semiconductor devices, magnetic recording disks, Magnetic resonance imaging. It deals with the study of the structure and physical properties of large collection of atoms that compose materials, which are found in nature or synthesized in laboratory. This particular module aims to advance and extend the concepts on solids introduced in Year 1 and Year 2 modules. Especially, it focuses on the atomic structure and behaviour of electrons in crystalline materials, which are essential for understanding of physical phenomena in complex systems.",
+  "prerequisites": [
+    "PHYS202"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys363",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS363_202526.htm"
+}

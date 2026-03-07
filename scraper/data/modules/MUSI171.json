@@ -1,0 +1,25 @@
+{
+  "code": "MUSI171",
+  "name": "Introduction to Sound and Technology",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mr JA Holmes",
+  "description": "The module introduces students to the basic principles of sound, acoustics and music technology. They will learn about many of the core concepts, relevant terminology and theories essential to modern music technology studies. Subjects covered will include acoustics and sound propagation, analogue and digital audio theory, key electronics theories and sound measurement systems. The module includes some practical work at a digital audio workstation.  Normally, the module will include a visit to the University\u2019s Acoustics Research Unit.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi171",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI171_202526.htm"
+}

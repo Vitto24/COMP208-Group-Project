@@ -1,0 +1,30 @@
+{
+  "code": "PSYC398",
+  "name": "Business and Enterprise in Psychology",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CA Hands",
+  "description": "This programme offers a unique opportunity for Psychology students to develop essential employability skills, including business acumen, entrepreneurial awareness, and strategic thinking\u2014areas not typically covered in a traditional Psychology programme. In an increasingly competitive job market, the ability to apply psychological knowledge creatively, identify opportunities, and contribute to organisational development is invaluable. While this module is highly relevant for those interested in entrepreneurship, it also benefits students pursuing careers as freelance practitioners, consultants, or employees seeking to drive innovation within an organisation.\n\nStudents will work in teams of approximately five or six to develop a real start-up business, supported by experienced mentors from Young Enterprise who specialise in working with Psychology undergraduates. The module consists of twelve two-hour seminars covering key topics such as entrepreneurship, business psychology, finance, marketing, sustainability, business planning and development. Alongside these, students will participate in six three-hour mentoring sessions, where they will receive expert guidance on refining business ideas and strategies. They will also engage in six group work sessions facilitated by University of Liverpool staff, supporting collaborative problem-solving and project development.\n\nAssessment for the module is designed to reflect real-world business experiences and develop key employability skills. Students will take part in a Dragon\u2019s Den-style group presentation, where they will pitch their start-up ideas to a panel of local business leaders, demonstrating their ability to present compelling arguments and respond to critical questioning. In addition, each student will individually create a pitch deck, developing a slide deck that focuses on their specific role within the business, ensuring they articulate their individual contributions and business strategy effectively. Finally, students will complete a professional discussion, recorded as a video submission, where they will respond to questions relating to their experience on the module, their role within the team, and the broader application of their skills to future employability.\n\nTeaching will be delivered by a range of internal and external experts from the School of Psychology, the Management School, Careers & Employability Service, and Young Enterprise. The programme is designed to equip students with the knowledge and skills needed to navigate the business world, whether as entrepreneurs, freelancers, or innovative employees within an organisation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Group work  This is not an anonymous assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Standard UoL penalty applies for late submission",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc398",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC398_202526.htm"
+}

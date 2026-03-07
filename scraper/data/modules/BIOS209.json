@@ -1,0 +1,29 @@
+{
+  "code": "BIOS209",
+  "name": "Cellular Basis of Health and Disease",
+  "department": "Biosciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor C Dart",
+  "description": "Cell signalling underlies the ability of cells to sense their environment and respond.  In multicellular organisms, individual cells receive and integrate vast amounts of information that they use to modify their behaviour to ensure the development and survival of the organism as a whole.  Disruption in these lines of communication underlies almost all disease.\n\nDespite the apparent complexity, diverse signalling processes are carried out by very similar sets of molecular components that interact in common patterns. This module will be taught via lectures which focus on the common molecular themes and concepts that underlie normal cell signalling. This will be interspersed with disease case studies that show how disruption of these processes affect cells, tissues, and the whole organism.\n\nAssessment will include an open-book on-line assessment and an in person, unseen exam, which will focus on the evaluation of case studies, data analysis/interpretation.",
+  "prerequisites": [
+    "BIOS101",
+    "BIOS104",
+    "BIOS102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": data analysis and interpretation (MCQs/MAQs/FiBs etc) (40%)",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ": data analysis and interpretation (MCQs/MAQs but also some SAQs) (60%)",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios209",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS209_202526.htm"
+}

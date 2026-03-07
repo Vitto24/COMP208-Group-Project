@@ -1,0 +1,25 @@
+{
+  "code": "LAW341",
+  "name": "PRIVACY, SURVEILLANCE AND THE LAW OF SOCIAL MEDIA",
+  "department": "Law",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mr J Savirimuthu",
+  "description": "This module takes as its starting point the challenges faced by individuals in determining how their personal data is collected and processed in a digital environment comprising global technology corporations and online service providers. Students will be introduced to the rationale, concepts, themes, and body of law associated with data protection law and electronic communication relations. The learning and teaching activities are designed to provide students with an opportunity to explore the rights, duties and remedies associated with the generation of personal information through interaction with digital devices and online services. The module equips students with the knowledge, skills and confidence in reflecting critically on the role and significance of data protection rules for regulating the social media environment, and encouraged to communicate their knowledge to peers in the module.  More specifically, the mode of instruction and delivery is designed to foster in students an agile and solution focused mindset through an exploration of the connection between data protection theory and practice of resolving governance disputes in the social medial environment. Students will undertake their study in a learning environment which will enable them to develop their problem-solving, research and communication skills when addressing issues such as what types of processing activities are regulated, the contexts in which rights and duties materialise and measures for managing risks in the evolving social media landscape. The use of case studies and examples will provide students with opportunities to assess their relevance for addressing compliance questions and likely impact on individuals and business processing strategies in the networked social media landscape.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":Semester 2",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 95
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law341",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW341_202526.htm"
+}

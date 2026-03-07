@@ -1,0 +1,30 @@
+{
+  "code": "POLI235",
+  "name": "DEMOCRATISATION AND POLITICAL CHANGE",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr NDM Lees",
+  "description": "The module provides an overview of struggle for democracy in contemporary history. It challenges students to reflect upon why a particular variety of democracy, representative government (or 'polyarchy'), has become one of the dominant political systems in the modern world. It explores the circumstances under which dictatorship gives way to representative government, and the conditions under which it endures.\n\nThe course focuses on three major approaches to questions of democratisation: modernisation theory; the social forces tradition; and transition theory. These rival theories provide the framework for an exploration of key cases in the history of democracy as the course follows the so called 'waves of democracy' and 'reverse waves' of democratic breakdown.\n\nMoving to the frontier of democratic struggle, the course examines the prospects for democracy in the global South, or amongst countries that democratised during the most recent \u2018Third Wave.\u2019 Is there any reason to expect that democracy will take root and consolidate, or might new hybrid political systems establish themselves? Will struggles over the legitimate basis of political rule continue? What can this tell us about the future of democracy in an interdependent world?",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli235",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI235_202526.htm"
+}

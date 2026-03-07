@@ -1,0 +1,25 @@
+{
+  "code": "PSYC336",
+  "name": "The Psychology of Health",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr LP Jackson",
+  "description": "This is a third year undergraduate health psychology module. The module will introduce students to the fundamental concepts of health psychology and the theoretical models which have been developed to aid understanding of health-related behaviours and health outcomes. The module will discuss and debate the individual, psychological, social, and biological influences on health and healthcare delivery. Students will develop an understanding of the intersectionality of these factors and how they influence health and health behaviour. The module has clear links to professional health psychologist career pathways and would be a good foundation for students wishing to pursue postgraduate study in an area of health psychology.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "and targeting the intersectionality of two factors which influence that health behaviour (e",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc336",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC336_202526.htm"
+}

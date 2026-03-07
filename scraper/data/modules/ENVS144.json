@@ -1,0 +1,25 @@
+{
+  "code": "ENVS144",
+  "name": "Global Challenges: Development, Inequality, Alternatives",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor LJ Gahman",
+  "description": "This module is designed to appeal to students who would like to live in a better world and are interested in exploring and discussing critical approaches to global inequality, environmental degradation, and social injustices faced by marginalised groups. Students will gain understanding of the multiple and contested ways in which global challenges, crises, and development are defined, framed, studied, and responded to. This will include critical attention to historical forces, root causes, global peripheries, and forms of present-day uneven geographical development. Students will also gain insight into how oppressed communities respond to inequality, development, and discrimination through resistance, collective action, and building alternatives.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs144",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS144_202526.htm"
+}

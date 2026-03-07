@@ -1,0 +1,25 @@
+{
+  "code": "MKIB253",
+  "name": "International Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr J Zhu",
+  "description": "In a globalised world, companies of all kinds are no longer limited to producing and selling their goods and services in domestic markets. They explore global markets and operate across national borders. What challenges do companies face as they operate in multiple nation-states? How are they different from the domestic companies? How can multinational companies (MNCs) be managed effectively in order to stay competitive in the global market? This module aims to produce the knowledge and skills for students to address these questions. The module is structured into three parts. The first part discusses globalisation and MNCs, providing an overview of the changing landscape of the global economy. The second part focuses on the challenges that faced by MNCs with an analysis on the complex and often conflicting external environmental factors that shape the strategy and management of MNCs. The third part discusses how MNCs manage these challenges, exploring different strategies and practices that managers could consider in managing operation, talents and knowledge across borders.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib253",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB253_202526.htm"
+}

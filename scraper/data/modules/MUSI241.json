@@ -1,0 +1,25 @@
+{
+  "code": "MUSI241",
+  "name": "SOUND, TECHNOLOGY, AND SOCIETY",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr R Strachan",
+  "description": "This course examines the ongoing relationship between technological development, popular music and the cultures which surround it. Students are introduced to major perspectives on popular music and technology in order to examine social, aesthetic and historical issues.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi241",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI241_202526.htm"
+}

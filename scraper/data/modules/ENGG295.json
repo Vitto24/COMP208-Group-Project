@@ -1,0 +1,50 @@
+{
+  "code": "ENGG295",
+  "name": "Engineering Mathematics and Computing",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 0,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr VS Page",
+  "description": "Engineering Mathematics and Computing will provide a fundamental understanding of mathematical techniques used to solve Engineering problems. Successful completion of this module will provide students with basic skills and solution methodologies (mathematical, and using MATLAB) for various engineering applications. The module will expose the essentials of numerical methods to solve systems of linear, non-linear, ordinary and partial differential equations. A series of classic engineering problems, such as trusses, mass-spring dampeners, 2D trajectory calculation, and 2D heat flow will place the acquired knowledge in an engineering context.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg295",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG295_202526.htm"
+}

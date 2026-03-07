@@ -1,0 +1,30 @@
+{
+  "code": "ECON323",
+  "name": "Economics of Banking",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr R Forster",
+  "description": "The aim of this module is to address the following and related questions: 1) What distinguishes banks from other firms? 2) What determines their behaviour when they set interest rates and extend loans? 3) What is their role in the economy? 4) Why is banking subject to a long list of specific regulations? 5) How is monetary policy transmitted through the banking system? 6) Why do banking crises occur and what are their consequences for the macroeconomy? The module covers both microeconomic and macroeconomic issues. It has points of connection to modules on industrial organization, finance and monetary policy.",
+  "prerequisites": [
+    "ECON212",
+    "ECON213",
+    "ECON223",
+    "ECON224"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ323",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON323_202526.htm"
+}

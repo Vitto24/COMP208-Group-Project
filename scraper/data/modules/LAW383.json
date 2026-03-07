@@ -1,0 +1,29 @@
+{
+  "code": "LAW383",
+  "name": "Artificial Intelligence and the Future of Legal Services",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr JJ Marshall",
+  "description": "This is a project-based module that requires students to work in teams using a specific \u2018artificial intelligence\u2019 (AI) technology to solve a challenging legal problem. Students will use their experience of working on their project to inform their individual analysis of the appropriate role of AI in the justice system. The module has been designed in collaboration with key partners from the legal and technology sectors and it builds on contemporary debates about the future of law and the future of the legal professions. Using our project as a point of reference we will discover how AI can be developed to tackle problems that involve legal reasoning, and we will debate competing ethical, economic, regulatory and other arguments concerning whether AI should be used in the justice system, and if so, how it should be used. As a project-based module, LAW383 will require sustained commitment by students both to their respective team-mates and to the project itself. This module will be more suitable for students who are not solely interested in the conventional approach to learning and applying the law, but who have a strong desire to expand their technical skill set and project-management skills to meet the growing demand in the legal sector for lawyers who are also capable \u2018legal designers', \u2018legal engineers\u2019, and \u2018innovation leads\u2019.",
+  "prerequisites": [
+    "LAW107",
+    "LAW105",
+    "LAW209"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "(2000 words)    This component will use the standard L6 assessment criteria",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "The presentation component will use bespoke assessment criteria",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law383",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW383_202526.htm"
+}

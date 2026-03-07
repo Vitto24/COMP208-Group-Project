@@ -1,0 +1,47 @@
+{
+  "course_name": "Mechanical Engineering BEng (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "MECH109",
+        "ENGG110",
+        "ENGG111",
+        "ENGG116",
+        "ENGG125",
+        "ENGG198",
+        "MATS105"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "AERO213",
+        "MECH212",
+        "MECH215",
+        "MECH217",
+        "MNGT202",
+        "ENGG201",
+        "ENGG209",
+        "ENGG295",
+        "MATS201"
+      ],
+      "optional": []
+    },
+    "3": {
+      "compulsory": [
+        "ENGG341",
+        "MECH301",
+        "MECH303",
+        "MECH316",
+        "MECH326",
+        "MNGT352",
+        "ENGG386"
+      ],
+      "optional": [
+        "MNFG303",
+        "ENGG305"
+      ]
+    }
+  }
+}

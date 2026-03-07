@@ -1,0 +1,25 @@
+{
+  "code": "ENGL279",
+  "name": "Multilingualism in Society",
+  "department": "English",
+  "semester": 2,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Dr S Gao",
+  "description": "This module\u00a0provides\u00a0an introduction to sociolinguistic and ethnographic approaches to the study of multilingualism. We will look at what language is, what multilingualism is, how individuals use multiple languages in everyday interaction, and how multiple languages are managed in society.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 55
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl279",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL279_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "CIVE320",
+  "name": "Geotechnical Engineering",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr G Sang",
+  "description": "This module introduces students to the theory and methods that underpin geotechnical engineering practice. It covers the design of shallow and deep foundations, retaining walls, slopes and other structures according to Eurocode 7.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive320",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE320_202526.htm"
+}

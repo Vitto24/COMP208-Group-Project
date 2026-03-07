@@ -1,0 +1,25 @@
+{
+  "code": "ARCH261",
+  "name": "Technology 2.2: Structural Design",
+  "department": "Architecture",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr H Chen",
+  "description": "Lecture based technology module.This module explores the design collaboration between architects and engineers and its impact on architectural design.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch261",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH261_202526.htm"
+}

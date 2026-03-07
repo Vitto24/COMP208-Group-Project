@@ -1,0 +1,25 @@
+{
+  "code": "ULMS115",
+  "name": "The New Professional",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr PJ Murray",
+  "description": "This module aims to introduce students to the academic and professional skills they will require throughout their university career and beyond. Students will examine the tools and techniques necessary to examine and evaluate both qualitative and quantitative data and gain an understanding of how these are relevant in the modern business environment. The module will also provide an opportunity to develop key professional skills needed in the corporate environment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms115",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS115_202526.htm"
+}

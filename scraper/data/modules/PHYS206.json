@@ -1,0 +1,32 @@
+{
+  "code": "PHYS206",
+  "name": "PRACTICAL PHYSICS II",
+  "department": "Physics",
+  "semester": 0,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr C Edmonds",
+  "description": "The module \"Practical Physics II\" covers experimental techniques in\u202fbroad range of physics phenomena which include measurements of fundamental constants, optics, nuclear physics and electronics. The experimental techniques and analysis methods are appropriate for Year 2 courses. Successful students will achieve improved practical skills and experience a detailed understanding of the fundamental physics behind the experiments, increased confidence in setting up and calibrating equipment, familiarity with IT package for calculating, displaying and presenting results, enhanced ability to plan, execute and report the results of an investigation, the skills to assemble, test and debug electronic circuits involving the use of both passive and active electronic components, the skills to write scientific papers",
+  "prerequisites": [
+    "PHYS106"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Standard UoL penalty applies for late submission",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys206",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS206_202526.htm"
+}

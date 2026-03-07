@@ -1,0 +1,30 @@
+{
+  "code": "HIST246",
+  "name": "THE HISTORIAN'S TOOLKIT FOR LIFE",
+  "department": "History",
+  "semester": 1,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Professor D Jeater",
+  "description": "This is a workshop-based module that specifically equips students with a \u2018toolkit\u2019 of practical and theoretical skills for writing a piece of independent historical research but with wider application beyond the academy. Students work in groups to explore different ways of doing research and using theory. They learn to use these tools initially by applying them to topics the students are studying in other modules, thereby reinforcing and deepening their learning on those other modules, too. It then provides opportunities to use these tools in real-life contexts such as statistical analysis, funding and job applications. The module bridges progression from Year 1 towards Year 3, prepares students for Year 3 special subject and research dissertation, and exposes students to workplace-based applications of critical thinking skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist246",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST246_202526.htm"
+}

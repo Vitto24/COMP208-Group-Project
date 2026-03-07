@@ -1,0 +1,25 @@
+{
+  "code": "BIOS206",
+  "name": "Advanced Practical Skills in Microbiology, Infection & Disease",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr RV Floyd",
+  "description": "This practical module aims to provide students with an opportunity to learn and apply a range of microbiology and infection biology practical and laboratory techniques, in order to develop your ability to plan and execute research projects and tackle scientific problems related to infection, health & disease. The module will address areas of research-connected infection biology teaching, across areas of broad relevance to infectious diseases in a variety of hosts. Topics will focus on the diagnosis and surveillance, treatment and prevention of infectious diseases and will enable students to understand the impact of infectious diseases on society.\n\nThrough a series of interactive experimental sessions and live synchronous workshops, you will gain practical experience in a variety of analytical and quantitative experimental practices. You will also learn the underpinning knowledge behind some of the methodologies and intricacies of experimental design, all the while supplementing your wider theoretical learning through experimental application of microbiological techniques to tackle problems related to infectious disease, with application to the wider Life Sciences disciplines. You will learn how to collect and analyse data and communicate the findings effectively, with the opportunity to enhance your skills in research projects tailored towards your programme and fields of interest.\n\nThere are two assessments in the module: 1) a resource development related to communication of a contemporary scientific development in biomedicine and biotechnology; 2) a written scientific report related to experimental lab practicals, to analyse and present current research findings.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "to evaluate, interpret and communicate qualitative/ quantitative data collection  performed within practical sessions during the final 5 weeks of the module",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios206",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS206_202526.htm"
+}

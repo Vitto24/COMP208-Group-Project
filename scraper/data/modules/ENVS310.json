@@ -1,0 +1,25 @@
+{
+  "code": "ENVS310",
+  "name": "Surviving the Marine Environment",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr JS Thomson",
+  "description": "This module aims to foster a broad understanding of contemporary theory in behavioural ecology, evolutionary biology and\u202fecophysiology, with special reference to the marine environment. We will consider processes that operate at scales from individuals to\u202fpopulations using a theoretical and quantitative practical approach. This module builds on knowledge acquired about techniques, theory and processes in earlier years and provides the opportunity to experience the integration of current research themes in marine biology.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": mid-semester",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": end of semester",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/envs310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS310_202526.htm"
+}

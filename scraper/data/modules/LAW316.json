@@ -1,0 +1,25 @@
+{
+  "code": "LAW316",
+  "name": "FAMILY LAW",
+  "department": "Law",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor NJ Barker",
+  "description": "This module provides students with an introduction to key aspects of family law in England and Wales in the context of both public and private proceedings. Students will begin by critically exploring the legal regulation of various family relationships (notably marriage, civil partnerships and cohabitation) in the light of human rights norms and recent reforms. This will involve consideration of the legal requirements for entering into regulated family relationships as well as the legal consequences when such relationships come to an end, both financially and in terms of the arrangements made for children. The module then moves on to explore the conditions under which the state can legitimately intervene in family life and the various orders at its disposal to protect children from abuse and neglect. All of this will be grounded in a detailed review of the statutory framework, the relevant case law and academic commentary.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ".",
+      "weight": 90
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law316",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW316_202526.htm"
+}

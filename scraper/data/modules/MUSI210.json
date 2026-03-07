@@ -1,0 +1,30 @@
+{
+  "code": "MUSI210",
+  "name": "POPULAR MUSIC COMPOSITION 2",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr RJA Worth",
+  "description": "During the course of their education, students will already have travelled on an individual musical\u00a0journey. This course aims to continue this process by exposing them to models of song writing and composition from a broad array of popular music, underpinned with a solid and practical theoretical grounding. Arrangement and orchestration of instruments from beyond those used in the standard rock \u201cbackline\u201d will also be covered. \u00a0An over-arching theme of the course will be the need to identify a broader \u201ccommon practice\u201d than that traditionally associated with classical composition classes. Practical exercises and assignments will lead to the completion of two original compositions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi210",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI210_202526.htm"
+}

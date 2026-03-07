@@ -1,0 +1,45 @@
+{
+  "code": "MATH324",
+  "name": "CARTESIAN TENSORS AND MATHEMATICAL MODELS OF SOLIDS AND VISCOUS FLUIDS",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor N Movchan",
+  "description": "This module provides an introduction to basic concepts and principles of continuum mechanics. Cartesian tensors are introduced at the beginning of the module, bringing simplicity and versatility to the analysis. The module places emphasis on the importance of conservation laws in integral form, and on the fundamental role integral conservation laws play in the derivation of partial differential equations used to model different physical phenomena in problems of solid and fluid mechanics.",
+  "prerequisites": [
+    "MATH103",
+    "MATH102",
+    "MATH101",
+    "MATH225"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math324",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH324_202526.htm"
+}

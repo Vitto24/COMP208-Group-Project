@@ -1,0 +1,25 @@
+{
+  "code": "ENGL107",
+  "name": "Introduction to Language Study",
+  "department": "English",
+  "semester": 1,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr PS Cooper",
+  "description": "This module is an introduction to the fundamentals of linguistic study. Students will gain an understanding of several key issues in the linguistic study of the English Language. The module will normally also introduce students to specialist software and resources used by active researchers in the field. Students will acquire skills in using specialist notation (including the International Phonetic Alphabet) and in analysing the features of the English Language.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "/Take-Home Paper  Scheduled by SAS, 24 hours duration, re-sit opportunity, anonymous",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "audience, taking the form of an online article",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl107",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL107_202526.htm"
+}

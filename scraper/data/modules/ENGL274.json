@@ -1,0 +1,25 @@
+{
+  "code": "ENGL274",
+  "name": "PRAGMATICS",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Professor SR Chapman",
+  "description": "Pragmatics is the study of meaning in context, of how the situation surrounding a sentence/utterance, (who said it, where, when and why?) influences how we understand its meaning. This 30 credit Level 2 module examines several relevant theories and looks at some of the ways that these theories are being applied to other areas of study (e.g. to how children learn language). It is delivered through weekly teaching sessions, and assessed by an assignment and a take-home paper.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl274",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL274_202526.htm"
+}

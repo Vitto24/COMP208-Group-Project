@@ -1,0 +1,20 @@
+{
+  "code": "MUSI291",
+  "name": "Music and Human Experience",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr E Coutinho",
+  "description": "This module is suitable for anyone who is interested in researching how music influences, impacts and enriches our lives, including how music shapes our moods, behaviours, and social interactions and the role it plays in our health and wellbeing. Students will develop a practical understanding of this area, the ability to engage in current debates in the research literature and the capacity to explore new directions to advance research in this field. The module is interdisciplinary, drawing on perspectives such as music, psychology, and sociology, however no prior knowledge of any specific discipline is necessary.\n\nThe module includes a series of lectures, seminars, and individual tutorials. Lectures support the students in identifying pertinent topics concerning the uses of music in everyday life and how to approach these topics from a research perspective. Seminars place a strong focus on the gradual development of enquiry skills through guided engagement in various research activities. Individual tutorials will be scheduled with students to support the preparation of coursework.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi291",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI291_202526.htm"
+}

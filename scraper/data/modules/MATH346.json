@@ -1,0 +1,41 @@
+{
+  "code": "MATH346",
+  "name": "TOPOLOGY",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr JM Woolf",
+  "description": "Topology is the mathematical study of space. It is distinguished from geometry by the fact that there is no consideration of notions of distance, angle or other similar quantities. For this reason topology is sometimes popularly referred to as \u2018rubber sheet\u2019 geometry. It was introduced by Poincar\u00e9, under the name of analysis situs, in 1895 and became one of the most successful areas of 20th century mathematics. It continues to be an active research area to this day, and its insights and methods underlie many areas of modern mathematics. More recently, new applications of topological ideas outside mathematics have been developed, in particular to provide qualitative analysis of large data sets. This module introduces the basic notions of topological space and continuous map, illustrating them with many examples from different areas of mathematics. It also introduces homotopy theory, the study of paths in a space, which has become one of the most fundamental areas of modern mathematics.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH343",
+    "MATH103",
+    "MATH142"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math346",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH346_202526.htm"
+}

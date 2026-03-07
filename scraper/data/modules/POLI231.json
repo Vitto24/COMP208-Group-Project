@@ -1,0 +1,30 @@
+{
+  "code": "POLI231",
+  "name": "SECURITY IN A GLOBALISED WORLD",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Abu-Bakare",
+  "description": "Understanding\u00a0security in international relations and how\u00a0it is\u00a0challenged by contemporary globalisation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli231",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI231_202526.htm"
+}

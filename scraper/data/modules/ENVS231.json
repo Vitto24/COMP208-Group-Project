@@ -1,0 +1,30 @@
+{
+  "code": "ENVS231",
+  "name": "Climatology",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr JEH Higham",
+  "description": "Understanding global climate systems is a key challenge for the coming century. However, these are complex systems which we continue to learn more about as research develops. This module covers a variety of topics which will develop students\u2019 ability to understand these systems. Topics include energy balance and transfer processes at the surface, clouds, rain formation, weather forecasting, monsoons, tropical cyclones, weather in the mid latitudes, and the regional climates. The module has a balance between theory, processes, impacts, and hands-on experimentation and data analysis.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs231",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS231_202526.htm"
+}

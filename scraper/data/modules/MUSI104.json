@@ -1,0 +1,30 @@
+{
+  "code": "MUSI104",
+  "name": "Popular Performance 1",
+  "department": "Music",
+  "semester": 0,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Mr SE Stafford",
+  "description": "A practical module that explores issues in Popular Music performance.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": ": Semester 1",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi104",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI104_202526.htm"
+}

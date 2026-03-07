@@ -1,0 +1,32 @@
+{
+  "code": "PHYS384",
+  "name": "Medical Applications",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor HC Boston",
+  "description": "In this module, students will develop an understanding of the principles of radiotherapy and treatment planning. Topics include interaction of radiation with biological matter, radiation transport, biological modelling, beam modelling, medical imaging, electron transport and treatment planning.",
+  "prerequisites": [
+    "PHYS204"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys384",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS384_202526.htm"
+}

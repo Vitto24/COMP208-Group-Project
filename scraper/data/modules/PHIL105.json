@@ -1,0 +1,30 @@
+{
+  "code": "PHIL105",
+  "name": "Philosophy Toolkit",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr JH Bebb",
+  "description": "Students taking this module will develop key skills which are essential for studying philosophy. Students will learn how to identify arguments, how to distinguish arguments from rhetoric, and how to evaluate arguments. They will also learn how to summarise views accurately, clearly and concisely, and how to write persuasively when presenting their own analysis of the philosophical topics covered. This module also includes lectures on successful presenting, and how to conduct fruitful philosophical discussions. Students will gain skills in conducting their own independent, enquiry-led research, which is facilitated by a research skills workshop provided by the Library. Assessment is via Seminar Participation (15%), a Group Poster describing one of the seminar readings (25%), and a 2000-word Essay (60%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL105_202526.htm"
+}

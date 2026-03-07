@@ -1,0 +1,71 @@
+{
+  "course_name": "Mathematics BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "MATH101",
+        "MATH102",
+        "MATH103",
+        "MATH163",
+        "MATH111",
+        "MATH107",
+        "MATH122",
+        "MATH142"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "MATH221",
+        "MATH225",
+        "MATH244",
+        "MATH253",
+        "MATH243",
+        "MATH241"
+      ],
+      "optional": [
+        "MATH228",
+        "MATH242",
+        "MATH247",
+        "MATH254",
+        "MATH260",
+        "MATH269",
+        "MATH291",
+        "MATH226"
+      ]
+    },
+    "3": {
+      "compulsory": [],
+      "optional": [
+        "MATH323",
+        "MATH324",
+        "MATH325",
+        "MATH326",
+        "MATH342",
+        "MATH343",
+        "MATH349",
+        "MATH362",
+        "MATH363",
+        "MATH331",
+        "MATH336",
+        "MATH344",
+        "MATH345",
+        "MATH346",
+        "MATH360",
+        "MATH361",
+        "MATH364",
+        "MATH365",
+        "MATH366",
+        "MATH367",
+        "MATH368",
+        "MATH327",
+        "MATH390",
+        "MATH335",
+        "MATH338",
+        "MATH391",
+        "MATH309"
+      ]
+    }
+  }
+}

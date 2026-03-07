@@ -1,0 +1,42 @@
+{
+  "code": "MECH212",
+  "name": "Engineering Design",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 0,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor ML Murphy",
+  "description": "Professional Engineering can be defined as the application of science in the solution of problems and the development of new products, processes and systems.  It is vital that all Engineering graduates have a solid design education; and this module is a core part of that.\n\nIn Year 1 students are introduced to the basic tools and techniques involved in engineering design.\n\nIn this module students are taught the basics of design theory in a lecture setting; but crucially they are required to apply this learning in a variety of group and individual projects: to design several innovative engineering products\n\nStudents are given a design brief and are \"coached\" through product design specification; creative conceptual design; they complete a detailed design & 3D CAD modelling project; they consider design for manufacture, assembly and environment; and materials selection.\n\nThe module also enables students to develop and practice teamwork, communication, project management and problem solving skills.",
+  "prerequisites": [
+    "ENGG111"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 26
+    },
+    {
+      "type": "practical",
+      "title": "and detailed design",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 4
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH212_202526.htm"
+}

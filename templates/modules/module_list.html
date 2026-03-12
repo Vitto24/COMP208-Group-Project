@@ -1,27 +1,20 @@
-{% extends 'base.html' %}
+from django.utils import timezone
 
-{% block title %}Modules — Uni Tracker{% endblock %}
-{% block nav_modules %}active{% endblock %}
-{% block page_title %}Modules{% endblock %}
+@login_required
+def module_list(request):
+    """
+    Display a list of all modules separated into current and past modules.
+    """
 
-{% block content %}
+    modules = Module.objects.filter(students=request.user)
 
-<div class="module-cards">
-    {% for module in modules %}
-        <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
-            
-            <div class="module-card-header">
-                <strong>{{ module.code }}</strong>
-                <span>{{ module.credits|default:"—" }} credits</span>
-            </div>
+    # Example logic: current academic year
+    current_year = timezone.now().year
 
-            <div class="module-card-name">
-                {{ module.name }}
-            </div>
-        </a>
-    {% empty %}
-        <p>No modules available.</p>
-    {% endfor %}
-</div>
+    current_modules = modules.filter(academic_year=current_year)
+    previous_modules = modules.exclude(academic_year=current_year)
 
-{% endblock %}
+    return render(request, 'modules/module_list.html', {
+        'current_modules': current_modules,
+        'previous_modules': previous_modules
+    })

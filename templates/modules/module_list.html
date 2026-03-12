@@ -1,39 +1,50 @@
-from django.contrib.auth.decorators import login_required
-from django.http import Http404
-from django.shortcuts import render, get_object_or_404
-from django.utils import timezone
-from .models import Module, Week
-from grades.models import Assignment
+{% extends 'base.html' %}
+
+{% block title %}Modules — Uni Tracker{% endblock %}
+{% block nav_modules %}active{% endblock %}
+{% block page_title %}Modules{% endblock %}
+
+{% block content %}
+
+<h2>Current Modules</h2>
+
+<div class="module-cards">
+    {% for module in current_modules %}
+        <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
+            
+            <div class="module-card-header">
+                <strong>{{ module.code }}</strong>
+                <span>{{ module.credits|default:"—" }} credits</span>
+            </div>
+
+            <div class="module-card-name">
+                {{ module.name }}
+            </div>
+        </a>
+    {% empty %}
+        <p>No current modules.</p>
+    {% endfor %}
+</div>
 
 
-@login_required
-def module_list(request):
-    modules = Module.objects.filter(students=request.user)
+<h2>Previous Modules</h2>
 
-    current_year = timezone.now().year
+<div class="module-cards">
+    {% for module in previous_modules %}
+        <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
+            
+            <div class="module-card-header">
+                <strong>{{ module.code }}</strong>
+                <span>{{ module.credits|default:"—" }} credits</span>
+            </div>
 
-    current_modules = modules.filter(academic_year=current_year)
-    previous_modules = modules.exclude(academic_year=current_year)
+            <div class="module-card-name">
+                {{ module.name }}
+            </div>
+        </a>
+    {% empty %}
+        <p>No previous modules.</p>
+    {% endfor %}
+</div>
 
-    return render(request, 'modules/module_list.html', {
-        'current_modules': current_modules,
-        'previous_modules': previous_modules
-    })
-
-
-@login_required
-def module_detail(request, code):
-    module = get_object_or_404(Module, code=code)
-
-    if not module.students.filter(pk=request.user.pk).exists():
-        raise Http404
-
-    assignments = Assignment.objects.filter(module=module)
-
-    weeks = Week.objects.filter(module=module).prefetch_related('materials')
-
-    return render(request, 'modules/module_detail.html', {
-        'module': module,
-        'assignments': assignments,
-        'weeks': weeks
-    })
+{% endblock %}

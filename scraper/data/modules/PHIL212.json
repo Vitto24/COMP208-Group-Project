@@ -1,0 +1,30 @@
+{
+  "code": "PHIL212",
+  "name": "The Politics of Knowledge",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RJ McKenna",
+  "description": "Taking this module will introduce students to the politics of knowledge. We will start with some general questions about truth and knowledge: what is truth? what is knowledge? The rest of the module will be devoted to a series of questions about the intersections between knowledge and politics. These questions include the role of expertise in a democratic society, distrust of scientific expertise, political rationality and ignorance, cognitive bias, misinformation, echo chambers, political disagreement and polarisation. Our discussions of these questions will be informed by relevant empirical research on human psychology, as well as insights from the social sciences. They will also have the opportunity to reflect on their own practices, especially on how they access information online.\n\nThis module is taught via 11 one-hour lectures and 11 one-hour seminars. Seminar discussion will be assessed and count towards 10% of the module result. During term-time students write an essay, which counts for 40% of the mark. A seen two-hour examination contributes the remaining 50%.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL212_202526.htm"
+}

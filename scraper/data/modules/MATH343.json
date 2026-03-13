@@ -1,0 +1,34 @@
+{
+  "code": "MATH343",
+  "name": "GROUP THEORY",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr T Eckl",
+  "description": "The module provides an introduction to the modern theory of finite non-commutative groups. Group Theory is one of the central areas of Pure Mathematics. Being part of Algebra, it has innumerable applications in Geometry, Number Theory, Combinatorics and Analysis, but also plays a very important role in Theoretical Physics, Mechanics and Chemistry. The module starts with basic definitions and some well-known examples (the symmetric group of permutations and the groups of congruence classes modulo an integer) and builds up to some very interesting and non-trivial constructions, such as the semi-direct product, which makes it possible to construct more complicated groups from simpler ones. In the final part of the course, the Sylow theory and its applications to the classification of groups are considered.",
+  "prerequisites": [
+    "MATH101",
+    "MATH102",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math343",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH343_202526.htm"
+}

@@ -1,0 +1,28 @@
+{
+  "code": "ULMS352",
+  "name": "Managing Knowledge for Innovation",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr AK Nair",
+  "description": "The module introduces students to core theories and current issues and developments concerning knowledge management with the aim of fostering innovation. Students will learn how to analyse and critically evaluate the subject matter and apply it to diverse organisational environments.",
+  "prerequisites": [
+    "PHIL270",
+    "ULMS251",
+    "ULMS366",
+    "ULMS252",
+    "ULMS101",
+    "ULMS102",
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms352",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS352_202526.htm"
+}

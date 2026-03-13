@@ -1,0 +1,25 @@
+{
+  "code": "HIST117",
+  "name": "UNDERSTANDING MODERN EUROPE",
+  "department": "History",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor RD Clark",
+  "description": "This module provides students with an introduction to modern continental European history. \u00a0 It broadens their understanding by first considering factors of a general importance in the development of modern Europe, and then looking at particular events and countries. \u00a0 In this way, students will be given a grasp both of broad themes in European history \u2013 such as demographics, political units, ideologies and social change \u2013 and of the specific way history unfolded in certain times and places.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist117",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST117_202526.htm"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "ARCH352",
+  "name": "STUDIO 3.2 DESIGN",
+  "department": "Architecture",
+  "semester": 2,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr N Webb",
+  "description": "Architectural Design Studio\n\nTo develop the necessary skills to design small or medium scale buildings taking into consideration a wide range of architectural, urban, socio-cultural, economic and political issues that are inherently connected with architectural practices.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch352",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH352_202526.htm"
+}

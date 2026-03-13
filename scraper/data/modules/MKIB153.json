@@ -1,0 +1,20 @@
+{
+  "code": "MKIB153",
+  "name": "Fundamentals of Marketing",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor L Sudbury-Riley",
+  "description": "The module is an introduction to the fundamental principles of marketing. The module aims to bring contemporary marketing perspectives to life for students new to the concept of marketing. The content of the module is underpinned by marketing theory,  with an emphasis on application.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "word linking-narrative  Weighting: 100%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib153",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB153_202526.htm"
+}

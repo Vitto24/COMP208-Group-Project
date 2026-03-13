@@ -1,0 +1,30 @@
+{
+  "code": "COMP528",
+  "name": "Multi-Core and Multi-Processor Programming",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Mr HJ Forbes",
+  "description": "This is a module to cover theoretical and practical aspects of parallel programming for multi-core architectures with the main focus on hand-on programming experience with latest multi-core and multi-processor platforms.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 35
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp528",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP528_202526.htm"
+}

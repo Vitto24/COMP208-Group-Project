@@ -1,0 +1,25 @@
+{
+  "code": "PSYC326",
+  "name": "MEDIA PSYCHOLOGY",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor G Brewer",
+  "description": "The module will introduce students to a range of important subject areas within media psychology. These include the use of media to persuade the consumer (e.g., health communication), the influence of specific media content (e.g., media violence), media representation (e.g., gender stereotypes), and online behaviour (e.g., social media). The manner in which researchers investigate these subjects, research limitations, and emerging practice will also be examined.\n\nThe module will be taught through lectures (11 x 2 hours) and seminars 2 x 1 hour). Relevant material will be provided from a range of subject disciplines including psychology, advertising, political science, public relations, and journalism. The module will be assessed through (1) a written commentary (15% of the final mark) and (2) a two hour Essay Based Examination (85% of the final mark) taken during the exam period.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": ": Exam Period",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc326",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC326_202526.htm"
+}

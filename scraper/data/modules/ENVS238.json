@@ -1,0 +1,25 @@
+{
+  "code": "ENVS238",
+  "name": "Soils, Slopes and the Environment",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr V Janes-Bassett",
+  "description": "The module is concerned with the fundamental properties and characteristics of slopes and soils, and their relationship with the environment. Through a combination of theory and practical-led teaching, students will learn about slope and soil forming processes and evolution, and apply this knowledge to a number of pure and applied problems relating to slope and soil stability. The module is assessed through a combination of coursework (group report) and examination.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "of the work conducted in the laboratory classes",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": ": Exam Period Sem 2",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs238",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS238_202526.htm"
+}

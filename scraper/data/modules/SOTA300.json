@@ -1,0 +1,25 @@
+{
+  "code": "SOTA300",
+  "name": "School of the Arts Work Placements Module",
+  "department": "English",
+  "semester": 0,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Mrs A Gerrard",
+  "description": "This module is an opportunity for you to undertake a placement in a setting which matches your academic and possible career/industry interests, develop materials and/or undertake tasks within a practical or vocational context, apply academic knowledge from your degree, and develop your personal and employability skills within a working environment. SOTA300 is not open to students who have taken SOTA600.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/sota300",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_SOTA300_202526.htm"
+}

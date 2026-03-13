@@ -1,0 +1,25 @@
+{
+  "code": "POLI227",
+  "name": "DEVOLUTION IN THE UK",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor J Tonge",
+  "description": "The module examines devolution in Scotland, Wales, Northern Ireland and within England. How did it come about? How has it changed politics in each country? How have political parties responded and what are the key devolved issues in each country?",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli227",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI227_202526.htm"
+}

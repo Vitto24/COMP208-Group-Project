@@ -1,0 +1,23 @@
+{
+  "code": "PHYS372",
+  "name": "Energy Generation and Storage",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr JD Major",
+  "description": "Producing sufficient energy to meet the demands of an expanding and increasingly power-hungry society, whilst striving not to exacerbate the impacts of climate change, is a significant challenge.  This module looks at the key physical concepts which underpin a range of energy generation sources, from traditional fossil fuel fired turbine generation to photovoltaic solar cells. This builds on prior knowledge of thermodynamics, fluid behaviour and semiconductors to show how these concepts can be practically applied to power generation and storage systems.",
+  "prerequisites": [
+    "PHYS202",
+    "PHYS102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys372",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS372_202526.htm"
+}

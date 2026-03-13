@@ -1,0 +1,25 @@
+{
+  "code": "MUSI207",
+  "name": "CLASSICAL COMPOSITION 2",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr BS Hackbarth",
+  "description": "In this course, students will gain experience composing original classical or contemporary music for two different small ensembles from the Royal Liverpool Philharmonic. The lectures will cover techniques for writing themes and accompaniments, designing musical contrast, and rudimentary approaches to musical structure. Seminars will be used to workshop specific compositional techniques and also to hold recording sessions with orchestra musicians. This module\u2019s two assessments are musical compositions, and students will receive recordings and musician feedback on both. This module will draw heavily on the material the prerequisite modules (MUSI105 Writing for Instruments; MUSI106 Classical Composition 1) and fluency with music notation is required.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi207",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI207_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "HIST247",
+  "name": "THE 1755 LISBON EARTHQUAKE: A EUROPEAN SPECTACLE",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Kempf",
+  "description": "This module will look at the impact of the Lisbon earthquake in Portugal and in Europe.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist247",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST247_202526.htm"
+}

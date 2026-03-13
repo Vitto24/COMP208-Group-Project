@@ -1,0 +1,20 @@
+{
+  "code": "ARCH152",
+  "name": "STUDIO 1.3: DESIGN",
+  "department": "Architecture",
+  "semester": 2,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Mrs LN Ray",
+  "description": "Architectural design studio",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":End of semester 2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch152",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH152_202526.htm"
+}

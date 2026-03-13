@@ -1,0 +1,25 @@
+{
+  "code": "ENVS315",
+  "name": "Human-Environmental Interactions",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr OA Fletcher",
+  "description": "Human-Environment Interactions is a dynamic field that examines the complex relationships between humans and the physical world. Combining insights from human and physical geography, this interdisciplinary approach explores how humans shape\u2014and are shaped by\u2014the environments they inhabit. Key themes align with staff research interests, such as environmental change, urban planning, and health and through self-directed study, supported by lectures and tutorials, you will critically examine the sociocultural and environmental processes behind these themes.  This module offers the chance to engage with new subject areas and research methods outside your usual degree focus. It encourages both independent and collaborative learning, allowing you to develop key research and communication skills through group presentations and essays. By the end of the module, you\u2019ll have gained transferable skills, such as interdisciplinary analysis, teamwork, and effective communication. This module is ideal for students passionate about addressing global environmental challenges and their social dimensions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "There is a resit opportunity",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs315",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS315_202526.htm"
+}

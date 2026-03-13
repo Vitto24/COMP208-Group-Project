@@ -1,0 +1,32 @@
+{
+  "code": "COMP336",
+  "name": "Big Data Analytics",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr  AP Roxburgh",
+  "description": "This module provides an initial overview of key algorithms and algorithmic approaches and corresponding software environments used when developing solutions to Big Data problems and explains how to use these to analyse data.\u202f A significant portion of statistics, some  advanced AI approaches as well as key deterministic and hybrid  algorithms are included to support the development of future data analytics and to understand how to develop stochastic, machine learning and hybrid algorithms that can exploit Big Data and can be applied to solve real life problems.",
+  "prerequisites": [
+    "COMP116"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam  Written and MCQ Exam  This is an anonymous assessment",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp336",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP336_202526.htm"
+}

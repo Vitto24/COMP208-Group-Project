@@ -1,0 +1,25 @@
+{
+  "code": "ENGL202",
+  "name": "PSYCHOLINGUISTICS",
+  "department": "English",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr KN Simms",
+  "description": "This module explores questions concerning the relationship of language to consciousness. This entails addressing questions concerning the nature of language in its evolutionary, acquisitional, developmental and degenerative stages. Through examining a range of communication systems, such as those used by computers, apes, and other animals, students will achieve an understanding of the unique nature of language in its relation to the human mind.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 33
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 67
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL202_202526.htm"
+}

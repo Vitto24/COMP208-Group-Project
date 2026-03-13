@@ -1,0 +1,25 @@
+{
+  "code": "ULMS330",
+  "name": "Charity and Fundraising Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr J Hunter-Jones",
+  "description": "The module provides an analysis of the charity sector in the United Kingdom focusing on fundraising skills including bid writing; event organisation, volunteer management; corporate giving; strategic planning; community fundraising; and donor management. Contexts such as personal giving, social media and taxation are also considered. Visiting speakers from the sector relate the theory to their charities. Assessment is through an assignment and also a time constrained exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms330",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS330_202526.htm"
+}

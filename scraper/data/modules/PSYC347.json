@@ -1,0 +1,25 @@
+{
+  "code": "PSYC347",
+  "name": "Psychoactive Substances",
+  "department": "Psychology",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr CA Roberts",
+  "description": "The module aims to provide the student with an understanding of how psychoactive substances work in the brain, the effects they produce, and how this affects behaviour and broader society. We will discuss historical uses of psychoactive substances, societal implications, psychopharmacological mechanisms of action, acute effects, abuse potential / dependence potential, consequences of long-term use, and potential therapeutic effects. We will also discuss how the study of psychoactive substances has led to discoveries about our normal regulatory physiological functioning.\n\nWe will cover a range of both animal and human research, and highlight the importance of studying centrally acting substances for development of novel treatments for various conditions (e.g., pharmacotherapy for addiction, cannabinoids for involuntary appetite loss, psychedelics for intractable depression). In addition we will cover the importance of understanding harms associated with illicit drug use in order to inform public health policy and harm reduction strategies.\n\nThe module will be taught via lectures and online discussions. Learning will be assessed via a written exam and coursework (conference style narrated e-poster).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Semester 2",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2    A narrated (voice recorded) online conference style e-poster based on a key paper from one of the core lectures e",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc347",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC347_202526.htm"
+}

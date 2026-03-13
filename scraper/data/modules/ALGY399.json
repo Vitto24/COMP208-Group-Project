@@ -1,0 +1,25 @@
+{
+  "code": "ALGY399",
+  "name": "ARCHAEOLOGY AND HERITAGE IN CONTEMPORARY SOCIETY: ETHICAL AND POLITICAL ISSUES",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor AGM Sinclair",
+  "description": "\"This module will introduce students to the broader context of professional practice in the fields of heritage and archaeology in our contemporary society. Specifically, this module seeks to enhance students\u2019 skills in identifying points of contention or interest between different sections of the community in relation to a series of key themes. The module will also enable students to think clearly through the potential ramifications of following particular courses of action related to the management of heritage assets \u2013 including archaeological remains, standing buildings and monuments, and landscapes both human and natural. These themes include the ownership of heritage assets, access to heritage assets, the presentation of heritage assets, issues of sustainability and the development of assets and, lastly, claims to authority over such assets by archaeological and heritage professionals. Teaching methods and assessment will concentrate on helping students to identifying potential conflicts of interest in the study and management of heritage, exploring the political and ethical nature of these conflicts of interest and presenting a specific case for action or resolution. The module will require students to become familiar with the detail of a series of current case studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy399",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY399_202526.htm"
+}

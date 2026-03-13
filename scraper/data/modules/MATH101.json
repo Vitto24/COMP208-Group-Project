@@ -1,0 +1,30 @@
+{
+  "code": "MATH101",
+  "name": "Calculus I",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor M Gorbahn",
+  "description": "At its heart, calculus is the study of limits. Many quantities can be expressed as the limiting value of a sequence of approximations, for example the slope of a tangent to a curve, the rate of change of a function, the area under a curve, and so on. Calculus provides us with tools for studying all of these, and more. Many of the ideas can be traced back to the ancient Greeks, but calculus as we now understand it was first developed in the 17th Century, independently by Newton and Leibniz. The modern form presented in this module was fully worked out in the late 19th Century. MATH101 lays the foundation for the use of calculus in more advanced modules on differential equations, differential geometry, theoretical physics, stochastic analysis, and many other topics. It begins from the very basics \u2013 the notions of real number, sequence, limit, real function, and continuity \u2013 and uses these to give a rigorous treatment of derivatives and integrals for real functions of one real variable.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH101_202526.htm"
+}

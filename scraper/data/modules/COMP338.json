@@ -1,0 +1,30 @@
+{
+  "code": "COMP338",
+  "name": "Computer Vision",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr G Cheng",
+  "description": "This module provides an introduction to the topic of Computer Vision and helps students develop the practical skills necessary to build computer vision applications.  It presents fundamental problems in both 2D and 3D vision with a variety of classical and emerging approaches to overcome them.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Programming Assignment on Image Alignment",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Final exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Programming Assignment on Deep Neural Networks",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp338",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP338_202526.htm"
+}

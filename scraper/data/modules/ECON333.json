@@ -1,0 +1,31 @@
+{
+  "code": "ECON333",
+  "name": "Industrial Organisation",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor NJ De Roos",
+  "description": "Industrial organisation is concerned with the economic analysis of firms and industries, with a particular focus on how well consumers (society) are being served by particular industry structures and firm actions. The module incorporates debate between alternative schools of thought. The coursework is based on an industry case study selected by each student, which they research and which develops skills of independent research, writing, analysis and critical appraisal. In particular students are asked to evaluate which school of thought provides the most plausible interpretation of firm strategies and market outcomes.",
+  "prerequisites": [
+    "ECON127",
+    "ACFI127",
+    "ECON221",
+    "ECON227",
+    "ECON121"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Anonymous Assessment: Yes",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ333",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON333_202526.htm"
+}

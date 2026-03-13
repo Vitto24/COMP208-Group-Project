@@ -1,0 +1,25 @@
+{
+  "code": "ACFI103",
+  "name": "Introduction to Finance",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr GK Fairclough",
+  "description": "This module introduces students to fundamental concepts in finance. The course aims to provide a firm foundation for the students to build on later on in the second and third years of their programmes, by covering basic logical and rational analytical tools that underpin financial decisions. The course covers topics such as the structure of firms and time value of money. Building on these notions, we then discuss the valuation of simple securities such as bonds and equities. The course also introduces students to project appraisal techniques.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI103_202526.htm"
+}

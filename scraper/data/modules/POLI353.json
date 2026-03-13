@@ -1,0 +1,25 @@
+{
+  "code": "POLI353",
+  "name": "THE PUZZLE OF CIVIL WAR",
+  "department": "Politics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Elmammeri",
+  "description": "Please note: this is a theory and method heavy course and the application of both will be a mandatory requirement for the assignment(s). Students should be prepared to devote considerable time to familiarize themselves with methods and theory.\n\nCivil war is the most common form of armed conflict today. While around thirty interstate wars have been fought since World War II, over one hundred civil wars have been recorded. Scholars have long focused their attention on civil conflict, producing a large body of literature on different aspects of civil war, e.g. exploring onset, duration, strategies, outcomes and termination, the formation of rebel groups, and the various forms of intervention in civil war. The module will introduce students to this body of research.\n\nSubstantially, the module is divided into four parts. The first part provides an introduction to the study of civil war and an extensive methods discussion. The latter will emphasis concepts and measurement, causal assessment, and case selection. In the second part of the module, we will look at civil war onset. War is a costly and risky endeavor, and rebels face particularly steep odds going up against states that are typically far more powerful. Why do they occur? The third part explores the dynamics in civil wars. Why do parties target civilians? When do civil wars spill over? The fourth part looks at the end of wars and termination of conflict. Why do some civil wars last longer than others? Why do some end in a negotiated settlement while others do not? Does outside intervention facilitate the termination of civil wars and prevent their recurrence?",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli353",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI353_202526.htm"
+}

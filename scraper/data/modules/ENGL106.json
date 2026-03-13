@@ -1,0 +1,25 @@
+{
+  "code": "ENGL106",
+  "name": "Attitudes to English",
+  "department": "English",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr MN McGlashan",
+  "description": "Module description:Have you ever wondered why some accents are perceived as being \u2018cooler\u2019, \u2018friendlier\u2019 or \u2018uglier\u2019 than others? Or whether there is any truth in statements such as \u201cthey speak really bad English in\u2026\u201d or \u201cyoung people cannot write properly any more\u201d? If so, ENGL106 Attitudes to English is the right module for you!In this module, we will explore the concept of \u2018attitude\u2019 and how attitudinal judgements towards different aspects of language use (e.g. accents and dialects of English within the UK and overseas, gendered language, internet language, etc) come about in the history of English. We will also learn about the methods that social scientists use to explore language attitudes and how to put both theory and practice to the test by designing a mini-attitude project exercise. This mini-attitude exercise will be part of the final module assessment (40% of the final mark) and will be complemented by a take-home exam (60% of the final mark) at the end of the semester.By taking this module, you will be exposed to different teaching styles (small and large-group teaching) and activities (e.g. critical reading and discussion of selected research articles, hands-on computer activities, out-of-university visits, in-class group-work and debate, exposure to both in-house and expert guest speakers) which will help you to not only develop an adequate understanding of key concepts and processes but also seek to enhance your:Digital fluency: The \u2018methodology block\u2019 of the module will teach you how to navigate and use effectively on-line databases (e.g. newspaper repositories, corpora and corpus-specific software) and compile and analyse datasets both quantitatively and qualitatively.Global citizenship: The topics explored in the module lend themselves to cross-cultural and cross-national comparisons. In fact, comparisons with other countries and/or cultures will be at the centre of the materials that we cover. You will also be encouraged to carry out comparative exercises across (inter)national contexts for your Attitudes assessed exercise.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "attitudinal-based research question(s) and gather and analyse their own data to answer it/them",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL106_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ENVS203",
+  "name": "Research Skills and Employability",
+  "department": "Geography and Planning",
+  "semester": 0,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr Z Ye",
+  "description": "The module will develop students\u2019 knowledge of careers and employability with a focus on enhancing employability through tutorial-based exercises. In addition, the module provides a range of research skills required for the planning, implementation, analysis and reporting (written and oral) of independent research projects. Practical training will be provided in a range of qualitative and quantitative techniques across a broad range of geographical and environmental science themes. From this, students should develop a critical awareness as to the advantages and disadvantages of research methodologies in particular contexts.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Assessment 2; Semester 2",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": ": Assessment 1; Semester 1",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS203_202526.htm"
+}

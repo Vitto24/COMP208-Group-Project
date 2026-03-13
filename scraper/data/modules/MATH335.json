@@ -1,0 +1,35 @@
+{
+  "code": "MATH335",
+  "name": "Mathematical Biology",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr M Domijan",
+  "description": "In the current age of big data, mathematics is becoming indispensable in order for us to make sense of experimental results and in order to gain a deeper understanding into mechanisms of complex biological systems. Mathematical models can provide insights that cannot be gained through experimental work alone. This module will focus on teaching students how to construct and analyse models for a wide range of biological systems. Mathematical approaches covered will be widely applicable.",
+  "prerequisites": [
+    "MATH101",
+    "MATH103",
+    "MATH221",
+    "MATH102"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math335",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH335_202526.htm"
+}

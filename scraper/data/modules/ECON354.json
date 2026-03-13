@@ -1,0 +1,27 @@
+{
+  "code": "ECON354",
+  "name": "International Economic Relations",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr B Murakozy",
+  "description": "This module provides a detailed coverage of the nature and determinants of the pattern of world trade and financial, capital and labour flows. The module also aims to provide students with a critical appreciation of why conflicts arise between nations due to international economic activity and what policy options are most appropriate for countries both individually and cooperatively to adopt. Throughout the module emphasis is placed upon the role of theory in enhancing understanding of the key issues in international economic relations.",
+  "prerequisites": [
+    "ECON254"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/econ354",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON354_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "CIVE326",
+  "name": "Water and wastewater treatment",
+  "department": "Civil and Environmental Engineering",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr ECM Celik Madenli",
+  "description": "This module equips students with the basic skills necessary to design and operate water and wastewater treatment plants. It also enables students to develop a critical insight of frontier themes of water quality, water and wastewater management under climate change and challenges arising from emerging water contaminants.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/cive326",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CIVE326_202526.htm"
+}

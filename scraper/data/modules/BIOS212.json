@@ -1,0 +1,27 @@
+{
+  "code": "BIOS212",
+  "name": "Metabolism",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr EJ Stollar",
+  "description": "The module explores the major animal and plant metabolic pathways that sustain life and, in some cases, those that account for disease. How plants create key nutrients and how animals use these to sustain life. How macromolecules (sugars, proteins, fats) and other useful metabolites are also created by animals and how plants can be used to harness new useful molecules. How metabolism is biologically integrated and linked to healthy lifestyles such as exercise and a balanced diet and how it is also linked to diseases such as cancer. Introduction to metabolomics and other techniques for studying metabolism such as bioinformatics. The module will be taught through a combination of lectures and workshops and assessed by online test and short answer exercises.",
+  "prerequisites": [
+    "BIOS101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS212_202526.htm"
+}

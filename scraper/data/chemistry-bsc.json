@@ -1,0 +1,43 @@
+{
+  "course_name": "Chemistry BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/chemistry-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "CHEM100",
+        "CHEM101",
+        "CHEM102",
+        "CHEM103"
+      ],
+      "optional": [
+        "CHEM104",
+        "CHEM106"
+      ]
+    },
+    "2": {
+      "compulsory": [
+        "CHEM200",
+        "CHEM201",
+        "CHEM202",
+        "CHEM203"
+      ],
+      "optional": [
+        "CHEM204",
+        "CHEM206",
+        "ULMS254"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "CHEM301"
+      ],
+      "optional": [
+        "CHEM302",
+        "CHEM304",
+        "CHEM306",
+        "CHEM308",
+        "CHEM312"
+      ]
+    }
+  }
+}

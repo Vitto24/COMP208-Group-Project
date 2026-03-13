@@ -1,0 +1,25 @@
+{
+  "code": "BIOS207",
+  "name": "Animal Behaviour",
+  "department": "Biosciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RS Verspoor",
+  "description": "In this module, students will explore the rich diversity of behaviours exhibited by various species, from the smallest insects to the largest mammals.  Whether you're an aspiring biologist, or wildlife enthusiast, this module offers a comprehensive exploration of animal behavior that will inspire curiosity, critical thinking, and a deeper appreciation for the wonders of the natural world.\n\nThis module is taught using lectures, with some flipped classroom sessions for discussion. Through engaging lectures, interactive discussions, and in-depth study of scientific literature, students will gain insights into the evolutionary, ecological, and physiological factors that shape animal behavior.  Through case studies and real-world examples, students will see how the principles of animal behaviour have practical applications across a variety of fields such as conservation, agriculture, and bioveterinary science.   Assessment will be in the form of two pieces of written communication as coursework and a final exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios207",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS207_202526.htm"
+}

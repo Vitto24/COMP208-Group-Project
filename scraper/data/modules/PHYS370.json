@@ -1,0 +1,23 @@
+{
+  "code": "PHYS370",
+  "name": "Electromagnetism II",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr K Mavrokoridis",
+  "description": "The module builds on first and second year modules on electricity, magnetism and waves to show how a wide variety of physical phenomena can be explained in terms of the properties of electromagnetic radiation. The module will also explore how these properties follow from the relationships between electric and magnetic fields (and their interactions with matter) expressed by Maxwell's equations, and how electromagnetism fits into the theory of Special Relativity.",
+  "prerequisites": [
+    "PHYS201",
+    "PHYS207"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys370",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS370_202526.htm"
+}

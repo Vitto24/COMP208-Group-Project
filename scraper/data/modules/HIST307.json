@@ -1,0 +1,30 @@
+{
+  "code": "HIST307",
+  "name": "AFRICAN-AMERICAN ODYSSEY: SLAVERY, RACE, AND FREEDOM IN NORTH AMERICA",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr LR Sandy",
+  "description": "This module looks in detail at the development of slavery in North America from settlement to emancipation. It covers a wide range of topics, such as ideologies of race and racism, slavery in Africa, the transition from white to black labour, the development of the slave trade, slave life and culture, punishment and resistance, plantation management and overseers, female slaves and plantation mistresses, the economics of slavery, slavery during the American Revolution and Civil War, the lives and position of free people of colour living in a slave society, the international abolition movement, and the effect of slavery on the social, cultural and economic development of North America. Students taking this module will assess the differing value of conflicting approaches, a process that throws into relief the uncertainty, ambiguity and limits of knowledge but also the possibility of achieving methodological objectivity. They will also improve their time management skills and be able to manage their own learning by generating essay topics themselves, and make use of scholarly articles and primary sources relating to slavery in a way that goes beyond the insights available from secondary sources alone.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist307",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST307_202526.htm"
+}

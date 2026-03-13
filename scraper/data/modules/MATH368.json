@@ -1,0 +1,37 @@
+{
+  "code": "MATH368",
+  "name": "Stochastic Theory and Methods in Data Science",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Alpers",
+  "description": "This module raises the awareness of students on how mathematical methods from stochastics can help to deal with problems arising in a variety of areas, ranging from quantifying uncertainty, to problems in physics, to optimisation and decision making, among others. The module summarises probability theory, explain the basics of simulation and sampling and then focuses on learning theory and methods. Specific topics and examples will be presented along with the theory and computer experiments.",
+  "prerequisites": [
+    "MATH163",
+    "MATH254",
+    "MATH101",
+    "MATH102",
+    "MATH103",
+    "MATH362"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math368",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH368_202526.htm"
+}

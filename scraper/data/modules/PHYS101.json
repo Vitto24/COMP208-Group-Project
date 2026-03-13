@@ -1,0 +1,30 @@
+{
+  "code": "PHYS101",
+  "name": "Dynamics and Relativity",
+  "department": "Physics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor TG Shears",
+  "description": "The module provides an overview of Newtonian mechanics, continuing on from A-level courses. This includes: Newton's laws of motion in linear and rotational circumstances, gravitation and Kepler's laws of planetary motion. The theory of Relativity is then introduced, starting from a historical context, through Einstein's postulates, leading to the Lorentz transformations.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":Semester 1",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": ":1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys101",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS101_202526.htm"
+}

@@ -1,0 +1,29 @@
+{
+  "code": "ECON221",
+  "name": "Microeconomics 1",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr E Moon",
+  "description": "Introduction to the functions of individual decision-makers, both consumers and producers. Students will learn the major principles of microeconomics including consumer theory, producer theory, and general equilibrium. Perhaps more importantly, students will also learn how to apply these principles to a wide variety of real world situations in both personal and professional lives.",
+  "prerequisites": [
+    "ECON113",
+    "ECON111",
+    "ECON121"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ". Each test contains 4-6 questions and students are given 2 hours to answer all questions",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ221",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON221_202526.htm"
+}

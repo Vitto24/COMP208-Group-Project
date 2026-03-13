@@ -1,0 +1,25 @@
+{
+  "code": "ENVS122",
+  "name": "Marine Ecosystems: Diversity, Processes and Threats",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr L Roberts",
+  "description": "This module is designed to deliver an introduction to the diversity of marine ecosystems across the globe. Each week during in person lectures you will be introduced to a new ecosystem and will learn about this habitat, specifically the main organisms, key processes, and human threats to each ecosystem described and explored. Central to this module are interactive discussion sessions (workshops) that will build an understanding of how marine ecosystems are expected to respond to the human-induced changes of the anthropocene. During these workshops you will learn to critique a piece of scientific research in small group discussions guided by academics. Your knowledge and understanding will be assessed via open-book online tests, and a group project in which you will create an infographic outlining the threats a particular ecosystem faces.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2  30% of the marks awarded are for team infographic",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "There is a resit opportunity",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs122",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS122_202526.htm"
+}

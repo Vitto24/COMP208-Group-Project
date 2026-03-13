@@ -1,0 +1,40 @@
+{
+  "code": "HIST212",
+  "name": "WAR, FAMINE, PESTILENCE AND DEATH: FROM THE GOTHIC WAR TO THE RISE OF ISLAM",
+  "department": "History",
+  "semester": 2,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Dr MJ Costambeys",
+  "description": "There is a good case for saying that the sixth and seventh centuries CE were more significant for the development of humankind than any similar period, at least in the western hemisphere and before the invention of nuclear weapons. In the west of Europe and the Mediterranean, the Roman empire finally collapsed even as Christianity was taking decisive hold over hearts, minds and lands; in the east, Roman power endured (rebranded by historians as \u2018Byzantium\u2019) even as the followers of the new faith of Islam decimated its territory. Moreover, these epochal changes were accompanied by the collapse of the civilization of antiquity: warfare was endemic, agriculture retarded, famine frequent, and a virulent, bubonic pandemic appeared in the mid-sixth century and recurred continuallyover the next 200 years. But while the population suffered grievously, these changes also helped embed fundamental changes in their societies \u2013 the reconfiguration of the west and the establishment of the Islamic caliphate in the east \u2013 with whose consequences we are still living.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 18
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 12
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 45
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST212_202526.htm"
+}

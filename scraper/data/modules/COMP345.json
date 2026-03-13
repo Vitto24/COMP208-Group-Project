@@ -1,0 +1,30 @@
+{
+  "code": "COMP345",
+  "name": "Quantum Computing and Security",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Lisitsa",
+  "description": "Quantum computing is developing very fast and it holds the promise of great computational power to be utilized in various applications. In security it provides both a threat to classical cryptographic algorithms  commonly   used to protect information and new opportunities for the information protection using quantum cryptography.\n\nThis module is designed to introduce the students to the areas of  quantum computing, its theoretical foundations and practical skills in programming quantum applications, and of quantum cryptography. It will be delivered in cooperation with Advanced Computing and Emerging Technologies Group, The Hartree Centre   which will provide insight to the current industrial applications of quantum computing via guest lectures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp345",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP345_202526.htm"
+}

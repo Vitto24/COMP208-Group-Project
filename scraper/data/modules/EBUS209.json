@@ -1,0 +1,25 @@
+{
+  "code": "EBUS209",
+  "name": "Operations Management: Tools And Techniques",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr S Guo",
+  "description": "Operations management is all about how businesses create and deliver products and services, making it a key function of business. This module aims to introduce a range of operations management tools and techniques to students and considers their application to contemporary business environments. The module focuses on organisational level operations managements, encouraging students to consider the tools and techniques used to direct, design, deliver and develop operations management in both manufacturing and service contexts. Real world business examples are used throughout the module to explore principles in practice. Students on this module will develop an understanding of how the design and delivery of operations can be optimised to help a business to achieve competitive advantage. Students are introduced to topics such as lean, sustainability, supply chain management, process design and layout.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "so that the lecturing team can provide formative feedback",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ebus209",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_EBUS209_202526.htm"
+}

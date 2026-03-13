@@ -1,0 +1,30 @@
+{
+  "code": "ITAL223",
+  "name": "THE ITALIAN CINEMA",
+  "department": "Languages, Cultures and Film",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr M Paoli",
+  "description": "This module explores the most significant periods and some of the major genres / films of Italian cinema from its origin to the present.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/ital223",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ITAL223_202526.htm"
+}

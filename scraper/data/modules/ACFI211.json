@@ -1,0 +1,25 @@
+{
+  "code": "ACFI211",
+  "name": "Business Law",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mrs GC Waddell",
+  "description": "This module provides students with a foundation understanding of legal institutions of English law, as well as a general, non-specialist introduction to areas of English law that is pertinent and relevant to accounting and finance.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi211",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI211_202526.htm"
+}

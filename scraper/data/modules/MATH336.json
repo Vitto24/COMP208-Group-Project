@@ -1,0 +1,42 @@
+{
+  "code": "MATH336",
+  "name": "Numerical Methods for Ordinary and Partial Differential Equations",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr P Buividovich",
+  "description": "Many real-world systems in mathematics, physics and engineering can be described by differential equations. In rare cases these can be solved exactly by purely analytical methods, but much more often we can only solve the equations numerically, by reducing the problem to an iterative scheme that requires hundreds of steps. We will learn efficient methods for solving ODEs and PDEs on a computer.",
+  "prerequisites": [
+    "MATH111"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math336",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH336_202526.htm"
+}

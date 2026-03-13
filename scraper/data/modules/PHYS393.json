@@ -1,0 +1,23 @@
+{
+  "code": "PHYS393",
+  "name": "Statistical Thermodynamics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Professor TD Veal",
+  "description": "The problem to understand blackbody radiation opened the door to modern physics.  In this module an understanding of thermodynamics is developed from a quantum mechanical and statistical description of the three fundamental gases: The Maxwell-Boltzmann ideal gas in the classical limit, and the Fermi-Dirac and Bose-Einstein gases in the quantum limits for fermions and bosons, respectively. A statistical understanding of thermodynamic quantities will be developed together with a method of deriving thermodynamic potentials from the properties of the quantum system.  Applications are shown in solid state physics and the Planck blackbody radiation spectrum.",
+  "prerequisites": [
+    "PHYS202",
+    "PHYS102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Semester 2",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys393",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS393_202526.htm"
+}

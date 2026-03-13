@@ -1,0 +1,20 @@
+{
+  "code": "PHYS105",
+  "name": "Introduction to Computational Physics",
+  "department": "Physics",
+  "semester": 1,
+  "level": 4,
+  "credits": 7.5,
+  "lecturer": "Professor CB Gwilliam",
+  "description": "The \"Introduction to computational physics\" (Phys105) module is designed to introduce physics students to the use of computational techniques appropriate to the solution of physical problems. No previous computing experience is assumed. During the course of the module, students are guided through a series of structured exercises which introduce them to the Python programming language and help them acquire a range of skills including: plotting data in a variety of ways; simple Monte Carlo techniques; algorithm development; and basic symbolic manipulations. The exercises are based around the content of the first year physics modules, both encouraging students to recognise the relevance of computing to their physics studies and enabling them to develop a deeper understanding of aspects of their first year course.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS105_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ENVS116",
+  "name": "New Horizons in Human Geography",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor M Green",
+  "description": "This module introduces new aspects of geographical thought to the First-Year students which are unlikely to have been encountered via an A level geography syllabus. It also aims to enhance students\u2019 understanding and awareness of complex global issues, focusing on two sub-disciplinary themes in human geography. Exact content will vary each year to reflect changes in the discipline, but broadly, one area will focus on understanding human population changes and geographical data (e.g. health or population geographies), whilst another will explore social, cultural and political approaches to geography (e.g. geopolitics, borders and nation states).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs116",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS116_202526.htm"
+}

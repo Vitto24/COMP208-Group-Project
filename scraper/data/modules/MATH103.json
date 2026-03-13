@@ -1,0 +1,35 @@
+{
+  "code": "MATH103",
+  "name": "Introduction to Linear Algebra",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor VV Goryunov",
+  "description": "Linear algebra is the branch of mathematics concerning vector spaces and linear mappings between such spaces. It is the study of lines, planes, and subspaces and their intersections using algebra.\n\nLinear algebra first emerged from the study of determinants, which were used to solve systems of linear equations. Determinants were used by Leibniz in 1693, and subsequently, Cramer's Rule for solving linear systems was devised in 1750. Later, Gauss further developed the theory of solving linear systems by using Gaussian elimination.  All these classical themes, in their modern interpretation, are included in the module, which culminates in a detailed study of eigenproblems. A part of the module is devoted to complex numbers which are basically just planar vectors.  Linear algebra is central to both pure and applied mathematics. This module is an essential pre-requisite for nearly all modules taught in the Department of Mathematical Sciences.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 65
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math103",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH103_202526.htm"
+}

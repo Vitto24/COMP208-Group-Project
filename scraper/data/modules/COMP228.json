@@ -1,0 +1,37 @@
+{
+  "code": "COMP228",
+  "name": "App Development",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr P Jimmieson",
+  "description": "App Development is an exploration of the design and programming of application programs on mobile devices.\u00a0It covers topics such as how to design for small displays and non-traditional input devices; what the expectations of mobile users are; how to use publicallly accessible data sources to develop innovative solutions.",
+  "prerequisites": [
+    "COMP122"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Basic app development task",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Exam",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Portfolio of lab work",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Advanced app development task",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp228",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP228_202526.htm"
+}

@@ -1,0 +1,35 @@
+{
+  "code": "COMP329",
+  "name": "Autonomous Mobile Robotics",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr TR Payne",
+  "description": "The aims of this module are to develop an understanding of the principals of Robotics and Autonomous Systems, as well as the pragmatic skills of developing such systems on top of a Robotics Platform.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Individual Programming Assignment 1",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Engagement Tasks",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp329",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP329_202526.htm"
+}

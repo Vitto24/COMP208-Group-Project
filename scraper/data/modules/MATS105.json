@@ -1,0 +1,30 @@
+{
+  "code": "MATS105",
+  "name": "Introduction to Engineering Materials",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor MK Patel",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mats105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATS105_202526.htm"
+}

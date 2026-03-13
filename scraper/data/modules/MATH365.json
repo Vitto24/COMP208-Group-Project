@@ -1,0 +1,51 @@
+{
+  "code": "MATH365",
+  "name": "MEASURE THEORY AND PROBABILITY",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Papaioannou",
+  "description": "This module is important for students who are interested in the abstract theory of integrating and in the deep theoretical background of the probability theory. It will be extremely useful for those who plan to do MSc and perhaps PhD in Probability, including financial applications. If you plan to take level 4 module(s) on Financial Mathematics next year, MATH365 can be very helpful.",
+  "prerequisites": [
+    "MATH103",
+    "MATH101",
+    "MATH102",
+    "MATH254",
+    "MATH163"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math365",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH365_202526.htm"
+}

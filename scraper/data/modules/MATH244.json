@@ -1,0 +1,39 @@
+{
+  "code": "MATH244",
+  "name": "Linear Algebra and Geometry",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor A Pratoussevitch",
+  "description": "Linear algebra provides a toolbox for analysing phenomena\u00a0ubiquitous in many areas of mathematics: linear maps, or linearity in general. In all of these situations it is essential to first identify the kind of objects which are mapped or behave in a linear way. To cover the many different possibilities the concept of an abstract vector space is introduced. It generalizes the real vector spaces introduced in MATH103 (Introduction to Linear Algebra) and\u00a0the calculational techniques developed there can still be used. Applications of ideas from Linear Algebra appear\u00a0in Geometry, in Algebra, in solving Differential Equations,\u00a0which in turn model many physical systems, in Physics, especially Quantum Mechanics, in Biology and in Statistics.",
+  "prerequisites": [
+    "MATH103",
+    "MATH102",
+    "MATH101"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math244",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH244_202526.htm"
+}

@@ -1,0 +1,20 @@
+{
+  "code": "LAW339",
+  "name": "Introduction to Patents and Trade Marks",
+  "department": "Law",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr MJ Padamczyk",
+  "description": "This module provides an introduction to trade mark and patent law. The first half of the module will examine  the rationale, requirements and enforcement of patent rights that protect technological innovations. It will also cover the main aspects of exclusions and exceptions that limit the subject matter of patentability. The second half of the module will look into the system for registered marks (including the process of registration, revocation, invalidity and infringement).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law339",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW339_202526.htm"
+}

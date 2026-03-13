@@ -1,0 +1,25 @@
+{
+  "code": "ENGL119",
+  "name": "Reading Drama",
+  "department": "English",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr E Miskimmin",
+  "description": "This module will cover a range or dramatic texts from different culture and eras, exploring the processes of reading them whilst thinking about genre and context. Students will develop close-reading skills as well as an awareness of drama as a genre, its history and development. Assessment is coursework based and involves close reading, discursive response, and a short creative-critical exercise.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl119",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL119_202526.htm"
+}

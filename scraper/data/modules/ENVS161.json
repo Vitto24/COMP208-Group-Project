@@ -1,0 +1,25 @@
+{
+  "code": "ENVS161",
+  "name": "Research Frontiers in Human Geography",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr KPS Thakar",
+  "description": "Contemporary Human Geography is a diverse discipline which offers unique insights into many of the most pressing challenges facing the world in the 21st Century. Many of the issues that reach the headlines on a daily basis are inherently geographical and research within human geography makes important contributions to knowledge of a broad range of social, cultural, political, economic, environmental and development challenges. This module provides an introduction to cutting edge debates within contemporary human geography, highlighting the ways in which the discipline contributes to interdisciplinary knowledge production across the humanities and social sciences. Each week, module lectures will provide an introduction to a different sub-disciplinary field, which will be explored with the aid of specific worked examples which encourage students to apply the theoretical issues discussed to \u2018real world\u2019 issues. Assessment is by coursework (mid-term essay) and a written exam (end-of-term).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": University Examination Period for Semester One",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1, Week 6",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs161",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS161_202526.htm"
+}

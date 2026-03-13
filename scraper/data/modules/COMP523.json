@@ -1,0 +1,25 @@
+{
+  "code": "COMP523",
+  "name": "Advanced Algorithmic Techniques",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr J Sylvester",
+  "description": "This module aims to teach basic algorithmic methods for design and analysis of algorithms.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 1 Class test",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Final exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-meng-hons/modules/comp523",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP523_202526.htm"
+}

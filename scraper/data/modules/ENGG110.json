@@ -1,0 +1,30 @@
+{
+  "code": "ENGG110",
+  "name": "SOLIDS AND STRUCTURES 1",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr S Kadam",
+  "description": "This module aims to introduce students to the fundamental concepts and theory of how engineering structures work to sustain loads. It will also show how stress analysis leads to the design of safer structures.  It will also provide students with the means to analyse and design basic structural elements as used in modern engineering structures.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Lab",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": "Lab",
+      "weight": 5
+    },
+    {
+      "type": "exam",
+      "title": "Exam",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg110",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG110_202526.htm"
+}

@@ -1,0 +1,27 @@
+{
+  "code": "ULMS310",
+  "name": "Becoming a Leader",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr P Daher",
+  "description": "The module aims to introduce students to the practical application of leadership theory. Students will employ critical reflection to gain a better understanding of how they can develop and grow as a leader within an organisational context. Themes covered will include; leadership traits, leadership behaviours, leadership styles, contemporary theories of leadership, leader-follower relationship and leadership development.",
+  "prerequisites": [
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS310_202526.htm"
+}

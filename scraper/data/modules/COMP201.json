@@ -1,0 +1,32 @@
+{
+  "code": "COMP201",
+  "name": "Software Engineering I",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr ST Coope",
+  "description": "This module deals with the issues associated with the analysis, design, implementation and testing of significant computing systems (that is, systems that are too large to be designed and developed by a single person).",
+  "prerequisites": [
+    "COMP122"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "CA2",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "CA1",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp201",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP201_202526.htm"
+}

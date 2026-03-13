@@ -1,0 +1,30 @@
+{
+  "code": "COMP324",
+  "name": "Network  Mining and Analysis",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr L Oettershagen",
+  "description": "Complex network structures are ubiquitous: the world-wide web, the internet, mobile phone networks, social communities, network structures inbiology are just a few popular examples. The module shows how simple combinatorial and algorithmic techniques can be exploited to obtain useful informationabout these (often) massive structures. The content is delivered through a mixture of lectures on core topics and more informal presentations onvarious application areas. A series of interactive tutorials and on-line tools in VITAL complete the support offered by this module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp324",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP324_202526.htm"
+}

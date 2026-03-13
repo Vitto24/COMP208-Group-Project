@@ -1,0 +1,28 @@
+{
+  "code": "ULMS364",
+  "name": "Critical Perspectives in Human Resources Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CG Marechal",
+  "description": "The purpose of this module is to provide students with an in-depth, critical understanding of the theory and practice of human resources management. The module draws on a broad range of theoretical perspectives to question the received wisdom that modern \"strategic\" human resources management is a \"business partner\" to the organization's various functions in the service of corporate objectives, rather than a specialist advisor on the context and practice of managing people ethically and legally. Therefore, this module invites students to reconsider the effects of orthodox human resource management concepts and theory and training and development practice  for people in organizations (including managers) and society at large. It also examines the extent to which critical theories that surface ideas under-emphasised or missing from mainstream HRM discourse can inform progressive \u2018critical' (power aware), 'post humanist\u2019 (seeing humans in a wider environmental context including other species, landscapes and climate), future-oriented long-term management thinking.",
+  "prerequisites": [
+    "ULMS206",
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "with 500 word reflective paragraph",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms364",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS364_202526.htm"
+}

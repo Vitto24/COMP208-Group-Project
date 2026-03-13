@@ -1,0 +1,25 @@
+{
+  "code": "PSYC133",
+  "name": "BIOLOGICAL PSYCHOLOGY",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 4,
+  "credits": 22.5,
+  "lecturer": "Dr CA Brown",
+  "description": "This module introduces\u00a0students to the relationship between physiology and psychology. The module content will focus on basic processes and how these can be applied to a number of areas that will also be covered in other modules, such as social and clinical. This content introduces the structure and function of the central and peripheral nervous systems and how this influences stress, sex, aggression, appetite, drug use, and sleep. The module will be taught through a combination of lectures and seminars. The\u00a0content lectures (12 x 2 hours) will focus on the academic material and the \u2018applied\u2019 or \u2018research focused\u2019 lectures (10 x 1 hour) will present how this academic material is used in the real world. In order to explore the practicalities of conducting research in this area there will be small group research seminars (3 x 2 hours) where students will conduct an experiment under the supervision of a member of staff. Online activities will further support student learning. The module will be assessed with a combination of written coursework and an exam containing a\u00a0combination of multiple choice and short answer exam questions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "exam will be timed (2 hours)",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc133",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC133_202526.htm"
+}

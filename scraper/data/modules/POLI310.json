@@ -1,0 +1,25 @@
+{
+  "code": "POLI310",
+  "name": "PUBLIC POLICY: AN ADVANCED INTRODUCTION",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor DP Dolowitz",
+  "description": "This module explores the theories, ideas and concepts that underpin the development of contemporary public policies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli310",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI310_202526.htm"
+}

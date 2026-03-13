@@ -1,0 +1,86 @@
+{
+  "course_name": "Politics BA (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "POLI101",
+        "POLI103",
+        "POLI109",
+        "POLI102",
+        "POLI107",
+        "POLI104",
+        "POLI105"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [],
+      "optional": [
+        "POLI205",
+        "POLI215",
+        "POLI225",
+        "POLI227",
+        "POLI231",
+        "POLI235",
+        "POLI239",
+        "POLI251",
+        "POLI252",
+        "POLI257",
+        "POLI264",
+        "POLI266",
+        "COMM213",
+        "HISP218",
+        "ITAL225",
+        "MODL230",
+        "POLI200",
+        "POLI203",
+        "POLI209",
+        "POLI218",
+        "POLI223",
+        "POLI236",
+        "POLI237",
+        "POLI260",
+        "POLI263",
+        "POLI265",
+        "POLI270",
+        "ENVS264",
+        "GRMN220"
+      ]
+    },
+    "3": {
+      "compulsory": [],
+      "optional": [
+        "POLI304",
+        "POLI305",
+        "POLI308",
+        "POLI322",
+        "POLI324",
+        "POLI326",
+        "POLI327",
+        "POLI343",
+        "POLI346",
+        "POLI353",
+        "POLI815",
+        "ENVS325",
+        "ENVS334",
+        "ENVS387",
+        "LATI307",
+        "POLI306",
+        "POLI310",
+        "POLI314",
+        "POLI316",
+        "POLI321",
+        "POLI323",
+        "POLI332",
+        "POLI336",
+        "POLI337",
+        "POLI342",
+        "POLI349",
+        "POLI352",
+        "COMM317",
+        "POLI401"
+      ]
+    }
+  }
+}

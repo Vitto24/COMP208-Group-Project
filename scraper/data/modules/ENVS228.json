@@ -1,0 +1,25 @@
+{
+  "code": "ENVS228",
+  "name": "Physical Geography Fieldwork Course",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor JR Cooper",
+  "description": "The aim of this module is to give physical geography students experience of undertaking fieldwork in an environment and to extend their understanding of processes and characteristics of the environment and how they function and interact in the real-world. In this module students examine all the major components of physical geography and their functioning in the landscape. They investigate the interactions of climate, vegetation, soils, topography and human land use, in different locations. Major themes discussed include impacts of weather and climate, soil and water management, landscape development, as well as natural patterns and variability of characteristics. The students undertake a field project and write an essay on a major theme.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs228",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS228_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "POLI102",
+  "name": "BRITISH POLITICS II",
+  "department": "Politics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor S Wilks-Heeg",
+  "description": "This introductory politics module focuses on the distribution of power in Britain and the nature of the British state. It outlines the traditional conception of the British political system as the \u2018Westminster Model\u2019 and considers the implications of this model for how democracy is conceived and how political power is mobilised, in whose interests and with what consequences, primarily in the UK but also in former British colonies and dependencies. The module examines the various component parts of the British political system including the Prime Minister and Cabinet, Parliament, the judiciary, the civil service , regional and local government and devolved institutions, from both a constitutional and political-sociological perspective. It also assesses the emerging impact of Brexit on the UK political system and for the distribution of political power within it, including consideration of the role of \u2018imperialist imaginaries\u2019 in shaping discussion of the UK\u2019s post-Brexit future. The module assumes no prior knowledge of the British political system or the particular issues under consideration.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/poli102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI102_202526.htm"
+}

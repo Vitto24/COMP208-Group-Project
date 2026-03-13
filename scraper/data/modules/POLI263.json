@@ -1,0 +1,25 @@
+{
+  "code": "POLI263",
+  "name": "BRITISH FOREIGN POLICY",
+  "department": "Politics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr AS Roe-Crines",
+  "description": "This module aims to provide students with an in depth analysis of British Foreign Policy. The module covers Britain\u2019s responses to the emergence of the United States and the Soviet Union as the two main superpowers; the end of Empire and the emergence of the Commonwealth; relations with Africa and the Middle East; the growth of new institutions of global governance; Britain and Europe; and the ethical foreign policy, and the long road to Brexit. As such, this module seeks to fill that gap by providing further optionality to already popular programmes in the Department of Politics.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/poli263",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI263_202526.htm"
+}

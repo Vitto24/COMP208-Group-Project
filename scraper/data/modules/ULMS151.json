@@ -1,0 +1,25 @@
+{
+  "code": "ULMS151",
+  "name": "Organisations and Management",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor DC Jancsary",
+  "description": "The module provides students with a grounding in practical and theoretical perspectives on historical and contemporary forms of management. It explores how organisations address their major challenges by drawing from tried and tested methods, as well as more innovative practices. Students are encouraged to question common sense assumptions about management, and to identify creative and sustainable practices\u00a0in organisations.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms151",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS151_202526.htm"
+}

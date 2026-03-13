@@ -1,0 +1,25 @@
+{
+  "code": "HIST200",
+  "name": "HISTORY IN PRACTICE",
+  "department": "History",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr J Wu",
+  "description": "The module provides students with a work-based placement, to take place in a relevant public history institution, such as a museum, archive or library (other institutions may also be relevant). Students will normally spend half a day per week (or one school teaching day) aweek during one semester working with the chosen institution, which might involve teaching assistance, archiving, conservation, researching, building an exhibition, developing a public engagement project, etc.In addition, they will attend fortnightly sessions on career development and fortnightly seminars on academic approaches to public history.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist200",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST200_202526.htm"
+}

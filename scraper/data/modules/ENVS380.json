@@ -1,0 +1,30 @@
+{
+  "code": "ENVS380",
+  "name": "Field Class (Algarve, Portugal)",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": null,
+  "credits": 30.0,
+  "lecturer": "Dr FLE Marret-Davies",
+  "description": "The focus of the module is a field session in the Algarve where students will learn about landscape, land use, vegetation processes, coastal environments in a Mediterranean landscape. The students will carry out research projects in teams that they will have planned in advance. A series of lectures will introduce the physical geography of the region and students will design their own projects under the guidance of staff. The assessment will comprise the project plan, a presentation of the data acquired during the field class and the final project report.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":during field class",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": ":2nd Semester",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs380",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS380_202526.htm"
+}

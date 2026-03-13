@@ -1,0 +1,30 @@
+{
+  "code": "COMP304",
+  "name": "Knowledge Representation and Reasoning",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr LB Kuijer",
+  "description": "This module presents formal ways to reason about knowledge and uncertain or partial information.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 12
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 13
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 75
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp304",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP304_202526.htm"
+}

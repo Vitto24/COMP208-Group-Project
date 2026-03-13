@@ -1,0 +1,30 @@
+{
+  "code": "ECON357",
+  "name": "World Economic History",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Marchesiani",
+  "description": "This module explores the main themes of the Economic History of the world of the last 1000 years. The aim is to investigate how the world economy achieved its current state and to analyse the reasons why some areas and countries have experienced greater or lesser economic and social development, measured in long-term changes in income and population.",
+  "prerequisites": [
+    "ECON128",
+    "ECON123",
+    "ECON121",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ357",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON357_202526.htm"
+}

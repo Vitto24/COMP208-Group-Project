@@ -1,0 +1,25 @@
+{
+  "code": "MUSI220",
+  "name": "Music, Gender, and Sexuality",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr LR Carter",
+  "description": "This module aims to introduce students to a range of ideas about gender and sexuality, and to explore how they interact with musical texts, practices, and cultures. Over the semester, students will consider a range of theories and movements to do with gender and sexuality, which might include social constructionism, psychoanalysis, feminism, and queer theory. The module traces the historical developments of some of these models and considers the extent to which musical texts, practices, and cultures reflect and/or contribute to prevailing ideologies of gender and sexuality. The case studies used to explore these ideas will be drawn from a range of musical repertoires, including popular and art musics. The module aims to encourage students to think about all kinds of western music as gendered practices and to introduce them to ways of exploring the relevance of gender and sexuality as questions for consideration when thinking about the cultural work being done by particular musics. Students should emerge from the module with an understanding of the intersections of history, culture, and music, in terms of ideas about gender and sexuality.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2  3000 words",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi220",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI220_202526.htm"
+}

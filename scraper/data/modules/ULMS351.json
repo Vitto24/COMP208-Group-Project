@@ -1,0 +1,28 @@
+{
+  "code": "ULMS351",
+  "name": "Psychological Approaches to Decision-Making",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr L Spencer",
+  "description": "All decisions involving uncertainty run the risk of failure. This module examines why people and organizations sometimes make unwise decisions and how to make better decisions.",
+  "prerequisites": [
+    "ULMS101",
+    "ULMS151"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms351",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS351_202526.htm"
+}

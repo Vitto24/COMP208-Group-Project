@@ -1,0 +1,35 @@
+{
+  "code": "COMP116",
+  "name": "Analytic Techniques for Computer Science",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr O Anosova",
+  "description": "Many areas of Computer Science rely on formal analytic techniques and this module presents a basic grounding in a number of these topics focusing on their role and application to computational issues. Among the topics reviewed are Linear Algebra (with particular attention to Matrix Theory); Statistical aspects; Introductory calculus including the concepts of limits, continuity, basic differentiation and integration formulae; properties of Complex Numbers. If time allows a very brief overview of the principles of Information Theory will be included. The overriding aim of this module is to present the methods discussed in the context of practical Computer Science, and as such the emphasis will be on instilling confidence in applying techniques and not on providing rigorous supporting justifications of their validity.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test 3",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Final Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp116",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP116_202526.htm"
+}

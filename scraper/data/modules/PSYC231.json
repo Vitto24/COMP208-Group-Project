@@ -1,0 +1,25 @@
+{
+  "code": "PSYC231",
+  "name": "COGNITION AND COGNITIVE NEUROSCIENCE",
+  "department": "Psychology",
+  "semester": 2,
+  "level": 5,
+  "credits": 22.5,
+  "lecturer": "Dr D Tsivilis",
+  "description": "This module investigates a number of important topics in four thematic areas: Perception, Attention, Memory, and Language. The module examines both behavioural and neurophysiological evidence in healthy participants and neurologically impaired populations. Topics include:\u00a0Perception, Attention, Memory,\u00a0and Language. There are 12\u00a0x 2-hour core content lectures. In addition, there are 10\u00a0x 1 hour research focus lectures\u00a0and\u00a03 x 2 hour research seminars.\u00a0The module\u00a0includes two assessments. The coursework is an end of term \u00a0poster based on work conducted in the research seminars. The final assessment is an essay based exam focused on the content of the core content lectures and content from selected research focus lectures. Material will be available to students online (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": End of term",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ": Examination period",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc231",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC231_202526.htm"
+}

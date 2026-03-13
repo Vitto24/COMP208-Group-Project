@@ -1,0 +1,22 @@
+{
+  "code": "PHYS389",
+  "name": "Semiconductor Applications",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr J Alaria",
+  "description": "This module develops the physics concepts describing semiconductors in sufficient details for the purpose of understanding the construction and operation of common semiconductor devices.",
+  "prerequisites": [
+    "PHYS202"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys389",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS389_202526.htm"
+}

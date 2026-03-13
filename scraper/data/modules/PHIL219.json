@@ -1,0 +1,30 @@
+{
+  "code": "PHIL219",
+  "name": "LIBERTY, JUSTICE AND THE GOOD SOCIETY",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr RA Handley",
+  "description": "This module familiarises students with some of the main issues, theories and arguments in contemporary political philosophy. Taking this module will enhance your abilities to analyse political arguments and theories and to identify the philosophical assumptions that underly political claimsregarding such controversial issues as justice, freedom and equality. Thus the module\u00a0is highly appropriate to students studying politics, economics and other disciplines where identifying and assessing the\u00a0assumptions and ideologies underlying claims and policies is important.\u00a0The module is taught by lecture (1 hour per week) and seminar (1 hour per week). Assessment is via a 2 hour exam (comprising 60% of the module mark) and a 2,000 word essay (30% of the module mark). Students also take it in turns to give one 5-10 minute seminar presentation that provides the remaining 10% of the module mark.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil219",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL219_202526.htm"
+}

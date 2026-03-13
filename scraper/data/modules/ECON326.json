@@ -1,0 +1,25 @@
+{
+  "code": "ECON326",
+  "name": "Health Economics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr PD Bennett",
+  "description": "The aim of this module is to introduce final year Economics students to the key principles and tools of health economics. The module aims to show how the health care system differs from the economic textbook model of perfectly competitive markets. It will offer an overview of the issues of demand and supply for health care, supplier-induced demand, equity and inequality, health care financing and health insurance. It will emphasize the use of economic evaluation for assessing health care interventions as a way of making informed decisions in terms of costs and benefits. In addition, a range of practical examples will be provided of how health economics is applied in practice in both resource rich and resource poor countries.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ326",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON326_202526.htm"
+}

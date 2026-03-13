@@ -1,0 +1,25 @@
+{
+  "code": "CLAH261",
+  "name": "RULING THE ROMAN EMPIRE",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor CEP Adams",
+  "description": "This module considers the institutions of government in the Roman Empire, the differing social groups within the empire, and the financial, agricultural and economic life of the Roman world.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/clah261",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CLAH261_202526.htm"
+}

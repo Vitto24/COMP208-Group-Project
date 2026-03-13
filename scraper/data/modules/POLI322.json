@@ -1,0 +1,40 @@
+{
+  "code": "POLI322",
+  "name": "COMPARATIVE ELECTORAL BEHAVIOUR",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr R Gomez Martinez",
+  "description": "This is an empirical-based module that discusses classic and current topics of electoral politics from a comparative perspective.\n\nAmong the themes usually covered by the module are class voting, the rise of cultural issues, ethnic voting, generational differences in voting behaviour, the influence of religion on voting, the voting gender gap, economic voting, leaders and candidates, and support for niche and radical parties.\n\nThe module focuses mostly on advanced capitalist democracies, but research on the global south is also discussed in lectures and workshops.\n\nThe module is strongly empirically-driven. Each week, a new topic is introduced in a lecture and then explored further by analysing real survey data during the PC workshops using a statistical package.\n\nData analysis training is provided as part of the module. Previous statistical training is not a requirement.\n\nThe module is highly recommended for students interested in elections, voters and comparative politics, as well as those interested in data science and survey data analysis.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli322",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI322_202526.htm"
+}

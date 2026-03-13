@@ -1,0 +1,25 @@
+{
+  "code": "MUSI290",
+  "name": "Introduction to Music Psychology",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr E Coutinho",
+  "description": "Music Psychology is a multi-disciplinary field that aims to understand and explain musical activities and experiences through the scientific study of mind and behaviour. This module introduces key contemporary topics and research in this area, including the origins of music, music and emotion, the brain on music, musical development, music and cognitive performance, and music and health. The module will follow a flipped classroom instructional strategy that includes a set of video lectures, hands-on seminars, and individual tutorials. In the lectures, students will be introduced to central concepts, perspectives, and research on a variety of core topics of Music Psychology. These topics will then be actively explored during the seminars through a set of practical activities and group discussions. Individual tutorials will support students to develop their knowledge of research in the field, refine their areas of interest within the topics discussed and coursework preparation. The assessment framework includes one coursework assignment and one multiple choice exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi290",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI290_202526.htm"
+}

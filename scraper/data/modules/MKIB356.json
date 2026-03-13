@@ -1,0 +1,31 @@
+{
+  "code": "MKIB356",
+  "name": "International Marketing",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr HM Dao",
+  "description": "An understanding of international marketing is crucial in today's increasingly international marketplace. International marketing activities must be planned, coordinated and integrated whilst recognising the need to understand the complexity of international environment when devising a strategy for market selection, market entry, and marketing mix. Graduates will often interact with international clients and therefore, this module aims to address the importance of having an international marketing understanding. It examines how a firm internationalises the marketing function, looking in detail at how to design and implement an international marketing plan including identifying the need for internationalisation, conducting global market research, selecting the international market, choosing effective entry modes, planning marketing mix in the target market, and coordinating global marketing program.",
+  "prerequisites": [
+    "MKIB225",
+    "ULMS101",
+    "ULMS102",
+    "MKIB153",
+    "MKIB253"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib356",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB356_202526.htm"
+}

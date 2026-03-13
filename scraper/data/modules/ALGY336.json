@@ -1,0 +1,25 @@
+{
+  "code": "ALGY336",
+  "name": "ARCHAIC GREEK COLONISATION AND BRITISH COLONIAL THOUGHT",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr AM Greaves",
+  "description": "Using historical and archaeological sources, this module explores the so-called \u2018Greek Colonisation\u2019 movement of the archaic period (8th to 6th centuries BC), during which Greek culture expanded from the Aegean to all areas of the Mediterranean and Black Sea. Students will acquire a considerable subject-specific knowledge of the history and archaeology of the period and a critical awareness of the broader issues in the study of Classical archaeology and thematic issues connected with migration in all periods.\n\nTutor-led class discussions will discuss how British historians and archaeologists have used the language and ideas of British colonialism to write about this Greek overseas settlement process, often projecting their own experiences of the British Empire onto the limited evidence that they had. Discussions will cover themes such as race, gender, climate and migration and find new ways of approaching and writing about Greek settlement using the theories and language of contemporary postcolonialism.\n\nThis module develops skills of critical thought, debate, and academic writing skills as well as transferrable professional skills. Students will be allocated to study sets to prepare short group presentations. Students will be supported to develop of teamworking and presentation, with time being allocated in each class for structured activities and feedback on draft presentations.\n\nAssessment is based on a coursework essay (50%) and a group presentation (50%). To ensure fairness of assessment, all students give anonymous peer evaluation of their own and their team\u2019s contribution to the teamwork assignment using BuddyCheck.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy336",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY336_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "CLAH299",
+  "name": "NATURE AND VIRTUE: ANCIENT ETHICS",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr AV Zadorozhny",
+  "description": "The module addresses both the intrinsic and explicitly theorised moral frameworks of Greco-Roman antiquity, by looking at select sources ranging from the Homeric epic to Hellenistic and Roman philosophy. The issues examined during the module include: reciprocity as ethical model (revenge, justice, solidarity), the goods of the self vs the \"external\" goods, happiness and morality, valuing other people as part of one's own moral well-being.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/clah299",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CLAH299_202526.htm"
+}

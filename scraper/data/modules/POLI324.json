@@ -1,0 +1,30 @@
+{
+  "code": "POLI324",
+  "name": "FROM THE IRA TO THE FAR RIGHT: UNDERSTANDING POLITICAL VIOLENCE IN THE CONTEMPORARY WORLD",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr A MacKenzie",
+  "description": "This module aims to acquaint students with terrorism and counter-terrorism in today's world. It starts by examining key concepts, theories, and history and then moves on to looking at a range of issues that have been the subject of particular debate, such as whether terrorism works, whether there are regularities in how campaigns end, and the necessity and contributions of literature on \u2018Critical Terrorism Studies\u2019. The module concludes by looking at whether we are at the end of the religious wave of terrorism and what we might expect to occur next.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli324",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI324_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ENVS162",
+  "name": "Human Geography Through Merseyside",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor MN Riley",
+  "description": "Liverpool has been described as \u2018the world in one city\u2019, and in this module we utilise this unique geographical location to introduce key concepts and practices of human geography. Through a combination of field excursions, lectures and practical exercises, we develop skills of data collection, interpretation and analysis through considering the history, politics and socio-demographic characteristics of the city. The module helps students understand the connection between geographical concepts and real-world examples and is assessed through data analysis practicals and a field-based portfolio exercise.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Sem 2  A portfolio exercise focused on combining geographical concepts with empirical examples observed in the city",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": ":2",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs162",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS162_202526.htm"
+}

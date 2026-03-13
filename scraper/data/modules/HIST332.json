@@ -1,0 +1,35 @@
+{
+  "code": "HIST332",
+  "name": "CONFRONTING CATASTROPHE?: ENVIRONMENTAL HISTORIES OF BRITAIN, EUROPE AND THE UNITED STATES SINCE 1800",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr KE Arnold",
+  "description": "This module explores the relationship between humans and the environment in modern Britain, Europe and the United States. At a time when environmental issues are never far from the headlines, and drawing on the approaches and insights of environmental history, one of history\u2019s newest and most exciting sub-disciplines, this module assesses the environmental dimensions of key historical processes in the West, including industrialization, colonialism, urbanization, and war. It also attends to heightened political and cultural concerns about the environment in the twentieth century. An exploration of real and imagined environmental catastrophes frames this module. We will ask whether the modern West has courted environmental and social catastrophe with its attitudes towards, and uses of, the environment. We will also explore the ramifications of various environmental disasters, such as Hurricane Katrina that struck New Orleans in 2005, and the ways in which they affect different communities, thereby addressing issues of environmental racism and justice. At the same time, we will analyse the catastrophic narratives of environmentalism. The module draws on a wide variety of primary sources, including texts, photographs and paintings, film, and environmental literature. No prior knowledge of the subject is required. Nor are you required to have any scientific background.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist332",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST332_202526.htm"
+}

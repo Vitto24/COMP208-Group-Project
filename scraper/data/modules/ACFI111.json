@@ -1,0 +1,20 @@
+{
+  "code": "ACFI111",
+  "name": "Quantitative Methods for Accounting and Finance",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RR Hizmeri Canales",
+  "description": "The module aims to provide an introduction to quantitative methods that will assist students in establishing basic quantitative and statistical skills for the study of accounting and finance.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi111",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI111_202526.htm"
+}

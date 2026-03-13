@@ -1,0 +1,30 @@
+{
+  "code": "ULMS209",
+  "name": "Experiential Learning Project",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr M Bradley",
+  "description": "The Experiential Learning Project provides an early opportunity for Year 2 Business and Management students to apply the academic knowledge gained from the first year of their course to a significant \u2018real-world\u2019 management problem. The module begins with team formation activities and a grounding in the theory and practice of Experiential Learning \u2013 a Professional imperative. Groups of 3-6 then engage with a \u2018live\u2019 project/task/problem posed by an organisation, consult with a manager from that organisation to agree deliverables and timelines, and then work for 6-8 weeks on delivering a suitable report/solution. The module concludes with a reflective element; embedding the new learning from the project experience, and each student\u2019s enhanced skill set, back into their ongoing programme of study.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Size: 500 words  Weighting: 20%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "and accompanying report(s)",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Size: 750 Words  Weighting: 30%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms209",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS209_202526.htm"
+}

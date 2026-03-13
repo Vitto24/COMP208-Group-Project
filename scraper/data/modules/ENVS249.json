@@ -1,0 +1,20 @@
+{
+  "code": "ENVS249",
+  "name": "Principles and Theory in Geography",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr A Isakjee",
+  "description": "The module aims to introduce students to current and historical debates about the nature, purpose and practice of geography. It compliments Research Skills (ENVS203) and provides a background for all modules in Geography. Particular emphasis will be placed upon the philosophical and conceptual developments within Geography as a discipline and the role of \u2018spatial thinking\u2019 in the production of geographical knowledge. The module is delivered using a combination of lectures and seminars and is assessed with a comprehensive single piece of coursework.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs249",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS249_202526.htm"
+}

@@ -1,0 +1,22 @@
+{
+  "code": "PHYS377",
+  "name": "Particle Physics",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor JH Vossebeld",
+  "description": "Introduction to Particle Physics.\u00a0 To build on the second year module involving Nuclear and Particle Physics.\u00a0\u00a0To develop an understanding of the modern view of particles, of their interactions and the Standard Model.",
+  "prerequisites": [
+    "PHYS361"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys377",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS377_202526.htm"
+}

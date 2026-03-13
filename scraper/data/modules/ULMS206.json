@@ -1,0 +1,25 @@
+{
+  "code": "ULMS206",
+  "name": "Managing People",
+  "department": "Management School",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr HOC Onillon Caldwell",
+  "description": "This module seeks to introduce students to the theoretical perspectives, roles, and practical activities associated with the management of people and the Human Resources function in organisations. This case focused module will develop your ability to apply these newly acquired theories and frameworks to generate solutions to \u2018real world\u2019 Human Resources issues and challenges.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms206",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS206_202526.htm"
+}

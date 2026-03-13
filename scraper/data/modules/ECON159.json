@@ -1,0 +1,25 @@
+{
+  "code": "ECON159",
+  "name": "Global Economic (And Business) Environment",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr N Mantovan",
+  "description": "This module considers the changing nature of the world economy and economic globalization, examining the role of transnational corporations, states and other organizations, labour, consumption and the complex relations between them that are transforming the global economy through the operation of transnational corporations and global production networks, and the actions of states, interest groups and technology in facilitating this shift.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ", the resit will be via 100% Individual Report resit",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ159",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON159_202526.htm"
+}

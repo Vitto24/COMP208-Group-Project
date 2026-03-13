@@ -1,0 +1,45 @@
+{
+  "code": "ENVS111",
+  "name": "Climate, Atmosphere and Oceans",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor RG Williams",
+  "description": "Climate, Atmosphere and Oceans provides an understanding of how the climate system operates. The module draws on basic scientific principles to understand how climate has evolved over the history of the planet and how the climate system is operating now. Attention is particularly paid to the structure and circulation of the atmosphere and ocean, and how they both interact. The course emphasises acquiring mechanistic insight and drawing upon order of magnitude calculations. By the end of the module students will understand how the oceans and atmosphere combine to shape Earth\u2019s climate. Students gain quantitative skills by completing a series of coursework exercises and a final exam. Students address the Net Zero carbon goal via group work involving digital storytelling.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":end of semester 1",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": during 1st semester",
+      "weight": 5
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": ":during 1st semester",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": ":during 1st semester",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": ": during 1st semester",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs111",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS111_202526.htm"
+}

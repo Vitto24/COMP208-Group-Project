@@ -1,0 +1,27 @@
+{
+  "code": "LAW374",
+  "name": "COMPETITION LAW",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr AK Gideon",
+  "description": "This is a third-year undergraduate module on competition law. The module will cover the basic rules of competition law in the EU, UK and other legal systems, including rules against anticompetitive agreements, monopolisation/abuse of dominance, anticompetitive mergers and public and private enforcement of competition rules. The module will be taught through lectures and debate-seminars and assessed by MCQ (10%) and Moot/debate (90%).",
+  "prerequisites": [
+    "LAW210"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ". Students will be tested through an oral moot at the end of the semester",
+      "weight": 90
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law374",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW374_202526.htm"
+}

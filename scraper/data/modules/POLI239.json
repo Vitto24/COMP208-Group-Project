@@ -1,0 +1,30 @@
+{
+  "code": "POLI239",
+  "name": "BRITISH PARTY POLITICS",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Jeffery",
+  "description": "This module aims to develop students\u2019 knowledge of British political parties and the party system within which they operate. It explores questions and issues surrounding party structure and organisation, electoral strategy, party ideology and the socio-historical contexts which lead to the rise of certain types of parties rather than others.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli239",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI239_202526.htm"
+}

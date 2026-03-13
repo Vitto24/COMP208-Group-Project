@@ -1,0 +1,30 @@
+{
+  "code": "HIST318",
+  "name": "WHITENESS IN MODERN BRITAIN: BETWEEN POWER AND PRIVILEGE",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr JMB White",
+  "description": "This module invites students to engage critically with the concept of \u2018whiteness\u2019, and its impact in shaping British history. It encourages to expand their understand of \u2018race\u2019 as merely affecting \u2018people of colour\u2019 and explore the way in which power and privilege has been articulated through concepts of \u2018whiteness\u2019. We will explore how \u2018whiteness\u2019 has been constructed in various forms, how it has been leveraged to reinforce racial inequalities, and its relationship to empire, gender, class, and sexuality. Students will explore how the definition of \u2018whiteness\u2019 has changed across time and place, how it has been represented in British film and television, and how it is understood and articulated by different social groups. The module will draw on various forms of cultural production (writing, films, photography etc) from white people and people of colour throughout the 20th century. Students will be challenged theoretically, employing a range of work from critical race theorists to carrying out critical analyses of primary sources to further their understanding of whiteness in the historical context.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist318",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST318_202526.htm"
+}

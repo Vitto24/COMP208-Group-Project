@@ -1,0 +1,20 @@
+{
+  "code": "ELEC319",
+  "name": "Image Processing",
+  "department": "Electrical Engineering and Electronics",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr LJ Devlin",
+  "description": "This module covers the fundamentals of how images are generated, represented, compressed and processed to extract features of interest.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": January",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/elec319",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ELEC319_202526.htm"
+}

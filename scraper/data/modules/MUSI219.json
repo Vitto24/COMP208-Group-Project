@@ -1,0 +1,25 @@
+{
+  "code": "MUSI219",
+  "name": "Early musical cultures from the Islamicate court to the English Reformation",
+  "department": "Music",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor LM Johnson",
+  "description": "Early Musical Cultures from the Islamicate Court to the English Reformation introduces students to a wide range of early cultures of song and instrumental music from before 1600. Students will learn about the role of musicians in diverse contexts, including: the troubadours and trobaritz (12th-century France); music and mysticism (including Abbess Hildegard von Bingen and the pilgrimages of Margery Kempe); gender-queer musicians working at court in modern Syria, Israel, and Iraq (7th \u2013 13th century); the role of Muslim, Christian, and Jewish musicians in late medieval Iberia; disability and musicianship (Notker, Landini, Machaut); and  English composers negotiating their music during a period of dramatic religious change (Dunstaple, Fayrfax, Tallis, Queen Katherine Parr, Byrd). Teaching will take the form of lectures based on key themes, and seminars and workshops that consider sources relevant to certain musical traditions. Students will have the opportunity to work first-hand with early musical sources (digitally and using the archives), to explore early notations, and to engage in informal practical work. On the completion of this module, students will have a strong knowledge of the ways in which musicians played key roles in culture, and of the musical repertories that they produced. They will be able to identify compositional styles, and will know about how to handle early manuscript and print sources in their research, in person or via key online resources. Final projects combining written and practice-based elements will be encouraged, but may alternatively be fully written.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "plus 500 words  (reference list)",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/musi219",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI219_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "LAW317",
+  "name": "BANKING LAW",
+  "department": "Law",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr JP Tribe",
+  "description": "The Banking Law module\u2019s overall focus is on risk and threat's (both traditional and emerging) to the banking system. Specifically we will focus on the role law plays in addressing these challenges. Initially, we will look at how the Bank works with the HM Treasury to safeguard the banking sector from emerging and evolving risks, specific focus will be placed on its role as Lender of Last Resort. We will then go on to examine banking regulation, bank failures and resolution of banks, considering the cyclical nature of crisis and the impact on regulation. This will then followed by an examination of the banker and customer relationship, and the role the legal duties owed between the parties plays in reducing risk and uncertainty in terms of the everyday course of dealings between the bank and its customer. The module will then focus on the bank\u2019s Anti-Money Laundering obligations, we will consider the importance of the framework in reducing a bank\u2019s exposure to risk, but will also note the heavy burden on complying with it. Finally, we conclude the module with a look at crypto-banking, with a focus on the potential benefits and risks it presents to consumers, and how it may challenge the traditional banking system.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "\u00e2\u0080\u0093 ongoing throughout course, students to pick a news story (relevant to the course) and produce an 800 word blog (either how it presents a legal challenge for banks, or how it has provided a response to a pre-existing challenge)",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "2,500 words",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law317",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW317_202526.htm"
+}

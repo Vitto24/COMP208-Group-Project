@@ -1,0 +1,28 @@
+{
+  "code": "PHYS387",
+  "name": "Materials Physics and Characterisation",
+  "department": "Physics",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Professor CA Lucas",
+  "description": "Preparation and characterisation of a range of materials of scientific and technological importance.",
+  "prerequisites": [
+    "PHYS202",
+    "PHYS102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys387",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS387_202526.htm"
+}

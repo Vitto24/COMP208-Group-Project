@@ -1,0 +1,25 @@
+{
+  "code": "LATI307",
+  "name": "CONTEMPORARY LATIN AMERICAN POLITICS",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr M Riethof",
+  "description": "This module will introduce students to debates about democracy in Latin American during and after the Cold War, including the breakdown of democratic regimes and democratisation. By examining the changing relationship between the state, civil society and citizens since the mid-twentieth century, we cover various aspects of the democratisation process in the region, including theoretical explanations. In the first half of the module, we examine the influence of the Cold War on Latin American politics, including the Cuban Revolution, US-Latin American relations, and the emergence of military regime. This is followed by an examination of the \u2018transitions to democracy\u2019, including topics such as transitional justice, human rights, and the memory and legacy of dictatorship. We finish by studying some of the challenges confronting Latin America societies today and the prospects for democracy.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/lati307",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LATI307_202526.htm"
+}

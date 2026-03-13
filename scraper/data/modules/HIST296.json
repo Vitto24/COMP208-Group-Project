@@ -1,0 +1,25 @@
+{
+  "code": "HIST296",
+  "name": "THEMES IN AFRICAN HISTORY: AN INTRODUCTION",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor D Jeater",
+  "description": "This module is about \u2018African history\u2019. By this, I mean \u2018what interests historians of Africa\u2019 rather than \u2018what happened in the past in Africa\u2019. It\u2019s an important distinction. So this is not a chronological account of the whole history of the whole continent. Instead, it looks at broad themes that have attracted interest from a range of historians. Although much of the history covered by the module is based on the records of imperial administrators, it is not imperial history. The focus is on African people and events on the African continent. Africans\u2019 lives were affected by imperial administrators, but the historical subjects of this module are not the imperial outsiders; they are the people born and raised on the continent.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist296",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST296_202526.htm"
+}

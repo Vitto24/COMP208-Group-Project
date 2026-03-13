@@ -1,0 +1,30 @@
+{
+  "code": "ENGG201",
+  "name": "EXPERIMENTAL METHODS",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 1,
+  "level": 5,
+  "credits": 7.5,
+  "lecturer": "Dr AB Blackman",
+  "description": "The module focusses on the essentials of data analysis and interpretation, engineering experimentation, measurement techniques and principles of instrumentation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":1st",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": semester 1,",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ":1",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg201",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG201_202526.htm"
+}

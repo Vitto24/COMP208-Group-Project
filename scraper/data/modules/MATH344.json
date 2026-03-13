@@ -1,0 +1,49 @@
+{
+  "code": "MATH344",
+  "name": "COMBINATORICS",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr V Guletskii",
+  "description": "Combinatorics is a part of mathematics in which mathematicians deal with discrete and countable structures by means of various combinations, such as permutations, ordered and unordered selections, etc. The seemingly simple methods of combinatorics can raise highly non-trivial mathematical questions and lead to deep mathematical results, which are, in turn, closely related to some fundamental phenomena in number theory",
+  "prerequisites": [
+    "MATH102",
+    "MATH101",
+    "MATH103"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math344",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH344_202526.htm"
+}

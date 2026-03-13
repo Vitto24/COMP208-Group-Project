@@ -1,0 +1,30 @@
+{
+  "code": "HIST106",
+  "name": "PRESENTING THE PAST",
+  "department": "History",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr MJ Costambeys",
+  "description": "In this module students will work independently and in groups to produce a polished research project on a topic and in a medium approved by the tutor. The group will then present the final project to an audience explaining and reflecting upon the project\u2019s rationale and the research and creative process. The emphasis is on research skills, dealing with primary sources, communicating arguments about the past, and on learning to work independently and in groups.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist106",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST106_202526.htm"
+}

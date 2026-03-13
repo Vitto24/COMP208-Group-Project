@@ -1,0 +1,35 @@
+{
+  "code": "BIOS224",
+  "name": "Global Fieldwork",
+  "department": "Biosciences",
+  "semester": null,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr KE Ross",
+  "description": "This elective residential field course takes place in an Afrotropical setting and aims to familiarise students with the ecology of ecosystems outside of Europe and the field techniques utilised in their study, which is accomplished through a combination of staff-led field visits, seminars, and students' participation in field techniques and studies. The content of the module aims to introduce students to aspects of ecosystem function, habitat regeneration, biodiversity patterns, the natural history of significant plant and animal groups, and behavioural ecology. Additionally, the module will explore the role that ecotourism serves in conserving biodiversity.\n\nAs an elective module, students are required to make a financial contribution that covers the cost of their attendance (e.g. flights, accommodation, meals + transport, entry to national park(s)). In recognition that an international field course will not be available to all students, a limited number of partially-funded places might be offered subject to budgetary approval. All prospective students will be notified in advance whether partial-funding is available in each year.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "is not possible since it is a group oral presentation delivered on the field course",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios224",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS224_202526.htm"
+}

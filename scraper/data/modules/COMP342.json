@@ -1,0 +1,30 @@
+{
+  "code": "COMP342",
+  "name": "Advanced Topics in Computer Game Development",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr K Tsakalidis",
+  "description": "This modules aims to cover advanced concepts underpinning computer games development; including game AI, content generation, graphics, physics and sound. As part of the continuous assessment, students apply those concepts to computer games development.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "CA2 Programming assignment 2; Content generation",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "CA1 Programming assignment 1; Game AI",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP342_202526.htm"
+}

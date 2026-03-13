@@ -1,0 +1,33 @@
+{
+  "code": "CLAH211",
+  "name": "REBUILDING TROY",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr BJ Cartlidge",
+  "description": "The Trojan War is one of the \u2018great stories\u2019 of Western culture. The Iliad most famously replays a crucial episode: the anger of Achilles following insult from the Achaean (Greek) leader Agamemnon and its deadly consequences. But alongside other contemporary epic poems, events from the ten-year struggle between the Achaeans and Trojans have been rewritten, restaged, and represented in literature and art across antiquity and down the centuries into modern times. This module examines some of these various attempts to \u2018rebuild Troy\u2019, tracing the myth through a range of source material, including epic poetry, Greek sculpture and painted pottery, Athenian tragedy, Hellenistic inscriptions, Roman poetry, nineteenth-century European art and film. By putting each 'reception' of the myth into its social, political and historical contexts, the module traces the fluidity and malleability of Troy in the cultural imagination, and asks what Trojan stories reveal about the societies that tell them, ancient and modern.",
+  "prerequisites": [
+    "CLAH115",
+    "CLAH101",
+    "CLAH102",
+    "CLAH114",
+    "CLAH105",
+    "CLAH106",
+    "CLAH107"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/clah211",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CLAH211_202526.htm"
+}

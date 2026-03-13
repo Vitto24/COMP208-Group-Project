@@ -1,0 +1,27 @@
+{
+  "code": "ACFI212",
+  "name": "Tax Compliance",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mrs CA Gregory",
+  "description": "The module covers the general UK taxation system and introduces students to the relevant taxes in the UK tax system. The module explains the general objectives of tax, the influences upon the UK system of tax and the different types of tax in the UK It discusses the ethical issues arising in the course of performing tax work and identifies the obligations the UK system of tax imposes on taxpayers and the implications for taxpayers of non-compliance. The module covers capital gains tax payable by individuals and trustees, income tax owed by or owed to individuals and trustees, inheritance tax due on lifetime transfers and transfers on death by individuals, personal representatives and trustees, national insurance payable by individuals, businesses and companies, corporation tax liabilities of companies, VAT owed by, or owed, to businesses and the amount of stamp taxes due in straightforward transactions.",
+  "prerequisites": [
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi212",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI212_202526.htm"
+}

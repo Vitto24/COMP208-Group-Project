@@ -1,0 +1,30 @@
+{
+  "code": "POLI321",
+  "name": "INTERNATIONAL INTERVENTION",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr BJ Gippert",
+  "description": "This module examines the different ways in which states intervene in the domestic affairs of other states or territories such as humanitarian intervention, invasion, annexation, peacekeeping, and colonial interventions. It explores how intervention has changed and developed historically, especially during and after the Cold War. It analyses whether state-practice has out-run the rules and norms that guide international state behaviour, particularly the legal framework of the United Nations and other relevant bodies of international law.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI321_202526.htm"
+}

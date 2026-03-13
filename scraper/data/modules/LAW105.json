@@ -1,0 +1,25 @@
+{
+  "code": "LAW105",
+  "name": "LAW OF CONTRACT",
+  "department": "Law",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Ms L Mitchell",
+  "description": "The module is a foundation subject required by the legal professional bodies for professional practice. The aim is that students should acquire a solid knowledge of the legal principles and rules applied by the courts in Contract Law, whilst also developing fundamental legal skills of case analysis, synthesis and problem-solving. Students will undertake the study of Contract Law in its social, political and commercial context.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Students answer 1 question from a range of problem style questions on the paper",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Students answer 1 question from a range of problem style questions on the paper",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law105",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW105_202526.htm"
+}

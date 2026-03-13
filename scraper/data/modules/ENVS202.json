@@ -1,0 +1,30 @@
+{
+  "code": "ENVS202",
+  "name": "Key Skills for Environmental Data Analysis",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr JD Wilson",
+  "description": "The module provides a generic training in manipulating environmental datasets using the industry-standard Matlab software. Skills are provided in reading in data, manipulating and plotting the data, and interpreting the data signals. The assumption is that students have no experience in programming. The module begins with an introduction to Matlab \u2013 what it is, what it can do, how to operate it \u2013 and then develops a series of programming skills, each week using data collected in the staff\u2019s own research to provide real-world examples of the use of Matlab. The aim is to provide students with sufficient grasp of programming in Matlab to enable its use in subsequent project work, as well as providing the foundations in one of the key tools used in science and industry. The module is assessed by both coursework and a short final exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Matlab techniques and data interpretation",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": ": Matlab techniques and global Carbon",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": ": Matlab techniques and data interpretation 2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs202",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS202_202526.htm"
+}

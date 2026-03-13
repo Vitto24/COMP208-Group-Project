@@ -1,0 +1,25 @@
+{
+  "code": "POLI332",
+  "name": "CONTEMPORARY POLITICS OF NATIONALISM",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr E Nazrullaeva",
+  "description": "The principal aim of this module is to analyse the political significance of national and ethnic identity in international politics. This involves the examination of the interrelationship between national identity, territory, sovereignty and democracy within the nation-state from historical and ideological perspectives, and in the context of current political developments. Module deals with cultural diversity, the role of the nation-state in international system, ethnic conflict, migration, diasporas, neo-nationalism and the European Union.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli332",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI332_202526.htm"
+}

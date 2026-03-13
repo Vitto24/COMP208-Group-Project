@@ -1,0 +1,30 @@
+{
+  "code": "MUSI181",
+  "name": "Foundations of Music Theory",
+  "department": "Music",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr RK Minton",
+  "description": "A constructive course in Music Theory for all musicians. Students will be introduced to a range of scales and modes, diatonic chords and their extensions, inversion, cadences, and the basics of creating progressions. The module will review the fundamental elements of music theory allow students to emerge with a deeper understanding of their relationships and function as building blocks of composition, performance, and analysis.Musical notation will be used, but not exclusively, and there will be an aural component. Delivery will be in-person lectures, seminars, and tutorials. Formative assessment will be an important teaching tool, and summative assessment will be via an end of term theory test.Students should emerge from the module feeling comfortable with music theory to take these foundational skills on to further study in their degrees.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ".  Assessment Description: A written paper on topics covered",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ".  Assessment Description: An aural recognition test on topics covered",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi181",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI181_202526.htm"
+}

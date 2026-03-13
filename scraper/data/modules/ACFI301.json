@@ -1,0 +1,24 @@
+{
+  "code": "ACFI301",
+  "name": "Advanced Auditing",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mrs H Scott",
+  "description": "This module introduces a rationale for auditing using both normative and positive theoretical models. It examines the regulatory framework within which the statutory audit in the UK operates, covers key elements of Auditing Standards and evaluates elements of current audit practices.  Assessment is via 100% examination.",
+  "prerequisites": [
+    "ACFI210",
+    "ACFI201",
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi301",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI301_202526.htm"
+}

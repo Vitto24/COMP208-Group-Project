@@ -1,0 +1,25 @@
+{
+  "code": "ENGG304",
+  "name": "UNCERTAINTY, RELIABILITY AND RISK 1",
+  "department": "Civil and Environmental Engineering",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Dr S Povall",
+  "description": "This module covers broad aspects of uncertainty quantification methods, reliability analysis and risk assessment in engineering applications. It also provides understanding of statistical analysis of engineering data and computational methods for dealing with uncertainty in engineering problems.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": ":End of semester 1",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/civil-engineering-beng-hons/modules/engg304",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG304_202526.htm"
+}

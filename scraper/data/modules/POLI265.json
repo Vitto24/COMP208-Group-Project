@@ -1,0 +1,30 @@
+{
+  "code": "POLI265",
+  "name": "THE POLITICS OF 'RACE' AND MARGINALISATION",
+  "department": "Politics",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr A Abu-Bakare",
+  "description": "This module aims to introduce second-year undergraduates to issues surrounding racialisation in national, comparative, and international politics. It will locate \u2018race\u2019 as an enduring feature of access to power and look at theories of race theory about issues and controversies in the national and global contexts. Students will be expected to analyse how issues of race and marginalisation play out in modern politics and events. The module will examine structural disadvantages in racial politics from the US Civil Rights Movement to the UK Movement for Black Lives, and from heritage and identity politics in current popular culture. The module will also trace some of the specifics of race politics in our city and look at the legacy of slavery and colonialism right up to contemporary manifestations of race and racism in Merseyside.\n\nThe module is chiefly designed to develop students\u2019 oral skills through discussion in lectures, teamwork skills (e.g., group activities), intercultural communication (out-of-class discussions with classmates), written skills, analysis skills (from the use and assessment of material from an array of sources), and critical and analytical skills. Please note that this module is reading intensive. You will need to allocate a substantial amount of time to reading in preparation for seminars and assessments.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli265",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI265_202526.htm"
+}

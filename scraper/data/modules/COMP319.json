@@ -1,0 +1,27 @@
+{
+  "code": "COMP319",
+  "name": "Software Engineering II",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr ST Coope",
+  "description": "The overall aim of this module is to introduce students to a range of advanced, near-research level topics in contemporary software engineering. The actual choice of topics will depend upon the interests of the lecturer and the topics current in the software engineering research literature at that time. The course will introduce issues from a problem (user-driven) perspective and a technology-driven perspective where users have new categories of software problems that they need to be solved, and where technology producers create technologies that present new opportunities for software products. It will be expected that students will read articles in the software engineering research literature, and will discuss these articles in a seminar-style forum.",
+  "prerequisites": [
+    "COMP201"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Final Exam  This is an anonymous assessment",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Assignment 1  Object Pattern Assignment  A programming assignment for the students to demonstrate skills in OO SOLID principles",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp319",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP319_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "HIST328",
+  "name": "METROPOLIS: CRISIS AND REFORM IN THE GREAT CITIES 1840-1920",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr CN Stafford",
+  "description": "This module explores the great problems that affected nineteenth- and twentieth-century cities\u2014disease, deprivation, 'slum' housing, crime and haphazard planning\u2014and the reforms that aimed to solve them. It examines new techniques, such as social investigation, \u2018underworld\u2019 journalism, slum photography and film-making that shaped understanding of the city as a dangerous place, but also a place of spectacle and pleasure. In so doing, it introduces a range of sources and methods that expand your research skills as you move through the final year.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 85
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist328",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST328_202526.htm"
+}

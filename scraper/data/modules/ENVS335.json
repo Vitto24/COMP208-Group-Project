@@ -1,0 +1,25 @@
+{
+  "code": "ENVS335",
+  "name": "Ocean Carbon and Climate",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor C Mahaffey",
+  "description": "Increasing amounts of carbon dioxide in the atmosphere are having a profound impact on our Earth system. This module will introduce students to the fundamental theory behind the global carbon cycle, specifically the role of the ocean in cycling carbon, and the implications for climate. Students will see how carbon is partitioned between the atmosphere, land and ocean in the contemporary and past Earth system, understand how the ocean stores 50 times more carbon than the atmosphere, and consider the impact of increasing carbon dioxide on the organisms living on land and in the ocean. Teaching is through lectures, workshops focusing on key components of the carbon cycle, and guided reading. Assessment is by two pieces of coursework.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "and climate scenarios",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Week 12 to cover Theme B  MCQ questions related to numerical calculations, followed by longer answer questions with max words of 200 to 300 words for each question",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs335",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS335_202526.htm"
+}

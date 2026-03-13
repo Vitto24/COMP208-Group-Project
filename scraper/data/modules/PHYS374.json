@@ -1,0 +1,25 @@
+{
+  "code": "PHYS374",
+  "name": "RELATIVITY AND COSMOLOGY",
+  "department": "Physics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr I Mccarthy",
+  "description": "The course covers the concepts required to connect special relativity, Newtonian gravity, general relativity, and the cosmological metrics and dynamical equations. The main part of the course is focussed on cosmology, which is study of the content of the universe, structure on the largest\u00a0scales, and its\u00a0dynamical evolution. This is covered from both a theoretical and observational perspective.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "recorded presentation related to on-going questions in cosmology or paradox solutions",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys374",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS374_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "BIOS218",
+  "name": "Molecular Microbiology and Therapeutics",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr AL Wedley",
+  "description": "Understanding how microorganisms interact with their host, and the environment, is fundamental for the understanding and developing treatment for microbial disease. On this module students will explore the molecular mechanisms that lead to microbial infection for bacteria, viruses and fungi.  This knowledge will then be applied to help students gain insight of various therapeutic strategies used to control microbial infections and the challenges associated with this.  The module will be delivered via lectures and workshops, utilising active-learning delivery methods to enhance student engagement. Teaching material will be hosted in the University virtual learning environment (VLE) to aid development of digital fluency and promote assimilation and appraisal of the module content.  The module will be assessed by both online  (open book) and written (closed book) tests combining MCQs, MAQs and short answer questions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios218",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS218_202526.htm"
+}

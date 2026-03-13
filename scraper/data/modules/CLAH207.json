@@ -1,0 +1,27 @@
+{
+  "code": "CLAH207",
+  "name": "HERODOTUS' HISTORIES",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr V Zali-Schiel",
+  "description": "This module introduces students to Herodotus' Histories, the first piece of historiographical prose to survive from Greek antiquity, and to some of the other evidence (especially Persian and Egyptian) that is needed for a proper contextualisation of Herodotus' historical and literary enterprise. It examines a series of key themes in the study of Herodotus: for example, his representation of foreign peoples, or of Persian or Athenian imperialism, the role of religion in the Histories, and the causes of the Persian wars.",
+  "prerequisites": [
+    "CLAH104"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/clah207",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CLAH207_202526.htm"
+}

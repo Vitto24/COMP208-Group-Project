@@ -1,0 +1,27 @@
+{
+  "code": "LAW318",
+  "name": "COMMERCIAL LAW",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor RA Stokes",
+  "description": "This module explores fundamental issues in Commercial Law with a particular focus upon Sale of Goods and the Law of Agency. Students will be introduced to certain key areas of importance, including legal issues stemming from the passing of property and title in sale transactions; implied terms within sale contracts and the role of agents in Commercial Law. Teaching and learning uses a 'blended learning' approach \u2013 the module utilises lectures, seminars, workshop sessions and e-learning strategies to guide the student through a complex area of law. Lectures focus on the delivery of key information and fundamental principles. Building on this acquired knowledge, seminars will focus upon the application of those fundamental principles to complex factual scenarios and advanced legal problems. Post-seminar podcasts and follow-up exercises will serve to offer feedback on the performance of the cohort as a whole, nurture advanced understanding and also guide further work. Commercial Law is a very lucrative and popular area of legal practice, and this is a useful specialty option for students interesting in corporate and commercial careers.",
+  "prerequisites": [
+    "LAW105"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 5
+    },
+    {
+      "type": "exam",
+      "title": "(1750 word limit)",
+      "weight": 95
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law318",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW318_202526.htm"
+}

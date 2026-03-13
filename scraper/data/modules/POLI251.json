@@ -1,0 +1,30 @@
+{
+  "code": "POLI251",
+  "name": "POLITICS OF INTERNATIONAL HUMAN RIGHTS",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr O Hodzi",
+  "description": "This module focuses on the concept, institutionalization, and politics of human rights in international politics. It will provide an overview of the philosophical foundations and debates on human rights. Students will learn about the history and development of human rights in international politics. The module will explore how policies, institutions, and actors aim to improve human rights regionally and globally. It will critically assess the efforts to promote and protect human rights in international politics. At the same time, the module will look at human rights in various regions in the world, as well as issues including war crimes, genocide, torture, environmental rights, women and children\u2019s rights and others.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli251",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI251_202526.htm"
+}

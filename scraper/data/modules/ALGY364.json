@@ -1,0 +1,25 @@
+{
+  "code": "ALGY364",
+  "name": "INTERNATIONAL RELATIONS IN THE ANCIENT WORLD",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor BE Routledge",
+  "description": "This module examines Egypt and the Near East during the Late Bronze Age (c. 1550-1200 BCE) as part of the world's earliest well-documented international system. Students are introduced to the key events and political actors of this period, as well as the critical analysis of relevant primary sources. Key issues in International Relations theory are introduced through their application to the Late Bronze Age.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy364",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY364_202526.htm"
+}

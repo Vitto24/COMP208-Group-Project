@@ -1,0 +1,30 @@
+{
+  "code": "HIST275",
+  "name": "THEMES IN CHINESE HISTORY",
+  "department": "History",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr J Wu",
+  "description": "This is a survey module on Chinese religious history, covering from the Han (B.C 202-220) to the Qing (1644- 1911) Dynasty. Pre-modern period here refers to prior to 1911, the end of Chinese imperial dynasties. This module is not arranged chronologically, but a very basic knowledge about the imperial history is needed. Chinese religion differs from Christianity in a fundamental way. Unlike Christian faith, Chinese religion is polytheistic and even pantheistic rather than monotheistic. This means that sometimes \u201cfaith\u201d is of secondary importance to \u201critual\u201d. Religion permeated in all aspects of people\u2019s daily life in pre-modern Chinese societies. To use C. K. Yang\u2019s term, Chinese religion is more \u201cdiffused\u201d than \u201cinstitutional\u201d. In other words, Chinese religious life is better described as \u201cdoing religion\u201d rather than \u201cbelieving in religion\u201d. However, religious institutions such as Buddhist sangha (monastery) and Taoist church did exist. But institutionalreligion is never as powerful as the Church in Medieval Europe, and always subordinate to the state power. Students, thus, should break away from \u201cChristendom model\u201d when studying Chinese religion.\n\nIn this course, we will be looking at both \u201creligion\u201d of scriptural traditions such as Buddhism and Taoism, and popular ritual practices without traceable textual tradition. The purpose is to convey the idea that the boundary between the two are not clear-cut at social/popular level. For example, many Buddhist liturgies in fact derive from indigenous rituals from the pre-Buddhist era on the one hand; some shamanic practices blend many Buddho-Taoist elements on the other. We should see \u201cChinese religion\u201d from the ritualist perspective.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist275",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST275_202526.htm"
+}

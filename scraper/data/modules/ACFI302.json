@@ -1,0 +1,24 @@
+{
+  "code": "ACFI302",
+  "name": "Corporate Reporting and Analysis",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr A Deller",
+  "description": "This module is the final module of a stream of 4 that cover financial reporting. This module therefore develops students understanding of financial reporting to a very high level by building upon the knowledge and skills gained in earlier financial reporting modules by covering more detailed and complex accounting standards. It will also develop an understanding of financial statement analysis using financial reporting and business strategy skills developed in this and earlier modules. Ethical and professional issues in financial reporting will also be considered.",
+  "prerequisites": [
+    "ACFI201",
+    "ACFI309",
+    "ACFI101"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi302",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI302_202526.htm"
+}

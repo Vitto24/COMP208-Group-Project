@@ -1,0 +1,25 @@
+{
+  "code": "POLI401",
+  "name": "DISSERTATION",
+  "department": "Politics",
+  "semester": 0,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr O Zihnioglu",
+  "description": "This module involves students researching and producing an 8,000 to 10,000 word dissertation. It helps develop key skills such as autonomy, in-depth analysis and research design.\n\nStudents are responsible for formulating their own research question and are encouraged to maintain a close relationship with their supervisor who will provide guidance and support throughout the module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 90
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli401",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI401_202526.htm"
+}

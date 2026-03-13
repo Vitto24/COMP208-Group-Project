@@ -1,0 +1,27 @@
+{
+  "code": "MECH303",
+  "name": "VIBRATION AND CONTROL",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr A Moradi",
+  "description": "This module is built on MECH215. It consists of Vibration and Control as 2 main components. Both are on\u00a0an advanced level and basically deal with multi-degree-of-freedom (or multi-input multi-output) systems.\n\nThe main mathematical tools are Laplace transforms, differential equations, simultaneous linear equations, complex numbers, trigonometry, vectors and matrices, eigenvalues and eigenvectors.",
+  "prerequisites": [
+    "MECH215"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":end of semester 2",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech303",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH303_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "ENVS225",
+  "name": "Exploring the Social World",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr MLT Rose",
+  "description": "This module aims to introduce students to the key methodological debates, and the main qualitative and quantitative methodological techniques that are used in the Social Sciences. In doing so, the module aims to deliver the research skills training that will enable students to successfully complete their field classes and dissertations. Students will be introduced through lecture and lab sessions to core research methods to understand and interpret the world we live in. The module is split into two sections \u2013 one qualitative and one quantitative, each with a different assessment. The qualitative section will cover core techniques such as interviews, focus groups and visual analysis, and is assessed through an extended bibliography of current research. The quantitative section will continue the core statistical training for Geographers begun in first year, and is assessed by a report produced through the analysis of a quantitative dataset.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 1 (at the end of teaching block 1)",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 1 (at the end of the second teaching block)",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs225",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS225_202526.htm"
+}

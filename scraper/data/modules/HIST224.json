@@ -1,0 +1,30 @@
+{
+  "code": "HIST224",
+  "name": "FASCIST MOVEMENTS",
+  "department": "History",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor RD Clark",
+  "description": "This module examines how fascists challenged governments and regimes across Europe during the interwar period. Focusing on movements rather than regimes allows us to approach fascism from the perspective of people who dedicated themselves to it, often with little hope of success. We will ask why it was precisely in interwar Europe that fascism was most popular, and examine the lives and beliefs of fascist activists within their historical contexts.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 65
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist224",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST224_202526.htm"
+}

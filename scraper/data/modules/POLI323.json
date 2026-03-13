@@ -1,0 +1,25 @@
+{
+  "code": "POLI323",
+  "name": "THE THEORY AND PRACTICE OF RHETORIC IN BRITISH POLITICS",
+  "department": "Politics",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr AS Roe-Crines",
+  "description": "This is the first substantive module in the UK to examine the rhetoric of British political parties at Undergraduate level. It roots its theories and methods in the classical schools of rhetorical analysis, alongside developing a more contemporary understanding of discourse analysis. This module will enable students to think critically about the political message, how it is constructed, and delivered to a range of audiences.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli323",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI323_202526.htm"
+}

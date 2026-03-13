@@ -1,0 +1,25 @@
+{
+  "code": "PHIL272",
+  "name": "BUSINESS ETHICS",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr SK McLeod",
+  "description": "This module deals with business ethics and the social responsibility of business organizations. It is designed to inform decision-making about ethical challenges arising in business. It will help students identify and manage difficult ethical dilemmas they are likely to encounter in their future career. It is not intended to convert sinners into saints, to preach ethical truths, or to convey the wisdom of moral philosophers. However, it will develop students' analytical skills in ethical reasoning and provide them with a substantive framework to deal with ethical challenges. The module is taught by lecture (2\u00a0x 1\u00a0hour\u00a0lectures per week, or a set of recorded mini-lectures available online if necessary) and workshops (2 during the semester, 2 hours each, which may occur online if necessary). Assessment is\u00a0via case study analysis (40%) and an open book examination (60%). There will also be formative tests during the term. This module is identical to PHIL271, except that it runs in Semester 2.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ".",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": ", submitted via Turnitin",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil272",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL272_202526.htm"
+}

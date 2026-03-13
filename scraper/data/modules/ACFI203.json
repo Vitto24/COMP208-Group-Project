@@ -1,0 +1,23 @@
+{
+  "code": "ACFI203",
+  "name": "Management Accounting",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr LW Gordon",
+  "description": "ACFI203 primarily deals with the tools and techniques that management accountants use to generate the financial information needed by the managers of an organisation. The module begins by developing the product costing techniques introduced in the first year, covering activity-based and life-cycle approaches. Relevant quantitative techniques (such as learning curve models) are then considered. A range of decision-making techniques are covered (such as pricing decisions, making best use of scarce resources, and dealing with risk and uncertainty). Further uses of standard costing and variance analysis for controlling business performance are examined. Measuring divisional performance and  the setting of transfer prices in divisionalised businesses are discussed, as well as performance analysis in the public and private sectors. Many of these themes will be further built upon in the final year in looking at performance management systems, measurement and control. Successful students will therefore possess a thorough grounding in the methods used by management accountants, and will be well-prepared for final-year study in the subject (ACFI303 Advanced Management Accounting). This module is delivered by means of lectures and question-practice workshops, and the assessment is conducted via a three-hour final exam.",
+  "prerequisites": [
+    "ACFI107",
+    "ACFI102"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI203_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "POLI257",
+  "name": "GENDER AND FEMINIST POLITICS: CORE CONCEPTS AND THEORIES",
+  "department": "Politics",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr CE Pierson",
+  "description": "This module will introduce core concepts in contemporary gender politics \u2013including feminist theoretical understandings of nation, state, family and the market. Gender and feminist politics will be explored more deeply by engaging with intersecting identities and current theories of the concept \u2018woman\u2019. Concepts will be illustrated with real world, contemporary case studies (for example, gender based violence and reproductive rights) and also consider non-traditional forms of political engagement including activist organising. The module will encourage students to critically engage with topics through popular culture, media sources, films, books and podcasts and reflection on their own experience. Research, critical thinking and presentation skills will be developed through coursework assessment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 55
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli257",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI257_202526.htm"
+}

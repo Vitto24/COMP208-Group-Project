@@ -1,0 +1,27 @@
+{
+  "code": "ACFI342",
+  "name": "Financial Risk Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr V Saadi",
+  "description": "The module on Financial Risk Management covers both the internal aspects of financial institutions and the external factors that affect the investment arena and modern financial markets in general. The degree provides an in-depth understanding of the theoretical foundations that underpin modern investment and risk management techniques. The course has a strong practical dimension so you can acquire a sound knowledge of how to apply these techniques to equity and credit markets as well as investment strategies in general.",
+  "prerequisites": [
+    "ACFI304"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi342",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI342_202526.htm"
+}

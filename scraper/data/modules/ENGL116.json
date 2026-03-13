@@ -1,0 +1,30 @@
+{
+  "code": "ENGL116",
+  "name": "English Language in Context",
+  "department": "English",
+  "semester": 2,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Miss C Guardamagna",
+  "description": "This course will offer students a solid background in basic linguistic analysis for English while also exploring the various contexts in which language is used. For example, students will be learning about the sounds of English while looking at how children learn their first language, or the structures of English from the perspective of a second language learner. Students will explore the breadth of English Language studies looking at how language is learnt/processed in our minds and how it is used in both micro-interactions (e.g. looking at how the police may be trying to frame a suspect) and macro-interactions at the level of society (e.g. looking at media representation of migrants). Students will learn basic qualitative and quantitative research methods and will meet a range of lecturers teaching in years 2/3, each with their own distinctive teaching style.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl116",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL116_202526.htm"
+}

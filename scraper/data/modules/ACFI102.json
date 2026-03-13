@@ -1,0 +1,20 @@
+{
+  "code": "ACFI102",
+  "name": "Introduction to Management Accounting",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr PMJ Farrelly",
+  "description": "The aim of this module is to introduce students to the nature and purpose of management accounting and to establish a solid foundation in its fundamental techniques. The module will explore and apply a range of basic techniques to produce information that aids management decision making. The techniques covered include cost volume profit analysis, budgeting and investment appraisal. Throughout the module the techniques studied will be applied to contemporary issues in the commercial world.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI102_202526.htm"
+}

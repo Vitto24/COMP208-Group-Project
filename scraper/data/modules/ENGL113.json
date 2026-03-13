@@ -1,0 +1,25 @@
+{
+  "code": "ENGL113",
+  "name": "Ways of Reading",
+  "department": "English",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr MG Chapman",
+  "description": "This module will allow students to develop critical methods of reading and contextual analysis of literary texts. Lectures and tutorials will explore a range of critical methodologies (for example psychoanalysis and postcolonialism) as well as topics focused on the modes, attitudes and concerns that underlie the production of literature in relation to politics, society and culture. In doing so students will be introduced to key debates within literary study, as well as addressing topics important to different periods including issues of race, gender, sexuality, literary form, environment and economy.\n\nThis module aims to develop and challenge accepted modes of reading in order to expand and strengthen original critical enquiry while also improving students\u2019 written, oral and digital communication skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl113",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL113_202526.htm"
+}

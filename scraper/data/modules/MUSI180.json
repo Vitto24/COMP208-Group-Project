@@ -1,0 +1,25 @@
+{
+  "code": "MUSI180",
+  "name": "Theory in Practice: Exploring Music\u00e2\u0080\u0099s Construction",
+  "department": "Music",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor KM Forkert-Smith",
+  "description": "Building on a foundational knowledge of music theory, this module examines repertoires from popular music and the classical era as well as music from film. The module first explores formal contrasts in musical works, through examples of dynamic contrasts from Stravinsky and Radiohead, influenced by \u2018montage cinema\u2019. This develops through a study of modes, scales and keys in the nineteenth century classical repertoire and in rock and jazz. Techniques for analysing electronic music are adapted and developed by students, while the final lectures introduce the dynamics of form in Baroque and Classical music.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ":2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ":2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi180",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI180_202526.htm"
+}

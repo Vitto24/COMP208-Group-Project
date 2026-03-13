@@ -1,0 +1,25 @@
+{
+  "code": "PHIL237",
+  "name": "Ancient Greek Philosophy: The Examined Life",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr P Vassilopoulou",
+  "description": "This module familiarises students with some of the key texts, concepts, and arguments from the most prominent and influential ancient Greek philosophers. The module will focus particularly on concepts raised in the dialogues of Plato and in Aristotle\u2019s Metaphysics and Nicomachean Ethics. The ancient Greek understanding of philosophy as both an intellectual and political practice within the ancient city-state will form the backdrop of the views and arguments discussed. Taking this module will enhance one\u2019s abilities to analyse influential philosophical accounts and theories and to identify what the \u2018examined life\u2019 stands for in various contexts, both ancient and contemporary.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 85
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil237",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL237_202526.htm"
+}

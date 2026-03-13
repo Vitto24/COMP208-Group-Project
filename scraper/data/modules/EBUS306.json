@@ -1,0 +1,32 @@
+{
+  "code": "EBUS306",
+  "name": "Sustainable Supply Chain Management",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr L Menzies",
+  "description": "The management of sustainable supply chains is key to the operations of modern organisations. The need to be competitive, reach new markets, source new goods and raw materials have all been key contributors to the development of supply chains as a function. It has become clear that competitive advantage and customer satisfaction can be gained if all organisations in the chain work together to improve service and reduce cost. Modern day supply chain management also has a focus on sustainability, as the supply chain is a key area when improvements can be made.  The module provides the student with comprehensive understanding of key principles and techniques of supply chain management including topics such as inventory management, materials and capacity management, supply chain partnerships and IT. There is a growing pressure from society to improve the sustainability of supply chains in order to help reduce the environmental impact of business so sustainability will be a core focus throughout the module.",
+  "prerequisites": [
+    "EBUS102"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": ": Reassessment according to standard UoL policy (1500 words)",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ebus306",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_EBUS306_202526.htm"
+}

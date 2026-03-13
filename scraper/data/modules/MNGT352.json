@@ -1,0 +1,25 @@
+{
+  "code": "MNGT352",
+  "name": "ADVANCED MODERN MANAGEMENT",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 1,
+  "level": 6,
+  "credits": 7.5,
+  "lecturer": "Mr DG Hibbert",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":Semester 1",
+      "weight": 95
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 5
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mngt352",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MNGT352_202526.htm"
+}

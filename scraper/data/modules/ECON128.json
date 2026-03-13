@@ -1,0 +1,30 @@
+{
+  "code": "ECON128",
+  "name": "Development of Economic Thought",
+  "department": "Management School",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor IC Burn",
+  "description": "This course looks at the evolution of economic thought, ideas and doctrines. Like the history of philosophy or science, the aim is not to understand the details of the economic phenomena (you will study these in in modules across your degrees) but how people have tried to make sense of the philosophy. Such economic ideas feed into politics and influence what happens in the economy or even science (and not necessarily in the way the progenitors intended!). The Political and scientific environments can then also influence economic ideas. \u00a0 On completing this course you will understand how the discipline\u2019s influential people such as Adam Smith, Karl Marx, John Maynard Keynes and other (not quite as famous) economic philosophers perceived and analysed the economic world, which created the modern economic environment in which we live and which we study.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Weighting: 10%  Reassessment Opportunity: Yes   Penalty for Late Submission:",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ128",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON128_202526.htm"
+}

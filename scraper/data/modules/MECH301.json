@@ -1,0 +1,25 @@
+{
+  "code": "MECH301",
+  "name": "HEAT TRANSFER",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr V Bertola",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ":2",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech301",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH301_202526.htm"
+}

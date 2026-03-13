@@ -1,0 +1,35 @@
+{
+  "code": "HIST388",
+  "name": "USES OF THE PAST: HISTORY IMPACT MODULE",
+  "department": "History",
+  "semester": 2,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Professor D Jeater",
+  "description": "In this module, we will examine the contemporary uses of history. We will reflect on how, as a society, we consume history. You will use your own historical research (for your dissertation, research essay or another piece of historical research that you have undertaken at university) as a case study to explore some of these issues. Industrypractitioners will help you to reflect on how to present your training as an historian in non-academic contexts. You will consider how to communicate your work to a non-academic audience \u2013 in both written and visual forms \u2013 and reflect on the potential interest of your research to a wider public (through the heritage, museums and entertainment industries) and/or to policy-makers.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist388",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST388_202526.htm"
+}

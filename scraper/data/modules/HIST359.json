@@ -1,0 +1,25 @@
+{
+  "code": "HIST359",
+  "name": "DIGITAL HISTORIES OF CRIME AND PUNISHMENT: LONDON, 1840 - 1910",
+  "department": "History",
+  "semester": 1,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr CN Stafford",
+  "description": "Histories of crime and punishment provide a window onto wider social relations as well as cultural anxieties. In Victorian and Edwardian London, these were manifested in debates on the perceived criminality of the Irish \u2013 and of the poor: women and men, children and adults. This period also saw the development of a recognizably modern criminal justice system, of uniformed police and tiered systems of courts and prisons, the ending of transportation, and an uneven shift away from corporal and capital punishment as imagined solutions to crime. Through this expanding machinery of justice, the Home Office and Metropolitan Police attempted to regulate civilian life to a degree previously unimagined in the human past. Yet London was rocked by a series of scandals, from the railway frauds of the 1840s to the serial killings of \u2018Jack the Ripper\u2019 in 1888 and the \u2018Hooligan\u2019 panic of the 1890s. This module explores these developments through researchbased learning using digital archives.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist359",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST359_202526.htm"
+}

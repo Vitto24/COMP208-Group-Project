@@ -1,0 +1,30 @@
+{
+  "code": "HIST245",
+  "name": "A TALE OF TWO COUNTRIES: MATERIAL CULTURE AND EVERYDAY LIFE IN A DIVIDED GERMANY",
+  "department": "History",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr M Wilks-Heeg",
+  "description": "Many details of the past don't appear in written records and would be missed if historians only relied on words. In the field of material culture, the past is interpreted through 'things' rather than conventional primary sources. This module examines the post-war history of Germany using material culture as primary evidence. We will study the period between 1945-1990 through a selection of materials that relate to the political, cultural, and social development of East and West Germany.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist245",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST245_202526.htm"
+}

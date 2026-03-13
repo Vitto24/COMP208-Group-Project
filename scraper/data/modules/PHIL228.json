@@ -1,0 +1,30 @@
+{
+  "code": "PHIL228",
+  "name": "METAPHYSICS",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor RM Gaskin",
+  "description": "Metaphysics deals with the largest and most fundamental questions concerning the nature of reality. What are the basic ingredients of reality? What is it to persist? Why is there anything at all? What is the nature of matter? What is the nature of space and time? Is space more than nothingness? Are the past and future as real as the present? What, if anything are you? In this module we will introduce you to current thinking on the central issue of metaphysics, as well as the differing views as to the nature of metaphysics itself. The module is taught via one weekly lecture, and one weekly seminar. It is assessed by a two hour examination worth 60% of the overall module mark, an essay 30% and a seminar presentation 10%.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil228",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL228_202526.htm"
+}

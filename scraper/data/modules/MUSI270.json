@@ -1,0 +1,25 @@
+{
+  "code": "MUSI270",
+  "name": "MUSIC IN WORLD CINEMA",
+  "department": "Music",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr H Um",
+  "description": "This module will explore the musical practices of film traditions outside the Anglophone world and their cultural contexts, with particular emphasis on comparisons to classical Hollywood practice. Students will develop the ability to think and write about music in audiovisual contexts. Topics will variably include East Asian films, Bollywood, North African/Middle Eastern films as well as cinemas from Europe and Latin America.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": ":Semester 2",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi270",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI270_202526.htm"
+}

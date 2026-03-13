@@ -1,0 +1,25 @@
+{
+  "code": "LAW349",
+  "name": "EMPLOYMENT LAW: RIGHTS AND JUSTICE AT WORK",
+  "department": "Law",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor LJ Hayes",
+  "description": "This module provides students with a cutting-edge and critical understanding of rights and justice at work. It is ideal for students who want to better understand business practices, labour market norms and relations of power between workers and employers. The module is set in three parts: protection of the worker, protection of wages and protection of work. The module highlights the social and political significance of employment law as developed in parliament and the courts. Students are equipped with knowledge and skills to apply employment law to a range of scenarios and to understand the limits of law. Throughout the module, students also explore the contemporary rise of mental and physical health issues among people of working age as a context within which to assess the merits of employment law and develop their own ideas for legal reform. Teaching and learning is organised through a mix of in-person lectures, case workshops, small group seminars, bespoke video content and academic literature. For assessment students record their own video presentation about an aspect of employment law and their ideas for reform, they also sit an exam in which they are asked to provide written legal advice to clients in imaginary situations.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Weighting: 50%  Reassessment Opportunity: Yes  Final Assessment: Yes  Anonymous marking: yes  Learning outcomes tested: L01, L02,   Skills tested: S2, S4, S5",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law349",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW349_202526.htm"
+}

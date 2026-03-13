@@ -1,0 +1,40 @@
+{
+  "code": "ENGG111",
+  "name": "Professional Engineering: a skills toolkit",
+  "department": "Mechanical and Aerospace Engineering",
+  "semester": 0,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr AB Blackman",
+  "description": "",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "To pass this assessment, you must pass each component piece of coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "To pass this assessment, you must pass each component piece of coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "To pass this assessment, you must pass each component piece of coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "To pass this assessment, you must pass each component piece of coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Completion of Reflective Competency Portfolio (0% pass/fail)",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/engg111",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGG111_202526.htm"
+}

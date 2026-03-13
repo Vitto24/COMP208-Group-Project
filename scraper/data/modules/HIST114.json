@@ -1,0 +1,30 @@
+{
+  "code": "HIST114",
+  "name": "THE GLOBAL HISTORY OF THE PRESENT",
+  "department": "History",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr KE Arnold",
+  "description": "This module explores contemporary issues and debates through considering global relationships in the past and how they have shaped the world in which we live. In light of the tremendous impact that modern imperialism and colonialism have had in shaping our world, the module focuses, in particular, on questions relating to race, empire and their legacies.\n\nBy exploring some of the ways in which historical investigation enriches urgent contemporary debates, the module aims to introduce students to a range of new ways of approaching the past, both in terms of subject matter and of approaches to history, and to broaden students' historical understanding of both western and non-westernhistory (or what scholars refer to as the \u2018Global North\u2019 and \u2018Global South\u2019) and the myriad connections between them.In addition, therefore, to preparing students for the range of subject matter, geographical areas, and approaches that they will be able to study in the second and third years of their History degree programme, this module also aims to make them better global citizens.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist114",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST114_202526.htm"
+}

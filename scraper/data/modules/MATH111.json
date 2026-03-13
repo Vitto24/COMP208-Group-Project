@@ -1,0 +1,40 @@
+{
+  "code": "MATH111",
+  "name": "Mathematical IT skills",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr SA Fairfax",
+  "description": "This module introduces students to powerful mathematical software packages such as Maple and Matlab which can be used\u00a0to carry out numerical computations or to produce a more complicated sequence of computations using their programming features. We can also do symbolic or algebraic computations in Maple. These software packages have\u00a0built-in functions for solving many kinds of equations, for working with matrices and vectors, for differentiation and integration. They\u00a0also contain\u00a0functions which allow us to create visual representations of curves and surfaces from their mathematical descriptions, to work interactively, generate graphics and create mathematical documents. This module will teach students many of the above-mentioned\u00a0features of mathematical software packages. This knowledge will be helpful in Years 2, 3 and 4 when working on different projects, for example in the modules MATH266 and MATH371.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "There is a resit opportunity",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 0
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math111",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH111_202526.htm"
+}

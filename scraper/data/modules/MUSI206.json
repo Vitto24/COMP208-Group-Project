@@ -1,0 +1,25 @@
+{
+  "code": "MUSI206",
+  "name": "Composition for Digital Games",
+  "department": "Music",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr PA Turowski",
+  "description": "This module provides an introduction to the design and implementation of sound and music in video games.  Students engage with game music scholarship and case studies, then apply their knowledge to create original sounds and music for premade game projects.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "for a provided game project",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi206",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI206_202526.htm"
+}

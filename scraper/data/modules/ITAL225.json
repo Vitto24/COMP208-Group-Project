@@ -1,0 +1,25 @@
+{
+  "code": "ITAL225",
+  "name": "ITALY, AFRICA AND THE MEDITERRANEAN: DECOLONIAL PERSPECTIVES",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr B Spadaro",
+  "description": "The module develops a decolonial approach to the history of Italy, Africa and the Mediterranean,  focusing on trajectories of colonialism and migration to and from Italy, from the age of the empires to the present. Adopting a  decolonial perspective on the history of the Italian empire, its  languages and cultures, the module examines some of the cultural and geopolitical tensions that shape ideas of heritage, citizenship and belonging between Italy and Africa.  Exploring  the making of individual and collective memories  through a variety of media and languages, the module develops a language-sensitive approach to the study of history, memory and culture in the 21 st century.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/ital225",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ITAL225_202526.htm"
+}

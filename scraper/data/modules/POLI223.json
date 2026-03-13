@@ -1,0 +1,35 @@
+{
+  "code": "POLI223",
+  "name": "POPULISM",
+  "department": "Politics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Jeffery",
+  "description": "In recent years, there has been a dramatic rise in support for populist political parties and movements, on both the right and the left of the political spectrum, across a large number of western democracies. This module examines the growth of populist politics in Britain, represented primarily by UKIP and the 2016 Brexit referendum, placing these developments in a comparative international perspective. It examines the distinctive features of populist movements, considers the distinctive national conditions and common global factors that have spawned them, and considers the implications for the future of party politics and representative democracy. In addition to Britain, the module includes case studies of populist politics in a range of countries internationally.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli223",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI223_202526.htm"
+}

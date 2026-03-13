@@ -1,0 +1,35 @@
+{
+  "code": "PHYS379",
+  "name": "Project (BSC)",
+  "department": "Physics",
+  "semester": 0,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Professor A Mehta",
+  "description": "This module involves the student engaging in a detailed final year project undertaken individually. The project work is typically based in one of the research groups within the Department of Physics. There is also the option to pursue individual projects in cooperation with an industrial partner. The student will be planning, managing  and accomplishing an extended investigation of a physics-based or physics-related problem  under the supervision of one or more academic staff members. In case of an industry-based project, there are two supervisors required, one academic and one from industry. BSc projects may be experimental, observational, computational, theoretical or educational.   The output of the project will be written up in a project report and presented in the form of a talk. Industry-based projects can be related to any in-house developments but not to an actual product release. The programme is to develop graduates to acquire skills in:  development of solving new complex tasks; initiative and creativity; communication and cooperation with others;  project organisation and self management.  Quantitative scientific skills will be emphasized  so as to make graduates of  the course gain  a  wider experience of report writing displaying high standards of composition and production.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys379",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS379_202526.htm"
+}

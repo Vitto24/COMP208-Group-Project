@@ -1,0 +1,30 @@
+{
+  "code": "ENVS252",
+  "name": "Geomorphology: Ice, Sea and Air",
+  "department": "Geography and Planning",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor AJ Plater",
+  "description": "The module will introduce the fundamental processes that shape the Earth\u2019s surface, with a particular focus on glacial, aeolian, and coastal landforms. It explores how these dynamic systems operate and interact, emphasising the forces and mechanisms driving geomorphic change. The module starts with an overview of geomorphic processes and the forces driving change, including examining the interplay of exogenic (external) and endogenic (internal) processes. Key concepts, such as the magnitude and frequency of events and the spatial and temporal scales over which these processes occur, are introduced to build a foundational understanding. With this groundwork, the module delves into three core geomorphic systems: glacial, aeolian, and coastal environments. You will investigate the processes shaping these landscapes, the resulting landforms and the broader geomorphic principles at play. Particular emphasis will be placed on understanding how overarching concepts \u2013 such as scale, event magnitude, and the influence of external forces \u2013 manifest within these settings. By the end of this module, you will gain a clearer understanding of the forces sculpting Earth\u2019s surface and develop an appreciation for the interconnectivity of geomorphic processes in interpreting both past and present landscapes.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Assessment 3, Exam Period",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Assessment 1, Mid-Term",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Standard UoL penalty applies for late submission",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs252",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS252_202526.htm"
+}

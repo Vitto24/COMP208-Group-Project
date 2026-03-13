@@ -1,0 +1,30 @@
+{
+  "code": "MATH142",
+  "name": "Numbers, Groups and Codes",
+  "department": "Mathematical Sciences",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr EJ Russell",
+  "description": "A group is a formal mathematical structure that, on a conceptual level, encapsulates the symmetries present in many structures. Group homomorphisms allow us to recognise and manipulate complicated objects by identifying their core properties with a simpler object that is easier to work with. The abstract study of groups helps us to understand fundamental problems arising in many areas of mathematics. It is moreover an extremely elegant and interesting part of pure mathematics. Motivated by examples in number theory, combinatorics and geometry, as well as applications in data encryption and data retrieval, this module is an introduction to group theory. We also develop the idea of mathematical rigour, formulating our theorems and proofs precisely using formal logic.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 25
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math142",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH142_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "COMP305",
+  "name": "Biocomputation",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr Y Dong",
+  "description": "Biology inspired adaptive algorithms such as Artificial Neural Networks (ANNs) and Genetic Algorithms (GAs) play an important role in modern computing, information processing, and machine learning. The latest increase in computer power ensured broad use of the algorithms to solve problems in science and engineering previously considered impossible to tackle. ANNs are now broadly used in pattern recognition, including speech recognition and classification problems, statistics, functional analysis, modelling financial series with considerable stochasticity, etc. GAs are search procedures based on the mechanics of natural selection and natural genetics. They provide effective solutions to a variety of optimisation problems in economics, linguistics, engineering, and computer science. Both ANNs and GAs can exploit massively parallel architectures to speed up problem solving and provide further understanding of intelligence and adaptation.The main goals of the module are to introduce students to some of the established work in the field of Artificial Neural Networks and Genetic Algorithms and their applications, particularly in relation to multidisciplinary research. To equip students with a broad overview of the field, placing it in a historical and scientific context. The module provides students with the knowledge and skills necessary to keep up-to-date in actively developing areas of science and technology and be able to make reasoned decisions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Class Test",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Class Test 2",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp305",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP305_202526.htm"
+}

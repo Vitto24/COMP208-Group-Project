@@ -1,0 +1,25 @@
+{
+  "code": "ENVS325",
+  "name": "Politics of the Environment",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr W Wang",
+  "description": "Increasingly recognition of the environmental threats that we all face means that responding to this crisis affects the decisions we all make at a variety of different scales. This module explores the extent to which environmental concerns are taken into account in various decision-making processes involving the public (government), private and third sectors at a variety of different scales, global, European, national and local. The module is assessed by an essay coursework and a written exam, which provides students with significant choice to explore those parts of the module they find most interesting.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Final during examination period",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": First, Mid-term",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/envs325",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS325_202526.htm"
+}

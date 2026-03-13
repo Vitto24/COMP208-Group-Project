@@ -1,0 +1,25 @@
+{
+  "code": "ECON154",
+  "name": "Statistical Foundations of Business Analytics",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr M Chaturvedi",
+  "description": "The purpose of the module is to introduce business analytics to the non-specialist. The course aims to provide a broad understanding of descriptive, prescriptive, and predictive techniques in business analytics. It will also provide students with the ability to derive and understand a variety of graphs and statistical models which can be produced in Excel, and which provide a means for managers to make intelligent use of analytics for management, operations, and business decision-making.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/econ154",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON154_202526.htm"
+}

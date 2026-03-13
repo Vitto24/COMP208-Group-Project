@@ -1,0 +1,30 @@
+{
+  "code": "MODL230",
+  "name": "GLOBAL PUBLIC SPACES: RESISTANCE, JUSTICE AND HERITAGE",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr S Arens",
+  "description": "This team-taught module invites students to an expansive, yet focused investigation of public spaces \u2013 real and digital \u2013 in geographical and areas covered by the research expertise of staff: we start with an introduction that familiarises you, the students, with key questions and concepts surrounding theoretical understandings of public space and its embodiments through, for instance, monuments and museums, as well as the thorny issues of who can lay claim to a certain heritage and memory and who cannot. The Introduction invites you to understand recent protest movements and political change with regards to public spaces within a global context. Each week then focuses on a different case study: from political and violent conflict in Colombia via the post-war history of Berlin/the German Democratic Republic and resistance in late twentieth-century and today's China and Hong Kong to the intertwined histories of French colonialism and policing and finally to global environmental protest movements.\n\nA specific focus of this module is skills development, including writing skills. There are two assessment workshops in Week 4 and 10 that aim specifically at training academic writing skills and introducing you to a new form of assessment: you learn how to write a policy brief, which has been developed with the support of a leading civil servant in the UK Home Office, providing you with the opportunity to train a key employability skill for many future careers. The essay then brings together elements from both policy- and academic writing, mirroring the intellectual trajectory of the module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/modl230",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MODL230_202526.htm"
+}

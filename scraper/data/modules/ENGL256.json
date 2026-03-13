@@ -1,0 +1,30 @@
+{
+  "code": "ENGL256",
+  "name": "CHILD LANGUAGE ACQUISITION",
+  "department": "English",
+  "semester": 2,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr U Kania",
+  "description": "This module deals with one of the most fascinating subfields of (psycho)linguistics: child language acquisition. It is intended to serve as an introduction to the field, including a discussion of the major theoretical and methodological issues. Taking into account a bi/multilingual perspective throughout, the module covers lexical, morphological, syntactic and pragmatic development. Based on the critical discussion of research articles in class, students will conduct their own small-scale analysis as part of their assessment. Furthermore, there will be 4 screenings of documentaries throughout the semester in order to allow for a critical discussion of the representation of scientific research in the popular media (a mini-essay on one of the screened films is also part of the assessment).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": week 9",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": ": week 10",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "/Take-Home Paper  Scheduled by SAS, 24 hours duration, re-sit opportunity, anonymous",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/engl256",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENGL256_202526.htm"
+}

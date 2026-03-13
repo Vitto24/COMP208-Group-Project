@@ -1,0 +1,25 @@
+{
+  "code": "BIOS208",
+  "name": "Advanced Practical Skills in Evolution, Ecology, and Behaviour",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor CT Larsen",
+  "description": "This module is a core component in Year 2 of the BSc Zoology. It is also an optional module for students studying bioveterinary science. It is a practical module which includes access to dissection, molecular biology, mathematical modelling, observing live animals and bioinformatics.\n\nThis module aims to provide practical experience in laboratory and field techniques for studying animals. These techniques are placed within a biological context so that students will not only learn the techniques, but also use them to answer questions about evolution, form and function of animals, animal behaviour, and ecology. The module is laboratory and field based and students will work in small groups to conduct experiments and generate data that will be analysed using R and R Studio. Students will also use bioinformatics databases.\n\nLearning and teaching is created and delivered by research-active scientists, ensuring that teaching is informed by the latest research and advances, and is designed to be accessible, inclusive, and representative.\n\nLearners are assessed through scientific reports and an exam.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios208",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS208_202526.htm"
+}

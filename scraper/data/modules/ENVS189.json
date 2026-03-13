@@ -1,0 +1,25 @@
+{
+  "code": "ENVS189",
+  "name": "Introduction to Climate Change and Mitigation",
+  "department": "Earth, Ocean and Ecological Sciences",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr CJ Stevenson",
+  "description": "This module will introduce you to the concept of Earth System interactions as a framework for understanding the causes and consequences of climate change. The module will cover the key features of the earth, atmosphere and ocean, and their interactions. alongside the drivers and consequences for perturbing part of the Earth System. Past, contemporary and projections of climate change will be discussed, as well as the toolkit tools deployed by environmental scientists to detect climate change and show attribute it to be a consequence of human activities. The module will discuss also measures to mitigate against climate change, drawing on the United Nations Framework Convention on Climate Change (UNFCC) efforts .",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": ": Assessment 2, exam period",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Synthesis of anthropogenic climate change and future climate projections",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs189",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS189_202526.htm"
+}

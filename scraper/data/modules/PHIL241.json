@@ -1,0 +1,35 @@
+{
+  "code": "PHIL241",
+  "name": "Philosophical Problem-Solving",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Hill",
+  "description": "This module\u2019s emphasis is not on a particular philosophical content, but on the problem solving skills that studying philosophy is meant to train. Students will be involved in three mini-projects, each over a three week period, and each devoted to a particular philosophical problem, which in the context of this module means a philosophical proof or argument that appears to be entirely valid, but whose conclusion is widely seen as unacceptable (as for instance John McTaggart\u2019s proof that time does not exist).\n\nIn the first week of each section the problem is introduced and contextualized by the tutor and then discussed with the whole cohort. Working groups are allocated who will then have two weeks to work on the problem. The second week is reserved for a scheduled group work session with the tutor on hand to clarify points of information and present their ideas for formative assessment, followed in the third week by group presentations of the final proposed solutions to the problem.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil241",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL241_202526.htm"
+}

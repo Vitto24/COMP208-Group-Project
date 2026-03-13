@@ -1,0 +1,32 @@
+{
+  "code": "PHYS175",
+  "name": "Introduction to Geophysics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 7.5,
+  "lecturer": "Professor AJ Biggin",
+  "description": "Geophysics is the study of the Earth using physics \u2013 applying a broad range of physics (along with geology and chemistry) to both understand our planet and our place on it, while improving our understanding of the underlying physics. In this module you will be introduced to the Earth as a physical system. The module will teach students about the structure and composition of the Earth, its gravitational and magnetic fields, and deep dynamics; the physics of Earth materials and the geological time scale; and plate tectonics.",
+  "prerequisites": [
+    "PHYS105"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys175",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS175_202526.htm"
+}

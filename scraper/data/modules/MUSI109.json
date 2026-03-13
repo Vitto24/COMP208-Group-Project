@@ -1,0 +1,25 @@
+{
+  "code": "MUSI109",
+  "name": "INTRODUCTION TO DIGITAL AUDIO WORKSTATIONS",
+  "department": "Music",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr LM Carey",
+  "description": "This module is an introduction to MIDI sequencing in Logic Pro and Ableton Live. It is suitable for complete beginners and intermediate users of Logic. Through lectures and workshops, both of which involve much hands on practice, students learn about MIDI sequencing, software instruments and Digital Audio Workstations (DAW). Topics and techniques covered include recording and editing MIDI; use of effects processors and mixing, software synthesis and sampler instruments. Two creative coursework projects, concentrating on differing compositional approaches and styles, enable students to demonstrate the technical and compositional skills taught and practiced during the module.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": ": Semester 2",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi109",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI109_202526.htm"
+}

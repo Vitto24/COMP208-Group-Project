@@ -1,0 +1,20 @@
+{
+  "code": "ULMS370",
+  "name": "The Football Business",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr B Buraimo",
+  "description": "The aim of this module is to develop and enhance students' critical understanding of the key issues surrounding the contemporary football sector. Students will develop a critical understanding of how economics, finance, marketing and other business and management disciplines can be used to analyse features of the football business sector. Furthermore, various concepts and theories from the aforementioned disciplines will be used to analyse critically decision-making within the sector. Where appropriate alternative outcomes will be considered that might improve efficiency and effectiveness within the sector.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 100
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/ulms370",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS370_202526.htm"
+}

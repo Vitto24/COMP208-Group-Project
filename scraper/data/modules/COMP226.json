@@ -1,0 +1,30 @@
+{
+  "code": "COMP226",
+  "name": "Computer-Based Trading in Financial Markets",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr  AP Roxburgh",
+  "description": "The last few decades has seen a huge transformation in finance, wherehuman traders have been increasingly replaced by algorithms. The aims of COMP226 are to:\n\n\u2013 Provide an understanding of financial markets at the level of individual trades;\u2013 Provide an overview of computer-based trading applications;\u2013 Introduce key issues with the use of market data;\u2013 Develop a practical understanding of the development of algorithmic trading strategies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment 1",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Assessment 2",
+      "weight": 10
+    },
+    {
+      "type": "exam",
+      "title": "Written exam",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp226",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP226_202526.htm"
+}

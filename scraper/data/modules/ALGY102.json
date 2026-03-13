@@ -1,0 +1,27 @@
+{
+  "code": "ALGY102",
+  "name": "THE PRACTICE OF ARCHAEOLOGY",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor HC Mytum",
+  "description": "This module introduces students to the design and implementation of archaeological projects (and thereby research design more generally). It is concerned with how archaeological questions are addressed through projects, the practices involved in the various stages of archaeological projects, including desk-based assessment, mapping, data collection and analysis, field recording, excavation strategy, interpretation and site/heritage management planning. There is a strong practical element to the module which focusses on the planning and execution of a project relating to a cemetery in Liverpool.",
+  "prerequisites": [
+    "ALGY101"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY102_202526.htm"
+}

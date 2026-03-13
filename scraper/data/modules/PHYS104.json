@@ -1,0 +1,30 @@
+{
+  "code": "PHYS104",
+  "name": "Foundations of Quantum Physics",
+  "department": "Physics",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr J Price",
+  "description": "This module illustrates how a series of fascinating experiments, some of which physics students will carry out in their laboratory courses, led to the realisation that Newtonian mechanics does not provide an accurate description of physical reality. As is described in the module, this failure was first seen in interactions at the atomic scale and was first seen in experiments involving atoms and electrons. The module shows how Newton\u2019s ideas were replaced by Quantum mechanics, which has been critical to explaining phenomena ranging from the photo-electric effect to the fluctuations in the energy of the Cosmic Microwave Background. The module also explains how this revolution in physicist\u2019s thinking paved the way for developments such as the laser.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 80
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys104",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS104_202526.htm"
+}

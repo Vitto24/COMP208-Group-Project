@@ -1,0 +1,25 @@
+{
+  "code": "POLI200",
+  "name": "POLITICS IN ACTION",
+  "department": "Politics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Jeffery",
+  "description": "This module provides an opportunity for students to gain credit from experience acquired in a placement, usually off campus, and outside their immediate academic context, in a setting that matches their academic and possible career/industry interests. During this placement students will have the chance to develop materials and/or undertake tasks within a practical or vocational context; to apply academic knowledge from their degree, and to develop their personal and employability skills within a working environment. Students will also be encouraged to critically reflect on their time on their placement, and tie their experiences into a broader theoretical understanding of what constitutes \u2018politics\u2019.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli200",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI200_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "PHYS309",
+  "name": "PHYSICS INTERNSHIP",
+  "department": "Physics",
+  "semester": null,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor U Klein",
+  "description": "The physics internship module is designed to give students the experience of working in a STEM related working environment or setting that is different from any project work that they undertake in the Department of Physics. It should provide an insight into how students may apply skills and experiences later in their career; whether working abroad or in any other non-UoL, off-campus scientific or secondary school setting.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/physics-bsc-hons/modules/phys309",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHYS309_202526.htm"
+}

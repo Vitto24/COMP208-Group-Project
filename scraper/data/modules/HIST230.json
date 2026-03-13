@@ -1,0 +1,25 @@
+{
+  "code": "HIST230",
+  "name": "RIGHTS AND RECORDS",
+  "department": "History",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr V Stobo",
+  "description": "This module will help you demonstrate that the specialist skills learned through the study of history can be used in a wide variety of career contexts: from law, journalism, accountancy and auditing, to politics and human rights, charities and third sector, civil service and local government, administrative roles, business (e.g. HR, finance), information roles and cultural heritage roles. We will explore the personal, organisational, and societal benefits of creating and preserving records in all forms, and discuss their relevance to contemporary debates on transparency, accountability, privacy and good governance. The module has a practical focus on the information systems, models, policies and processes used in a wide variety of organisations, including a 5-day field trip to Dublin to interact with professionals across a range of cultural heritage institutions.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist230",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST230_202526.htm"
+}

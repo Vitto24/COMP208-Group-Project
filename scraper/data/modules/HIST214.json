@@ -1,0 +1,30 @@
+{
+  "code": "HIST214",
+  "name": "BEYOND BINARIES: A MODERN (BRITISH) HISTORY OF GENDER AND SEXUALITY",
+  "department": "History",
+  "semester": 1,
+  "level": 5,
+  "credits": 30.0,
+  "lecturer": "Dr S Caslin",
+  "description": "Beyond Binaries is module about the cultural and social history of genders and sexualities in a largely modern British context. Focusing on the later-nineteenth and twentieth centuries, the module introduces students to a wide range of historiographical and theoretical approaches to gender and sexuality, taking account of trajectories in feminist thought, postcolonial work and queer theory. The module uses a variety of modern British case studies to unpack and challenge the dominance of heteronormative discourses. It also seeks to situate trends in ideas and practices within broader international contexts. Themes covered by the module include constructions of masculinity, intersections of race and gender, feminist activism and transgender experiences.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/hist214",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_HIST214_202526.htm"
+}

@@ -1,0 +1,28 @@
+{
+  "code": "ACFI303",
+  "name": "Strategic Management Accounting",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Mr MJ Swift",
+  "description": "Strategic Management Accounting (SMA) is defined by The Chartered Institute of Management Accountants as \u2018the provision and analysis of management accounting data about a business and its competitors, for use in developing and monitoring business strategy.\u2019 At the heart of SMA is the drive to improve an organisation\u2019s decision-making processes in pursuit of its strategic objectives.This module will give you real- world insight into current areas of SMA practice and the challenges that face senior management accounts in organisations today. Specifically, the module will focus on areas such as: the strategic planning process, performance management, transfer pricing, sustainability, investment appraisal, activity-based management and total quality management.",
+  "prerequisites": [
+    "ACFI203",
+    "ACFI204"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/acfi303",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ACFI303_202526.htm"
+}

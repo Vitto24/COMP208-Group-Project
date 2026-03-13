@@ -1,0 +1,25 @@
+{
+  "code": "POLI215",
+  "name": "COMPARATIVE POLITICS OF THE MIDDLE EAST AND NORTH AFRICA",
+  "department": "Politics",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr HM Baumann",
+  "description": "After years of authoritarian stasis, the tectonic plates of Middle East politics began to shift with the \"Arab Spring\" of 2011. Much media analysis reduces political explanation of the region's politics to\u00a0a single variable (Islam) or its impact on Europe (refugees, terrorism). This module will provide students with the tools to analyse the region's politics in its richness. Students will critically engage with key concepts and debates in the study of Middle East comparative politics. These include the role of oil and the \"rentier-state\", democratisation and authoritarian resilience, and the role of religion in politics.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli215",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI215_202526.htm"
+}

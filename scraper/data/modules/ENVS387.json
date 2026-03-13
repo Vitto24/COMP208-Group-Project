@@ -1,0 +1,25 @@
+{
+  "code": "ENVS387",
+  "name": "Building Better Worlds",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor LJ Gahman",
+  "description": "This module is designed for students seeking nuanced understandings of the drivers of various struggles for social change and environmental justice, as well as ways in which resistance, contestation, and alternatives are practised. Readings will provide a critical overview of the historical and sociopolitical forces that continue to generate inequality, damage the environment, and escalate crisis. Students will further examine the complex dynamics and contentious politics that emerge across differing environmental, political, and economic conflicts, as well as evaluate the role of social movements, mutual aid, and collective action in advancing meaningful change.  Content will also cover various activist strategies, tactics, and forms of protest, revolt, and rebellion.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs387",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS387_202526.htm"
+}

@@ -1,0 +1,30 @@
+{
+  "code": "LAW242",
+  "name": "LAND LAW",
+  "department": "Law",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr JP Tribe",
+  "description": "This 15-credit module is one of the seven core foundations of legal knowledge studies on the Bachelor of Laws degree. All LL.B. students are required to take this fascinating and complex module. The land law module examines the estates and interests in land in English and Welsh law. Students will examine both freehold and leasehold estates, as well as interests in land such as easements, restrictive covenants and mortgages. The module places a heavy emphasis on case law and statute use. These sources are used to put the various land rights into context and to demonstrate how estates and interests can be protected using the legislative regime.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law242",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW242_202526.htm"
+}

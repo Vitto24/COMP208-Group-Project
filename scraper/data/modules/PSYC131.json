@@ -1,0 +1,25 @@
+{
+  "code": "PSYC131",
+  "name": "BRAIN AND COGNITION",
+  "department": "Psychology",
+  "semester": 1,
+  "level": 4,
+  "credits": 22.5,
+  "lecturer": "Dr C Bode",
+  "description": "The module covers core areas of cognitive psychology including perception, memory, language and speech, decision making, and categorisation and semantics. Successful students will demonstrate an understanding of key theories and findings within these areas. The course will be delivered via\u00a0two hours of content\u00a0lectures each week, paired with\u00a0one hour\u00a0research-focused lecture addressing a key topic or controversy in the area. Over the semester, students will participate in\u00a03 x\u00a02 hours smaller group seminars during which students research a specific topic in cognitive psychology. \u00a0Learning will be assessed\u00a0via a\u00a0paper discussing methodological issues in an area of cognitive psychology submitted mid semester and a multiple choice and short answer exam during the exam period. Material will be available to students online (e.g., lecture slides, stream captured sessions, online activities, group discussion forum, formative and summative feedback).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "exam will consist of a multiple-choice test and short answer questions",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": ": Mid-semester",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/psychology-bsc-hons/modules/psyc131",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PSYC131_202526.htm"
+}

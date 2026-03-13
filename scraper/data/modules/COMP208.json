@@ -1,0 +1,44 @@
+{
+  "code": "COMP208",
+  "name": "Group Software Project",
+  "department": "Computer Science and Informatics",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr L Gheri",
+  "description": "Software development skills form a fundamental part of the professional expertise of a Computer Scientist. Often the development is a team activity. The module provides the students with the unique opportunity to complete a sizeable software development project  working as part of team.",
+  "prerequisites": [
+    "COMP201",
+    "COMP122",
+    "COMP207"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Requirement Analysis",
+      "weight": 12
+    },
+    {
+      "type": "coursework",
+      "title": "Meeting Record",
+      "weight": 8
+    },
+    {
+      "type": "coursework",
+      "title": "Software Demonstration",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": "Portfolio and Individual Contribution",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Design",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp208",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP208_202526.htm"
+}

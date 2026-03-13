@@ -1,0 +1,35 @@
+{
+  "code": "MECH217",
+  "name": "THERMODYNAMICS",
+  "department": "Materials, Design and Manufacturing Eng",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor RJ Poole",
+  "description": "Steam, standard air and refrigeration cycles",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":1+2",
+      "weight": 15
+    },
+    {
+      "type": "coursework",
+      "title": ":1+2",
+      "weight": 15
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mechanical-engineering-beng-hons/modules/mech217",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MECH217_202526.htm"
+}

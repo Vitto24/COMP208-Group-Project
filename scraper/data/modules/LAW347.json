@@ -1,0 +1,25 @@
+{
+  "code": "LAW347",
+  "name": "SPORTS LAW",
+  "department": "Law",
+  "semester": 2,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr EW Drywood",
+  "description": "Sport has moved from an amateur pastime to a highly regulated legal sphere, now constituting its own body of law. This module will introduce you to some key areas of sports law \u2013 you will look at questions such as \u2018what is a professional sports contract?\u2019, \u2018can you be criminally liable for injuring someone whilst playing sport?\u2019, \u2018are anti-doping regimes in sport fair?\u2019, \u2018what are the rules around the participation of transgender and intersex athletes in elite sport?\u2019. You will also be introduced to some of the key principles which underpin sports law. This module is taught from a critical perspective \u2013 so we won\u2019t just learn about what the law says about sport, we will question the impact that this body of law has on individuals involved in sport, and whether law makes sport a fairer environment.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law347",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW347_202526.htm"
+}

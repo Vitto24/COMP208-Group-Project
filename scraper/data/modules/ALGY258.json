@@ -1,0 +1,25 @@
+{
+  "code": "ALGY258",
+  "name": "INDIGENOUS AMERICAS",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr B Marin-Aguilera",
+  "description": "What does it mean to be 'Indigenous'? How did Indigenous peoples live in the Americas and how did Europeanconquest and colonisation affect them? How did (and does) the knowledge systems and land stewardship of Indigenous people impact European 'science'?\n\nThis module scrutinises these important questions, offering a unique opportunity for students to explore the Americas between the 14th and 19th centuries AD from comparative perspectives. How does our knowledge of pre-colonial and colonial America inform our understanding of the Americas today? Taking the pre-colonial Indigenous societies as starting point, the module will especially focus on issues revolving around ingenuity, dispossession, resistance, gender, colonialism, environmental sustainability, slavery, race, and their legacies.\n\nThe module is taught through a series of lectures, seminars, handling sessions in the World Museum and theInternational Slavery Museum, class discussion, and group work. Combining academic readings with an array of media (ranging from film, to blog posts, podcasts, social media, among others), you will be introduced to the exceptional new evidence coming from archaeology, history, bioanthropology, geography, art history, literary andIndigenous studies.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy258",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY258_202526.htm"
+}

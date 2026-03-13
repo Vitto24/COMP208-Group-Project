@@ -1,0 +1,30 @@
+{
+  "code": "COMP516",
+  "name": "Research Methods in Computer Science",
+  "department": "Computer Science and Informatics",
+  "semester": 1,
+  "level": 7,
+  "credits": 15.0,
+  "lecturer": "Dr M Gianni",
+  "description": "In this module the students will learn and practise all the necessary skills needed to conduct independent research in computer science, including literature search, project management, presentation techniques, peer reviewing, writing skills and critical review of texts. They will also learn about the professional, legal, social and ethical framework of the IT industry. The module covers, e.g., planning and scheduling projects and drawing Gantt charts. Students shall also conduct a research project (including research, paper, literature review, or MSc project proposal, \u2026) and use tools like EndNote and Zotero bibliography manager within MS Word and Latex.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Research project (research, paper, literature review, project proposal,",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Class test",
+      "weight": 20
+    },
+    {
+      "type": "practical",
+      "title": "Group oral presentation",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-msc/modules/comp516",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_COMP516_202526.htm"
+}

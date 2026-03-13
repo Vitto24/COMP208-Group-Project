@@ -1,0 +1,39 @@
+{
+  "code": "MATH243",
+  "name": "COMPLEX FUNCTIONS",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr D Meyer",
+  "description": "This module introduces students to a surprising, very beautiful theory having intimate connections with other areas of mathematics and physical sciences, for instance ordinary and partial differential equations and potential theory.",
+  "prerequisites": [
+    "MATH103",
+    "MATH102",
+    "MATH101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math243",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH243_202526.htm"
+}

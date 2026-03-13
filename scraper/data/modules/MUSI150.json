@@ -1,0 +1,25 @@
+{
+  "code": "MUSI150",
+  "name": "MUSIC AS AN INDUSTRY",
+  "department": "Music",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr SM Price",
+  "description": "This module will introduce students to the structure, history and contemporary challenges of the music industries, as well as potential careers available in this sector. Students will be introduced to key debates around the commodification of music, and the influence of technology, managers, artists and market forces on the development of the music industries. Topics covered within the module will typically include: the roles and functions of record labels, the digital watershed, the relationship between live and recorded music industries, as well as exploring how professional music workers have forged careers in the sector today.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/music-ba-hons/modules/musi150",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MUSI150_202526.htm"
+}

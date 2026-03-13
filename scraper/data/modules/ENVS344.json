@@ -1,0 +1,25 @@
+{
+  "code": "ENVS344",
+  "name": "Bodies, Space and Power: Geographies of the Lifecourse",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor B Evans",
+  "description": "This module aims to give students a sustained understanding of critical theoretical and geographical approaches to bodies and the lifecourse. The module will provide students with an in-depth engagement with critical theory which explores the politics and lived experience of embodiment and the lifecourse (including feminist, poststructural, posthuman, queer and crip theory). This conceptual work will be enlivened through discussion of empirical research on lived experiences of a range of lifestages and institutions with a particular emphasis on questions of power, identity, space, place and time. You will get the opportunity to explore these through classroom discussions and via flexible assessments that build your skills in communicating with academic and non-academic audiences.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "coursework",
+      "title": "\u00e2\u0080\u0093 for an informed but non-academic audience, on a key contemporary issue that\u00e2\u0080\u0099s in the news which related to the topics covered in the module",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs344",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS344_202526.htm"
+}

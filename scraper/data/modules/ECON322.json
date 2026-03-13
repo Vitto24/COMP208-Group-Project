@@ -1,0 +1,29 @@
+{
+  "code": "ECON322",
+  "name": "Game Theory",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor NJ De Roos",
+  "description": "The objective of this module is to provide an introduction to Game Theory. This is the study of strategic interactions i.e. situations where outcomes depend not only on our own actions but also on how others react to our actions. This module complements those in core macro and microeconomics and offers more insight into strategic business decisions and competitive behaviour in general.",
+  "prerequisites": [
+    "ECON113",
+    "ECON111",
+    "ECON112"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ322",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON322_202526.htm"
+}

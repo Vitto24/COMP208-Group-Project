@@ -1,0 +1,25 @@
+{
+  "code": "LAW373",
+  "name": "CORPORATE INSOLVENCY LAW",
+  "department": "Law",
+  "semester": 2,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Dr JP Tribe",
+  "description": "The Corporate Insolvency Law (CIL) module critically examines the legal rules, policy and theoretical underpinnings that exist to deal with insolvent companies. The corporate insolvency regimes (administration, company voluntary arrangements (CVAs), and schemes of arrangement (SofA)) that facilitate rescue of the juristic person, as well as other avenues (liquidation, receivership, informal arrangements) are critically examined. The use of each procedure and relevant primary and secondary source material is examined to place each procedure in practical context. There is an emphasis on English and Welsh authority and procedures, but some international materials are also used.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ": This MCQ will be held in week eight of  semester one",
+      "weight": 5
+    },
+    {
+      "type": "exam",
+      "title": "on campus",
+      "weight": 95
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/law-llb-hons/modules/law373",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LAW373_202526.htm"
+}

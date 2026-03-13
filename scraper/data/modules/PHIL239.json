@@ -1,0 +1,30 @@
+{
+  "code": "PHIL239",
+  "name": "Moral Philosophy: Theory and Practice",
+  "department": "Philosophy",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor T Schramme",
+  "description": "This module familiarises students with some of the main issues, theories and arguments in contemporary normative and applied ethics. Taking this module will enhance their abilities to analyse ethical arguments and theories and to identify the philosophical assumptions that underly controversial ethical claims. The module is taught by lectures (1 hour per week) and seminar sessions (1-hour per week). Assessment is via a 3,500-word essay (75% of the module mark) and an Essay Outline (10%). Students also give one 10-15 minutes Seminar Presentation that provides the remaining 15% of the module mark.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 75
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 10
+    },
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil239",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL239_202526.htm"
+}

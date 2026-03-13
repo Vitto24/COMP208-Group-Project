@@ -4,6 +4,7 @@ from modules.models import Module
 from grades.models import Assignment
 from django.utils import timezone
 from datetime import timedelta
+from timetable.utils import get_current_semester
 
 DEADLINE_WARNING_DAYS = 3
 DUE_SOON_DAYS = 7
@@ -11,7 +12,12 @@ DUE_SOON_DAYS = 7
 
 @login_required
 def dashboard(request):
-    modules = Module.objects.filter(students=request.user)
+    semester = get_current_semester()
+    modules = Module.objects.filter(
+        students=request.user,
+        semester=semester,
+        academic_year='2025/26',
+    )
 
     now = timezone.now()
     warning_cutoff = now + timedelta(days=DEADLINE_WARNING_DAYS)
@@ -19,6 +25,8 @@ def dashboard(request):
 
     assignments = Assignment.objects.filter(
         module__students=request.user,
+        module__semester=semester,
+        module__academic_year='2025/26',
         due_date__gte=now,
     ).order_by('due_date')
     return render(request, 'dashboard/dashboard.html', {

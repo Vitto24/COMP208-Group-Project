@@ -1,0 +1,30 @@
+{
+  "code": "ENVS330",
+  "name": "Glaciology Past, Present and Future",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Professor DWF Mair",
+  "description": "During this module students will be provided with fully up to date knowledge of how glaciers and ice sheets have behaved in the past; are currently behaving in the present; and will behave in the future. This will be achieved through paired lectures and seminars on different glacial themes, where students will have the opportunity to examine and critique a range of glaciological research techniques that are applied to glacial environments around the world, ranging from valley glaciers to ice sheets. It is intended that this will provide students with a working knowledge of the controls on (and the social and climatic impacts of) past, present and potential future glacier behaviour.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ":New question set after each seminar",
+      "weight": 33
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 33
+    },
+    {
+      "type": "coursework",
+      "title": ":New question set after each seminar",
+      "weight": 34
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs330",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS330_202526.htm"
+}

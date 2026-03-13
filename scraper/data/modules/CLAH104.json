@@ -1,0 +1,25 @@
+{
+  "code": "CLAH104",
+  "name": "WARFARE, POLITICS AND SOCIETY IN THE GREEK WORLD",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr C Van Regenmortel",
+  "description": "This module offers an introduction to the history and society of ancient Greece in the Archaic and Classical periods, from the rise of the polis to the conquests of Alexander the Great. It provides an overview of key historical events while exploring central themes in Greek society and culture, including political developments, social structures, and the impact of warfare. The module also guides students in the use and evaluation of a variety of ancient sources\u2014 notably historiographical and literary texts, inscriptions, and material culture\u2014 enabling students to develop their ability to engage with ancient evidence and foster core historical skills.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/clah104",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_CLAH104_202526.htm"
+}

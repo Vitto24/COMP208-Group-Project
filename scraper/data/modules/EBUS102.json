@@ -1,0 +1,25 @@
+{
+  "code": "EBUS102",
+  "name": "Principles in Operations Management",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr L Menzies",
+  "description": "This is an introductory module to the role operations management plays in business. The key principles of operations management will be explained. This will be done via a journey through the organisation from customer demand to suppliers' delivery to the company. Plenty of practical examples will be used and students will have the opportunity to understand the operational challenges in practice.  Besides the subject knowledge students will participate in a number of seminars to better understand how different functions of operations could affect the performance of an organisation.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Weighting: 10%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 10
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 90
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ebus102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_EBUS102_202526.htm"
+}

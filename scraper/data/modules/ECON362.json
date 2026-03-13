@@ -1,0 +1,33 @@
+{
+  "code": "ECON362",
+  "name": "Creative Sector Economics",
+  "department": "Management School",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr S Phythian-Adams",
+  "description": "The creative sector of the economy rivals the financial services sector in size in the UK. This module first provides context for the sector in both the UK and globally. It then explores the application and development of economic theory in a sector which is often characterised by \u2018non-standard\u2019 markets (i.e. markets where neoclassical microeconomic assumptions may not hold) such as: Insubstitutability of labour for capital; superstar labour markets; intangible property of copyrights; fundamental measures of economic \u2018value\u2019; demand under utility models influenced by taste formation and differing levels of public sector influence. It is applied by examining a variety of creative industries, including fine arts, music, broadcasting, movies and others.",
+  "prerequisites": [
+    "ECON221",
+    "ECON227"
+  ],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 20
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/economics-bsc-hons/modules/econ362",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ECON362_202526.htm"
+}

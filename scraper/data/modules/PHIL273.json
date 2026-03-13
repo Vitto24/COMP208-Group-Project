@@ -1,0 +1,30 @@
+{
+  "code": "PHIL273",
+  "name": "The Meaning of Life and Death: Exploring the Ultimate Question",
+  "department": "Philosophy",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Professor M Hauskeller",
+  "description": "What is the point of living? If we are all going to die anyway, if nothing will remain of whatever we achieve in this life, why should we bother trying to achieve anything in the first place? Why does it matter what we do or not do? Or does it? Can we be mortal and still live a meaningful life? \u2013 Questions such as these are not new. They have been asked for a long time. They are part of, or versions of, what is sometimes called the \u201cultimate\u201d question. The ultimate question concerns the meaning of life and death and is ultimate in both the sense that it is the most fundamental question, reaching down to the very core of our existence, but also in the sense that it is the most difficult one to answer.\n\nIn this module, we will explore the various ways in which life can be considered meaningful and how they relate to the fact of our mortality. To support this exploration, we will also read and discuss some of the key texts in the philosophical debate about meaning in life. To leave ample time for discussion, there won\u2019t be any lectures. Instead, there will be two different kinds of seminars, discussion seminars (one hour every week) and text analysis seminars (also one hour every week). The purpose of the discussion seminars is to start the thinking process on a particular aspect of the general topic, thus providing the foundation for the subsequent analysis of a philosophical text that focuses on that aspect in the text analysis seminars.\n\nThe module will be assessed in three different ways: 1) seminar engagement and contributions (15%), 2) an interview-based group project report (15%), and 3) a final exam (2 hours, 70%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": ".  This cannot be an anonymous assessment",
+      "weight": 15
+    },
+    {
+      "type": "practical",
+      "title": ".  This cannot be an anonymous assessment",
+      "weight": 15
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/philosophy-ba-hons/modules/phil273",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_PHIL273_202526.htm"
+}

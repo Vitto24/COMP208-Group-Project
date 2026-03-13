@@ -1,0 +1,31 @@
+{
+  "code": "MATH360",
+  "name": "APPLIED STOCHASTIC MODELS",
+  "department": "Mathematical Sciences",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr GH Berzunza Ojeda",
+  "description": "Stochastic processes are ways of quantifying the dynamic relationships of sequences of random events. Stochastic models play an important role in elucidating many areas of the natural and engineering sciences. They can be used to analyse the variability inherent in biological and medical processes, to deal with uncertainties affecting managerial decisions and with the complexities of psychological and social interactions, and to provide new perspectives, methodology, models and intuition to aid in other mathematical and statistical studies. This module is intended as a beginning course in introducing continuous-time stochastic processes for students familiar with elementary probability.\u00a0 The objectives are: (1) to introduce students to the standard concepts and methods of stochastic modelling; (2) to illustrate the rich diversity of applications of stochastic processes in the science; and (3) to provide exercises in the applications of simple stochastic analysis to appropriate problems.",
+  "prerequisites": [
+    "MATH102",
+    "MATH103",
+    "MATH254",
+    "MATH101",
+    "MATH163"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons/modules/math360",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MATH360_202526.htm"
+}

@@ -1,0 +1,80 @@
+{
+  "course_name": "Computer Science BSc (Hons)",
+  "course_url": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons",
+  "years": {
+    "1": {
+      "compulsory": [
+        "COMP116",
+        "COMP124",
+        "COMP108",
+        "COMP107",
+        "COMP109",
+        "COMP111",
+        "COMP122",
+        "COMP101",
+        "COMP105"
+      ],
+      "optional": []
+    },
+    "2": {
+      "compulsory": [
+        "COMP202",
+        "COMP207",
+        "COMP208",
+        "COMP201"
+      ],
+      "optional": [
+        "COMP282",
+        "COMP219",
+        "COMP285",
+        "COMP226",
+        "COMP211",
+        "COMP218",
+        "COMP212",
+        "COMP221",
+        "COMP281",
+        "COMP222",
+        "COMP284",
+        "COMP220",
+        "COMP232",
+        "COMP229",
+        "COMP228",
+        "COMP105",
+        "ULMS254"
+      ]
+    },
+    "3": {
+      "compulsory": [
+        "COMP390"
+      ],
+      "optional": [
+        "COMP305",
+        "COMP335",
+        "COMP324",
+        "COMP326",
+        "COMP309",
+        "COMP313",
+        "ELEC319",
+        "COMP323",
+        "COMP304",
+        "COMP310",
+        "ELEC320",
+        "COMP318",
+        "COMP331",
+        "COMP329",
+        "COMP319",
+        "COMP343",
+        "COMP336",
+        "COMP338",
+        "COMP337",
+        "COMP328",
+        "COMP341",
+        "COMP342",
+        "COMP315",
+        "PSYC327",
+        "COMP345",
+        "COMP346"
+      ]
+    }
+  }
+}

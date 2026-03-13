@@ -1,0 +1,25 @@
+{
+  "code": "ENVS227",
+  "name": "Rural Geographies",
+  "department": "Geography and Planning",
+  "semester": 1,
+  "level": null,
+  "credits": 15.0,
+  "lecturer": "Professor MN Riley",
+  "description": "Human Geography extends beyond the city, and this module seeks to develop a critical awareness of the changes taking place in contemporary rural areas. Through a combination of interactive lectures and class discussions, the module draws attention to how geographers and social scientists have approached the study of rural areas and rural issues. The coursework and examination encourage students to engage in informed discussion around the nature of rural change, how such change is understood and interpreted, and to reflect upon geographical difference and inequalities in rural areas.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": ": 1",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/geography-bsc-hons/modules/envs227",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ENVS227_202526.htm"
+}

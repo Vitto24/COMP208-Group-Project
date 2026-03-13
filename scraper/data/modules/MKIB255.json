@@ -1,0 +1,27 @@
+{
+  "code": "MKIB255",
+  "name": "Services Marketing",
+  "department": "Management School",
+  "semester": 2,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Dr LJ Sinton",
+  "description": "This module focuses upon ways in which services marketing is distinct from tangible goods marketing, highlighting a range of concepts and frameworks to highlight such distinctions.",
+  "prerequisites": [
+    "MKIB153"
+  ],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": "Practical Assessment",
+      "weight": 40
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/mkib255",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_MKIB255_202526.htm"
+}

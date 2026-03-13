@@ -1,0 +1,25 @@
+{
+  "code": "POLI109",
+  "name": "FOUNDATIONS IN POLITICS",
+  "department": "Politics",
+  "semester": 1,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Professor A Russell",
+  "description": "This module provides students with a critical introduction to a number of political concepts such as power, the state, legitimacy of sovereignty and gender through engaging with political thinkers such as Weber, Dahl, Tilly, Hooks and Rousseau. It also aims to establish a grounding in a number of areas that will benefit the students in the academic study of politics. For example, essay writing, debating in seminars, and an introduction to academic research. In so doing the module develops on the skills gained at A-level to ensure students are fully prepared for degree level study in Politics. Principally this will be accomplished through interactive lectures and seminars, as well as detailed feedback on their assessments. This module provides students with the tools they require to master different forms of assessment and course work. It also lays the foundations for the development of research confident students by making them active learners with a responsibility for their own academic study.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 40
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 60
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/politics-ba-hons/modules/poli109",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_POLI109_202526.htm"
+}

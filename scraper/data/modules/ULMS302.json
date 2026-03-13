@@ -1,0 +1,30 @@
+{
+  "code": "ULMS302",
+  "name": "Business Simulation",
+  "department": "Management School",
+  "semester": 2,
+  "level": 6,
+  "credits": 30.0,
+  "lecturer": "Dr PJ Murray",
+  "description": "This module allows you the opportunity to build on your previous module knowledge and work with a group of people to develop and run a simulated business operation and to respond to a live client brief. This module delivers experiential learning using simulation and live challenge elements, which allow you to take business decisions in the context of an organisation\u2019s trading position and to demonstrate your implementation of both strategic and operational plans and their relationship to performance outcomes.\n\nOur vision is to prepare you to be future managers and this module will allow you to enhance your creativity and problem-solving skills, develop your communication and leadership abilities and increase your confidence in your commercial awareness and decision making.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "practical",
+      "title": ". Attendance at all 6 sessions is required, but absence from one session will still facilitate the full assessment marks potential",
+      "weight": 5
+    },
+    {
+      "type": "coursework",
+      "title": ". A detailed assessment brief will be provided",
+      "weight": 60
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 35
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/business-management-ba-hons/modules/ulms302",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS302_202526.htm"
+}

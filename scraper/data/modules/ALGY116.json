@@ -1,0 +1,25 @@
+{
+  "code": "ALGY116",
+  "name": "INTRODUCTION TO ANCIENT EGYPT II",
+  "department": "Archaeology, Classics and Egyptology",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Dr V Chauvet",
+  "description": "ALGY116 is designed as a\u00a0year one\u00a0module which aims to provide students with an overview of Ancient Egyptian culture. In particular it has as its core aim the development of students' understanding of the broader thematic aspects of Egyptian society, such as writing, religion, art and social structure. The emphasis will be on the use of primary data (written and material culture), and on awareness of how major archaeological sites fit within this framework.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/history-ba-hons/modules/algy116",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ALGY116_202526.htm"
+}

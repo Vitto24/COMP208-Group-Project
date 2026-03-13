@@ -1,0 +1,25 @@
+{
+  "code": "ULMS170",
+  "name": "Introduction to the Graduate Recruitment Process",
+  "department": "Management School",
+  "semester": 2,
+  "level": 4,
+  "credits": 15.0,
+  "lecturer": "Mr CR Barlow",
+  "description": "This module introduces students to the graduate recruitment process by providing them with the skills required to secure a work placement or summer internship. It also provides the opportunity to acquire, develop and apply these skills by participating in a variety of different tasks linked to the recruitment process.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Assessment Type: Coursework  Duration/Size: assessment size will vary  Weighting: 20%  Reassessment Opportunity: Yes  Penalty for Late Submission:",
+      "weight": 20
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 80
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/accounting-and-finance-bsc-hons/modules/ulms170",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ULMS170_202526.htm"
+}

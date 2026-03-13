@@ -1,0 +1,27 @@
+{
+  "code": "BIOS102",
+  "name": "Origins, Specialisations, Challenges and Therapeutics",
+  "department": "Biosciences",
+  "semester": 2,
+  "level": 4,
+  "credits": 30.0,
+  "lecturer": "Dr BF Grant",
+  "description": "In this module, students will study in blocks, the first is embryology and the development of organ systems. The students will then continue to develop their knowledge of organ function in invertebrate and vertebrate animals (including humans) and compare these with organisms that have adapted their function to meet the challenges of a range of environments, in the next block. This approach has been taken to aid in our understanding of organ function from its commonalities to its varied differences. A cellular & molecular approach is used as students focus on the control, regulation, development and function of organs, organ systems & organisms. The final block has a focus on infection, immunity and microbial diversity.\n\nThe overall aim of this module is to facilitate the study of how cells develop and work together to form functional tissues and organs, and how this is imperative to the normal functioning of organisms and their adaptation, response and defence mechanisms.\n\nThe module will be taught through a combination of lectures and workshops, which will be supported with directed learning resources (reading/ multimedia).\n\nThere are two assessments. This module will be assessed by one in-course assessment, which may be scheduled outside of the School of Biosciences' two-cycle assessment strategy and an end-of-module exam.",
+  "prerequisites": [
+    "BIOS101"
+  ],
+  "assessment": [
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 30
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/biological-sciences-bsc-hons/modules/bios102",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_BIOS102_202526.htm"
+}

@@ -1,0 +1,25 @@
+{
+  "code": "LATI203",
+  "name": "LATIN AMERICA IN ITS LITERATURE",
+  "department": "Languages, Cultures and Film",
+  "semester": 1,
+  "level": 5,
+  "credits": 15.0,
+  "lecturer": "Mr AJ Robertson",
+  "description": "This module aims to introduce students to Latin American fiction through the study of a selection of novels and short story collections by major Latin American writers.",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 30
+    },
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 70
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/english-ba-hons/modules/lati203",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_LATI203_202526.htm"
+}

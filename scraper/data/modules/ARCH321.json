@@ -1,0 +1,25 @@
+{
+  "code": "ARCH321",
+  "name": "Context 3.1: History  and Theory of Architecture",
+  "department": "Architecture",
+  "semester": 1,
+  "level": 6,
+  "credits": 15.0,
+  "lecturer": "Dr C Malathouni",
+  "description": "The module uses lectures from staff to introduce specialised research themes and topics in architectural history and theory, and is supported by group and individual research. Students are able to choose topics for which they would like to attend further group tutorials / seminars. The module is assessed by an MCQ exam (50%) and a 2,000-word essay (50%).",
+  "prerequisites": [],
+  "assessment": [
+    {
+      "type": "coursework",
+      "title": "Coursework",
+      "weight": 50
+    },
+    {
+      "type": "exam",
+      "title": "Written Exam",
+      "weight": 50
+    }
+  ],
+  "course_url": "https://www.liverpool.ac.uk/courses/architecture-ba-hons/modules/arch321",
+  "tulip_url": "https://tulip.liv.ac.uk/mods/student/cm_ARCH321_202526.htm"
+}

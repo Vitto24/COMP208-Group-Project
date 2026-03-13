@@ -57,13 +57,19 @@
                         </a>
                         <div class="user-details">
                             <a href="{% url 'settings_page:settings' %}" class="user-name">{{ user.userprofile.course|default:"My Course" }}</a>
-                            <a href="{% url 'accounts:logout' %}" class="logout-link">Logout</a>
-                        </div>
+                
+                            <form action="{% url 'accounts:logout' %}" method="post" style="display: inline;">
+                            {% csrf_token %}
+                            <button type="submit" class="logout-link" style="background:none; border:none; padding:0; font:inherit; cursor:pointer; text-decoration:underline;">
+                                Logout
+                            </button>
+                        </form>
                     </div>
-                {% else %}
-                    <a href="{% url 'accounts:login' %}" class="login-link">Login</a>
-                {% endif %}
-            </div>
+                </div>
+            {% else %}
+                <a href="{% url 'accounts:login' %}" class="login-link">Login</a>
+            {% endif %}
+        </div>
         </nav>
 
         <!-- Main content -->

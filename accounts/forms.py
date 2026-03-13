@@ -1,7 +1,13 @@
 from django import forms
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from modules.models import Course
+
+
+class EmailLoginForm(AuthenticationForm):
+    """Login form that accepts email instead of username.
+    The email gets passed to EmailBackend which handles the lookup."""
+    username = forms.EmailField(label="University Email")
 
 
 class RegistrationForm(UserCreationForm):

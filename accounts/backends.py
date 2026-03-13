@@ -8,7 +8,7 @@ class EmailBackend(ModelBackend):
     def authenticate(self, request, username=None, password=None, **kwargs):
         # Django's login form sends the email in the 'username' field
         try:
-            user = User.objects.get(email=username)
+            user = User.objects.get(email__iexact=username)
         except User.DoesNotExist:
             return None
 

@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.utils import timezone
 from modules.models import Module
 from grades.models import Grade, Assignment 
+from accounts.models import UserProfile # allows access to course info for year weights
 
 @login_required
 def grades(request):
@@ -109,6 +110,14 @@ def grades(request):
         # Degree projection - just year average for now
         degree_projection = current_year_avg
 
+    
+    weights = {'y1': 0, 'y2': 30, 'y3': 70} 
+    if hasattr(request.user, 'userprofile') and request.user.userprofile.course:
+        course = request.user.userprofile.course
+        weights['y1'] = course.year_1_weight
+        weights['y2'] = course.year_2_weight
+        weights['y3'] = course.year_3_weight
+
     return render(request, 'grades/grades.html', {
         'grouped_data': grouped_data,
         'today': timezone.now().date(),
@@ -116,4 +125,5 @@ def grades(request):
         'current_year_avg': current_year_avg,
         'degree_projection': degree_projection,
         'credits_completed': credits_str,
+        'weights': weights, 
     })

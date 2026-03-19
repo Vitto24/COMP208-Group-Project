@@ -11,7 +11,6 @@
 </head>
 <body>
     <div class="layout">
-        <!-- Sidebar -->
         <nav class="sidebar">
             <div class="sidebar-top">
                 <div class="sidebar-brand">
@@ -25,6 +24,7 @@
                     <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="university-logo">
                 </a>
 
+                {% if not hide_sidebar %}
                 <ul class="nav-links">
                     <li><a href="{% url 'dashboard:dashboard' %}" class="{% block nav_dashboard %}{% endblock %}">
                         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
@@ -47,8 +47,10 @@
                         Notifications
                     </a></li>
                 </ul>
+                {% endif %}
             </div>
 
+            {% if not hide_sidebar %}
             <div class="sidebar-bottom">
                 {% if user.is_authenticated %}
                     <div class="user-info">
@@ -57,16 +59,22 @@
                         </a>
                         <div class="user-details">
                             <a href="{% url 'settings_page:settings' %}" class="user-name">{{ user.userprofile.course|default:"My Course" }} (Year {{ user.userprofile.year_of_study }})</a>
-                            <a href="{% url 'accounts:logout' %}" class="logout-link">Logout</a>
+                            
+                            <form method="post" action="{% url 'accounts:logout' %}" style="display: inline; margin: 0; padding: 0;">
+                                {% csrf_token %}
+                                <button type="submit" class="logout-link" style="background: none; border: none; cursor: pointer; padding: 0; text-align: left;">
+                                    Logout
+                                </button>
+                            </form>
                         </div>
                     </div>
                 {% else %}
                     <a href="{% url 'accounts:login' %}" class="login-link">Login</a>
                 {% endif %}
             </div>
+            {% endif %}
         </nav>
 
-        <!-- Main content -->
         <main class="main">
             <header class="page-header">
                 <h1>{% block page_title %}Page{% endblock %}</h1>

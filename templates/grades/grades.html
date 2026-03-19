@@ -15,37 +15,38 @@
     <!-- Overview section -->
     <h2 style="font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e293b;">Overview</h2>
     
-    <div class="overview-grid">
-        <div class="stat-box-custom">
-            <div class="stat-big-number">{{ current_sem_avg }}%</div>
-            <div class="stat-title">Semester Average</div>
-            <div class="stat-subtitle">Current Semester</div>
+    <div class="overview-master-card">
+        <div class="overview-grid">
+            <div class="master-stat-box">
+                <div class="stat-big-number">{{ current_sem_avg }}%</div>
+                <div class="stat-title">Semester Average</div>
+                <div class="stat-subtitle">Current Semester</div>
+            </div>
+            <div class="master-stat-box">
+                <div class="stat-big-number">{{ current_year_avg }}%</div>
+                <div class="stat-title">Year Average</div>
+                <div class="stat-subtitle">Current Year</div>
+            </div>
+            <div class="master-stat-box">
+                <div class="stat-big-number">{{ degree_projection }}%</div>
+                <div class="stat-title">Degree Projection</div>
+                <div class="stat-subtitle">Estimated</div>
+            </div>
+            <div class="master-stat-box">
+                <div class="stat-big-number">{{ credits_completed }}</div>
+                <div class="stat-title">Credits Completed</div>
+                <div class="stat-subtitle">Current Semester</div>
+            </div>
         </div>
-        <div class="stat-box-custom">
-            <div class="stat-big-number">{{ current_year_avg }}%</div>
-            <div class="stat-title">Year Average</div>
-            <div class="stat-subtitle">Current Year</div>
+        
+        <hr class="card-divider">
+        
+        <div class="degree-weighting-footer">
+            Degree Weighting: Year 1 ({{ weights.y1 }}%) + Year 2 ({{ weights.y2 }}%) + Year 3 ({{ weights.y3 }}%)
+            {% if weights.y4 > 0 %} + Year 4 ({{ weights.y4 }}%) {% endif %}
+            {% if weights.y5 > 0 %} + Year 5 ({{ weights.y5 }}%) {% endif %}
         </div>
-        <div class="stat-box-custom">
-            <div class="stat-big-number">{{ degree_projection }}%</div>
-            <div class="stat-title">Degree Projection</div>
-            <div class="stat-subtitle">Estimated</div>
-        </div>
-        <div class="stat-box-custom">
-            <div class="stat-big-number">{{ credits_completed }}</div>
-            <div class="stat-title">Credits Completed</div>
-            <div class="stat-subtitle">Current Semester</div>
-        </div>
-    </div>
-    <!-- Degree weighting info -->
-    <div class="degree-weighting">
-        Degree Weighting: Year 1 ({{ weights.y1 }}%) + Year 2 ({{ weights.y2 }}%) + Year 3 ({{ weights.y3 }}%)
-        {% if weights.y4 > 0 %}
-            + Year 4 ({{ weights.y4 }}%)
-        {% endif %}
-        {% if weights.y5 > 0 %}
-            + Year 5 ({{ weights.y5 }}%)
-        {% endif %}
+
     </div>
 
     <h2 style="font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e293b;">Assignment Grades</h2>

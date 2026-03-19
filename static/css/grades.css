@@ -42,3 +42,41 @@
 details[open] > summary .dropdown-arrow {
     transform: rotate(90deg);
 }
+.overview-master-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 24px;
+    margin-bottom: 32px;
+    border: 1px solid #e2e8f0; 
+}
+
+.overview-master-card .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.master-stat-box {
+    padding: 10px 0;
+    text-align: center;
+    background: transparent;
+}
+
+.overview-grid .master-stat-box:not(:last-child) {
+    border-right: 1px solid #e2e8f0;
+}
+
+.card-divider {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 0 0 16px 0;
+}
+
+.degree-weighting-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 500;
+}

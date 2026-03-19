@@ -59,7 +59,61 @@ def grades(request):
 
     grouped_data.sort(key=lambda x: x['year'], reverse=True)
 
+    # --- Top section maths ---
+    current_sem_avg = 0
+    current_year_avg = 0
+    degree_projection = 0
+    credits_str = "0/0"
+
+    # only do if has any data to work with
+    if grouped_data:
+        recent_year = grouped_data[0] # Newest year (e.g., Year 2)
+        year_total_weighted = 0
+        year_total_credits = 0
+
+        # Average grade for current year
+        for sem in recent_year['semesters']:
+            for mod in sem['modules']:
+                credits = float(mod['module'].credits)
+                grade = mod['overall_grade']
+                
+                if grade > 0: # Only count if graded
+                    year_total_weighted += (grade * credits)
+                    year_total_credits += credits
+        
+        if year_total_credits > 0:
+            current_year_avg = round(year_total_weighted / year_total_credits, 1)
+
+        # Average grade for semester
+        if recent_year['semesters']:
+            recent_sem = recent_year['semesters'][0]
+            sem_total_weighted = 0
+            sem_graded_credits = 0
+            sem_total_credits = 0
+
+            for mod in recent_sem['modules']:
+                credits = float(mod['module'].credits)
+                grade = mod['overall_grade']
+                sem_total_credits += credits
+                
+                if grade > 0:
+                    sem_total_weighted += (grade * credits)
+                    sem_graded_credits += credits
+
+            if sem_graded_credits > 0:
+                current_sem_avg = round(sem_total_weighted / sem_graded_credits, 1)
+            
+            # Format credits like "15/60"
+            credits_str = f"{int(sem_graded_credits)}/{int(sem_total_credits)}"
+
+        # Degree projection - just year average for now
+        degree_projection = current_year_avg
+
     return render(request, 'grades/grades.html', {
         'grouped_data': grouped_data,
-        'today': timezone.now().date()
+        'today': timezone.now().date(),
+        'current_sem_avg': current_sem_avg,
+        'current_year_avg': current_year_avg,
+        'degree_projection': degree_projection,
+        'credits_completed': credits_str,
     })

@@ -17,24 +17,24 @@
     
     <div class="overview-grid">
         <div class="stat-box-custom">
-            <div class="stat-big-number">x%</div>
+            <div class="stat-big-number">{{ current_sem_avg }}%</div>
             <div class="stat-title">Semester Average</div>
-            <div class="stat-subtitle">a of b Graded</div>
+            <div class="stat-subtitle">Current Semester</div>
         </div>
         <div class="stat-box-custom">
-            <div class="stat-big-number">y%</div>
+            <div class="stat-big-number">{{ current_year_avg }}%</div>
             <div class="stat-title">Year Average</div>
-            <div class="stat-subtitle">a of b Graded</div>
+            <div class="stat-subtitle">Current Year</div>
         </div>
         <div class="stat-box-custom">
-            <div class="stat-big-number">z%</div>
+            <div class="stat-big-number">{{ degree_projection }}%</div>
             <div class="stat-title">Degree Projection</div>
-            <div class="stat-subtitle">Some Grade</div>
+            <div class="stat-subtitle">Estimated</div>
         </div>
         <div class="stat-box-custom">
-            <div class="stat-big-number">x/y</div>
+            <div class="stat-big-number">{{ credits_completed }}</div>
             <div class="stat-title">Credits Completed</div>
-            <div class="stat-subtitle">Semester 2: x/y</div>
+            <div class="stat-subtitle">Current Semester</div>
         </div>
     </div>
     <!-- Degree weighting info -->

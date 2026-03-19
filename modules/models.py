@@ -18,6 +18,11 @@ class Course(models.Model):
     url = models.URLField(blank=True)
     degree_level = models.CharField(max_length=10, choices=DEGREE_CHOICES)
 
+    # Added to get weights for the grades page when needed, defaults should ensure no problems occur
+    year_1_weight = models.IntegerField(default=0)
+    year_2_weight = models.IntegerField(default=30)
+    year_3_weight = models.IntegerField(default=70)
+    
     def __str__(self):
         return self.name
 

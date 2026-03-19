@@ -78,7 +78,6 @@ def grades(request):
 
     # only do if has any data to work with
     if grouped_data:
-        # 1. Calculate TOTAL degree progress (every year in the list)
         for year_block in grouped_data:
             for sem_block in year_block['semesters']:
                 for mod_item in sem_block['modules']:
@@ -90,7 +89,7 @@ def grades(request):
         # Big number for the far right box (e.g., 181.5/360)
         total_credits_str = f"{total_degree_graded}/{total_degree_credits}"
 
-        # 2. Most recent year average and counts
+        # Most recent year average and counts
         recent_year = grouped_data[0] 
         year_total_weighted = 0
         year_graded_credits = 0
@@ -112,7 +111,7 @@ def grades(request):
             current_year_avg = round(year_total_weighted / year_graded_credits, 1)
             year_subtitle = f"{year_graded_count} of {year_total_count} Graded"
 
-        # 3. Most recent semester average and counts
+        # Most recent semester average and counts
         if recent_year['semesters']:
             recent_sem = recent_year['semesters'][0]
             sem_total_weighted = 0
@@ -137,7 +136,7 @@ def grades(request):
             sem_subtitle = f"{sem_graded_count} of {len(recent_sem['modules'])} Graded"
             credits_subtitle = f"Semester {recent_sem['semester']}: {int(sem_graded_credits)}/{int(sem_total_credits)}"
 
-        # 4. Degree projection & classification text
+        # Degree projection & classification text
         degree_projection = current_year_avg
         if degree_projection >= 70:
             projection_subtitle = "First Class (1st)"
@@ -166,10 +165,10 @@ def grades(request):
         'current_sem_avg': current_sem_avg,
         'current_year_avg': current_year_avg,
         'degree_projection': degree_projection,
-        'credits_completed': total_credits_str, # Total degree progress
+        'credits_completed': total_credits_str, 
         'weights': weights, 
         'sem_subtitle': sem_subtitle,
         'year_subtitle': year_subtitle,
         'projection_subtitle': projection_subtitle,
-        'credits_subtitle': credits_subtitle, # Recent semester progress
+        'credits_subtitle': credits_subtitle, 
     })

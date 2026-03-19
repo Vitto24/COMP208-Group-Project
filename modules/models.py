@@ -22,7 +22,9 @@ class Course(models.Model):
     year_1_weight = models.IntegerField(default=0)
     year_2_weight = models.IntegerField(default=30)
     year_3_weight = models.IntegerField(default=70)
-    
+    year_4_weight = models.IntegerField(default=0)
+    year_5_weight = models.IntegerField(default=0)
+
     def __str__(self):
         return self.name
 

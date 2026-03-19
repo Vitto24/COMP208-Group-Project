@@ -37,12 +37,17 @@
         </div>
 
         <div class="form-group">
-            <label for="id_password1">Password</label>
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 5px;">
+                <label for="id_password1" style="margin: 0;">Password</label>
+                <span id="togglePasswords" style="cursor: pointer; color: #586069; font-size: 0.9rem; user-select: none; font-weight: 500;">
+                    👁️ Show
+                </span>
+            </div>
             {{ form.password1 }}
         </div>
 
         <div class="form-group">
-            <label for="id_password2">Confirm Password</label>
+            <label for="id_password2" style="margin-bottom: 5px; display: block;">Confirm Password</label>
             {{ form.password2 }}
         </div>
 
@@ -61,4 +66,25 @@
 
     <p class="auth-link">Already have an account? <a href="{% url 'accounts:login' %}">Login</a></p>
 </section>
+
+<script>
+    const togglePasswords = document.getElementById('togglePasswords');
+    const pass1 = document.querySelector('input[name="password1"]');
+    const pass2 = document.querySelector('input[name="password2"]');
+
+    if (togglePasswords && pass1 && pass2) {
+        togglePasswords.addEventListener('click', function () {
+            // Check current state of the first field
+            const isPassword = pass1.getAttribute('type') === 'password';
+            const newType = isPassword ? 'text' : 'password';
+            
+            // Toggle both fields
+            pass1.setAttribute('type', newType);
+            pass2.setAttribute('type', newType);
+            
+            // Update the toggle text and icon
+            this.innerHTML = isPassword ? '🙈 Hide' : '👁️ Show';
+        });
+    }
+</script>
 {% endblock %}

@@ -20,13 +20,36 @@
         </div>
 
         <div class="form-group">
-            <label for="id_password">Password</label>
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 5px;">
+                <label for="id_password" style="margin: 0;">Password</label>
+                
+                <span id="togglePassword" style="cursor: pointer; color: #586069; font-size: 0.9rem; user-select: none; font-weight: 500;">
+                    👁️ Show
+                </span>
+            </div>
             {{ form.password }}
         </div>
 
-        <button type="submit" class="btn">Login</button>
+        <button type="submit" class="btn" style="margin-top: 10px;">Login</button>
     </form>
 
     <p class="auth-link">Don't have an account? <a href="{% url 'accounts:register' %}">Register</a></p>
+    <p class="auth-link"><a href="{% url 'accounts:password_reset' %}">Forgot your password?</a></p>
 </section>
+
+<script>
+    const togglePassword = document.getElementById('togglePassword');
+    const passwordField = document.querySelector('input[name="password"]');
+
+    if (togglePassword && passwordField) {
+        togglePassword.addEventListener('click', function () {
+            // Toggle the type attribute between 'password' and 'text'
+            const isPassword = passwordField.getAttribute('type') === 'password';
+            passwordField.setAttribute('type', isPassword ? 'text' : 'password');
+            
+            // Swap the icon and text
+            this.innerHTML = isPassword ? '🙈 Hide' : '👁️ Show';
+        });
+    }
+</script>
 {% endblock %}

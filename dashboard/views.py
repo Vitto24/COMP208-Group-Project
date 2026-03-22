@@ -60,18 +60,10 @@ def dashboard(request):
         for i, day in enumerate(DAYS):
             week_dates[day] = week_monday + datetime.timedelta(days=i)
 
-    # ── Timetable: fetch entries for this semester (current year only) ──
-    # filter to modules in the student's current year
-    current_year_modules = Module.objects.filter(
-        students=request.user,
-        module_courses__course=profile.course,
-        module_courses__year=year_str,
-    ).distinct()
-
+    # ── Timetable: fetch all entries for this semester ───────────────
     all_entries = TimetableEntry.objects.filter(
         student=request.user,
         semester=semester,
-        module__in=current_year_modules,
     ).select_related('module')
 
     # filter to entries that run in the selected week

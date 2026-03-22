@@ -36,11 +36,17 @@ python manage.py runserver
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-To load sample data: `python manage.py loaddata fixtures/sample_data.json`
+**3. Load data and generate sample content:**
+```bash
+python manage.py loaddata fixtures/sample_data.json
+python manage.py generate_sample_data
+```
 
-Sample accounts (after loading fixture):
-- **Student:** `student` / `password`
-- **Admin panel** (`/admin`): `admin` / `password`
+The fixture loads 20 courses and 749 modules scraped from the University of Liverpool course catalogue and TULIP. `generate_sample_data` then creates assignments (with due dates from the scraped assessment data), randomised grades, and clash-free timetable entries for all enrolled students.
+
+Register a new account to test — pick a course and year, then select your optional modules (each semester must total 60 credits). Compulsory modules are auto-enrolled.
+
+**Admin panel** (`/admin`): create a superuser with `python manage.py createsuperuser`
 
 ---
 
@@ -124,11 +130,14 @@ MVP is read-only for students. Data is managed through Django's admin panel (`/a
 ### Relationships
 
 ```
-User ——— UserProfile
-  └── enrolled in ——— Module
+User ——— UserProfile ——— Course
+  └── enrolled in ——— Module ——— ModuleCourse (year, compulsory)
                         ├── Assignment ——— Grade (per student)
+                        ├── TimetableEntry (per student)
                         └── Week ——— Material
 ```
+
+A student's course determines which modules are available. ModuleCourse links modules to courses with year level and compulsory/optional status. Each semester must total 60 credits.
 
 ---
 

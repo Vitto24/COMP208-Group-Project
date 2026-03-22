@@ -104,21 +104,28 @@ class Command(BaseCommand):
         scraper_data = self._load_scraper_data()
         self.stdout.write(f'Loaded assessment data for {len(scraper_data)} modules from scraper JSONs')
 
-        # get all modules that have at least one enrolled student
+        # ── Step 1: Create assignments for ALL modules in the DB ───────
+        # assignments belong to the module itself, not to students,
+        # so they should exist before anyone enrols
+        all_modules = Module.objects.all()
+        assignment_count = 0
+        for module in all_modules:
+            a = self._create_assignments(module, scraper_data)
+            assignment_count += a
+
+        self.stdout.write(f'Assignments: {assignment_count} new')
+
+        # ── Step 2: Create grades for enrolled students ────────────────
         modules_with_students = Module.objects.filter(students__isnull=False).distinct()
         self.stdout.write(f'Found {modules_with_students.count()} modules with enrolled students')
 
-        # ── Generate assignments + grades ──────────────────────────────
-        assignment_count = 0
         grade_count = 0
-
         for module in modules_with_students:
             students = list(module.students.all())
-            a, g = self._create_assignments_and_grades(module, students, scraper_data)
-            assignment_count += a
+            g = self._create_grades(module, students)
             grade_count += g
 
-        # ── Generate timetable (clash-free by course/year/sem group) ───
+        # ── Step 3: Generate timetable (clash-free by year/sem group) ──
         timetable_count = self._generate_all_timetables(modules_with_students)
 
         self.stdout.write(self.style.SUCCESS(
@@ -157,17 +164,16 @@ class Command(BaseCommand):
     # ASSIGNMENTS + GRADES
     # ──────────────────────────────────────────────────────────────────
 
-    def _create_assignments_and_grades(self, module, students, scraper_data):
-        """Create assignment and grade records for a single module."""
-        assignment_count = 0
-        grade_count = 0
+    def _create_assignments(self, module, scraper_data):
+        """Create assignment records for a module (no students needed)."""
+        count = 0
 
         # get assessment data from scraper or use fallback
         assessments = scraper_data.get(module.code, {}).get('assessment', [])
         if not assessments:
             assessments = self._generate_generic_assessments()
 
-        # map scraper types to our model's TYPE_CHOICES and split
+        # map scraper types and split into coursework/exams
         coursework = []
         exams = []
         for a in assessments:
@@ -178,71 +184,56 @@ class Command(BaseCommand):
             else:
                 coursework.append(a)
 
-        # calculate spaced due dates for coursework
+        # calculate spaced due dates
         cw_dates = self._space_coursework_dates(module.semester, len(coursework))
         exam_dates = self._pick_exam_dates(module.semester, len(exams))
 
         # create coursework assignments
         for i, assessment in enumerate(coursework):
-            title = assessment.get('title', assessment['title']) if isinstance(assessment, dict) else assessment[0]
-            weight = assessment.get('weight', assessment['weight']) if isinstance(assessment, dict) else assessment[1]
+            title = assessment.get('title', '')
+            weight = assessment.get('weight', 0)
             atype = assessment.get('_mapped_type', 'coursework')
-
             due_date = cw_dates[i] if i < len(cw_dates) else cw_dates[-1]
 
-            assignment, created = Assignment.objects.get_or_create(
-                module=module,
-                title=title,
-                defaults={
-                    'weight': weight,
-                    'type': atype,
-                    'due_date': due_date,
-                },
+            _, created = Assignment.objects.get_or_create(
+                module=module, title=title,
+                defaults={'weight': weight, 'type': atype, 'due_date': due_date},
             )
             if created:
-                assignment_count += 1
-
-            for student in students:
-                score, status = self._random_grade(assignment)
-                _, created = Grade.objects.get_or_create(
-                    student=student,
-                    assignment=assignment,
-                    defaults={'score': score, 'status': status},
-                )
-                if created:
-                    grade_count += 1
+                count += 1
 
         # create exam assignments
         for i, assessment in enumerate(exams):
-            title = assessment.get('title', assessment['title']) if isinstance(assessment, dict) else assessment[0]
-            weight = assessment.get('weight', assessment['weight']) if isinstance(assessment, dict) else assessment[1]
+            title = assessment.get('title', '')
+            weight = assessment.get('weight', 0)
             atype = assessment.get('_mapped_type', 'exam')
-
             due_date = exam_dates[i] if i < len(exam_dates) else exam_dates[-1]
 
-            assignment, created = Assignment.objects.get_or_create(
-                module=module,
-                title=title,
-                defaults={
-                    'weight': weight,
-                    'type': atype,
-                    'due_date': due_date,
-                },
+            _, created = Assignment.objects.get_or_create(
+                module=module, title=title,
+                defaults={'weight': weight, 'type': atype, 'due_date': due_date},
             )
             if created:
-                assignment_count += 1
+                count += 1
 
+        return count
+
+    def _create_grades(self, module, students):
+        """Create grade records for enrolled students (per-student data)."""
+        count = 0
+        assignments = Assignment.objects.filter(module=module)
+
+        for assignment in assignments:
             for student in students:
                 score, status = self._random_grade(assignment)
                 _, created = Grade.objects.get_or_create(
-                    student=student,
-                    assignment=assignment,
+                    student=student, assignment=assignment,
                     defaults={'score': score, 'status': status},
                 )
                 if created:
-                    grade_count += 1
+                    count += 1
 
-        return assignment_count, grade_count
+        return count
 
     def _space_coursework_dates(self, semester, count):
         """Space coursework due dates evenly across the semester, all on Fridays."""
@@ -513,10 +504,14 @@ class Command(BaseCommand):
                 self.stdout.write('All timetable entries up to date.')
             return timetable_count
 
-        # group NEW modules by (year, semester) for scheduling
+        # group NEW modules by (ModuleCourse year, semester) for scheduling
+        # Module.year is unreliable (defaults to 2), so look up the actual
+        # year from ModuleCourse instead
         groups = {}
         for module in modules_needing_schedule:
-            key = (module.year, module.semester)
+            mc = ModuleCourse.objects.filter(module=module).first()
+            mc_year = mc.year if mc else str(module.year)
+            key = (mc_year, module.semester)
             if key not in groups:
                 groups[key] = set()
             groups[key].add(module)

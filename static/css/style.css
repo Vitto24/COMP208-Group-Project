@@ -960,3 +960,145 @@ body {
     margin-bottom: 25px;
     color: #333;
 }
+
+/* Dashboard timetable section */
+.dash-tt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.dash-tt-header .section-title {
+    margin-bottom: 0;
+}
+
+.dash-tt-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dash-tt-wrapper {
+    display: flex;
+    gap: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Left column: today's events */
+.dash-tt-today {
+    width: 240px;
+    min-width: 240px;
+    padding: 16px;
+    border-right: 1px solid #e2e8f0;
+}
+
+.dash-tt-today-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.dash-tt-event {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 6px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.dash-tt-event:last-child {
+    border-bottom: none;
+}
+
+.dash-tt-icon {
+    width: 18px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.dash-tt-done { color: #94a3b8; }
+.dash-tt-now .dash-tt-icon { color: #1e293b; font-weight: 700; }
+
+/* Right column: week grid */
+.dash-tt-grid {
+    flex: 1;
+    display: flex;
+    min-width: 0;
+}
+
+.dash-tt-day-col {
+    flex: 1;
+    min-width: 0;
+    padding: 8px 4px;
+    border-right: 1px solid #f1f5f9;
+}
+
+.dash-tt-day-col:last-child {
+    border-right: none;
+}
+
+.dash-tt-day-today {
+    background: #fafbfc;
+}
+
+.dash-tt-day-header {
+    text-align: center;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.dash-tt-day-today .dash-tt-day-header {
+    border-bottom: 2px solid #1e293b;
+}
+
+.dash-tt-day-num {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 2px;
+}
+
+.dash-tt-day-num-today {
+    background: #1e293b;
+    color: #fff;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    margin: 2px auto 0;
+    font-size: 14px;
+}
+
+.dash-tt-day-events {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* reuse .event-card styles but make them slightly smaller for the mini grid */
+.dash-tt-day-events .event-card {
+    border-radius: 5px;
+    padding: 4px 6px;
+    font-size: 11px;
+}
+
+.dash-tt-day-events .event-code {
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.dash-tt-day-events .event-time {
+    color: #64748b;
+    font-size: 10px;
+}
+
+.dash-tt-day-events .event-type {
+    color: #64748b;
+    font-size: 10px;
+    text-transform: uppercase;
+}

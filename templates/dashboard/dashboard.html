@@ -84,7 +84,70 @@
         {% empty %}
         <div class="empty-deadlines">No upcoming deadlines!</div>
         {% endfor %}
-        
+
+    </div>
+</div>
+
+<div class="dashboard-section">
+    <div class="dash-tt-header">
+        <h2 class="section-title">Timetable</h2>
+        <div class="dash-tt-nav">
+            {% if week_num > 1 %}
+                <a href="?week={{ week_num|add:"-1" }}" class="week-arrow">&lsaquo;</a>
+            {% else %}
+                <span class="week-arrow week-arrow-disabled">&lsaquo;</span>
+            {% endif %}
+            <span class="week-label">Week {{ week_num }} of {{ max_week }}</span>
+            {% if week_num < max_week %}
+                <a href="?week={{ week_num|add:"1" }}" class="week-arrow">&rsaquo;</a>
+            {% else %}
+                <span class="week-arrow week-arrow-disabled">&rsaquo;</span>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="dash-tt-wrapper card">
+        <!-- Left: Today's events -->
+        <div class="dash-tt-today">
+            <h3 class="dash-tt-today-title">Today ({{ today_date|date:"D j" }}{{ today_date|date:"S" }})</h3>
+            {% for item in today_entries %}
+            <div class="dash-tt-event dash-tt-{{ item.status }}">
+                <span class="dash-tt-icon">
+                    {% if item.status == 'done' %}&#10003;{% elif item.status == 'now' %}&rarr;{% else %}&#9675;{% endif %}
+                </span>
+                <div>
+                    <strong>{{ item.entry.start_time|time:"H:i" }}</strong>
+                    &nbsp; {{ item.entry.module.code }} {{ item.entry.display_type }}
+                    {% if item.status == 'now' %}<span class="now-badge">NOW</span>{% endif %}
+                </div>
+            </div>
+            {% empty %}
+            <p class="today-subtext">No classes today</p>
+            {% endfor %}
+        </div>
+
+        <!-- Right: Week grid -->
+        <div class="dash-tt-grid">
+            {% for col in day_columns %}
+            <div class="dash-tt-day-col{% if col.is_today %} dash-tt-day-today{% endif %}">
+                <div class="dash-tt-day-header">
+                    <div class="day-name">{{ col.code }}</div>
+                    {% if col.date %}
+                    <div class="dash-tt-day-num{% if col.is_today %} dash-tt-day-num-today{% endif %}">{{ col.date|date:"j" }}</div>
+                    {% endif %}
+                </div>
+                <div class="dash-tt-day-events">
+                    {% for entry in col.entries %}
+                    <div class="event-card {{ entry.event_css_class }}">
+                        <div class="event-code">{{ entry.module.code }}</div>
+                        <div class="event-time">{{ entry.start_time|time:"H:i" }}</div>
+                        <div class="event-type">{{ entry.display_type }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 {% endblock %}

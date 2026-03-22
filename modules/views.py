@@ -13,10 +13,9 @@ def module_list(request):
     """
     modules = Module.objects.filter(students=request.user)
 
-    current_year = timezone.now().year
-
-    current_modules = modules.filter(academic_year=current_year)
-    previous_modules = modules.exclude(academic_year=current_year)
+    # split into current academic year and previous
+    current_modules = modules.filter(academic_year='2025/26')
+    previous_modules = modules.exclude(academic_year='2025/26')
 
     return render(request, 'modules/module_list.html', {
         'current_modules': current_modules,

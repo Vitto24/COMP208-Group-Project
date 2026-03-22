@@ -10,7 +10,7 @@
 
 ## Demo Documentation Deadline
 
-Next meeting provisionally set for **2:00 pm, 14th April** to plan and prepare the presentation.
+The next meeting is provisionally set for **2:00 pm, 14th April** to plan and prepare the presentation.
 
 **Demo Documentation (15%) — Due 20th April**
 
@@ -27,12 +27,12 @@ One submission per team. All documents must list contributing team members. Four
 
 ### Dashboard (Tyr)
 
-- Only show modules the student has chosen (not all modules for the semester/year)
-- Fix empty Upcoming Deadlines for some courses
-- Create random timetable data
-- Create random deadline data
-- Create random assignment grades (scrape assessment names and weightings from TULIP)
-- Add timetable section at the bottom of the Dashboard page
+- ✅ Only show modules the student has chosen (not all modules for the semester/year)
+- ✅ Fix empty Upcoming Deadlines for some courses
+- ✅ Create random timetable data
+- ✅ Create random deadline data
+- ✅ Create random assignment grades (scrape assessment names and weightings from TULIP)
+- ✅ Add timetable section at the bottom of the Dashboard page
 
 ### Modules
 
@@ -42,13 +42,13 @@ One submission per team. All documents must list contributing team members. Four
 - In /modules/Course_Code/ add assignment details (name, type, weighting, student grade)
 - Add "Year X" label to the left of the semester info at the top of Course_Code page
 - Possibly add randomised material data under Materials header
-- Only show modules the student has chosen
+- ✅ Only show modules the student has chosen
 
 ### Timetable
 
-- Fix timetable events not showing
-- Create random timetable data for every module/course
-- Fix empty Upcoming Deadlines (same issue as Dashboard)
+- ✅ Fix timetable events not showing
+- ✅ Create random timetable data for every module/course
+- ✅ Fix empty Upcoming Deadlines (same issue as Dashboard)
 - Optional: dropdown to switch between Semester 1 and 2 timetable
 
 ### Grades (Owen)

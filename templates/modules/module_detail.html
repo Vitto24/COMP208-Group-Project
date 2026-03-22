@@ -42,7 +42,7 @@
                 <tr>
                     <td>{{ assignment.title }}</td>
                     <td>{{ assignment.weight }}%</td>
-                    <td>{{ assignment.assignment_type }}</td>
+                    <td>{{ assignment.get_type_display }}</td>
                     <td>{{ assignment.due_date|date:"D d M Y" }}</td>
                 </tr>
                 {% endfor %}

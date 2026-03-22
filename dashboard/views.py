@@ -21,11 +21,18 @@ DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
 @login_required
 def dashboard(request):
     semester = get_current_semester()
+
+    # only show modules for the student's current year of study
+    profile = request.user.userprofile
+    year_str = str(profile.year_of_study)
+
     modules = Module.objects.filter(
         students=request.user,
         semester=semester,
         academic_year='2025/26',
-    )
+        module_courses__course=profile.course,
+        module_courses__year=year_str,
+    ).distinct()
 
     now = timezone.now()
     warning_cutoff = now + timedelta(days=DEADLINE_WARNING_DAYS)
@@ -35,8 +42,10 @@ def dashboard(request):
         module__students=request.user,
         module__semester=semester,
         module__academic_year='2025/26',
+        module__module_courses__course=profile.course,
+        module__module_courses__year=year_str,
         due_date__gte=now,
-    ).order_by('due_date')
+    ).distinct().order_by('due_date')
 
     # ── Timetable: week navigation ─────────────────────────────────
     current_week = get_current_week(semester)
@@ -51,9 +60,18 @@ def dashboard(request):
         for i, day in enumerate(DAYS):
             week_dates[day] = week_monday + datetime.timedelta(days=i)
 
-    # ── Timetable: fetch all entries for this semester ──────────────
+    # ── Timetable: fetch entries for this semester (current year only) ──
+    # filter to modules in the student's current year
+    current_year_modules = Module.objects.filter(
+        students=request.user,
+        module_courses__course=profile.course,
+        module_courses__year=year_str,
+    ).distinct()
+
     all_entries = TimetableEntry.objects.filter(
-        student=request.user, semester=semester,
+        student=request.user,
+        semester=semester,
+        module__in=current_year_modules,
     ).select_related('module')
 
     # filter to entries that run in the selected week

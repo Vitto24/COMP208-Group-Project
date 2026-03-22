@@ -167,9 +167,16 @@ class Command(BaseCommand):
         if not assessments:
             assessments = self._generate_generic_assessments()
 
-        # split into coursework and exams, then generate due dates
-        coursework = [a for a in assessments if a.get('type', 'coursework') == 'coursework']
-        exams = [a for a in assessments if a.get('type') == 'exam']
+        # map scraper types to our model's TYPE_CHOICES and split
+        coursework = []
+        exams = []
+        for a in assessments:
+            mapped_type = self._map_assessment_type(a)
+            a['_mapped_type'] = mapped_type
+            if mapped_type == 'exam':
+                exams.append(a)
+            else:
+                coursework.append(a)
 
         # calculate spaced due dates for coursework
         cw_dates = self._space_coursework_dates(module.semester, len(coursework))
@@ -179,7 +186,7 @@ class Command(BaseCommand):
         for i, assessment in enumerate(coursework):
             title = assessment.get('title', assessment['title']) if isinstance(assessment, dict) else assessment[0]
             weight = assessment.get('weight', assessment['weight']) if isinstance(assessment, dict) else assessment[1]
-            atype = 'coursework'
+            atype = assessment.get('_mapped_type', 'coursework')
 
             due_date = cw_dates[i] if i < len(cw_dates) else cw_dates[-1]
 
@@ -209,7 +216,7 @@ class Command(BaseCommand):
         for i, assessment in enumerate(exams):
             title = assessment.get('title', assessment['title']) if isinstance(assessment, dict) else assessment[0]
             weight = assessment.get('weight', assessment['weight']) if isinstance(assessment, dict) else assessment[1]
-            atype = 'exam'
+            atype = assessment.get('_mapped_type', 'exam')
 
             due_date = exam_dates[i] if i < len(exam_dates) else exam_dates[-1]
 
@@ -326,6 +333,38 @@ class Command(BaseCommand):
                 return None, 'submitted'
             else:
                 return None, 'not_submitted'
+
+    def _map_assessment_type(self, assessment):
+        """Map scraper assessment types to our model's TYPE_CHOICES.
+
+        The scraper data can have types like 'practical', 'class test' etc.
+        but our model only supports 'coursework' and 'exam'.
+        """
+        raw_type = assessment.get('type', '').lower().strip()
+        title = assessment.get('title', '').lower()
+
+        # direct mapping for known types
+        type_map = {
+            'coursework': 'coursework',
+            'exam': 'exam',
+            'practical': 'coursework',
+            'project': 'coursework',
+            'portfolio': 'coursework',
+            'presentation': 'coursework',
+            'report': 'coursework',
+            'class test': 'exam',
+            'test': 'exam',
+        }
+
+        if raw_type in type_map:
+            return type_map[raw_type]
+
+        # guess from the title if the type isn't recognised
+        if any(word in title for word in ['exam', 'test', 'midterm']):
+            return 'exam'
+
+        # default to coursework
+        return 'coursework'
 
     def _generate_generic_assessments(self):
         """Fallback assessments for modules without scraper data.
@@ -455,40 +494,44 @@ class Command(BaseCommand):
     def _generate_all_timetables(self, modules_with_students):
         """Generate clash-free timetables grouped by year/semester.
 
-        We group by (year, semester) rather than (course, year, semester) because
-        modules are shared across courses (e.g. BSc and MEng both take COMP202).
-        Grouping by year+sem means each module is scheduled exactly once, and all
-        students taking it get the same time slot.
+        Incremental: only schedules modules that don't already have timetable
+        entries, and only creates entries for students who don't have them yet.
+        Safe to re-run after adding new users or modules.
         """
         timetable_count = 0
 
-        # skip if timetable entries already exist
-        if TimetableEntry.objects.exists():
-            self.stdout.write('Timetable entries already exist, skipping generation.')
-            return 0
+        # find modules that need scheduling (no timetable entries yet)
+        modules_needing_schedule = [
+            m for m in modules_with_students
+            if not TimetableEntry.objects.filter(module=m).exists()
+        ]
 
-        # group enrolled modules by (year, semester)
+        if not modules_needing_schedule:
+            # all modules have schedules, but check if new students need entries
+            timetable_count = self._add_missing_student_entries(modules_with_students)
+            if timetable_count == 0:
+                self.stdout.write('All timetable entries up to date.')
+            return timetable_count
+
+        # group NEW modules by (year, semester) for scheduling
         groups = {}
-        for module in modules_with_students:
+        for module in modules_needing_schedule:
             key = (module.year, module.semester)
             if key not in groups:
                 groups[key] = set()
             groups[key].add(module)
 
-        self.stdout.write(f'Scheduling timetable for {len(groups)} year/semester groups...')
+        self.stdout.write(f'Scheduling timetable for {len(modules_needing_schedule)} new modules...')
 
-        # for each group, schedule modules clash-free and create entries
         for (year, semester), group_modules in groups.items():
-            self.stdout.write(f'  Year {year} Sem {semester}: {len(group_modules)} modules ({len(group_modules) * 3} slots needed, 35 available)')
+            self.stdout.write(f'  Year {year} Sem {semester}: {len(group_modules)} modules')
             schedule = self._schedule_group(group_modules)
 
-            # create timetable entries for each student enrolled in each module
             for module in group_modules:
                 students = list(module.students.all())
                 module_events = schedule.get(module.code, [])
 
                 for day, hour, event_type in module_events:
-                    # pick a room for this event (same room for all students)
                     room = random.choice(ROOMS)
                     start_time = datetime.time(hour, 0)
                     end_time = datetime.time(hour + EVENT_DURATION, 0)
@@ -507,4 +550,48 @@ class Command(BaseCommand):
                         )
                         timetable_count += 1
 
+        # also add entries for students who joined existing modules
+        timetable_count += self._add_missing_student_entries(modules_with_students)
+
         return timetable_count
+
+    def _add_missing_student_entries(self, modules_with_students):
+        """Create timetable entries for students who don't have them yet.
+
+        Copies the existing schedule (from another student) for each module.
+        """
+        count = 0
+        for module in modules_with_students:
+            # get existing entries for this module (from any student)
+            existing = TimetableEntry.objects.filter(module=module).first()
+            if not existing:
+                continue
+
+            # get the schedule from the first student who has entries
+            reference_entries = TimetableEntry.objects.filter(
+                module=module, student=existing.student,
+            )
+
+            # create entries for students who are missing them
+            for student in module.students.all():
+                has_entries = TimetableEntry.objects.filter(
+                    student=student, module=module,
+                ).exists()
+                if has_entries:
+                    continue
+
+                for ref in reference_entries:
+                    TimetableEntry.objects.create(
+                        student=student,
+                        module=module,
+                        day=ref.day,
+                        start_time=ref.start_time,
+                        end_time=ref.end_time,
+                        room=ref.room,
+                        event_type=ref.event_type,
+                        semester=ref.semester,
+                        weeks=ref.weeks,
+                    )
+                    count += 1
+
+        return count

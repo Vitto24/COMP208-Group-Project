@@ -477,6 +477,29 @@ body {
     cursor: not-allowed;
 }
 
+.btn-secondary {
+    background: #fff;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+}
+
+.btn-secondary:hover {
+    background: #f1f5f9;
+}
+
+.module-select-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.module-select-subtitle {
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 500;
+}
+
 .form-errors {
     background: #fef2f2;
     border: 1px solid #fecaca;

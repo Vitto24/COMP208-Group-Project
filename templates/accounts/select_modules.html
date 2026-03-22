@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+
+{% block title %}Choose Your Modules — Uni Tracker{% endblock %}
+{% block page_title %}Choose Your Modules{% endblock %}
+
+{% block content %}
+<section class="section">
+
+    {% if messages %}
+    <div class="form-messages">
+        {% for message in messages %}
+        <p class="{{ message.tags }}">{{ message }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="module-select-top">
+        <p class="module-select-subtitle">{{ profile.course.name }} &middot; Year {{ profile.year_of_study }}</p>
+        <form method="post" action="{% url 'accounts:randomise_modules' %}" style="display: inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-secondary">Randomise All</button>
+        </form>
+    </div>
+
+    <form method="post">
+        {% csrf_token %}
+
+        {% for year in year_data %}
+        <h3 class="module-year-heading">Year {{ year.year }}</h3>
+        <hr class="module-year-divider">
+
+        {% for sem in year.semesters %}
+        <details {% if year.is_current and forloop.first %}open{% endif %} class="module-select-dropdown">
+            <summary class="module-select-summary">
+                <span class="dropdown-arrow">&#9654;</span>
+                <span class="module-select-sem-label">SEMESTER {{ sem.semester }}</span>
+                <span class="credit-counter{% if sem.total_credits != sem.target_credits %} credit-warning{% endif %}"
+                      id="credits-y{{ year.year }}-s{{ sem.semester }}">
+                    {{ sem.total_credits|floatformat:"0" }}/{{ sem.target_credits }} credits
+                </span>
+            </summary>
+
+            <div class="module-select-list">
+                {% for mod in sem.compulsory %}
+                <label class="module-select-item module-compulsory">
+                    <input type="checkbox" name="modules" value="{{ mod.code }}"
+                           checked disabled />
+                    <input type="hidden" name="modules" value="{{ mod.code }}" />
+                    <span class="module-select-code">{{ mod.code }}</span>
+                    <span class="module-select-name">{{ mod.name }} (Compulsory)</span>
+                    <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
+                </label>
+                {% endfor %}
+
+                {% for mod in sem.optional %}
+                <label class="module-select-item">
+                    <input type="checkbox" name="modules" value="{{ mod.code }}"
+                           {% if mod.enrolled %}checked{% endif %}
+                           data-credits="{{ mod.credits }}"
+                           data-year="{{ year.year }}"
+                           data-semester="{{ sem.semester }}"
+                           onchange="updateCredits({{ year.year }}, {{ sem.semester }})" />
+                    <span class="module-select-code">{{ mod.code }}</span>
+                    <span class="module-select-name">{{ mod.name }}</span>
+                    <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
+                </label>
+                {% endfor %}
+            </div>
+        </details>
+        {% endfor %}
+        {% endfor %}
+
+        <button type="submit" class="btn" style="margin-top: 16px;" id="save-modules-btn">
+            Continue to Dashboard &rarr;
+        </button>
+    </form>
+</section>
+
+<script>
+function updateCredits(year, semester) {
+    var checkboxes = document.querySelectorAll(
+        'input[type="checkbox"][data-year="' + year + '"][data-semester="' + semester + '"]'
+    );
+    var optionalCredits = 0;
+    for (var i = 0; i < checkboxes.length; i++) {
+        if (checkboxes[i].checked) {
+            optionalCredits += parseFloat(checkboxes[i].dataset.credits);
+        }
+    }
+
+    var counter = document.getElementById('credits-y' + year + '-s' + semester);
+    var dropdown = counter.closest('.module-select-dropdown');
+    var compulsoryItems = dropdown.querySelectorAll('.module-compulsory .module-select-credits');
+    var compulsoryCredits = 0;
+    compulsoryItems.forEach(function(span) {
+        compulsoryCredits += parseFloat(span.textContent);
+    });
+
+    var total = compulsoryCredits + optionalCredits;
+    var target = 60;
+    var remaining = target - total;
+    var displayTotal = (total % 1 === 0) ? total.toFixed(0) : total;
+    counter.textContent = displayTotal + '/' + target + ' credits';
+
+    if (total !== target) {
+        counter.classList.add('credit-warning');
+    } else {
+        counter.classList.remove('credit-warning');
+    }
+
+    // disable unchecked checkboxes that would exceed the limit
+    for (var i = 0; i < checkboxes.length; i++) {
+        if (!checkboxes[i].checked) {
+            var modCredits = parseFloat(checkboxes[i].dataset.credits);
+            checkboxes[i].disabled = modCredits > remaining;
+        }
+    }
+
+    checkSaveButton();
+}
+
+function checkSaveButton() {
+    var counters = document.querySelectorAll('.credit-counter');
+    var btn = document.getElementById('save-modules-btn');
+    var hasWarning = false;
+
+    counters.forEach(function(c) {
+        if (c.classList.contains('credit-warning')) {
+            hasWarning = true;
+        }
+    });
+
+    btn.disabled = hasWarning;
+    if (hasWarning) {
+        btn.title = 'Each semester must have exactly 60 credits';
+    } else {
+        btn.title = '';
+    }
+}
+
+// run on page load in case credits aren't balanced yet
+checkSaveButton();
+</script>
+{% endblock %}

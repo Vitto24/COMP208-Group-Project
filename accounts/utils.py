@@ -101,6 +101,126 @@ def auto_enrol_compulsory(user):
             _fill_semester(user, course_links, semester)
 
 
+def enrol_compulsory_only(user):
+    """Enrol a user in ONLY compulsory modules for all years.
+
+    Used during registration so the user can then manually pick their
+    optional modules on the module selection page.
+    """
+    try:
+        profile = user.userprofile
+    except Exception:
+        return
+
+    # remove user from all modules linked to any course (clean slate)
+    course_modules = Module.objects.filter(module_courses__isnull=False).distinct()
+    for mod in course_modules:
+        mod.students.remove(user)
+
+    if not profile.course:
+        return
+
+    all_years = (
+        ModuleCourse.objects.filter(course=profile.course)
+        .values_list('year', flat=True)
+        .distinct()
+    )
+
+    for year_str in all_years:
+        if not year_str.isdigit():
+            continue
+        if int(year_str) > profile.year_of_study:
+            continue
+
+        links = ModuleCourse.objects.filter(
+            course=profile.course,
+            year=year_str,
+            is_compulsory=True,
+        ).select_related('module')
+
+        for link in links:
+            link.module.students.add(user)
+
+
+def randomise_optional_modules(user):
+    """Fill remaining credits with random optionals for all years.
+
+    Keeps existing compulsory enrolments and adds random optionals
+    to reach 60 credits per semester.
+    """
+    try:
+        profile = user.userprofile
+    except Exception:
+        return
+
+    if not profile.course:
+        return
+
+    all_years = (
+        ModuleCourse.objects.filter(course=profile.course)
+        .values_list('year', flat=True)
+        .distinct()
+    )
+
+    for year_str in all_years:
+        if not year_str.isdigit():
+            continue
+        if int(year_str) > profile.year_of_study:
+            continue
+
+        course_links = ModuleCourse.objects.filter(
+            course=profile.course,
+            year=year_str,
+        ).select_related('module')
+
+        for semester in [1, 2]:
+            # check how many credits are already enrolled
+            enrolled = Module.objects.filter(
+                students=user,
+                semester=semester,
+                module_courses__course=profile.course,
+                module_courses__year=year_str,
+            ).distinct()
+            current_credits = sum(m.credits for m in enrolled)
+
+            if current_credits >= CREDITS_PER_SEMESTER:
+                continue
+
+            # get optional modules not yet enrolled
+            optional = []
+            for link in course_links:
+                if link.module.semester != semester:
+                    continue
+                if link.is_compulsory:
+                    continue
+                if not link.module.students.filter(pk=user.pk).exists():
+                    optional.append(link.module)
+
+            remaining = CREDITS_PER_SEMESTER - current_credits
+
+            # shuffle within credit groups, pick largest first
+            credit_groups = {}
+            for mod in optional:
+                cr = float(mod.credits)
+                if cr not in credit_groups:
+                    credit_groups[cr] = []
+                credit_groups[cr].append(mod)
+
+            for group in credit_groups.values():
+                random.shuffle(group)
+
+            sorted_optional = []
+            for cr in sorted(credit_groups.keys(), reverse=True):
+                sorted_optional.extend(credit_groups[cr])
+
+            for mod in sorted_optional:
+                if mod.credits <= remaining:
+                    mod.students.add(user)
+                    remaining -= mod.credits
+                if remaining <= 0:
+                    break
+
+
 def update_module_selection(user, selected_codes):
     """Update a student's optional module selection for their current year.
 

@@ -19,9 +19,16 @@ DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
 
 @login_required
 def timetable_view(request):
-    semester = get_current_semester()
+    # Semester switcher: use query param if provided, otherwise auto-detect
+    default_semester = get_current_semester()
+    try:
+        semester = int(request.GET.get('semester', default_semester))
+        if semester not in (1, 2):
+            semester = default_semester
+    except (ValueError, TypeError):
+        semester = default_semester
 
-    # Week navigation
+    # Week navigation (reset to week 1 when switching semester)
     current_week = get_current_week(semester)
     week_num = int(request.GET.get('week', current_week))
     max_week = get_max_week(semester)

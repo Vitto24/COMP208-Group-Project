@@ -42,14 +42,14 @@ One submission per team. All documents must list contributing team members. Four
 - In /modules/Course_Code/ add assignment details (name, type, weighting, student grade)
 - Add "Year X" label to the left of the semester info at the top of Course_Code page
 - Possibly add randomised material data under Materials header
-- ✅ Only show modules the student has chosen
+- ✅ Only show modules the student has chosen (Tyr)
 
-### Timetable
+### Timetable (Tyr)
 
 - ✅ Fix timetable events not showing
 - ✅ Create random timetable data for every module/course
 - ✅ Fix empty Upcoming Deadlines (same issue as Dashboard)
-- Optional: dropdown to switch between Semester 1 and 2 timetable
+- ✅ Optional: dropdown to switch between Semester 1 and 2 timetable
 
 ### Grades (Owen)
 

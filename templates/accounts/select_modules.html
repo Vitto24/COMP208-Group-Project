@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
 
-{% block title %}Settings — Uni Tracker{% endblock %}
-{% block page_title %}Settings{% endblock %}
+{% block title %}Choose Your Modules — Uni Tracker{% endblock %}
+{% block page_title %}Choose Your Modules{% endblock %}
 
 {% block content %}
 <section class="section">
-    <h2>Profile Settings</h2>
 
     {% if messages %}
     <div class="form-messages">
@@ -15,61 +14,15 @@
     </div>
     {% endif %}
 
+    <div class="module-select-top">
+        <p class="module-select-subtitle">{{ profile.course.name }} &middot; Year {{ profile.year_of_study }}</p>
+        <form method="post" action="{% url 'accounts:randomise_modules' %}" style="display: inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-secondary">Randomise All</button>
+        </form>
+    </div>
+
     <form method="post">
-        {% csrf_token %}
-
-        <div class="form-group">
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name"
-                   value="{{ request.user.first_name }}" required />
-        </div>
-
-        <div class="form-group">
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name"
-                   value="{{ request.user.last_name }}" required />
-        </div>
-
-        <div class="form-group">
-            <label for="email">University Email</label>
-            <input type="email" id="email" name="email"
-                   value="{{ request.user.email }}" required />
-        </div>
-
-        <div class="form-group">
-            <label for="course">Course</label>
-            <select id="course" name="course">
-                <option value="">-- No course selected --</option>
-                {% for course in courses %}
-                <option value="{{ course.id }}"
-                    {% if profile.course_id == course.id %}selected{% endif %}>
-                    {{ course.name }}
-                </option>
-                {% endfor %}
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label for="year_of_study">Year of Study</label>
-            <select id="year_of_study" name="year_of_study">
-                {% for y in year_choices %}
-                <option value="{{ y }}"
-                    {% if profile.year_of_study == y %}selected{% endif %}>
-                    Year {{ y }}
-                </option>
-                {% endfor %}
-            </select>
-        </div>
-
-        <button type="submit" class="btn">Save Changes</button>
-    </form>
-</section>
-
-{% if year_data %}
-<section class="section" style="margin-top: 32px;">
-    <h2>My Modules</h2>
-
-    <form method="post" action="{% url 'settings_page:update_modules' %}">
         {% csrf_token %}
 
         {% for year in year_data %}
@@ -92,9 +45,7 @@
                 <label class="module-select-item module-compulsory">
                     <input type="checkbox" name="modules" value="{{ mod.code }}"
                            checked disabled />
-                    {% if year.is_current %}
                     <input type="hidden" name="modules" value="{{ mod.code }}" />
-                    {% endif %}
                     <span class="module-select-code">{{ mod.code }}</span>
                     <span class="module-select-name">{{ mod.name }} (Compulsory)</span>
                     <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
@@ -102,18 +53,13 @@
                 {% endfor %}
 
                 {% for mod in sem.optional %}
-                <label class="module-select-item{% if not year.is_current %} module-readonly{% endif %}">
-                    {% if year.is_current %}
+                <label class="module-select-item">
                     <input type="checkbox" name="modules" value="{{ mod.code }}"
                            {% if mod.enrolled %}checked{% endif %}
                            data-credits="{{ mod.credits }}"
                            data-year="{{ year.year }}"
                            data-semester="{{ sem.semester }}"
                            onchange="updateCredits({{ year.year }}, {{ sem.semester }})" />
-                    {% else %}
-                    <!-- previous years are read-only -->
-                    <input type="checkbox" {% if mod.enrolled %}checked{% endif %} disabled />
-                    {% endif %}
                     <span class="module-select-code">{{ mod.code }}</span>
                     <span class="module-select-name">{{ mod.name }}</span>
                     <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
@@ -124,12 +70,13 @@
         {% endfor %}
         {% endfor %}
 
-        <button type="submit" class="btn" style="margin-top: 16px;" id="save-modules-btn">Save Module Selection</button>
+        <button type="submit" class="btn" style="margin-top: 16px;" id="save-modules-btn">
+            Continue to Dashboard &rarr;
+        </button>
     </form>
 </section>
 
 <script>
-// update the credit counter when checkboxes change
 function updateCredits(year, semester) {
     var checkboxes = document.querySelectorAll(
         'input[type="checkbox"][data-year="' + year + '"][data-semester="' + semester + '"]'
@@ -141,7 +88,6 @@ function updateCredits(year, semester) {
         }
     }
 
-    // add compulsory credits for this semester
     var counter = document.getElementById('credits-y' + year + '-s' + semester);
     var dropdown = counter.closest('.module-select-dropdown');
     var compulsoryItems = dropdown.querySelectorAll('.module-compulsory .module-select-credits');
@@ -153,8 +99,6 @@ function updateCredits(year, semester) {
     var total = compulsoryCredits + optionalCredits;
     var target = 60;
     var remaining = target - total;
-
-    // show whole number if no decimal, otherwise show decimal
     var displayTotal = (total % 1 === 0) ? total.toFixed(0) : total;
     counter.textContent = displayTotal + '/' + target + ' credits';
 
@@ -172,7 +116,6 @@ function updateCredits(year, semester) {
         }
     }
 
-    // disable save button if any semester is unbalanced
     checkSaveButton();
 }
 
@@ -194,6 +137,8 @@ function checkSaveButton() {
         btn.title = '';
     }
 }
+
+// run on page load in case credits aren't balanced yet
+checkSaveButton();
 </script>
-{% endif %}
 {% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Page Not Found — Uni Tracker{% endblock %}
+{% block page_title %}404 — Page Not Found{% endblock %}
+
+{% block content %}
+<section class="section">
+    <h2>We couldn't find that page.</h2>
+    <p>The link might be broken, or the page might have been moved.</p>
+    <p><a href="{% url 'dashboard:dashboard' %}" class="btn">Back to dashboard</a></p>
+</section>
+{% endblock %}

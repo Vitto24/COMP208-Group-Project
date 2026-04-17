@@ -20,8 +20,22 @@
                     <span class="logo">Uni Tracker</span>
                 </div>
                 <div class="sidebar-divider"></div>
-                <a href="https://my.liverpool.ac.uk/" target="_blank" rel="noopener noreferrer" class="sidebar-university">
-                    <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="university-logo">
+                <a href="{{ request.user.userprofile.university_url|default:'https://my.liverpool.ac.uk/' }}" target="_blank" rel="noopener noreferrer" class="sidebar-university">
+                    {% if user.is_authenticated %}
+                        {% with uni=user.userprofile.university %}
+                            {% if uni == 'ljmu' %}
+                                <img src="{% static 'images/ljmu_logo.png' %}" alt="Liverpool John Moores University" class="university-logo-other">
+                            {% elif uni == 'chester' %}
+                                <img src="{% static 'images/chester_logo.png' %}" alt="University of Chester" class="university-logo-other">
+                            {% elif uni == 'edge_hill' %}
+                                <img src="{% static 'images/edge_hill_logo.png' %}" alt="Edge Hill University" class="university-logo-other">
+                            {% else %}
+                                <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="university-logo">
+                            {% endif %}
+                        {% endwith %}
+                    {% else %}
+                        <img src="{% static 'images/university_of_liverpool_logo.png' %}" alt="University of Liverpool" class="university-logo">
+                    {% endif %}
                 </a>
 
                 {% if not hide_sidebar %}

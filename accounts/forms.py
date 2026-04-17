@@ -2,6 +2,7 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 from modules.models import Course
+from .models import UserProfile
 
 
 class EmailLoginForm(AuthenticationForm):
@@ -16,6 +17,16 @@ class RegistrationForm(UserCreationForm):
     last_name = forms.CharField(max_length=30, required=True)
     email = forms.EmailField(required=True, label="University Email")
 
+    university = forms.ChoiceField(
+        choices=UserProfile.UNIVERSITY_CHOICES,
+        initial='uol',
+        label="University",
+    )
+    study_level = forms.ChoiceField(
+        choices=UserProfile.STUDY_LEVEL_CHOICES,
+        initial='undergraduate',
+        label="Study Level",
+    )
     course = forms.ModelChoiceField(
         queryset=Course.objects.all(),
         required=False,
@@ -31,7 +42,23 @@ class RegistrationForm(UserCreationForm):
     class Meta:
         model = User
         fields = ['first_name', 'last_name', 'email',
-                  'password1', 'password2', 'course', 'year_of_study']
+                  'password1', 'password2', 'university', 'study_level',
+                  'course', 'year_of_study']
+
+    def save(self, commit=True):
+        user = super().save(commit=False)
+        # Auto-generate a username from the email prefix
+        email_prefix = self.cleaned_data['email'].split('@')[0]
+        username = email_prefix
+        # Handle duplicates by appending a number
+        counter = 1
+        while User.objects.filter(username=username).exists():
+            username = f"{email_prefix}{counter}"
+            counter += 1
+        user.username = username
+        if commit:
+            user.save()
+        return user
 
     def save(self, commit=True):
         user = super().save(commit=False)

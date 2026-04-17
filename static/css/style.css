@@ -82,6 +82,14 @@ body {
     filter: brightness(0) invert(1);
 }
 
+.university-logo-other {
+    max-width: 150px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 .nav-icon {
     width: 18px;
     height: 18px;

@@ -43,6 +43,14 @@ def settings_view(request):
         except ValueError:
             profile.year_of_study = 1
 
+        university = request.POST.get('university', 'uol')
+        if university in dict(profile.UNIVERSITY_CHOICES):
+            profile.university = university
+
+        study_level = request.POST.get('study_level', 'undergraduate')
+        if study_level in dict(profile.STUDY_LEVEL_CHOICES):
+            profile.study_level = study_level
+
         profile.save()
 
         # Re-run auto-enrolment with the updated course/year

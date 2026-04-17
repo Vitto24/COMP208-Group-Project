@@ -19,6 +19,13 @@
         {% csrf_token %}
 
         <div class="form-group">
+            <label for="student_id">Student ID</label>
+            <input type="text" id="student_id" value="{{ profile.student_id }}" disabled
+                   style="background: var(--bg-secondary, #f6f8fa); color: var(--text-muted, #586069); cursor: not-allowed;" />
+            <small style="color: var(--text-muted, #586069);">Your student ID is assigned automatically and cannot be changed.</small>
+        </div>
+
+        <div class="form-group">
             <label for="first_name">First Name</label>
             <input type="text" id="first_name" name="first_name"
                    value="{{ request.user.first_name }}" required />
@@ -34,6 +41,30 @@
             <label for="email">University Email</label>
             <input type="email" id="email" name="email"
                    value="{{ request.user.email }}" required />
+        </div>
+
+        <div class="form-group">
+            <label for="university">University</label>
+            <select id="university" name="university">
+                {% for value, label in profile.UNIVERSITY_CHOICES %}
+                <option value="{{ value }}"
+                    {% if profile.university == value %}selected{% endif %}>
+                    {{ label }}
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="study_level">Study Level</label>
+            <select id="study_level" name="study_level">
+                {% for value, label in profile.STUDY_LEVEL_CHOICES %}
+                <option value="{{ value }}"
+                    {% if profile.study_level == value %}selected{% endif %}>
+                    {{ label }}
+                </option>
+                {% endfor %}
+            </select>
         </div>
 
         <div class="form-group">

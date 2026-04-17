@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculation Flowchart — Uni Tracker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .diagram {
+            width: 900px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #0f172a;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 15px;
+            color: #64748b;
+            margin-bottom: 40px;
+        }
+
+        /* Flow container */
+        .flow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+
+        /* Step card */
+        .step {
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            width: 680px;
+            overflow: hidden;
+        }
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 24px;
+            color: white;
+        }
+        .step-num {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 15px;
+            flex-shrink: 0;
+        }
+        .step-title {
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .step-scope {
+            margin-left: auto;
+            font-size: 12px;
+            opacity: 0.75;
+            font-weight: 500;
+        }
+        .step-body {
+            padding: 18px 24px;
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+        .step-formula {
+            flex: 1;
+        }
+        .step-example {
+            flex: 1;
+            background: #f8fafc;
+            border-radius: 10px;
+            padding: 14px 16px;
+            border: 1px solid #e2e8f0;
+        }
+
+        /* Formula styling */
+        .formula {
+            font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
+            font-size: 13px;
+            background: #f8fafc;
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            color: #334155;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+        .formula .keyword { color: #7c3aed; font-weight: 600; }
+        .formula .comment { color: #94a3b8; font-style: italic; }
+        .formula .num { color: #059669; }
+
+        .step-note {
+            font-size: 12px;
+            color: #64748b;
+            line-height: 1.5;
+        }
+
+        /* Example styling */
+        .example-title {
+            font-size: 11px;
+            font-weight: 700;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .example-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            font-size: 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .example-row:last-child { border-bottom: none; }
+        .example-label { color: #475569; }
+        .example-value { font-weight: 600; color: #1e293b; font-family: 'SF Mono', Consolas, monospace; }
+        .example-result {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 2px solid #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+        .example-result .example-label { font-weight: 700; color: #1e293b; }
+        .example-result .example-value { color: #059669; font-weight: 800; }
+
+        /* Step colours */
+        .step-1 .step-header { background: linear-gradient(135deg, #2563eb, #3b82f6); }
+        .step-2 .step-header { background: linear-gradient(135deg, #7c3aed, #8b5cf6); }
+        .step-3 .step-header { background: linear-gradient(135deg, #0891b2, #06b6d4); }
+        .step-4 .step-header { background: linear-gradient(135deg, #d97706, #f59e0b); }
+        .step-5 .step-header { background: linear-gradient(135deg, #059669, #10b981); }
+
+        /* Arrow between steps */
+        .flow-arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 6px 0;
+        }
+        .flow-arrow svg { display: block; }
+        .flow-arrow-label {
+            font-size: 11px;
+            color: #94a3b8;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        /* Classification table */
+        .classification {
+            margin-top: 0;
+            width: 680px;
+        }
+        .class-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            padding: 18px 24px;
+        }
+        .class-item {
+            text-align: center;
+            padding: 14px 8px;
+            border-radius: 10px;
+            border: 2px solid;
+        }
+        .class-name {
+            font-weight: 800;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+        .class-range {
+            font-size: 12px;
+            font-family: 'SF Mono', Consolas, monospace;
+        }
+        .class-1st { border-color: #059669; background: #ecfdf5; }
+        .class-1st .class-name { color: #065f46; }
+        .class-1st .class-range { color: #059669; }
+        .class-21 { border-color: #2563eb; background: #eff6ff; }
+        .class-21 .class-name { color: #1e40af; }
+        .class-21 .class-range { color: #2563eb; }
+        .class-22 { border-color: #7c3aed; background: #f5f3ff; }
+        .class-22 .class-name { color: #5b21b6; }
+        .class-22 .class-range { color: #7c3aed; }
+        .class-3rd { border-color: #d97706; background: #fffbeb; }
+        .class-3rd .class-name { color: #92400e; }
+        .class-3rd .class-range { color: #d97706; }
+        .class-fail { border-color: #e11d48; background: #fff1f2; }
+        .class-fail .class-name { color: #9f1239; }
+        .class-fail .class-range { color: #e11d48; }
+
+        /* Year weights note */
+        .weights-note {
+            margin-top: 24px;
+            padding: 18px 24px;
+            background: white;
+            border-radius: 12px;
+            border-left: 4px solid #2563eb;
+            width: 680px;
+        }
+        .weights-note h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+        .weights-grid {
+            display: flex;
+            gap: 24px;
+        }
+        .weight-item {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+        }
+        .weight-year {
+            font-size: 13px;
+            color: #475569;
+            font-weight: 600;
+        }
+        .weight-val {
+            font-family: 'SF Mono', Consolas, monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: #2563eb;
+        }
+        .weight-desc {
+            font-size: 11px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="diagram">
+        <h1>Grade Calculation Flow</h1>
+        <p class="subtitle">From individual assignment scores to degree classification projection</p>
+
+        <div class="flow">
+            <!-- Step 1: Assignment Scores -->
+            <div class="step step-1">
+                <div class="step-header">
+                    <div class="step-num">1</div>
+                    <div class="step-title">Individual Assignment Scores</div>
+                    <div class="step-scope">Per assignment</div>
+                </div>
+                <div class="step-body">
+                    <div class="step-formula">
+                        <div class="formula">
+                            <span class="keyword">for each</span> assignment <span class="keyword">in</span> module:<br>
+                            &nbsp;&nbsp;score = grade.score <span class="comment">// 0–100</span><br>
+                            &nbsp;&nbsp;weight = assignment.weight <span class="comment">// e.g. 40%</span>
+                        </div>
+                        <p class="step-note">Each assignment has a percentage weight within its module (e.g. 60% exam, 40% coursework). Ungraded assignments are excluded from calculations.</p>
+                    </div>
+                    <div class="step-example">
+                        <div class="example-title">Example: COMP208</div>
+                        <div class="example-row">
+                            <span class="example-label">Coursework (40%)</span>
+                            <span class="example-value">72</span>
+                        </div>
+                        <div class="example-row">
+                            <span class="example-label">Final Exam (60%)</span>
+                            <span class="example-value">68</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="flow-arrow">
+                <div class="flow-arrow-label">weighted sum</div>
+                <svg width="20" height="28" viewBox="0 0 20 28">
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="4,20 10,28 16,20" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Step 2: Module Grade -->
+            <div class="step step-2">
+                <div class="step-header">
+                    <div class="step-num">2</div>
+                    <div class="step-title">Module Grade</div>
+                    <div class="step-scope">Per module</div>
+                </div>
+                <div class="step-body">
+                    <div class="step-formula">
+                        <div class="formula">
+                            module_grade = <span class="keyword">Σ</span>(score × weight / <span class="num">100</span>)<br>
+                            <br>
+                            <span class="comment">// weighted average of all graded assignments</span>
+                        </div>
+                        <p class="step-note">Only graded assignments contribute. The sum of weights across all assignments in a module should total 100%.</p>
+                    </div>
+                    <div class="step-example">
+                        <div class="example-title">Example: COMP208</div>
+                        <div class="example-row">
+                            <span class="example-label">72 × 0.40</span>
+                            <span class="example-value">28.8</span>
+                        </div>
+                        <div class="example-row">
+                            <span class="example-label">68 × 0.60</span>
+                            <span class="example-value">40.8</span>
+                        </div>
+                        <div class="example-result">
+                            <span class="example-label">Module Grade</span>
+                            <span class="example-value">69.6%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="flow-arrow">
+                <div class="flow-arrow-label">credit-weighted average</div>
+                <svg width="20" height="28" viewBox="0 0 20 28">
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="4,20 10,28 16,20" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Step 3: Semester Average -->
+            <div class="step step-3">
+                <div class="step-header">
+                    <div class="step-num">3</div>
+                    <div class="step-title">Semester Average</div>
+                    <div class="step-scope">Per semester</div>
+                </div>
+                <div class="step-body">
+                    <div class="step-formula">
+                        <div class="formula">
+                            semester_avg = <span class="keyword">Σ</span>(module_grade × credits)<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ <span class="keyword">Σ</span>(credits)<br>
+                            <br>
+                            <span class="comment">// credit-weighted, not simple mean</span>
+                        </div>
+                        <p class="step-note">Averages are weighted by module credits (typically 15 credits each). A 30-credit module counts twice as much as a 15-credit one.</p>
+                    </div>
+                    <div class="step-example">
+                        <div class="example-title">Example: Semester 2</div>
+                        <div class="example-row">
+                            <span class="example-label">COMP208 (15cr) — 69.6</span>
+                            <span class="example-value">1044.0</span>
+                        </div>
+                        <div class="example-row">
+                            <span class="example-label">COMP212 (15cr) — 74.2</span>
+                            <span class="example-value">1113.0</span>
+                        </div>
+                        <div class="example-row">
+                            <span class="example-label">COMP219 (15cr) — 65.0</span>
+                            <span class="example-value">975.0</span>
+                        </div>
+                        <div class="example-row">
+                            <span class="example-label">COMP222 (15cr) — 71.8</span>
+                            <span class="example-value">1077.0</span>
+                        </div>
+                        <div class="example-result">
+                            <span class="example-label">Semester Avg (60cr)</span>
+                            <span class="example-value">70.2%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="flow-arrow">
+                <div class="flow-arrow-label">credit-weighted average</div>
+                <svg width="20" height="28" viewBox="0 0 20 28">
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="4,20 10,28 16,20" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Step 4: Year Average -->
+            <div class="step step-4">
+                <div class="step-header">
+                    <div class="step-num">4</div>
+                    <div class="step-title">Year Average</div>
+                    <div class="step-scope">Per academic year</div>
+                </div>
+                <div class="step-body">
+                    <div class="step-formula">
+                        <div class="formula">
+                            year_avg = <span class="keyword">Σ</span>(module_grade × credits)<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ <span class="keyword">Σ</span>(credits)<br>
+                            <br>
+                            <span class="comment">// all modules in current year</span><br>
+                            <span class="comment">// (both semesters combined)</span>
+                        </div>
+                        <p class="step-note">Combines both semesters in the current year of study. Uses the same credit-weighted formula across all enrolled modules for that year.</p>
+                    </div>
+                    <div class="step-example">
+                        <div class="example-title">Example: Year 2</div>
+                        <div class="example-row">
+                            <span class="example-label">Semester 1 (60cr)</span>
+                            <span class="example-value">67.5</span>
+                        </div>
+                        <div class="example-row">
+                            <span class="example-label">Semester 2 (60cr)</span>
+                            <span class="example-value">70.2</span>
+                        </div>
+                        <div class="example-result">
+                            <span class="example-label">Year Average (120cr)</span>
+                            <span class="example-value">68.9%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="flow-arrow">
+                <div class="flow-arrow-label">threshold classification</div>
+                <svg width="20" height="28" viewBox="0 0 20 28">
+                    <line x1="10" y1="0" x2="10" y2="20" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="4,20 10,28 16,20" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Step 5: Degree Classification -->
+            <div class="step step-5 classification">
+                <div class="step-header">
+                    <div class="step-num">5</div>
+                    <div class="step-title">Degree Classification Projection</div>
+                    <div class="step-scope">Overall</div>
+                </div>
+                <div class="class-grid">
+                    <div class="class-item class-1st">
+                        <div class="class-name">1st</div>
+                        <div class="class-range">≥ 70%</div>
+                    </div>
+                    <div class="class-item class-21">
+                        <div class="class-name">2:1</div>
+                        <div class="class-range">60–69%</div>
+                    </div>
+                    <div class="class-item class-22">
+                        <div class="class-name">2:2</div>
+                        <div class="class-range">50–59%</div>
+                    </div>
+                    <div class="class-item class-3rd">
+                        <div class="class-name">3rd</div>
+                        <div class="class-range">40–49%</div>
+                    </div>
+                    <div class="class-item class-fail">
+                        <div class="class-name">Fail</div>
+                        <div class="class-range">&lt; 40%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Year Weights -->
+            <div class="weights-note">
+                <h3>Degree Year Weights (configurable per course)</h3>
+                <div class="weights-grid">
+                    <div class="weight-item">
+                        <span class="weight-year">Year 1:</span>
+                        <span class="weight-val">0%</span>
+                        <span class="weight-desc">(does not count)</span>
+                    </div>
+                    <div class="weight-item">
+                        <span class="weight-year">Year 2:</span>
+                        <span class="weight-val">30%</span>
+                    </div>
+                    <div class="weight-item">
+                        <span class="weight-year">Year 3:</span>
+                        <span class="weight-val">70%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

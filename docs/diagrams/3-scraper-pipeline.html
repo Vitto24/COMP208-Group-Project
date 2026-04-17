@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraper Pipeline — Uni Tracker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .diagram {
+            width: 1100px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #0f172a;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 15px;
+            color: #64748b;
+            margin-bottom: 40px;
+        }
+
+        /* Pipeline flow */
+        .pipeline {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 0;
+        }
+
+        /* Stage card */
+        .stage {
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow: hidden;
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .stage-header {
+            padding: 14px 18px;
+            color: white;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .stage-num {
+            font-size: 11px;
+            opacity: 0.7;
+            display: block;
+            margin-bottom: 2px;
+            font-weight: 500;
+        }
+        .stage-body {
+            padding: 14px 18px;
+        }
+        .stage-script {
+            font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
+            font-size: 12px;
+            background: #f8fafc;
+            padding: 6px 10px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            color: #475569;
+            border: 1px solid #e2e8f0;
+        }
+        .stage-desc {
+            font-size: 12px;
+            color: #64748b;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .stage-detail {
+            list-style: none;
+            padding: 0;
+        }
+        .stage-detail li {
+            font-size: 11px;
+            color: #475569;
+            padding: 3px 0;
+            padding-left: 14px;
+            position: relative;
+            line-height: 1.4;
+        }
+        .stage-detail li::before {
+            content: '•';
+            position: absolute;
+            left: 2px;
+            color: #94a3b8;
+        }
+
+        /* Stage colours */
+        .stage-1 .stage-header { background: linear-gradient(135deg, #2563eb, #3b82f6); }
+        .stage-2 .stage-header { background: linear-gradient(135deg, #7c3aed, #8b5cf6); }
+        .stage-3 .stage-header { background: linear-gradient(135deg, #059669, #10b981); }
+
+        /* Arrows between stages */
+        .arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            flex-shrink: 0;
+            padding-top: 60px;
+        }
+        .arrow svg { display: block; }
+        .arrow-text {
+            font-size: 10px;
+            color: #94a3b8;
+            text-align: center;
+            margin-bottom: 4px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        /* Data format badges */
+        .data-badge {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-top: 6px;
+        }
+        .badge-html { background: #fef3c7; color: #92400e; }
+        .badge-json { background: #dbeafe; color: #1e40af; }
+        .badge-db { background: #dcfce7; color: #166534; }
+
+        /* Source and destination */
+        .endpoint {
+            text-align: center;
+            padding: 20px;
+            border-radius: 14px;
+            border: 2px dashed #cbd5e1;
+            background: #f8fafc;
+            width: 180px;
+            flex-shrink: 0;
+        }
+        .endpoint-icon {
+            font-size: 28px;
+            margin-bottom: 6px;
+        }
+        .endpoint-title {
+            font-weight: 700;
+            font-size: 14px;
+            color: #475569;
+            margin-bottom: 4px;
+        }
+        .endpoint-desc {
+            font-size: 11px;
+            color: #94a3b8;
+        }
+
+        /* Stats bar */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 36px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 28px;
+            font-weight: 800;
+            color: #0f172a;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 2px;
+        }
+
+        /* Orchestrator note */
+        .orchestrator {
+            margin-top: 24px;
+            padding: 16px 20px;
+            background: white;
+            border-radius: 12px;
+            border-left: 4px solid #f59e0b;
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+        }
+        .orch-label {
+            font-weight: 700;
+            font-size: 13px;
+            color: #92400e;
+            white-space: nowrap;
+        }
+        .orch-text {
+            font-size: 13px;
+            color: #64748b;
+            line-height: 1.5;
+        }
+        .orch-text code {
+            font-family: 'SF Mono', Consolas, monospace;
+            font-size: 12px;
+            background: #fefce8;
+            padding: 1px 5px;
+            border-radius: 3px;
+            color: #92400e;
+        }
+    </style>
+</head>
+<body>
+    <div class="diagram">
+        <h1>Data Scraper Pipeline</h1>
+        <p class="subtitle">Three-stage automated pipeline — University of Liverpool → Django Database</p>
+
+        <div class="pipeline">
+            <!-- Source: University Websites -->
+            <div class="endpoint">
+                <div class="endpoint-icon">🌐</div>
+                <div class="endpoint-title">University of Liverpool</div>
+                <div class="endpoint-desc">Course pages &amp; TULIP module database</div>
+                <span class="data-badge badge-html">HTML</span>
+            </div>
+
+            <!-- Arrow -->
+            <div class="arrow">
+                <div class="arrow-text">HTTP<br>requests</div>
+                <svg width="50" height="20" viewBox="0 0 50 20">
+                    <line x1="0" y1="10" x2="40" y2="10" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="40,4 50,10 40,16" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Stage 1: scrape_course.py -->
+            <div class="stage stage-1">
+                <div class="stage-header">
+                    <span class="stage-num">Stage 1</span>
+                    Scrape Courses
+                </div>
+                <div class="stage-body">
+                    <div class="stage-script">scrape_course.py</div>
+                    <p class="stage-desc">Extracts module codes organised by year and semester from course pages.</p>
+                    <ul class="stage-detail">
+                        <li>Parses course page HTML</li>
+                        <li>Finds module codes per year</li>
+                        <li>Separates compulsory vs optional</li>
+                        <li>Handles varied year formats (1, 2, S1, FP)</li>
+                    </ul>
+                    <span class="data-badge badge-json">JSON per course</span>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="arrow">
+                <div class="arrow-text">Module<br>codes</div>
+                <svg width="50" height="20" viewBox="0 0 50 20">
+                    <line x1="0" y1="10" x2="40" y2="10" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="40,4 50,10 40,16" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Stage 2: scrape_tulip.py -->
+            <div class="stage stage-2">
+                <div class="stage-header">
+                    <span class="stage-num">Stage 2</span>
+                    Scrape Module Details
+                </div>
+                <div class="stage-body">
+                    <div class="stage-script">scrape_tulip.py</div>
+                    <p class="stage-desc">Fetches detailed module information from the TULIP database for each module code.</p>
+                    <ul class="stage-detail">
+                        <li>Name, credits, department</li>
+                        <li>Lecturer, semester, level</li>
+                        <li>Assessment breakdown (exam/CW %)</li>
+                        <li>Prerequisites &amp; description</li>
+                        <li>Skips already-scraped modules</li>
+                    </ul>
+                    <span class="data-badge badge-json">JSON per module</span>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="arrow">
+                <div class="arrow-text">Module<br>data</div>
+                <svg width="50" height="20" viewBox="0 0 50 20">
+                    <line x1="0" y1="10" x2="40" y2="10" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="40,4 50,10 40,16" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Stage 3: import_to_db.py -->
+            <div class="stage stage-3">
+                <div class="stage-header">
+                    <span class="stage-num">Stage 3</span>
+                    Import to Database
+                </div>
+                <div class="stage-body">
+                    <div class="stage-script">import_to_db.py</div>
+                    <p class="stage-desc">Loads JSON files into Django models, creating courses, modules, and linking them.</p>
+                    <ul class="stage-detail">
+                        <li>Creates/updates Module records</li>
+                        <li>Creates/updates Course records</li>
+                        <li>Links via ModuleCourse (year, compulsory)</li>
+                        <li>Sets year weights for degree calc</li>
+                        <li>Supports dry-run mode</li>
+                    </ul>
+                    <span class="data-badge badge-db">Django ORM</span>
+                </div>
+            </div>
+
+            <!-- Arrow -->
+            <div class="arrow">
+                <div class="arrow-text">ORM<br>writes</div>
+                <svg width="50" height="20" viewBox="0 0 50 20">
+                    <line x1="0" y1="10" x2="40" y2="10" stroke="#94a3b8" stroke-width="2"/>
+                    <polygon points="40,4 50,10 40,16" fill="#94a3b8"/>
+                </svg>
+            </div>
+
+            <!-- Destination: Database -->
+            <div class="endpoint">
+                <div class="endpoint-icon">🗄️</div>
+                <div class="endpoint-title">SQLite Database</div>
+                <div class="endpoint-desc">Module, Course &amp; ModuleCourse models</div>
+                <span class="data-badge badge-db">Django DB</span>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">749</div>
+                <div class="stat-label">Modules scraped</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">20</div>
+                <div class="stat-label">Courses</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">6</div>
+                <div class="stat-label">Degree types</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Pipeline stages</div>
+            </div>
+        </div>
+
+        <!-- Orchestrator note -->
+        <div class="orchestrator">
+            <div class="orch-label">Orchestrator:</div>
+            <div class="orch-text">
+                <code>scrape_batch.py</code> runs all three stages automatically for 20 pre-configured courses. Includes rate limiting (0.5–1s delays between requests) and supports <code>--scrape-only</code> and <code>--import-only</code> flags for partial runs.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

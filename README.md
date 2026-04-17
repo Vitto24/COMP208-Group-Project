@@ -6,6 +6,15 @@ COMP208 • Team 1 • 2026
 
 ---
 
+## Live Demo
+
+> **URL:** _TBC — link added once deployed_
+> **Test accounts:** see [`TEST_ACCOUNTS.md`](TEST_ACCOUNTS.md)
+
+For a local run, follow Quick Setup below.
+
+---
+
 ## Quick Setup
 
 **1. Clone the repo:**
@@ -50,16 +59,20 @@ Register a new account to test — pick a course and year, then select your opti
 
 ---
 
-## MVP
+## Feature Status
 
-| Essential | Extra |
-|-----------|-------|
-| Login / Register / Logout | Timetable page |
-| Dashboard (module cards, deadlines) | Notifications |
-| Module detail page | Settings page |
-| Grades page with averages | Lecturer / admin roles |
-| Sidebar navigation | Assignment submission |
-| Sample data (fixtures) | Marking + grade release |
+| Feature | State |
+|---------|-------|
+| Login / Register / Logout | ✅ done |
+| Dashboard — module cards + upcoming deadlines + timetable grid | ✅ done |
+| Module detail page (assignments, materials) | ✅ done |
+| Grades page with averages + degree projection | ✅ done |
+| Timetable page (weekly grid, semester switcher) | ✅ done |
+| Settings page (Student ID, university, password change) | 🟡 in progress |
+| Sample data (fixtures + `generate_sample_data`) | ✅ done |
+| Lecturer / admin management | via Django `/admin` |
+| Notifications | ❌ cut from scope |
+| Assignment submission + marking UI | ❌ out of scope (MVP is read-only) |
 
 MVP is read-only for students. Data is managed through Django's admin panel (`/admin`).
 
@@ -145,14 +158,18 @@ A student's course determines which modules are available. ModuleCourse links mo
 
 ```
 uni_tracker/         Project settings
-accounts/            Auth — login, register, logout, user profiles
+accounts/            Auth — login, register, logout, user profiles, module picker
 modules/             Module detail, materials, week content
-grades/              Grades, assignments, averages
-dashboard/           Dashboard — pulls from modules + grades
+grades/              Grades, assignments, averages, degree projection
+dashboard/           Dashboard — module cards, deadlines, timetable grid
+timetable/           Weekly timetable grid + semester switcher
+settings_page/       User settings (Student ID, uni, password change)
+scraper/             One-off scraper for UoL catalogue + TULIP data
 templates/           Shared templates (base.html = sidebar + layout)
 static/              CSS, JS, images
 fixtures/            Sample data (JSON)
 mockups/             Screenshots of what each page should look like
+docs/                Meeting minutes + architecture diagrams
 ```
 
 Each app has: `models.py` (database tables), `views.py` (logic), `urls.py` (routing), `templates/` (HTML).

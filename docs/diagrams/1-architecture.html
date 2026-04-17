@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Architecture — Uni Tracker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .diagram {
+            width: 1100px;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #0f172a;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 15px;
+            color: #64748b;
+            margin-bottom: 36px;
+        }
+
+        /* Layers */
+        .layer {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .layer-label {
+            position: absolute;
+            left: -10px;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #94a3b8;
+            white-space: nowrap;
+        }
+
+        /* Boxes */
+        .box {
+            background: white;
+            border-radius: 12px;
+            padding: 18px 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+            text-align: center;
+            border: 2px solid #e2e8f0;
+            position: relative;
+        }
+        .box-title {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+        .box-desc {
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        /* External entities */
+        .external {
+            background: #f8fafc;
+            border: 2px dashed #cbd5e1;
+        }
+        .external .box-title { color: #475569; }
+
+        /* Django framework container */
+        .framework {
+            background: white;
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+            border: 2px solid #e2e8f0;
+            width: 100%;
+        }
+        .framework-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .framework-header h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .framework-badge {
+            font-size: 12px;
+            background: #f1f5f9;
+            color: #64748b;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        /* App grid */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+        }
+        .app-card {
+            border-radius: 10px;
+            padding: 16px 18px;
+            border-left: 4px solid;
+            background: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .app-name {
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 3px;
+        }
+        .app-role {
+            font-size: 12px;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+        .app-features {
+            list-style: none;
+            padding: 0;
+        }
+        .app-features li {
+            font-size: 12px;
+            color: #475569;
+            padding: 2px 0;
+            padding-left: 16px;
+            position: relative;
+        }
+        .app-features li::before {
+            content: '›';
+            position: absolute;
+            left: 4px;
+            color: #94a3b8;
+            font-weight: bold;
+        }
+
+        /* App colours */
+        .app-dashboard { border-left-color: #d97706; background: #fffbeb; }
+        .app-dashboard .app-name { color: #92400e; }
+        .app-modules { border-left-color: #2563eb; background: #eff6ff; }
+        .app-modules .app-name { color: #1e40af; }
+        .app-grades { border-left-color: #7c3aed; background: #f5f3ff; }
+        .app-grades .app-name { color: #5b21b6; }
+        .app-accounts { border-left-color: #059669; background: #ecfdf5; }
+        .app-accounts .app-name { color: #065f46; }
+        .app-timetable { border-left-color: #0891b2; background: #ecfeff; }
+        .app-timetable .app-name { color: #155e75; }
+        .app-settings { border-left-color: #e11d48; background: #fff1f2; }
+        .app-settings .app-name { color: #9f1239; }
+
+        /* Bottom layer */
+        .bottom-row {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            align-items: flex-start;
+        }
+        .db-box {
+            background: #fefce8;
+            border-color: #facc15;
+        }
+        .db-box .box-title { color: #854d0e; }
+        .scraper-box {
+            background: #fdf2f8;
+            border-color: #ec4899;
+        }
+        .scraper-box .box-title { color: #9d174d; }
+
+        /* Arrows */
+        .arrow-down {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .arrow-down svg { display: block; }
+
+        .arrow-label {
+            font-size: 11px;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+
+        /* Dependency note */
+        .dep-section {
+            margin-top: 32px;
+            padding: 20px 24px;
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+        .dep-section h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #475569;
+            margin-bottom: 12px;
+        }
+        .dep-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 6px 32px;
+        }
+        .dep-item {
+            font-size: 13px;
+            color: #475569;
+            padding: 3px 0;
+        }
+        .dep-arrow { color: #94a3b8; margin: 0 4px; }
+        .dep-tag {
+            display: inline-block;
+            font-size: 11px;
+            padding: 1px 7px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .dep-tag.dashboard { background: #fffbeb; color: #92400e; }
+        .dep-tag.modules { background: #eff6ff; color: #1e40af; }
+        .dep-tag.grades { background: #f5f3ff; color: #5b21b6; }
+        .dep-tag.accounts { background: #ecfdf5; color: #065f46; }
+        .dep-tag.timetable { background: #ecfeff; color: #155e75; }
+        .dep-tag.settings { background: #fff1f2; color: #9f1239; }
+    </style>
+</head>
+<body>
+    <div class="diagram">
+        <h1>System Architecture</h1>
+        <p class="subtitle">Uni Tracker — Django 5.1 / Python 3 / SQLite</p>
+
+        <!-- User / Browser -->
+        <div class="layer">
+            <div class="box external" style="min-width: 280px;">
+                <div class="box-title">User / Web Browser</div>
+                <div class="box-desc">Students access the platform via any modern browser</div>
+            </div>
+        </div>
+
+        <!-- Arrow down -->
+        <div class="arrow-down">
+            <svg width="24" height="36" viewBox="0 0 24 36">
+                <line x1="12" y1="0" x2="12" y2="28" stroke="#94a3b8" stroke-width="2"/>
+                <polygon points="6,28 12,36 18,28" fill="#94a3b8"/>
+            </svg>
+        </div>
+
+        <!-- Django Framework -->
+        <div class="layer">
+            <div class="framework">
+                <div class="framework-header">
+                    <h2>Django Framework</h2>
+                    <span class="framework-badge">6 Apps</span>
+                    <span class="framework-badge">URL Routing + Templates + ORM</span>
+                </div>
+                <div class="app-grid">
+                    <!-- Dashboard -->
+                    <div class="app-card app-dashboard">
+                        <div class="app-name">Dashboard</div>
+                        <div class="app-role">Home page &amp; daily overview</div>
+                        <ul class="app-features">
+                            <li>Today's timetable at a glance</li>
+                            <li>Upcoming deadlines</li>
+                            <li>Enrolled modules overview</li>
+                            <li>Weekly timetable grid</li>
+                        </ul>
+                    </div>
+                    <!-- Modules -->
+                    <div class="app-card app-modules">
+                        <div class="app-name">Modules</div>
+                        <div class="app-role">Core data layer</div>
+                        <ul class="app-features">
+                            <li>749 real university modules</li>
+                            <li>20 courses, 6 degree types</li>
+                            <li>Weekly materials &amp; resources</li>
+                            <li>Credit-based enrolment</li>
+                        </ul>
+                    </div>
+                    <!-- Grades -->
+                    <div class="app-card app-grades">
+                        <div class="app-name">Grades</div>
+                        <div class="app-role">Assessment &amp; grade tracking</div>
+                        <ul class="app-features">
+                            <li>Weighted module grades</li>
+                            <li>Semester &amp; year averages</li>
+                            <li>Degree classification projection</li>
+                            <li>Credit progress tracking</li>
+                        </ul>
+                    </div>
+                    <!-- Accounts -->
+                    <div class="app-card app-accounts">
+                        <div class="app-name">Accounts</div>
+                        <div class="app-role">Authentication &amp; enrolment</div>
+                        <ul class="app-features">
+                            <li>Email-based login</li>
+                            <li>Course &amp; year selection</li>
+                            <li>Auto-enrol compulsory modules</li>
+                            <li>Credit-validated module picker</li>
+                        </ul>
+                    </div>
+                    <!-- Timetable -->
+                    <div class="app-card app-timetable">
+                        <div class="app-name">Timetable</div>
+                        <div class="app-role">Schedule management</div>
+                        <ul class="app-features">
+                            <li>Weekly schedule grid (9am–5pm)</li>
+                            <li>Semester switcher</li>
+                            <li>Auto-detect current week</li>
+                            <li>Lecture / lab / tutorial types</li>
+                        </ul>
+                    </div>
+                    <!-- Settings -->
+                    <div class="app-card app-settings">
+                        <div class="app-name">Settings</div>
+                        <div class="app-role">Account &amp; module management</div>
+                        <ul class="app-features">
+                            <li>Profile editing</li>
+                            <li>Change course &amp; year</li>
+                            <li>Module selection for current year</li>
+                            <li>60 credits/semester target</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrows down to DB and Scraper -->
+        <div class="arrow-down">
+            <svg width="500" height="44" viewBox="0 0 500 44">
+                <!-- Left arrow to DB -->
+                <line x1="180" y1="0" x2="180" y2="36" stroke="#94a3b8" stroke-width="2"/>
+                <polygon points="174,36 180,44 186,36" fill="#94a3b8"/>
+                <text x="192" y="22" class="arrow-label" fill="#94a3b8" font-size="11" font-family="-apple-system, sans-serif">Read / Write</text>
+                <!-- Right arrow to Scraper -->
+                <line x1="340" y1="0" x2="340" y2="36" stroke="#94a3b8" stroke-width="2"/>
+                <polygon points="334,36 340,44 346,36" fill="#94a3b8"/>
+                <text x="296" y="22" class="arrow-label" fill="#94a3b8" font-size="11" font-family="-apple-system, sans-serif" text-anchor="end">Import</text>
+            </svg>
+        </div>
+
+        <!-- Bottom: Database + Scraper -->
+        <div class="bottom-row">
+            <div class="box db-box" style="min-width: 240px;">
+                <div class="box-title">SQLite Database</div>
+                <div class="box-desc">10 models across 4 apps<br>Persistent local storage</div>
+            </div>
+            <div>
+                <div class="box scraper-box" style="min-width: 280px;">
+                    <div class="box-title">Scraper Pipeline</div>
+                    <div class="box-desc">3-stage automated pipeline<br>749 modules from 20 courses scraped</div>
+                </div>
+                <!-- Arrow to University -->
+                <div class="arrow-down">
+                    <svg width="24" height="28" viewBox="0 0 24 28">
+                        <line x1="12" y1="0" x2="12" y2="20" stroke="#94a3b8" stroke-width="2"/>
+                        <polygon points="6,20 12,28 18,20" fill="#94a3b8"/>
+                    </svg>
+                </div>
+                <div class="box external" style="min-width: 280px;">
+                    <div class="box-title">University of Liverpool</div>
+                    <div class="box-desc">Course pages + TULIP module database</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- App Dependencies -->
+        <div class="dep-section">
+            <h3>App Dependencies</h3>
+            <div class="dep-grid">
+                <div class="dep-item">
+                    <span class="dep-tag dashboard">Dashboard</span>
+                    <span class="dep-arrow">→</span>
+                    <span class="dep-tag modules">Modules</span>
+                    <span class="dep-tag grades">Grades</span>
+                    <span class="dep-tag timetable">Timetable</span>
+                </div>
+                <div class="dep-item">
+                    <span class="dep-tag grades">Grades</span>
+                    <span class="dep-arrow">→</span>
+                    <span class="dep-tag modules">Modules</span>
+                    <span class="dep-tag accounts">Accounts</span>
+                </div>
+                <div class="dep-item">
+                    <span class="dep-tag timetable">Timetable</span>
+                    <span class="dep-arrow">→</span>
+                    <span class="dep-tag modules">Modules</span>
+                    <span class="dep-tag grades">Grades</span>
+                </div>
+                <div class="dep-item">
+                    <span class="dep-tag settings">Settings</span>
+                    <span class="dep-arrow">→</span>
+                    <span class="dep-tag modules">Modules</span>
+                    <span class="dep-tag accounts">Accounts</span>
+                </div>
+                <div class="dep-item">
+                    <span class="dep-tag accounts">Accounts</span>
+                    <span class="dep-arrow">→</span>
+                    <span class="dep-tag modules">Modules</span>
+                </div>
+                <div class="dep-item">
+                    <span class="dep-tag modules">Modules</span>
+                    <span class="dep-arrow">→</span>
+                    <span style="font-size: 12px; color: #64748b;">No dependencies (foundation layer)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,4 +1,21 @@
+import uuid
+
 from django.db import migrations, models
+
+
+def generate_student_ids(apps, schema_editor):
+    UserProfile = apps.get_model('accounts', 'UserProfile')
+    used = set(
+        UserProfile.objects.exclude(student_id='').values_list('student_id', flat=True)
+    )
+    for profile in UserProfile.objects.filter(student_id=''):
+        while True:
+            candidate = '2' + str(uuid.uuid4().int)[:7]
+            if candidate not in used:
+                used.add(candidate)
+                break
+        profile.student_id = candidate
+        profile.save(update_fields=['student_id'])
 
 
 class Migration(migrations.Migration):
@@ -8,7 +25,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        # Change university field: shorter max_length + choices
         migrations.AlterField(
             model_name='userprofile',
             name='university',
@@ -24,7 +40,6 @@ class Migration(migrations.Migration):
                 blank=True,
             ),
         ),
-        # Add study_level field
         migrations.AddField(
             model_name='userprofile',
             name='study_level',
@@ -37,11 +52,15 @@ class Migration(migrations.Migration):
                 default='undergraduate',
             ),
         ),
-        # Add student_id field
         migrations.AddField(
             model_name='userprofile',
             name='student_id',
-            field=models.CharField(max_length=10, unique=True, blank=True, default=''),
-            preserve_default=False,
+            field=models.CharField(max_length=10, blank=True, default=''),
+        ),
+        migrations.RunPython(generate_student_ids, migrations.RunPython.noop),
+        migrations.AlterField(
+            model_name='userprofile',
+            name='student_id',
+            field=models.CharField(max_length=10, unique=True, blank=True),
         ),
     ]

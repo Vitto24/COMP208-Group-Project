@@ -59,18 +59,3 @@ class RegistrationForm(UserCreationForm):
         if commit:
             user.save()
         return user
-
-    def save(self, commit=True):
-        user = super().save(commit=False)
-        # Auto-generate a username from the email prefix
-        email_prefix = self.cleaned_data['email'].split('@')[0]
-        username = email_prefix
-        # Handle duplicates by appending a number
-        counter = 1
-        while User.objects.filter(username=username).exists():
-            username = f"{email_prefix}{counter}"
-            counter += 1
-        user.username = username
-        if commit:
-            user.save()
-        return user

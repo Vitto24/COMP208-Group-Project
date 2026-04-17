@@ -8,8 +8,10 @@ COMP208 • Team 1 • 2026
 
 ## Live Demo
 
-> **URL:** _TBC — link added once deployed_
-> **Test accounts:** see [`TEST_ACCOUNTS.md`](TEST_ACCOUNTS.md)
+> **URL:** [https://unitracker.pythonanywhere.com/](https://unitracker.pythonanywhere.com/)
+> **Test accounts:** see [`TEST_ACCOUNTS.md`](TEST_ACCOUNTS.md), or register a new account from the login page.
+
+Hosted on PythonAnywhere (free tier). First request after idle may take ~5 seconds to wake up.
 
 For a local run, follow Quick Setup below.
 

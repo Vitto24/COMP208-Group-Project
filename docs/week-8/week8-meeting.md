@@ -54,9 +54,9 @@ One submission per team. All documents must list contributing team members. Four
 ### Grades (Owen)
 
 - Fix assignment grade dropdowns not appearing outside of CS Year 2
-- Previous Years section should show semesters in reverse chronology
-- Test that Grades Overview logic boxes work properly (Semester Avg, Degree Projection %, Credits Completed)
-- Fix modules showing "Avg: 0%" — need randomised assignment data in student DB
+- ✅ Previous Years section should show semesters in reverse chronology
+- ✅ Test that Grades Overview logic boxes work properly (Semester Avg, Degree Projection %, Credits Completed)
+- ✅ Fix modules showing "Avg: 0%" — need randomised assignment data in student DB
 
 ### Notifications (Sam)
 

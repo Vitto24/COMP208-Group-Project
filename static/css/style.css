@@ -1302,3 +1302,83 @@ body {
     margin-bottom: 12px;
     font-size: 14px;
 }
+
+/* Hover + transition polish */
+.btn, .btn-secondary {
+    transition: background 0.15s ease;
+}
+
+.module-card {
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.module-card:hover {
+    transform: translateY(-2px);
+}
+
+.timetable-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+/* Mobile layout (≤768px) */
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 12px 16px;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
+    .sidebar-divider,
+    .sidebar-university {
+        display: none;
+    }
+
+    .sidebar-brand,
+    .nav-links,
+    .sidebar-bottom {
+        flex-shrink: 0;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 4px;
+        margin-top: 0;
+    }
+
+    .nav-links li {
+        margin-bottom: 0;
+    }
+
+    .main {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .page-header,
+    .content {
+        padding: 16px;
+    }
+
+    .module-cards {
+        flex-direction: column;
+    }
+
+    .module-card {
+        width: 100%;
+    }
+
+    .timetable-table {
+        overflow-x: auto;
+        display: block;
+    }
+}
+

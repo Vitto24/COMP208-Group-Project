@@ -23,9 +23,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+e93(*mm*tb^a+i4)y9ztg(6c5c1$%z=8)mr)4^)8$s3w5&sl*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# TODO before demo: flip to False
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'unitracker.pythonanywhere.com',
+    'localhost',
+    '127.0.0.1',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://unitracker.pythonanywhere.com',
+]
 
 
 # Application definition
@@ -124,6 +133,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Use email to log in instead of username
 AUTHENTICATION_BACKENDS = ['accounts.backends.EmailBackend']

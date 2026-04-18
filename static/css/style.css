@@ -244,11 +244,12 @@ body {
     width: 200px;
     text-decoration: none;
     color: #333;
-    transition: box-shadow 0.15s;
+    transition: box-shadow 0.15s, transform 0.15s;
 }
 
 .module-card:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
 }
 
 .module-card-header {
@@ -346,6 +347,8 @@ details[open] > .week-summary .dropdown-arrow {
 .week-body {
     border-top: 1px solid #e2e8f0;
     background: #fafafa;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
 }
 
 .material-row {
@@ -977,11 +980,12 @@ details[open] > .week-summary .dropdown-arrow {
     height: 100%;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    transition: box-shadow 0.15s;
+    transition: box-shadow 0.15s, transform 0.15s;
 }
 
 .module-card:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
 }
 
 .card-header {
@@ -1044,10 +1048,11 @@ details[open] > .week-summary .dropdown-arrow {
     align-items: center;
     border-bottom: 1px solid #eee;
     padding: 16px 20px;
-    transition: box-shadow 0.15s;
+    transition: background 0.15s, box-shadow 0.15s;
 }
 
 .deadline-item:hover {
+    background: #f8fafc;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 

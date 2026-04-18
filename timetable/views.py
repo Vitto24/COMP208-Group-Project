@@ -10,11 +10,13 @@ from .utils import (
 )
 
 DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI']
+PANEL_DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
 DAY_NAMES = {
     'MON': 'Monday', 'TUE': 'Tuesday', 'WED': 'Wednesday',
-    'THU': 'Thursday', 'FRI': 'Friday',
+    'THU': 'Thursday', 'FRI': 'Friday', 'SAT': 'Saturday', 'SUN': 'Sunday',
 }
-DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
+DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI', 5: 'SAT', 6: 'SUN'}
+GRID_DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
 
 
 @login_required
@@ -111,26 +113,71 @@ def timetable_view(request):
             'is_today': day == today_code and is_current_week,
         })
 
-    # Today's entries with status (always for current week)
-    today_entries = []
-    if today_code:
-        todays_events = []
-        for entry in all_entries:
-            if entry.day != today_code:
-                continue
-            entry_weeks = parse_weeks(entry.weeks)
-            if not entry_weeks or current_week in entry_weeks:
-                todays_events.append(entry)
-        todays_events.sort(key=lambda e: e.start_time)
+    # Day selector for the "Today" panel: defaults to today (Mon-Sun) in the current week
+    default_day = today_code if is_current_week else 'MON'
+    selected_day = request.GET.get('day', default_day)
+    if selected_day not in PANEL_DAYS:
+        selected_day = default_day
 
-        for entry in todays_events:
+    # selected day's date: Mon-Fri come from week_dates; Sat/Sun are offsets from Monday
+    if selected_day in week_dates:
+        selected_day_date = week_dates[selected_day]
+    elif week_monday:
+        offset = PANEL_DAYS.index(selected_day)
+        selected_day_date = week_monday + datetime.timedelta(days=offset)
+    else:
+        selected_day_date = None
+
+    viewing_today = (selected_day_date == today)
+
+    # relative label: (Today), (Yesterday), (3 days ago), (Tomorrow), (in 2 days), or none
+    relative_label = ''
+    if selected_day_date:
+        diff = (selected_day_date - today).days
+        if diff == 0:
+            relative_label = 'Today'
+        elif diff == -1:
+            relative_label = 'Yesterday'
+        elif diff == 1:
+            relative_label = 'Tomorrow'
+        elif -6 <= diff < -1:
+            relative_label = f'{-diff} days ago'
+        elif 1 < diff <= 6:
+            relative_label = f'in {diff} days'
+
+    # prev/next day codes with week crossing (Sun → next week's Mon, etc.)
+    day_idx = PANEL_DAYS.index(selected_day)
+    if day_idx > 0:
+        prev_day, prev_week = PANEL_DAYS[day_idx - 1], week_num
+    elif week_num > 1:
+        prev_day, prev_week = PANEL_DAYS[-1], week_num - 1
+    else:
+        prev_day, prev_week = None, None
+
+    if day_idx < len(PANEL_DAYS) - 1:
+        next_day, next_week = PANEL_DAYS[day_idx + 1], week_num
+    elif week_num < max_week:
+        next_day, next_week = PANEL_DAYS[0], week_num + 1
+    else:
+        next_day, next_week = None, None
+
+    # Entries for the selected day (only Mon-Fri have any; Sat/Sun always empty)
+    day_entries = []
+    selected_events = sorted(
+        [e for e in week_entries if e.day == selected_day],
+        key=lambda e: e.start_time,
+    )
+    for entry in selected_events:
+        if viewing_today:
             if now > entry.end_time:
                 status = 'done'
             elif entry.start_time <= now <= entry.end_time:
                 status = 'now'
             else:
                 status = 'upcoming'
-            today_entries.append({'entry': entry, 'status': status})
+        else:
+            status = ''
+        day_entries.append({'entry': entry, 'status': status})
 
     # Upcoming deadlines (next 5)
     deadlines = Assignment.objects.filter(
@@ -141,7 +188,16 @@ def timetable_view(request):
     return render(request, 'timetable/timetable.html', {
         'grid_rows': grid_rows,
         'day_headers': day_headers,
-        'today_entries': today_entries,
+        'day_entries': day_entries,
+        'selected_day': selected_day,
+        'selected_day_date': selected_day_date,
+        'viewing_today': viewing_today,
+        'relative_label': relative_label,
+        'prev_day': prev_day,
+        'prev_week': prev_week,
+        'next_day': next_day,
+        'next_week': next_week,
+        'today_code': today_code,
         'today_date': today,
         'semester': semester,
         'week_num': week_num,

@@ -6,20 +6,26 @@
 
 {% block content %}
 
-<h2>Current Modules</h2>
+<h2 class="section-title">Current Modules</h2>
 
-<div class="module-cards">
+<div class="module-row">
     {% for module in current_modules %}
         <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
-            
-            <div class="module-card-header">
-                <strong>{{ module.code }}</strong>
-                <span>{{ module.credits|default:"—" }} credits</span>
+            <div class="card-header">
+                <div class="header-text">
+                    <span class="module-code">{{ module.code }}</span>
+                    <span class="module-credits">{{ module.credits }} credits</span>
+                </div>
+                <span class="module-icon">
+                    {% if module.code == 'COMP202' %}📊
+                    {% elif module.code == 'COMP208' %}🔎
+                    {% elif module.code == 'COMP284' %}💻
+                    {% elif module.code == 'COMP285' %}⚙️
+                    {% elif module.code == 'ULMS254' %}💡
+                    {% else %}{% cycle '📘' '📗' '📕' '📙' '📒' '📓' %}{% endif %}
+                </span>
             </div>
-
-            <div class="module-card-name">
-                {{ module.name }}
-            </div>
+            <h3 class="module-name">{{ module.name }}</h3>
         </a>
     {% empty %}
         <p>No current modules.</p>
@@ -27,20 +33,26 @@
 </div>
 
 
-<h2>Previous Modules</h2>
+<h2 class="section-title">Previous Modules</h2>
 
-<div class="module-cards">
+<div class="module-row">
     {% for module in previous_modules %}
         <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
-            
-            <div class="module-card-header">
-                <strong>{{ module.code }}</strong>
-                <span>{{ module.credits|default:"—" }} credits</span>
+            <div class="card-header">
+                <div class="header-text">
+                    <span class="module-code">{{ module.code }}</span>
+                    <span class="module-credits">{{ module.credits }} credits</span>
+                </div>
+                <span class="module-icon">
+                    {% if module.code == 'COMP202' %}📊
+                    {% elif module.code == 'COMP208' %}🔎
+                    {% elif module.code == 'COMP284' %}💻
+                    {% elif module.code == 'COMP285' %}⚙️
+                    {% elif module.code == 'ULMS254' %}💡
+                    {% else %}{% cycle '📓' '📒' '📙' '📕' '📗' '📘' %}{% endif %}
+                </span>
             </div>
-
-            <div class="module-card-name">
-                {{ module.name }}
-            </div>
+            <h3 class="module-name">{{ module.name }}</h3>
         </a>
     {% empty %}
         <p>No previous modules.</p>

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Something Went Wrong — Uni Tracker{% endblock %}
+{% block page_title %}500 — Server Error{% endblock %}
+
+{% block content %}
+<section class="section">
+    <h2>Something went wrong on our end.</h2>
+    <p>Please try again, or head back to the dashboard.</p>
+    <p><a href="{% url 'dashboard:dashboard' %}" class="btn">Back to dashboard</a></p>
+</section>
+{% endblock %}

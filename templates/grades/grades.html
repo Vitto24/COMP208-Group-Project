@@ -92,6 +92,7 @@
                                             </div>
                                         </summary>
 
+                                        <div class="grade-body">
                                         {% if item.grades %}
                                             <table class="data-table" style="border: none; margin: 0; border-radius: 0; background: #fff;">
                                                 <tbody>
@@ -104,7 +105,7 @@
                                                             {{ grade.assignment.weight }}% · {{ grade.assignment.type|title }}
                                                         </td>
                                                         <td style="width: 15%; text-align: right; border: none;">
-                                                            
+
                                                             {% if grade.score %}
                                                                 <span style="background: #e6ffed; color: #16a34a; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">{{ grade.score }}%</span>
                                                             {% elif grade.assignment.due_date and grade.assignment.due_date < today %}
@@ -130,6 +131,7 @@
                                                     No assignments recorded yet.
                                                 </div>
                                         {% endif %}
+                                        </div>
                                     </details>
                                 </div>    
                             {% endfor %}

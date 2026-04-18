@@ -21,7 +21,7 @@ import datetime
 from django.core.management.base import BaseCommand
 from django.contrib.auth.models import User
 
-from modules.models import Module, ModuleCourse
+from modules.models import Module, ModuleCourse, Week, Material
 from grades.models import Assignment, Grade
 from timetable.models import TimetableEntry
 
@@ -98,6 +98,8 @@ class Command(BaseCommand):
             TimetableEntry.objects.all().delete()
             Grade.objects.all().delete()
             Assignment.objects.all().delete()
+            Material.objects.all().delete()
+            Week.objects.all().delete()
             self.stdout.write(self.style.SUCCESS('Cleared.'))
 
         # load scraper data into a dict keyed by module code
@@ -128,9 +130,17 @@ class Command(BaseCommand):
         # ── Step 3: Generate timetable (clash-free by year/sem group) ──
         timetable_count = self._generate_all_timetables(modules_with_students)
 
+        # ── Step 4: Seed weeks + materials for demoed modules ──────────
+        week_count, material_count = 0, 0
+        for module in modules_with_students:
+            w, m = self._create_weeks(module, scraper_data)
+            week_count += w
+            material_count += m
+
         self.stdout.write(self.style.SUCCESS(
             f'Done! Created {assignment_count} assignments, '
-            f'{grade_count} grades, {timetable_count} timetable entries.'
+            f'{grade_count} grades, {timetable_count} timetable entries, '
+            f'{week_count} weeks, {material_count} materials.'
         ))
 
     # ──────────────────────────────────────────────────────────────────
@@ -234,6 +244,38 @@ class Command(BaseCommand):
                     count += 1
 
         return count
+
+    def _create_weeks(self, module, scraper_data):
+        """Seed 12 teaching weeks and a few placeholder materials per week."""
+        week_count, material_count = 0, 0
+
+        info = scraper_data.get(module.code, {})
+        slides_url = info.get('course_url') or 'https://www.liverpool.ac.uk/'
+        worksheet_url = info.get('tulip_url') or slides_url
+        recording_url = slides_url
+
+        for n in range(1, 13):
+            week, created = Week.objects.get_or_create(
+                module=module, number=n,
+                defaults={'title': f'Topic {n}'},
+            )
+            if created:
+                week_count += 1
+
+            sample_materials = [
+                (f'Lecture {n} slides', 'slides', slides_url),
+                (f'Week {n} worksheet', 'worksheet', worksheet_url),
+                (f'Lecture {n} recording', 'recording', recording_url),
+            ]
+            for title, mtype, url in sample_materials:
+                _, m_created = Material.objects.update_or_create(
+                    week=week, title=title,
+                    defaults={'type': mtype, 'url': url, 'available': True},
+                )
+                if m_created:
+                    material_count += 1
+
+        return week_count, material_count
 
     def _space_coursework_dates(self, semester, count):
         """Space coursework due dates evenly across the semester, all on Fridays."""

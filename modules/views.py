@@ -4,6 +4,7 @@ from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
 from .models import Module, Week
 from grades.models import Assignment
+from timetable.utils import get_current_semester, get_current_week
 
 
 @login_required
@@ -11,11 +12,12 @@ def module_list(request):
     """
     Display a list of all modules.
     """
-    modules = Module.objects.filter(students=request.user)
+    modules = Module.objects.filter(students=request.user).order_by('code')
 
-    # split into current academic year and previous
-    current_modules = modules.filter(academic_year='2025/26')
-    previous_modules = modules.exclude(academic_year='2025/26')
+    # current sem modules vs earlier sems of this year
+    current_sem = get_current_semester()
+    current_modules = modules.filter(academic_year='2025/26', semester=current_sem)
+    previous_modules = modules.filter(academic_year='2025/26', semester__lt=current_sem)
 
     return render(request, 'modules/module_list.html', {
         'current_modules': current_modules,
@@ -36,9 +38,11 @@ def module_detail(request, code):
     assignments = Assignment.objects.filter(module=module)
 
     weeks = Week.objects.filter(module=module).prefetch_related('materials')
+    current_week = get_current_week(module.semester)
 
     return render(request, 'modules/module_detail.html', {
         'module': module,
         'assignments': assignments,
-        'weeks': weeks
+        'weeks': weeks,
+        'current_week': current_week,
     })

@@ -57,10 +57,6 @@
                         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
                         Grades
                     </a></li>
-                    <li><a href="#" class="{% block nav_notifications %}{% endblock %}">
-                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-                        Notifications
-                    </a></li>
                 </ul>
                 {% endif %}
             </div>
@@ -101,5 +97,64 @@
             </div>
         </main>
     </div>
+
+    <script>
+    (function() {
+        var key = 'scrollPos:' + location.pathname;
+        var saved = sessionStorage.getItem(key);
+        if (saved !== null) {
+            window.scrollTo(0, parseInt(saved, 10));
+            sessionStorage.removeItem(key);
+        }
+        document.querySelectorAll('a').forEach(function(a) {
+            var href = a.getAttribute('href');
+            if (href && href.charAt(0) === '?') {
+                a.addEventListener('click', function() {
+                    sessionStorage.setItem(key, window.scrollY);
+                });
+            }
+        });
+    })();
+
+    document.querySelectorAll('details').forEach(function(details) {
+        var summary = details.querySelector(':scope > summary');
+        var body = null;
+        for (var i = 0; i < details.children.length; i++) {
+            if (details.children[i] !== summary) { body = details.children[i]; break; }
+        }
+        if (!summary || !body) return;
+
+        body.style.overflow = 'hidden';
+        body.style.transition = 'max-height 0.25s ease';
+        body.style.maxHeight = details.open ? 'none' : '0';
+
+        summary.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (details.open) {
+                body.style.maxHeight = body.scrollHeight + 'px';
+                requestAnimationFrame(function() {
+                    body.style.maxHeight = '0';
+                });
+                body.addEventListener('transitionend', function handler(ev) {
+                    if (ev.propertyName !== 'max-height' || ev.target !== body) return;
+                    details.open = false;
+                    body.removeEventListener('transitionend', handler);
+                });
+            } else {
+                details.open = true;
+                var target = body.scrollHeight;
+                body.style.maxHeight = '0';
+                requestAnimationFrame(function() {
+                    body.style.maxHeight = target + 'px';
+                });
+                body.addEventListener('transitionend', function handler(ev) {
+                    if (ev.propertyName !== 'max-height' || ev.target !== body) return;
+                    body.style.maxHeight = 'none';
+                    body.removeEventListener('transitionend', handler);
+                });
+            }
+        });
+    });
+    </script>
 </body>
 </html>

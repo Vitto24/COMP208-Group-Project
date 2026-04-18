@@ -20,6 +20,8 @@ For a local run, follow Quick Setup below.
 ## Screenshots
 
 ![Dashboard](docs/screenshots/dashboard.png)
+![Modules](docs/screenshots/modules.png)
+![Module Detail](docs/screenshots/modules_101.png)
 ![Timetable](docs/screenshots/timetable.png)
 ![Grades](docs/screenshots/grades.png)
 ![Admin](docs/screenshots/admin.png)

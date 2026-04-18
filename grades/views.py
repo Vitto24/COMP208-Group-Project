@@ -1,13 +1,20 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.utils import timezone
-from modules.models import Module
-from grades.models import Grade, Assignment 
+from modules.models import Module, ModuleCourse
+from grades.models import Grade, Assignment
 from accounts.models import UserProfile # allows access to course info for year weights
 
 @login_required
 def grades(request):
-    modules = Module.objects.filter(students=request.user).order_by('-year', 'semester')
+    # get the student's year-of-course for each module (e.g. COMP108 is Year 1 on CS BSc)
+    course = request.user.userprofile.course if hasattr(request.user, 'userprofile') else None
+    module_year_map = {}
+    if course:
+        for mc in ModuleCourse.objects.filter(course=course):
+            module_year_map[mc.module_id] = mc.year
+
+    modules = Module.objects.filter(students=request.user).order_by('semester')
     grouped_dict = {}
 
     for module in modules:
@@ -34,12 +41,12 @@ def grades(request):
 
         mod_data = {
             'module': module,
-            'grades': assignment_data, 
+            'grades': assignment_data,
             'overall_grade': round(total_weighted_mark, 1)
         }
 
-        # Group it by year and semester
-        y = module.year
+        # Group it by the student's year-of-course and semester
+        y = module_year_map.get(module.id, str(module.year))
         s = module.semester
 
         if y not in grouped_dict:
@@ -137,28 +144,55 @@ def grades(request):
             sem_subtitle = f"{sem_graded_count} of {len(recent_sem['modules'])} Graded"
             credits_subtitle = f"Semester {recent_sem['semester']}: {int(sem_graded_credits)}/{int(sem_total_credits)}"
 
-        # Degree projection & classification text
-        degree_projection = current_year_avg
-        if degree_projection >= 70:
-            projection_subtitle = "First Class (1st)"
-        elif degree_projection >= 60:
-            projection_subtitle = "Upper Second (2:1)"
-        elif degree_projection >= 50:
-            projection_subtitle = "Lower Second (2:2)"
-        elif degree_projection >= 40:
-            projection_subtitle = "Third Class (3rd)"
-        else:
-            projection_subtitle = "Pass/Fail"
-
-    # Fetch course weightings for the current student
-    weights = {'y1': 0, 'y2': 30, 'y3': 70, 'y4': 0, 'y5': 0} 
+    # Fetch course weightings for the current student (needed for projection)
+    weights = {'y1': 0, 'y2': 30, 'y3': 70, 'y4': 0, 'y5': 0}
     if hasattr(request.user, 'userprofile') and request.user.userprofile.course:
-        course = request.user.userprofile.course
-        weights['y1'] = course.year_1_weight
-        weights['y2'] = course.year_2_weight
-        weights['y3'] = course.year_3_weight
-        weights['y4'] = course.year_4_weight
-        weights['y5'] = course.year_5_weight
+        c = request.user.userprofile.course
+        weights['y1'] = c.year_1_weight
+        weights['y2'] = c.year_2_weight
+        weights['y3'] = c.year_3_weight
+        weights['y4'] = c.year_4_weight
+        weights['y5'] = c.year_5_weight
+
+    if grouped_data:
+        # Degree projection = weighted average across years with data, renormalised
+        # so a Year 1 student only sees a projection once they have weighted years
+        year_averages = {}
+        for year_block in grouped_data:
+            total_w = 0
+            total_c = 0
+            for sem_block in year_block['semesters']:
+                for mod_item in sem_block['modules']:
+                    g = mod_item['overall_grade']
+                    cr = float(mod_item['module'].credits)
+                    if g > 0:
+                        total_w += g * cr
+                        total_c += cr
+            if total_c > 0:
+                year_averages[str(year_block['year'])] = total_w / total_c
+
+        weighted_sum = 0
+        weight_used = 0
+        for y_str, avg in year_averages.items():
+            w = weights.get(f'y{y_str}', 0)
+            weighted_sum += avg * w
+            weight_used += w
+
+        if weight_used > 0:
+            degree_projection = round(weighted_sum / weight_used, 1)
+            if degree_projection >= 70:
+                projection_subtitle = "First Class (1st)"
+            elif degree_projection >= 60:
+                projection_subtitle = "Upper Second (2:1)"
+            elif degree_projection >= 50:
+                projection_subtitle = "Lower Second (2:2)"
+            elif degree_projection >= 40:
+                projection_subtitle = "Third Class (3rd)"
+            else:
+                projection_subtitle = "Pass/Fail"
+        else:
+            degree_projection = 0
+            projection_subtitle = "Year 1 doesn't count"
 
     return render(request, 'grades/grades.html', {
         'grouped_data': grouped_data,

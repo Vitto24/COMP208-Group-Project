@@ -1,11 +1,14 @@
 # Test Accounts
 
+Live demo: https://unitracker.pythonanywhere.com/
+
 Use these to log in and test the app without registering.
 
-| Name           | University Email       | Password       | Course              | Year |
-|----------------|------------------------|----------------|---------------------|------|
-| Test Student   | test@liverpool.ac.uk   | testpass123    | Computer Science BSc | 1    |
-| Jane Smith     | jane@liverpool.ac.uk   | testpass123    | Computer Science MEng| 2    |
+| Name         | University Email       | Password     | Course                | Year | Role              |
+|--------------|------------------------|--------------|-----------------------|------|-------------------|
+| Test Student | test@liverpool.ac.uk   | testpass123  | Computer Science BSc  | 1    | Student           |
+| Jane Smith   | jane@liverpool.ac.uk   | testpass123  | Computer Science MEng | 2    | Student           |
+| Admin        | admin@liverpool.ac.uk  | adminpass123 | —                     | —    | Staff (superuser) |
 
 ## How to create them
 

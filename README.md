@@ -17,6 +17,15 @@ For a local run, follow Quick Setup below.
 
 ---
 
+## Screenshots
+
+![Dashboard](docs/screenshots/dashboard.png)
+![Timetable](docs/screenshots/timetable.png)
+![Grades](docs/screenshots/grades.png)
+![Admin](docs/screenshots/admin.png)
+
+---
+
 ## Quick Setup
 
 **1. Clone the repo:**
@@ -237,3 +246,16 @@ git push origin feature/your-task
 ```
 
 Open a PR → message WhatsApp → someone merges it.
+
+---
+
+## Team & Contributions
+
+| Member | Primary areas |
+|---|---|
+| Tyr Bujac | Dashboard, timetable, registration/module picker, scraper, sample data, CI, hosting |
+| Samuel Garwood | Login, account setup, base architecture |
+| Owen Wells | Grades page, degree projection |
+| Vittorio Gastaldi | Settings page, multi-university support |
+| Jamal Ahmed | Module detail page |
+| Daniel Greslow | Module list page |

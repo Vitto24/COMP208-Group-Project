@@ -857,6 +857,37 @@ details[open] > .week-summary .dropdown-arrow {
     margin-bottom: 8px;
 }
 
+.day-nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    min-height: 28px;
+    max-width: 260px;
+}
+
+.day-nav .bottom-heading {
+    margin-bottom: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.day-nav .week-arrow-disabled {
+    color: #475569;
+}
+
+.day-rel {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.deadlines-card .bottom-heading {
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
 /* Bottom row: Today + Deadlines */
 .timetable-bottom {
     display: flex;

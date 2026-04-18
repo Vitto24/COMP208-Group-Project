@@ -109,6 +109,7 @@ def grades(request):
         
         if year_graded_credits > 0:
             current_year_avg = round(year_total_weighted / year_graded_credits, 1)
+        if year_total_count > 0:
             year_subtitle = f"{year_graded_count} of {year_total_count} Graded"
 
         # Most recent semester average and counts

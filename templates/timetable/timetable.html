@@ -62,7 +62,7 @@
             {% else %}
                 <span class="week-arrow week-arrow-disabled">&lsaquo;</span>
             {% endif %}
-            <span class="week-label">Week {{ week_num }}{% if term_info %} of {{ term_info.total_weeks }}{% endif %}</span>
+            <span class="week-label">Week {{ week_num }}{% if max_week %} of {{ max_week }}{% endif %}</span>
             {% if week_num < max_week %}
                 <a href="?semester={{ semester }}&week={{ week_num|add:"1" }}" class="week-arrow">&rsaquo;</a>
             {% else %}

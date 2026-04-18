@@ -279,6 +279,131 @@ body {
     margin-top: 8px;
 }
 
+/* Module detail: weekly materials */
+.weeks-container {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.week-block + .week-block {
+    border-top: 1px solid #f1f5f9;
+}
+
+.week-summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.week-summary::-webkit-details-marker { display: none; }
+
+.week-summary .dropdown-arrow {
+    color: #94a3b8;
+    font-size: 11px;
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease;
+}
+
+details[open] > .week-summary .dropdown-arrow {
+    transform: rotate(90deg);
+}
+
+.week-title {
+    flex: 1;
+    color: #1e293b;
+    font-size: 14px;
+}
+
+.week-title strong {
+    color: #1e293b;
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.week-count {
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.week-now {
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.week-body {
+    border-top: 1px solid #e2e8f0;
+    background: #fafafa;
+}
+
+.material-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 36px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #1e293b;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.1s;
+}
+
+.material-row:last-child {
+    border-bottom: none;
+}
+
+.material-row:hover {
+    background: #f1f5f9;
+}
+
+.material-row.disabled {
+    color: #94a3b8;
+    cursor: default;
+    pointer-events: none;
+}
+
+.material-row.empty {
+    color: #94a3b8;
+    font-style: italic;
+    padding-left: 40px;
+}
+
+.material-icon {
+    font-size: 16px;
+}
+
+.material-title {
+    flex: 1;
+}
+
+.material-badge {
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #e2e8f0;
+    color: #475569;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.material-badge.scheduled {
+    background: #fef3c7;
+    color: #92400e;
+}
+
 /* Deadline rows */
 .deadlines-list {
     background: #fff;
@@ -352,44 +477,6 @@ body {
     color: #475569;
     font-size: 14px;
     line-height: 1.5;
-}
-
-/* Week blocks (materials) */
-.week-block {
-    background: #fff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 12px;
-}
-
-.week-block h3 {
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.material-row {
-    padding: 6px 0 6px 16px;
-    font-size: 14px;
-}
-
-.material-row a {
-    color: #2563eb;
-    text-decoration: none;
-}
-
-.material-row a:hover {
-    text-decoration: underline;
-}
-
-.unavailable {
-    color: #94a3b8;
-}
-
-.no-materials {
-    color: #94a3b8;
-    font-size: 13px;
 }
 
 /* Stats row (grades overview) */
@@ -917,6 +1004,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     border: 1px solid #e0e0e0;
+    margin-bottom: 30px;
 }
 
 .deadline-item {

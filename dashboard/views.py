@@ -32,7 +32,7 @@ def dashboard(request):
         academic_year='2025/26',
         module_courses__course=profile.course,
         module_courses__year=year_str,
-    ).distinct()
+    ).distinct().order_by('code')
 
     now = timezone.now()
     warning_cutoff = now + timedelta(days=DEADLINE_WARNING_DAYS)

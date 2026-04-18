@@ -2,7 +2,14 @@
 
 {% block title %}{{ module.code }} — Uni Tracker{% endblock %}
 {% block nav_modules %}active{% endblock %}
-{% block page_title %}{{ module.code }} — {{ module.name }}{% endblock %}
+{% block page_title %}{{ module.code }} — {{ module.name }}
+    {% if module.code == 'COMP202' %}📊
+    {% elif module.code == 'COMP208' %}🔎
+    {% elif module.code == 'COMP284' %}💻
+    {% elif module.code == 'COMP285' %}⚙️
+    {% elif module.code == 'ULMS254' %}💡
+    {% else %}📘{% endif %}
+{% endblock %}
 
 {% block content %}
 
@@ -58,20 +65,42 @@
     <h2>Materials</h2>
 
     {% if weeks %}
-        {% for week in weeks %}
-            <details class="week-block">
-                <summary>Week {{ week.number }} — {{ week.title }}</summary>
-                <ul class="materials-list">
-                    {% for material in week.materials.all %}
-                        <li>
-                            <a href="{{ material.file.url }}">{{ material.title }}</a>
-                        </li>
-                    {% empty %}
-                        <li>No materials uploaded for this week.</li>
-                    {% endfor %}
-                </ul>
-            </details>
-        {% endfor %}
+        <div class="weeks-container">
+            {% for week in weeks %}
+                <details class="week-block"{% if week.number == current_week %} open{% endif %}>
+                    <summary class="week-summary">
+                        <span class="dropdown-arrow">▶</span>
+                        <span class="week-title"><strong>Week {{ week.number }}</strong> — {{ week.title }}</span>
+                        {% if week.number == current_week %}<span class="week-now">This week</span>{% endif %}
+                        <span class="week-count">{{ week.materials.count }} items</span>
+                    </summary>
+                    <div class="week-body">
+                        {% for material in week.materials.all %}
+                            {% if material.type == 'recording' and week.number > current_week %}
+                                <div class="material-row disabled">
+                                    <span class="material-icon">🔒</span>
+                                    <span class="material-title">{{ material.title }}</span>
+                                    <span class="material-badge scheduled">Scheduled</span>
+                                </div>
+                            {% else %}
+                                <a href="{{ material.url|default:'#' }}" target="_blank" rel="noopener" class="material-row">
+                                    <span class="material-icon">
+                                        {% if material.type == 'slides' %}📑
+                                        {% elif material.type == 'worksheet' %}📝
+                                        {% elif material.type == 'recording' %}🎥
+                                        {% else %}📎{% endif %}
+                                    </span>
+                                    <span class="material-title">{{ material.title }}</span>
+                                    <span class="material-badge">{{ material.get_type_display }}</span>
+                                </a>
+                            {% endif %}
+                        {% empty %}
+                            <div class="material-row empty">No materials uploaded for this week.</div>
+                        {% endfor %}
+                    </div>
+                </details>
+            {% endfor %}
+        </div>
     {% else %}
         <p>No teaching weeks added for this module yet.</p>
     {% endif %}

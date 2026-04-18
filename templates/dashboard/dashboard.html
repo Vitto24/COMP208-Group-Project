@@ -21,7 +21,7 @@
                     {% elif module.code == 'COMP284' %}💻
                     {% elif module.code == 'COMP285' %}⚙️
                     {% elif module.code == 'ULMS254' %}💡
-                    {% else %}📘{% endif %}
+                    {% else %}{% cycle '📘' '📗' '📕' '📙' '📒' '📓' %}{% endif %}
                 </span>
             </div>
             <h3 class="module-name">{{ module.name }}</h3>

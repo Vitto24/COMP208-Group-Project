@@ -21,6 +21,22 @@ DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI', 5: 'SAT', 6: 'SUN'}
 GRID_DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
 
 
+def _current_year_entries(user, semester=None):
+    """Return the student's TimetableEntry rows for the year-of-course they're
+    currently in (so past-year modules don't leak into the grid)."""
+    qs = TimetableEntry.objects.filter(student=user).select_related('module')
+    if semester is not None:
+        qs = qs.filter(semester=semester)
+
+    profile = getattr(user, 'userprofile', None)
+    if profile and profile.course:
+        qs = qs.filter(
+            module__module_courses__course=profile.course,
+            module__module_courses__year=str(profile.year_of_study),
+        )
+    return qs.distinct()
+
+
 @login_required
 def timetable_view(request):
     # Semester switcher: use query param if provided, otherwise auto-detect
@@ -48,10 +64,8 @@ def timetable_view(request):
     # Term info for banner
     term_info = get_term_info(semester, week_num)
 
-    # All entries for this semester
-    all_entries = TimetableEntry.objects.filter(
-        student=request.user, semester=semester
-    ).select_related('module')
+    # All entries for this semester (only the student's current year-of-course)
+    all_entries = _current_year_entries(request.user, semester=semester)
 
     # Filter entries that run in the selected week
     week_entries = []
@@ -229,9 +243,7 @@ DAY_OFFSET = {'MON': 0, 'TUE': 1, 'WED': 2, 'THU': 3, 'FRI': 4}
 
 @login_required
 def export_ical(request):
-    entries = TimetableEntry.objects.filter(
-        student=request.user
-    ).select_related('module')
+    entries = _current_year_entries(request.user)
 
     now_stamp = datetime.datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')
 

@@ -91,11 +91,13 @@ def dashboard(request):
         for i, day in enumerate(DAYS):
             week_dates[day] = week_monday + datetime.timedelta(days=i)
 
-    # ── Timetable: fetch all entries for this semester ───────────────
+    # ── Timetable: fetch all entries for this semester, current year only ──
     all_entries = TimetableEntry.objects.filter(
         student=request.user,
         semester=semester,
-    ).select_related('module')
+        module__module_courses__course=profile.course,
+        module__module_courses__year=year_str,
+    ).select_related('module').distinct()
 
     # filter to entries that run in the selected week
     week_entries = []

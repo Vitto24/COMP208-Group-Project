@@ -14,11 +14,28 @@ The project was built by a six-person team for COMP208 Group Software Developmen
 
 ## Screenshots
 
+### Dashboard
+
 ![Dashboard](docs/screenshots/dashboard.png)
+
+### Modules
+
 ![Modules](docs/screenshots/modules.png)
+
+### Module Detail
+
 ![Module Detail](docs/screenshots/modules_101.png)
+
+### Timetable
+
 ![Timetable](docs/screenshots/timetable.png)
+
+### Grades
+
 ![Grades](docs/screenshots/grades.png)
+
+### Admin
+
 ![Admin](docs/screenshots/admin.png)
 
 ---
@@ -37,6 +54,7 @@ For a local run, follow Quick Setup below.
 ## Quick Setup
 
 **1. Clone the repo:**
+
 ```bash
 git clone https://github.com/Vitto24/COMP208-Group-Project.git
 cd COMP208-Group-Project
@@ -45,6 +63,7 @@ cd COMP208-Group-Project
 **2. Set up and run:**
 
 **Mac / Linux:**
+
 ```bash
 python3 -m venv env
 source env/bin/activate
@@ -54,6 +73,7 @@ python manage.py runserver
 ```
 
 **Windows:**
+
 ```bash
 python -m venv env
 env\Scripts\activate
@@ -65,6 +85,7 @@ python manage.py runserver
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 **3. Load data and generate sample content:**
+
 ```bash
 python manage.py loaddata fixtures/sample_data.json
 python manage.py generate_sample_data
@@ -114,11 +135,14 @@ Each app has: `models.py` (database tables), `views.py` (logic), `urls.py` (rout
 
 ## Team & Contributions
 
-| Member | Primary areas |
-|---|---|
-| Jamal Ahmed | Module detail page |
-| Tyr Bujac | Timetable, registration / module picker, scraper, sample data, CI, hosting |
-| Samuel Garwood | Login, account setup, base architecture |
-| Vittorio Gastaldi | Settings page, multi-university support |
-| Daniel Greslow | Module list page |
-| Owen Wells | Grades page, degree projection |
+
+| Member            | Primary areas                                               |
+| ----------------- | ----------------------------------------------------------- |
+| Jamal Ahmed       | Module Pages, CSS                                           |
+| Tyr Bujac         | Timetable, module picker, scraper, sample data, CI, hosting |
+| Samuel Garwood    | Login, account setup, base architecture                     |
+| Vittorio Gastaldi | Settings page, multi-university support                     |
+| Daniel Greslow    | Module list page, dashboard                                 |
+| Owen Wells        | Grades page, degree projection                              |
+
+

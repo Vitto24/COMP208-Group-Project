@@ -410,38 +410,51 @@ def generate_timetable_for_user(user):
 
 
 def randomise_prior_year_grades(user):
-    """Fill sample grades for every assignment the student took in past years.
+    """Fill sample grades for anything the student would realistically have a mark for.
 
-    Only touches years below the student's current year. Uses the same gaussian
-    distribution as generate_sample_data so the numbers look realistic.
+    Prior years + current year past semesters → all graded.
+    Current semester → only past-due assignments (future deadlines stay Upcoming).
     """
-    from grades.models import Assignment, Grade  # local import to avoid a cycle
+    from grades.models import Assignment, Grade
+    from timetable.utils import get_current_semester
 
-    try:
-        profile = user.userprofile
-    except Exception:
+    profile = getattr(user, 'userprofile', None)
+    if not profile or not profile.course:
         return
 
-    if not profile.course or profile.year_of_study <= 1:
-        return
-
-    prior_year_strs = [str(y) for y in range(1, profile.year_of_study)]
-
-    prior_modules = Module.objects.filter(
-        students=user,
-        module_courses__course=profile.course,
-        module_courses__year__in=prior_year_strs,
-    ).distinct()
-
+    current_year = profile.year_of_study
+    current_sem = get_current_semester()
     today = datetime.date.today()
-    for module in prior_modules:
+
+    year_map = {
+        mc.module_id: mc.year
+        for mc in ModuleCourse.objects.filter(course=profile.course)
+    }
+
+    for module in Module.objects.filter(students=user).distinct():
+        mc_year = year_map.get(module.id)
+        if not mc_year or not mc_year.isdigit():
+            continue
+        year_num = int(mc_year)
+        if year_num > current_year:
+            continue
+
+        is_finished_period = (
+            year_num < current_year
+            or (year_num == current_year and module.semester < current_sem)
+        )
+
         for assignment in Assignment.objects.filter(module=module):
-            # don't overwrite existing marks
             if Grade.objects.filter(student=user, assignment=assignment).exists():
                 continue
 
-            # only fake-mark past-dated assignments, leave future ones alone
-            if assignment.due_date and assignment.due_date > today:
+            if is_finished_period:
+                grade_it = True
+            else:
+                # current year, current semester — only grade past-due work
+                grade_it = bool(assignment.due_date and assignment.due_date < today)
+
+            if not grade_it:
                 continue
 
             score = round(max(30, min(95, random.gauss(65, 12))), 1)

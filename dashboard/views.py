@@ -39,7 +39,24 @@ def dashboard(request):
     semester = get_current_semester()
 
     # only show modules for the student's current year of study
-    profile = request.user.userprofile
+    profile = getattr(request.user, 'userprofile', None)
+    if not profile or not profile.course:
+        today = datetime.date.today()
+        return render(request, 'dashboard/dashboard.html', {
+            'modules': [],
+            'assignments': [],
+            'deadline_rows': [],
+            'day_columns': [],
+            'today_entries': [],
+            'today_date': today,
+            'week_num': 1, 'max_week': 12, 'current_week': 1,
+            'selected_day': 'MON', 'selected_day_date': None,
+            'viewing_today': False, 'relative_label': '',
+            'prev_day': None, 'prev_week': None,
+            'next_day': None, 'next_week': None,
+            'warning_cutoff': None, 'due_soon_cutoff': None,
+            'now': timezone.now(),
+        })
     year_str = str(profile.year_of_study)
 
     modules = Module.objects.filter(

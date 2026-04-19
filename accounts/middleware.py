@@ -6,6 +6,10 @@ SETUP_ALLOWED = (
     'accounts:select_modules',
     'accounts:randomise_modules',
     'accounts:logout',
+    'accounts:password_reset',
+    'accounts:password_reset_done',
+    'accounts:password_reset_confirm',
+    'accounts:password_reset_complete',
 )
 
 

@@ -7,6 +7,7 @@ from accounts.utils import (
     auto_enrol_compulsory, update_module_selection,
     generate_timetable_for_user, CREDITS_PER_SEMESTER,
 )
+from timetable.models import TimetableEntry
 
 
 @login_required
@@ -54,6 +55,11 @@ def settings_view(request):
 
         # Re-run auto-enrolment with the updated course/year
         auto_enrol_compulsory(request.user)
+
+        # course/year may have changed — wipe + rebuild timetable so old-course
+        # events don't leak into the new course's grid
+        TimetableEntry.objects.filter(student=request.user).delete()
+        generate_timetable_for_user(request.user)
 
         messages.success(request, 'Settings saved.')
         return redirect('settings_page:settings')

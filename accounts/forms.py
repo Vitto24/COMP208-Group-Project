@@ -17,6 +17,21 @@ class RegistrationForm(UserCreationForm):
     last_name = forms.CharField(max_length=30, required=True)
     email = forms.EmailField(required=True, label="University Email")
 
+    role = forms.ChoiceField(
+        choices=[
+            ('student', 'Student'),
+            ('lecturer', 'Lecturer'),
+            ('admin', 'Administrator'),
+        ],
+        initial='student',
+        label="Account type",
+    )
+    grant_admin_access = forms.BooleanField(
+        required=False,
+        label="Also grant admin access (for testing only)",
+        help_text="Lets a student account log into /admin/ to release their own grades.",
+    )
+
     university = forms.ChoiceField(
         choices=UserProfile.UNIVERSITY_CHOICES,
         initial='uol',
@@ -32,14 +47,15 @@ class RegistrationForm(UserCreationForm):
         min_value=1,
         max_value=4,
         initial=1,
+        required=False,
         label="Year of study",
     )
 
     class Meta:
         model = User
         fields = ['first_name', 'last_name', 'email',
-                  'password1', 'password2', 'university',
-                  'course', 'year_of_study']
+                  'password1', 'password2', 'role', 'grant_admin_access',
+                  'university', 'course', 'year_of_study']
 
     def save(self, commit=True):
         user = super().save(commit=False)

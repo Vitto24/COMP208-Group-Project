@@ -62,9 +62,11 @@ def auto_enrol_compulsory(user):
     student's current year of study. Clears existing course-linked modules
     first so changes to course or year are always reflected.
     """
-    try:
-        profile = user.userprofile
-    except Exception:
+    # fetch fresh from DB — don't trust the reverse-OneToOne cache, which may
+    # have been filled by middleware before the view saved a new course
+    from .models import UserProfile
+    profile = UserProfile.objects.filter(user=user).first()
+    if not profile:
         return
 
     # remove user from all modules linked to any course (clean slate)
@@ -248,6 +250,15 @@ def update_module_selection(user, selected_codes):
     # remove user from current year's modules
     for link in course_links:
         link.module.students.remove(user)
+
+    # also wipe their TimetableEntry rows for those modules — TimetableEntry has
+    # student as a direct FK so M2M removal doesn't cascade and we'd otherwise
+    # leave ghost events for dropped modules
+    from timetable.models import TimetableEntry
+    TimetableEntry.objects.filter(
+        student=user,
+        module__in=[l.module for l in course_links],
+    ).delete()
 
     # always add compulsory modules back
     for link in course_links:

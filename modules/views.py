@@ -15,6 +15,16 @@ def module_list(request):
     current_year = profile.year_of_study if profile else 1
     other_sem = 1 if current_sem == 2 else 2
 
+    if not profile or not profile.course:
+        return render(request, 'modules/module_list.html', {
+            'current_modules': [],
+            'earlier_this_year': [],
+            'past_years': [],
+            'current_year': current_year,
+            'current_sem': current_sem,
+            'other_sem': other_sem,
+        })
+
     enrolled = list(
         Module.objects.filter(students=request.user).order_by('code')
     )

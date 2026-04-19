@@ -20,8 +20,8 @@ class RegisterTest(TestCase):
             'email': 'jane@liverpool.ac.uk',
             'password1': 'TestPass12345',
             'password2': 'TestPass12345',
+            'role': 'student',
             'university': 'uol',
-            'study_level': 'undergraduate',
             'course': self.course.id,
             'year_of_study': 1,
         })
@@ -35,8 +35,8 @@ class RegisterTest(TestCase):
             'email': 'ab@liverpool.ac.uk',
             'password1': 'pass123',
             'password2': 'pass456',
+            'role': 'student',
             'university': 'uol',
-            'study_level': 'undergraduate',
             'year_of_study': 1,
         })
         self.assertFalse(User.objects.filter(email='ab@liverpool.ac.uk').exists())

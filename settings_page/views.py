@@ -3,7 +3,10 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from modules.models import Course, Module, ModuleCourse
 from accounts.models import UserProfile
-from accounts.utils import auto_enrol_compulsory, update_module_selection, CREDITS_PER_SEMESTER
+from accounts.utils import (
+    auto_enrol_compulsory, update_module_selection,
+    generate_timetable_for_user, CREDITS_PER_SEMESTER,
+)
 
 
 @login_required
@@ -165,6 +168,7 @@ def update_modules(request):
 
     success, error = update_module_selection(request.user, selected_codes)
     if success:
+        generate_timetable_for_user(request.user)
         messages.success(request, 'Module selection saved.')
     else:
         messages.error(request, error)

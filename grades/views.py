@@ -252,8 +252,45 @@ def submit_assignment(request, assignment_id):
         grade.save()
 
     if created:
-        messages.success(request, f"Submitted '{assignment.title}'.")
+        messages.success(
+            request,
+            f"✅ '{assignment.title}' submitted. Your mark will appear here once the lecturer releases it.",
+        )
     else:
         messages.info(request, f"Already submitted '{assignment.title}'.")
 
+    return redirect('modules:module_detail', code=assignment.module.code)
+
+
+@login_required
+@require_POST
+def mark_assignment(request, assignment_id):
+    # demo-only: lets a staff user release a grade for themselves from the
+    # module detail page, without going through /admin/. Real grading still
+    # happens through the admin for other students.
+    if not request.user.is_staff:
+        messages.error(request, "You don't have permission to grade assignments.")
+        return redirect('/')
+
+    assignment = get_object_or_404(Assignment, pk=assignment_id)
+
+    try:
+        score = float(request.POST.get('score', '').strip())
+    except ValueError:
+        messages.error(request, 'Please enter a valid score.')
+        return redirect('modules:module_detail', code=assignment.module.code)
+
+    if score < 0 or score > 100:
+        messages.error(request, 'Score must be between 0 and 100.')
+        return redirect('modules:module_detail', code=assignment.module.code)
+
+    grade, _ = Grade.objects.get_or_create(
+        student=request.user, assignment=assignment,
+        defaults={'score': score, 'status': 'graded'},
+    )
+    grade.score = score
+    grade.status = 'graded'
+    grade.save()
+
+    messages.success(request, f"Released a grade of {score:g}% for '{assignment.title}'.")
     return redirect('modules:module_detail', code=assignment.module.code)

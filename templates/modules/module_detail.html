@@ -68,9 +68,18 @@
                     <td>{{ row.assignment.due_date|date:"D d M Y" }}</td>
                     <td>
                         {% if row.status == 'upcoming' or row.status == 'missing' %}
-                            <form method="post" action="{% url 'grades:submit_assignment' row.assignment.id %}" style="display: inline;">
+                            <form method="post" action="{% url 'grades:submit_assignment' row.assignment.id %}" style="display: inline;"
+                                  onsubmit="return confirm('Submit {{ row.assignment.title|escapejs }}? You can\'t un-submit from this screen.');">
                                 {% csrf_token %}
                                 <button type="submit" class="btn btn-small">Submit</button>
+                            </form>
+                        {% endif %}
+                        {% if request.user.is_staff and row.status != 'graded' %}
+                            <form method="post" action="{% url 'grades:mark_assignment' row.assignment.id %}" style="display: inline; margin-left: 6px;">
+                                {% csrf_token %}
+                                <input type="number" name="score" min="0" max="100" step="0.1" placeholder="Mark" required
+                                       style="width: 64px; padding: 4px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #e2e8f0;" />
+                                <button type="submit" class="btn btn-secondary btn-small" title="Admin-only: release a score for this assignment">Mark</button>
                             </form>
                         {% endif %}
                     </td>

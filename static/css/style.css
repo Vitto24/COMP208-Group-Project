@@ -1576,6 +1576,16 @@ details[open] > .past-sem-summary .dropdown-arrow {
     font-size: 14px;
 }
 
+.form-messages .info {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #1d4ed8;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
 /* Hover + transition polish */
 .btn, .btn-secondary {
     transition: background 0.15s ease;

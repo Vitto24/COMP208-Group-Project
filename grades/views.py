@@ -284,6 +284,9 @@ def mark_assignment(request, assignment_id):
         messages.error(request, 'Score must be between 0 and 100.')
         return redirect('modules:module_detail', code=assignment.module.code)
 
+    # also record the submission so the audit trail matches the student-submit path
+    Submission.objects.get_or_create(student=request.user, assignment=assignment)
+
     grade, _ = Grade.objects.get_or_create(
         student=request.user, assignment=assignment,
         defaults={'score': score, 'status': 'graded'},

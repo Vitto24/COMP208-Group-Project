@@ -23,6 +23,9 @@ class TimetableEntry(models.Model):
 
     class Meta:
         ordering = ['day', 'start_time']
+        indexes = [
+            models.Index(fields=['student', 'semester']),
+        ]
 
     def __str__(self):
         return f"{self.module.code} — {self.get_day_display()} {self.start_time}"

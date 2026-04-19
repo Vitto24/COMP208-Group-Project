@@ -15,6 +15,11 @@ class Assignment(models.Model):
     type = models.CharField(max_length=20, choices=TYPE_CHOICES)
     due_date = models.DateField(null=True, blank=True)
 
+    class Meta:
+        indexes = [
+            models.Index(fields=['module', 'due_date']),
+        ]
+
     def __str__(self):
         return f"{self.module.code} — {self.title} ({self.weight}%)"
 
@@ -30,6 +35,11 @@ class Grade(models.Model):
     assignment = models.ForeignKey(Assignment, on_delete=models.CASCADE, related_name='grades')
     score = models.DecimalField(max_digits=5, decimal_places=1, null=True, blank=True)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='not_submitted')
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['student', 'assignment']),
+        ]
 
     def __str__(self):
         return f"{self.student.username} — {self.assignment.title}: {self.score}"

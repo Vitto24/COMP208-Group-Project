@@ -209,6 +209,19 @@ body {
     font-weight: 700;
 }
 
+.about-team {
+    margin-top: 32px;
+}
+
+.team-list {
+    margin: 8px 0 0 20px;
+    color: #475569;
+}
+
+.team-list li {
+    padding: 2px 0;
+}
+
 .semester-info {
     color: #64748b;
     font-size: 14px;
@@ -581,6 +594,134 @@ details[open] > .week-summary .dropdown-arrow {
     border: 1px solid #e2e8f0;
 }
 
+.btn-small {
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.tt-export {
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.initial-setup-note {
+    background: #fef3c7;
+    border-left: 3px solid #d97706;
+    color: #92400e;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin: 0 0 16px;
+    font-size: 14px;
+}
+
+.randomise-grades {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #334155;
+    cursor: pointer;
+}
+
+.randomise-grades input[type="checkbox"] {
+    margin: 0;
+}
+
+/* status pills (shared between grades and module detail) */
+.status-pill {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.status-graded { background: #e6ffed; color: #16a34a; }
+.status-submitted { background: #dbeafe; color: #1d4ed8; }
+.status-missing { background: #ffeef0; color: #cb2431; }
+.status-upcoming { background: #fffbeb; color: #d97706; }
+
+.deadline-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-subtitle {
+    color: #94a3b8;
+    font-size: 13px;
+    margin: -6px 0 12px;
+}
+
+.muted {
+    color: #94a3b8;
+}
+
+.past-year-block {
+    margin-bottom: 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.past-year-summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 20px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.past-year-summary::-webkit-details-marker { display: none; }
+
+.past-sem-block {
+    border-top: 1px solid #f1f5f9;
+}
+
+.past-sem-summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px 10px 44px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #fafafa;
+}
+
+.past-sem-summary::-webkit-details-marker { display: none; }
+
+.past-sem-block .module-row {
+    padding: 12px 20px 18px;
+}
+
+.past-year-summary .dropdown-arrow,
+.past-sem-summary .dropdown-arrow {
+    color: #94a3b8;
+    font-size: 11px;
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease;
+}
+
+details[open] > .past-year-summary .dropdown-arrow,
+details[open] > .past-sem-summary .dropdown-arrow {
+    transform: rotate(90deg);
+}
+
 .btn-secondary:hover {
     background: #f1f5f9;
 }
@@ -794,8 +935,14 @@ details[open] > .week-summary .dropdown-arrow {
 /* Event cards */
 .event-card {
     border-radius: 5px;
-    padding: 3px 5px;
+    padding: 4px 6px 4px 9px;
     font-size: 11px;
+    border-left: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 38px;
+    box-sizing: border-box;
 }
 
 .event-code {
@@ -814,17 +961,17 @@ details[open] > .week-summary .dropdown-arrow {
     text-transform: uppercase;
 }
 
-.event-lecture { background: #eff6ff; }
-.event-lecture .event-code { color: #2563eb; }
+.event-lecture { background: #bfdbfe; border-left-color: #1d4ed8; }
+.event-lecture .event-code { color: #1e3a8a; }
 
-.event-dropin { background: #faf5ff; }
-.event-dropin .event-code { color: #7c3aed; }
+.event-dropin { background: #ddd6fe; border-left-color: #6d28d9; }
+.event-dropin .event-code { color: #5b21b6; }
 
-.event-lab { background: #f0fdf4; }
-.event-lab .event-code { color: #16a34a; }
+.event-lab { background: #bbf7d0; border-left-color: #15803d; }
+.event-lab .event-code { color: #166534; }
 
-.event-seminar { background: #fffbeb; }
-.event-seminar .event-code { color: #d97706; }
+.event-seminar { background: #fde68a; border-left-color: #b45309; }
+.event-seminar .event-code { color: #92400e; }
 
 /* Legend */
 .legend-items {
@@ -840,6 +987,7 @@ details[open] > .week-summary .dropdown-arrow {
     display: flex;
     align-items: center;
     gap: 6px;
+    white-space: nowrap;
 }
 
 .legend-dot {
@@ -880,8 +1028,9 @@ details[open] > .week-summary .dropdown-arrow {
 }
 
 .day-rel {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #64748b;
 }
 
 .deadlines-card .bottom-heading {

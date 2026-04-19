@@ -1,0 +1,11 @@
+{% load module_filters %}
+<a href="{% url 'modules:module_detail' module.code %}" class="module-card">
+    <div class="card-header">
+        <div class="header-text">
+            <span class="module-code">{{ module.code }}</span>
+            <span class="module-credits">{{ module.credits }} credits</span>
+        </div>
+        <span class="module-icon">{{ module.code|module_icon }}</span>
+    </div>
+    <h3 class="module-name">{{ module.name|smart_title }}</h3>
+</a>

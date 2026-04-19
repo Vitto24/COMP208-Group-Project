@@ -47,10 +47,6 @@ def settings_view(request):
         if university in dict(profile.UNIVERSITY_CHOICES):
             profile.university = university
 
-        study_level = request.POST.get('study_level', 'undergraduate')
-        if study_level in dict(profile.STUDY_LEVEL_CHOICES):
-            profile.study_level = study_level
-
         profile.save()
 
         # Re-run auto-enrolment with the updated course/year
@@ -59,7 +55,9 @@ def settings_view(request):
         messages.success(request, 'Settings saved.')
         return redirect('settings_page:settings')
 
-    courses = Course.objects.all().order_by('name')
+    courses = Course.objects.exclude(
+        name__iregex=r'\b(MSc|MRes|MPhil|PhD)\b'
+    ).order_by('name')
 
     # build module selection data for ALL years
     year_data = _build_year_data(request.user, profile)

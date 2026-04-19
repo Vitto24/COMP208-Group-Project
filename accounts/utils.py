@@ -1,3 +1,4 @@
+import datetime
 import random
 from modules.models import Module, ModuleCourse
 
@@ -275,3 +276,101 @@ def update_module_selection(user, selected_codes):
             return False, f'Year {year_str} Semester {semester} has {total_credits} credits — must be {CREDITS_PER_SEMESTER}.'
 
     return True, None
+
+
+def finalise_registration(user, selected_codes):
+    """Apply module selection across every year up to the student's current year.
+
+    Used only during the initial sign-up flow so a Y2+ student can backfill
+    their earlier years before landing on the dashboard. Returns (success, error).
+    """
+    try:
+        profile = user.userprofile
+    except Exception:
+        return False, 'No user profile found.'
+
+    if not profile.course:
+        return False, 'No course selected.'
+
+    selected_set = set(selected_codes)
+
+    # wipe course-linked enrolments so we rebuild from scratch
+    course_modules = Module.objects.filter(module_courses__course=profile.course).distinct()
+    for mod in course_modules:
+        mod.students.remove(user)
+
+    years = list(range(1, profile.year_of_study + 1))
+
+    for year_num in years:
+        year_str = str(year_num)
+        links = ModuleCourse.objects.filter(
+            course=profile.course, year=year_str,
+        ).select_related('module')
+
+        for link in links:
+            if link.is_compulsory:
+                link.module.students.add(user)
+            elif link.module.code in selected_set:
+                link.module.students.add(user)
+
+        # validate each semester for every year
+        for semester in [1, 2]:
+            enrolled = Module.objects.filter(
+                students=user,
+                semester=semester,
+                module_courses__course=profile.course,
+                module_courses__year=year_str,
+            ).distinct()
+
+            total_credits = sum(m.credits for m in enrolled)
+
+            semester_links = [l for l in links if l.module.semester == semester]
+            if semester_links and total_credits != CREDITS_PER_SEMESTER:
+                return False, (
+                    f'Year {year_str} Semester {semester} has {total_credits} credits '
+                    f'— must be {CREDITS_PER_SEMESTER}.'
+                )
+
+    return True, None
+
+
+def randomise_prior_year_grades(user):
+    """Fill sample grades for every assignment the student took in past years.
+
+    Only touches years below the student's current year. Uses the same gaussian
+    distribution as generate_sample_data so the numbers look realistic.
+    """
+    from grades.models import Assignment, Grade  # local import to avoid a cycle
+
+    try:
+        profile = user.userprofile
+    except Exception:
+        return
+
+    if not profile.course or profile.year_of_study <= 1:
+        return
+
+    prior_year_strs = [str(y) for y in range(1, profile.year_of_study)]
+
+    prior_modules = Module.objects.filter(
+        students=user,
+        module_courses__course=profile.course,
+        module_courses__year__in=prior_year_strs,
+    ).distinct()
+
+    today = datetime.date.today()
+    for module in prior_modules:
+        for assignment in Assignment.objects.filter(module=module):
+            # don't overwrite existing marks
+            if Grade.objects.filter(student=user, assignment=assignment).exists():
+                continue
+
+            # only fake-mark past-dated assignments, leave future ones alone
+            if assignment.due_date and assignment.due_date > today:
+                continue
+
+            score = round(max(30, min(95, random.gauss(65, 12))), 1)
+            Grade.objects.create(
+                student=user, assignment=assignment,
+                score=score, status='graded',
+            )

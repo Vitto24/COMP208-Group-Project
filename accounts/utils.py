@@ -334,6 +334,70 @@ def finalise_registration(user, selected_codes):
     return True, None
 
 
+def generate_timetable_for_user(user):
+    """Give a freshly registered student timetable entries for every module they're in.
+
+    For modules that already have a schedule (another student is enrolled), copy
+    theirs so everyone on the module sees the same classes. If the module has no
+    entries yet, fabricate a small 3-event schedule so the timetable isn't blank.
+    """
+    from timetable.models import TimetableEntry
+
+    days = ['MON', 'TUE', 'WED', 'THU', 'FRI']
+    rooms = [
+        'Central Teaching Hub - LT1',
+        'Central Teaching Hub - LT2',
+        'Ashton Lecture Theatre',
+        'Rendall Building - LT1',
+        'George Holt Building - Room 101',
+    ]
+
+    for module in Module.objects.filter(students=user):
+        # skip modules the user already has entries for
+        if TimetableEntry.objects.filter(student=user, module=module).exists():
+            continue
+
+        # copy an existing student's schedule if one exists
+        reference = (
+            TimetableEntry.objects
+            .filter(module=module)
+            .exclude(student=user)
+            .first()
+        )
+        if reference:
+            ref_entries = TimetableEntry.objects.filter(
+                module=module, student=reference.student,
+            )
+            for ref in ref_entries:
+                TimetableEntry.objects.create(
+                    student=user, module=module,
+                    day=ref.day, start_time=ref.start_time, end_time=ref.end_time,
+                    room=ref.room, event_type=ref.event_type,
+                    semester=ref.semester, weeks=ref.weeks,
+                )
+            continue
+
+        # no reference — fabricate a small schedule
+        # deterministic per module code so re-running doesn't shuffle slots
+        h = sum(ord(c) for c in module.code)
+        events = [
+            ('Lecture', days[h % 5], 9 + (h % 7)),
+            ('Lecture', days[(h + 2) % 5], 10 + ((h + 3) % 6)),
+            ('Tutorial', days[(h + 4) % 5], 13 + ((h + 5) % 4)),
+        ]
+        for event_type, day, hour in events:
+            TimetableEntry.objects.create(
+                student=user, module=module,
+                day=day,
+                start_time=datetime.time(hour, 0),
+                end_time=datetime.time(hour + 1, 0),
+                room=rooms[h % len(rooms)],
+                event_type=event_type,
+                semester=module.semester,
+                weeks='1-12',
+            )
+
+
 def randomise_prior_year_grades(user):
     """Fill sample grades for every assignment the student took in past years.
 

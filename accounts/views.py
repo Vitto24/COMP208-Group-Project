@@ -8,7 +8,8 @@ from .models import UserProfile
 from .utils import (
     enrol_compulsory_only, randomise_optional_modules,
     update_module_selection, finalise_registration,
-    randomise_prior_year_grades, CREDITS_PER_SEMESTER,
+    randomise_prior_year_grades, generate_timetable_for_user,
+    CREDITS_PER_SEMESTER,
 )
 from modules.models import Module, ModuleCourse
 
@@ -58,6 +59,7 @@ def select_modules(request):
             if success:
                 if request.POST.get('randomise_grades'):
                     randomise_prior_year_grades(request.user)
+                generate_timetable_for_user(request.user)
                 profile.registration_complete = True
                 profile.save()
                 messages.success(request, 'Welcome to Uni Tracker!')
@@ -67,6 +69,7 @@ def select_modules(request):
         else:
             success, error = update_module_selection(request.user, selected_codes)
             if success:
+                generate_timetable_for_user(request.user)
                 return redirect('/')
             else:
                 messages.error(request, error)

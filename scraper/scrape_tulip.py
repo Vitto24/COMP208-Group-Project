@@ -114,6 +114,7 @@ def parse_assessment(tables: list[Tag]) -> list[dict]:
         # Try to extract the title from parenthesized prefix like "(219.2) Assignment 2"
         title_match = re.search(r"\)\s*(.+?)(?:\s+There|\s+Standard|\.|$)", details)
         title = title_match.group(1).strip().replace("\r", " ") if title_match else form
+        title = title.lstrip(":").strip()
 
         # Normalize form to type
         form_lower = form.lower()

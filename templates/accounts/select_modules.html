@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load module_filters %}
 
 {% block title %}Choose Your Modules — Uni Tracker{% endblock %}
 {% block page_title %}Choose Your Modules{% endblock %}
@@ -21,6 +22,12 @@
             <button type="submit" class="btn btn-secondary">Randomise All</button>
         </form>
     </div>
+
+    {% if initial_setup and profile.year_of_study > 1 %}
+    <p class="initial-setup-note">
+        You're signing up as a Year {{ profile.year_of_study }} student — please pick modules for every year up to and including this one.
+    </p>
+    {% endif %}
 
     <form method="post">
         {% csrf_token %}
@@ -47,7 +54,7 @@
                            checked disabled />
                     <input type="hidden" name="modules" value="{{ mod.code }}" />
                     <span class="module-select-code">{{ mod.code }}</span>
-                    <span class="module-select-name">{{ mod.name }} (Compulsory)</span>
+                    <span class="module-select-name">{{ mod.name|smart_title }} (Compulsory)</span>
                     <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
                 </label>
                 {% endfor %}
@@ -61,7 +68,7 @@
                            data-semester="{{ sem.semester }}"
                            onchange="updateCredits({{ year.year }}, {{ sem.semester }})" />
                     <span class="module-select-code">{{ mod.code }}</span>
-                    <span class="module-select-name">{{ mod.name }}</span>
+                    <span class="module-select-name">{{ mod.name|smart_title }}</span>
                     <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
                 </label>
                 {% endfor %}
@@ -69,6 +76,13 @@
         </details>
         {% endfor %}
         {% endfor %}
+
+        {% if initial_setup and profile.year_of_study > 1 %}
+        <label class="randomise-grades">
+            <input type="checkbox" name="randomise_grades" checked />
+            Fill in sample grades for my past years
+        </label>
+        {% endif %}
 
         <button type="submit" class="btn" style="margin-top: 16px;" id="save-modules-btn">
             Continue to Dashboard &rarr;

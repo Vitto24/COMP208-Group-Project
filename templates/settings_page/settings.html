@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load module_filters %}
 
 {% block title %}Settings — Uni Tracker{% endblock %}
 {% block page_title %}Settings{% endblock %}
@@ -49,18 +50,6 @@
                 {% for value, label in profile.UNIVERSITY_CHOICES %}
                 <option value="{{ value }}"
                     {% if profile.university == value %}selected{% endif %}>
-                    {{ label }}
-                </option>
-                {% endfor %}
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label for="study_level">Study Level</label>
-            <select id="study_level" name="study_level">
-                {% for value, label in profile.STUDY_LEVEL_CHOICES %}
-                <option value="{{ value }}"
-                    {% if profile.study_level == value %}selected{% endif %}>
                     {{ label }}
                 </option>
                 {% endfor %}
@@ -127,7 +116,7 @@
                     <input type="hidden" name="modules" value="{{ mod.code }}" />
                     {% endif %}
                     <span class="module-select-code">{{ mod.code }}</span>
-                    <span class="module-select-name">{{ mod.name }} (Compulsory)</span>
+                    <span class="module-select-name">{{ mod.name|smart_title }} (Compulsory)</span>
                     <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
                 </label>
                 {% endfor %}
@@ -146,7 +135,7 @@
                     <input type="checkbox" {% if mod.enrolled %}checked{% endif %} disabled />
                     {% endif %}
                     <span class="module-select-code">{{ mod.code }}</span>
-                    <span class="module-select-name">{{ mod.name }}</span>
+                    <span class="module-select-name">{{ mod.name|smart_title }}</span>
                     <span class="module-select-credits">{{ mod.credits|floatformat:"-1" }} Credits</span>
                 </label>
                 {% endfor %}
@@ -157,6 +146,22 @@
 
         <button type="submit" class="btn" style="margin-top: 16px;" id="save-modules-btn">Save Module Selection</button>
     </form>
+</section>
+
+<section class="section about-team">
+    <h2>About</h2>
+    <p>
+        Uni Tracker was built for COMP208 Group Software Project (2025/26) at the
+        University of Liverpool by <strong>Team 1</strong>:
+    </p>
+    <ul class="team-list">
+        <li>Tyr Bujac</li>
+        <li>Samuel Garwood</li>
+        <li>Owen Wells</li>
+        <li>Jamal Ahmed</li>
+        <li>Daniel Greslow</li>
+        <li>Vittorio Gastaldi</li>
+    </ul>
 </section>
 
 <script>

@@ -22,13 +22,9 @@ class RegistrationForm(UserCreationForm):
         initial='uol',
         label="University",
     )
-    study_level = forms.ChoiceField(
-        choices=UserProfile.STUDY_LEVEL_CHOICES,
-        initial='undergraduate',
-        label="Study Level",
-    )
+    # postgrad programmes (MSc/MRes/PhD/MPhil) aren't supported in the MVP — hide them
     course = forms.ModelChoiceField(
-        queryset=Course.objects.all(),
+        queryset=Course.objects.exclude(name__iregex=r'\b(MSc|MRes|MPhil|PhD)\b'),
         required=False,
         empty_label="-- Select your course --",
     )
@@ -42,7 +38,7 @@ class RegistrationForm(UserCreationForm):
     class Meta:
         model = User
         fields = ['first_name', 'last_name', 'email',
-                  'password1', 'password2', 'university', 'study_level',
+                  'password1', 'password2', 'university',
                   'course', 'year_of_study']
 
     def save(self, commit=True):

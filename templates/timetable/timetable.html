@@ -74,6 +74,7 @@
             <span class="legend-item"><span class="legend-dot dot-dropin"></span> Drop-in</span>
             <span class="legend-item"><span class="legend-dot dot-lab"></span> Lab / Tutorial</span>
             <span class="legend-item"><span class="legend-dot dot-seminar"></span> Seminar</span>
+            <a href="{% url 'timetable:export_ical' %}" class="btn btn-secondary btn-small tt-export">📅 Export</a>
         </div>
     </div>
 </div>
@@ -122,13 +123,16 @@
     <div class="deadlines-card">
         <h2 class="bottom-heading">Upcoming Deadlines</h2>
         <div class="card">
-            {% for deadline in deadlines %}
+            {% for row in deadline_rows %}
             <div class="deadline-item">
                 <div>
-                    <strong>{{ deadline.module.code }}</strong>
-                    &nbsp; {{ deadline.title }}
+                    <strong>{{ row.assignment.module.code }}</strong>
+                    &nbsp; {{ row.assignment.title }}
                 </div>
-                <div class="deadline-date">{{ deadline.due_date|date:"D j M" }}</div>
+                <div class="deadline-right">
+                    <span class="status-pill {{ row.pill_class }}">{{ row.pill_label }}</span>
+                    <span class="deadline-date">{{ row.assignment.due_date|date:"D j M" }}</span>
+                </div>
             </div>
             {% empty %}
             <p class="today-subtext">No upcoming deadlines.</p>

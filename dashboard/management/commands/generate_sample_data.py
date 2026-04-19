@@ -21,9 +21,11 @@ import datetime
 from django.core.management.base import BaseCommand
 from django.contrib.auth.models import User
 
-from modules.models import Module, ModuleCourse, Week, Material
+from modules.models import Module, ModuleCourse, Course, Week, Material
 from grades.models import Assignment, Grade
 from timetable.models import TimetableEntry
+from accounts.models import UserProfile
+from accounts.utils import auto_enrol_compulsory
 
 
 # ── Path to scraper JSONs ──────────────────────────────────────────────
@@ -117,6 +119,9 @@ class Command(BaseCommand):
 
         self.stdout.write(f'Assignments: {assignment_count} new')
 
+        # ── Step 1.5: Seed the two canonical demo students ─────────────
+        self._create_demo_students()
+
         # ── Step 2: Create grades for enrolled students ────────────────
         modules_with_students = Module.objects.filter(students__isnull=False).distinct()
         self.stdout.write(f'Found {modules_with_students.count()} modules with enrolled students')
@@ -126,6 +131,9 @@ class Command(BaseCommand):
             students = list(module.students.all())
             g = self._create_grades(module, students)
             grade_count += g
+
+        # tune the demo accounts so they have clearly different stories
+        self._tune_demo_grades()
 
         # ── Step 3: Generate timetable (clash-free by year/sem group) ──
         timetable_count = self._generate_all_timetables(modules_with_students)
@@ -182,6 +190,25 @@ class Command(BaseCommand):
         assessments = scraper_data.get(module.code, {}).get('assessment', [])
         if not assessments:
             assessments = self._generate_generic_assessments()
+
+        # clean up scraper leftovers: stray ":" prefix in titles
+        for a in assessments:
+            raw_title = a.get('title', '') or ''
+            a['title'] = raw_title.lstrip(':').strip() or a.get('type', 'Assessment').title()
+
+        # suffix duplicate titles within the same module so get_or_create doesn't merge them
+        seen_titles = {}
+        for a in assessments:
+            t = a['title']
+            seen_titles[t] = seen_titles.get(t, 0) + 1
+            if seen_titles[t] > 1:
+                a['title'] = f"{t} ({seen_titles[t]})"
+
+        # scale weights so every module's assignments add up to 100
+        total_weight = sum(a.get('weight', 0) for a in assessments)
+        if total_weight and total_weight != 100:
+            for a in assessments:
+                a['weight'] = round(a.get('weight', 0) * 100 / total_weight, 1)
 
         # map scraper types and split into coursework/exams
         coursework = []
@@ -426,6 +453,81 @@ class Command(BaseCommand):
             ],
         ]
         return random.choice(templates)
+
+    # ──────────────────────────────────────────────────────────────────
+    # DEMO STUDENTS (for the walk-through video)
+    # ──────────────────────────────────────────────────────────────────
+
+    DEMO_ACCOUNTS = [
+        # username, email, first name, last name, year, tag
+        ('demo_pass', 'demo.pass@liverpool.ac.uk', 'Demo', 'Passing', 2, 'pass'),
+        ('demo_late', 'demo.late@liverpool.ac.uk', 'Demo', 'LateHand-In', 2, 'late'),
+    ]
+    DEMO_PASSWORD = 'uol-demo-2026'
+
+    def _create_demo_students(self):
+        # pick the Computer Science BSc course if it exists, else the first course
+        course = Course.objects.filter(name__icontains='Computer Science BSc').first()
+        if not course:
+            course = Course.objects.first()
+        if not course:
+            self.stdout.write(self.style.WARNING('No courses in DB — skipping demo students'))
+            return
+
+        for username, email, fname, lname, year, _tag in self.DEMO_ACCOUNTS:
+            user, created = User.objects.get_or_create(
+                username=username,
+                defaults={
+                    'email': email,
+                    'first_name': fname,
+                    'last_name': lname,
+                },
+            )
+            if created:
+                user.set_password(self.DEMO_PASSWORD)
+                user.save()
+
+            profile, _ = UserProfile.objects.get_or_create(user=user)
+            profile.course = course
+            profile.year_of_study = year
+            profile.save()
+
+            auto_enrol_compulsory(user)
+            self.stdout.write(f'  Demo user {username} enrolled in {course.name} (Y{year})')
+
+    def _tune_demo_grades(self):
+        # demo_pass: nudge scores up, clear any stray missing
+        pass_user = User.objects.filter(username='demo_pass').first()
+        if pass_user:
+            for g in Grade.objects.filter(student=pass_user):
+                if g.assignment.due_date and g.assignment.due_date <= datetime.date.today():
+                    if g.status != 'graded' or g.score is None:
+                        g.status = 'graded'
+                        g.score = round(random.uniform(62, 78), 1)
+                    else:
+                        # keep variance but bump the floor up
+                        g.score = round(max(float(g.score), random.uniform(60, 78)), 1)
+                    g.save()
+
+        # demo_late: mark 3 past coursework assignments as missing, lower other scores
+        late_user = User.objects.filter(username='demo_late').first()
+        if late_user:
+            past_cw = list(Grade.objects.filter(
+                student=late_user,
+                assignment__type='coursework',
+                assignment__due_date__lte=datetime.date.today(),
+            ).order_by('assignment__due_date'))
+
+            for g in past_cw[:3]:
+                g.status = 'not_submitted'
+                g.score = None
+                g.save()
+
+            for g in past_cw[3:]:
+                if g.score is not None:
+                    g.score = round(min(float(g.score), random.uniform(40, 58)), 1)
+                    g.status = 'graded'
+                    g.save()
 
     # ──────────────────────────────────────────────────────────────────
     # TIMETABLE GENERATION (clash-free)

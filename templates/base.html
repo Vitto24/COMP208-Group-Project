@@ -132,8 +132,11 @@
             e.preventDefault();
             if (details.open) {
                 body.style.maxHeight = body.scrollHeight + 'px';
+                // double RAF so the browser commits the fixed height before we change it
                 requestAnimationFrame(function() {
-                    body.style.maxHeight = '0';
+                    requestAnimationFrame(function() {
+                        body.style.maxHeight = '0';
+                    });
                 });
                 body.addEventListener('transitionend', function handler(ev) {
                     if (ev.propertyName !== 'max-height' || ev.target !== body) return;

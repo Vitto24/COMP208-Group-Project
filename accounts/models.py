@@ -46,6 +46,8 @@ class UserProfile(models.Model):
     course = models.ForeignKey(Course, null=True, blank=True, on_delete=models.SET_NULL)
     year_of_study = models.IntegerField(default=1)
     student_id = models.CharField(max_length=10, unique=True, blank=True)
+    # set to False on fresh registration until the student finishes the module picker
+    registration_complete = models.BooleanField(default=True)
 
     def save(self, *args, **kwargs):
         # Auto-generate a student ID on first save if not already set

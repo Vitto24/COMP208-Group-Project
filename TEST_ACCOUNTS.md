@@ -4,11 +4,17 @@ Live demo: https://unitracker.pythonanywhere.com/
 
 Use these to log in and test the app without registering.
 
-| Name         | University Email       | Password     | Course                | Year | Role              |
-|--------------|------------------------|--------------|-----------------------|------|-------------------|
-| Test Student | test@liverpool.ac.uk   | testpass123  | Computer Science BSc  | 1    | Student           |
-| Jane Smith   | jane@liverpool.ac.uk   | testpass123  | Computer Science MEng | 2    | Student           |
-| Admin        | admin@liverpool.ac.uk  | adminpass123 | —                     | —    | Staff (superuser) |
+| Name           | University Email         | Password         | Course                | Year | Role              |
+|----------------|--------------------------|------------------|-----------------------|------|-------------------|
+| Demo (passing) | demo.pass@liverpool.ac.uk| uol-demo-2026    | Computer Science BSc  | 2    | Student           |
+| Demo (late)    | demo.late@liverpool.ac.uk| uol-demo-2026    | Computer Science BSc  | 2    | Student           |
+| Test Student   | test@liverpool.ac.uk     | testpass123      | Computer Science BSc  | 1    | Student           |
+| Jane Smith     | jane@liverpool.ac.uk     | testpass123      | Computer Science MEng | 2    | Student           |
+| Admin          | admin@liverpool.ac.uk    | adminpass123     | —                     | —    | Staff (superuser) |
+
+The two **Demo** accounts are seeded automatically by `python manage.py generate_sample_data`:
+- `demo.pass` — all caught up, ~70% average — good state for the happy-path walk-through.
+- `demo.late` — several Missing assignments, ~50% average — shows the warning pills and lower degree projection.
 
 ## How to create them
 

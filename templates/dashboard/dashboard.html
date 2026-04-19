@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load module_filters %}
 
 {% block title %}Dashboard — Uni Tracker{% endblock %}
 {% block nav_dashboard %}active{% endblock %}
@@ -15,16 +16,9 @@
                     <span class="module-code">{{ module.code }}</span>
                     <span class="module-credits">{{ module.credits }} credits</span>
                 </div>
-                <span class="module-icon">
-                    {% if module.code == 'COMP202' %}📊
-                    {% elif module.code == 'COMP208' %}🔎
-                    {% elif module.code == 'COMP284' %}💻
-                    {% elif module.code == 'COMP285' %}⚙️
-                    {% elif module.code == 'ULMS254' %}💡
-                    {% else %}{% cycle '📘' '📗' '📕' '📙' '📒' '📓' %}{% endif %}
-                </span>
+                <span class="module-icon">{{ module.code|module_icon }}</span>
             </div>
-            <h3 class="module-name">{{ module.name }}</h3>
+            <h3 class="module-name">{{ module.name|smart_title }}</h3>
             
             {% for assignment in assignments %}
                 {% if assignment.module == module and assignment.due_date <= warning_cutoff %}
@@ -42,44 +36,26 @@
     <h2 class="section-title">Upcoming Deadlines</h2>
     
     <div class="deadline-container">
-        
-        {% for assignment in assignments %}
+
+        {% for row in deadline_rows %}
         <div class="deadline-item">
-            
+
             <div class="deadline-info">
-                {% if assignment.due_date <= warning_cutoff %}
-                    <span class = "warning-icon text-red">🔴</span>
-                {% elif assignment.due_date <= due_soon_cutoff %}
-                    <span class="warning-icon text-amber">⚠️</span>
-                {% else %}
-                    <span class="icon-spacer"></span>
-                {% endif %}
-                <a href="{% url 'modules:module_detail' assignment.module.code %}" class="deadline-link">
-                    <span class="deadline-module-code">{{ assignment.module.code }}</span>
-                    <span class="deadline-title">{{ assignment.title }}</span>
+                <a href="{% url 'modules:module_detail' row.assignment.module.code %}" class="deadline-link">
+                    <span class="deadline-module-code">{{ row.assignment.module.code }}</span>
+                    <span class="deadline-title">{{ row.assignment.title }}</span>
                 </a>
             </div>
-            
-            {% if assignment.due_date %}
-                {% if assignment.due_date <= warning_cutoff %}
-                    <div class="deadline-date text-red">
-                        {{ assignment.due_date|date:"D d M" }}
-                    </div>
-                {% elif assignment.due_date <= due_soon_cutoff%}
-                    <div class="deadline-date text-amber">
-                        {{ assignment.due_date|date:"D d M" }}
-                    </div>
+
+            <div class="deadline-right">
+                <span class="status-pill {{ row.pill_class }}">{{ row.pill_label }}</span>
+                {% if row.assignment.due_date %}
+                    <span class="deadline-date">{{ row.assignment.due_date|date:"D d M" }}</span>
                 {% else %}
-                    <div class="deadline-date">
-                        {{ assignment.due_date|date:"D d M" }}
-                    </div>
+                    <span class="deadline-date">TBC</span>
                 {% endif %}
-            {% else %}
-                <div class="deadline-date">
-                    TBC
-                </div>
-            {% endif %}
-            
+            </div>
+
         </div>
         {% empty %}
         <div class="empty-deadlines">No upcoming deadlines!</div>
@@ -109,7 +85,22 @@
     <div class="dash-tt-wrapper card">
         <!-- Left: Today's events -->
         <div class="dash-tt-today">
-            <h3 class="dash-tt-today-title">Today ({{ today_date|date:"D j" }}{{ today_date|date:"S" }})</h3>
+            <div class="day-nav">
+                {% if prev_day %}
+                    <a href="?week={{ prev_week }}&day={{ prev_day }}" class="week-arrow">&lsaquo;</a>
+                {% else %}
+                    <span class="week-arrow week-arrow-disabled">&lsaquo;</span>
+                {% endif %}
+                <h3 class="dash-tt-today-title bottom-heading">
+                    {{ selected_day_date|date:"D jS" }}
+                    {% if relative_label %}<span class="day-rel">({{ relative_label }})</span>{% endif %}
+                </h3>
+                {% if next_day %}
+                    <a href="?week={{ next_week }}&day={{ next_day }}" class="week-arrow">&rsaquo;</a>
+                {% else %}
+                    <span class="week-arrow week-arrow-disabled">&rsaquo;</span>
+                {% endif %}
+            </div>
             {% for item in today_entries %}
             <div class="dash-tt-event dash-tt-{{ item.status }}">
                 <span class="dash-tt-icon">
@@ -122,7 +113,7 @@
                 </div>
             </div>
             {% empty %}
-            <p class="today-subtext">No classes today</p>
+            <p class="today-subtext">{% if viewing_today %}No classes today{% else %}No classes on this day{% endif %}</p>
             {% endfor %}
         </div>
 

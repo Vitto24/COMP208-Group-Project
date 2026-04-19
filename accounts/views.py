@@ -7,7 +7,8 @@ from .forms import RegistrationForm, EmailLoginForm
 from .models import UserProfile
 from .utils import (
     enrol_compulsory_only, randomise_optional_modules,
-    update_module_selection, CREDITS_PER_SEMESTER,
+    update_module_selection, finalise_registration,
+    randomise_prior_year_grades, CREDITS_PER_SEMESTER,
 )
 from modules.models import Module, ModuleCourse
 
@@ -25,7 +26,7 @@ def register(request):
                 course=form.cleaned_data.get('course'),
                 year_of_study=form.cleaned_data.get('year_of_study', 1),
                 university=form.cleaned_data.get('university', 'uol'),
-                study_level=form.cleaned_data.get('study_level', 'undergraduate'),
+                registration_complete=False,
             )
             # Only enrol compulsory modules — user picks optionals next
             enrol_compulsory_only(user)
@@ -46,21 +47,37 @@ def register(request):
 def select_modules(request):
     """Module selection page shown after registration (or accessible anytime)."""
     profile = request.user.userprofile
+    initial_setup = not profile.registration_complete
 
     if request.method == 'POST':
         selected_codes = request.POST.getlist('modules')
-        success, error = update_module_selection(request.user, selected_codes)
-        if success:
-            return redirect('/')
+
+        if initial_setup:
+            # during initial setup the student picks modules for every past year too
+            success, error = finalise_registration(request.user, selected_codes)
+            if success:
+                if request.POST.get('randomise_grades'):
+                    randomise_prior_year_grades(request.user)
+                profile.registration_complete = True
+                profile.save()
+                messages.success(request, 'Welcome to Uni Tracker!')
+                return redirect('/')
+            else:
+                messages.error(request, error)
         else:
-            messages.error(request, error)
+            success, error = update_module_selection(request.user, selected_codes)
+            if success:
+                return redirect('/')
+            else:
+                messages.error(request, error)
 
     # build year data (same structure as settings page)
-    year_data = _build_year_data(request.user, profile)
+    year_data = _build_year_data(request.user, profile, editable_all=initial_setup)
 
     return render(request, 'accounts/select_modules.html', {
         'year_data': year_data,
         'profile': profile,
+        'initial_setup': initial_setup,
     })
 
 
@@ -72,7 +89,7 @@ def randomise_modules(request):
     return redirect('accounts:select_modules')
 
 
-def _build_year_data(user, profile):
+def _build_year_data(user, profile, editable_all=False):
     """Build the year -> semester -> module structure for the template."""
     if not profile.course:
         return []
@@ -97,7 +114,8 @@ def _build_year_data(user, profile):
     year_data = []
     for year_num in numeric_years:
         year_str = str(year_num)
-        is_current = (year_num == profile.year_of_study)
+        # during initial setup every year is editable so the student can fill in prior years
+        is_current = editable_all or (year_num == profile.year_of_study)
 
         links = ModuleCourse.objects.filter(
             course=profile.course,

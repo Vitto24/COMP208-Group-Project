@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load module_filters %}
 
 {% block title %}Grades — Uni Tracker{% endblock %}
 {% block nav_grades %}active{% endblock %}
@@ -84,7 +85,7 @@
                                             <div style="display: flex; gap: 12px; align-items: baseline;">
                                                 <span class="dropdown-arrow" style="color: #1e293b; font-size: 12px; transition: transform 0.2s ease;">▶</span>
                                                 <strong style="font-size: 15px; color: #1e293b;">{{ item.module.code }}</strong>
-                                                <span style="color: #475569; font-size: 14px;">{{ item.module.name }}</span>
+                                                <span style="color: #475569; font-size: 14px;">{{ item.module.name|smart_title }}</span>
                                                 <span style="color: #94a3b8; font-size: 12px;">{{ item.module.credits }} credits</span>
                                             </div>
                                             <div style="font-size: 14px; font-weight: 700; color: #1e293b;">
@@ -106,12 +107,14 @@
                                                         </td>
                                                         <td style="width: 15%; text-align: right; border: none;">
 
-                                                            {% if grade.score %}
-                                                                <span style="background: #e6ffed; color: #16a34a; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">{{ grade.score }}%</span>
-                                                            {% elif grade.assignment.due_date and grade.assignment.due_date < today %}
-                                                                <span style="background: #ffeef0; color: #cb2431; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">Missing</span>
+                                                            {% if grade.status == 'graded' %}
+                                                                <span class="status-pill status-graded">{{ grade.score }}%</span>
+                                                            {% elif grade.status == 'submitted' %}
+                                                                <span class="status-pill status-submitted">Pending Grade</span>
+                                                            {% elif grade.status == 'missing' %}
+                                                                <span class="status-pill status-missing">Missing</span>
                                                             {% else %}
-                                                                <span style="background: #fffbeb; color: #d97706; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 12px;">Upcoming</span>
+                                                                <span class="status-pill status-upcoming">Upcoming</span>
                                                             {% endif %}
 
                                                         </td>

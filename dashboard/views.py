@@ -1,7 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from modules.models import Module
-from grades.models import Assignment
+from grades.models import Assignment, Submission
 from timetable.models import TimetableEntry
 from timetable.utils import (
     get_current_semester, get_current_week, get_week_monday,
@@ -15,7 +15,23 @@ DEADLINE_WARNING_DAYS = 3
 DUE_SOON_DAYS = 7
 
 DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI']
-DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI'}
+PANEL_DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
+DAY_MAP = {0: 'MON', 1: 'TUE', 2: 'WED', 3: 'THU', 4: 'FRI', 5: 'SAT', 6: 'SUN'}
+
+
+def _deadline_pill(days_left, submitted):
+    # returns a (css class, label) pair used by both dashboard and timetable deadlines lists
+    if submitted:
+        return 'status-submitted', 'Submitted'
+    if days_left <= 0:
+        return 'status-missing', 'Today'
+    if days_left == 1:
+        return 'status-missing', 'Tomorrow'
+    if days_left < 4:
+        return 'status-missing', f'In {days_left} days'
+    if days_left <= 14:
+        return 'status-upcoming', f'In {days_left} days'
+    return 'status-graded', f'In {days_left} days'
 
 
 @login_required
@@ -47,6 +63,21 @@ def dashboard(request):
         due_date__gte=now,
     ).distinct().order_by('due_date')
 
+    submitted_ids = set(
+        Submission.objects.filter(student=request.user).values_list('assignment_id', flat=True)
+    )
+
+    today = now.date()
+    deadline_rows = []
+    for a in assignments:
+        days_left = (a.due_date - today).days if a.due_date else 999
+        pill_class, pill_label = _deadline_pill(days_left, a.id in submitted_ids)
+        deadline_rows.append({
+            'assignment': a,
+            'pill_class': pill_class,
+            'pill_label': pill_label,
+        })
+
     # ── Timetable: week navigation ─────────────────────────────────
     current_week = get_current_week(semester)
     week_num = int(request.GET.get('week', current_week))
@@ -60,11 +91,13 @@ def dashboard(request):
         for i, day in enumerate(DAYS):
             week_dates[day] = week_monday + datetime.timedelta(days=i)
 
-    # ── Timetable: fetch all entries for this semester ───────────────
+    # ── Timetable: fetch all entries for this semester, current year only ──
     all_entries = TimetableEntry.objects.filter(
         student=request.user,
         semester=semester,
-    ).select_related('module')
+        module__module_courses__course=profile.course,
+        module__module_courses__year=year_str,
+    ).select_related('module').distinct()
 
     # filter to entries that run in the selected week
     week_entries = []
@@ -92,30 +125,78 @@ def dashboard(request):
             'is_today': day == today_code and is_current_week,
         })
 
-    # ── Timetable: today's events with done/now/upcoming status ─────
+    # ── Day selector for the "Today" panel (same logic as timetable page) ─
+    default_day = today_code if is_current_week else 'MON'
+    selected_day = request.GET.get('day', default_day)
+    if selected_day not in PANEL_DAYS:
+        selected_day = default_day
+
+    # figure out the date for that day (Sat/Sun offset from Monday)
+    if selected_day in week_dates:
+        selected_day_date = week_dates[selected_day]
+    elif week_monday:
+        offset = PANEL_DAYS.index(selected_day)
+        selected_day_date = week_monday + datetime.timedelta(days=offset)
+    else:
+        selected_day_date = None
+
+    viewing_today = (selected_day_date == today)
+
+    # relative label text (Today / Tomorrow / in 3 days etc.)
+    relative_label = ''
+    if selected_day_date:
+        diff = (selected_day_date - today).days
+        if diff == 0:
+            relative_label = 'Today'
+        elif diff == -1:
+            relative_label = 'Yesterday'
+        elif diff == 1:
+            relative_label = 'Tomorrow'
+        elif -6 <= diff < -1:
+            relative_label = f'{-diff} days ago'
+        elif 1 < diff <= 6:
+            relative_label = f'in {diff} days'
+
+    # prev/next day codes with week crossing (Sun ↔ next week's Mon)
+    day_idx = PANEL_DAYS.index(selected_day)
+    if day_idx > 0:
+        prev_day, prev_week = PANEL_DAYS[day_idx - 1], week_num
+    elif week_num > 1:
+        prev_day, prev_week = PANEL_DAYS[-1], week_num - 1
+    else:
+        prev_day, prev_week = None, None
+
+    if day_idx < len(PANEL_DAYS) - 1:
+        next_day, next_week = PANEL_DAYS[day_idx + 1], week_num
+    elif week_num < max_week:
+        next_day, next_week = PANEL_DAYS[0], week_num + 1
+    else:
+        next_day, next_week = None, None
+
+    # events for the selected day (only Mon-Fri have any)
     today_entries = []
     current_time = datetime.datetime.now().time()
 
-    # find today's entries (always use current week, not selected week)
-    for entry in all_entries:
-        if entry.day != today_code:
-            continue
-        entry_weeks = parse_weeks(entry.weeks)
-        if not entry_weeks or current_week in entry_weeks:
+    selected_events = sorted(
+        [e for e in week_entries if e.day == selected_day],
+        key=lambda e: e.start_time,
+    )
+    for entry in selected_events:
+        if viewing_today:
             if entry.end_time <= current_time:
                 status = 'done'
             elif entry.start_time <= current_time:
                 status = 'now'
             else:
                 status = 'upcoming'
-            today_entries.append({'entry': entry, 'status': status})
-
-    # sort by start time
-    today_entries.sort(key=lambda x: x['entry'].start_time)
+        else:
+            status = ''
+        today_entries.append({'entry': entry, 'status': status})
 
     return render(request, 'dashboard/dashboard.html', {
         'modules': modules,
         'assignments': assignments,
+        'deadline_rows': deadline_rows,
         'warning_cutoff': warning_cutoff,
         'due_soon_cutoff': due_soon_cutoff,
         'now': now,
@@ -126,4 +207,13 @@ def dashboard(request):
         'week_num': week_num,
         'max_week': max_week,
         'current_week': current_week,
+        # day selector
+        'selected_day': selected_day,
+        'selected_day_date': selected_day_date,
+        'viewing_today': viewing_today,
+        'relative_label': relative_label,
+        'prev_day': prev_day,
+        'prev_week': prev_week,
+        'next_day': next_day,
+        'next_week': next_week,
     })

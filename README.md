@@ -24,7 +24,7 @@ The project was built by a six-person team for COMP208 Group Software Developmen
 
 ### Module Detail
 
-![Module Detail](docs/screenshots/modules_101.png)
+![Module Detail](docs/screenshots/modules_202.png)
 
 ### Timetable
 

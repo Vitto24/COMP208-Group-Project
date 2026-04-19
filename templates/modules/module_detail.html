@@ -1,15 +1,9 @@
 {% extends 'base.html' %}
+{% load module_filters %}
 
 {% block title %}{{ module.code }} — Uni Tracker{% endblock %}
 {% block nav_modules %}active{% endblock %}
-{% block page_title %}{{ module.code }} — {{ module.name }}
-    {% if module.code == 'COMP202' %}📊
-    {% elif module.code == 'COMP208' %}🔎
-    {% elif module.code == 'COMP284' %}💻
-    {% elif module.code == 'COMP285' %}⚙️
-    {% elif module.code == 'ULMS254' %}💡
-    {% else %}📘{% endif %}
-{% endblock %}
+{% block page_title %}{{ module.code }} — {{ module.name|smart_title }} {{ module.code|module_icon }}{% endblock %}
 
 {% block content %}
 
@@ -34,23 +28,52 @@
 <div class="section">
     <h2>Assignments</h2>
 
-    {% if assignments %}
+    {% if messages %}
+    <div class="form-messages">
+        {% for message in messages %}
+        <p class="{{ message.tags }}">{{ message }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if assignment_rows %}
         <table class="data-table">
             <thead>
                 <tr>
                     <th>Title</th>
                     <th>Weight</th>
                     <th>Type</th>
+                    <th>Status</th>
                     <th>Due Date</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
-                {% for assignment in assignments %}
+                {% for row in assignment_rows %}
                 <tr>
-                    <td>{{ assignment.title }}</td>
-                    <td>{{ assignment.weight }}%</td>
-                    <td>{{ assignment.get_type_display }}</td>
-                    <td>{{ assignment.due_date|date:"D d M Y" }}</td>
+                    <td>{{ row.assignment.title }}</td>
+                    <td>{{ row.assignment.weight }}%</td>
+                    <td>{{ row.assignment.get_type_display }}</td>
+                    <td>
+                        {% if row.status == 'graded' %}
+                            <span class="status-pill status-graded">{{ row.score }}%</span>
+                        {% elif row.status == 'submitted' %}
+                            <span class="status-pill status-submitted">Pending Grade</span>
+                        {% elif row.status == 'missing' %}
+                            <span class="status-pill status-missing">Missing</span>
+                        {% else %}
+                            <span class="status-pill status-upcoming">Upcoming</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ row.assignment.due_date|date:"D d M Y" }}</td>
+                    <td>
+                        {% if row.status == 'upcoming' or row.status == 'missing' %}
+                            <form method="post" action="{% url 'grades:submit_assignment' row.assignment.id %}" style="display: inline;">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-small">Submit</button>
+                            </form>
+                        {% endif %}
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>

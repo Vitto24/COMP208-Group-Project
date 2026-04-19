@@ -1,8 +1,10 @@
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render
+from django.contrib import messages
+from django.shortcuts import get_object_or_404, redirect, render
 from django.utils import timezone
+from django.views.decorators.http import require_POST
 from modules.models import Module, ModuleCourse
-from grades.models import Grade, Assignment
+from grades.models import Grade, Assignment, Submission
 from accounts.models import UserProfile # allows access to course info for year weights
 
 @login_required
@@ -16,6 +18,11 @@ def grades(request):
 
     modules = Module.objects.filter(students=request.user).order_by('semester')
     grouped_dict = {}
+
+    submitted_ids = set(
+        Submission.objects.filter(student=request.user).values_list('assignment_id', flat=True)
+    )
+    today = timezone.now().date()
 
     for module in modules:
         # Fetch ALL assignments for the module, not just graded ones
@@ -34,9 +41,20 @@ def grades(request):
                 weight = assign.weight / 100
                 total_weighted_mark += float(score) * float(weight)
 
+            submitted = assign.id in submitted_ids
+            if grade_record and grade_record.status == 'graded' and score is not None:
+                status = 'graded'
+            elif submitted or (grade_record and grade_record.status == 'submitted'):
+                status = 'submitted'
+            elif assign.due_date and assign.due_date < today:
+                status = 'missing'
+            else:
+                status = 'upcoming'
+
             assignment_data.append({
                 'assignment': assign,
                 'score': score,
+                'status': status,
             })
 
         mod_data = {
@@ -200,10 +218,42 @@ def grades(request):
         'current_sem_avg': current_sem_avg,
         'current_year_avg': current_year_avg,
         'degree_projection': degree_projection,
-        'credits_completed': total_credits_str, 
-        'weights': weights, 
+        'credits_completed': total_credits_str,
+        'weights': weights,
         'sem_subtitle': sem_subtitle,
         'year_subtitle': year_subtitle,
         'projection_subtitle': projection_subtitle,
-        'credits_subtitle': credits_subtitle, 
+        'credits_subtitle': credits_subtitle,
     })
+
+
+@login_required
+@require_POST
+def submit_assignment(request, assignment_id):
+    assignment = get_object_or_404(Assignment, pk=assignment_id)
+
+    # only let enrolled students submit
+    if not assignment.module.students.filter(pk=request.user.pk).exists():
+        messages.error(request, "You're not enrolled in that module.")
+        return redirect('modules:module_detail', code=assignment.module.code)
+
+    _, created = Submission.objects.get_or_create(
+        student=request.user,
+        assignment=assignment,
+    )
+
+    # also flip the Grade row so the status pill picks it up
+    grade, _ = Grade.objects.get_or_create(
+        student=request.user, assignment=assignment,
+        defaults={'status': 'submitted'},
+    )
+    if grade.status == 'not_submitted':
+        grade.status = 'submitted'
+        grade.save()
+
+    if created:
+        messages.success(request, f"Submitted '{assignment.title}'.")
+    else:
+        messages.info(request, f"Already submitted '{assignment.title}'.")
+
+    return redirect('modules:module_detail', code=assignment.module.code)

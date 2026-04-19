@@ -5,4 +5,5 @@ app_name = 'grades'
 
 urlpatterns = [
     path('', views.grades, name='grades'),
+    path('submit/<int:assignment_id>/', views.submit_assignment, name='submit_assignment'),
 ]

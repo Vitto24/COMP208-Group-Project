@@ -33,3 +33,15 @@ class Grade(models.Model):
 
     def __str__(self):
         return f"{self.student.username} — {self.assignment.title}: {self.score}"
+
+
+class Submission(models.Model):
+    student = models.ForeignKey(User, on_delete=models.CASCADE, related_name='submissions')
+    assignment = models.ForeignKey(Assignment, on_delete=models.CASCADE, related_name='submissions')
+    submitted_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('student', 'assignment')
+
+    def __str__(self):
+        return f"{self.student.username} submitted {self.assignment.title}"

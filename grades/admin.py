@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Assignment, Grade
+from .models import Assignment, Grade, Submission
 
 
 @admin.register(Assignment)
@@ -15,3 +15,10 @@ class GradeAdmin(admin.ModelAdmin):
     list_display = ('student', 'assignment', 'score', 'status')
     search_fields = ('student__username', 'assignment__title')
     list_filter = ('status', 'assignment__module')
+
+
+@admin.register(Submission)
+class SubmissionAdmin(admin.ModelAdmin):
+    list_display = ('student', 'assignment', 'submitted_at')
+    search_fields = ('student__username', 'assignment__title')
+    list_filter = ('assignment__module',)

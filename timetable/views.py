@@ -195,11 +195,20 @@ def timetable_view(request):
             status = ''
         day_entries.append({'entry': entry, 'status': status})
 
-    # Upcoming deadlines (next 5) + pill status
-    deadlines = Assignment.objects.filter(
+    # Upcoming deadlines (next 5) + pill status — only the semester + year the
+    # student is currently in, so a year 2 student doesn't see year 1 deadlines
+    profile = getattr(request.user, 'userprofile', None)
+    deadlines_qs = Assignment.objects.filter(
         module__students=request.user,
         due_date__gte=today,
-    ).select_related('module').order_by('due_date')[:5]
+        module__semester=semester,
+    )
+    if profile and profile.course:
+        deadlines_qs = deadlines_qs.filter(
+            module__module_courses__course=profile.course,
+            module__module_courses__year=str(profile.year_of_study),
+        )
+    deadlines = deadlines_qs.select_related('module').distinct().order_by('due_date')[:5]
 
     submitted_ids = set(
         Submission.objects.filter(student=request.user).values_list('assignment_id', flat=True)

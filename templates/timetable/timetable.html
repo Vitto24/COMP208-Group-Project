@@ -30,11 +30,18 @@
                 <td class="grid-cell{% if cell.is_today %} cell-today{% endif %}" {% if cell.rowspan > 1 %}rowspan="{{ cell.rowspan }}"{% endif %}>
                     <div class="cell-inner">
                     {% for entry in cell.entries %}
-                    <div class="event-card {{ entry.event_css_class }}">
+                    <button type="button" class="event-card {{ entry.event_css_class }}"
+                        data-module-code="{{ entry.module.code }}"
+                        data-module-name="{{ entry.module.name }}"
+                        data-module-url="{% url 'modules:module_detail' entry.module.code %}"
+                        data-type="{{ entry.display_type }}"
+                        data-time="{{ entry.start_time|time:"H:i" }}–{{ entry.end_time|time:"H:i" }}"
+                        data-room="{{ entry.room|default:"—" }}"
+                        data-weeks="{{ entry.weeks|default:"—" }}">
                         <div class="event-code">{{ entry.module.code }}</div>
                         <div class="event-time">{{ entry.start_time|time:"H:i" }}–{{ entry.end_time|time:"H:i" }}</div>
                         <div class="event-type">{{ entry.display_type }}</div>
-                    </div>
+                    </button>
                     {% endfor %}
                     </div>
                 </td>
@@ -140,5 +147,7 @@
         </div>
     </div>
 </div>
+
+{% include 'timetable/_event_modal.html' %}
 
 {% endblock %}

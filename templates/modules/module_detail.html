@@ -50,7 +50,7 @@
             </thead>
             <tbody>
                 {% for row in assignment_rows %}
-                <tr>
+                <tr id="assignment-{{ row.assignment.id }}">
                     <td>{{ row.assignment.title }}</td>
                     <td>{{ row.assignment.weight }}%</td>
                     <td>{{ row.assignment.get_type_display }}</td>

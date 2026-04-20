@@ -7,7 +7,9 @@
 
 {% block content %}
 <div class="dashboard-section">
-    <h2 class="section-title">My Modules</h2>
+    <a href="{% url 'modules:module_list' %}" class="section-title-link">
+        <h2 class="section-title">My Modules</h2>
+    </a>
     <div class="module-row">
         {% for module in modules %}
         <a href="{% url 'modules:module_detail' module.code %}" class="module-card">
@@ -41,7 +43,7 @@
         <div class="deadline-item">
 
             <div class="deadline-info">
-                <a href="{% url 'modules:module_detail' row.assignment.module.code %}" class="deadline-link">
+                <a href="{% url 'modules:module_detail' row.assignment.module.code %}#assignment-{{ row.assignment.id }}" class="deadline-link">
                     <span class="deadline-module-code">{{ row.assignment.module.code }}</span>
                     <span class="deadline-title">{{ row.assignment.title }}</span>
                 </a>
@@ -66,7 +68,9 @@
 
 <div class="dashboard-section">
     <div class="dash-tt-header">
-        <h2 class="section-title">Timetable</h2>
+        <a href="{% url 'timetable:timetable' %}" class="section-title-link">
+            <h2 class="section-title">Timetable</h2>
+        </a>
         <div class="dash-tt-nav">
             {% if week_num > 1 %}
                 <a href="?week={{ week_num|add:"-1" }}" class="week-arrow">&lsaquo;</a>
@@ -129,11 +133,18 @@
                 </div>
                 <div class="dash-tt-day-events">
                     {% for entry in col.entries %}
-                    <div class="event-card {{ entry.event_css_class }}">
+                    <button type="button" class="event-card {{ entry.event_css_class }}"
+                        data-module-code="{{ entry.module.code }}"
+                        data-module-name="{{ entry.module.name }}"
+                        data-module-url="{% url 'modules:module_detail' entry.module.code %}"
+                        data-type="{{ entry.display_type }}"
+                        data-time="{{ entry.start_time|time:"H:i" }}–{{ entry.end_time|time:"H:i" }}"
+                        data-room="{{ entry.room|default:"—" }}"
+                        data-weeks="{{ entry.weeks|default:"—" }}">
                         <div class="event-code">{{ entry.module.code }}</div>
                         <div class="event-time">{{ entry.start_time|time:"H:i" }}</div>
                         <div class="event-type">{{ entry.display_type }}</div>
-                    </div>
+                    </button>
                     {% endfor %}
                 </div>
             </div>
@@ -141,4 +152,6 @@
         </div>
     </div>
 </div>
+
+{% include 'timetable/_event_modal.html' %}
 {% endblock %}

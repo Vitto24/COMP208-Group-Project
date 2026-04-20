@@ -7,6 +7,12 @@ from modules.models import Module, ModuleCourse
 from grades.models import Grade, Assignment, Submission
 from accounts.models import UserProfile # allows access to course info for year weights
 
+
+def _fmt_int(n):
+    # drop trailing .0 so 210.0 displays as 210 in the credits boxes
+    return int(n) if n == int(n) else round(n, 1)
+
+
 @login_required
 def grades(request):
     # get the student's year-of-course for each module (e.g. COMP108 is Year 1 on CS BSc)
@@ -57,10 +63,29 @@ def grades(request):
                 'status': status,
             })
 
+        # per-assignment counters so the summary boxes can show "5 of 10 Graded"
+        graded_count = sum(1 for a in assignment_data if a['status'] == 'graded')
+        total_count = len(assignment_data)
+        fully_graded = total_count > 0 and graded_count == total_count
+
+        # weighted sum of graded assignment scores for this module
+        graded_weighted_sum = 0
+        graded_weight_total = 0
+        for a in assignment_data:
+            if a['status'] == 'graded' and a['score'] is not None:
+                w = float(a['assignment'].weight)
+                graded_weighted_sum += float(a['score']) * w
+                graded_weight_total += w
+
         mod_data = {
             'module': module,
             'grades': assignment_data,
-            'overall_grade': round(total_weighted_mark, 1)
+            'overall_grade': round(total_weighted_mark, 1),
+            'graded_count': graded_count,
+            'total_count': total_count,
+            'fully_graded': fully_graded,
+            'graded_weighted_sum': graded_weighted_sum,
+            'graded_weight_total': graded_weight_total,
         }
 
         # Group it by the student's year-of-course and semester
@@ -103,64 +128,66 @@ def grades(request):
 
     # only do if has any data to work with
     if grouped_data:
+        # Credits Completed: only count credits from modules where every assignment
+        # has been graded (partially-graded modules don't earn their credits yet)
         for year_block in grouped_data:
             for sem_block in year_block['semesters']:
                 for mod_item in sem_block['modules']:
                     c = float(mod_item['module'].credits)
                     total_degree_credits += c
-                    if mod_item['overall_grade'] > 0:
+                    if mod_item['fully_graded']:
                         total_degree_graded += c
-        
-        # Big number for the far right box (e.g., 181.5/360)
-        total_credits_str = f"{total_degree_graded}/{total_degree_credits}"
 
-        # Most recent year average and counts
-        recent_year = grouped_data[0] 
-        year_total_weighted = 0
-        year_graded_credits = 0
-        year_total_count = 0
-        year_graded_count = 0
+        total_credits_str = f"{_fmt_int(total_degree_graded)}/{_fmt_int(total_degree_credits)}"
+
+        # Most recent year: assignment-level counts + credit-weighted average
+        recent_year = grouped_data[0]
+        year_graded_assignments = 0
+        year_total_assignments = 0
+        year_weighted_sum = 0
+        year_weight_total = 0
 
         for sem in recent_year['semesters']:
             for mod in sem['modules']:
                 credits = float(mod['module'].credits)
-                grade = mod['overall_grade']
-                year_total_count += 1
-                
-                if grade > 0: # Only count if graded
-                    year_total_weighted += (grade * credits)
-                    year_graded_credits += credits
-                    year_graded_count += 1
-        
-        if year_graded_credits > 0:
-            current_year_avg = round(year_total_weighted / year_graded_credits, 1)
-        if year_total_count > 0:
-            year_subtitle = f"{year_graded_count} of {year_total_count} Graded"
+                year_graded_assignments += mod['graded_count']
+                year_total_assignments += mod['total_count']
+                # weight graded-assignment marks by module credits so big modules matter more
+                year_weighted_sum += mod['graded_weighted_sum'] * credits
+                year_weight_total += mod['graded_weight_total'] * credits
 
-        # Most recent semester average and counts
+        if year_weight_total > 0:
+            current_year_avg = round(year_weighted_sum / year_weight_total, 1)
+        year_subtitle = f"{year_graded_assignments} of {year_total_assignments} Graded"
+
+        # Most recent semester: same pattern, scoped to first semester of recent year
         if recent_year['semesters']:
             recent_sem = recent_year['semesters'][0]
-            sem_total_weighted = 0
-            sem_graded_credits = 0
-            sem_total_credits = 0
-            sem_graded_count = 0
+            sem_graded_assignments = 0
+            sem_total_assignments = 0
+            sem_weighted_sum = 0
+            sem_weight_total = 0
 
             for mod in recent_sem['modules']:
                 credits = float(mod['module'].credits)
-                grade = mod['overall_grade']
-                sem_total_credits += credits
-                
-                if grade > 0:
-                    sem_total_weighted += (grade * credits)
-                    sem_graded_credits += credits
-                    sem_graded_count += 1
+                sem_graded_assignments += mod['graded_count']
+                sem_total_assignments += mod['total_count']
+                sem_weighted_sum += mod['graded_weighted_sum'] * credits
+                sem_weight_total += mod['graded_weight_total'] * credits
 
-            if sem_graded_credits > 0:
-                current_sem_avg = round(sem_total_weighted / sem_graded_credits, 1)
-            
-            # Subtitles for the semester stats
-            sem_subtitle = f"{sem_graded_count} of {len(recent_sem['modules'])} Graded"
-            credits_subtitle = f"Semester {recent_sem['semester']}: {int(sem_graded_credits)}/{int(sem_total_credits)}"
+            if sem_weight_total > 0:
+                current_sem_avg = round(sem_weighted_sum / sem_weight_total, 1)
+
+            sem_subtitle = f"{sem_graded_assignments} of {sem_total_assignments} Graded"
+
+            sem_fully_graded_credits = sum(
+                float(m['module'].credits) for m in recent_sem['modules'] if m['fully_graded']
+            )
+            sem_total_credits = sum(float(m['module'].credits) for m in recent_sem['modules'])
+            credits_subtitle = (
+                f"Semester {recent_sem['semester']}: "
+                f"{_fmt_int(sem_fully_graded_credits)}/{_fmt_int(sem_total_credits)}"
+            )
 
     # Fetch course weightings for the current student (needed for projection)
     weights = {'y1': 0, 'y2': 30, 'y3': 70, 'y4': 0, 'y5': 0}

@@ -1,0 +1,55 @@
+<div id="tt-modal-backdrop" class="tt-modal-backdrop" hidden>
+    <div class="tt-modal" role="dialog" aria-modal="true">
+        <button type="button" class="tt-modal-close" aria-label="Close">&times;</button>
+        <div class="tt-modal-code"></div>
+        <h3 class="tt-modal-name"></h3>
+        <hr>
+        <dl class="tt-modal-meta">
+            <dt>Type</dt><dd class="tt-modal-type"></dd>
+            <dt>When</dt><dd class="tt-modal-time"></dd>
+            <dt>Room</dt><dd class="tt-modal-room"></dd>
+            <dt>Weeks</dt><dd class="tt-modal-weeks"></dd>
+        </dl>
+        <a class="btn btn-primary tt-modal-link" href="#">Go to module</a>
+    </div>
+</div>
+
+<script>
+(function () {
+    var backdrop = document.getElementById('tt-modal-backdrop');
+    if (!backdrop) return;
+    var modal = backdrop.querySelector('.tt-modal');
+    var closeBtn = backdrop.querySelector('.tt-modal-close');
+    var link = backdrop.querySelector('.tt-modal-link');
+
+    function fill(card) {
+        backdrop.querySelector('.tt-modal-code').textContent = card.dataset.moduleCode || '';
+        backdrop.querySelector('.tt-modal-name').textContent = card.dataset.moduleName || '';
+        backdrop.querySelector('.tt-modal-type').textContent = card.dataset.type || '';
+        backdrop.querySelector('.tt-modal-time').textContent = card.dataset.time || '';
+        backdrop.querySelector('.tt-modal-room').textContent = card.dataset.room || '';
+        backdrop.querySelector('.tt-modal-weeks').textContent = card.dataset.weeks || '';
+        link.href = card.dataset.moduleUrl || '#';
+    }
+
+    function open(card) {
+        fill(card);
+        backdrop.hidden = false;
+    }
+    function close() {
+        backdrop.hidden = true;
+    }
+
+    document.querySelectorAll('.event-card').forEach(function (card) {
+        card.addEventListener('click', function () { open(card); });
+    });
+
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', function (e) {
+        if (e.target === backdrop) close();
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !backdrop.hidden) close();
+    });
+})();
+</script>

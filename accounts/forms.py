@@ -39,7 +39,7 @@ class RegistrationForm(UserCreationForm):
     )
     # postgrad programmes (MSc/MRes/PhD/MPhil) aren't supported in the MVP — hide them
     course = forms.ModelChoiceField(
-        queryset=Course.objects.exclude(name__iregex=r'\b(MSc|MRes|MPhil|PhD)\b'),
+        queryset=Course.objects.exclude(name__iregex=r'\b(MSc|MRes|MPhil|PhD)\b').order_by('name'),
         required=False,
         empty_label="-- Select your course --",
     )

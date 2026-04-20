@@ -231,13 +231,19 @@ class Command(BaseCommand):
             weight = assessment.get('weight', 0)
             atype = assessment.get('_mapped_type', 'coursework')
             due_date = cw_dates[i] if i < len(cw_dates) else cw_dates[-1]
+            # scraper JSON can pin an exact date where the spacing logic gets it wrong
+            if assessment.get('due_date'):
+                due_date = datetime.date.fromisoformat(assessment['due_date'])
 
-            _, created = Assignment.objects.get_or_create(
+            assign, created = Assignment.objects.get_or_create(
                 module=module, title=title,
                 defaults={'weight': weight, 'type': atype, 'due_date': due_date},
             )
             if created:
                 count += 1
+            elif assign.due_date != due_date:
+                assign.due_date = due_date
+                assign.save()
 
         # create exam assignments
         for i, assessment in enumerate(exams):
@@ -245,13 +251,18 @@ class Command(BaseCommand):
             weight = assessment.get('weight', 0)
             atype = assessment.get('_mapped_type', 'exam')
             due_date = exam_dates[i] if i < len(exam_dates) else exam_dates[-1]
+            if assessment.get('due_date'):
+                due_date = datetime.date.fromisoformat(assessment['due_date'])
 
-            _, created = Assignment.objects.get_or_create(
+            assign, created = Assignment.objects.get_or_create(
                 module=module, title=title,
                 defaults={'weight': weight, 'type': atype, 'due_date': due_date},
             )
             if created:
                 count += 1
+            elif assign.due_date != due_date:
+                assign.due_date = due_date
+                assign.save()
 
         return count
 

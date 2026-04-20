@@ -31,7 +31,8 @@
     {
       "type": "coursework",
       "title": "Portfolio and Individual Contribution",
-      "weight": 50
+      "weight": 50,
+      "due_date": "2026-05-10"
     },
     {
       "type": "coursework",

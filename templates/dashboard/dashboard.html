@@ -133,18 +133,11 @@
                 </div>
                 <div class="dash-tt-day-events">
                     {% for entry in col.entries %}
-                    <button type="button" class="event-card {{ entry.event_css_class }}"
-                        data-module-code="{{ entry.module.code }}"
-                        data-module-name="{{ entry.module.name }}"
-                        data-module-url="{% url 'modules:module_detail' entry.module.code %}"
-                        data-type="{{ entry.display_type }}"
-                        data-time="{{ entry.start_time|time:"H:i" }}–{{ entry.end_time|time:"H:i" }}"
-                        data-room="{{ entry.room|default:"—" }}"
-                        data-weeks="{{ entry.weeks|default:"—" }}">
+                    <div class="event-card {{ entry.event_css_class }}">
                         <div class="event-code">{{ entry.module.code }}</div>
                         <div class="event-time">{{ entry.start_time|time:"H:i" }}</div>
                         <div class="event-type">{{ entry.display_type }}</div>
-                    </button>
+                    </div>
                     {% endfor %}
                 </div>
             </div>
@@ -152,6 +145,4 @@
         </div>
     </div>
 </div>
-
-{% include 'timetable/_event_modal.html' %}
 {% endblock %}

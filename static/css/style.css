@@ -972,15 +972,6 @@ details[open] > .past-sem-summary .dropdown-arrow {
     justify-content: center;
     min-height: 38px;
     box-sizing: border-box;
-    /* reset button defaults so clickable event cards still look like coloured blocks */
-    font-family: inherit;
-    text-align: left;
-    cursor: pointer;
-    width: 100%;
-}
-
-.event-card:hover {
-    filter: brightness(0.97);
 }
 
 .event-code {
@@ -1711,89 +1702,4 @@ details[open] > .past-sem-summary .dropdown-arrow {
         overflow-x: auto;
         display: block;
     }
-}
-
-/* Timetable event popup */
-.tt-modal-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(15, 23, 42, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-}
-
-.tt-modal-backdrop[hidden] {
-    display: none;
-}
-
-.tt-modal {
-    background: #fff;
-    border-radius: 10px;
-    padding: 24px 28px;
-    width: 400px;
-    max-width: 90%;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    position: relative;
-}
-
-.tt-modal-close {
-    position: absolute;
-    top: 10px;
-    right: 14px;
-    background: none;
-    border: none;
-    font-size: 24px;
-    line-height: 1;
-    color: #64748b;
-    cursor: pointer;
-}
-
-.tt-modal-close:hover {
-    color: #0f172a;
-}
-
-.tt-modal-code {
-    font-size: 13px;
-    font-weight: 700;
-    color: #1d4ed8;
-    letter-spacing: 0.5px;
-}
-
-.tt-modal .tt-modal-name {
-    font-size: 18px;
-    margin: 4px 0 14px 0;
-    color: #0f172a;
-}
-
-.tt-modal hr {
-    border: none;
-    border-top: 1px solid #e2e8f0;
-    margin: 0 0 16px 0;
-}
-
-.tt-modal-meta {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    row-gap: 8px;
-    margin: 0 0 18px 0;
-    font-size: 14px;
-}
-
-.tt-modal-meta dt {
-    color: #64748b;
-    font-weight: 600;
-}
-
-.tt-modal-meta dd {
-    margin: 0;
-    color: #0f172a;
-}
-
-.tt-modal-link {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
 }

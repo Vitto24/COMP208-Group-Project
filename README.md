@@ -107,7 +107,7 @@ The MVP covers registration with a role picker (Student / Lecturer / Administrat
 
 `python manage.py migrate` creates all tables. Don't commit `db.sqlite3`.
 
-Models live in `models.py` inside each app (`accounts`, `modules`, `grades`, `timetable`). The ER diagram is at `docs/diagrams/2-er-diagram.html`.
+Models live in `models.py` inside each app (`accounts`, `modules`, `grades`, `timetable`).
 
 ---
 
@@ -126,7 +126,7 @@ templates/           Shared templates (base.html = sidebar + layout)
 static/              CSS, JS, images
 fixtures/            Sample data (JSON)
 mockups/             Screenshots of what each page should look like
-docs/                Meeting minutes + architecture diagrams
+docs/                Meeting minutes
 ```
 
 Each app has: `models.py` (database tables), `views.py` (logic), `urls.py` (routing), `templates/` (HTML).
